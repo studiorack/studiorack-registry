@@ -1,0 +1,33 @@
+{
+  "name": "studiorack-registry",
+  "version": "0.0.1",
+  "description": "Audio plugin registry with searchable plugin list, metadata and download urls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiorack/studiorack-registry.git"
+  },
+  "keywords": [
+    "audio",
+    "plugin",
+    "registry",
+    "search",
+    "metadata",
+    "vst",
+    "vst3",
+    "download"
+  ],
+  "author": "kmturley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studiorack/studiorack-registry/issues"
+  },
+  "homepage": "https://github.com/studiorack/studiorack-registry#readme",
+  "dependencies": {
+    "sync-request": "^6.1.0"
+  }
+}
