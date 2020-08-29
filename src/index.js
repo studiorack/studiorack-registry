@@ -4,38 +4,70 @@ const file = require('./file');
 const REGISTRY_PATH = 'registry.json';
 const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true';
 
-async function getPlugin(result, release) {
+async function getPlugin(url) {
   try {
-    const plugin = await api.getJSON(`https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugin.json`);
+    const plugin = await api.getJSON(url);
     const error = validatePlugin(plugin);
     if (error === false) {
-      console.log(result.full_name, release.tag_name, plugin);
-    } else {
-      console.error(error);
+      return plugin;
     }
+    return error;
   } catch(error) {
-    console.error(`${result.full_name} is missing plugin.json`)
+    return error;
   }
 }
 
 async function getReleases(result) {
+  const plugin = {
+    id: result.full_name,
+    version: '0.0.0',
+    versions: {}
+  }
   try {
     const releases = await api.getJSON(result.releases_url.replace('{/id}', ''));
-    await releases.forEach(async (release) => {
-      await getPlugin(result, release);
-    });
+    let first = true;
+    for (const release of releases) {
+      const version = release.tag_name.replace('v', '');
+      const json = await getPlugin(`https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugin.json`);
+      if (json) {
+        if (first === true) {
+          plugin.version = version;
+          first = false;
+        }
+        plugin.versions[version] = {
+          "author": json.author,
+          "homepage": json.homepage,
+          "name": json.name,
+          "description": json.description,
+          "tags": json.tags,
+          "version": json.version,
+          "date": json.date,
+          "size": json.size
+        };
+      }
+    };
+    console.log(plugin);
+    return plugin;
   } catch(error) {
-    console.error(`${result.full_name} is missing GitHub releases`)
+    return error;
   }
 }
 
 async function getResults(url, path) {
   try {
+    const registry = {
+      objects: {},
+      time: new Date(),
+      total: 0
+    };
     const results = await api.getJSON(url);
-    await results.items.forEach(async (result) => {
-      await getReleases(result);
-    });
-    file.createFileJson(path, results);
+    for (const result of results.items) {
+      const plugin = await getReleases(result);
+      registry.objects[plugin.id] = plugin;
+      registry.total += 1;
+    };
+    console.log(registry);
+    file.createFileJson(path, registry);
   } catch(error) {
     console.error(`GitHub API error`)
   }
