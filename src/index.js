@@ -1,7 +1,8 @@
 const api = require('./api');
 const file = require('./file');
 
-const REGISTRY_PATH = 'registry.json';
+const DIST_PATH = './out';
+const REGISTRY_FILE = 'registry.json';
 const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true';
 
 async function getPlugin(url) {
@@ -53,7 +54,7 @@ async function getReleases(result) {
   }
 }
 
-async function getResults(url, path) {
+async function getResults(url, dir, filename) {
   try {
     const registry = {
       objects: {},
@@ -67,9 +68,10 @@ async function getResults(url, path) {
       registry.total += 1;
     };
     console.log(registry);
-    file.createFileJson(path, registry);
+    file.createDirectory(dir);
+    file.createFileJson(`${dir}/${filename}`, registry);
   } catch(error) {
-    console.error(`GitHub API error`)
+    console.error(error);
   }
 }
 
@@ -92,4 +94,4 @@ function validatePlugin(plugin) {
   return error;
 }
 
-getResults(SEARCH_URL, REGISTRY_PATH);
+getResults(SEARCH_URL, DIST_PATH, REGISTRY_FILE);

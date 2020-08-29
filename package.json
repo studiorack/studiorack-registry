@@ -4,6 +4,7 @@
   "description": "Audio plugin registry with searchable plugin list, metadata and download urls",
   "main": "./src/index.js",
   "scripts": {
+    "build": "node ./src/index.js",
     "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
