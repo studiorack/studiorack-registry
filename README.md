@@ -59,7 +59,9 @@ Registry then performs some validation on the plugin.json before compiling into 
       "total": 2
     }
 
-This registry json is used for the StudioRack website, app and command line tool.
+This registry json is updated once a day, and used for the StudioRack website, app and command line tool:
+
+    https://studiorack.github.io/studiorack-registry
 
 
 ## Contact

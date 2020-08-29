@@ -2,7 +2,7 @@ const api = require('./api');
 const file = require('./file');
 
 const DIST_PATH = './out';
-const REGISTRY_FILE = 'registry.json';
+const REGISTRY_FILE = 'index.json';
 const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true';
 
 async function getPlugin(url) {
