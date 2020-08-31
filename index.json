@@ -2,8 +2,20 @@
   "objects": {
     "studiorack/studiorack-plugin": {
       "id": "studiorack/studiorack-plugin",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "versions": {
+        "0.0.4": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Hello WorldController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-08-30T03:25:42.425Z",
+          "size": 293528
+        },
         "0.0.3": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -49,6 +61,6 @@
       }
     }
   },
-  "time": "2020-08-30T00:14:50.058Z",
+  "time": "2020-08-31T00:13:04.696Z",
   "total": 2
 }
