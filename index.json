@@ -2,8 +2,20 @@
   "objects": {
     "studiorack/studiorack-plugin": {
       "id": "studiorack/studiorack-plugin",
-      "version": "0.0.4",
+      "version": "0.0.5",
       "versions": {
+        "0.0.5": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Hello WorldController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-09-06T00:07:16.066Z",
+          "size": 502051
+        },
         "0.0.4": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -43,8 +55,57 @@
     },
     "kmturley/studiorack-plugin": {
       "id": "kmturley/studiorack-plugin",
-      "version": "0.0.1",
+      "version": "0.0.5",
       "versions": {
+        "0.0.5": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "ADelayTest Factory",
+          "description": "Test Class",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "1.1.0.1",
+          "date": "2020-09-06T00:17:29.545Z",
+          "size": 514629
+        },
+        "0.0.2": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Hello WorldController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "size": 4096
+        },
+        "0.0.3": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Hello WorldController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-09-05T21:50:14.533Z",
+          "size": 293528
+        },
+        "0.0.4": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "ADelayTest Factory",
+          "description": "Test Class",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "1.1.0.1",
+          "date": "2020-09-05T21:50:12.208Z",
+          "size": 314016
+        },
         "0.0.1": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -61,6 +122,6 @@
       }
     }
   },
-  "time": "2020-09-05T00:45:45.372Z",
+  "time": "2020-09-06T00:28:12.405Z",
   "total": 2
 }
