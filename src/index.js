@@ -12,43 +12,81 @@ async function getPlugin(url) {
     if (error === false) {
       return plugin;
     }
-    return error;
+    return false;
   } catch(error) {
-    return error;
+    return false;
+  }
+}
+
+async function getPlugins(url) {
+  try {
+    const valid = true;
+    const pluginsJson = await api.getJSON(url);
+    pluginsJson.plugins.forEach(plugin => {
+      const error = validatePlugin(plugin);
+      if (error === true) {
+        valid = false;
+      }
+    });
+    if (valid === true) {
+      return pluginsJson;
+    }
+    return false;
+  } catch(error) {
+    return false;
   }
 }
 
 async function getReleases(result) {
-  const plugin = {
-    id: result.full_name,
-    version: '0.0.0',
-    versions: {}
-  }
+  // this is temporary code to prototype multiple repo types
+  const pluginPack = {};
   try {
     const releases = await api.getJSON(result.releases_url.replace('{/id}', ''));
-    let first = true;
     for (const release of releases) {
       const version = release.tag_name.replace('v', '');
-      const json = await getPlugin(`https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugin.json`);
-      if (json) {
-        if (first === true) {
-          plugin.version = version;
-          first = false;
+      const pluginJson = await getPlugin(`https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugin.json`);
+      // single plugin
+      if (pluginJson) {
+        const plugin = {
+          id: result.full_name,
+          version: version,
+          versions: {}
         }
         plugin.versions[version] = {
-          "author": json.author,
-          "homepage": json.homepage,
-          "name": json.name,
-          "description": json.description,
-          "tags": json.tags,
-          "version": json.version,
-          "date": json.date,
-          "size": json.size
+          "author": pluginJson.author,
+          "homepage": pluginJson.homepage,
+          "name": pluginJson.name,
+          "description": pluginJson.description,
+          "tags": pluginJson.tags,
+          "version": pluginJson.version,
+          "date": pluginJson.date,
+          "size": pluginJson.size
         };
+        pluginPack[plugin.id] = plugin;
+      } else {
+        // multiple plugins
+        const pluginsJson = await getPlugins(`https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`);
+        pluginsJson.plugins.forEach(pluginJson => {
+          const plugin = {
+            id: `${result.full_name}/${pluginJson.id}`,
+            version: version,
+            versions: {}
+          }
+          plugin.versions[version] = {
+            "author": pluginJson.author,
+            "homepage": pluginJson.homepage,
+            "name": pluginJson.name,
+            "description": pluginJson.description,
+            "tags": pluginJson.tags,
+            "version": pluginJson.version,
+            "date": pluginJson.date,
+            "size": pluginJson.size
+          };
+          pluginPack[plugin.id] = plugin;
+        })
       }
     };
-    console.log(plugin);
-    return plugin;
+    return pluginPack;
   } catch(error) {
     return error;
   }
@@ -63,8 +101,8 @@ async function getResults(url, dir, filename) {
     };
     const results = await api.getJSON(url);
     for (const result of results.items) {
-      const plugin = await getReleases(result);
-      registry.objects[plugin.id] = plugin;
+      const pluginPack = await getReleases(result);
+      registry.objects = Object.assign(pluginPack);
       registry.total += 1;
     };
     console.log(registry);
