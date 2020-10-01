@@ -82,7 +82,11 @@ async function getReleases(result) {
             "date": pluginJson.date,
             "size": pluginJson.size
           };
-          pluginPack[plugin.id] = plugin;
+          if (pluginPack[plugin.id]) {
+            pluginPack[plugin.id].versions[version] = plugin.versions[version];
+          } else {
+            pluginPack[plugin.id] = plugin;
+          }
         })
       }
     };
