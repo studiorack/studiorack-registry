@@ -103,7 +103,7 @@ async function getResults(url, dir, filename) {
     for (const result of results.items) {
       const pluginPack = await getReleases(result);
       registry.objects = Object.assign(pluginPack);
-      registry.total += 1;
+      registry.total += Object.keys(pluginPack).length;
     };
     console.log(registry);
     file.createDirectory(dir);

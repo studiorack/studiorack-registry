@@ -35,11 +35,11 @@ Registry then performs some validation on the plugin.json before compiling into 
 
     {
       "objects": {
-        "username/studiorack-plugin": {
-          "id": "username/studiorack-plugin",
-          "version": "0.0.3",
+        "username/studiorack-plugin/helloworld": {
+          "id": "username/studiorack-plugin/helloworld",
+          "version": "0.0.1",
           "versions": {
-            "0.0.3": {
+            "0.0.1": {
               "author": "Steinberg Media Technologies",
               "homepage": "http://www.steinberg.net",
               "name": "Hello WorldController",
@@ -48,10 +48,10 @@ Registry then performs some validation on the plugin.json before compiling into 
                 "Fx"
               ],
               "version": "1.0.0.1",
-              "date": "2020-08-19T15:52:15.062Z",
-              "size": 293528
-            },
-            "0.0.2": {}
+              "date": "2020-09-25T22:14:32.178Z",
+              "size": 239104
+            }
+          }
         },
         "username2/studiorack-plugin": { ... }
       },
