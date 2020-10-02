@@ -2,8 +2,21 @@
   "objects": {
     "studiorack/studiorack-plugin/adelay": {
       "id": "studiorack/studiorack-plugin/adelay",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "versions": {
+        "0.0.10": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "ADelayTest Factory",
+          "description": "Test Class",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "1.1.0.1",
+          "date": "2020-10-02T00:52:36.223Z",
+          "size": 251392
+        },
         "0.0.8": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -34,8 +47,23 @@
     },
     "studiorack/studiorack-plugin/channelcontext": {
       "id": "studiorack/studiorack-plugin/channelcontext",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "versions": {
+        "0.0.10": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Test Channel ContextController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Spatial",
+            "Fx",
+            "Up-Downmix",
+            "Instrument"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-10-02T00:52:38.205Z",
+          "size": 243200
+        },
         "0.0.8": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -70,8 +98,20 @@
     },
     "studiorack/studiorack-plugin/helloworld": {
       "id": "studiorack/studiorack-plugin/helloworld",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "versions": {
+        "0.0.10": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Hello WorldController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-10-02T00:52:39.875Z",
+          "size": 239104
+        },
         "0.0.8": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -100,8 +140,20 @@
     },
     "studiorack/studiorack-plugin/legacymidiccout": {
       "id": "studiorack/studiorack-plugin/legacymidiccout",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "versions": {
+        "0.0.10": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Test Legacy MIDI CC OutController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-10-02T00:52:41.540Z",
+          "size": 242176
+        },
         "0.0.8": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -130,8 +182,21 @@
     },
     "studiorack/studiorack-plugin/mda-vst3": {
       "id": "studiorack/studiorack-plugin/mda-vst3",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "versions": {
+        "0.0.10": {
+          "author": "mda",
+          "homepage": "http://www.steinberg.net",
+          "name": "mda SpecMeter",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx",
+            "Analyzer"
+          ],
+          "version": "1.0.0",
+          "date": "2020-10-02T00:53:01.679Z",
+          "size": 2777600
+        },
         "0.0.8": {
           "author": "mda",
           "homepage": "http://www.steinberg.net",
@@ -162,8 +227,20 @@
     },
     "studiorack/studiorack-plugin/prefetchablesupport": {
       "id": "studiorack/studiorack-plugin/prefetchablesupport",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "versions": {
+        "0.0.10": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Test Prefetchable SupportController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-10-02T00:53:03.869Z",
+          "size": 240640
+        },
         "0.0.8": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -192,8 +269,20 @@
     },
     "studiorack/studiorack-plugin/programchange": {
       "id": "studiorack/studiorack-plugin/programchange",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "versions": {
+        "0.0.10": {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Test Program ChangeController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-10-02T00:53:05.546Z",
+          "size": 240128
+        },
         "0.0.8": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
@@ -221,6 +310,6 @@
       }
     }
   },
-  "time": "2020-10-02T00:29:07.944Z",
+  "time": "2020-10-02T00:55:14.775Z",
   "total": 7
 }
