@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/studiorack/studiorack-registry#readme",
   "dependencies": {
-    "@studiorack/core": "^0.0.2"
+    "@studiorack/core": "0.0.3"
   },
   "devDependencies": {
     "@types/node": "^14.14.7",
