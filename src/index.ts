@@ -47,7 +47,7 @@ async function getReleases(result: any) {
       if (pluginJson) {
         const plugin: PluginEntry = {
           id: result.full_name,
-          version: version,
+          version,
           versions: {},
         };
         plugin.versions[version] = {
@@ -63,24 +63,24 @@ async function getReleases(result: any) {
         pluginPack[plugin.id] = plugin;
       } else {
         // multiple plugins
-        const pluginsJson = await getPlugins(
+        const pluginsJsonList = await getPlugins(
           `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`
         );
-        pluginsJson.plugins.forEach((pluginJson: Plugin) => {
+        pluginsJsonList.plugins.forEach((pluginItem: Plugin) => {
           const plugin: PluginEntry = {
-            id: `${result.full_name}/${pluginJson.id}`,
-            version: version,
+            id: `${result.full_name}/${pluginItem.id}`,
+            version,
             versions: {},
           };
           plugin.versions[version] = {
-            author: pluginJson.author,
-            homepage: pluginJson.homepage,
-            name: pluginJson.name,
-            description: pluginJson.description,
-            tags: pluginJson.tags,
-            version: pluginJson.version,
-            date: pluginJson.date,
-            size: pluginJson.size,
+            author: pluginItem.author,
+            homepage: pluginItem.homepage,
+            name: pluginItem.name,
+            description: pluginItem.description,
+            tags: pluginItem.tags,
+            version: pluginItem.version,
+            date: pluginItem.date,
+            size: pluginItem.size,
           };
           if (pluginPack[plugin.id]) {
             pluginPack[plugin.id].versions[version] = plugin.versions[version];
