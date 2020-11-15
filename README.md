@@ -4,7 +4,7 @@
 Audio plugin registry with searchable plugin list, metadata and download urls using:
 
 * NodeJS 12.x
-* Npm 6.x
+* TypeScript 4.x
 
 
 ## Installation
