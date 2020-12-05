@@ -46,7 +46,7 @@ async function getReleases(result: any) {
       // single plugin
       if (pluginJson) {
         const plugin: PluginEntry = {
-          id: result.full_name,
+          id: convertToSlug(result.full_name),
           version,
           versions: {},
         };
@@ -68,7 +68,7 @@ async function getReleases(result: any) {
         );
         pluginsJsonList.plugins.forEach((pluginItem: Plugin) => {
           const plugin: PluginEntry = {
-            id: `${result.full_name}/${pluginItem.id}`,
+            id: convertToSlug(`${result.full_name}/${pluginItem.id}`),
             version,
             versions: {},
           };
@@ -94,6 +94,13 @@ async function getReleases(result: any) {
   } catch (error) {
     return error;
   }
+}
+
+function convertToSlug(text: string) {
+  return text ? text
+    .toLowerCase()
+    .replace(/ /g,'-')
+    .replace(/[^\w-]+/g,'') : text
 }
 
 async function getPlugins(url: string) {
