@@ -23,7 +23,7 @@ async function getResults(url: string, dir: string, filename: string) {
     const results = await getJSON(url);
     for (const result of results.items) {
       const pluginPack = await getReleases(result);
-      registry.objects = Object.assign(pluginPack);
+      registry.objects = Object.assign(registry.objects, pluginPack);
       registry.total += Object.keys(pluginPack).length;
     }
     console.log(registry);
