@@ -1,7 +1,7 @@
 {
   "objects": {
-    "studiorack/studiorack-plugin/adelay": {
-      "id": "studiorack/studiorack-plugin/adelay",
+    "studiorackstudiorack-pluginadelay": {
+      "id": "studiorackstudiorack-pluginadelay",
       "version": "0.0.10",
       "versions": {
         "0.0.10": {
@@ -45,8 +45,8 @@
         }
       }
     },
-    "studiorack/studiorack-plugin/channelcontext": {
-      "id": "studiorack/studiorack-plugin/channelcontext",
+    "studiorackstudiorack-pluginchannelcontext": {
+      "id": "studiorackstudiorack-pluginchannelcontext",
       "version": "0.0.10",
       "versions": {
         "0.0.10": {
@@ -96,8 +96,8 @@
         }
       }
     },
-    "studiorack/studiorack-plugin/helloworld": {
-      "id": "studiorack/studiorack-plugin/helloworld",
+    "studiorackstudiorack-pluginhelloworld": {
+      "id": "studiorackstudiorack-pluginhelloworld",
       "version": "0.0.10",
       "versions": {
         "0.0.10": {
@@ -138,8 +138,8 @@
         }
       }
     },
-    "studiorack/studiorack-plugin/legacymidiccout": {
-      "id": "studiorack/studiorack-plugin/legacymidiccout",
+    "studiorackstudiorack-pluginlegacymidiccout": {
+      "id": "studiorackstudiorack-pluginlegacymidiccout",
       "version": "0.0.10",
       "versions": {
         "0.0.10": {
@@ -180,8 +180,8 @@
         }
       }
     },
-    "studiorack/studiorack-plugin/mda-vst3": {
-      "id": "studiorack/studiorack-plugin/mda-vst3",
+    "studiorackstudiorack-pluginmda-vst3": {
+      "id": "studiorackstudiorack-pluginmda-vst3",
       "version": "0.0.10",
       "versions": {
         "0.0.10": {
@@ -225,8 +225,8 @@
         }
       }
     },
-    "studiorack/studiorack-plugin/prefetchablesupport": {
-      "id": "studiorack/studiorack-plugin/prefetchablesupport",
+    "studiorackstudiorack-pluginprefetchablesupport": {
+      "id": "studiorackstudiorack-pluginprefetchablesupport",
       "version": "0.0.10",
       "versions": {
         "0.0.10": {
@@ -267,8 +267,8 @@
         }
       }
     },
-    "studiorack/studiorack-plugin/programchange": {
-      "id": "studiorack/studiorack-plugin/programchange",
+    "studiorackstudiorack-pluginprogramchange": {
+      "id": "studiorackstudiorack-pluginprogramchange",
       "version": "0.0.10",
       "versions": {
         "0.0.10": {
@@ -310,6 +310,6 @@
       }
     }
   },
-  "time": "2020-12-05T00:34:25.841Z",
+  "time": "2020-12-06T00:36:07.900Z",
   "total": 7
 }
