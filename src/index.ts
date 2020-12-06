@@ -1,3 +1,4 @@
+import slugify from 'slugify';
 import {
   dirCreate,
   fileJsonCreate,
@@ -46,7 +47,7 @@ async function getReleases(result: any) {
       // single plugin
       if (pluginJson) {
         const plugin: PluginEntry = {
-          id: convertToSlug(result.full_name),
+          id: slugify(result.full_name, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g}),
           version,
           versions: {},
         };
@@ -68,7 +69,7 @@ async function getReleases(result: any) {
         );
         pluginsJsonList.plugins.forEach((pluginItem: Plugin) => {
           const plugin: PluginEntry = {
-            id: convertToSlug(`${result.full_name}/${pluginItem.id}`),
+            id: slugify(`${result.full_name}/${pluginItem.id}`, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g }),
             version,
             versions: {},
           };
@@ -94,13 +95,6 @@ async function getReleases(result: any) {
   } catch (error) {
     return error;
   }
-}
-
-function convertToSlug(text: string) {
-  return text ? text
-    .toLowerCase()
-    .replace(/ /g,'-')
-    .replace(/[^\w-]+/g,'') : text
 }
 
 async function getPlugins(url: string) {

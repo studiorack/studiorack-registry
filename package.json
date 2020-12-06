@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "dev": "ts-node src/index.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "start": "node dist/index.js",
@@ -31,7 +32,8 @@
   },
   "homepage": "https://github.com/studiorack/studiorack-registry#readme",
   "dependencies": {
-    "@studiorack/core": "0.0.3"
+    "@studiorack/core": "0.0.3",
+    "slugify": "^1.4.6"
   },
   "devDependencies": {
     "@types/node": "^14.14.7",
