@@ -41,55 +41,32 @@ async function getReleases(result: any) {
     const releases = await getJSON(result.releases_url.replace('{/id}', ''));
     for (const release of releases) {
       const version = release.tag_name.replace('v', '');
-      const pluginJson = await getPlugin(
-        `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugin.json`
+      // multiple plugins
+      const pluginsJsonList = await getPlugins(
+        `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`
       );
-      // single plugin
-      if (pluginJson) {
+      pluginsJsonList.plugins.forEach((pluginItem: Plugin) => {
         const plugin: PluginEntry = {
-          id: slugify(result.full_name, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g}),
+          id: slugify(`${result.full_name}/${pluginItem.id}`, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g }),
           version,
           versions: {},
         };
         plugin.versions[version] = {
-          author: pluginJson.author,
-          homepage: pluginJson.homepage,
-          name: pluginJson.name,
-          description: pluginJson.description,
-          tags: pluginJson.tags,
-          version: pluginJson.version,
-          date: pluginJson.date,
-          size: pluginJson.size,
+          author: pluginItem.author,
+          homepage: pluginItem.homepage,
+          name: pluginItem.name,
+          description: pluginItem.description,
+          tags: pluginItem.tags,
+          version: pluginItem.version,
+          date: pluginItem.date,
+          size: pluginItem.size,
         };
-        pluginPack[plugin.id] = plugin;
-      } else {
-        // multiple plugins
-        const pluginsJsonList = await getPlugins(
-          `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`
-        );
-        pluginsJsonList.plugins.forEach((pluginItem: Plugin) => {
-          const plugin: PluginEntry = {
-            id: slugify(`${result.full_name}/${pluginItem.id}`, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g }),
-            version,
-            versions: {},
-          };
-          plugin.versions[version] = {
-            author: pluginItem.author,
-            homepage: pluginItem.homepage,
-            name: pluginItem.name,
-            description: pluginItem.description,
-            tags: pluginItem.tags,
-            version: pluginItem.version,
-            date: pluginItem.date,
-            size: pluginItem.size,
-          };
-          if (pluginPack[plugin.id]) {
-            pluginPack[plugin.id].versions[version] = plugin.versions[version];
-          } else {
-            pluginPack[plugin.id] = plugin;
-          }
-        });
-      }
+        if (pluginPack[plugin.id]) {
+          pluginPack[plugin.id].versions[version] = plugin.versions[version];
+        } else {
+          pluginPack[plugin.id] = plugin;
+        }
+      });
     }
     return pluginPack;
   } catch (error) {
