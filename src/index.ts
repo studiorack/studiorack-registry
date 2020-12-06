@@ -93,17 +93,4 @@ async function getPlugins(url: string) {
   }
 }
 
-async function getPlugin(url: string) {
-  try {
-    const plugin = await getJSON(url);
-    const error = validatePluginSchema(plugin);
-    if (error === false) {
-      return plugin;
-    }
-    return false;
-  } catch (error) {
-    return false;
-  }
-}
-
 getResults(SEARCH_URL, DIST_PATH, REGISTRY_FILE);
