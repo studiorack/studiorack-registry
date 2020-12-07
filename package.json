@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/studiorack/studiorack-registry#readme",
   "dependencies": {
-    "@studiorack/core": "0.0.3",
+    "@studiorack/core": "0.0.8",
     "slugify": "^1.4.6"
   },
   "devDependencies": {
