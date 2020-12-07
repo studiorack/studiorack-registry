@@ -46,25 +46,27 @@ async function getReleases(result: any) {
         `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`
       );
       pluginsJsonList.plugins.forEach((pluginItem: Plugin) => {
-        const plugin: PluginEntry = {
-          id: slugify(`${result.full_name}/${pluginItem.id}`, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g }),
-          version,
-          versions: {},
-        };
-        plugin.versions[version] = {
-          author: pluginItem.author,
-          homepage: pluginItem.homepage,
-          name: pluginItem.name,
-          description: pluginItem.description,
-          tags: pluginItem.tags,
-          version: pluginItem.version,
-          date: pluginItem.date,
-          size: pluginItem.size,
-        };
-        if (pluginPack[plugin.id]) {
-          pluginPack[plugin.id].versions[version] = plugin.versions[version];
-        } else {
-          pluginPack[plugin.id] = plugin;
+        if (pluginItem.id && pluginItem.name && pluginItem.version) {
+          const plugin: PluginEntry = {
+            id: slugify(`${result.full_name}/${pluginItem.id}`, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g }),
+            version,
+            versions: {},
+          };
+          plugin.versions[version] = {
+            author: pluginItem.author,
+            homepage: pluginItem.homepage,
+            name: pluginItem.name,
+            description: pluginItem.description,
+            tags: pluginItem.tags,
+            version: pluginItem.version,
+            date: pluginItem.date,
+            size: pluginItem.size,
+          };
+          if (pluginPack[plugin.id]) {
+            pluginPack[plugin.id].versions[version] = plugin.versions[version];
+          } else {
+            pluginPack[plugin.id] = plugin;
+          }
         }
       });
     }
