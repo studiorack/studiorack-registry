@@ -328,20 +328,6 @@
         }
       }
     },
-    "studiorack/studiorack-plugin-juce/audiopluginexample": {
-      "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
-      "version": "0.0.3",
-      "versions": {
-        "0.0.3": {
-          "date": "2020-12-06T07:13:53.752Z",
-          "size": 1542144
-        },
-        "0.0.2": {
-          "date": "2020-12-06T06:01:17.183Z",
-          "size": 1542144
-        }
-      }
-    },
     "studiorack/studiorack-plugin-juce/audio-plugin-example": {
       "id": "studiorack/studiorack-plugin-juce/audio-plugin-example",
       "version": "0.0.3",
@@ -373,6 +359,6 @@
       }
     }
   },
-  "time": "2020-12-07T00:29:33.412Z",
-  "total": 10
+  "time": "2020-12-07T04:27:04.418Z",
+  "total": 9
 }
