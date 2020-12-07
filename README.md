@@ -27,11 +27,34 @@ The StudioRack Registry uses GitHub as a source of truth for plugins. We search 
 
     https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true
 
-Then for each GitHub repository, the Registry loops through their releases/versions and downloads a plugin.json:
+Then for each GitHub repository, the Registry loops through their releases/versions and downloads plugins.json:
 
-    https://github.com/REPOSITORY_NAME/releases/download/RELEASE_NAME/plugin.json
+    https://github.com/REPOSITORY_NAME/releases/download/RELEASE_NAME/plugins.json
 
-Registry then performs some validation on the plugin.json before compiling into a registry json format:
+This should be in the format:
+
+    {
+      "plugins": [
+        {
+          "author": "Steinberg Media Technologies",
+          "homepage": "http://www.steinberg.net",
+          "name": "Hello WorldController",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "1.0.0.1",
+          "date": "2020-12-07T04:28:43.733Z",
+          "size": 1444424,
+          "id": "helloworld",
+          "file": "helloworld.vst3",
+          "image": "helloworld.png",
+          "audio": "helloworld.wav"
+        }
+      ]
+    }
+
+Registry then performs some validation on the plugins.json before compiling into a registry json format:
 
     {
       "objects": {
