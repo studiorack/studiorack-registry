@@ -328,11 +328,11 @@
         }
       }
     },
-    "studiorack/studiorack-plugin-juce/audio-plugin-example": {
-      "id": "studiorack/studiorack-plugin-juce/audio-plugin-example",
-      "version": "0.0.3",
+    "studiorack/studiorack-plugin-juce/audiopluginexample": {
+      "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
+      "version": "0.0.1",
       "versions": {
-        "0.0.3": {
+        "0.0.1": {
           "author": "JUCE",
           "homepage": "juce.com",
           "name": "Audio Plugin Example",
@@ -341,24 +341,12 @@
             "Fx"
           ],
           "version": "0.0.1",
-          "date": "2020-12-06T07:14:02.993Z",
-          "size": 1542144
-        },
-        "0.0.2": {
-          "author": "JUCE",
-          "homepage": "juce.com",
-          "name": "Audio Plugin Example",
-          "description": "Component Controller Class",
-          "tags": [
-            "Fx"
-          ],
-          "version": "0.0.1",
-          "date": "2020-12-06T06:01:26.735Z",
+          "date": "2020-12-08T07:04:44.942Z",
           "size": 1542144
         }
       }
     }
   },
-  "time": "2020-12-08T00:29:39.461Z",
+  "time": "2020-12-08T07:08:38.806Z",
   "total": 9
 }
