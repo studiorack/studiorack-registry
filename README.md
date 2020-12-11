@@ -23,7 +23,7 @@ Create the registry using:
 
 ## How it works
 
-The StudioRack Registry uses GitHub as a source of truth for plugins. We search the Github API for topic `studiosrack-plugin`:
+The StudioRack Registry uses GitHub as a source of truth for plugins. We search the GitHub API for topic `studiosrack-plugin`:
 
     https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true
 
