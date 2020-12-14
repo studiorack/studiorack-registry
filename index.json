@@ -1,7 +1,24 @@
 {
   "objects": {
-    "message": "invalid json response body at https://github.com/ryukau/VSTPlugins/releases/download/CollidingCombSynth0.1.0/plugins.json reason: Unexpected token N in JSON at position 0",
-    "type": "invalid-json",
+    "ryukau/vstplugins/sevendelay": {
+      "id": "ryukau/vstplugins/sevendelay",
+      "version": "0.1.14",
+      "versions": {
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "name": "SevenDelay",
+          "description": "A stereo delay tuned towards short delay.",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.14.14",
+          "date": "2020-12-11T03:48:37.553Z",
+          "size": 1793748
+        }
+      }
+    },
     "studiorack/studiorack-plugin-steinberg/adelay": {
       "id": "studiorack/studiorack-plugin-steinberg/adelay",
       "version": "0.0.1",
@@ -171,6 +188,6 @@
       }
     }
   },
-  "time": "2020-12-14T03:11:31.365Z",
-  "total": 11
+  "time": "2020-12-14T03:14:06.632Z",
+  "total": 10
 }
