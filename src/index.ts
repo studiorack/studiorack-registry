@@ -77,17 +77,21 @@ async function getReleases(result: any) {
 }
 
 async function getPlugins(url: string) {
-  const pluginsValid: Plugin[] = [];
-  const pluginsJson = await getJSON(url);
-  pluginsJson.plugins.forEach((plugin: Plugin) => {
-    const error = validatePluginSchema(plugin);
-    if (error === false) {
-      pluginsValid.push(plugin);
-    } else {
-      console.log(error, plugin);
-    }
-  });
-  return { plugins: pluginsValid };
+  try {
+    const pluginsValid: Plugin[] = [];
+    const pluginsJson = await getJSON(url);
+    pluginsJson.plugins.forEach((plugin: Plugin) => {
+      const error = validatePluginSchema(plugin);
+      if (error === false) {
+        pluginsValid.push(plugin);
+      } else {
+        console.log(error, plugin);
+      }
+    });
+    return { plugins: pluginsValid };
+  } catch (error) {
+    return { plugins: [] };
+  }
 }
 
 getResults(SEARCH_URL, DIST_PATH, REGISTRY_FILE);
