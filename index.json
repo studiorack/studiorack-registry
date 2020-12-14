@@ -131,25 +131,6 @@
         }
       }
     },
-    "studiorack/studiorack-plugin-iplug/ipluginstrument": {
-      "id": "studiorack/studiorack-plugin-iplug/ipluginstrument",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "AcmeInc",
-          "homepage": "https://iplug2.github.io",
-          "name": "IPlugInstrument",
-          "description": "Audio Module Class",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "1.0.0",
-          "date": "2020-12-04T06:27:55.909Z",
-          "size": 1428480
-        }
-      }
-    },
     "studiorack/studiorack-plugin-juce/audiopluginexample": {
       "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
       "version": "0.0.1",
@@ -169,6 +150,6 @@
       }
     }
   },
-  "time": "2020-12-14T01:19:21.526Z",
-  "total": 9
+  "time": "2020-12-14T02:30:52.422Z",
+  "total": 8
 }
