@@ -40,7 +40,7 @@ async function getReleases(result: any) {
   try {
     const releases = await getJSON(result.releases_url.replace('{/id}', ''));
     for (const release of releases) {
-      const version = release.tag_name.replace('v', '');
+      const version = release.tag_name.replace(/[^0-9.]/g, '');
       // multiple plugins
       const pluginsJsonList = await getPlugins(
         `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`
