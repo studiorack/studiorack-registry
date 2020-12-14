@@ -77,23 +77,17 @@ async function getReleases(result: any) {
 }
 
 async function getPlugins(url: string) {
-  try {
-    let valid = true;
-    const pluginsJson = await getJSON(url);
-    pluginsJson.plugins.forEach((plugin: Plugin) => {
-      const error = validatePluginSchema(plugin);
-      if (error !== false) {
-        console.log(error, plugin);
-        valid = false;
-      }
-    });
-    if (valid === true) {
-      return pluginsJson;
+  const pluginsValid: Plugin[] = [];
+  const pluginsJson = await getJSON(url);
+  pluginsJson.plugins.forEach((plugin: Plugin) => {
+    const error = validatePluginSchema(plugin);
+    if (error === false) {
+      pluginsValid.push(plugin);
+    } else {
+      console.log(error, plugin);
     }
-    return false;
-  } catch (error) {
-    return false;
-  }
+  });
+  return { plugins: pluginsValid };
 }
 
 getResults(SEARCH_URL, DIST_PATH, REGISTRY_FILE);
