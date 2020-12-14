@@ -82,7 +82,8 @@ async function getPlugins(url: string) {
     const pluginsJson = await getJSON(url);
     pluginsJson.plugins.forEach((plugin: Plugin) => {
       const error = validatePluginSchema(plugin);
-      if (error === true) {
+      if (error !== false) {
+        console.log(error, plugin);
         valid = false;
       }
     });
