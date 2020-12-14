@@ -1,5 +1,7 @@
 {
   "objects": {
+    "message": "invalid json response body at https://github.com/ryukau/VSTPlugins/releases/download/CollidingCombSynth0.1.0/plugins.json reason: Unexpected token N in JSON at position 0",
+    "type": "invalid-json",
     "studiorack/studiorack-plugin-steinberg/adelay": {
       "id": "studiorack/studiorack-plugin-steinberg/adelay",
       "version": "0.0.1",
@@ -131,6 +133,25 @@
         }
       }
     },
+    "studiorack/studiorack-plugin-iplug/ipluginstrument": {
+      "id": "studiorack/studiorack-plugin-iplug/ipluginstrument",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "AcmeInc",
+          "homepage": "https://iplug2.github.io",
+          "name": "IPlugInstrument",
+          "description": "Audio Module Class",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "1.0.0",
+          "date": "2020-12-04T06:27:55.909Z",
+          "size": 1428480
+        }
+      }
+    },
     "studiorack/studiorack-plugin-juce/audiopluginexample": {
       "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
       "version": "0.0.1",
@@ -150,6 +171,6 @@
       }
     }
   },
-  "time": "2020-12-14T03:04:26.386Z",
-  "total": 8
+  "time": "2020-12-14T03:11:31.365Z",
+  "total": 11
 }
