@@ -56,7 +56,8 @@ async function getReleases(result: any) {
             versions: {},
           };
         }
-        // plugin.release = release.tag_name;
+        // Release is different from version and can vary per version
+        plugin.release = release.tag_name;
         pluginPack[pluginId].versions[pluginVersion] = plugin;
         // If plugin version is greater than the current, set as latest version
         if (semver.gt(pluginVersion, pluginPack[pluginId].version)) {
