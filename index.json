@@ -7,23 +7,28 @@
         "0.1.14": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "name": "SevenDelay",
           "description": "A stereo delay tuned towards short delay.",
+          "date": "2020-12-11T03:48:37.553Z",
+          "name": "SevenDelay",
           "tags": [
             "Fx",
             "Delay"
           ],
           "version": "0.1.14.14",
-          "date": "2020-12-11T03:48:37.553Z",
-          "size": 1793748
+          "size": 1793748,
+          "id": "SevenDelay",
+          "file": "SevenDelay.vst3",
+          "image": "SevenDelay.png",
+          "audio": "SevenDelay.wav",
+          "release": "SevenDelay0.1.14"
         }
       }
     },
     "studiorack/studiorack-plugin-steinberg/adelay": {
       "id": "studiorack/studiorack-plugin-steinberg/adelay",
-      "version": "0.0.1",
+      "version": "1.1.0",
       "versions": {
-        "0.0.1": {
+        "1.1.0": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
           "name": "ADelayTest Factory",
@@ -34,15 +39,18 @@
           ],
           "version": "1.1.0.1",
           "date": "2020-12-09T17:25:11.974Z",
-          "size": 252416
+          "size": 252416,
+          "id": "adelay",
+          "file": "adelay.vst3",
+          "release": "v0.0.1"
         }
       }
     },
     "studiorack/studiorack-plugin-steinberg/channelcontext": {
       "id": "studiorack/studiorack-plugin-steinberg/channelcontext",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "versions": {
-        "0.0.1": {
+        "1.0.0": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
           "name": "Test Channel ContextController",
@@ -55,15 +63,18 @@
           ],
           "version": "1.0.0.1",
           "date": "2020-12-09T17:25:13.480Z",
-          "size": 243712
+          "size": 243712,
+          "id": "channelcontext",
+          "file": "channelcontext.vst3",
+          "release": "v0.0.1"
         }
       }
     },
     "studiorack/studiorack-plugin-steinberg/helloworld": {
       "id": "studiorack/studiorack-plugin-steinberg/helloworld",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "versions": {
-        "0.0.1": {
+        "1.0.0": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
           "name": "Hello WorldController",
@@ -73,15 +84,18 @@
           ],
           "version": "1.0.0.1",
           "date": "2020-12-09T17:25:14.816Z",
-          "size": 239616
+          "size": 239616,
+          "id": "helloworld",
+          "file": "helloworld.vst3",
+          "release": "v0.0.1"
         }
       }
     },
     "studiorack/studiorack-plugin-steinberg/legacymidiccout": {
       "id": "studiorack/studiorack-plugin-steinberg/legacymidiccout",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "versions": {
-        "0.0.1": {
+        "1.0.0": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
           "name": "Test Legacy MIDI CC OutController",
@@ -91,15 +105,18 @@
           ],
           "version": "1.0.0.1",
           "date": "2020-12-09T17:25:16.130Z",
-          "size": 242688
+          "size": 242688,
+          "id": "legacymidiccout",
+          "file": "legacymidiccout.vst3",
+          "release": "v0.0.1"
         }
       }
     },
     "studiorack/studiorack-plugin-steinberg/mda-vst3": {
       "id": "studiorack/studiorack-plugin-steinberg/mda-vst3",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "versions": {
-        "0.0.1": {
+        "1.0.0": {
           "author": "mda",
           "homepage": "http://www.steinberg.net",
           "name": "mda SpecMeter",
@@ -110,15 +127,18 @@
           ],
           "version": "1.0.0",
           "date": "2020-12-09T17:25:31.647Z",
-          "size": 2777600
+          "size": 2777600,
+          "id": "mda-vst3",
+          "file": "mda-vst3.vst3",
+          "release": "v0.0.1"
         }
       }
     },
     "studiorack/studiorack-plugin-steinberg/prefetchablesupport": {
       "id": "studiorack/studiorack-plugin-steinberg/prefetchablesupport",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "versions": {
-        "0.0.1": {
+        "1.0.0": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
           "name": "Test Prefetchable SupportController",
@@ -128,15 +148,18 @@
           ],
           "version": "1.0.0.1",
           "date": "2020-12-09T17:25:33.432Z",
-          "size": 241152
+          "size": 241152,
+          "id": "prefetchablesupport",
+          "file": "prefetchablesupport.vst3",
+          "release": "v0.0.1"
         }
       }
     },
     "studiorack/studiorack-plugin-steinberg/programchange": {
       "id": "studiorack/studiorack-plugin-steinberg/programchange",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "versions": {
-        "0.0.1": {
+        "1.0.0": {
           "author": "Steinberg Media Technologies",
           "homepage": "http://www.steinberg.net",
           "name": "Test Program ChangeController",
@@ -146,15 +169,18 @@
           ],
           "version": "1.0.0.1",
           "date": "2020-12-09T17:25:34.776Z",
-          "size": 240640
+          "size": 240640,
+          "id": "programchange",
+          "file": "programchange.vst3",
+          "release": "v0.0.1"
         }
       }
     },
     "studiorack/studiorack-plugin-iplug/ipluginstrument": {
       "id": "studiorack/studiorack-plugin-iplug/ipluginstrument",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "versions": {
-        "0.0.1": {
+        "1.0.0": {
           "author": "AcmeInc",
           "homepage": "https://iplug2.github.io",
           "name": "IPlugInstrument",
@@ -165,7 +191,10 @@
           ],
           "version": "1.0.0",
           "date": "2020-12-04T06:27:55.909Z",
-          "size": 1428480
+          "size": 1428480,
+          "id": "IPlugInstrument",
+          "file": "IPlugInstrument.vst3",
+          "release": "v0.0.1"
         }
       }
     },
@@ -183,11 +212,16 @@
           ],
           "version": "0.0.1",
           "date": "2020-12-08T07:04:44.942Z",
-          "size": 1542144
+          "size": 1542144,
+          "id": "AudioPluginExample",
+          "file": "AudioPluginExample.vst3",
+          "image": "AudioPluginExample.png",
+          "audio": "AudioPluginExample.wav",
+          "release": "v0.0.1"
         }
       }
     }
   },
-  "time": "2020-12-15T00:29:16.190Z",
+  "time": "2020-12-15T05:36:47.411Z",
   "total": 10
 }
