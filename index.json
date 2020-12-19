@@ -198,6 +198,30 @@
         }
       }
     },
+    "studiorack/studiorack-plugin-dplug/wittyaudioclipit": {
+      "id": "studiorack/studiorack-plugin-dplug/wittyaudioclipit",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Witty Audio",
+          "homepage": "https://www.wittyaudio.com/CLIPIt",
+          "name": "CLIP It",
+          "description": "Audio Module Class",
+          "tags": [
+            "Fx",
+            "Distortion"
+          ],
+          "version": "1.0.0",
+          "date": "2020-12-19T18:34:24.015Z",
+          "size": 1805312,
+          "id": "WittyAudioCLIPIt",
+          "file": "WittyAudioCLIPIt.vst3",
+          "image": "WittyAudioCLIPIt.png",
+          "audio": "WittyAudioCLIPIt.wav",
+          "release": "v0.0.1"
+        }
+      }
+    },
     "studiorack/studiorack-plugin-juce/audiopluginexample": {
       "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
       "version": "0.0.1",
@@ -222,6 +246,6 @@
       }
     }
   },
-  "time": "2020-12-19T02:40:35.730Z",
-  "total": 10
+  "time": "2020-12-19T18:46:53.086Z",
+  "total": 11
 }
