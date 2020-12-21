@@ -198,6 +198,29 @@
         }
       }
     },
+    "studiorack/studiorack-plugin-juce/audiopluginexample": {
+      "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "JUCE",
+          "homepage": "juce.com",
+          "name": "Audio Plugin Example",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "0.0.1",
+          "date": "2020-12-08T07:04:44.942Z",
+          "size": 1542144,
+          "id": "AudioPluginExample",
+          "file": "AudioPluginExample.vst3",
+          "image": "AudioPluginExample.png",
+          "audio": "AudioPluginExample.wav",
+          "release": "v0.0.1"
+        }
+      }
+    },
     "studiorack/studiorack-plugin-dplug/wittyaudioclipit": {
       "id": "studiorack/studiorack-plugin-dplug/wittyaudioclipit",
       "version": "1.0.0",
@@ -221,31 +244,8 @@
           "release": "v0.0.1"
         }
       }
-    },
-    "studiorack/studiorack-plugin-juce/audiopluginexample": {
-      "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "JUCE",
-          "homepage": "juce.com",
-          "name": "Audio Plugin Example",
-          "description": "Component Controller Class",
-          "tags": [
-            "Fx"
-          ],
-          "version": "0.0.1",
-          "date": "2020-12-08T07:04:44.942Z",
-          "size": 1542144,
-          "id": "AudioPluginExample",
-          "file": "AudioPluginExample.vst3",
-          "image": "AudioPluginExample.png",
-          "audio": "AudioPluginExample.wav",
-          "release": "v0.0.1"
-        }
-      }
     }
   },
-  "time": "2020-12-20T00:32:26.709Z",
+  "time": "2020-12-21T00:34:39.929Z",
   "total": 11
 }
