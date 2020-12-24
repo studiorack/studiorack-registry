@@ -36,20 +36,39 @@ This should be in the format:
     {
       "plugins": [
         {
-          "author": "Steinberg Media Technologies",
-          "homepage": "http://www.steinberg.net",
-          "name": "Hello WorldController",
-          "description": "Component Controller Class",
+          "author": "Your Name",
+          "homepage": "https://www.yoursite.com",
+          "name": "Your Plugin Name",
+          "description": "Test Class",
           "tags": [
-            "Fx"
+            "Fx",
+            "Delay"
           ],
-          "version": "1.0.0.1",
-          "date": "2020-12-07T04:28:43.733Z",
-          "size": 1444424,
-          "id": "helloworld",
-          "file": "helloworld.vst3",
-          "image": "helloworld.png",
-          "audio": "helloworld.wav"
+          "version": "1.1.0",
+          "id": "yourplugin",
+          "date": "2020-12-09T17:25:12.081Z",
+          "files": {
+            "audio": {
+              "name": "your-plugin.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "your-plugin.png",
+              "size": 35091
+            },
+            "linux": {
+              "name": "your-plugin-linux.zip",
+              "size": 13089625
+            },
+            "mac": {
+              "name": "your-plugin-mac.zip",
+              "size": 13089625
+            },
+            "win": {
+              "name": "your-plugin-win.zip",
+              "size": 13089625
+            }
+          }
         }
       ]
     }
