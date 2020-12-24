@@ -1,29 +1,5 @@
 {
   "objects": {
-    "ryukau/vstplugins/sevendelay": {
-      "id": "ryukau/vstplugins/sevendelay",
-      "version": "0.1.14",
-      "versions": {
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "description": "A stereo delay tuned towards short delay.",
-          "date": "2020-12-11T03:48:37.553Z",
-          "name": "SevenDelay",
-          "tags": [
-            "Fx",
-            "Delay"
-          ],
-          "version": "0.1.14.14",
-          "size": 1793748,
-          "id": "SevenDelay",
-          "file": "SevenDelay.vst3",
-          "image": "SevenDelay.png",
-          "audio": "SevenDelay.wav",
-          "release": "SevenDelay0.1.14"
-        }
-      }
-    },
     "studiorack/studiorack-plugin-steinberg/adelay": {
       "id": "studiorack/studiorack-plugin-steinberg/adelay",
       "version": "1.1.0",
@@ -37,12 +13,24 @@
             "Fx",
             "Delay"
           ],
-          "version": "1.1.0.1",
-          "date": "2020-12-09T17:25:11.974Z",
-          "size": 252416,
+          "version": "1.1.0",
           "id": "adelay",
-          "file": "adelay.vst3",
-          "release": "v0.0.1"
+          "date": "2020-12-24T04:54:38.244Z",
+          "files": {
+            "linux": {
+              "name": "adelay-linux.zip",
+              "size": 252416
+            },
+            "mac": {
+              "name": "adelay-mac.zip",
+              "size": 252416
+            },
+            "win": {
+              "name": "adelay-win.zip",
+              "size": 252416
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
@@ -61,12 +49,24 @@
             "Up-Downmix",
             "Instrument"
           ],
-          "version": "1.0.0.1",
-          "date": "2020-12-09T17:25:13.480Z",
-          "size": 243712,
+          "version": "1.0.0",
           "id": "channelcontext",
-          "file": "channelcontext.vst3",
-          "release": "v0.0.1"
+          "date": "2020-12-24T04:54:40.565Z",
+          "files": {
+            "linux": {
+              "name": "channelcontext-linux.zip",
+              "size": 243712
+            },
+            "mac": {
+              "name": "channelcontext-mac.zip",
+              "size": 243712
+            },
+            "win": {
+              "name": "channelcontext-win.zip",
+              "size": 243712
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
@@ -82,12 +82,24 @@
           "tags": [
             "Fx"
           ],
-          "version": "1.0.0.1",
-          "date": "2020-12-09T17:25:14.816Z",
-          "size": 239616,
+          "version": "1.0.0",
           "id": "helloworld",
-          "file": "helloworld.vst3",
-          "release": "v0.0.1"
+          "date": "2020-12-24T04:54:42.026Z",
+          "files": {
+            "linux": {
+              "name": "helloworld-linux.zip",
+              "size": 239616
+            },
+            "mac": {
+              "name": "helloworld-mac.zip",
+              "size": 239616
+            },
+            "win": {
+              "name": "helloworld-win.zip",
+              "size": 239616
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
@@ -103,12 +115,24 @@
           "tags": [
             "Fx"
           ],
-          "version": "1.0.0.1",
-          "date": "2020-12-09T17:25:16.130Z",
-          "size": 242688,
+          "version": "1.0.0",
           "id": "legacymidiccout",
-          "file": "legacymidiccout.vst3",
-          "release": "v0.0.1"
+          "date": "2020-12-24T04:54:43.459Z",
+          "files": {
+            "linux": {
+              "name": "legacymidiccout-linux.zip",
+              "size": 242688
+            },
+            "mac": {
+              "name": "legacymidiccout-mac.zip",
+              "size": 242688
+            },
+            "win": {
+              "name": "legacymidiccout-win.zip",
+              "size": 242688
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
@@ -126,11 +150,23 @@
             "Analyzer"
           ],
           "version": "1.0.0",
-          "date": "2020-12-09T17:25:31.647Z",
-          "size": 2777600,
           "id": "mda-vst3",
-          "file": "mda-vst3.vst3",
-          "release": "v0.0.1"
+          "date": "2020-12-24T04:55:01.038Z",
+          "files": {
+            "linux": {
+              "name": "mda-vst3-linux.zip",
+              "size": 2777600
+            },
+            "mac": {
+              "name": "mda-vst3-mac.zip",
+              "size": 2777600
+            },
+            "win": {
+              "name": "mda-vst3-win.zip",
+              "size": 2777600
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
@@ -146,12 +182,24 @@
           "tags": [
             "Fx"
           ],
-          "version": "1.0.0.1",
-          "date": "2020-12-09T17:25:33.432Z",
-          "size": 241152,
+          "version": "1.0.0",
           "id": "prefetchablesupport",
-          "file": "prefetchablesupport.vst3",
-          "release": "v0.0.1"
+          "date": "2020-12-24T04:55:03.207Z",
+          "files": {
+            "linux": {
+              "name": "prefetchablesupport-linux.zip",
+              "size": 241152
+            },
+            "mac": {
+              "name": "prefetchablesupport-mac.zip",
+              "size": 241152
+            },
+            "win": {
+              "name": "prefetchablesupport-win.zip",
+              "size": 241152
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
@@ -167,12 +215,24 @@
           "tags": [
             "Fx"
           ],
-          "version": "1.0.0.1",
-          "date": "2020-12-09T17:25:34.776Z",
-          "size": 240640,
+          "version": "1.0.0",
           "id": "programchange",
-          "file": "programchange.vst3",
-          "release": "v0.0.1"
+          "date": "2020-12-24T04:55:04.632Z",
+          "files": {
+            "linux": {
+              "name": "programchange-linux.zip",
+              "size": 240640
+            },
+            "mac": {
+              "name": "programchange-mac.zip",
+              "size": 240640
+            },
+            "win": {
+              "name": "programchange-win.zip",
+              "size": 240640
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
@@ -190,16 +250,28 @@
             "Synth"
           ],
           "version": "1.0.0",
-          "date": "2020-12-04T06:27:55.909Z",
-          "size": 1428480,
-          "id": "IPlugInstrument",
-          "file": "IPlugInstrument.vst3",
-          "release": "v0.0.1"
+          "id": "ipluginstrument",
+          "date": "2020-12-24T22:57:26.415Z",
+          "files": {
+            "linux": {
+              "name": "ipluginstrument-linux.zip",
+              "size": 1428480
+            },
+            "mac": {
+              "name": "ipluginstrument-mac.zip",
+              "size": 1428480
+            },
+            "win": {
+              "name": "ipluginstrument-win.zip",
+              "size": 1428480
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
-    "studiorack/studiorack-plugin-dplug/wittyaudioclipit": {
-      "id": "studiorack/studiorack-plugin-dplug/wittyaudioclipit",
+    "studiorack/studiorack-plugin-dplug/witty-audio-clip-it": {
+      "id": "studiorack/studiorack-plugin-dplug/witty-audio-clip-it",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -212,18 +284,36 @@
             "Distortion"
           ],
           "version": "1.0.0",
-          "date": "2020-12-19T18:34:24.015Z",
-          "size": 1805312,
-          "id": "WittyAudioCLIPIt",
-          "file": "WittyAudioCLIPIt.vst3",
-          "image": "WittyAudioCLIPIt.png",
-          "audio": "WittyAudioCLIPIt.wav",
-          "release": "v0.0.1"
+          "id": "witty-audio-clip-it",
+          "date": "2020-12-24T04:51:08.628Z",
+          "files": {
+            "audio": {
+              "name": "witty-audio-clip-it.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "witty-audio-clip-it.png",
+              "size": 370266
+            },
+            "linux": {
+              "name": "witty-audio-clip-it-linux.zip",
+              "size": 1805312
+            },
+            "mac": {
+              "name": "witty-audio-clip-it-mac.zip",
+              "size": 1805312
+            },
+            "win": {
+              "name": "witty-audio-clip-it-win.zip",
+              "size": 1805312
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     },
-    "studiorack/studiorack-plugin-juce/audiopluginexample": {
-      "id": "studiorack/studiorack-plugin-juce/audiopluginexample",
+    "studiorack/studiorack-plugin-juce/audio-plugin-example": {
+      "id": "studiorack/studiorack-plugin-juce/audio-plugin-example",
       "version": "0.0.1",
       "versions": {
         "0.0.1": {
@@ -235,17 +325,35 @@
             "Fx"
           ],
           "version": "0.0.1",
-          "date": "2020-12-08T07:04:44.942Z",
-          "size": 1542144,
-          "id": "AudioPluginExample",
-          "file": "AudioPluginExample.vst3",
-          "image": "AudioPluginExample.png",
-          "audio": "AudioPluginExample.wav",
-          "release": "v0.0.1"
+          "id": "audio-plugin-example",
+          "date": "2020-12-24T23:02:10.842Z",
+          "files": {
+            "audio": {
+              "name": "audio-plugin-example.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "audio-plugin-example.png",
+              "size": 35091
+            },
+            "linux": {
+              "name": "audio-plugin-example-linux.zip",
+              "size": 1542144
+            },
+            "mac": {
+              "name": "audio-plugin-example-mac.zip",
+              "size": 1542144
+            },
+            "win": {
+              "name": "audio-plugin-example-win.zip",
+              "size": 1542144
+            }
+          },
+          "release": "v0.0.2"
         }
       }
     }
   },
-  "time": "2020-12-24T00:41:18.421Z",
-  "total": 11
+  "time": "2020-12-24T23:52:52.896Z",
+  "total": 10
 }
