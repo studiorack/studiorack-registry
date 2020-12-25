@@ -307,19 +307,68 @@
           ],
           "version": "1.0.0",
           "id": "ipluginstrument",
-          "date": "2020-12-24T22:57:26.415Z",
+          "date": "2020-12-25T02:25:47.747Z",
           "files": {
+            "audio": {
+              "name": "ipluginstrument.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ipluginstrument.png",
+              "size": 206348
+            },
             "linux": {
               "name": "ipluginstrument-linux.zip",
-              "size": 1428480
+              "size": 1895863
             },
             "mac": {
               "name": "ipluginstrument-mac.zip",
-              "size": 1428480
+              "size": 1895863
             },
             "win": {
               "name": "ipluginstrument-win.zip",
-              "size": 1428480
+              "size": 1895863
+            }
+          },
+          "release": "v0.0.1"
+        }
+      }
+    },
+    "studiorack/studiorack-plugin-juce/audio-plugin-example": {
+      "id": "studiorack/studiorack-plugin-juce/audio-plugin-example",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "JUCE",
+          "homepage": "juce.com",
+          "name": "Audio Plugin Example",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "0.0.1",
+          "id": "audio-plugin-example",
+          "date": "2020-12-24T23:02:10.842Z",
+          "files": {
+            "audio": {
+              "name": "audio-plugin-example.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "audio-plugin-example.png",
+              "size": 35091
+            },
+            "linux": {
+              "name": "audio-plugin-example-linux.zip",
+              "size": 1542144
+            },
+            "mac": {
+              "name": "audio-plugin-example-mac.zip",
+              "size": 1542144
+            },
+            "win": {
+              "name": "audio-plugin-example-win.zip",
+              "size": 1542144
             }
           },
           "release": "v0.0.2"
@@ -367,49 +416,8 @@
           "release": "v0.0.2"
         }
       }
-    },
-    "studiorack/studiorack-plugin-juce/audio-plugin-example": {
-      "id": "studiorack/studiorack-plugin-juce/audio-plugin-example",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "JUCE",
-          "homepage": "juce.com",
-          "name": "Audio Plugin Example",
-          "description": "Component Controller Class",
-          "tags": [
-            "Fx"
-          ],
-          "version": "0.0.1",
-          "id": "audio-plugin-example",
-          "date": "2020-12-24T23:02:10.842Z",
-          "files": {
-            "audio": {
-              "name": "audio-plugin-example.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "audio-plugin-example.png",
-              "size": 35091
-            },
-            "linux": {
-              "name": "audio-plugin-example-linux.zip",
-              "size": 1542144
-            },
-            "mac": {
-              "name": "audio-plugin-example-mac.zip",
-              "size": 1542144
-            },
-            "win": {
-              "name": "audio-plugin-example-win.zip",
-              "size": 1542144
-            }
-          },
-          "release": "v0.0.2"
-        }
-      }
     }
   },
-  "time": "2020-12-25T02:10:54.124Z",
+  "time": "2020-12-25T22:11:04.119Z",
   "total": 10
 }
