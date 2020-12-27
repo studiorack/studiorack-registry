@@ -45,7 +45,7 @@ This should be in the format:
             "Delay"
           ],
           "version": "1.1.0",
-          "id": "yourplugin",
+          "id": "your-plugin",
           "date": "2020-12-09T17:25:12.081Z",
           "files": {
             "audio": {
