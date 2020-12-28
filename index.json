@@ -1,5 +1,47 @@
 {
   "objects": {
+    "ryukau/vstplugins/seven-delay": {
+      "id": "ryukau/vstplugins/seven-delay",
+      "version": "0.1.14",
+      "versions": {
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "description": "A stereo delay tuned towards short delay.",
+          "date": "2020-12-11T03:48:37.553Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.14",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.wav",
+              "size": 2396716
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 32087
+            },
+            "linux": {
+              "name": "SevenDelay-linux.zip",
+              "size": 749745
+            },
+            "mac": {
+              "name": "SevenDelay-mac.zip",
+              "size": 708326
+            },
+            "win": {
+              "name": "SevenDelay-win.zip",
+              "size": 668548
+            }
+          },
+          "release": "SevenDelay0.1.14"
+        }
+      }
+    },
     "studiorack/studiorack-plugin-steinberg/adelay": {
       "id": "studiorack/studiorack-plugin-steinberg/adelay",
       "version": "1.1.0",
@@ -418,6 +460,6 @@
       }
     }
   },
-  "time": "2020-12-28T00:39:15.694Z",
-  "total": 10
+  "time": "2020-12-28T07:17:46.654Z",
+  "total": 11
 }
