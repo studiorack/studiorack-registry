@@ -376,47 +376,6 @@
         }
       }
     },
-    "studiorack/studiorack-plugin-juce/audio-plugin-example": {
-      "id": "studiorack/studiorack-plugin-juce/audio-plugin-example",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "JUCE",
-          "homepage": "juce.com",
-          "name": "Audio Plugin Example",
-          "description": "Component Controller Class",
-          "tags": [
-            "Fx"
-          ],
-          "version": "0.0.1",
-          "id": "audio-plugin-example",
-          "date": "2020-12-24T23:02:10.842Z",
-          "files": {
-            "audio": {
-              "name": "audio-plugin-example.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "audio-plugin-example.png",
-              "size": 35091
-            },
-            "linux": {
-              "name": "audio-plugin-example-linux.zip",
-              "size": 1542144
-            },
-            "mac": {
-              "name": "audio-plugin-example-mac.zip",
-              "size": 1542144
-            },
-            "win": {
-              "name": "audio-plugin-example-win.zip",
-              "size": 1542144
-            }
-          },
-          "release": "v0.0.2"
-        }
-      }
-    },
     "studiorack/studiorack-plugin-dplug/witty-audio-clip-it": {
       "id": "studiorack/studiorack-plugin-dplug/witty-audio-clip-it",
       "version": "1.0.0",
@@ -458,8 +417,49 @@
           "release": "v0.0.2"
         }
       }
+    },
+    "studiorack/studiorack-plugin-juce/audio-plugin-example": {
+      "id": "studiorack/studiorack-plugin-juce/audio-plugin-example",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "JUCE",
+          "homepage": "juce.com",
+          "name": "Audio Plugin Example",
+          "description": "Component Controller Class",
+          "tags": [
+            "Fx"
+          ],
+          "version": "0.0.1",
+          "id": "audio-plugin-example",
+          "date": "2020-12-24T23:02:10.842Z",
+          "files": {
+            "audio": {
+              "name": "audio-plugin-example.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "audio-plugin-example.png",
+              "size": 35091
+            },
+            "linux": {
+              "name": "audio-plugin-example-linux.zip",
+              "size": 1542144
+            },
+            "mac": {
+              "name": "audio-plugin-example-mac.zip",
+              "size": 1542144
+            },
+            "win": {
+              "name": "audio-plugin-example-win.zip",
+              "size": 1542144
+            }
+          },
+          "release": "v0.0.2"
+        }
+      }
     }
   },
-  "time": "2021-01-05T00:45:08.422Z",
+  "time": "2021-01-06T00:45:05.395Z",
   "total": 11
 }
