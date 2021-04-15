@@ -47,7 +47,10 @@ async function getReleases(result: any) {
       );
       pluginsJsonList.plugins.forEach((plugin: PluginInterface) => {
         // For each plugin sanitize the id and add to registry
-        const pluginId = slugify(`${result.full_name}/${plugin.id}`, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g });
+        const pluginId = slugify(`${result.full_name}/${plugin.id}`, {
+          lower: true,
+          remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g,
+        });
         const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
         console.log('plugin', pluginId, pluginVersion);
         if (!pluginPack[pluginId]) {
