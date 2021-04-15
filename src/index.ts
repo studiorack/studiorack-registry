@@ -4,7 +4,8 @@ import {
   dirCreate,
   fileJsonCreate,
   getJSON,
-  Plugin,
+  PluginInterface,
+  PluginLocal,
   PluginPack,
   validatePluginSchema,
 } from '@studiorack/core';
@@ -44,7 +45,7 @@ async function getReleases(result: any) {
       const pluginsJsonList = await getPlugins(
         `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`
       );
-      pluginsJsonList.plugins.forEach((plugin: Plugin) => {
+      pluginsJsonList.plugins.forEach((plugin: PluginInterface) => {
         // For each plugin sanitize the id and add to registry
         const pluginId = slugify(`${result.full_name}/${plugin.id}`, { lower: true, remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g });
         const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
@@ -74,10 +75,10 @@ async function getReleases(result: any) {
 
 async function getPlugins(url: string) {
   try {
-    const pluginsValid: Plugin[] = [];
+    const pluginsValid: PluginInterface[] = [];
     const pluginsJson = await getJSON(url);
-    pluginsJson.plugins.forEach((plugin: Plugin) => {
-      const error = validatePluginSchema(plugin);
+    pluginsJson.plugins.forEach((plugin: PluginInterface) => {
+      const error = validatePluginSchema(plugin as PluginLocal);
       if (error === false) {
         pluginsValid.push(plugin);
       } else {
