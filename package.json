@@ -4,7 +4,7 @@
   "description": "Audio plugin registry with searchable plugin list, metadata and download urls",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp ./src/registry.json ./dist",
     "dev": "ts-node src/index.ts",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "tslint -p tsconfig.json",
