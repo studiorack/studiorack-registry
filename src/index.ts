@@ -9,6 +9,7 @@ import {
   PluginPack,
   validatePluginSchema,
 } from '@studiorack/core';
+const registry = require('./registry.json')
 
 const DIST_PATH = './out';
 const REGISTRY_FILE = 'index.json';
@@ -16,11 +17,8 @@ const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorac
 
 async function getResults(url: string, dir: string, filename: string) {
   try {
-    const registry = {
-      objects: {},
-      time: new Date(),
-      total: 0,
-    };
+    registry.time = new Date();
+    registry.total = 0;
     const results = await getJSON(url);
     for (const result of results.items) {
       const pluginPack = await getReleases(result);
