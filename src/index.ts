@@ -1,5 +1,6 @@
 import { dirCreate, fileJsonCreate, PluginPack } from '@studiorack/core';
 import { getGithubPack } from './sources/github';
+import { getOwlplugPack } from './sources/owlplug';
 
 const DIST_PATH = './out';
 const REGISTRY_OUT = 'index.json';
@@ -26,6 +27,7 @@ async function registrySave(file: any) {
 async function run() {
   const registry = registryLoad();
   registryAdd(registry, await getGithubPack());
+  registryAdd(registry, await getOwlplugPack());
   registrySave(registry);
 }
 

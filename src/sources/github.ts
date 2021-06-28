@@ -1,12 +1,6 @@
 import * as semver from 'semver';
 import slugify from 'slugify';
-import {
-  getJSON,
-  PluginInterface,
-  PluginLocal,
-  PluginPack,
-  validatePluginSchema
-} from '@studiorack/core';
+import { getJSON, PluginInterface, PluginLocal, PluginPack, validatePluginSchema } from '@studiorack/core';
 
 const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true';
 
@@ -35,7 +29,7 @@ async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<P
           remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g,
         });
         const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
-        console.log('plugin', pluginId, pluginVersion);
+        console.log('github', pluginId, pluginVersion);
         if (!pluginPack[pluginId]) {
           pluginPack[pluginId] = {
             id: pluginId,
@@ -53,6 +47,7 @@ async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<P
       });
     }
   } catch (error) {
+    // do nothing
   }
   return pluginPack;
 }
@@ -71,6 +66,4 @@ async function getGithubPlugins(url: string) {
   return { plugins: pluginsValid };
 }
 
-export {
-  getGithubPack
-}
+export { getGithubPack };
