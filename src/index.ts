@@ -27,7 +27,7 @@ async function registrySave(file: any) {
 async function run() {
   const registry = registryLoad();
   registryAdd(registry, await getGithubPack());
-  registryAdd(registry, await getOwlplugPack());
+  // registryAdd(registry, await getOwlplugPack());
   registrySave(registry);
 }
 
