@@ -502,7 +502,7 @@
       "versions": {
         "0.0.9": {
           "author": "Matthew Tytel",
-          "date": "2021-06-28T01:14:53.412Z",
+          "date": "2021-06-29T00:29:16.608Z",
           "description": "A free polyphonic synth with lots of modulation",
           "homepage": "https://tytel.org/helm/",
           "id": "helm",
@@ -544,7 +544,7 @@
       "versions": {
         "0.1.0": {
           "author": "QUL of TU-Berlin",
-          "date": "2021-06-28T01:14:53.412Z",
+          "date": "2021-06-29T00:29:16.609Z",
           "description": "A substractive software synthesizer",
           "homepage": "https://the-synister.github.io/",
           "id": "synister",
@@ -586,7 +586,7 @@
       "versions": {
         "1.0.0": {
           "author": "Pascal Gauthier",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.609Z",
           "description": "Synthesizer closely modeled on the Yamaha DX7",
           "homepage": "http://asb2m10.github.io/dexed/",
           "id": "dexed",
@@ -628,7 +628,7 @@
       "versions": {
         "4.2.0": {
           "author": "Tunefish Synth",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.609Z",
           "description": "Tiny virtual analog synthesizer",
           "homepage": "https://www.tunefish-synth.com/",
           "id": "tunefish4",
@@ -671,7 +671,7 @@
       "versions": {
         "0.1.4": {
           "author": "discoDSP",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Emulation of famous OB-X, OB-Xa and OB-8 synths\n\nOB-Xd is based on the Oberheim OB-X. It attempts to recreate its sound and behavior, but as the original was very limited in some important ways a number of things were added or altered to the original design.\nThe OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound. However, it was not designed as a self-contained completely independent soft-synth. It needs to be contained within a VST framework where things like transposition, automation, layering, arpeggiation, etc., are available. Also, like many synths of the OB-X's generation, the OB-Xd has no internal effects so its sounds and textures can be greatly enhanced by the use of additional processing like chorus, reverb, delay, etc.",
           "homepage": "https://obxd.wordpress.com/",
           "id": "obxd",
@@ -714,7 +714,7 @@
       "versions": {
         "0.0.0": {
           "author": "tesselode",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Mika Micro is a subtractive synthesizer plugin that aims to be fun and expressive with a minimal set of controls.\n\n - 2 oscillators with 6 waveforms and split knobs\n - Simple FM functionality \n - 12dB resonant low pass filter \n - 8 voice polyphony and mono/legato modes",
           "homepage": "https://tesselode.itch.io/mika-micro",
           "id": "mikamicro",
@@ -756,7 +756,7 @@
       "versions": {
         "0.0.0": {
           "author": "tesselode",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Cocoa Delay is a free, open-source delay plugin in VST format. It focuses on clean design, easy operation, and a warm, lively sound.\n\n - Delay time drift, for giving the wet signal a slight wow/flutter effect\n - Adjustable wet level ducking based on the input signal\n - Static, ping-pong, and circular pan modes \n - Drive section based on open-source Airwindows saturation code",
           "homepage": "https://tesselode.itch.io/cocoa-delay",
           "id": "cocoadelay",
@@ -798,7 +798,7 @@
       "versions": {
         "0.0.0": {
           "author": "tesselode",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Flutterbird is a free, open-source effect plugin for adding pitch and volume fluctuation to incoming audio. It can be used for traditional wow/flutter effects as well as more chaotic, extreme modulation. Flutterbird has four separate oscillators with adjustable speeds that can be mapped to either pitch or volume.",
           "homepage": "https://tesselode.itch.io/flutterbird",
           "id": "flutterbird",
@@ -840,7 +840,7 @@
       "versions": {
         "0.0.0": {
           "author": "Daniel Rothmann",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Roth-AIR is a mixing tool for easily adding airy, crispy presence to your audio. \n\nThis is achieved by a combination of multiband compression and gentle saturation of the highs. It enables for a stronger, more consistent presence of high frequency material and works particularly well with vocals, synths and strings.\n\nThe process is made easy by a simple user interface, automatic makeup gain and a combined function 'AIR' knob. \n\nRoth-AIR is available for free in 32-bit and 64-bit as VST and AU (OS X only) plugins for Windows and Mac.",
           "homepage": "http://www.danielrothmann.com/",
           "id": "rothair",
@@ -883,7 +883,7 @@
       "versions": {
         "0.0.0": {
           "author": "Teragon Audio",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "KickMaker is a synthesizer designed specifically to create good kick drum sounds. It uses four independent oscillators and a wide range of effects, allowing one to create perfectly customized beats.",
           "homepage": "http://teragonaudio.com/KickMaker.html",
           "id": "kickmaker",
@@ -926,7 +926,7 @@
       "versions": {
         "0.0.0": {
           "author": "Artem Popov",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "homepage": "https://artfwo.github.io/andes/",
           "id": "andes",
@@ -968,7 +968,7 @@
       "versions": {
         "0.0.0": {
           "author": "PentagramPro",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "OwlBass is an additive single voice bass synthesizer",
           "homepage": "https://github.com/PentagramPro/OwlBass",
           "id": "owlbass",
@@ -1011,7 +1011,7 @@
       "versions": {
         "2.5.4": {
           "author": "Martin Zuther",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Flexible general-purpose audio compressor with a touch of citrus.\n\nSqueezer is different from all the compressors I know: its knobs are stepped to fine-tuned preset values, but can be changed to continuous values by clicking a small orange light located next to them. This allows you to find nice settings fast while not preventing optimisation of settings.",
           "homepage": "https://github.com/mzuther/Squeezer",
           "id": "squeezer",
@@ -1053,7 +1053,7 @@
       "versions": {
         "2.4.6": {
           "author": "Martin Zuther",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Loudness meter for correctly setting up tracking and mixing levels",
           "homepage": "https://github.com/mzuther/traKmeter",
           "id": "trakmeter",
@@ -1095,7 +1095,7 @@
       "versions": {
         "0.0.0": {
           "author": "Patrick Desaulniers",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Wolf Shaper is a waveshaper plugin with a graph editor. It can be built as an LV2, DSSI or VST plugin and as a standalone Jack application.",
           "homepage": "https://pdesaulniers.github.io/wolf-shaper/",
           "id": "wolfshaper",
@@ -1137,7 +1137,7 @@
       "versions": {
         "3.0.0": {
           "author": "Michael Willis",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
           "id": "dragonflyreverb",
@@ -1179,7 +1179,7 @@
       "versions": {
         "1.0.1": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.610Z",
           "description": "Mono or Stereo Compressor\nSoft knee\nCool visualization\nFree\nWindows VST 32/64\nMac VST/AU 64",
           "homepage": "https://socalabs.com/effects/compressor/",
           "id": "compressor",
@@ -1221,7 +1221,7 @@
       "versions": {
         "1.0.0": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Stereo delay\nTime or tempo sync\nFeedback and cross channel feedback\n120 seconds maximum delay\nFree\nWindows VST 32/64\nMac VST/AU 64\n",
           "homepage": "https://socalabs.com/effects/delay/",
           "id": "delay",
@@ -1263,7 +1263,7 @@
       "versions": {
         "1.0.1": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Based on Mverb by Martin Eastwood Audio\nStudio quality, open-source reverb. Its release is intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.\nMartin Eastwood’s version of this plugin is no longer updated, this is simply a 64 bit update of his plugin with the standard SocaLabs UI.\nFree\nWindows VST 32/64\nMac VST/AU 64\nLinux VST 64\n",
           "homepage": "https://socalabs.com/effects/mverb2020/",
           "id": "mverb2020",
@@ -1305,7 +1305,7 @@
       "versions": {
         "1.0.4": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Emulates hardware of Nintendo Gameboy\n2 Square wave channels\nSweeps on first square wave channel\n1 Noise channel\nWaveform display\nStereo output\nFree / Open Source\nWindows VST 32/64\nMac VST/AU 32/64\n",
           "homepage": "https://socalabs.com/synths/papu/",
           "id": "papu",
@@ -1347,7 +1347,7 @@
       "versions": {
         "1.0.9": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.413Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Emulates Ricoh 2A03 of the NTSC Nintendo Entertainment System\n2 Square wave channels\n1 Triangle wave channel\n1 Noise channel\nWaveform displayFree / Open Source\nWindows VST 32/64\nMac VST/AU 64\n",
           "homepage": "https://socalabs.com/synths/rp2a03/",
           "id": "rp2a03",
@@ -1389,7 +1389,7 @@
       "versions": {
         "1.0.0": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.414Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Mono or Stereo delay\nDelay in samples or ms\nFree\nWindows VST 32/64\nMac VST/AU 64\n",
           "homepage": "https://socalabs.com/effects/sampledelay/",
           "id": "sampledelay",
@@ -1431,7 +1431,7 @@
       "versions": {
         "1.0.0": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.414Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Retro style sound effects – coin, laser, explosion, power up, jump & more\nInspired by the sounds of the sounds of NES\n32 parameters per sounds effect\n9 waves: square, saw, sine, noise, triangle, pink, tan, whistle, breaker\n16 pads\nMutate existing sounds\nBased on SFXR & BFXR. Audio engine is open source.\nWindows VST 32/64\nMac VST/AU 32/64\n",
           "homepage": "https://socalabs.com/synths/sfx8/",
           "id": "sfx8",
@@ -1473,7 +1473,7 @@
       "versions": {
         "1.0.5": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.414Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Emulates MOS Technology SID of the Commodore 64\n3 Oscillators\n4 wave shapes: Square, Triangle, Saw, Noise\nADSR per oscillator\nRing modulation (replaces triangle output) and hard sync between oscillators\nHP, BP, LP filters\nFree / Open Source\nWindows VST 32/64\nMac VST/AU 32/64\n",
           "homepage": "https://socalabs.com/synths/sid/",
           "id": "sid",
@@ -1515,7 +1515,7 @@
       "versions": {
         "1.0.4": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.414Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Emulates Texas Instruments SN76489 of the Sega Master System and other consoles\n3 Square wave channels\n3 Note polyphony\n1 Noise channel with 2 types\nWaveform display\nFree / Open Source\nWindows VST 32/64\nMac VST/AU 32/64\n",
           "homepage": "https://socalabs.com/synths/sn76489/",
           "id": "sn76489",
@@ -1557,7 +1557,7 @@
       "versions": {
         "1.0.4": {
           "author": "Socalabs",
-          "date": "2021-06-28T01:14:53.414Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "Emulates glottis and shape of vocal tract\nConstrict oral cavity to change sound\nWaveform display\nFree / Open Source\nWindows VST 32/64\nMac VST/AU 32/64",
           "homepage": "https://socalabs.com/synths/voc-vocal-synth/",
           "id": "voc",
@@ -1599,7 +1599,7 @@
       "versions": {
         "2.3.0": {
           "author": "Dropsnorz",
-          "date": "2021-06-28T01:14:53.414Z",
+          "date": "2021-06-29T00:29:16.611Z",
           "description": "A frequency filter with LFO modulation",
           "homepage": "https://github.com/dropsnorz/wobbleizer",
           "id": "wobbleizer",
@@ -1637,6 +1637,6 @@
       }
     }
   },
-  "time": "2021-06-28T01:14:50.974Z",
+  "time": "2021-06-29T00:29:12.718Z",
   "total": 38
 }
