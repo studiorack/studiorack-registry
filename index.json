@@ -42,46 +42,133 @@
         }
       }
     },
-    "studiorack/plugin-andes/andes": {
-      "id": "studiorack/plugin-andes/andes",
-      "version": "0.2.0",
+    "studiorack/plugin-tunefish/tunefish": {
+      "id": "studiorack/plugin-tunefish/tunefish",
+      "version": "4.0.0",
       "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
+            "Analog",
+            "Synth"
           ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
+              "name": "tunefish.wav",
+              "size": 352844
             },
             "image": {
-              "name": "andes.png",
-              "size": 33884
+              "name": "tunefish.png",
+              "size": 955860
             },
             "linux": {
-              "name": "andes-linux.zip",
-              "size": 6073667
+              "name": "tunefish-linux.zip",
+              "size": 3569540
             },
             "mac": {
-              "name": "andes-mac.zip",
-              "size": 3463564
+              "name": "tunefish-mac.zip",
+              "size": 6443515
             },
             "win": {
-              "name": "andes-win.zip",
-              "size": 5229715
+              "name": "tunefish-win.zip",
+              "size": 4147020
             }
           },
-          "release": "v0.2.0"
+          "release": "v4.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-digits/digits": {
+      "id": "studiorack/plugin-digits/digits",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Bass",
+            "Synth",
+            "Casio",
+            "Pad",
+            "Lead"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 347224
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2301101
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0"
+        }
+      }
+    },
+    "studiorack/plugin-oxe/oxe": {
+      "id": "studiorack/plugin-oxe/oxe",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "FM",
+            "Synth",
+            "LFO"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
         }
       }
     },
@@ -128,86 +215,46 @@
         }
       }
     },
-    "studiorack/plugin-tunefish/tunefish": {
-      "id": "studiorack/plugin-tunefish/tunefish",
-      "version": "4.0.0",
+    "studiorack/plugin-andes/andes": {
+      "id": "studiorack/plugin-andes/andes",
+      "version": "0.2.0",
       "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "tags": [
-            "Analog",
-            "Synth"
+            "Synth",
+            "Oscillator",
+            "Perlin"
           ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
+              "name": "andes.wav",
+              "size": 429902
             },
             "image": {
-              "name": "tunefish.png",
-              "size": 955860
+              "name": "andes.png",
+              "size": 33884
             },
             "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
+              "name": "andes-linux.zip",
+              "size": 6073667
             },
             "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
+              "name": "andes-mac.zip",
+              "size": 3463564
             },
             "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
+              "name": "andes-win.zip",
+              "size": 5229715
             }
           },
-          "release": "v4.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-mverb/mverb": {
-      "id": "studiorack/plugin-mverb/mverb",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.wav",
-              "size": 126798
-            },
-            "image": {
-              "name": "mverb.png",
-              "size": 398787
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0"
+          "release": "v0.2.0"
         }
       }
     },
@@ -254,47 +301,44 @@
         }
       }
     },
-    "studiorack/plugin-hybridreverb2/hybridreverb2": {
-      "id": "studiorack/plugin-hybridreverb2/hybridreverb2",
-      "version": "2.2.0",
+    "studiorack/plugin-mverb/mverb": {
+      "id": "studiorack/plugin-mverb/mverb",
+      "version": "1.0.0",
       "versions": {
-        "2.2.0": {
-          "author": "Christian Borß",
-          "homepage": "https://github.com/jpcima/HybridReverb2",
-          "name": "HybridReverb2",
-          "description": "Convolution-based reverberation effect which combines the superior sound quality of a convolution reverb with the tuning capability of a feedback delay network.",
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
           "tags": [
-            "Amp",
-            "Delay",
-            "Equalizer",
             "Reverb"
           ],
-          "version": "2.2.0",
-          "id": "hybridreverb2",
-          "date": "2020-11-25T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "hybridreverb2.wav",
-              "size": 347982
+              "name": "mverb.wav",
+              "size": 126798
             },
             "image": {
-              "name": "hybridreverb2.png",
-              "size": 402926
+              "name": "mverb.png",
+              "size": 398787
             },
             "linux": {
-              "name": "hybridreverb2-linux.deb",
-              "size": 13339962
+              "name": "mverb-linux.zip",
+              "size": 188933
             },
             "mac": {
-              "name": "hybridreverb2-mac.dmg",
-              "size": 15226334
+              "name": "mverb-mac.zip",
+              "size": 674694
             },
             "win": {
-              "name": "hybridreverb2-win.exe",
-              "size": 3579192
+              "name": "mverb-win.zip",
+              "size": 283901
             }
           },
-          "release": "v2.2.0"
+          "release": "v1.0.0"
         }
       }
     },
@@ -341,8 +385,52 @@
           "release": "v3.2.5"
         }
       }
+    },
+    "studiorack/plugin-hybridreverb2/hybridreverb2": {
+      "id": "studiorack/plugin-hybridreverb2/hybridreverb2",
+      "version": "2.2.0",
+      "versions": {
+        "2.2.0": {
+          "author": "Christian Borß",
+          "homepage": "https://github.com/jpcima/HybridReverb2",
+          "name": "HybridReverb2",
+          "description": "Convolution-based reverberation effect which combines the superior sound quality of a convolution reverb with the tuning capability of a feedback delay network.",
+          "tags": [
+            "Amp",
+            "Delay",
+            "Equalizer",
+            "Reverb"
+          ],
+          "version": "2.2.0",
+          "id": "hybridreverb2",
+          "date": "2020-11-25T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "hybridreverb2.wav",
+              "size": 347982
+            },
+            "image": {
+              "name": "hybridreverb2.png",
+              "size": 402926
+            },
+            "linux": {
+              "name": "hybridreverb2-linux.deb",
+              "size": 13339962
+            },
+            "mac": {
+              "name": "hybridreverb2-mac.dmg",
+              "size": 15226334
+            },
+            "win": {
+              "name": "hybridreverb2-win.exe",
+              "size": 3579192
+            }
+          },
+          "release": "v2.2.0"
+        }
+      }
     }
   },
-  "time": "2021-07-03T00:29:28.092Z",
-  "total": 8
+  "time": "2021-07-03T02:45:01.762Z",
+  "total": 10
 }
