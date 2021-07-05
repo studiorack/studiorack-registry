@@ -42,222 +42,6 @@
         }
       }
     },
-    "studiorack/plugin-andes/andes": {
-      "id": "studiorack/plugin-andes/andes",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6073667
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 3463564
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 5229715
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-dexed/dexed": {
-      "id": "studiorack/plugin-dexed/dexed",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Synth",
-            "FM",
-            "DX7"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 640646
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6313200
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9125209
-            },
-            "win": {
-              "name": "dexed-win.zip",
-              "size": 3412947
-            }
-          },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/plugin-oxe/oxe": {
-      "id": "studiorack/plugin-oxe/oxe",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "FM",
-            "Synth",
-            "LFO"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 588512
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 16539251
-            },
-            "mac": {
-              "name": "helm-mac.pkg",
-              "size": 17258268
-            },
-            "win": {
-              "name": "helm-win.zip",
-              "size": 18105982
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
-    "studiorack/plugin-digits/digits": {
-      "id": "studiorack/plugin-digits/digits",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Bass",
-            "Synth",
-            "Casio",
-            "Pad",
-            "Lead"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.wav",
-              "size": 134990
-            },
-            "image": {
-              "name": "digits.png",
-              "size": 97572
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 347224
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2301101
-            },
-            "win": {
-              "name": "digits-win.exe",
-              "size": 669291
-            }
-          },
-          "release": "v2.1.0"
-        }
-      }
-    },
     "studiorack/plugin-tunefish/tunefish": {
       "id": "studiorack/plugin-tunefish/tunefish",
       "version": "4.0.0",
@@ -381,6 +165,222 @@
             }
           },
           "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/plugin-oxe/oxe": {
+      "id": "studiorack/plugin-oxe/oxe",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "FM",
+            "Synth",
+            "LFO"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/plugin-digits/digits": {
+      "id": "studiorack/plugin-digits/digits",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Bass",
+            "Synth",
+            "Casio",
+            "Pad",
+            "Lead"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 347224
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2301101
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0"
+        }
+      }
+    },
+    "studiorack/plugin-dexed/dexed": {
+      "id": "studiorack/plugin-dexed/dexed",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Synth",
+            "FM",
+            "DX7"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dexed.png",
+              "size": 640646
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6313200
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9125209
+            },
+            "win": {
+              "name": "dexed-win.zip",
+              "size": 3412947
+            }
+          },
+          "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/plugin-andes/andes": {
+      "id": "studiorack/plugin-andes/andes",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Perlin"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6073667
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 3463564
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 5229715
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 588512
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 16539251
+            },
+            "mac": {
+              "name": "helm-mac.pkg",
+              "size": 17258268
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 18105982
+            }
+          },
+          "release": "v0.9.0"
         }
       }
     },
@@ -686,6 +686,6 @@
       }
     }
   },
-  "time": "2021-07-04T18:20:43.582Z",
+  "time": "2021-07-05T00:27:14.814Z",
   "total": 16
 }
