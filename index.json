@@ -42,49 +42,6 @@
         }
       }
     },
-    "studiorack/plugin-dexed/dexed": {
-      "id": "studiorack/plugin-dexed/dexed",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Synth",
-            "FM",
-            "DX7"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 640646
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6313200
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9125209
-            },
-            "win": {
-              "name": "dexed-win.zip",
-              "size": 3412947
-            }
-          },
-          "release": "v0.9.6"
-        }
-      }
-    },
     "studiorack/plugin-andes/andes": {
       "id": "studiorack/plugin-andes/andes",
       "version": "0.2.0",
@@ -128,130 +85,46 @@
         }
       }
     },
-    "studiorack/plugin-adlplug/adlplug": {
-      "id": "studiorack/plugin-adlplug/adlplug",
-      "version": "1.0.2",
+    "studiorack/plugin-dexed/dexed": {
+      "id": "studiorack/plugin-dexed/dexed",
+      "version": "0.9.6",
       "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
           "tags": [
             "Synth",
-            "FM"
+            "FM",
+            "DX7"
           ],
-          "version": "1.0.2",
-          "id": "adlplug",
-          "date": "2020-08-05T08:00:00.000Z",
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "adlplug.wav",
+              "name": "dexed.wav",
               "size": 352844
             },
             "image": {
-              "name": "adlplug.png",
-              "size": 1164065
+              "name": "dexed.png",
+              "size": 640646
             },
             "linux": {
-              "name": "adlplug-linux.deb",
-              "size": 3822930
+              "name": "dexed-linux.zip",
+              "size": 6313200
             },
             "mac": {
-              "name": "adlplug-mac.zip",
-              "size": 33559381
+              "name": "dexed-mac.zip",
+              "size": 9125209
             },
             "win": {
-              "name": "adlplug-win.zip",
-              "size": 24836573
+              "name": "dexed-win.zip",
+              "size": 3412947
             }
           },
-          "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/plugin-adlplug/opnplug": {
-      "id": "studiorack/plugin-adlplug/opnplug",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "opnplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "opnplug.png",
-              "size": 1222713
-            },
-            "linux": {
-              "name": "opnplug-linux.deb",
-              "size": 3876232
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 33998759
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25024236
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 115844
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3657547
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5258069
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4706043
-            }
-          },
-          "release": "v2.4.0"
+          "release": "v0.9.6"
         }
       }
     },
@@ -340,6 +213,92 @@
         }
       }
     },
+    "studiorack/plugin-oxe/oxe": {
+      "id": "studiorack/plugin-oxe/oxe",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "FM",
+            "Synth",
+            "LFO"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 115844
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3657547
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5258069
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4706043
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
     "studiorack/plugin-tunefish/tunefish": {
       "id": "studiorack/plugin-tunefish/tunefish",
       "version": "4.0.0",
@@ -382,46 +341,87 @@
         }
       }
     },
-    "studiorack/plugin-oxe/oxe": {
-      "id": "studiorack/plugin-oxe/oxe",
-      "version": "1.3.5",
+    "studiorack/plugin-adlplug/adlplug": {
+      "id": "studiorack/plugin-adlplug/adlplug",
+      "version": "1.0.2",
       "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
           "tags": [
-            "FM",
             "Synth",
-            "LFO"
+            "FM"
           ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
+          "version": "1.0.2",
+          "id": "adlplug",
+          "date": "2020-08-05T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "oxe.wav",
+              "name": "adlplug.wav",
               "size": 352844
             },
             "image": {
-              "name": "oxe.png",
-              "size": 98712
+              "name": "adlplug.png",
+              "size": 1164065
             },
             "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
+              "name": "adlplug-linux.deb",
+              "size": 3822930
             },
             "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
+              "name": "adlplug-mac.zip",
+              "size": 33559381
             },
             "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
+              "name": "adlplug-win.zip",
+              "size": 24836573
             }
           },
-          "release": "v1.3.5"
+          "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/plugin-adlplug/opnplug": {
+      "id": "studiorack/plugin-adlplug/opnplug",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "OPNplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "opnplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opnplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "opnplug.png",
+              "size": 1222713
+            },
+            "linux": {
+              "name": "opnplug-linux.deb",
+              "size": 3876232
+            },
+            "mac": {
+              "name": "opnplug-mac.zip",
+              "size": 33998759
+            },
+            "win": {
+              "name": "opnplug-win.zip",
+              "size": 25024236
+            }
+          },
+          "release": "v1.0.2"
         }
       }
     },
@@ -642,50 +642,6 @@
         }
       }
     },
-    "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Plate",
-            "Reverb",
-            "Reflection",
-            "Room"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 361839
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
-            }
-          },
-          "release": "v3.2.5"
-        }
-      }
-    },
     "studiorack/plugin-hybridreverb2/hybridreverb2": {
       "id": "studiorack/plugin-hybridreverb2/hybridreverb2",
       "version": "2.2.0",
@@ -727,6 +683,50 @@
             }
           },
           "release": "v2.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
+      "version": "3.2.5",
+      "versions": {
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+          "tags": [
+            "Plate",
+            "Reverb",
+            "Reflection",
+            "Room"
+          ],
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dragonfly-reverb.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dragonfly-reverb.png",
+              "size": 361839
+            },
+            "linux": {
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
+            },
+            "mac": {
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
+            },
+            "win": {
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
+            }
+          },
+          "release": "v3.2.5"
         }
       }
     },
@@ -812,8 +812,51 @@
           "release": "v2.4.0"
         }
       }
+    },
+    "studiorack/plugin-smartguitaramp/smartguitaramp": {
+      "id": "studiorack/plugin-smartguitaramp/smartguitaramp",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Amp",
+            "Guitar",
+            "Effect"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "smartguitaramp.png",
+              "size": 1259192
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.dmg",
+              "size": 7104181
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
     }
   },
-  "time": "2021-07-05T05:11:09.252Z",
-  "total": 19
+  "time": "2021-07-05T05:48:46.708Z",
+  "total": 20
 }
