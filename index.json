@@ -42,131 +42,45 @@
         }
       }
     },
-    "studiorack/plugin-andes/andes": {
-      "id": "studiorack/plugin-andes/andes",
-      "version": "0.2.0",
+    "studiorack/plugin-tunefish/tunefish": {
+      "id": "studiorack/plugin-tunefish/tunefish",
+      "version": "4.0.0",
       "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
+            "Analog",
+            "Synth"
           ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6073667
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 3463564
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 5229715
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-dexed/dexed": {
-      "id": "studiorack/plugin-dexed/dexed",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Synth",
-            "FM",
-            "DX7"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
+              "name": "tunefish.wav",
               "size": 352844
             },
             "image": {
-              "name": "dexed.png",
-              "size": 640646
+              "name": "tunefish.png",
+              "size": 955860
             },
             "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6313200
+              "name": "tunefish-linux.zip",
+              "size": 3569540
             },
             "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9125209
+              "name": "tunefish-mac.zip",
+              "size": 6443515
             },
             "win": {
-              "name": "dexed-win.zip",
-              "size": 3412947
+              "name": "tunefish-win.zip",
+              "size": 4147020
             }
           },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 588512
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 16539251
-            },
-            "mac": {
-              "name": "helm-mac.pkg",
-              "size": 17258268
-            },
-            "win": {
-              "name": "helm-win.zip",
-              "size": 18105982
-            }
-          },
-          "release": "v0.9.0"
+          "release": "v4.2.0"
         }
       }
     },
@@ -256,91 +170,6 @@
         }
       }
     },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 115844
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3657547
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5258069
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4706043
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/plugin-tunefish/tunefish": {
-      "id": "studiorack/plugin-tunefish/tunefish",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Analog",
-            "Synth"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "tunefish.png",
-              "size": 955860
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0"
-        }
-      }
-    },
     "studiorack/plugin-adlplug/adlplug": {
       "id": "studiorack/plugin-adlplug/adlplug",
       "version": "1.0.2",
@@ -425,90 +254,174 @@
         }
       }
     },
-    "studiorack/plugin-odin/odin": {
-      "id": "studiorack/plugin-odin/odin",
-      "version": "2.2.4",
+    "studiorack/plugin-dexed/dexed": {
+      "id": "studiorack/plugin-dexed/dexed",
+      "version": "0.9.6",
       "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
           "tags": [
             "Synth",
-            "Moog",
-            "Korg"
+            "FM",
+            "DX7"
           ],
-          "version": "2.2.4",
-          "id": "odin",
-          "date": "2020-10-24T08:00:00.000Z",
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "odin.wav",
+              "name": "dexed.wav",
               "size": 352844
             },
             "image": {
-              "name": "odin.png",
-              "size": 1633943
+              "name": "dexed.png",
+              "size": 640646
             },
             "linux": {
-              "name": "odin-linux.zip",
-              "size": 91666024
+              "name": "dexed-linux.zip",
+              "size": 6313200
             },
             "mac": {
-              "name": "odin-mac.pkg",
-              "size": 79357847
+              "name": "dexed-mac.zip",
+              "size": 9125209
             },
             "win": {
-              "name": "odin-win.zip",
-              "size": 46173771
+              "name": "dexed-win.zip",
+              "size": 3412947
             }
           },
-          "release": "v2.2.4"
+          "release": "v0.9.6"
         }
       }
     },
-    "studiorack/plugin-chow-matrix/chow-matrix": {
-      "id": "studiorack/plugin-chow-matrix/chow-matrix",
-      "version": "1.2.0",
+    "studiorack/plugin-andes/andes": {
+      "id": "studiorack/plugin-andes/andes",
+      "version": "0.2.0",
       "versions": {
-        "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "tags": [
-            "Delay",
-            "Feedback",
-            "Pan",
-            "Distortion"
+            "Synth",
+            "Oscillator",
+            "Perlin"
           ],
-          "version": "1.2.0",
-          "id": "chow-matrix",
-          "date": "2021-04-23T08:00:00.000Z",
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-matrix.wav",
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6073667
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 3463564
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 5229715
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
               "size": 352844
             },
             "image": {
-              "name": "chow-matrix.png",
-              "size": 181814
+              "name": "ep-mk1.png",
+              "size": 115844
             },
             "linux": {
-              "name": "chow-matrix-linux.deb",
-              "size": 10315384
+              "name": "ep-mk1-linux.zip",
+              "size": 3657547
             },
             "mac": {
-              "name": "chow-matrix-mac.dmg",
-              "size": 14587419
+              "name": "ep-mk1-mac.zip",
+              "size": 5258069
             },
             "win": {
-              "name": "chow-matrix-win.exe",
-              "size": 7728493
+              "name": "ep-mk1-win.zip",
+              "size": 4706043
             }
           },
-          "release": "v1.2.0"
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 588512
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 16539251
+            },
+            "mac": {
+              "name": "helm-mac.pkg",
+              "size": 17258268
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 18105982
+            }
+          },
+          "release": "v0.9.0"
         }
       }
     },
@@ -596,6 +509,93 @@
             }
           },
           "release": "v2.8.0"
+        }
+      }
+    },
+    "studiorack/plugin-chow-matrix/chow-matrix": {
+      "id": "studiorack/plugin-chow-matrix/chow-matrix",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
+          "name": "CHOW Matrix",
+          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+          "tags": [
+            "Delay",
+            "Feedback",
+            "Pan",
+            "Distortion"
+          ],
+          "version": "1.2.0",
+          "id": "chow-matrix",
+          "date": "2021-04-23T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-matrix.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "chow-matrix.png",
+              "size": 181814
+            },
+            "linux": {
+              "name": "chow-matrix-linux.deb",
+              "size": 10315384
+            },
+            "mac": {
+              "name": "chow-matrix-mac.dmg",
+              "size": 14587419
+            },
+            "win": {
+              "name": "chow-matrix-win.exe",
+              "size": 7728493
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-odin/odin": {
+      "id": "studiorack/plugin-odin/odin",
+      "version": "2.2.4",
+      "versions": {
+        "2.2.4": {
+          "author": "TheWaveWarden",
+          "homepage": "https://github.com/TheWaveWarden/odin2",
+          "name": "Odin",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+          "tags": [
+            "Synth",
+            "Moog",
+            "Korg"
+          ],
+          "version": "2.2.4",
+          "id": "odin",
+          "date": "2020-10-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "odin.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "odin.png",
+              "size": 1633943
+            },
+            "linux": {
+              "name": "odin-linux.zip",
+              "size": 91666024
+            },
+            "mac": {
+              "name": "odin-mac.pkg",
+              "size": 79357847
+            },
+            "win": {
+              "name": "odin-win.zip",
+              "size": 46173771
+            }
+          },
+          "release": "v2.2.4"
         }
       }
     },
@@ -857,6 +857,6 @@
       }
     }
   },
-  "time": "2021-07-05T05:48:46.708Z",
+  "time": "2021-07-06T00:30:19.137Z",
   "total": 20
 }
