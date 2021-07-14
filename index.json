@@ -42,49 +42,6 @@
         }
       }
     },
-    "studiorack/plugin-andes/andes": {
-      "id": "studiorack/plugin-andes/andes",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6073667
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 3463564
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 5229715
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
     "studiorack/plugin-dexed/dexed": {
       "id": "studiorack/plugin-dexed/dexed",
       "version": "0.9.6",
@@ -125,6 +82,49 @@
             }
           },
           "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/plugin-andes/andes": {
+      "id": "studiorack/plugin-andes/andes",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Perlin"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6073667
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 3463564
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 5229715
+            }
+          },
+          "release": "v0.2.0"
         }
       }
     },
@@ -340,6 +340,49 @@
         }
       }
     },
+    "studiorack/plugin-modeq/modeq": {
+      "id": "studiorack/plugin-modeq/modeq",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "EQ",
+            "Effect",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
+        }
+      }
+    },
     "studiorack/plugin-nekobi/nekobi": {
       "id": "studiorack/plugin-nekobi/nekobi",
       "version": "1.0.0",
@@ -381,49 +424,6 @@
             }
           },
           "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/plugin-modeq/modeq": {
-      "id": "studiorack/plugin-modeq/modeq",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
         }
       }
     },
@@ -774,6 +774,132 @@
         }
       }
     },
+    "studiorack/plugin-smartguitaramp/smartguitaramp": {
+      "id": "studiorack/plugin-smartguitaramp/smartguitaramp",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Amp",
+            "Guitar",
+            "Effect"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "smartguitaramp.png",
+              "size": 1259192
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.dmg",
+              "size": 7104181
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-mverb/mverb": {
+      "id": "studiorack/plugin-mverb/mverb",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.wav",
+              "size": 126798
+            },
+            "image": {
+              "name": "mverb.png",
+              "size": 398787
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/plugin-obxd/obxd": {
+      "id": "studiorack/plugin-obxd/obxd",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "OB-X",
+            "Synth"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "obxd.png",
+              "size": 1633943
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 24493535
+            },
+            "win": {
+              "name": "obxd-win.exe",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
     "studiorack/plugin-surge/surge": {
       "id": "studiorack/plugin-surge/surge",
       "version": "1.9.0",
@@ -939,134 +1065,8 @@
           "release": "v1.0.0"
         }
       }
-    },
-    "studiorack/plugin-smartguitaramp/smartguitaramp": {
-      "id": "studiorack/plugin-smartguitaramp/smartguitaramp",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Amp",
-            "Guitar",
-            "Effect"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "smartguitaramp.png",
-              "size": 1259192
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.dmg",
-              "size": 7104181
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-mverb/mverb": {
-      "id": "studiorack/plugin-mverb/mverb",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.wav",
-              "size": 126798
-            },
-            "image": {
-              "name": "mverb.png",
-              "size": 398787
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/plugin-obxd/obxd": {
-      "id": "studiorack/plugin-obxd/obxd",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "OB-X",
-            "Synth"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "obxd.png",
-              "size": 1633943
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 24493535
-            },
-            "win": {
-              "name": "obxd-win.exe",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
     }
   },
-  "time": "2021-07-13T00:31:23.472Z",
+  "time": "2021-07-14T00:27:27.611Z",
   "total": 25
 }
