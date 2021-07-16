@@ -33,6 +33,7 @@ async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<P
         if (!pluginPack[pluginId]) {
           pluginPack[pluginId] = {
             id: pluginId,
+            license: result.license.key,
             version: pluginVersion,
             versions: {},
           };

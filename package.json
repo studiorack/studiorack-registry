@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/studiorack/studiorack-registry#readme",
   "dependencies": {
-    "@studiorack/core": "^1.0.6",
+    "@studiorack/core": "^1.0.35",
     "@types/semver": "^7.3.4",
     "semver": "^7.3.4",
     "slugify": "^1.4.6"

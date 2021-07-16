@@ -75,6 +75,7 @@ async function getOwlplugPack(): Promise<PluginPack> {
     if (!pluginPack[pluginId]) {
       pluginPack[pluginId] = {
         id: pluginId,
+        license: '',
         version: pluginVersion,
         versions: {},
       };
