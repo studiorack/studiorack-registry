@@ -1,45 +1,46 @@
 {
   "objects": {
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
+    "studiorack/plugin-dexed/dexed": {
+      "id": "studiorack/plugin-dexed/dexed",
       "license": "gpl-3.0",
-      "version": "0.9.0",
+      "version": "0.9.6",
       "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
           "tags": [
             "Synth",
-            "Modulation"
+            "FM",
+            "DX7"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.wav",
+              "name": "dexed.wav",
               "size": 352844
             },
             "image": {
-              "name": "helm.png",
-              "size": 588512
+              "name": "dexed.png",
+              "size": 450543
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 16539251
+              "name": "dexed-linux.zip",
+              "size": 6296573
             },
             "mac": {
-              "name": "helm-mac.pkg",
-              "size": 17258268
+              "name": "dexed-mac.zip",
+              "size": 9146576
             },
             "win": {
-              "name": "helm-win.zip",
-              "size": 18105982
+              "name": "dexed-win.exe",
+              "size": 3927579
             }
           },
-          "release": "v0.9.0"
+          "release": "v0.9.6"
         }
       }
     },
@@ -87,50 +88,6 @@
         }
       }
     },
-    "studiorack/plugin-modeq/modeq": {
-      "id": "studiorack/plugin-modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
     "studiorack/plugin-oxe/oxe": {
       "id": "studiorack/plugin-oxe/oxe",
       "license": "gpl-3.0",
@@ -175,47 +132,47 @@
         }
       }
     },
-    "studiorack/plugin-dexed/dexed": {
-      "id": "studiorack/plugin-dexed/dexed",
+    "studiorack/plugin-modeq/modeq": {
+      "id": "studiorack/plugin-modeq/modeq",
       "license": "gpl-3.0",
-      "version": "0.9.6",
+      "version": "0.4.0",
       "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "Synth",
-            "FM",
-            "DX7"
+            "EQ",
+            "Effect",
+            "Modulation"
           ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dexed.wav",
+              "name": "modeq.wav",
               "size": 352844
             },
             "image": {
-              "name": "dexed.png",
-              "size": 640646
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6313200
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9125209
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "dexed-win.zip",
-              "size": 3412947
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v0.9.6"
+          "release": "v0.4.0"
         }
       }
     },
@@ -305,179 +262,46 @@
         }
       }
     },
-    "studiorack/plugin-nekobi/nekobi": {
-      "id": "studiorack/plugin-nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
-          "tags": [
-            "Synth",
-            "Oscillator",
-            "Roland",
-            "TB-303"
-          ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "nekobi.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "nekobi.png",
-              "size": 50361
-            },
-            "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 865321
-            },
-            "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 997364
-            },
-            "win": {
-              "name": "nekobi-win.zip",
-              "size": 983729
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/plugin-tunefish/tunefish": {
-      "id": "studiorack/plugin-tunefish/tunefish",
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
       "license": "gpl-3.0",
-      "version": "4.0.0",
+      "version": "0.9.0",
       "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Analog",
-            "Synth"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "tunefish.png",
-              "size": 955860
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-kars/kars": {
-      "id": "studiorack/plugin-kars/kars",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
             "Synth",
-            "String",
-            "Pluck"
+            "Modulation"
           ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "kars.wav",
+              "name": "helm.wav",
               "size": 352844
             },
             "image": {
-              "name": "kars.png",
-              "size": 174131
+              "name": "helm.png",
+              "size": 417945
             },
             "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
+              "name": "helm-linux.zip",
+              "size": 12294991
             },
             "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
+              "name": "helm-mac.pkg",
+              "size": 12827630
             },
             "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
+              "name": "helm-win.msi",
+              "size": 19533824
             }
           },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 115844
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3657547
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5258069
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4706043
-            }
-          },
-          "release": "v2.4.0"
+          "release": "v0.9.0"
         }
       }
     },
@@ -570,6 +394,141 @@
         }
       }
     },
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/plugin-nekobi/nekobi": {
+      "id": "studiorack/plugin-nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Roland",
+            "TB-303"
+          ],
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "nekobi.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "nekobi.png",
+              "size": 50361
+            },
+            "linux": {
+              "name": "nekobi-linux.zip",
+              "size": 865321
+            },
+            "mac": {
+              "name": "nekobi-mac.zip",
+              "size": 997364
+            },
+            "win": {
+              "name": "nekobi-win.zip",
+              "size": 983729
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/plugin-digits/digits": {
+      "id": "studiorack/plugin-digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Bass",
+            "Synth",
+            "Casio",
+            "Pad",
+            "Lead"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0"
+        }
+      }
+    },
     "studiorack/plugin-chow-tape-model/chow-tape-model": {
       "id": "studiorack/plugin-chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
@@ -610,52 +569,6 @@
             }
           },
           "release": "v2.8.0"
-        }
-      }
-    },
-    "studiorack/plugin-digits/digits": {
-      "id": "studiorack/plugin-digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Bass",
-            "Synth",
-            "Casio",
-            "Pad",
-            "Lead"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.wav",
-              "size": 134990
-            },
-            "image": {
-              "name": "digits.png",
-              "size": 97572
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 347224
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2301101
-            },
-            "win": {
-              "name": "digits-win.exe",
-              "size": 669291
-            }
-          },
-          "release": "v2.1.0"
         }
       }
     },
@@ -702,48 +615,90 @@
         }
       }
     },
-    "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
+    "studiorack/plugin-tunefish/tunefish": {
+      "id": "studiorack/plugin-tunefish/tunefish",
       "license": "gpl-3.0",
-      "version": "3.2.5",
+      "version": "4.0.0",
       "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
-            "Plate",
-            "Reverb",
-            "Reflection",
-            "Room"
+            "Analog",
+            "Synth"
           ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.wav",
+              "name": "tunefish.wav",
               "size": 352844
             },
             "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 361839
+              "name": "tunefish.png",
+              "size": 955860
             },
             "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
+              "name": "tunefish-linux.zip",
+              "size": 3569540
             },
             "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
+              "name": "tunefish-mac.zip",
+              "size": 6443515
             },
             "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
+              "name": "tunefish-win.zip",
+              "size": 4147020
             }
           },
-          "release": "v3.2.5"
+          "release": "v4.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-kars/kars": {
+      "id": "studiorack/plugin-kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Synth",
+            "String",
+            "Pluck"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "kars.png",
+              "size": 174131
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1149271
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1327762
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1175194
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -792,47 +747,48 @@
         }
       }
     },
-    "studiorack/plugin-smartguitaramp/smartguitaramp": {
-      "id": "studiorack/plugin-smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
+    "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
       "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
-            "Amp",
-            "Guitar",
-            "Effect"
+            "Plate",
+            "Reverb",
+            "Reflection",
+            "Room"
           ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "smartguitaramp.wav",
+              "name": "dragonfly-reverb.wav",
               "size": 352844
             },
             "image": {
-              "name": "smartguitaramp.png",
-              "size": 1259192
+              "name": "dragonfly-reverb.png",
+              "size": 394705
             },
             "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
             },
             "mac": {
-              "name": "smartguitaramp-mac.dmg",
-              "size": 7104181
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
             },
             "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
             }
           },
-          "release": "v1.2.0"
+          "release": "v3.2.5"
         }
       }
     },
@@ -876,6 +832,50 @@
             }
           },
           "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/plugin-smartguitaramp/smartguitaramp": {
+      "id": "studiorack/plugin-smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Amp",
+            "Guitar",
+            "Effect"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "smartguitaramp.png",
+              "size": 1259192
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.dmg",
+              "size": 7104181
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
         }
       }
     },
@@ -1093,6 +1093,6 @@
       }
     }
   },
-  "time": "2021-07-21T00:31:29.862Z",
+  "time": "2021-07-21T03:55:48.293Z",
   "total": 25
 }
