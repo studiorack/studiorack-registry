@@ -88,47 +88,46 @@
         }
       }
     },
-    "studiorack/plugin-oxe/oxe": {
-      "id": "studiorack/plugin-oxe/oxe",
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
       "license": "gpl-3.0",
-      "version": "1.3.5",
+      "version": "0.9.0",
       "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
-            "FM",
             "Synth",
-            "LFO"
+            "Modulation"
           ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "oxe.wav",
+              "name": "helm.wav",
               "size": 352844
             },
             "image": {
-              "name": "oxe.png",
-              "size": 98712
+              "name": "helm.png",
+              "size": 417945
             },
             "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
+              "name": "helm-linux.zip",
+              "size": 12294991
             },
             "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
+              "name": "helm-mac.pkg",
+              "size": 12827630
             },
             "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
+              "name": "helm-win.msi",
+              "size": 19533824
             }
           },
-          "release": "v1.3.5"
+          "release": "v0.9.0"
         }
       }
     },
@@ -218,93 +217,6 @@
         }
       }
     },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.pkg",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
     "studiorack/plugin-modeq/modeq": {
       "id": "studiorack/plugin-modeq/modeq",
       "license": "gpl-3.0",
@@ -349,6 +261,94 @@
         }
       }
     },
+    "studiorack/plugin-oxe/oxe": {
+      "id": "studiorack/plugin-oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "FM",
+            "Synth",
+            "LFO"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
     "studiorack/plugin-nekobi/nekobi": {
       "id": "studiorack/plugin-nekobi/nekobi",
       "license": "gpl-2.0",
@@ -388,93 +388,6 @@
             "win": {
               "name": "nekobi-win.zip",
               "size": 983729
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/plugin-tunefish/tunefish": {
-      "id": "studiorack/plugin-tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Analog",
-            "Synth"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "tunefish.png",
-              "size": 955860
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-kars/kars": {
-      "id": "studiorack/plugin-kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Synth",
-            "String",
-            "Pluck"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "kars.png",
-              "size": 174131
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
             }
           },
           "release": "v1.0.0"
@@ -570,49 +483,90 @@
         }
       }
     },
-    "studiorack/plugin-digits/digits": {
-      "id": "studiorack/plugin-digits/digits",
+    "studiorack/plugin-tunefish/tunefish": {
+      "id": "studiorack/plugin-tunefish/tunefish",
       "license": "gpl-3.0",
-      "version": "2.1.0",
+      "version": "4.0.0",
       "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
-            "Bass",
-            "Synth",
-            "Casio",
-            "Pad",
-            "Lead"
+            "Analog",
+            "Synth"
           ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "digits.wav",
-              "size": 134990
+              "name": "tunefish.wav",
+              "size": 352844
             },
             "image": {
-              "name": "digits.png",
-              "size": 97572
+              "name": "tunefish.png",
+              "size": 955860
             },
             "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
+              "name": "tunefish-linux.zip",
+              "size": 3569540
             },
             "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
+              "name": "tunefish-mac.zip",
+              "size": 6443515
             },
             "win": {
-              "name": "digits-win.exe",
-              "size": 669291
+              "name": "tunefish-win.zip",
+              "size": 4147020
             }
           },
-          "release": "v2.1.0"
+          "release": "v4.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-kars/kars": {
+      "id": "studiorack/plugin-kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Synth",
+            "String",
+            "Pluck"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "kars.png",
+              "size": 174131
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1149271
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1327762
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1175194
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -659,6 +613,52 @@
         }
       }
     },
+    "studiorack/plugin-digits/digits": {
+      "id": "studiorack/plugin-digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Bass",
+            "Synth",
+            "Casio",
+            "Pad",
+            "Lead"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0"
+        }
+      }
+    },
     "studiorack/plugin-ninjas2/ninjas2": {
       "id": "studiorack/plugin-ninjas2/ninjas2",
       "license": "gpl-3.0",
@@ -699,51 +699,6 @@
             }
           },
           "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-hybridreverb2/hybridreverb2": {
-      "id": "studiorack/plugin-hybridreverb2/hybridreverb2",
-      "license": "other",
-      "version": "2.2.0",
-      "versions": {
-        "2.2.0": {
-          "author": "Christian Borß",
-          "homepage": "https://github.com/jpcima/HybridReverb2",
-          "name": "HybridReverb2",
-          "description": "Convolution-based reverberation effect which combines the superior sound quality of a convolution reverb with the tuning capability of a feedback delay network.",
-          "tags": [
-            "Amp",
-            "Delay",
-            "Equalizer",
-            "Reverb"
-          ],
-          "version": "2.2.0",
-          "id": "hybridreverb2",
-          "date": "2020-11-25T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "hybridreverb2.wav",
-              "size": 347982
-            },
-            "image": {
-              "name": "hybridreverb2.png",
-              "size": 402926
-            },
-            "linux": {
-              "name": "hybridreverb2-linux.deb",
-              "size": 13339962
-            },
-            "mac": {
-              "name": "hybridreverb2-mac.dmg",
-              "size": 15226334
-            },
-            "win": {
-              "name": "hybridreverb2-win.exe",
-              "size": 3579192
-            }
-          },
-          "release": "v2.2.0"
         }
       }
     },
@@ -789,6 +744,51 @@
             }
           },
           "release": "v3.2.5"
+        }
+      }
+    },
+    "studiorack/plugin-hybridreverb2/hybridreverb2": {
+      "id": "studiorack/plugin-hybridreverb2/hybridreverb2",
+      "license": "other",
+      "version": "2.2.0",
+      "versions": {
+        "2.2.0": {
+          "author": "Christian Borß",
+          "homepage": "https://github.com/jpcima/HybridReverb2",
+          "name": "HybridReverb2",
+          "description": "Convolution-based reverberation effect which combines the superior sound quality of a convolution reverb with the tuning capability of a feedback delay network.",
+          "tags": [
+            "Amp",
+            "Delay",
+            "Equalizer",
+            "Reverb"
+          ],
+          "version": "2.2.0",
+          "id": "hybridreverb2",
+          "date": "2020-11-25T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "hybridreverb2.wav",
+              "size": 347982
+            },
+            "image": {
+              "name": "hybridreverb2.png",
+              "size": 402926
+            },
+            "linux": {
+              "name": "hybridreverb2-linux.deb",
+              "size": 13339962
+            },
+            "mac": {
+              "name": "hybridreverb2-mac.dmg",
+              "size": 15226334
+            },
+            "win": {
+              "name": "hybridreverb2-win.exe",
+              "size": 3579192
+            }
+          },
+          "release": "v2.2.0"
         }
       }
     },
@@ -923,6 +923,49 @@
         }
       }
     },
+    "studiorack/plugin-sfizz/sfizz": {
+      "id": "studiorack/plugin-sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Sample",
+            "Synth"
+          ],
+          "version": "1.0.0",
+          "id": "sfizz",
+          "date": "2020-04-16T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "sfizz.png",
+              "size": 44587
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 6555322
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 10778290
+            },
+            "win": {
+              "name": "sfizz-win.exe",
+              "size": 3258317
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
     "studiorack/plugin-mini-series/mini-series-eq": {
       "id": "studiorack/plugin-mini-series/mini-series-eq",
       "license": "lgpl-3.0",
@@ -1048,51 +1091,8 @@
           "release": "v1.0.0"
         }
       }
-    },
-    "studiorack/plugin-sfizz/sfizz": {
-      "id": "studiorack/plugin-sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Sample",
-            "Synth"
-          ],
-          "version": "1.0.0",
-          "id": "sfizz",
-          "date": "2020-04-16T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "sfizz.png",
-              "size": 44587
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 6555322
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 10778290
-            },
-            "win": {
-              "name": "sfizz-win.exe",
-              "size": 3258317
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
     }
   },
-  "time": "2021-07-30T00:30:21.140Z",
+  "time": "2021-07-31T00:28:51.113Z",
   "total": 25
 }
