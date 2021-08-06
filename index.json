@@ -374,7 +374,7 @@
             },
             "image": {
               "name": "odin.png",
-              "size": 1633943
+              "size": 802665
             },
             "linux": {
               "name": "odin-linux.zip",
@@ -507,7 +507,7 @@
             },
             "image": {
               "name": "tunefish.png",
-              "size": 955860
+              "size": 380571
             },
             "linux": {
               "name": "tunefish-linux.zip",
@@ -702,51 +702,6 @@
         }
       }
     },
-    "studiorack/plugin-hybridreverb2/hybridreverb2": {
-      "id": "studiorack/plugin-hybridreverb2/hybridreverb2",
-      "license": "other",
-      "version": "2.2.0",
-      "versions": {
-        "2.2.0": {
-          "author": "Christian Borß",
-          "homepage": "https://github.com/jpcima/HybridReverb2",
-          "name": "HybridReverb2",
-          "description": "Convolution-based reverberation effect which combines the superior sound quality of a convolution reverb with the tuning capability of a feedback delay network.",
-          "tags": [
-            "Amp",
-            "Delay",
-            "Equalizer",
-            "Reverb"
-          ],
-          "version": "2.2.0",
-          "id": "hybridreverb2",
-          "date": "2020-11-25T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "hybridreverb2.wav",
-              "size": 347982
-            },
-            "image": {
-              "name": "hybridreverb2.png",
-              "size": 402926
-            },
-            "linux": {
-              "name": "hybridreverb2-linux.deb",
-              "size": 13339962
-            },
-            "mac": {
-              "name": "hybridreverb2-mac.dmg",
-              "size": 15226334
-            },
-            "win": {
-              "name": "hybridreverb2-win.exe",
-              "size": 3579192
-            }
-          },
-          "release": "v2.2.0"
-        }
-      }
-    },
     "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -816,7 +771,7 @@
             },
             "image": {
               "name": "obxd.png",
-              "size": 1633943
+              "size": 679563
             },
             "linux": {
               "name": "obxd-linux.zip",
@@ -860,7 +815,7 @@
             },
             "image": {
               "name": "smartguitaramp.png",
-              "size": 1259192
+              "size": 756468
             },
             "linux": {
               "name": "smartguitaramp-linux.zip",
@@ -1093,6 +1048,6 @@
       }
     }
   },
-  "time": "2021-08-06T00:31:33.421Z",
-  "total": 25
+  "time": "2021-08-06T02:36:57.691Z",
+  "total": 24
 }
