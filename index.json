@@ -1,48 +1,5 @@
 {
   "objects": {
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
     "studiorack/plugin-oxe/oxe": {
       "id": "studiorack/plugin-oxe/oxe",
       "license": "gpl-3.0",
@@ -131,50 +88,6 @@
         }
       }
     },
-    "studiorack/plugin-modeq/modeq": {
-      "id": "studiorack/plugin-modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
     "studiorack/plugin-ep-mk1/ep-mk1": {
       "id": "studiorack/plugin-ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -216,6 +129,50 @@
             }
           },
           "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/plugin-modeq/modeq": {
+      "id": "studiorack/plugin-modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "EQ",
+            "Effect",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
         }
       }
     },
@@ -305,6 +262,49 @@
         }
       }
     },
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 417945
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0"
+        }
+      }
+    },
     "studiorack/plugin-dexed/dexed": {
       "id": "studiorack/plugin-dexed/dexed",
       "license": "gpl-3.0",
@@ -346,51 +346,6 @@
             }
           },
           "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/plugin-nekobi/nekobi": {
-      "id": "studiorack/plugin-nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
-          "tags": [
-            "Synth",
-            "Oscillator",
-            "Roland",
-            "TB-303"
-          ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "nekobi.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "nekobi.png",
-              "size": 50361
-            },
-            "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 865321
-            },
-            "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 997364
-            },
-            "win": {
-              "name": "nekobi-win.zip",
-              "size": 983729
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -570,46 +525,48 @@
         }
       }
     },
-    "studiorack/plugin-ninjas2/ninjas2": {
-      "id": "studiorack/plugin-ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
+    "studiorack/plugin-nekobi/nekobi": {
+      "id": "studiorack/plugin-nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
       "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
           "tags": [
-            "Sample",
-            "Slicer"
+            "Synth",
+            "Oscillator",
+            "Roland",
+            "TB-303"
           ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ninjas2.wav",
+              "name": "nekobi.wav",
               "size": 352844
             },
             "image": {
-              "name": "ninjas2.png",
-              "size": 139641
+              "name": "nekobi.png",
+              "size": 50361
             },
             "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
+              "name": "nekobi-linux.zip",
+              "size": 865321
             },
             "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
+              "name": "nekobi-mac.zip",
+              "size": 997364
             },
             "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
+              "name": "nekobi-win.zip",
+              "size": 983729
             }
           },
-          "release": "v0.2.0"
+          "release": "v1.0.0"
         }
       }
     },
@@ -702,6 +659,49 @@
         }
       }
     },
+    "studiorack/plugin-ninjas2/ninjas2": {
+      "id": "studiorack/plugin-ninjas2/ninjas2",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Sample",
+            "Slicer"
+          ],
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ninjas2.png",
+              "size": 139641
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
     "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -747,49 +747,6 @@
         }
       }
     },
-    "studiorack/plugin-obxd/obxd": {
-      "id": "studiorack/plugin-obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "OB-X",
-            "Synth"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "obxd.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.exe",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
     "studiorack/plugin-smartguitaramp/smartguitaramp": {
       "id": "studiorack/plugin-smartguitaramp/smartguitaramp",
       "license": "apache-2.0",
@@ -831,6 +788,49 @@
             }
           },
           "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-obxd/obxd": {
+      "id": "studiorack/plugin-obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "OB-X",
+            "Synth"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "obxd.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.exe",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0"
         }
       }
     },
@@ -1048,6 +1048,6 @@
       }
     }
   },
-  "time": "2021-08-11T00:35:02.842Z",
+  "time": "2021-08-12T00:30:43.936Z",
   "total": 24
 }
