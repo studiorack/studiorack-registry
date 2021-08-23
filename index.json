@@ -1,93 +1,5 @@
 {
   "objects": {
-    "studiorack/plugin-dexed/dexed": {
-      "id": "studiorack/plugin-dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Synth",
-            "FM",
-            "DX7"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 450543
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
-            },
-            "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
-            }
-          },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/plugin-modeq/modeq": {
-      "id": "studiorack/plugin-modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
     "studiorack/plugin-adlplug/adlplug": {
       "id": "studiorack/plugin-adlplug/adlplug",
       "license": "bsl-1.0",
@@ -215,6 +127,138 @@
             }
           },
           "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/plugin-dexed/dexed": {
+      "id": "studiorack/plugin-dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Synth",
+            "FM",
+            "DX7"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dexed.png",
+              "size": 450543
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.exe",
+              "size": 3927579
+            }
+          },
+          "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/plugin-modeq/modeq": {
+      "id": "studiorack/plugin-modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "EQ",
+            "Effect",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
         }
       }
     },
@@ -392,50 +436,6 @@
         }
       }
     },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
     "studiorack/plugin-nekobi/nekobi": {
       "id": "studiorack/plugin-nekobi/nekobi",
       "license": "gpl-2.0",
@@ -478,138 +478,6 @@
             }
           },
           "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/plugin-chow-tape-model/chow-tape-model": {
-      "id": "studiorack/plugin-chow-tape-model/chow-tape-model",
-      "license": "gpl-3.0",
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Tape",
-            "Effect"
-          ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "chow-tape-model.png",
-              "size": 94400
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
-            },
-            "win": {
-              "name": "chow-tape-model-win.exe",
-              "size": 10053679
-            }
-          },
-          "release": "v2.8.0"
-        }
-      }
-    },
-    "studiorack/plugin-digits/digits": {
-      "id": "studiorack/plugin-digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Bass",
-            "Synth",
-            "Casio",
-            "Pad",
-            "Lead"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.wav",
-              "size": 134990
-            },
-            "image": {
-              "name": "digits.png",
-              "size": 97572
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
-            },
-            "win": {
-              "name": "digits-win.exe",
-              "size": 669291
-            }
-          },
-          "release": "v2.1.0"
-        }
-      }
-    },
-    "studiorack/plugin-ninjas2/ninjas2": {
-      "id": "studiorack/plugin-ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Sample",
-            "Slicer"
-          ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ninjas2.png",
-              "size": 139641
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
-            }
-          },
-          "release": "v0.2.0"
         }
       }
     },
@@ -742,6 +610,138 @@
             }
           },
           "release": "v1.1.1"
+        }
+      }
+    },
+    "studiorack/plugin-digits/digits": {
+      "id": "studiorack/plugin-digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Bass",
+            "Synth",
+            "Casio",
+            "Pad",
+            "Lead"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0"
+        }
+      }
+    },
+    "studiorack/plugin-chow-tape-model/chow-tape-model": {
+      "id": "studiorack/plugin-chow-tape-model/chow-tape-model",
+      "license": "gpl-3.0",
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Tape",
+            "Effect"
+          ],
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "chow-tape-model.png",
+              "size": 94400
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
+            },
+            "win": {
+              "name": "chow-tape-model-win.exe",
+              "size": 10053679
+            }
+          },
+          "release": "v2.8.0"
+        }
+      }
+    },
+    "studiorack/plugin-ninjas2/ninjas2": {
+      "id": "studiorack/plugin-ninjas2/ninjas2",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Sample",
+            "Slicer"
+          ],
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ninjas2.png",
+              "size": 139641
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116
+            }
+          },
+          "release": "v0.2.0"
         }
       }
     },
@@ -921,49 +921,6 @@
         }
       }
     },
-    "studiorack/plugin-sfizz/sfizz": {
-      "id": "studiorack/plugin-sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Sample",
-            "Synth"
-          ],
-          "version": "1.0.0",
-          "id": "sfizz",
-          "date": "2020-04-16T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "sfizz.png",
-              "size": 44587
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 6555322
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 10778290
-            },
-            "win": {
-              "name": "sfizz-win.exe",
-              "size": 3258317
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "studiorack/plugin-mini-series/mini-series-eq": {
       "id": "studiorack/plugin-mini-series/mini-series-eq",
       "license": "lgpl-3.0",
@@ -1089,8 +1046,51 @@
           "release": "v1.0.0"
         }
       }
+    },
+    "studiorack/plugin-sfizz/sfizz": {
+      "id": "studiorack/plugin-sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Sample",
+            "Synth"
+          ],
+          "version": "1.0.0",
+          "id": "sfizz",
+          "date": "2020-04-16T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "sfizz.png",
+              "size": 44587
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 6555322
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 10778290
+            },
+            "win": {
+              "name": "sfizz-win.exe",
+              "size": 3258317
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
     }
   },
-  "time": "2021-08-22T00:29:50.012Z",
+  "time": "2021-08-23T00:28:08.165Z",
   "total": 25
 }
