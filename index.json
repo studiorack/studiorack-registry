@@ -1,90 +1,46 @@
 {
   "objects": {
-    "studiorack/plugin-oxe/oxe": {
-      "id": "studiorack/plugin-oxe/oxe",
+    "studiorack/plugin-andes/andes": {
+      "id": "studiorack/plugin-andes/andes",
       "license": "gpl-3.0",
-      "version": "1.3.5",
+      "version": "0.2.0",
       "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "FM",
-            "Synth",
-            "LFO"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "tags": [
             "Synth",
-            "Electric",
-            "Piano"
+            "Oscillator",
+            "Perlin"
           ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
+              "name": "andes.wav",
+              "size": 429902
             },
             "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
+              "name": "andes.png",
+              "size": 33884
             },
             "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
+              "name": "andes-linux.zip",
+              "size": 6118842
             },
             "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
+              "name": "andes-mac.zip",
+              "size": 5225268
             },
             "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
+              "name": "andes-win.zip",
+              "size": 3450947
             }
           },
-          "release": "v2.4.0"
+          "release": "v0.2.0"
         }
       }
     },
@@ -175,47 +131,91 @@
         }
       }
     },
-    "studiorack/plugin-andes/andes": {
-      "id": "studiorack/plugin-andes/andes",
+    "studiorack/plugin-dexed/dexed": {
+      "id": "studiorack/plugin-dexed/dexed",
       "license": "gpl-3.0",
-      "version": "0.2.0",
+      "version": "0.9.6",
       "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
           "tags": [
             "Synth",
-            "Oscillator",
-            "Perlin"
+            "FM",
+            "DX7"
           ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
+              "name": "dexed.wav",
+              "size": 352844
             },
             "image": {
-              "name": "andes.png",
-              "size": 33884
+              "name": "dexed.png",
+              "size": 450543
             },
             "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
+              "name": "dexed-linux.zip",
+              "size": 6296573
             },
             "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
+              "name": "dexed-mac.zip",
+              "size": 9146576
             },
             "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
+              "name": "dexed-win.exe",
+              "size": 3927579
             }
           },
-          "release": "v0.2.0"
+          "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
         }
       }
     },
@@ -305,47 +305,47 @@
         }
       }
     },
-    "studiorack/plugin-dexed/dexed": {
-      "id": "studiorack/plugin-dexed/dexed",
+    "studiorack/plugin-oxe/oxe": {
+      "id": "studiorack/plugin-oxe/oxe",
       "license": "gpl-3.0",
-      "version": "0.9.6",
+      "version": "1.3.5",
       "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
-            "Synth",
             "FM",
-            "DX7"
+            "Synth",
+            "LFO"
           ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dexed.wav",
+              "name": "oxe.wav",
               "size": 352844
             },
             "image": {
-              "name": "dexed.png",
-              "size": 450543
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v0.9.6"
+          "release": "v1.3.5"
         }
       }
     },
@@ -613,6 +613,49 @@
         }
       }
     },
+    "studiorack/plugin-ninjas2/ninjas2": {
+      "id": "studiorack/plugin-ninjas2/ninjas2",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Sample",
+            "Slicer"
+          ],
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ninjas2.png",
+              "size": 139641
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
     "studiorack/plugin-digits/digits": {
       "id": "studiorack/plugin-digits/digits",
       "license": "gpl-3.0",
@@ -702,49 +745,6 @@
         }
       }
     },
-    "studiorack/plugin-ninjas2/ninjas2": {
-      "id": "studiorack/plugin-ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Sample",
-            "Slicer"
-          ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ninjas2.png",
-              "size": 139641
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
     "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -790,6 +790,49 @@
         }
       }
     },
+    "studiorack/plugin-obxd/obxd": {
+      "id": "studiorack/plugin-obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "OB-X",
+            "Synth"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "obxd.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.exe",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
     "studiorack/plugin-smartguitaramp/smartguitaramp": {
       "id": "studiorack/plugin-smartguitaramp/smartguitaramp",
       "license": "apache-2.0",
@@ -831,49 +874,6 @@
             }
           },
           "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-obxd/obxd": {
-      "id": "studiorack/plugin-obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "OB-X",
-            "Synth"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "obxd.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.exe",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0"
         }
       }
     },
@@ -1091,6 +1091,6 @@
       }
     }
   },
-  "time": "2021-08-27T00:33:04.823Z",
+  "time": "2021-08-28T00:29:02.638Z",
   "total": 25
 }
