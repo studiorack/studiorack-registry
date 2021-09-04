@@ -174,49 +174,6 @@
         }
       }
     },
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
     "studiorack/plugin-oxe/oxe": {
       "id": "studiorack/plugin-oxe/oxe",
       "license": "gpl-3.0",
@@ -302,6 +259,49 @@
             }
           },
           "release": "v0.2.0"
+        }
+      }
+    },
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 417945
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0"
         }
       }
     },
@@ -1091,6 +1091,6 @@
       }
     }
   },
-  "time": "2021-09-03T00:30:03.055Z",
+  "time": "2021-09-04T00:30:18.813Z",
   "total": 25
 }
