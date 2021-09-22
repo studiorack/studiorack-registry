@@ -218,50 +218,6 @@
         }
       }
     },
-    "studiorack/plugin-andes/andes": {
-      "id": "studiorack/plugin-andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
     "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -304,6 +260,50 @@
             }
           },
           "release": "v3.2.5"
+        }
+      }
+    },
+    "studiorack/plugin-andes/andes": {
+      "id": "studiorack/plugin-andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Perlin"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0"
         }
       }
     },
@@ -1091,6 +1091,6 @@
       }
     }
   },
-  "time": "2021-09-21T18:16:57.636Z",
+  "time": "2021-09-22T00:16:12.964Z",
   "total": 25
 }
