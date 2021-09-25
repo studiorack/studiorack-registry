@@ -1,49 +1,5 @@
 {
   "objects": {
-    "studiorack/plugin-modeq/modeq": {
-      "id": "studiorack/plugin-modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
     "studiorack/plugin-oxe/oxe": {
       "id": "studiorack/plugin-oxe/oxe",
       "license": "gpl-3.0",
@@ -132,89 +88,47 @@
         }
       }
     },
-    "studiorack/plugin-adlplug/adlplug": {
-      "id": "studiorack/plugin-adlplug/adlplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
+    "studiorack/plugin-modeq/modeq": {
+      "id": "studiorack/plugin-modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
       "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "Synth",
-            "FM"
+            "EQ",
+            "Effect",
+            "Modulation"
           ],
-          "version": "1.0.2",
-          "id": "adlplug",
-          "date": "2020-08-05T08:00:00.000Z",
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "adlplug.wav",
+              "name": "modeq.wav",
               "size": 352844
             },
             "image": {
-              "name": "adlplug.png",
-              "size": 601168
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "adlplug-linux.zip",
-              "size": 11068718
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "adlplug-mac.zip",
-              "size": 33551714
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "adlplug-win.zip",
-              "size": 24833093
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/plugin-adlplug/opnplug": {
-      "id": "studiorack/plugin-adlplug/opnplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "opnplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "opnplug.png",
-              "size": 620462
-            },
-            "linux": {
-              "name": "opnplug-linux.zip",
-              "size": 11236640
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 27264168
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25020750
-            }
-          },
-          "release": "v1.0.2"
+          "release": "v0.4.0"
         }
       }
     },
@@ -306,6 +220,92 @@
         }
       }
     },
+    "studiorack/plugin-adlplug/adlplug": {
+      "id": "studiorack/plugin-adlplug/adlplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "adlplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "adlplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "adlplug.png",
+              "size": 601168
+            },
+            "linux": {
+              "name": "adlplug-linux.zip",
+              "size": 11068718
+            },
+            "mac": {
+              "name": "adlplug-mac.zip",
+              "size": 33551714
+            },
+            "win": {
+              "name": "adlplug-win.zip",
+              "size": 24833093
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/plugin-adlplug/opnplug": {
+      "id": "studiorack/plugin-adlplug/opnplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "OPNplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "opnplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opnplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "opnplug.png",
+              "size": 620462
+            },
+            "linux": {
+              "name": "opnplug-linux.zip",
+              "size": 11236640
+            },
+            "mac": {
+              "name": "opnplug-mac.zip",
+              "size": 27264168
+            },
+            "win": {
+              "name": "opnplug-win.zip",
+              "size": 25020750
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
     "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -351,49 +351,6 @@
         }
       }
     },
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
     "studiorack/plugin-nekobi/nekobi": {
       "id": "studiorack/plugin-nekobi/nekobi",
       "license": "gpl-2.0",
@@ -436,6 +393,49 @@
             }
           },
           "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 417945
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0"
         }
       }
     },
@@ -1091,6 +1091,6 @@
       }
     }
   },
-  "time": "2021-09-24T00:15:02.767Z",
+  "time": "2021-09-25T00:15:08.747Z",
   "total": 25
 }
