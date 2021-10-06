@@ -1,47 +1,90 @@
 {
   "objects": {
-    "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
+    "studiorack/plugin-modeq/modeq": {
+      "id": "studiorack/plugin-modeq/modeq",
       "license": "gpl-3.0",
-      "version": "3.2.5",
+      "version": "0.4.0",
       "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "Plate",
-            "Reverb",
-            "Reflection",
-            "Room"
+            "EQ",
+            "Effect",
+            "Modulation"
           ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.wav",
+              "name": "modeq.wav",
               "size": 352844
             },
             "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v3.2.5"
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
         }
       }
     },
@@ -175,48 +218,48 @@
         }
       }
     },
-    "studiorack/plugin-nekobi/nekobi": {
-      "id": "studiorack/plugin-nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
+    "studiorack/plugin-dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/plugin-dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
       "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
-            "Synth",
-            "Oscillator",
-            "Roland",
-            "TB-303"
+            "Plate",
+            "Reverb",
+            "Reflection",
+            "Room"
           ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "nekobi.wav",
+              "name": "dragonfly-reverb.wav",
               "size": 352844
             },
             "image": {
-              "name": "nekobi.png",
-              "size": 50361
+              "name": "dragonfly-reverb.png",
+              "size": 394705
             },
             "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 865321
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
             },
             "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 997364
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
             },
             "win": {
-              "name": "nekobi-win.zip",
-              "size": 983729
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
             }
           },
-          "release": "v1.0.0"
+          "release": "v3.2.5"
         }
       }
     },
@@ -260,6 +303,51 @@
             }
           },
           "release": "v0.9.0"
+        }
+      }
+    },
+    "studiorack/plugin-nekobi/nekobi": {
+      "id": "studiorack/plugin-nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Roland",
+            "TB-303"
+          ],
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "nekobi.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "nekobi.png",
+              "size": 50361
+            },
+            "linux": {
+              "name": "nekobi-linux.zip",
+              "size": 865321
+            },
+            "mac": {
+              "name": "nekobi-mac.zip",
+              "size": 997364
+            },
+            "win": {
+              "name": "nekobi-win.zip",
+              "size": 983729
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -351,94 +439,6 @@
         }
       }
     },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/plugin-modeq/modeq": {
-      "id": "studiorack/plugin-modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
     "studiorack/plugin-kars/kars": {
       "id": "studiorack/plugin-kars/kars",
       "license": "isc",
@@ -526,6 +526,49 @@
         }
       }
     },
+    "studiorack/plugin-temper/temper": {
+      "id": "studiorack/plugin-temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Distortion",
+            "Effect"
+          ],
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "temper.png",
+              "size": 551686
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694
+            },
+            "win": {
+              "name": "temper-win.exe",
+              "size": 3942251
+            }
+          },
+          "release": "v1.1.1"
+        }
+      }
+    },
     "studiorack/plugin-chow-matrix/chow-matrix": {
       "id": "studiorack/plugin-chow-matrix/chow-matrix",
       "license": "bsd-3-clause",
@@ -568,49 +611,6 @@
             }
           },
           "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/plugin-temper/temper": {
-      "id": "studiorack/plugin-temper/temper",
-      "license": "gpl-3.0",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Distortion",
-            "Effect"
-          ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "temper.png",
-              "size": 551686
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
-            },
-            "win": {
-              "name": "temper-win.exe",
-              "size": 3942251
-            }
-          },
-          "release": "v1.1.1"
         }
       }
     },
@@ -877,6 +877,50 @@
         }
       }
     },
+    "studiorack/plugin-surge/surge": {
+      "id": "studiorack/plugin-surge/surge",
+      "license": "gpl-3.0",
+      "version": "1.9.0",
+      "versions": {
+        "1.9.0": {
+          "author": "Claes Johanson",
+          "homepage": "https://surge-synthesizer.github.io/",
+          "name": "Surge",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "tags": [
+            "Synth",
+            "Modulation",
+            "Effects"
+          ],
+          "version": "1.9.0",
+          "id": "surge",
+          "date": "2021-04-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "surge.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "surge.png",
+              "size": 402926
+            },
+            "linux": {
+              "name": "surge-linux.zip",
+              "size": 153534437
+            },
+            "mac": {
+              "name": "surge-mac.zip",
+              "size": 47300596
+            },
+            "win": {
+              "name": "surge-win.exe",
+              "size": 108842250
+            }
+          },
+          "release": "v1.9.0"
+        }
+      }
+    },
     "studiorack/plugin-sfizz/sfizz": {
       "id": "studiorack/plugin-sfizz/sfizz",
       "license": "bsd-2-clause",
@@ -1045,52 +1089,8 @@
           "release": "v1.0.0"
         }
       }
-    },
-    "studiorack/plugin-surge/surge": {
-      "id": "studiorack/plugin-surge/surge",
-      "license": "gpl-3.0",
-      "version": "1.9.0",
-      "versions": {
-        "1.9.0": {
-          "author": "Claes Johanson",
-          "homepage": "https://surge-synthesizer.github.io/",
-          "name": "Surge",
-          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
-          "tags": [
-            "Synth",
-            "Modulation",
-            "Effects"
-          ],
-          "version": "1.9.0",
-          "id": "surge",
-          "date": "2021-04-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "surge.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "surge.png",
-              "size": 402926
-            },
-            "linux": {
-              "name": "surge-linux.zip",
-              "size": 153534437
-            },
-            "mac": {
-              "name": "surge-mac.zip",
-              "size": 47300596
-            },
-            "win": {
-              "name": "surge-win.exe",
-              "size": 108842250
-            }
-          },
-          "release": "v1.9.0"
-        }
-      }
     }
   },
-  "time": "2021-10-05T00:16:21.804Z",
+  "time": "2021-10-06T00:15:45.763Z",
   "total": 25
 }
