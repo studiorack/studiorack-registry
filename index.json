@@ -44,50 +44,6 @@
         }
       }
     },
-    "studiorack/plugin-ep-mk1/ep-mk1": {
-      "id": "studiorack/plugin-ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
     "studiorack/plugin-oxe/oxe": {
       "id": "studiorack/plugin-oxe/oxe",
       "license": "gpl-3.0",
@@ -132,48 +88,91 @@
         }
       }
     },
-    "studiorack/plugin-nekobi/nekobi": {
-      "id": "studiorack/plugin-nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
+    "studiorack/plugin-ep-mk1/ep-mk1": {
+      "id": "studiorack/plugin-ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
             "Synth",
-            "Oscillator",
-            "Roland",
-            "TB-303"
+            "Electric",
+            "Piano"
           ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "nekobi.wav",
+              "name": "ep-mk1.wav",
               "size": 352844
             },
             "image": {
-              "name": "nekobi.png",
-              "size": 50361
+              "name": "ep-mk1.png",
+              "size": 139928
             },
             "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 865321
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 997364
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "nekobi-win.zip",
-              "size": 983729
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v1.0.0"
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/plugin-modeq/modeq": {
+      "id": "studiorack/plugin-modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "EQ",
+            "Effect",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
         }
       }
     },
@@ -222,91 +221,48 @@
         }
       }
     },
-    "studiorack/plugin-modeq/modeq": {
-      "id": "studiorack/plugin-modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
+    "studiorack/plugin-nekobi/nekobi": {
+      "id": "studiorack/plugin-nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
       "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/plugin-dexed/dexed": {
-      "id": "studiorack/plugin-dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
           "tags": [
             "Synth",
-            "FM",
-            "DX7"
+            "Oscillator",
+            "Roland",
+            "TB-303"
           ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dexed.wav",
+              "name": "nekobi.wav",
               "size": 352844
             },
             "image": {
-              "name": "dexed.png",
-              "size": 450543
+              "name": "nekobi.png",
+              "size": 50361
             },
             "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
+              "name": "nekobi-linux.zip",
+              "size": 865321
             },
             "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
+              "name": "nekobi-mac.zip",
+              "size": 997364
             },
             "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
+              "name": "nekobi-win.zip",
+              "size": 983729
             }
           },
-          "release": "v0.9.6"
+          "release": "v1.0.0"
         }
       }
     },
@@ -396,47 +352,47 @@
         }
       }
     },
-    "studiorack/plugin-kars/kars": {
-      "id": "studiorack/plugin-kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
+    "studiorack/plugin-dexed/dexed": {
+      "id": "studiorack/plugin-dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
       "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
           "tags": [
             "Synth",
-            "String",
-            "Pluck"
+            "FM",
+            "DX7"
           ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "kars.wav",
+              "name": "dexed.wav",
               "size": 352844
             },
             "image": {
-              "name": "kars.png",
-              "size": 174131
+              "name": "dexed.png",
+              "size": 450543
             },
             "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
+              "name": "dexed-linux.zip",
+              "size": 6296573
             },
             "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
+              "name": "dexed-mac.zip",
+              "size": 9146576
             },
             "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
+              "name": "dexed-win.exe",
+              "size": 3927579
             }
           },
-          "release": "v1.0.0"
+          "release": "v0.9.6"
         }
       }
     },
@@ -483,134 +439,90 @@
         }
       }
     },
-    "studiorack/plugin-helm/helm": {
-      "id": "studiorack/plugin-helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
+    "studiorack/plugin-kars/kars": {
+      "id": "studiorack/plugin-kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
       "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
           "tags": [
             "Synth",
-            "Modulation"
+            "String",
+            "Pluck"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.wav",
+              "name": "kars.wav",
               "size": 352844
             },
             "image": {
-              "name": "helm.png",
-              "size": 417945
+              "name": "kars.png",
+              "size": 174131
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
+              "name": "kars-linux.zip",
+              "size": 1149271
             },
             "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
+              "name": "kars-mac.zip",
+              "size": 1327762
             },
             "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
+              "name": "kars-win.zip",
+              "size": 1175194
             }
           },
-          "release": "v0.9.0"
+          "release": "v1.0.0"
         }
       }
     },
-    "studiorack/plugin-swankyamp/swankyamp": {
-      "id": "studiorack/plugin-swankyamp/swankyamp",
+    "studiorack/plugin-ninjas2/ninjas2": {
+      "id": "studiorack/plugin-ninjas2/ninjas2",
       "license": "gpl-3.0",
-      "version": "1.4.0",
+      "version": "0.2.0",
       "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
           "tags": [
-            "Amplifier",
-            "Tube",
-            "DSP"
+            "Sample",
+            "Slicer"
           ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "swankyamp.wav",
+              "name": "ninjas2.wav",
               "size": 352844
             },
             "image": {
-              "name": "swankyamp.png",
-              "size": 494455
+              "name": "ninjas2.png",
+              "size": 139641
             },
             "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
             },
             "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
             },
             "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
+              "name": "ninjas2-win.zip",
+              "size": 5995116
             }
           },
-          "release": "v1.4.0"
-        }
-      }
-    },
-    "studiorack/plugin-regrader/regrader": {
-      "id": "studiorack/plugin-regrader/regrader",
-      "license": "mit",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
-          "tags": [
-            "Delay",
-            "Effect",
-            "Sync"
-          ],
-          "version": "1.0.4",
-          "id": "regrader",
-          "date": "2021-08-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "regrader.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "regrader.png",
-              "size": 576052
-            },
-            "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901
-            },
-            "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572
-            },
-            "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030
-            }
-          },
-          "release": "v1.0.4"
+          "release": "v0.2.0"
         }
       }
     },
@@ -700,49 +612,6 @@
             }
           },
           "release": "v2.1.0"
-        }
-      }
-    },
-    "studiorack/plugin-ninjas2/ninjas2": {
-      "id": "studiorack/plugin-ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Sample",
-            "Slicer"
-          ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ninjas2.png",
-              "size": 139641
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
-            }
-          },
-          "release": "v0.2.0"
         }
       }
     },
@@ -878,6 +747,137 @@
         }
       }
     },
+    "studiorack/plugin-helm/helm": {
+      "id": "studiorack/plugin-helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 417945
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0"
+        }
+      }
+    },
+    "studiorack/plugin-regrader/regrader": {
+      "id": "studiorack/plugin-regrader/regrader",
+      "license": "mit",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Delay",
+            "Effect",
+            "Sync"
+          ],
+          "version": "1.0.4",
+          "id": "regrader",
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "regrader.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "regrader.png",
+              "size": 576052
+            },
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030
+            }
+          },
+          "release": "v1.0.4"
+        }
+      }
+    },
+    "studiorack/plugin-swankyamp/swankyamp": {
+      "id": "studiorack/plugin-swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Amplifier",
+            "Tube",
+            "DSP"
+          ],
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "swankyamp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "swankyamp.png",
+              "size": 494455
+            },
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426
+            }
+          },
+          "release": "v1.4.0"
+        }
+      }
+    },
     "studiorack/plugin-obxd/obxd": {
       "id": "studiorack/plugin-obxd/obxd",
       "license": "gpl-3.0",
@@ -1009,6 +1009,49 @@
         }
       }
     },
+    "studiorack/plugin-sfizz/sfizz": {
+      "id": "studiorack/plugin-sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Sample",
+            "Synth"
+          ],
+          "version": "1.0.0",
+          "id": "sfizz",
+          "date": "2020-04-16T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "sfizz.png",
+              "size": 44587
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 6555322
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 10778290
+            },
+            "win": {
+              "name": "sfizz-win.exe",
+              "size": 3258317
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
     "studiorack/plugin-surge/surge": {
       "id": "studiorack/plugin-surge/surge",
       "license": "gpl-3.0",
@@ -1050,49 +1093,6 @@
             }
           },
           "release": "v1.9.0"
-        }
-      }
-    },
-    "studiorack/plugin-sfizz/sfizz": {
-      "id": "studiorack/plugin-sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Sample",
-            "Synth"
-          ],
-          "version": "1.0.0",
-          "id": "sfizz",
-          "date": "2020-04-16T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "sfizz.png",
-              "size": 44587
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 6555322
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 10778290
-            },
-            "win": {
-              "name": "sfizz-win.exe",
-              "size": 3258317
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -1223,6 +1223,6 @@
       }
     }
   },
-  "time": "2021-10-14T05:20:47.032Z",
+  "time": "2021-10-15T00:16:07.701Z",
   "total": 28
 }
