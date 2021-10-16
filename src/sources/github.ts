@@ -33,7 +33,7 @@ async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<P
         if (!pluginPack[pluginId]) {
           pluginPack[pluginId] = {
             id: pluginId,
-            license: result.license.key,
+            license: result.license?.key || 'other',
             version: pluginVersion,
             versions: {},
           };
@@ -49,6 +49,7 @@ async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<P
     }
   } catch (error) {
     // do nothing
+    console.log('error', error);
   }
   return pluginPack;
 }
