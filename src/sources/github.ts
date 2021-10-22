@@ -2,7 +2,7 @@ import * as semver from 'semver';
 import slugify from 'slugify';
 import { getJSON, PluginInterface, PluginLocal, PluginPack, validatePluginSchema } from '@studiorack/core';
 
-const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true';
+const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true&per_page=100';
 
 async function getGithubPack(): Promise<PluginPack> {
   const pluginPack: PluginPack = {};
