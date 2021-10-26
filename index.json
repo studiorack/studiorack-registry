@@ -43,47 +43,47 @@
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
             "Synth",
-            "Oscillator",
-            "Perlin"
+            "Electric",
+            "Piano"
           ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
+              "name": "ep-mk1.wav",
+              "size": 352844
             },
             "image": {
-              "name": "andes.png",
-              "size": 33884
+              "name": "ep-mk1.png",
+              "size": 139928
             },
             "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v0.2.0"
+          "release": "v2.4.0"
         }
       }
     },
@@ -306,136 +306,47 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
       "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/nekobi/nekobi": {
-      "id": "studiorack/nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "tags": [
             "Synth",
             "Oscillator",
-            "Roland",
-            "TB-303"
+            "Perlin"
           ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "nekobi.wav",
-              "size": 352844
+              "name": "andes.wav",
+              "size": 429902
             },
             "image": {
-              "name": "nekobi.png",
-              "size": 50361
+              "name": "andes.png",
+              "size": 33884
             },
             "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 865321
+              "name": "andes-linux.zip",
+              "size": 6118842
             },
             "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 997364
+              "name": "andes-mac.zip",
+              "size": 5225268
             },
             "win": {
-              "name": "nekobi-win.zip",
-              "size": 983729
+              "name": "andes-win.zip",
+              "size": 3450947
             }
           },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
-      "license": "gpl-3.0",
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Distortion",
-            "Effect",
-            "Spline"
-          ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-shaper.png",
-              "size": 42563
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
-            }
-          },
-          "release": "v0.1.8"
+          "release": "v0.2.0"
         }
       }
     },
@@ -527,134 +438,92 @@
         }
       }
     },
-    "studiorack/regrader/regrader": {
-      "id": "studiorack/regrader/regrader",
-      "license": "mit",
-      "version": "1.0.4",
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
       "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
           "tags": [
-            "Delay",
+            "Distortion",
             "Effect",
-            "Sync"
+            "Spline"
           ],
-          "version": "1.0.4",
-          "id": "regrader",
-          "date": "2021-08-08T07:00:00.000Z",
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "regrader.wav",
+              "name": "wolf-shaper.wav",
               "size": 352844
             },
             "image": {
-              "name": "regrader.png",
-              "size": 576052
+              "name": "wolf-shaper.png",
+              "size": 42563
             },
             "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
             },
             "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
             },
             "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
             }
           },
-          "release": "v1.0.4"
+          "release": "v0.1.8"
         }
       }
     },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
-      "license": "gpl-3.0",
-      "version": "1.4.0",
+    "studiorack/nekobi/nekobi": {
+      "id": "studiorack/nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
       "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Amplifier",
-            "Tube",
-            "DSP"
-          ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "swankyamp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "swankyamp.png",
-              "size": 494455
-            },
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
-            }
-          },
-          "release": "v1.4.0"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
           "tags": [
             "Synth",
-            "Modulation"
+            "Oscillator",
+            "Roland",
+            "TB-303"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.wav",
+              "name": "nekobi.wav",
               "size": 352844
             },
             "image": {
-              "name": "helm.png",
-              "size": 417945
+              "name": "nekobi.png",
+              "size": 50361
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
+              "name": "nekobi-linux.zip",
+              "size": 865321
             },
             "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
+              "name": "nekobi-mac.zip",
+              "size": 997364
             },
             "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
+              "name": "nekobi-win.zip",
+              "size": 983729
             }
           },
-          "release": "v0.9.0"
+          "release": "v1.0.0"
         }
       }
     },
@@ -745,92 +614,134 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
       "license": "gpl-3.0",
-      "version": "2.1.0",
+      "version": "0.9.0",
       "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
-            "Bass",
             "Synth",
-            "Casio",
-            "Pad",
-            "Lead"
+            "Modulation"
           ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "digits.wav",
-              "size": 134990
-            },
-            "image": {
-              "name": "digits.png",
-              "size": 97572
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
-            },
-            "win": {
-              "name": "digits-win.exe",
-              "size": 669291
-            }
-          },
-          "release": "v2.1.0"
-        }
-      }
-    },
-    "studiorack/ninjas2/ninjas2": {
-      "id": "studiorack/ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Sample",
-            "Slicer"
-          ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.wav",
+              "name": "helm.wav",
               "size": 352844
             },
             "image": {
-              "name": "ninjas2.png",
-              "size": 139641
+              "name": "helm.png",
+              "size": 417945
             },
             "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
+              "name": "helm-linux.zip",
+              "size": 12294991
             },
             "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
+              "name": "helm-mac.zip",
+              "size": 12827630
             },
             "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
+              "name": "helm-win.msi",
+              "size": 19533824
             }
           },
-          "release": "v0.2.0"
+          "release": "v0.9.0"
+        }
+      }
+    },
+    "studiorack/regrader/regrader": {
+      "id": "studiorack/regrader/regrader",
+      "license": "mit",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Delay",
+            "Effect",
+            "Sync"
+          ],
+          "version": "1.0.4",
+          "id": "regrader",
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "regrader.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "regrader.png",
+              "size": 576052
+            },
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030
+            }
+          },
+          "release": "v1.0.4"
+        }
+      }
+    },
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Amplifier",
+            "Tube",
+            "DSP"
+          ],
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "swankyamp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "swankyamp.png",
+              "size": 494455
+            },
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426
+            }
+          },
+          "release": "v1.4.0"
         }
       }
     },
@@ -877,176 +788,133 @@
         }
       }
     },
-    "studiorack/mda/mda": {
-      "id": "studiorack/mda/mda",
+    "studiorack/ninjas2/ninjas2": {
+      "id": "studiorack/ninjas2/ninjas2",
       "license": "gpl-3.0",
-      "version": "1.0.4",
+      "version": "0.2.0",
       "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
           "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
+            "Sample",
+            "Slicer"
           ],
-          "version": "1.0.4",
-          "id": "mda",
-          "date": "2020-12-20T08:00:00.000Z",
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mda.wav",
+              "name": "ninjas2.wav",
               "size": 352844
             },
             "image": {
-              "name": "mda.png",
-              "size": 305613
+              "name": "ninjas2.png",
+              "size": 139641
             },
             "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
             },
             "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
             },
             "win": {
-              "name": "mda-win.zip",
-              "size": 1247768
+              "name": "ninjas2-win.zip",
+              "size": 5995116
             }
           },
-          "release": "v1.0.4"
+          "release": "v0.2.0"
         }
       }
     },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
       "license": "gpl-3.0",
-      "version": "1.1.1",
+      "version": "2.1.0",
       "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
           "tags": [
-            "Distortion",
-            "Effect"
-          ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "temper.png",
-              "size": 551686
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
-            },
-            "win": {
-              "name": "temper-win.exe",
-              "size": 3942251
-            }
-          },
-          "release": "v1.1.1"
-        }
-      }
-    },
-    "studiorack/odin/odin": {
-      "id": "studiorack/odin/odin",
-      "license": "gpl-3.0",
-      "version": "2.2.4",
-      "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-          "tags": [
+            "Bass",
             "Synth",
-            "Moog",
-            "Korg"
+            "Casio",
+            "Pad",
+            "Lead"
           ],
-          "version": "2.2.4",
-          "id": "odin",
-          "date": "2020-10-24T08:00:00.000Z",
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "odin.wav",
-              "size": 352844
+              "name": "digits.wav",
+              "size": 134990
             },
             "image": {
-              "name": "odin.png",
-              "size": 802665
+              "name": "digits.png",
+              "size": 97572
             },
             "linux": {
-              "name": "odin-linux.zip",
-              "size": 97250026
+              "name": "digits-linux.zip",
+              "size": 339840
             },
             "mac": {
-              "name": "odin-mac.zip",
-              "size": 78842812
+              "name": "digits-mac.zip",
+              "size": 2109406
             },
             "win": {
-              "name": "odin-win.zip",
-              "size": 46173771
+              "name": "digits-win.exe",
+              "size": 669291
             }
           },
-          "release": "v2.2.4"
+          "release": "v2.1.0"
         }
       }
     },
-    "studiorack/chow-matrix/chow-matrix": {
-      "id": "studiorack/chow-matrix/chow-matrix",
-      "license": "bsd-3-clause",
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
       "version": "1.2.0",
       "versions": {
         "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
           "tags": [
-            "Delay",
-            "Feedback",
-            "Pan",
-            "Distortion"
+            "Amp",
+            "Guitar",
+            "Effect"
           ],
           "version": "1.2.0",
-          "id": "chow-matrix",
-          "date": "2021-04-23T08:00:00.000Z",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-matrix.wav",
+              "name": "smartguitaramp.wav",
               "size": 352844
             },
             "image": {
-              "name": "chow-matrix.png",
-              "size": 181814
+              "name": "smartguitaramp.png",
+              "size": 756468
             },
             "linux": {
-              "name": "chow-matrix-linux.zip",
-              "size": 16260494
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
             },
             "mac": {
-              "name": "chow-matrix-mac.zip",
-              "size": 10373268
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
             },
             "win": {
-              "name": "chow-matrix-win.exe",
-              "size": 7728493
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
             }
           },
           "release": "v1.2.0"
@@ -1182,91 +1050,179 @@
         }
       }
     },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
+    "studiorack/temper/temper": {
+      "id": "studiorack/temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
       "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
           "tags": [
-            "Amp",
-            "Guitar",
+            "Distortion",
             "Effect"
           ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "smartguitaramp.wav",
+              "name": "temper.wav",
               "size": 352844
             },
             "image": {
-              "name": "smartguitaramp.png",
-              "size": 756468
+              "name": "temper.png",
+              "size": 551686
             },
             "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
+              "name": "temper-linux.zip",
+              "size": 9837586
             },
             "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
+              "name": "temper-mac.zip",
+              "size": 6764694
             },
             "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
+              "name": "temper-win.exe",
+              "size": 3942251
+            }
+          },
+          "release": "v1.1.1"
+        }
+      }
+    },
+    "studiorack/odin/odin": {
+      "id": "studiorack/odin/odin",
+      "license": "gpl-3.0",
+      "version": "2.2.4",
+      "versions": {
+        "2.2.4": {
+          "author": "TheWaveWarden",
+          "homepage": "https://github.com/TheWaveWarden/odin2",
+          "name": "Odin",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+          "tags": [
+            "Synth",
+            "Moog",
+            "Korg"
+          ],
+          "version": "2.2.4",
+          "id": "odin",
+          "date": "2020-10-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "odin.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "odin.png",
+              "size": 802665
+            },
+            "linux": {
+              "name": "odin-linux.zip",
+              "size": 97250026
+            },
+            "mac": {
+              "name": "odin-mac.zip",
+              "size": 78842812
+            },
+            "win": {
+              "name": "odin-win.zip",
+              "size": 46173771
+            }
+          },
+          "release": "v2.2.4"
+        }
+      }
+    },
+    "studiorack/chow-matrix/chow-matrix": {
+      "id": "studiorack/chow-matrix/chow-matrix",
+      "license": "bsd-3-clause",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
+          "name": "CHOW Matrix",
+          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+          "tags": [
+            "Delay",
+            "Feedback",
+            "Pan",
+            "Distortion"
+          ],
+          "version": "1.2.0",
+          "id": "chow-matrix",
+          "date": "2021-04-23T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-matrix.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "chow-matrix.png",
+              "size": 181814
+            },
+            "linux": {
+              "name": "chow-matrix-linux.zip",
+              "size": 16260494
+            },
+            "mac": {
+              "name": "chow-matrix-mac.zip",
+              "size": 10373268
+            },
+            "win": {
+              "name": "chow-matrix-win.exe",
+              "size": 7728493
             }
           },
           "release": "v1.2.0"
         }
       }
     },
-    "studiorack/surge/surge": {
-      "id": "studiorack/surge/surge",
+    "studiorack/mda/mda": {
+      "id": "studiorack/mda/mda",
       "license": "gpl-3.0",
-      "version": "1.9.0",
+      "version": "1.0.4",
       "versions": {
-        "1.9.0": {
-          "author": "Claes Johanson",
-          "homepage": "https://surge-synthesizer.github.io/",
-          "name": "Surge",
-          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
           "tags": [
-            "Synth",
-            "Modulation",
-            "Effects"
+            "Effect",
+            "Delay",
+            "Vocoder"
           ],
-          "version": "1.9.0",
-          "id": "surge",
-          "date": "2021-04-21T07:00:00.000Z",
+          "version": "1.0.4",
+          "id": "mda",
+          "date": "2020-12-20T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "surge.wav",
+              "name": "mda.wav",
               "size": 352844
             },
             "image": {
-              "name": "surge.png",
-              "size": 523598
+              "name": "mda.png",
+              "size": 305613
             },
             "linux": {
-              "name": "surge-linux.zip",
-              "size": 153534437
+              "name": "mda-linux.zip",
+              "size": 70938
             },
             "mac": {
-              "name": "surge-mac.zip",
-              "size": 47300596
+              "name": "mda-mac.zip",
+              "size": 5122516
             },
             "win": {
-              "name": "surge-win.exe",
-              "size": 108842250
+              "name": "mda-win.zip",
+              "size": 1247768
             }
           },
-          "release": "v1.9.0"
+          "release": "v1.0.4"
         }
       }
     },
@@ -1436,6 +1392,50 @@
             }
           },
           "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/surge/surge": {
+      "id": "studiorack/surge/surge",
+      "license": "gpl-3.0",
+      "version": "1.9.0",
+      "versions": {
+        "1.9.0": {
+          "author": "Claes Johanson",
+          "homepage": "https://surge-synthesizer.github.io/",
+          "name": "Surge",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "tags": [
+            "Synth",
+            "Modulation",
+            "Effects"
+          ],
+          "version": "1.9.0",
+          "id": "surge",
+          "date": "2021-04-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "surge.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "surge.png",
+              "size": 523598
+            },
+            "linux": {
+              "name": "surge-linux.zip",
+              "size": 153534437
+            },
+            "mac": {
+              "name": "surge-mac.zip",
+              "size": 47300596
+            },
+            "win": {
+              "name": "surge-win.exe",
+              "size": 108842250
+            }
+          },
+          "release": "v1.9.0"
         }
       }
     },
@@ -1660,6 +1660,6 @@
       }
     }
   },
-  "time": "2021-10-25T00:16:53.429Z",
+  "time": "2021-10-26T00:15:50.849Z",
   "total": 38
 }
