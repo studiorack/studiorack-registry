@@ -87,92 +87,6 @@
         }
       }
     },
-    "studiorack/adlplug/adlplug": {
-      "id": "studiorack/adlplug/adlplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "adlplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "adlplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "adlplug.png",
-              "size": 601168
-            },
-            "linux": {
-              "name": "adlplug-linux.zip",
-              "size": 11068718
-            },
-            "mac": {
-              "name": "adlplug-mac.zip",
-              "size": 33551714
-            },
-            "win": {
-              "name": "adlplug-win.zip",
-              "size": 24833093
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/adlplug/opnplug": {
-      "id": "studiorack/adlplug/opnplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "opnplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "opnplug.png",
-              "size": 620462
-            },
-            "linux": {
-              "name": "opnplug-linux.zip",
-              "size": 11236640
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 27264168
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25020750
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -303,6 +217,92 @@
             }
           },
           "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/adlplug/adlplug": {
+      "id": "studiorack/adlplug/adlplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "adlplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "adlplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "adlplug.png",
+              "size": 601168
+            },
+            "linux": {
+              "name": "adlplug-linux.zip",
+              "size": 11068718
+            },
+            "mac": {
+              "name": "adlplug-mac.zip",
+              "size": 33551714
+            },
+            "win": {
+              "name": "adlplug-win.zip",
+              "size": 24833093
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/adlplug/opnplug": {
+      "id": "studiorack/adlplug/opnplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "OPNplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "opnplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opnplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "opnplug.png",
+              "size": 620462
+            },
+            "linux": {
+              "name": "opnplug-linux.zip",
+              "size": 11236640
+            },
+            "mac": {
+              "name": "opnplug-mac.zip",
+              "size": 27264168
+            },
+            "win": {
+              "name": "opnplug-win.zip",
+              "size": 25020750
+            }
+          },
+          "release": "v1.0.2"
         }
       }
     },
@@ -527,137 +527,6 @@
         }
       }
     },
-    "studiorack/regrader/regrader": {
-      "id": "studiorack/regrader/regrader",
-      "license": "mit",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
-          "tags": [
-            "Delay",
-            "Effect",
-            "Sync"
-          ],
-          "version": "1.0.4",
-          "id": "regrader",
-          "date": "2021-08-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "regrader.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "regrader.png",
-              "size": 576052
-            },
-            "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901
-            },
-            "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572
-            },
-            "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030
-            }
-          },
-          "release": "v1.0.4"
-        }
-      }
-    },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
-      "license": "gpl-3.0",
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Amplifier",
-            "Tube",
-            "DSP"
-          ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "swankyamp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "swankyamp.png",
-              "size": 494455
-            },
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
-            }
-          },
-          "release": "v1.4.0"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
     "studiorack/modeq/modeq": {
       "id": "studiorack/modeq/modeq",
       "license": "gpl-3.0",
@@ -788,6 +657,137 @@
             }
           },
           "release": "v2.0.6"
+        }
+      }
+    },
+    "studiorack/regrader/regrader": {
+      "id": "studiorack/regrader/regrader",
+      "license": "mit",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Delay",
+            "Effect",
+            "Sync"
+          ],
+          "version": "1.0.4",
+          "id": "regrader",
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "regrader.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "regrader.png",
+              "size": 576052
+            },
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030
+            }
+          },
+          "release": "v1.0.4"
+        }
+      }
+    },
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Amplifier",
+            "Tube",
+            "DSP"
+          ],
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "swankyamp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "swankyamp.png",
+              "size": 494455
+            },
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426
+            }
+          },
+          "release": "v1.4.0"
+        }
+      }
+    },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 417945
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0"
         }
       }
     },
@@ -1793,6 +1793,6 @@
       }
     }
   },
-  "time": "2021-11-04T02:12:10.284Z",
+  "time": "2021-11-05T00:16:23.716Z",
   "total": 41
 }
