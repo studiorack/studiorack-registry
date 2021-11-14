@@ -176,6 +176,50 @@
         }
       }
     },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Perlin"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -262,47 +306,48 @@
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
-      "version": "0.2.0",
+      "version": "3.2.5",
       "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
+            "Plate",
+            "Reverb",
+            "Reflection",
+            "Room"
           ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
+              "name": "dragonfly-reverb.wav",
+              "size": 352844
             },
             "image": {
-              "name": "andes.png",
-              "size": 33884
+              "name": "dragonfly-reverb.png",
+              "size": 394705
             },
             "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
             },
             "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
             },
             "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
             }
           },
-          "release": "v0.2.0"
+          "release": "v3.2.5"
         }
       }
     },
@@ -350,48 +395,47 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
       "license": "gpl-3.0",
-      "version": "3.2.5",
+      "version": "1.0.0",
       "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
           "tags": [
-            "Plate",
-            "Reverb",
-            "Reflection",
-            "Room"
+            "Spectrogram",
+            "Frequency",
+            "Scaling"
           ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.wav",
+              "name": "wolf-spectrum.wav",
               "size": 352844
             },
             "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
+              "name": "wolf-spectrum.png",
+              "size": 101160
             },
             "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
             },
             "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
             },
             "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
             }
           },
-          "release": "v3.2.5"
+          "release": "v1.0.0"
         }
       }
     },
@@ -436,50 +480,6 @@
             }
           },
           "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Spectrogram",
-            "Frequency",
-            "Scaling"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -572,136 +572,6 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Synth",
-            "String",
-            "Pluck"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "kars.png",
-              "size": 174131
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Analog",
-            "Synth"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "tunefish.png",
-              "size": 380571
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
     "studiorack/regrader/regrader": {
       "id": "studiorack/regrader/regrader",
       "license": "mit",
@@ -790,134 +660,133 @@
         }
       }
     },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
       "license": "gpl-3.0",
-      "version": "0.4.0",
+      "version": "0.9.0",
       "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
             "Synth",
-            "Modulation",
-            "Frequency"
+            "Modulation"
           ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "octasine.wav",
+              "name": "helm.wav",
               "size": 352844
             },
             "image": {
-              "name": "octasine.png",
-              "size": 679563
+              "name": "helm.png",
+              "size": 417945
             },
             "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
+              "name": "helm-linux.zip",
+              "size": 12294991
             },
             "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
+              "name": "helm-mac.zip",
+              "size": 12827630
             },
             "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
+              "name": "helm-win.msi",
+              "size": 19533824
             }
           },
-          "release": "v0.5.3"
+          "release": "v0.9.0"
         }
       }
     },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "id": "studiorack/chow-tape-model/chow-tape-model",
-      "license": "gpl-3.0",
-      "version": "2.8.0",
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
       "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
           "tags": [
-            "Tape",
-            "Effect"
+            "Synth",
+            "String",
+            "Pluck"
           ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-tape-model.wav",
+              "name": "kars.wav",
               "size": 352844
             },
             "image": {
-              "name": "chow-tape-model.png",
-              "size": 94400
+              "name": "kars.png",
+              "size": 174131
             },
             "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
+              "name": "kars-linux.zip",
+              "size": 1149271
             },
             "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
+              "name": "kars-mac.zip",
+              "size": 1327762
             },
             "win": {
-              "name": "chow-tape-model-win.exe",
-              "size": 10053679
+              "name": "kars-win.zip",
+              "size": 1175194
             }
           },
-          "release": "v2.8.0"
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Analog",
+            "Synth"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "tunefish.png",
+              "size": 380571
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0"
         }
       }
     },
@@ -1010,46 +879,90 @@
         }
       }
     },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
-      "version": "1.1.1",
+      "version": "2.8.0",
       "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
           "tags": [
-            "Distortion",
+            "Tape",
             "Effect"
           ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "temper.wav",
+              "name": "chow-tape-model.wav",
               "size": 352844
             },
             "image": {
-              "name": "temper.png",
-              "size": 551686
+              "name": "chow-tape-model.png",
+              "size": 94400
             },
             "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
             },
             "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
             },
             "win": {
-              "name": "temper-win.exe",
-              "size": 3942251
+              "name": "chow-tape-model-win.exe",
+              "size": 10053679
             }
           },
-          "release": "v1.1.1"
+          "release": "v2.8.0"
+        }
+      }
+    },
+    "studiorack/mda/mda": {
+      "id": "studiorack/mda/mda",
+      "license": "gpl-3.0",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "version": "1.0.4",
+          "id": "mda",
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mda.png",
+              "size": 305613
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768
+            }
+          },
+          "release": "v1.0.4"
         }
       }
     },
@@ -1094,6 +1007,49 @@
             }
           },
           "release": "v2.2.4"
+        }
+      }
+    },
+    "studiorack/temper/temper": {
+      "id": "studiorack/temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Distortion",
+            "Effect"
+          ],
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "temper.png",
+              "size": 551686
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694
+            },
+            "win": {
+              "name": "temper-win.exe",
+              "size": 3942251
+            }
+          },
+          "release": "v1.1.1"
         }
       }
     },
@@ -1142,47 +1098,264 @@
         }
       }
     },
-    "studiorack/mda/mda": {
-      "id": "studiorack/mda/mda",
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
       "license": "gpl-3.0",
-      "version": "1.0.4",
+      "version": "0.4.0",
       "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
+            "EQ",
             "Effect",
-            "Delay",
-            "Vocoder"
+            "Modulation"
           ],
-          "version": "1.0.4",
-          "id": "mda",
-          "date": "2020-12-20T08:00:00.000Z",
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mda.wav",
+              "name": "modeq.wav",
               "size": 352844
             },
             "image": {
-              "name": "mda.png",
-              "size": 305613
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "mda-win.zip",
-              "size": 1247768
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v1.0.4"
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Synth",
+            "Modulation",
+            "Frequency"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "octasine.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
+        }
+      }
+    },
+    "studiorack/vital/vital": {
+      "id": "studiorack/vital/vital",
+      "license": "gpl-3.0",
+      "version": "1.0.7",
+      "versions": {
+        "1.0.7": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/vital",
+          "name": "Vital",
+          "description": "Spectral warping wavetable synthesizer.",
+          "tags": [
+            "Spectral",
+            "Synth",
+            "Wavetable"
+          ],
+          "version": "1.0.7",
+          "id": "vital",
+          "date": "2021-02-17T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vital.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "vital.png",
+              "size": 380571
+            },
+            "linux": {
+              "name": "vital-linux.zip",
+              "size": 26219711
+            },
+            "mac": {
+              "name": "vital-mac.zip",
+              "size": 11198493
+            },
+            "win": {
+              "name": "vital-win.exe",
+              "size": 24904312
+            }
+          },
+          "release": "v1.0.7"
+        }
+      }
+    },
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "OB-X",
+            "Synth"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "obxd.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.exe",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Amp",
+            "Guitar",
+            "Effect"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "smartguitaramp.png",
+              "size": 756468
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.wav",
+              "size": 126798
+            },
+            "image": {
+              "name": "mverb.png",
+              "size": 398787
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -1406,49 +1579,6 @@
         }
       }
     },
-    "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Sample",
-            "Synth"
-          ],
-          "version": "1.0.0",
-          "id": "sfizz",
-          "date": "2020-04-16T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "sfizz.png",
-              "size": 44587
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 6555322
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 10778290
-            },
-            "win": {
-              "name": "sfizz-win.exe",
-              "size": 3258317
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "studiorack/mini-series/mini-series-eq": {
       "id": "studiorack/mini-series/mini-series-eq",
       "license": "lgpl-3.0",
@@ -1575,6 +1705,49 @@
         }
       }
     },
+    "studiorack/sfizz/sfizz": {
+      "id": "studiorack/sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Sample",
+            "Synth"
+          ],
+          "version": "1.0.0",
+          "id": "sfizz",
+          "date": "2020-04-16T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "sfizz.png",
+              "size": 44587
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 6555322
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 10778290
+            },
+            "win": {
+              "name": "sfizz-win.exe",
+              "size": 3258317
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
     "studiorack/surge/surge": {
       "id": "studiorack/surge/surge",
       "license": "gpl-3.0",
@@ -1618,181 +1791,8 @@
           "release": "v1.9.0"
         }
       }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Amp",
-            "Guitar",
-            "Effect"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "smartguitaramp.png",
-              "size": 756468
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/vital/vital": {
-      "id": "studiorack/vital/vital",
-      "license": "gpl-3.0",
-      "version": "1.0.7",
-      "versions": {
-        "1.0.7": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/vital",
-          "name": "Vital",
-          "description": "Spectral warping wavetable synthesizer.",
-          "tags": [
-            "Spectral",
-            "Synth",
-            "Wavetable"
-          ],
-          "version": "1.0.7",
-          "id": "vital",
-          "date": "2021-02-17T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vital.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "vital.png",
-              "size": 380571
-            },
-            "linux": {
-              "name": "vital-linux.zip",
-              "size": 26219711
-            },
-            "mac": {
-              "name": "vital-mac.zip",
-              "size": 11198493
-            },
-            "win": {
-              "name": "vital-win.exe",
-              "size": 24904312
-            }
-          },
-          "release": "v1.0.7"
-        }
-      }
-    },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "OB-X",
-            "Synth"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "obxd.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.exe",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.wav",
-              "size": 126798
-            },
-            "image": {
-              "name": "mverb.png",
-              "size": 398787
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
     }
   },
-  "time": "2021-11-13T00:15:41.698Z",
+  "time": "2021-11-14T00:17:05.633Z",
   "total": 41
 }
