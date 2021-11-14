@@ -77,8 +77,8 @@ Registry then performs some validation on the plugins.json before compiling into
 
     {
       "objects": {
-        "username/studiorack-plugin-steinberg/helloworld": {
-          "id": "username/studiorack-plugin-steinberg/helloworld",
+        "username/studiorack-template-steinberg/helloworld": {
+          "id": "username/studiorack-template-steinberg/helloworld",
           "version": "0.0.1",
           "versions": {
             "0.0.1": {
@@ -95,7 +95,7 @@ Registry then performs some validation on the plugins.json before compiling into
             }
           }
         },
-        "username2/studiorack-plugin-steinberg": { ... }
+        "username2/studiorack-template-steinberg": { ... }
       },
       "time": "2020-08-29T22:22:41.119Z",
       "total": 2
