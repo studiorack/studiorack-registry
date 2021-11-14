@@ -25,6 +25,7 @@ Create the registry using:
 
 The StudioRack Registry uses GitHub as a source of truth for plugins. We search the GitHub API for topic `studiosrack-plugin`:
 
+    https://github.com/topics/studiorack-plugin
     https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true
 
 Then for each GitHub repository, the Registry loops through their releases/versions and downloads plugins.json:

@@ -2,6 +2,8 @@ import * as semver from 'semver';
 import slugify from 'slugify';
 import { getJSON, PluginInterface, PluginLocal, PluginPack, validatePluginSchema } from '@studiorack/core';
 
+// Plugins need to have a topic `studiorack-plugin` to appear in the results
+// https://github.com/topics/studiorack-plugin
 const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true&per_page=100';
 
 async function getGithubPack(): Promise<PluginPack> {
