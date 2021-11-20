@@ -1,10 +1,433 @@
 {
   "objects": {
+    "ryukau/vstplugins/colliding-comb-synth": {
+      "id": "ryukau/vstplugins/colliding-comb-synth",
+      "license": "gpl-3.0",
+      "version": "0.1.1",
+      "versions": {
+        "0.1.1": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "CollidingCombSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.1",
+          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
+          "id": "colliding-comb-synth",
+          "files": {
+            "audio": {
+              "name": "CollidingCombSynth.wav",
+              "size": 4496454
+            },
+            "image": {
+              "name": "CollidingCombSynth.png",
+              "size": 43505
+            },
+            "linux": {
+              "name": "CollidingCombSynth-linux.zip",
+              "size": 1811427
+            },
+            "mac": {
+              "name": "CollidingCombSynth-mac.zip",
+              "size": 1811427
+            },
+            "win": {
+              "name": "CollidingCombSynth-win.zip",
+              "size": 1811427
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/cubic-pad-synth": {
+      "id": "ryukau/vstplugins/cubic-pad-synth",
+      "license": "gpl-3.0",
+      "version": "0.1.10",
+      "versions": {
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.10",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.wav",
+              "size": 4374542
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 57259
+            },
+            "linux": {
+              "name": "CubicPadSynth-linux.zip",
+              "size": 6523077
+            },
+            "mac": {
+              "name": "CubicPadSynth-mac.zip",
+              "size": 6523077
+            },
+            "win": {
+              "name": "CubicPadSynth-win.zip",
+              "size": 6523077
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/enveloped-sine": {
+      "id": "ryukau/vstplugins/enveloped-sine",
+      "license": "gpl-3.0",
+      "version": "0.1.11",
+      "versions": {
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "EnvelopedSine",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.11",
+          "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
+          "id": "enveloped-sine",
+          "files": {
+            "audio": {
+              "name": "EnvelopedSine.wav",
+              "size": 9045446
+            },
+            "image": {
+              "name": "EnvelopedSine.png",
+              "size": 56493
+            },
+            "linux": {
+              "name": "EnvelopedSine-linux.zip",
+              "size": 1900075
+            },
+            "mac": {
+              "name": "EnvelopedSine-mac.zip",
+              "size": 1900075
+            },
+            "win": {
+              "name": "EnvelopedSine-win.zip",
+              "size": 1900075
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/es-phaser": {
+      "id": "ryukau/vstplugins/es-phaser",
+      "license": "gpl-3.0",
+      "version": "0.1.7",
+      "versions": {
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.7",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.wav",
+              "size": 8448508
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 9628
+            },
+            "linux": {
+              "name": "EsPhaser-linux.zip",
+              "size": 1501633
+            },
+            "mac": {
+              "name": "EsPhaser-mac.zip",
+              "size": 1501633
+            },
+            "win": {
+              "name": "EsPhaser-win.zip",
+              "size": 1501633
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/f-d-n-cymbal": {
+      "id": "ryukau/vstplugins/f-d-n-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.2.6",
+      "versions": {
+        "0.2.6": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.6",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.wav",
+              "size": 6134428
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 34324
+            },
+            "linux": {
+              "name": "FDNCymbal-linux.zip",
+              "size": 1669749
+            },
+            "mac": {
+              "name": "FDNCymbal-mac.zip",
+              "size": 1669749
+            },
+            "win": {
+              "name": "FDNCymbal-win.zip",
+              "size": 1669749
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/iterative-sin-cluster": {
+      "id": "ryukau/vstplugins/iterative-sin-cluster",
+      "license": "gpl-3.0",
+      "version": "0.1.12",
+      "versions": {
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "IterativeSinCluster",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.12",
+          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
+          "id": "iterative-sin-cluster",
+          "files": {
+            "audio": {
+              "name": "IterativeSinCluster.wav",
+              "size": 5993510
+            },
+            "image": {
+              "name": "IterativeSinCluster.png",
+              "size": 39318
+            },
+            "linux": {
+              "name": "IterativeSinCluster-linux.zip",
+              "size": 1778673
+            },
+            "mac": {
+              "name": "IterativeSinCluster-mac.zip",
+              "size": 1778673
+            },
+            "win": {
+              "name": "IterativeSinCluster-win.zip",
+              "size": 1778673
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/l4-reverb": {
+      "id": "ryukau/vstplugins/l4-reverb",
+      "license": "gpl-3.0",
+      "version": "0.1.4",
+      "versions": {
+        "0.1.4": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.4",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.wav",
+              "size": 8212508
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 32981
+            },
+            "linux": {
+              "name": "L4Reverb-linux.zip",
+              "size": 1720420
+            },
+            "mac": {
+              "name": "L4Reverb-mac.zip",
+              "size": 1720420
+            },
+            "win": {
+              "name": "L4Reverb-win.zip",
+              "size": 1720420
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/lattice-reverb": {
+      "id": "ryukau/vstplugins/lattice-reverb",
+      "license": "gpl-3.0",
+      "version": "0.1.6",
+      "versions": {
+        "0.1.6": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.6",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.wav",
+              "size": 3840348
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 26006
+            },
+            "linux": {
+              "name": "LatticeReverb-linux.zip",
+              "size": 1722758
+            },
+            "mac": {
+              "name": "LatticeReverb-mac.zip",
+              "size": 1722758
+            },
+            "win": {
+              "name": "LatticeReverb-win.zip",
+              "size": 1722758
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/light-pad-synth": {
+      "id": "ryukau/vstplugins/light-pad-synth",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "LightPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.8",
+          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
+          "id": "light-pad-synth",
+          "files": {
+            "audio": {
+              "name": "LightPadSynth.wav",
+              "size": 5487542
+            },
+            "image": {
+              "name": "LightPadSynth.png",
+              "size": 54549
+            },
+            "linux": {
+              "name": "LightPadSynth-linux.zip",
+              "size": 2044205
+            },
+            "mac": {
+              "name": "LightPadSynth-mac.zip",
+              "size": 2044205
+            },
+            "win": {
+              "name": "LightPadSynth-win.zip",
+              "size": 2044205
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
     "ryukau/vstplugins/seven-delay": {
       "id": "ryukau/vstplugins/seven-delay",
       "license": "gpl-3.0",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "versions": {
+        "0.1.15": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.15",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.wav",
+              "size": 5781966
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 30066
+            },
+            "linux": {
+              "name": "SevenDelay-linux.zip",
+              "size": 1611663
+            },
+            "mac": {
+              "name": "SevenDelay-mac.zip",
+              "size": 1611663
+            },
+            "win": {
+              "name": "SevenDelay-win.zip",
+              "size": 1611663
+            }
+          },
+          "release": "ResetAndMuteFix"
+        },
         "0.1.14": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -40,6 +463,135 @@
             }
           },
           "release": "SevenDelay0.1.14"
+        }
+      }
+    },
+    "ryukau/vstplugins/sync-saw-synth": {
+      "id": "ryukau/vstplugins/sync-saw-synth",
+      "license": "gpl-3.0",
+      "version": "0.1.17",
+      "versions": {
+        "0.1.17": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "SyncSawSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.17",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
+          "files": {
+            "audio": {
+              "name": "SyncSawSynth.wav",
+              "size": 1978606
+            },
+            "image": {
+              "name": "SyncSawSynth.png",
+              "size": 40255
+            },
+            "linux": {
+              "name": "SyncSawSynth-linux.zip",
+              "size": 1690199
+            },
+            "mac": {
+              "name": "SyncSawSynth-mac.zip",
+              "size": 1690199
+            },
+            "win": {
+              "name": "SyncSawSynth-win.zip",
+              "size": 1690199
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/trapezoid-synth": {
+      "id": "ryukau/vstplugins/trapezoid-synth",
+      "license": "gpl-3.0",
+      "version": "0.1.13",
+      "versions": {
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "TrapezoidSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.13",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
+          "files": {
+            "audio": {
+              "name": "TrapezoidSynth.wav",
+              "size": 5826542
+            },
+            "image": {
+              "name": "TrapezoidSynth.png",
+              "size": 40114
+            },
+            "linux": {
+              "name": "TrapezoidSynth-linux.zip",
+              "size": 1686343
+            },
+            "mac": {
+              "name": "TrapezoidSynth-mac.zip",
+              "size": 1686343
+            },
+            "win": {
+              "name": "TrapezoidSynth-win.zip",
+              "size": 1686343
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/wave-cymbal": {
+      "id": "ryukau/vstplugins/wave-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.1.13",
+      "versions": {
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.13",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 28050
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1672674
+            },
+            "mac": {
+              "name": "WaveCymbal-mac.zip",
+              "size": 1672674
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1672674
+            }
+          },
+          "release": "ResetAndMuteFix"
         }
       }
     },
@@ -88,47 +640,47 @@
         }
       }
     },
-    "studiorack/opl/opl": {
-      "id": "studiorack/opl/opl",
-      "license": "gpl-2.0",
-      "version": "2.1.0",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
       "versions": {
-        "2.1.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OPL",
-          "name": "OPL",
-          "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
-            "Synth",
             "FM",
-            "Yamaha"
+            "Synth",
+            "LFO"
           ],
-          "version": "2.1.0",
-          "id": "opl",
-          "date": "2021-02-01T08:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "opl.wav",
+              "name": "oxe.wav",
               "size": 352844
             },
             "image": {
-              "name": "opl.png",
-              "size": 17227
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "opl-linux.zip",
-              "size": 5804207
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "opl-mac.zip",
-              "size": 7388864
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "opl-win.zip",
-              "size": 5845308
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v2.1.0"
+          "release": "v1.3.5"
         }
       }
     },
@@ -173,6 +725,138 @@
             }
           },
           "release": "v0.1.0"
+        }
+      }
+    },
+    "studiorack/opl/opl": {
+      "id": "studiorack/opl/opl",
+      "license": "gpl-2.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OPL",
+          "name": "OPL",
+          "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
+          "tags": [
+            "Synth",
+            "FM",
+            "Yamaha"
+          ],
+          "version": "2.1.0",
+          "id": "opl",
+          "date": "2021-02-01T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opl.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "opl.png",
+              "size": 17227
+            },
+            "linux": {
+              "name": "opl-linux.zip",
+              "size": 5804207
+            },
+            "mac": {
+              "name": "opl-mac.zip",
+              "size": 7388864
+            },
+            "win": {
+              "name": "opl-win.zip",
+              "size": 5845308
+            }
+          },
+          "release": "v2.1.0"
+        }
+      }
+    },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Perlin"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
         }
       }
     },
@@ -259,138 +943,6 @@
             }
           },
           "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "FM",
-            "Synth",
-            "LFO"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0"
         }
       }
     },
@@ -484,6 +1036,50 @@
         }
       }
     },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Distortion",
+            "Effect",
+            "Spline"
+          ],
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-shaper.png",
+              "size": 42563
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
+            }
+          },
+          "release": "v0.1.8"
+        }
+      }
+    },
     "studiorack/nekobi/nekobi": {
       "id": "studiorack/nekobi/nekobi",
       "license": "gpl-2.0",
@@ -529,47 +1125,47 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
       "license": "gpl-3.0",
-      "version": "0.1.8",
+      "version": "1.0.0",
       "versions": {
-        "0.1.8": {
+        "1.0.0": {
           "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
           "tags": [
-            "Distortion",
-            "Effect",
-            "Spline"
+            "Spectrogram",
+            "Frequency",
+            "Scaling"
           ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-shaper.wav",
+              "name": "wolf-spectrum.wav",
               "size": 352844
             },
             "image": {
-              "name": "wolf-shaper.png",
-              "size": 42563
+              "name": "wolf-spectrum.png",
+              "size": 101160
             },
             "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
             },
             "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
             },
             "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
             }
           },
-          "release": "v0.1.8"
+          "release": "v1.0.0"
         }
       }
     },
@@ -614,50 +1210,6 @@
             }
           },
           "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Spectrogram",
-            "Frequency",
-            "Scaling"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -792,94 +1344,6 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Synth",
-            "Modulation",
-            "Frequency"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
     "studiorack/kars/kars": {
       "id": "studiorack/kars/kars",
       "license": "isc",
@@ -967,49 +1431,91 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
       "license": "gpl-3.0",
-      "version": "2.1.0",
+      "version": "0.4.0",
       "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "Bass",
-            "Synth",
-            "Casio",
-            "Pad",
-            "Lead"
+            "EQ",
+            "Effect",
+            "Modulation"
           ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "digits.wav",
-              "size": 134990
+              "name": "modeq.wav",
+              "size": 352844
             },
             "image": {
-              "name": "digits.png",
-              "size": 97572
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "digits-win.exe",
-              "size": 669291
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v2.1.0"
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Synth",
+            "Modulation",
+            "Frequency"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "octasine.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
         }
       }
     },
@@ -1053,6 +1559,52 @@
             }
           },
           "release": "v0.2.0"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Bass",
+            "Synth",
+            "Casio",
+            "Pad",
+            "Lead"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0"
         }
       }
     },
@@ -1316,49 +1868,6 @@
         }
       }
     },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
-      "license": "gpl-3.0",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Distortion",
-            "Effect"
-          ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "temper.png",
-              "size": 551686
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
-            },
-            "win": {
-              "name": "temper-win.exe",
-              "size": 3942251
-            }
-          },
-          "release": "v1.1.1"
-        }
-      }
-    },
     "studiorack/odin/odin": {
       "id": "studiorack/odin/odin",
       "license": "gpl-3.0",
@@ -1400,6 +1909,49 @@
             }
           },
           "release": "v2.2.4"
+        }
+      }
+    },
+    "studiorack/temper/temper": {
+      "id": "studiorack/temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Distortion",
+            "Effect"
+          ],
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "temper.png",
+              "size": 551686
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694
+            },
+            "win": {
+              "name": "temper-win.exe",
+              "size": 3942251
+            }
+          },
+          "release": "v1.1.1"
         }
       }
     },
@@ -1489,219 +2041,6 @@
             }
           },
           "release": "v1.1.0"
-        }
-      }
-    },
-    "studiorack/surge/surge": {
-      "id": "studiorack/surge/surge",
-      "license": "gpl-3.0",
-      "version": "1.9.0",
-      "versions": {
-        "1.9.0": {
-          "author": "Surge Synth Team",
-          "homepage": "https://surge-synthesizer.github.io/",
-          "name": "Surge",
-          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
-          "tags": [
-            "Synth",
-            "Modulation",
-            "Effects"
-          ],
-          "version": "1.9.0",
-          "id": "surge",
-          "date": "2021-04-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "surge.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "surge.png",
-              "size": 523598
-            },
-            "linux": {
-              "name": "surge-linux.zip",
-              "size": 153534437
-            },
-            "mac": {
-              "name": "surge-mac.zip",
-              "size": 47300596
-            },
-            "win": {
-              "name": "surge-win.exe",
-              "size": 108842250
-            }
-          },
-          "release": "v1.9.0"
-        }
-      }
-    },
-    "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Sample",
-            "Synth"
-          ],
-          "version": "1.0.0",
-          "id": "sfizz",
-          "date": "2020-04-16T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "sfizz.png",
-              "size": 44587
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 6555322
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 10778290
-            },
-            "win": {
-              "name": "sfizz-win.exe",
-              "size": 3258317
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-eq": {
-      "id": "studiorack/mini-series/mini-series-eq",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band EQ",
-          "description": "3-Band EQ",
-          "tags": [
-            "EQ"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-eq",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-eq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mini-series-eq.png",
-              "size": 195027
-            },
-            "linux": {
-              "name": "mini-series-eq-linux.zip",
-              "size": 884722
-            },
-            "mac": {
-              "name": "mini-series-eq-mac.zip",
-              "size": 1101475
-            },
-            "win": {
-              "name": "mini-series-eq-win.zip",
-              "size": 850005
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-splitter": {
-      "id": "studiorack/mini-series/mini-series-splitter",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band Splitter",
-          "description": "3-Band Splitter",
-          "tags": [
-            "Splitter"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-splitter",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-splitter.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mini-series-splitter.png",
-              "size": 91635
-            },
-            "linux": {
-              "name": "mini-series-splitter-linux.zip",
-              "size": 925750
-            },
-            "mac": {
-              "name": "mini-series-splitter-mac.zip",
-              "size": 1155137
-            },
-            "win": {
-              "name": "mini-series-splitter-win.zip",
-              "size": 878640
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-pan": {
-      "id": "studiorack/mini-series/mini-series-pan",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: Ping Pong Pan",
-          "description": "Ping Pong Pan",
-          "tags": [
-            "Pan"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-pan",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-pan.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mini-series-pan.png",
-              "size": 91635
-            },
-            "linux": {
-              "name": "mini-series-pan-linux.zip",
-              "size": 940248
-            },
-            "mac": {
-              "name": "mini-series-pan-mac.zip",
-              "size": 1065872
-            },
-            "win": {
-              "name": "mini-series-pan-win.zip",
-              "size": 1002204
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -1924,8 +2263,221 @@
           "release": "v1.0.0"
         }
       }
+    },
+    "studiorack/mini-series/mini-series-eq": {
+      "id": "studiorack/mini-series/mini-series-eq",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band EQ",
+          "description": "3-Band EQ",
+          "tags": [
+            "EQ"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-eq",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-eq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mini-series-eq.png",
+              "size": 195027
+            },
+            "linux": {
+              "name": "mini-series-eq-linux.zip",
+              "size": 884722
+            },
+            "mac": {
+              "name": "mini-series-eq-mac.zip",
+              "size": 1101475
+            },
+            "win": {
+              "name": "mini-series-eq-win.zip",
+              "size": 850005
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-splitter": {
+      "id": "studiorack/mini-series/mini-series-splitter",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band Splitter",
+          "description": "3-Band Splitter",
+          "tags": [
+            "Splitter"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-splitter",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-splitter.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mini-series-splitter.png",
+              "size": 91635
+            },
+            "linux": {
+              "name": "mini-series-splitter-linux.zip",
+              "size": 925750
+            },
+            "mac": {
+              "name": "mini-series-splitter-mac.zip",
+              "size": 1155137
+            },
+            "win": {
+              "name": "mini-series-splitter-win.zip",
+              "size": 878640
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-pan": {
+      "id": "studiorack/mini-series/mini-series-pan",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: Ping Pong Pan",
+          "description": "Ping Pong Pan",
+          "tags": [
+            "Pan"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-pan",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-pan.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mini-series-pan.png",
+              "size": 91635
+            },
+            "linux": {
+              "name": "mini-series-pan-linux.zip",
+              "size": 940248
+            },
+            "mac": {
+              "name": "mini-series-pan-mac.zip",
+              "size": 1065872
+            },
+            "win": {
+              "name": "mini-series-pan-win.zip",
+              "size": 1002204
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/sfizz/sfizz": {
+      "id": "studiorack/sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Sample",
+            "Synth"
+          ],
+          "version": "1.0.0",
+          "id": "sfizz",
+          "date": "2020-04-16T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "sfizz.png",
+              "size": 44587
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 6555322
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 10778290
+            },
+            "win": {
+              "name": "sfizz-win.exe",
+              "size": 3258317
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/surge/surge": {
+      "id": "studiorack/surge/surge",
+      "license": "gpl-3.0",
+      "version": "1.9.0",
+      "versions": {
+        "1.9.0": {
+          "author": "Surge Synth Team",
+          "homepage": "https://surge-synthesizer.github.io/",
+          "name": "Surge",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "tags": [
+            "Synth",
+            "Modulation",
+            "Effects"
+          ],
+          "version": "1.9.0",
+          "id": "surge",
+          "date": "2021-04-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "surge.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "surge.png",
+              "size": 523598
+            },
+            "linux": {
+              "name": "surge-linux.zip",
+              "size": 153534437
+            },
+            "mac": {
+              "name": "surge-mac.zip",
+              "size": 47300596
+            },
+            "win": {
+              "name": "surge-win.exe",
+              "size": 108842250
+            }
+          },
+          "release": "v1.9.0"
+        }
+      }
     }
   },
-  "time": "2021-11-20T00:16:30.092Z",
-  "total": 44
+  "time": "2021-11-20T17:10:18.603Z",
+  "total": 56
 }
