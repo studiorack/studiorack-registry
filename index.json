@@ -728,91 +728,92 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
       "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
           "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
+            "Amplifier",
+            "Effect",
+            "Volume"
           ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ep-mk1.wav",
+              "name": "ampli-fe.wav",
               "size": 352844
             },
             "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
+              "name": "ampli-fe.png",
+              "size": 159478
             },
             "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
             },
             "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
             },
             "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
             }
           },
-          "release": "v2.4.0"
+          "release": "v0.1.0"
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
+    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
+      "license": "other",
+      "version": "3.0.0",
       "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
+        "3.0.0": {
+          "author": "Alexander Holm",
           "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "name": "Salamander Grand Piano",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
           "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
+            "Samples",
+            "Piano",
+            "Yamaha",
+            "sfz"
           ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
+          "version": "3.0.0",
+          "id": "salamander-grand-piano",
+          "date": "2021-09-20T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
+              "name": "salamander-grand-piano.flac",
+              "size": 365662
             },
             "image": {
-              "name": "andes.png",
-              "size": 33884
+              "name": "salamander-grand-piano.jpg",
+              "size": 88748
             },
             "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
             },
             "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
             },
             "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
             }
           },
-          "release": "v0.2.0"
+          "release": "v3.0.0"
         }
       }
     },
@@ -902,92 +903,91 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "tags": [
-            "Amplifier",
-            "Effect",
-            "Volume"
+            "Synth",
+            "Oscillator",
+            "Perlin"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
-              "size": 352844
+              "name": "andes.wav",
+              "size": 429902
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "andes.png",
+              "size": 33884
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "andes-linux.zip",
+              "size": 6118842
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "andes-mac.zip",
+              "size": 5225268
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "andes-win.zip",
+              "size": 3450947
             }
           },
-          "release": "v0.1.0"
+          "release": "v0.2.0"
         }
       }
     },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
-      "version": "3.0.0",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "3.0.0": {
-          "author": "Alexander Holm",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Salamander Grand Piano",
-          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
-            "Samples",
-            "Piano",
-            "Yamaha",
-            "sfz"
+            "Synth",
+            "Electric",
+            "Piano"
           ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
-          "date": "2021-09-20T07:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "salamander-grand-piano.flac",
-              "size": 365662
+              "name": "ep-mk1.wav",
+              "size": 352844
             },
             "image": {
-              "name": "salamander-grand-piano.jpg",
-              "size": 88748
+              "name": "ep-mk1.png",
+              "size": 139928
             },
             "linux": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v3.0.0"
+          "release": "v2.4.0"
         }
       }
     },
@@ -2482,9 +2482,9 @@
     "studiorack/sfizz/sfizz": {
       "id": "studiorack/sfizz/sfizz",
       "license": "bsd-2-clause",
-      "version": "1.0.0",
+      "version": "1.1.1",
       "versions": {
-        "1.0.0": {
+        "1.1.1": {
           "author": "SFZTools",
           "homepage": "https://github.com/sfztools/sfizz",
           "name": "Sfizz",
@@ -2493,9 +2493,9 @@
             "Sample",
             "Synth"
           ],
-          "version": "1.0.0",
+          "version": "1.1.1",
           "id": "sfizz",
-          "date": "2020-04-16T08:00:00.000Z",
+          "date": "2020-11-08T08:00:00.000Z",
           "files": {
             "audio": {
               "name": "sfizz.wav",
@@ -2511,18 +2511,18 @@
             },
             "mac": {
               "name": "sfizz-mac.zip",
-              "size": 10778290
+              "size": 11256240
             },
             "win": {
               "name": "sfizz-win.exe",
-              "size": 3258317
+              "size": 3482728
             }
           },
-          "release": "v1.0.0"
+          "release": "v1.1.1"
         }
       }
     }
   },
-  "time": "2021-12-02T00:17:29.419Z",
+  "time": "2021-12-03T00:17:20.079Z",
   "total": 57
 }
