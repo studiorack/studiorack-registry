@@ -728,136 +728,6 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/adlplug/adlplug": {
-      "id": "studiorack/adlplug/adlplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "adlplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "adlplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "adlplug.png",
-              "size": 601168
-            },
-            "linux": {
-              "name": "adlplug-linux.zip",
-              "size": 11068718
-            },
-            "mac": {
-              "name": "adlplug-mac.zip",
-              "size": 33551714
-            },
-            "win": {
-              "name": "adlplug-win.zip",
-              "size": 24833093
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/adlplug/opnplug": {
-      "id": "studiorack/adlplug/opnplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "opnplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "opnplug.png",
-              "size": 620462
-            },
-            "linux": {
-              "name": "opnplug-linux.zip",
-              "size": 11236640
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 27264168
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25020750
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -947,6 +817,92 @@
         }
       }
     },
+    "studiorack/adlplug/adlplug": {
+      "id": "studiorack/adlplug/adlplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "adlplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "adlplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "adlplug.png",
+              "size": 601168
+            },
+            "linux": {
+              "name": "adlplug-linux.zip",
+              "size": 11068718
+            },
+            "mac": {
+              "name": "adlplug-mac.zip",
+              "size": 33551714
+            },
+            "win": {
+              "name": "adlplug-win.zip",
+              "size": 24833093
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/adlplug/opnplug": {
+      "id": "studiorack/adlplug/opnplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "OPNplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "opnplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opnplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "opnplug.png",
+              "size": 620462
+            },
+            "linux": {
+              "name": "opnplug-linux.zip",
+              "size": 11236640
+            },
+            "mac": {
+              "name": "opnplug-mac.zip",
+              "size": 27264168
+            },
+            "win": {
+              "name": "opnplug-win.zip",
+              "size": 25020750
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
     "studiorack/oxe/oxe": {
       "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
@@ -988,6 +944,50 @@
             }
           },
           "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
         }
       }
     },
@@ -1081,94 +1081,6 @@
         }
       }
     },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Synth",
-            "FM",
-            "DX7"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 450543
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
-            },
-            "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
-            }
-          },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Spectrogram",
-            "Frequency",
-            "Scaling"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "studiorack/wolf-shaper/wolf-shaper": {
       "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
@@ -1252,6 +1164,94 @@
             "win": {
               "name": "nekobi-win.zip",
               "size": 983729
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Synth",
+            "FM",
+            "DX7"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dexed.png",
+              "size": 450543
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.exe",
+              "size": 3927579
+            }
+          },
+          "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Spectrogram",
+            "Frequency",
+            "Scaling"
+          ],
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-spectrum.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-spectrum.png",
+              "size": 101160
+            },
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
             }
           },
           "release": "v1.0.0"
@@ -2523,6 +2523,6 @@
       }
     }
   },
-  "time": "2021-12-28T00:18:43.082Z",
+  "time": "2021-12-29T00:18:24.352Z",
   "total": 57
 }
