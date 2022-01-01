@@ -814,94 +814,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "FM",
-            "Synth",
-            "LFO"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -991,92 +903,91 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
-      "version": "0.1.8",
+      "version": "1.3.5",
       "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
-            "Distortion",
-            "Effect",
-            "Spline"
+            "FM",
+            "Synth",
+            "LFO"
           ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-shaper.wav",
+              "name": "oxe.wav",
               "size": 352844
             },
             "image": {
-              "name": "wolf-shaper.png",
-              "size": 42563
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v0.1.8"
+          "release": "v1.3.5"
         }
       }
     },
-    "studiorack/nekobi/nekobi": {
-      "id": "studiorack/nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
             "Synth",
-            "Oscillator",
-            "Roland",
-            "TB-303"
+            "Electric",
+            "Piano"
           ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "nekobi.wav",
+              "name": "ep-mk1.wav",
               "size": 352844
             },
             "image": {
-              "name": "nekobi.png",
-              "size": 50361
+              "name": "ep-mk1.png",
+              "size": 139928
             },
             "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 865321
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 997364
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "nekobi-win.zip",
-              "size": 983729
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v1.0.0"
+          "release": "v2.4.0"
         }
       }
     },
@@ -1162,6 +1073,95 @@
             "win": {
               "name": "wolf-spectrum-win.zip",
               "size": 853963
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Distortion",
+            "Effect",
+            "Spline"
+          ],
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-shaper.png",
+              "size": 42563
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
+            }
+          },
+          "release": "v0.1.8"
+        }
+      }
+    },
+    "studiorack/nekobi/nekobi": {
+      "id": "studiorack/nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Roland",
+            "TB-303"
+          ],
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "nekobi.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "nekobi.png",
+              "size": 50361
+            },
+            "linux": {
+              "name": "nekobi-linux.zip",
+              "size": 865321
+            },
+            "mac": {
+              "name": "nekobi-mac.zip",
+              "size": 997364
+            },
+            "win": {
+              "name": "nekobi-win.zip",
+              "size": 983729
             }
           },
           "release": "v1.0.0"
@@ -2523,6 +2523,6 @@
       }
     }
   },
-  "time": "2021-12-31T00:19:33.655Z",
+  "time": "2022-01-01T00:19:23.761Z",
   "total": 57
 }
