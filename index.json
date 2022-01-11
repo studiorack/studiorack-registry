@@ -684,6 +684,50 @@
         }
       }
     },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Synth",
+            "Oscillator",
+            "Perlin"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -770,94 +814,6 @@
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Synth",
-            "Oscillator",
-            "Perlin"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "FM",
-            "Synth",
-            "LFO"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -902,91 +858,47 @@
         }
       }
     },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
-      "version": "0.9.6",
+      "version": "1.3.5",
       "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
-            "Synth",
             "FM",
-            "DX7"
+            "Synth",
+            "LFO"
           ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dexed.wav",
+              "name": "oxe.wav",
               "size": 352844
             },
             "image": {
-              "name": "dexed.png",
-              "size": 450543
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Spectrogram",
-            "Frequency",
-            "Scaling"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
-            }
-          },
-          "release": "v1.0.0"
+          "release": "v1.3.5"
         }
       }
     },
@@ -1079,92 +991,91 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
           "tags": [
-            "Amplifier",
-            "Effect",
-            "Volume"
+            "Synth",
+            "FM",
+            "DX7"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
+              "name": "dexed.wav",
               "size": 352844
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "dexed.png",
+              "size": 450543
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "dexed-linux.zip",
+              "size": 6296573
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "dexed-mac.zip",
+              "size": 9146576
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "dexed-win.exe",
+              "size": 3927579
             }
           },
-          "release": "v0.1.0"
+          "release": "v0.9.6"
         }
       }
     },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
-      "version": "3.0.0",
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
       "versions": {
-        "3.0.0": {
-          "author": "Alexander Holm",
-          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
-          "name": "Salamander Grand Piano",
-          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
           "tags": [
-            "Samples",
-            "Piano",
-            "Yamaha",
-            "sfz"
+            "Spectrogram",
+            "Frequency",
+            "Scaling"
           ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
-          "date": "2021-09-20T07:00:00.000Z",
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "salamander-grand-piano.flac",
-              "size": 365662
+              "name": "wolf-spectrum.wav",
+              "size": 352844
             },
             "image": {
-              "name": "salamander-grand-piano.jpg",
-              "size": 88748
+              "name": "wolf-spectrum.png",
+              "size": 101160
             },
             "linux": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
             },
             "mac": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
             },
             "win": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
             }
           },
-          "release": "v3.0.0"
+          "release": "v1.0.0"
         }
       }
     },
@@ -1255,93 +1166,6 @@
             }
           },
           "release": "v0.0.1"
-        }
-      }
-    },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Synth",
-            "String",
-            "Pluck"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "kars.png",
-              "size": 174131
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Analog",
-            "Synth"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "tunefish.png",
-              "size": 380571
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0"
         }
       }
     },
@@ -1473,6 +1297,182 @@
             }
           },
           "release": "v0.9.0"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Synth",
+            "String",
+            "Pluck"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "kars.png",
+              "size": 174131
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1149271
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1327762
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1175194
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Analog",
+            "Synth"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "tunefish.png",
+              "size": 380571
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Amplifier",
+            "Effect",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ampli-fe.png",
+              "size": 159478
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0"
+        }
+      }
+    },
+    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
+      "license": "other",
+      "version": "3.0.0",
+      "versions": {
+        "3.0.0": {
+          "author": "Alexander Holm",
+          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
+          "name": "Salamander Grand Piano",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+          "tags": [
+            "Samples",
+            "Piano",
+            "Yamaha",
+            "sfz"
+          ],
+          "version": "3.0.0",
+          "id": "salamander-grand-piano",
+          "date": "2021-09-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-grand-piano.flac",
+              "size": 365662
+            },
+            "image": {
+              "name": "salamander-grand-piano.jpg",
+              "size": 88748
+            },
+            "linux": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "mac": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "win": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            }
+          },
+          "release": "v3.0.0"
         }
       }
     },
@@ -2523,6 +2523,6 @@
       }
     }
   },
-  "time": "2022-01-10T00:19:43.810Z",
+  "time": "2022-01-11T00:20:55.889Z",
   "total": 57
 }
