@@ -1,14 +1,16 @@
-import { dirCreate, fileJsonCreate, PluginPack } from '@studiorack/core';
+import { dirCreate, fileJsonCreate, PluginEntry, PluginInterface, pluginLatest, PluginPack } from '@studiorack/core';
 import { getGithubPack } from './sources/github';
 import { getOwlplugPack } from './sources/owlplug';
 
 const DIST_PATH = './out';
 const REGISTRY_OUT = 'index.json';
+const REGISTRY_OUT_EFFECTS = 'effects.json';
+const REGISTRY_OUT_INSTRUMENTS = 'instruments.json';
 
 function registryLoad() {
   const registry: any = require('./registry.json');
   registry.time = new Date();
-  registry.total = 0;
+  registry.total = registry.objects.length || 0;
   return registry;
 }
 
@@ -19,16 +21,32 @@ function registryAdd(list: any, pluginPack: PluginPack) {
   list.total += Object.keys(pluginPack).length;
 }
 
-async function registrySave(file: any) {
+async function registrySave(path: string, file: any) {
   dirCreate(DIST_PATH);
-  fileJsonCreate(`${DIST_PATH}/${REGISTRY_OUT}`, file);
+  fileJsonCreate(path, file);
 }
 
 async function run() {
   const registry = registryLoad();
   registryAdd(registry, await getGithubPack());
   // registryAdd(registry, await getOwlplugPack());
-  registrySave(registry);
+  registrySave(`${DIST_PATH}/${REGISTRY_OUT}`, registry);
+
+  // Create separate registries for Effects and Instruments
+  const effects:any = { objects: {} };
+  const instruments:any = { objects: {} };
+  for (const pluginId in registry.objects) {
+    const pluginEntry:PluginEntry = registry.objects[pluginId];
+    const plugin:PluginInterface = pluginLatest(pluginEntry);
+    // Check if tags include Effect/Fx
+    if (plugin.tags.includes('Effect') || plugin.tags.includes('Fx')) {
+      effects.objects[pluginId] = pluginEntry;
+    } else {
+      instruments.objects[pluginId] = pluginEntry;
+    }
+  }
+  registrySave(`${DIST_PATH}/${REGISTRY_OUT_EFFECTS}`, effects);
+  registrySave(`${DIST_PATH}/${REGISTRY_OUT_INSTRUMENTS}`, instruments);
 }
 
 run();
