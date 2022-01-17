@@ -33,11 +33,11 @@ async function run() {
   registrySave(`${DIST_PATH}/${REGISTRY_OUT}`, registry);
 
   // Create separate registries for Effects and Instruments
-  const effects:any = { objects: {} };
-  const instruments:any = { objects: {} };
+  const effects: any = { objects: {} };
+  const instruments: any = { objects: {} };
   for (const pluginId in registry.objects) {
-    const pluginEntry:PluginEntry = registry.objects[pluginId];
-    const plugin:PluginInterface = pluginLatest(pluginEntry);
+    const pluginEntry: PluginEntry = registry.objects[pluginId];
+    const plugin: PluginInterface = pluginLatest(pluginEntry);
     // Check if tags include Effect/Fx
     if (plugin.tags.includes('Effect') || plugin.tags.includes('Fx')) {
       effects.objects[pluginId] = pluginEntry;
