@@ -684,92 +684,6 @@
         }
       }
     },
-    "studiorack/adlplug/adlplug": {
-      "id": "studiorack/adlplug/adlplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "adlplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "adlplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "adlplug.png",
-              "size": 601168
-            },
-            "linux": {
-              "name": "adlplug-linux.zip",
-              "size": 11068718
-            },
-            "mac": {
-              "name": "adlplug-mac.zip",
-              "size": 33551714
-            },
-            "win": {
-              "name": "adlplug-win.zip",
-              "size": 24833093
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/adlplug/opnplug": {
-      "id": "studiorack/adlplug/opnplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "opnplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "opnplug.png",
-              "size": 620462
-            },
-            "linux": {
-              "name": "opnplug-linux.zip",
-              "size": 11236640
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 27264168
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25020750
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
     "studiorack/andes/andes": {
       "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
@@ -855,6 +769,92 @@
             }
           },
           "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/adlplug/adlplug": {
+      "id": "studiorack/adlplug/adlplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "adlplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "adlplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "adlplug.png",
+              "size": 601168
+            },
+            "linux": {
+              "name": "adlplug-linux.zip",
+              "size": 11068718
+            },
+            "mac": {
+              "name": "adlplug-mac.zip",
+              "size": 33551714
+            },
+            "win": {
+              "name": "adlplug-win.zip",
+              "size": 24833093
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/adlplug/opnplug": {
+      "id": "studiorack/adlplug/opnplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "OPNplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "opnplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opnplug.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "opnplug.png",
+              "size": 620462
+            },
+            "linux": {
+              "name": "opnplug-linux.zip",
+              "size": 11236640
+            },
+            "mac": {
+              "name": "opnplug-mac.zip",
+              "size": 27264168
+            },
+            "win": {
+              "name": "opnplug-win.zip",
+              "size": 25020750
+            }
+          },
+          "release": "v1.0.2"
         }
       }
     },
@@ -947,94 +947,6 @@
         }
       }
     },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Synth",
-            "FM",
-            "DX7"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 450543
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
-            },
-            "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
-            }
-          },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Spectrogram",
-            "Frequency",
-            "Scaling"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "studiorack/wolf-shaper/wolf-shaper": {
       "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
@@ -1118,6 +1030,94 @@
             "win": {
               "name": "nekobi-win.zip",
               "size": 983729
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Synth",
+            "FM",
+            "DX7"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dexed.png",
+              "size": 450543
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.exe",
+              "size": 3927579
+            }
+          },
+          "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Spectrogram",
+            "Frequency",
+            "Scaling"
+          ],
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-spectrum.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-spectrum.png",
+              "size": 101160
+            },
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
             }
           },
           "release": "v1.0.0"
@@ -1211,94 +1211,6 @@
             }
           },
           "release": "v0.0.1"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "EQ",
-            "Effect",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Synth",
-            "Modulation",
-            "Frequency"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3"
         }
       }
     },
@@ -1522,6 +1434,94 @@
         }
       }
     },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "EQ",
+            "Effect",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Synth",
+            "Modulation",
+            "Frequency"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "octasine.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
+        }
+      }
+    },
     "studiorack/kars/kars": {
       "id": "studiorack/kars/kars",
       "license": "isc",
@@ -1620,7 +1620,7 @@
           "name": "Ninjas 2",
           "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
           "tags": [
-            "Sample",
+            "Sampler",
             "Slicer"
           ],
           "version": "0.2.0",
@@ -2530,17 +2530,17 @@
       "version": "1.1.1",
       "versions": {
         "1.1.1": {
-          "author": "Paul Ferrand",
-          "homepage": "http://sfztools.github.io/sfizz",
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
           "name": "Sfizz",
           "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
           "tags": [
-            "Sample",
+            "Sampler",
             "Synth"
           ],
           "version": "1.1.1",
           "id": "sfizz",
-          "date": "2021-12-30T04:10:40.859Z",
+          "date": "2020-11-08T08:00:00.000Z",
           "files": {
             "audio": {
               "name": "sfizz.wav",
@@ -2552,15 +2552,15 @@
             },
             "linux": {
               "name": "sfizz-linux.zip",
-              "size": 5250000
+              "size": 6555322
             },
             "mac": {
               "name": "sfizz-mac.zip",
-              "size": 7150000
+              "size": 11256240
             },
             "win": {
-              "name": "sfizz-win.zip",
-              "size": 3900000
+              "name": "sfizz-win.exe",
+              "size": 3482728
             }
           },
           "release": "v1.1.1"
@@ -2568,6 +2568,6 @@
       }
     }
   },
-  "time": "2022-01-17T04:15:58.557Z",
+  "time": "2022-01-18T00:33:32.334Z",
   "total": 58
 }
