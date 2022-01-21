@@ -41,7 +41,8 @@ async function run() {
     // Check if tags include Effect/Fx
     if (plugin.tags.includes('Effect') || plugin.tags.includes('Fx')) {
       effects.objects[pluginId] = pluginEntry;
-    } else {
+    }
+    if (plugin.tags.includes('Instrument')) {
       instruments.objects[pluginId] = pluginEntry;
     }
   }
