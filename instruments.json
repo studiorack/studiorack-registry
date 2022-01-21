@@ -132,6 +132,50 @@
         }
       }
     },
+    "ryukau/vstplugins/f-d-n-cymbal": {
+      "id": "ryukau/vstplugins/f-d-n-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.2.6",
+      "versions": {
+        "0.2.6": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.6",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.wav",
+              "size": 6134428
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 34324
+            },
+            "linux": {
+              "name": "FDNCymbal-linux.zip",
+              "size": 1669749
+            },
+            "mac": {
+              "name": "FDNCymbal-mac.zip",
+              "size": 1669749
+            },
+            "win": {
+              "name": "FDNCymbal-win.zip",
+              "size": 1669749
+            }
+          },
+          "release": "ResetAndMuteFix",
+          "repo": "ryukau/vstplugins"
+        }
+      }
+    },
     "ryukau/vstplugins/iterative-sin-cluster": {
       "id": "ryukau/vstplugins/iterative-sin-cluster",
       "license": "gpl-3.0",
@@ -308,6 +352,50 @@
         }
       }
     },
+    "ryukau/vstplugins/wave-cymbal": {
+      "id": "ryukau/vstplugins/wave-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.1.13",
+      "versions": {
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.13",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 28050
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1672674
+            },
+            "mac": {
+              "name": "WaveCymbal-mac.zip",
+              "size": 1672674
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1672674
+            }
+          },
+          "release": "ResetAndMuteFix",
+          "repo": "ryukau/vstplugins"
+        }
+      }
+    },
     "studiorack/opl/opl": {
       "id": "studiorack/opl/opl",
       "license": "gpl-2.0",
@@ -319,9 +407,9 @@
           "name": "OPL",
           "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
           "tags": [
+            "Instrument",
             "Synth",
-            "FM",
-            "Yamaha"
+            "FM"
           ],
           "version": "2.1.0",
           "id": "opl",
@@ -443,95 +531,6 @@
         }
       }
     },
-    "studiorack/adlplug/opnplug": {
-      "id": "studiorack/adlplug/opnplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "opnplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "opnplug.png",
-              "size": 620462
-            },
-            "linux": {
-              "name": "opnplug-linux.zip",
-              "size": 11236640
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 27264168
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25020750
-            }
-          },
-          "release": "v1.0.2",
-          "repo": "studiorack/adlplug"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "FM",
-            "Synth",
-            "LFO"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "repo": "studiorack/oxe"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -543,6 +542,7 @@
           "name": "EP-MK1",
           "description": "Real-time physical model of an Electric Piano.",
           "tags": [
+            "Instrument",
             "Synth",
             "Electric",
             "Piano"
@@ -577,49 +577,48 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
-      "version": "3.2.2",
+      "version": "1.3.5",
       "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
-            "Orchestral",
-            "Strings",
-            "Woodwind",
-            "sfz"
+            "Instrument",
+            "Synth",
+            "FM"
           ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 175256
+              "name": "oxe.wav",
+              "size": 352844
             },
             "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v3.2.2",
-          "repo": "studiorack/virtual-playing-orchestra"
+          "release": "v1.3.5",
+          "repo": "studiorack/oxe"
         }
       }
     },
@@ -668,97 +667,6 @@
         }
       }
     },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Spectrogram",
-            "Frequency",
-            "Scaling"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/wolf-spectrum"
-        }
-      }
-    },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
-      "version": "3.0.0",
-      "versions": {
-        "3.0.0": {
-          "author": "Alexander Holm",
-          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
-          "name": "Salamander Grand Piano",
-          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
-          "tags": [
-            "Samples",
-            "Piano",
-            "Yamaha",
-            "sfz"
-          ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
-          "date": "2021-09-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-grand-piano.flac",
-              "size": 365662
-            },
-            "image": {
-              "name": "salamander-grand-piano.jpg",
-              "size": 88748
-            },
-            "linux": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
-            },
-            "mac": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
-            },
-            "win": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
-            }
-          },
-          "release": "v3.0.0",
-          "repo": "studiorack/salamander-grand-piano"
-        }
-      }
-    },
     "studiorack/nekobi/nekobi": {
       "id": "studiorack/nekobi/nekobi",
       "license": "gpl-2.0",
@@ -770,10 +678,9 @@
           "name": "Nekobi",
           "description": "Simple single-oscillator synth based on the Roland TB-303.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Oscillator",
-            "Roland",
-            "TB-303"
+            "Oscillator"
           ],
           "version": "1.0.0",
           "id": "nekobi",
@@ -805,97 +712,6 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
-      "license": "gpl-3.0",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Plate",
-            "Reverb",
-            "Reflection",
-            "Room"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
-            }
-          },
-          "release": "v3.2.5",
-          "repo": "studiorack/dragonfly-reverb"
-        }
-      }
-    },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
-      "license": "gpl-3.0",
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Amplifier",
-            "Tube",
-            "DSP"
-          ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "swankyamp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "swankyamp.png",
-              "size": 494455
-            },
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
-            }
-          },
-          "release": "v1.4.0",
-          "repo": "studiorack/swankyamp"
-        }
-      }
-    },
     "studiorack/helm/helm": {
       "id": "studiorack/helm/helm",
       "license": "gpl-3.0",
@@ -907,6 +723,7 @@
           "name": "Helm",
           "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
+            "Instrument",
             "Synth",
             "Modulation"
           ],
@@ -951,9 +768,9 @@
           "name": "OctaSine",
           "description": "Frequency modulation-based synthesizer plugin.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Modulation",
-            "Frequency"
+            "Modulation"
           ],
           "version": "0.5.3",
           "id": "octasine",
@@ -996,9 +813,9 @@
           "name": "Kars",
           "description": "Simple karplus-strong plucked string synth.",
           "tags": [
+            "Instrument",
             "Synth",
-            "String",
-            "Pluck"
+            "String"
           ],
           "version": "1.0.0",
           "id": "kars",
@@ -1041,8 +858,9 @@
           "name": "Tunefish",
           "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
-            "Analog",
-            "Synth"
+            "Instrument",
+            "Synth",
+            "Analog"
           ],
           "version": "4.0.0",
           "id": "tunefish",
@@ -1085,6 +903,7 @@
           "name": "Ninjas 2",
           "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
           "tags": [
+            "Instrument",
             "Sampler",
             "Slicer"
           ],
@@ -1174,9 +993,9 @@
           "name": "Vital",
           "description": "Spectral warping wavetable synthesizer.",
           "tags": [
-            "Spectral",
+            "Instrument",
             "Synth",
-            "Wavetable"
+            "Spectral"
           ],
           "version": "1.0.7",
           "id": "vital",
@@ -1219,8 +1038,9 @@
           "name": "OB-Xd",
           "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
           "tags": [
-            "OB-X",
-            "Synth"
+            "Instrument",
+            "Synth",
+            "OB-X"
           ],
           "version": "2.4.0",
           "id": "obxd",
@@ -1252,49 +1072,6 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.wav",
-              "size": 126798
-            },
-            "image": {
-              "name": "mverb.png",
-              "size": 398787
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mverb"
-        }
-      }
-    },
     "studiorack/odin/odin": {
       "id": "studiorack/odin/odin",
       "license": "gpl-3.0",
@@ -1306,9 +1083,9 @@
           "name": "Odin",
           "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Moog",
-            "Korg"
+            "Moog"
           ],
           "version": "2.2.4",
           "id": "odin",
@@ -1351,9 +1128,9 @@
           "name": "OS-251",
           "description": "Pure digital lo-fi synthesizer plugin",
           "tags": [
+            "Instrument",
             "Synth",
-            "Lofi",
-            "Digital"
+            "Lofi"
           ],
           "version": "1.1.0",
           "id": "os-251",
@@ -1396,9 +1173,9 @@
           "name": "Surge",
           "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Modulation",
-            "Effects"
+            "Modulation"
           ],
           "version": "1.9.0",
           "id": "surge",
@@ -1427,135 +1204,6 @@
           },
           "release": "v1.9.0",
           "repo": "studiorack/surge"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-eq": {
-      "id": "studiorack/mini-series/mini-series-eq",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band EQ",
-          "description": "3-Band EQ",
-          "tags": [
-            "EQ"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-eq",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-eq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mini-series-eq.png",
-              "size": 195027
-            },
-            "linux": {
-              "name": "mini-series-eq-linux.zip",
-              "size": 884722
-            },
-            "mac": {
-              "name": "mini-series-eq-mac.zip",
-              "size": 1101475
-            },
-            "win": {
-              "name": "mini-series-eq-win.zip",
-              "size": 850005
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mini-series"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-splitter": {
-      "id": "studiorack/mini-series/mini-series-splitter",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band Splitter",
-          "description": "3-Band Splitter",
-          "tags": [
-            "Splitter"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-splitter",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-splitter.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mini-series-splitter.png",
-              "size": 91635
-            },
-            "linux": {
-              "name": "mini-series-splitter-linux.zip",
-              "size": 925750
-            },
-            "mac": {
-              "name": "mini-series-splitter-mac.zip",
-              "size": 1155137
-            },
-            "win": {
-              "name": "mini-series-splitter-win.zip",
-              "size": 878640
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mini-series"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-pan": {
-      "id": "studiorack/mini-series/mini-series-pan",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: Ping Pong Pan",
-          "description": "Ping Pong Pan",
-          "tags": [
-            "Pan"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-pan",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-pan.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mini-series-pan.png",
-              "size": 91635
-            },
-            "linux": {
-              "name": "mini-series-pan-linux.zip",
-              "size": 940248
-            },
-            "mac": {
-              "name": "mini-series-pan-mac.zip",
-              "size": 1065872
-            },
-            "win": {
-              "name": "mini-series-pan-win.zip",
-              "size": 1002204
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mini-series"
         }
       }
     },
@@ -1660,6 +1308,7 @@
           "name": "Sfizz",
           "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
           "tags": [
+            "Instrument",
             "Sampler",
             "Synth"
           ],

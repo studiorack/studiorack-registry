@@ -345,6 +345,51 @@
         }
       }
     },
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Effect",
+            "Spectrogram",
+            "Frequency"
+          ],
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-spectrum.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-spectrum.png",
+              "size": 101160
+            },
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/wolf-spectrum"
+        }
+      }
+    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -401,9 +446,9 @@
           "name": "Wolf Shaper",
           "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
           "tags": [
-            "Distortion",
             "Effect",
-            "Spline"
+            "Distortion",
+            "Editor"
           ],
           "version": "0.1.8",
           "id": "wolf-shaper",
@@ -432,6 +477,51 @@
           },
           "release": "v0.1.8",
           "repo": "studiorack/wolf-shaper"
+        }
+      }
+    },
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
+      "versions": {
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dragonfly-reverb.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dragonfly-reverb.png",
+              "size": 394705
+            },
+            "linux": {
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
+            },
+            "mac": {
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
+            },
+            "win": {
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
+            }
+          },
+          "release": "v3.2.5",
+          "repo": "studiorack/dragonfly-reverb"
         }
       }
     },
@@ -491,8 +581,8 @@
           "name": "Regrader",
           "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
           "tags": [
-            "Delay",
             "Effect",
+            "Delay",
             "Sync"
           ],
           "version": "1.0.4",
@@ -525,6 +615,51 @@
         }
       }
     },
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Tube"
+          ],
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "swankyamp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "swankyamp.png",
+              "size": 494455
+            },
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426
+            }
+          },
+          "release": "v1.4.0",
+          "repo": "studiorack/swankyamp"
+        }
+      }
+    },
     "studiorack/modeq/modeq": {
       "id": "studiorack/modeq/modeq",
       "license": "gpl-3.0",
@@ -536,8 +671,8 @@
           "name": "modEQ",
           "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "EQ",
             "Effect",
+            "EQ",
             "Modulation"
           ],
           "version": "0.4.0",
@@ -626,9 +761,9 @@
           "name": "SmartGuitarAmp",
           "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
           "tags": [
-            "Amp",
+            "Effect",
             "Guitar",
-            "Effect"
+            "Amp"
           ],
           "version": "1.2.0",
           "id": "smartguitaramp",
@@ -660,6 +795,50 @@
         }
       }
     },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.wav",
+              "size": 126798
+            },
+            "image": {
+              "name": "mverb.png",
+              "size": 398787
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mverb"
+        }
+      }
+    },
     "studiorack/temper/temper": {
       "id": "studiorack/temper/temper",
       "license": "gpl-3.0",
@@ -671,8 +850,9 @@
           "name": "Temper",
           "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
           "tags": [
+            "Effect",
             "Distortion",
-            "Effect"
+            "Modulation"
           ],
           "version": "1.1.1",
           "id": "temper",
@@ -791,6 +971,138 @@
           },
           "release": "v1.0.4",
           "repo": "studiorack/mda"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-eq": {
+      "id": "studiorack/mini-series/mini-series-eq",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band EQ",
+          "description": "3-Band EQ",
+          "tags": [
+            "Effect",
+            "EQ"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-eq",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-eq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mini-series-eq.png",
+              "size": 195027
+            },
+            "linux": {
+              "name": "mini-series-eq-linux.zip",
+              "size": 884722
+            },
+            "mac": {
+              "name": "mini-series-eq-mac.zip",
+              "size": 1101475
+            },
+            "win": {
+              "name": "mini-series-eq-win.zip",
+              "size": 850005
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-splitter": {
+      "id": "studiorack/mini-series/mini-series-splitter",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band Splitter",
+          "description": "3-Band Splitter",
+          "tags": [
+            "Effect",
+            "Splitter"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-splitter",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-splitter.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mini-series-splitter.png",
+              "size": 91635
+            },
+            "linux": {
+              "name": "mini-series-splitter-linux.zip",
+              "size": 925750
+            },
+            "mac": {
+              "name": "mini-series-splitter-mac.zip",
+              "size": 1155137
+            },
+            "win": {
+              "name": "mini-series-splitter-win.zip",
+              "size": 878640
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-pan": {
+      "id": "studiorack/mini-series/mini-series-pan",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: Ping Pong Pan",
+          "description": "Ping Pong Pan",
+          "tags": [
+            "Effect",
+            "Pan"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-pan",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-pan.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mini-series-pan.png",
+              "size": 91635
+            },
+            "linux": {
+              "name": "mini-series-pan-linux.zip",
+              "size": 940248
+            },
+            "mac": {
+              "name": "mini-series-pan-mac.zip",
+              "size": 1065872
+            },
+            "win": {
+              "name": "mini-series-pan-win.zip",
+              "size": 1002204
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
         }
       }
     },

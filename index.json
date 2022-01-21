@@ -606,9 +606,9 @@
           "name": "OPL",
           "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
           "tags": [
+            "Instrument",
             "Synth",
-            "FM",
-            "Yamaha"
+            "FM"
           ],
           "version": "2.1.0",
           "id": "opl",
@@ -814,50 +814,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "FM",
-            "Synth",
-            "LFO"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -869,6 +825,7 @@
           "name": "EP-MK1",
           "description": "Real-time physical model of an Electric Piano.",
           "tags": [
+            "Instrument",
             "Synth",
             "Electric",
             "Piano"
@@ -899,6 +856,50 @@
             }
           },
           "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
         }
       }
     },
@@ -1002,9 +1003,9 @@
           "name": "Wolf Spectrum",
           "description": "Spectrogram plugin which supports both log and linear frequency scaling",
           "tags": [
+            "Effect",
             "Spectrogram",
-            "Frequency",
-            "Scaling"
+            "Frequency"
           ],
           "version": "1.0.0",
           "id": "wolf-spectrum",
@@ -1135,9 +1136,9 @@
           "name": "Wolf Shaper",
           "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
           "tags": [
-            "Distortion",
             "Effect",
-            "Spline"
+            "Distortion",
+            "Editor"
           ],
           "version": "0.1.8",
           "id": "wolf-shaper",
@@ -1179,10 +1180,9 @@
           "name": "Nekobi",
           "description": "Simple single-oscillator synth based on the Roland TB-303.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Oscillator",
-            "Roland",
-            "TB-303"
+            "Oscillator"
           ],
           "version": "1.0.0",
           "id": "nekobi",
@@ -1224,10 +1224,9 @@
           "name": "Dragonfly Reverb",
           "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
-            "Plate",
+            "Effect",
             "Reverb",
-            "Reflection",
-            "Room"
+            "Plate"
           ],
           "version": "3.2.5",
           "id": "dragonfly-reverb",
@@ -1313,8 +1312,8 @@
           "name": "Regrader",
           "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
           "tags": [
-            "Delay",
             "Effect",
+            "Delay",
             "Sync"
           ],
           "version": "1.0.4",
@@ -1357,9 +1356,9 @@
           "name": "Swanky Amp",
           "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
           "tags": [
+            "Effect",
             "Amplifier",
-            "Tube",
-            "DSP"
+            "Tube"
           ],
           "version": "1.4.0",
           "id": "swankyamp",
@@ -1401,6 +1400,7 @@
           "name": "Helm",
           "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
+            "Instrument",
             "Synth",
             "Modulation"
           ],
@@ -1444,8 +1444,8 @@
           "name": "modEQ",
           "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "EQ",
             "Effect",
+            "EQ",
             "Modulation"
           ],
           "version": "0.4.0",
@@ -1488,9 +1488,9 @@
           "name": "OctaSine",
           "description": "Frequency modulation-based synthesizer plugin.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Modulation",
-            "Frequency"
+            "Modulation"
           ],
           "version": "0.5.3",
           "id": "octasine",
@@ -1532,9 +1532,9 @@
           "name": "Kars",
           "description": "Simple karplus-strong plucked string synth.",
           "tags": [
+            "Instrument",
             "Synth",
-            "String",
-            "Pluck"
+            "String"
           ],
           "version": "1.0.0",
           "id": "kars",
@@ -1576,8 +1576,9 @@
           "name": "Tunefish",
           "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
-            "Analog",
-            "Synth"
+            "Instrument",
+            "Synth",
+            "Analog"
           ],
           "version": "4.0.0",
           "id": "tunefish",
@@ -1619,6 +1620,7 @@
           "name": "Ninjas 2",
           "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
           "tags": [
+            "Instrument",
             "Sampler",
             "Slicer"
           ],
@@ -1750,9 +1752,9 @@
           "name": "SmartGuitarAmp",
           "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
           "tags": [
-            "Amp",
+            "Effect",
             "Guitar",
-            "Effect"
+            "Amp"
           ],
           "version": "1.2.0",
           "id": "smartguitaramp",
@@ -1794,9 +1796,9 @@
           "name": "Vital",
           "description": "Spectral warping wavetable synthesizer.",
           "tags": [
-            "Spectral",
+            "Instrument",
             "Synth",
-            "Wavetable"
+            "Spectral"
           ],
           "version": "1.0.7",
           "id": "vital",
@@ -1838,8 +1840,9 @@
           "name": "OB-Xd",
           "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
           "tags": [
-            "OB-X",
-            "Synth"
+            "Instrument",
+            "Synth",
+            "OB-X"
           ],
           "version": "2.4.0",
           "id": "obxd",
@@ -1881,6 +1884,7 @@
           "name": "Mverb",
           "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
           "tags": [
+            "Effect",
             "Reverb"
           ],
           "version": "1.0.0",
@@ -1923,9 +1927,9 @@
           "name": "Odin",
           "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Moog",
-            "Korg"
+            "Moog"
           ],
           "version": "2.2.4",
           "id": "odin",
@@ -1967,8 +1971,9 @@
           "name": "Temper",
           "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
           "tags": [
+            "Effect",
             "Distortion",
-            "Effect"
+            "Modulation"
           ],
           "version": "1.1.1",
           "id": "temper",
@@ -2054,9 +2059,9 @@
           "name": "OS-251",
           "description": "Pure digital lo-fi synthesizer plugin",
           "tags": [
+            "Instrument",
             "Synth",
-            "Lofi",
-            "Digital"
+            "Lofi"
           ],
           "version": "1.1.0",
           "id": "os-251",
@@ -2142,9 +2147,9 @@
           "name": "Surge",
           "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
           "tags": [
+            "Instrument",
             "Synth",
-            "Modulation",
-            "Effects"
+            "Modulation"
           ],
           "version": "1.9.0",
           "id": "surge",
@@ -2186,6 +2191,7 @@
           "name": "Mini Series: 3-Band EQ",
           "description": "3-Band EQ",
           "tags": [
+            "Effect",
             "EQ"
           ],
           "version": "1.0.0",
@@ -2228,6 +2234,7 @@
           "name": "Mini Series: 3-Band Splitter",
           "description": "3-Band Splitter",
           "tags": [
+            "Effect",
             "Splitter"
           ],
           "version": "1.0.0",
@@ -2270,6 +2277,7 @@
           "name": "Mini Series: Ping Pong Pan",
           "description": "Ping Pong Pan",
           "tags": [
+            "Effect",
             "Pan"
           ],
           "version": "1.0.0",
@@ -2532,6 +2540,7 @@
           "name": "Sfizz",
           "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
           "tags": [
+            "Instrument",
             "Sampler",
             "Synth"
           ],
@@ -2565,6 +2574,6 @@
       }
     }
   },
-  "time": "2022-01-21T00:29:22.189Z",
+  "time": "2022-01-21T21:58:17.345Z",
   "total": 58
 }
