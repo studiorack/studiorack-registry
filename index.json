@@ -782,6 +782,7 @@
           "name": "OPNplug",
           "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
           "tags": [
+            "Instrument",
             "Synth",
             "FM"
           ],
@@ -1090,9 +1091,9 @@
           "name": "Virtual Playing Orchestra",
           "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
           "tags": [
+            "Instrument",
             "Orchestral",
             "Strings",
-            "Woodwind",
             "sfz"
           ],
           "version": "3.2.2",
@@ -1179,7 +1180,7 @@
           "name": "Salamander Grand Piano",
           "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
           "tags": [
-            "Samples",
+            "Instrument",
             "Piano",
             "Yamaha",
             "sfz"
@@ -2574,6 +2575,6 @@
       }
     }
   },
-  "time": "2022-01-26T00:33:59.827Z",
+  "time": "2022-01-26T04:44:38.940Z",
   "total": 58
 }
