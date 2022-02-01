@@ -683,6 +683,95 @@
         }
       }
     },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
     "studiorack/andes/andes": {
       "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
@@ -815,92 +904,91 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
-      "version": "1.3.5",
+      "version": "3.2.5",
       "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
+            "Effect",
+            "Reverb",
+            "Plate"
           ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "oxe.wav",
+              "name": "dragonfly-reverb.wav",
               "size": 352844
             },
             "image": {
-              "name": "oxe.png",
-              "size": 98712
+              "name": "dragonfly-reverb.png",
+              "size": 394705
             },
             "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
             },
             "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
             },
             "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
             }
           },
-          "release": "v1.3.5"
+          "release": "v3.2.5"
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
+    "studiorack/diopser/diopser": {
+      "id": "studiorack/diopser/diopser",
+      "license": "gpl-3.0",
+      "version": "0.0.1",
       "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
+            "Effect",
+            "Phaser",
+            "Frequency"
           ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
+          "version": "0.0.1",
+          "id": "diopser",
+          "date": "2021-11-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ep-mk1.wav",
+              "name": "diopser.wav",
               "size": 352844
             },
             "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
+              "name": "diopser.png",
+              "size": 120831
             },
             "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
+              "name": "diopser-linux.zip",
+              "size": 1769070
             },
             "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
+              "name": "diopser-mac.zip",
+              "size": 1894438
             },
             "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
+              "name": "diopser-win.zip",
+              "size": 2019788
             }
           },
-          "release": "v2.4.0"
+          "release": "v0.0.1"
         }
       }
     },
@@ -989,94 +1077,6 @@
             }
           },
           "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
-      "license": "gpl-3.0",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
-            }
-          },
-          "release": "v3.2.5"
-        }
-      }
-    },
-    "studiorack/diopser/diopser": {
-      "id": "studiorack/diopser/diopser",
-      "license": "gpl-3.0",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
-          "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
-          ],
-          "version": "0.0.1",
-          "id": "diopser",
-          "date": "2021-11-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "diopser.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "diopser.png",
-              "size": 120831
-            },
-            "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1769070
-            },
-            "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
-            },
-            "win": {
-              "name": "diopser-win.zip",
-              "size": 2019788
-            }
-          },
-          "release": "v0.0.1"
         }
       }
     },
@@ -1389,51 +1389,6 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 175256
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2"
-        }
-      }
-    },
     "studiorack/modeq/modeq": {
       "id": "studiorack/modeq/modeq",
       "license": "gpl-3.0",
@@ -1519,6 +1474,51 @@
             }
           },
           "release": "v0.5.3"
+        }
+      }
+    },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 175256
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2"
         }
       }
     },
@@ -2575,6 +2575,6 @@
       }
     }
   },
-  "time": "2022-01-31T00:30:14.216Z",
+  "time": "2022-02-01T00:32:23.127Z",
   "total": 58
 }
