@@ -683,50 +683,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/andes/andes": {
       "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
@@ -768,51 +724,6 @@
             }
           },
           "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
         }
       }
     },
@@ -904,6 +815,139 @@
         }
       }
     },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
+      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "wilkinson-audio-naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wilkinson-audio-naked-drums.flac",
+              "size": 553525
+            },
+            "image": {
+              "name": "wilkinson-audio-naked-drums.jpg",
+              "size": 24453
+            },
+            "linux": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "mac": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "win": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
     "studiorack/wolf-shaper/wolf-shaper": {
       "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
@@ -986,94 +1030,6 @@
             "win": {
               "name": "nekobi-win.zip",
               "size": 983729
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 450543
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
-            },
-            "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
-            }
-          },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Effect",
-            "Spectrogram",
-            "Frequency"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
             }
           },
           "release": "v1.0.0"
@@ -1165,6 +1121,94 @@
             }
           },
           "release": "v0.0.1"
+        }
+      }
+    },
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dexed.png",
+              "size": 450543
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.exe",
+              "size": 3927579
+            }
+          },
+          "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Effect",
+            "Spectrogram",
+            "Frequency"
+          ],
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-spectrum.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-spectrum.png",
+              "size": 101160
+            },
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -1476,51 +1520,6 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 175256
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2"
-        }
-      }
-    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -1607,6 +1606,51 @@
             }
           },
           "release": "v3.0.0"
+        }
+      }
+    },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 175256
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2"
         }
       }
     },
@@ -2620,6 +2664,6 @@
       }
     }
   },
-  "time": "2022-02-11T00:34:51.261Z",
-  "total": 59
+  "time": "2022-02-12T00:34:43.087Z",
+  "total": 60
 }
