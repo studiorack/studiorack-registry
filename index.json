@@ -859,95 +859,6 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
-      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "wilkinson-audio-naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wilkinson-audio-naked-drums.flac",
-              "size": 553525
-            },
-            "image": {
-              "name": "wilkinson-audio-naked-drums.jpg",
-              "size": 24453
-            },
-            "linux": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "mac": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "win": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "studiorack/dexed/dexed": {
       "id": "studiorack/dexed/dexed",
       "license": "gpl-3.0",
@@ -1036,137 +947,92 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
+              "name": "ep-mk1.wav",
               "size": 352844
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "ep-mk1.png",
+              "size": 139928
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v0.1.0"
+          "release": "v2.4.0"
         }
       }
     },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
-      "version": "3.0.0",
+    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
+      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
       "versions": {
-        "3.0.0": {
-          "author": "Alexander Holm",
-          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
-          "name": "Salamander Grand Piano",
-          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
           "tags": [
             "Instrument",
-            "Piano",
-            "Yamaha",
+            "Drums",
             "sfz"
           ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
-          "date": "2021-09-20T07:00:00.000Z",
+          "version": "1.0.0",
+          "id": "wilkinson-audio-naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "salamander-grand-piano.flac",
-              "size": 365662
+              "name": "wilkinson-audio-naked-drums.flac",
+              "size": 553525
             },
             "image": {
-              "name": "salamander-grand-piano.jpg",
-              "size": 88748
+              "name": "wilkinson-audio-naked-drums.jpg",
+              "size": 24453
             },
             "linux": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
             },
             "mac": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
             },
             "win": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
             }
           },
-          "release": "v3.0.0"
-        }
-      }
-    },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2"
+          "release": "v1.0.0"
         }
       }
     },
@@ -1524,6 +1390,94 @@
         }
       }
     },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "octasine.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
+        }
+      }
+    },
     "studiorack/regrader/regrader": {
       "id": "studiorack/regrader/regrader",
       "license": "mit",
@@ -1656,91 +1610,137 @@
         }
       }
     },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
-      "version": "0.4.0",
+      "version": "3.2.2",
       "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
           "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
           ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "modeq.wav",
-              "size": 352844
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
             },
             "image": {
-              "name": "modeq.png",
-              "size": 105317
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
             },
             "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             }
           },
-          "release": "v0.4.0"
+          "release": "v3.2.2"
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
       "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
           "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
+            "Effect",
+            "Amplifier",
+            "Volume"
           ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "octasine.wav",
+              "name": "ampli-fe.wav",
               "size": 352844
             },
             "image": {
-              "name": "octasine.png",
-              "size": 679563
+              "name": "ampli-fe.png",
+              "size": 159478
             },
             "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
             },
             "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
             },
             "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
             }
           },
-          "release": "v0.5.3"
+          "release": "v0.1.0"
+        }
+      }
+    },
+    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
+      "license": "other",
+      "version": "3.0.0",
+      "versions": {
+        "3.0.0": {
+          "author": "Alexander Holm",
+          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
+          "name": "Salamander Grand Piano",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+          "tags": [
+            "Instrument",
+            "Piano",
+            "Yamaha",
+            "sfz"
+          ],
+          "version": "3.0.0",
+          "id": "salamander-grand-piano",
+          "date": "2021-09-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-grand-piano.flac",
+              "size": 365662
+            },
+            "image": {
+              "name": "salamander-grand-piano.jpg",
+              "size": 88748
+            },
+            "linux": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "mac": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "win": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            }
+          },
+          "release": "v3.0.0"
         }
       }
     },
@@ -2754,6 +2754,6 @@
       }
     }
   },
-  "time": "2022-02-19T00:36:43.897Z",
+  "time": "2022-02-20T00:39:40.072Z",
   "total": 62
 }
