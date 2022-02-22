@@ -683,6 +683,50 @@
         }
       }
     },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -771,50 +815,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/andes/andes": {
       "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
@@ -856,95 +856,6 @@
             }
           },
           "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
-      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "wilkinson-audio-naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wilkinson-audio-naked-drums.flac",
-              "size": 553525
-            },
-            "image": {
-              "name": "wilkinson-audio-naked-drums.jpg",
-              "size": 24453
-            },
-            "linux": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "mac": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "win": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -1036,48 +947,92 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
             "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
+            "Synth",
+            "Electric",
+            "Piano"
           ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
+              "name": "ep-mk1.wav",
+              "size": 352844
             },
             "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
+              "name": "ep-mk1.png",
+              "size": 139928
             },
             "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v3.2.2"
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
+      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "wilkinson-audio-naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wilkinson-audio-naked-drums.flac",
+              "size": 553525
+            },
+            "image": {
+              "name": "wilkinson-audio-naked-drums.jpg",
+              "size": 24453
+            },
+            "linux": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "mac": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "win": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -1208,139 +1163,6 @@
             "win": {
               "name": "jrhodes-3c.zip",
               "size": 17073884
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
-      "license": "gpl-3.0",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
-            }
-          },
-          "release": "v3.2.5"
-        }
-      }
-    },
-    "studiorack/diopser/diopser": {
-      "id": "studiorack/diopser/diopser",
-      "license": "gpl-3.0",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
-          "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
-          ],
-          "version": "0.0.1",
-          "id": "diopser",
-          "date": "2021-11-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "diopser.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "diopser.png",
-              "size": 120831
-            },
-            "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1769070
-            },
-            "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
-            },
-            "win": {
-              "name": "diopser-win.zip",
-              "size": 2019788
-            }
-          },
-          "release": "v0.0.1"
-        }
-      }
-    },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
             }
           },
           "release": "v1.0.0"
@@ -1523,6 +1345,139 @@
         }
       }
     },
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
+      "versions": {
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dragonfly-reverb.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dragonfly-reverb.png",
+              "size": 394705
+            },
+            "linux": {
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
+            },
+            "mac": {
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
+            },
+            "win": {
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
+            }
+          },
+          "release": "v3.2.5"
+        }
+      }
+    },
+    "studiorack/diopser/diopser": {
+      "id": "studiorack/diopser/diopser",
+      "license": "gpl-3.0",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
+          "tags": [
+            "Effect",
+            "Phaser",
+            "Frequency"
+          ],
+          "version": "0.0.1",
+          "id": "diopser",
+          "date": "2021-11-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "diopser.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "diopser.png",
+              "size": 120831
+            },
+            "linux": {
+              "name": "diopser-linux.zip",
+              "size": 1769070
+            },
+            "mac": {
+              "name": "diopser-mac.zip",
+              "size": 1894438
+            },
+            "win": {
+              "name": "diopser-win.zip",
+              "size": 2019788
+            }
+          },
+          "release": "v0.0.1"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
     "studiorack/regrader/regrader": {
       "id": "studiorack/regrader/regrader",
       "license": "mit",
@@ -1655,6 +1610,51 @@
         }
       }
     },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2"
+        }
+      }
+    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -1696,6 +1696,50 @@
             }
           },
           "release": "v0.1.0"
+        }
+      }
+    },
+    "studiorack/avl-drumkits/avl-drumkits": {
+      "id": "studiorack/avl-drumkits/avl-drumkits",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Drumkits",
+          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-drumkits",
+          "date": "2022-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-drumkits.flac",
+              "size": 696023
+            },
+            "image": {
+              "name": "avl-drumkits.jpg",
+              "size": 153997
+            },
+            "linux": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "mac": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "win": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            }
+          },
+          "release": "v1.1.0"
         }
       }
     },
@@ -1741,50 +1785,6 @@
             }
           },
           "release": "v3.0.0"
-        }
-      }
-    },
-    "studiorack/avl-drumkits/avl-drumkits": {
-      "id": "studiorack/avl-drumkits/avl-drumkits",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Drumkits",
-          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-drumkits",
-          "date": "2022-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-drumkits.flac",
-              "size": 696023
-            },
-            "image": {
-              "name": "avl-drumkits.jpg",
-              "size": 153997
-            },
-            "linux": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            },
-            "mac": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            },
-            "win": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            }
-          },
-          "release": "v1.1.0"
         }
       }
     },
@@ -2798,6 +2798,6 @@
       }
     }
   },
-  "time": "2022-02-21T01:37:26.894Z",
+  "time": "2022-02-22T00:34:30.825Z",
   "total": 63
 }
