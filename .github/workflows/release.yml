@@ -3,8 +3,8 @@ name: Release
 on: 
   workflow_dispatch:
   schedule:
-      # https://crontab.guru/every-night-at-midnight
-    - cron: '0 0 * * *'
+      # https://crontab.guru/weekly
+    - cron: '0 0 * * 0'
 
 jobs:
   release:
