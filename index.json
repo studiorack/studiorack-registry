@@ -727,50 +727,6 @@
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -856,6 +812,50 @@
             }
           },
           "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0"
         }
       }
     },
@@ -992,94 +992,6 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "kars.png",
-              "size": 174131
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "tunefish.png",
-              "size": 380571
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0"
-        }
-      }
-    },
     "studiorack/wolf-shaper/wolf-shaper": {
       "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
@@ -1213,6 +1125,94 @@
         }
       }
     },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "octasine.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
+        }
+      }
+    },
     "studiorack/dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -1343,226 +1343,6 @@
             }
           },
           "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/regrader/regrader": {
-      "id": "studiorack/regrader/regrader",
-      "license": "mit",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Sync"
-          ],
-          "version": "1.0.4",
-          "id": "regrader",
-          "date": "2021-08-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "regrader.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "regrader.png",
-              "size": 576052
-            },
-            "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901
-            },
-            "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572
-            },
-            "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030
-            }
-          },
-          "release": "v1.0.4"
-        }
-      }
-    },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
-      "license": "gpl-3.0",
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Tube"
-          ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "swankyamp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "swankyamp.png",
-              "size": 494455
-            },
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
-            }
-          },
-          "release": "v1.4.0"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3"
         }
       }
     },
@@ -1700,136 +1480,223 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
+    "studiorack/regrader/regrader": {
+      "id": "studiorack/regrader/regrader",
       "license": "mit",
-      "version": "0.1.0",
+      "version": "1.0.4",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
           "tags": [
             "Effect",
-            "Amplifier",
-            "Volume"
+            "Delay",
+            "Sync"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "1.0.4",
+          "id": "regrader",
+          "date": "2021-08-08T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
+              "name": "regrader.wav",
               "size": 352844
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "regrader.png",
+              "size": 576052
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "regrader-linux.zip",
+              "size": 660901
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "regrader-mac.zip",
+              "size": 5796572
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "regrader-win.zip",
+              "size": 1879030
             }
           },
-          "release": "v0.1.0"
+          "release": "v1.0.4"
         }
       }
     },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
-      "version": "3.0.0",
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
       "versions": {
-        "3.0.0": {
-          "author": "Alexander Holm",
-          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
-          "name": "Salamander Grand Piano",
-          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
           "tags": [
-            "Instrument",
-            "Piano",
-            "Yamaha",
-            "sfz"
+            "Effect",
+            "Amplifier",
+            "Tube"
           ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
-          "date": "2021-09-20T07:00:00.000Z",
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "salamander-grand-piano.flac",
-              "size": 365662
+              "name": "swankyamp.wav",
+              "size": 352844
             },
             "image": {
-              "name": "salamander-grand-piano.jpg",
-              "size": 88748
+              "name": "swankyamp.png",
+              "size": 494455
             },
             "linux": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
             },
             "mac": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
             },
             "win": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "swankyamp-win.zip",
+              "size": 2155426
             }
           },
-          "release": "v3.0.0"
+          "release": "v1.4.0"
         }
       }
     },
-    "studiorack/avl-drumkits/avl-drumkits": {
-      "id": "studiorack/avl-drumkits/avl-drumkits",
-      "license": "other",
-      "version": "1.1.0",
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
       "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Drumkits",
-          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
             "Instrument",
-            "Drums",
-            "sfz"
+            "Synth",
+            "Modulation"
           ],
-          "version": "1.1.0",
-          "id": "avl-drumkits",
-          "date": "2022-02-20T07:00:00.000Z",
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "avl-drumkits.flac",
-              "size": 696023
+              "name": "helm.wav",
+              "size": 352844
             },
             "image": {
-              "name": "avl-drumkits.jpg",
-              "size": 326339
+              "name": "helm.png",
+              "size": 417945
             },
             "linux": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
+              "name": "helm-linux.zip",
+              "size": 12294991
             },
             "mac": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
+              "name": "helm-mac.zip",
+              "size": 12827630
             },
             "win": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
+              "name": "helm-win.msi",
+              "size": 19533824
             }
           },
-          "release": "v1.1.0"
+          "release": "v0.9.0"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "kars.png",
+              "size": 174131
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1149271
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1327762
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1175194
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "tunefish.png",
+              "size": 380571
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0"
         }
       }
     },
@@ -2137,6 +2004,183 @@
             }
           },
           "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ampli-fe.png",
+              "size": 159478
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0"
+        }
+      }
+    },
+    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
+      "license": "other",
+      "version": "3.0.0",
+      "versions": {
+        "3.0.0": {
+          "author": "Alexander Holm",
+          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
+          "name": "Salamander Grand Piano",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+          "tags": [
+            "Instrument",
+            "Piano",
+            "Yamaha",
+            "sfz"
+          ],
+          "version": "3.0.0",
+          "id": "salamander-grand-piano",
+          "date": "2021-09-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-grand-piano.flac",
+              "size": 365662
+            },
+            "image": {
+              "name": "salamander-grand-piano.jpg",
+              "size": 88748
+            },
+            "linux": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "mac": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "win": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            }
+          },
+          "release": "v3.0.0"
+        }
+      }
+    },
+    "studiorack/avl-drumkits/avl-drumkits": {
+      "id": "studiorack/avl-drumkits/avl-drumkits",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Drumkits",
+          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-drumkits",
+          "date": "2022-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-drumkits.flac",
+              "size": 696023
+            },
+            "image": {
+              "name": "avl-drumkits.jpg",
+              "size": 326339
+            },
+            "linux": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "mac": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "win": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            }
+          },
+          "release": "v1.1.0"
+        }
+      }
+    },
+    "studiorack/carla/carla": {
+      "id": "studiorack/carla/carla",
+      "license": "other",
+      "version": "2.4.2",
+      "versions": {
+        "2.4.2": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/falkTX/Carla",
+          "name": "Carla",
+          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
+          "tags": [
+            "Instrument",
+            "Host",
+            "Player"
+          ],
+          "version": "2.4.2",
+          "id": "carla",
+          "date": "2022-02-19T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "carla.flac",
+              "size": 330759
+            },
+            "image": {
+              "name": "carla.jpg",
+              "size": 252192
+            },
+            "linux": {
+              "name": "carla-linux.zip",
+              "size": 160951738
+            },
+            "mac": {
+              "name": "carla-mac.zip",
+              "size": 312938720
+            },
+            "win": {
+              "name": "carla-win.zip",
+              "size": 196435153
+            }
+          },
+          "release": "v2.4.2"
         }
       }
     },
@@ -2934,6 +2978,6 @@
       }
     }
   },
-  "time": "2022-02-26T06:21:28.302Z",
-  "total": 66
+  "time": "2022-02-26T06:26:55.164Z",
+  "total": 67
 }
