@@ -660,48 +660,48 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
+      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
+      "license": "gpl-3.0",
+      "version": "1.13.0",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "1.13.0": {
+          "author": "Institute of Electronic Music and Acoustics",
+          "homepage": "https://plugins.iem.at",
+          "name": "IEM Plugin Suite",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
           "tags": [
             "Effect",
-            "Amplifier",
-            "Volume"
+            "Reverb",
+            "Delay"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "1.13.0",
+          "id": "iem-plugin-suite.jpg",
+          "date": "2021-11-27T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
-              "size": 352844
+              "name": "iem-plugin-suite.flac",
+              "size": 112666
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "iem-plugin-suite.jpg",
+              "size": 111401
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "iem-plugin-suite-linux.zip",
+              "size": 51310651
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "iem-plugin-suite-mac.zip",
+              "size": 115219195
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "iem-plugin-suite-win.zip",
+              "size": 79870766
             }
           },
-          "release": "v0.1.0",
-          "repo": "studiorack/ampli-fe"
+          "release": "v1.13.0",
+          "repo": "studiorack/iem-plugin-suite"
         }
       }
     },
@@ -747,6 +747,51 @@
           },
           "release": "v2.8.0",
           "repo": "studiorack/chow-tape-model"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ampli-fe.png",
+              "size": 159478
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "repo": "studiorack/ampli-fe"
         }
       }
     },

@@ -727,6 +727,94 @@
         }
       }
     },
+    "studiorack/adlplug/adlplug": {
+      "id": "studiorack/adlplug/adlplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "adlplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "adlplug.flac",
+              "size": 60649
+            },
+            "image": {
+              "name": "adlplug.jpg",
+              "size": 140267
+            },
+            "linux": {
+              "name": "adlplug-linux.zip",
+              "size": 11068718
+            },
+            "mac": {
+              "name": "adlplug-mac.zip",
+              "size": 33551714
+            },
+            "win": {
+              "name": "adlplug-win.zip",
+              "size": 24833093
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/adlplug/opnplug": {
+      "id": "studiorack/adlplug/opnplug",
+      "license": "bsl-1.0",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "OPNplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.0.2",
+          "id": "opnplug",
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opnplug.flac",
+              "size": 58202
+            },
+            "image": {
+              "name": "opnplug.jpg",
+              "size": 145332
+            },
+            "linux": {
+              "name": "opnplug-linux.zip",
+              "size": 11236640
+            },
+            "mac": {
+              "name": "opnplug-mac.zip",
+              "size": 27264168
+            },
+            "win": {
+              "name": "opnplug-win.zip",
+              "size": 25020750
+            }
+          },
+          "release": "v1.0.2"
+        }
+      }
+    },
     "studiorack/andes/andes": {
       "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
@@ -768,94 +856,6 @@
             }
           },
           "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/adlplug/adlplug": {
-      "id": "studiorack/adlplug/adlplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "adlplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "adlplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "adlplug.png",
-              "size": 601168
-            },
-            "linux": {
-              "name": "adlplug-linux.zip",
-              "size": 11068718
-            },
-            "mac": {
-              "name": "adlplug-mac.zip",
-              "size": 33551714
-            },
-            "win": {
-              "name": "adlplug-win.zip",
-              "size": 24833093
-            }
-          },
-          "release": "v1.0.2"
-        }
-      }
-    },
-    "studiorack/adlplug/opnplug": {
-      "id": "studiorack/adlplug/opnplug",
-      "license": "bsl-1.0",
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.0.2",
-          "id": "opnplug",
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "opnplug.png",
-              "size": 620462
-            },
-            "linux": {
-              "name": "opnplug-linux.zip",
-              "size": 11236640
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 27264168
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25020750
-            }
-          },
-          "release": "v1.0.2"
         }
       }
     },
@@ -1258,226 +1258,6 @@
         }
       }
     },
-    "studiorack/regrader/regrader": {
-      "id": "studiorack/regrader/regrader",
-      "license": "mit",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Sync"
-          ],
-          "version": "1.0.4",
-          "id": "regrader",
-          "date": "2021-08-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "regrader.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "regrader.png",
-              "size": 576052
-            },
-            "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901
-            },
-            "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572
-            },
-            "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030
-            }
-          },
-          "release": "v1.0.4"
-        }
-      }
-    },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
-      "license": "gpl-3.0",
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Tube"
-          ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "swankyamp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "swankyamp.png",
-              "size": 494455
-            },
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
-            }
-          },
-          "release": "v1.4.0"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -1612,6 +1392,138 @@
         }
       }
     },
+    "studiorack/regrader/regrader": {
+      "id": "studiorack/regrader/regrader",
+      "license": "mit",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Sync"
+          ],
+          "version": "1.0.4",
+          "id": "regrader",
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "regrader.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "regrader.png",
+              "size": 576052
+            },
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030
+            }
+          },
+          "release": "v1.0.4"
+        }
+      }
+    },
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Tube"
+          ],
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "swankyamp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "swankyamp.png",
+              "size": 494455
+            },
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426
+            }
+          },
+          "release": "v1.4.0"
+        }
+      }
+    },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 417945
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0"
+        }
+      }
+    },
     "studiorack/kars/kars": {
       "id": "studiorack/kars/kars",
       "license": "isc",
@@ -1700,180 +1612,135 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
             "Effect",
-            "Amplifier",
-            "Volume"
+            "EQ",
+            "Modulation"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
+              "name": "modeq.wav",
               "size": 352844
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v0.1.0"
+          "release": "v0.4.0"
         }
       }
     },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
-      "version": "3.0.0",
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
       "versions": {
-        "3.0.0": {
-          "author": "Alexander Holm",
-          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
-          "name": "Salamander Grand Piano",
-          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
           "tags": [
             "Instrument",
-            "Piano",
-            "Yamaha",
-            "sfz"
+            "Synth",
+            "Modulation"
           ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
-          "date": "2021-09-20T07:00:00.000Z",
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "salamander-grand-piano.flac",
-              "size": 365662
+              "name": "octasine.wav",
+              "size": 352844
             },
             "image": {
-              "name": "salamander-grand-piano.jpg",
-              "size": 88748
+              "name": "octasine.png",
+              "size": 679563
             },
             "linux": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "octasine-linux.zip",
+              "size": 3528874
             },
             "mac": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "octasine-mac.zip",
+              "size": 3115190
             },
             "win": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "name": "octasine-win.zip",
+              "size": 3203934
             }
           },
-          "release": "v3.0.0"
+          "release": "v0.5.3"
         }
       }
     },
-    "studiorack/avl-drumkits/avl-drumkits": {
-      "id": "studiorack/avl-drumkits/avl-drumkits",
-      "license": "other",
-      "version": "1.1.0",
+    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
+      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
+      "license": "gpl-3.0",
+      "version": "1.13.0",
       "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Drumkits",
-          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+        "1.13.0": {
+          "author": "Institute of Electronic Music and Acoustics",
+          "homepage": "https://plugins.iem.at",
+          "name": "IEM Plugin Suite",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
           "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
+            "Effect",
+            "Reverb",
+            "Delay"
           ],
-          "version": "1.1.0",
-          "id": "avl-drumkits",
-          "date": "2022-02-20T07:00:00.000Z",
+          "version": "1.13.0",
+          "id": "iem-plugin-suite.jpg",
+          "date": "2021-11-27T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "avl-drumkits.flac",
-              "size": 696023
+              "name": "iem-plugin-suite.flac",
+              "size": 112666
             },
             "image": {
-              "name": "avl-drumkits.jpg",
-              "size": 326339
+              "name": "iem-plugin-suite.jpg",
+              "size": 111401
             },
             "linux": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
+              "name": "iem-plugin-suite-linux.zip",
+              "size": 51310651
             },
             "mac": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
+              "name": "iem-plugin-suite-mac.zip",
+              "size": 115219195
             },
             "win": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
+              "name": "iem-plugin-suite-win.zip",
+              "size": 79870766
             }
           },
-          "release": "v1.1.0"
-        }
-      }
-    },
-    "studiorack/carla/carla": {
-      "id": "studiorack/carla/carla",
-      "license": "other",
-      "version": "2.4.2",
-      "versions": {
-        "2.4.2": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/falkTX/Carla",
-          "name": "Carla",
-          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
-          "tags": [
-            "Instrument",
-            "Host",
-            "Player"
-          ],
-          "version": "2.4.2",
-          "id": "carla",
-          "date": "2022-02-19T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "carla.flac",
-              "size": 330759
-            },
-            "image": {
-              "name": "carla.jpg",
-              "size": 252192
-            },
-            "linux": {
-              "name": "carla-linux.zip",
-              "size": 160951738
-            },
-            "mac": {
-              "name": "carla-mac.zip",
-              "size": 312938720
-            },
-            "win": {
-              "name": "carla-win.zip",
-              "size": 196435153
-            }
-          },
-          "release": "v2.4.2"
+          "release": "v1.13.0"
         }
       }
     },
@@ -2051,6 +1918,183 @@
             }
           },
           "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ampli-fe.png",
+              "size": 159478
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0"
+        }
+      }
+    },
+    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
+      "license": "other",
+      "version": "3.0.0",
+      "versions": {
+        "3.0.0": {
+          "author": "Alexander Holm",
+          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
+          "name": "Salamander Grand Piano",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+          "tags": [
+            "Instrument",
+            "Piano",
+            "Yamaha",
+            "sfz"
+          ],
+          "version": "3.0.0",
+          "id": "salamander-grand-piano",
+          "date": "2021-09-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-grand-piano.flac",
+              "size": 365662
+            },
+            "image": {
+              "name": "salamander-grand-piano.jpg",
+              "size": 88748
+            },
+            "linux": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "mac": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "win": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            }
+          },
+          "release": "v3.0.0"
+        }
+      }
+    },
+    "studiorack/carla/carla": {
+      "id": "studiorack/carla/carla",
+      "license": "other",
+      "version": "2.4.2",
+      "versions": {
+        "2.4.2": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/falkTX/Carla",
+          "name": "Carla",
+          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
+          "tags": [
+            "Instrument",
+            "Host",
+            "Player"
+          ],
+          "version": "2.4.2",
+          "id": "carla",
+          "date": "2022-02-19T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "carla.flac",
+              "size": 330759
+            },
+            "image": {
+              "name": "carla.jpg",
+              "size": 252192
+            },
+            "linux": {
+              "name": "carla-linux.zip",
+              "size": 160951738
+            },
+            "mac": {
+              "name": "carla-mac.zip",
+              "size": 312938720
+            },
+            "win": {
+              "name": "carla-win.zip",
+              "size": 196435153
+            }
+          },
+          "release": "v2.4.2"
+        }
+      }
+    },
+    "studiorack/avl-drumkits/avl-drumkits": {
+      "id": "studiorack/avl-drumkits/avl-drumkits",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Drumkits",
+          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-drumkits",
+          "date": "2022-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-drumkits.flac",
+              "size": 696023
+            },
+            "image": {
+              "name": "avl-drumkits.jpg",
+              "size": 326339
+            },
+            "linux": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "mac": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "win": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            }
+          },
+          "release": "v1.1.0"
         }
       }
     },
@@ -2449,6 +2493,51 @@
         }
       }
     },
+    "studiorack/virtuosity-drums/virtuosity-drums": {
+      "id": "studiorack/virtuosity-drums/virtuosity-drums",
+      "license": "cc0-1.0",
+      "version": "0.9.22",
+      "versions": {
+        "0.9.22": {
+          "author": "Versilian Studios",
+          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
+          "name": "Virtuosity Drums",
+          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Jazz",
+            "sfz"
+          ],
+          "version": "0.9.22",
+          "id": "virtuosity-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtuosity-drums.flac",
+              "size": 821118
+            },
+            "image": {
+              "name": "virtuosity-drums.jpg",
+              "size": 73357
+            },
+            "linux": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v0.9.22"
+        }
+      }
+    },
     "studiorack/salamander-drumkit/salamander-drumkit": {
       "id": "studiorack/salamander-drumkit/salamander-drumkit",
       "license": "other",
@@ -2537,51 +2626,6 @@
             }
           },
           "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/virtuosity-drums/virtuosity-drums": {
-      "id": "studiorack/virtuosity-drums/virtuosity-drums",
-      "license": "cc0-1.0",
-      "version": "0.9.22",
-      "versions": {
-        "0.9.22": {
-          "author": "Versilian Studios",
-          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
-          "name": "Virtuosity Drums",
-          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Jazz",
-            "sfz"
-          ],
-          "version": "0.9.22",
-          "id": "virtuosity-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtuosity-drums.flac",
-              "size": 821118
-            },
-            "image": {
-              "name": "virtuosity-drums.jpg",
-              "size": 73357
-            },
-            "linux": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v0.9.22"
         }
       }
     },
@@ -3023,6 +3067,6 @@
       }
     }
   },
-  "time": "2022-02-27T03:59:00.632Z",
-  "total": 68
+  "time": "2022-03-04T03:55:50.187Z",
+  "total": 69
 }
