@@ -615,93 +615,48 @@
         }
       }
     },
-    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
-      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
-      "version": "1.13.0",
+      "version": "2.8.0",
       "versions": {
-        "1.13.0": {
-          "author": "Institute of Electronic Music and Acoustics",
-          "homepage": "https://plugins.iem.at",
-          "name": "IEM Plugin Suite",
-          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
           "tags": [
             "Effect",
-            "Reverb",
-            "Delay"
+            "Filter",
+            "Tape"
           ],
-          "version": "1.13.0",
-          "id": "iem-plugin-suite.jpg",
-          "date": "2021-11-27T08:00:00.000Z",
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "iem-plugin-suite.flac",
-              "size": 112666
-            },
-            "image": {
-              "name": "iem-plugin-suite.jpg",
-              "size": 111401
-            },
-            "linux": {
-              "name": "iem-plugin-suite-linux.zip",
-              "size": 51310651
-            },
-            "mac": {
-              "name": "iem-plugin-suite-mac.zip",
-              "size": 115219195
-            },
-            "win": {
-              "name": "iem-plugin-suite-win.zip",
-              "size": 79870766
-            }
-          },
-          "release": "v1.13.0",
-          "repo": "studiorack/iem-plugin-suite"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
+              "name": "chow-tape-model.wav",
               "size": 352844
             },
             "image": {
-              "name": "modeq.png",
-              "size": 105317
+              "name": "chow-tape-model.png",
+              "size": 94400
             },
             "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
             },
             "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
             },
             "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
+              "name": "chow-tape-model-win.exe",
+              "size": 10053679
             }
           },
-          "release": "v0.4.0",
-          "repo": "studiorack/modeq"
+          "release": "v2.8.0",
+          "repo": "studiorack/chow-tape-model"
         }
       }
     },
@@ -839,48 +794,93 @@
         }
       }
     },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "id": "studiorack/chow-tape-model/chow-tape-model",
+    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
+      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
       "license": "gpl-3.0",
-      "version": "2.8.0",
+      "version": "1.13.0",
       "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+        "1.13.0": {
+          "author": "Institute of Electronic Music and Acoustics",
+          "homepage": "https://plugins.iem.at",
+          "name": "IEM Plugin Suite",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
           "tags": [
             "Effect",
-            "Filter",
-            "Tape"
+            "Reverb",
+            "Delay"
           ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
+          "version": "1.13.0",
+          "id": "iem-plugin-suite.jpg",
+          "date": "2021-11-27T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-tape-model.wav",
+              "name": "iem-plugin-suite.flac",
+              "size": 112666
+            },
+            "image": {
+              "name": "iem-plugin-suite.jpg",
+              "size": 111401
+            },
+            "linux": {
+              "name": "iem-plugin-suite-linux.zip",
+              "size": 51310651
+            },
+            "mac": {
+              "name": "iem-plugin-suite-mac.zip",
+              "size": 115219195
+            },
+            "win": {
+              "name": "iem-plugin-suite-win.zip",
+              "size": 79870766
+            }
+          },
+          "release": "v1.13.0",
+          "repo": "studiorack/iem-plugin-suite"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
               "size": 352844
             },
             "image": {
-              "name": "chow-tape-model.png",
-              "size": 94400
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "chow-tape-model-win.exe",
-              "size": 10053679
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v2.8.0",
-          "repo": "studiorack/chow-tape-model"
+          "release": "v0.4.0",
+          "repo": "studiorack/modeq"
         }
       }
     },

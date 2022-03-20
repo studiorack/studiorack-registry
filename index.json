@@ -683,50 +683,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -859,48 +815,91 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
-      "version": "3.2.2",
+      "version": "1.3.5",
       "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
             "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
+            "Synth",
+            "FM"
           ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
+              "name": "oxe.wav",
+              "size": 352844
             },
             "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v3.2.2"
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "tunefish.png",
+              "size": 380571
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0"
         }
       }
     },
@@ -948,47 +947,48 @@
         }
       }
     },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
-      "version": "4.0.0",
+      "version": "3.2.2",
       "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
           "tags": [
             "Instrument",
-            "Synth",
-            "Analog"
+            "Orchestral",
+            "Strings",
+            "sfz"
           ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
             },
             "image": {
-              "name": "tunefish.png",
-              "size": 380571
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
             },
             "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             }
           },
-          "release": "v4.2.0"
+          "release": "v3.2.2"
         }
       }
     },
@@ -1074,6 +1074,50 @@
             "win": {
               "name": "wolf-spectrum-win.zip",
               "size": 853963
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
+      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "wilkinson-audio-naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wilkinson-audio-naked-drums.flac",
+              "size": 553525
+            },
+            "image": {
+              "name": "wilkinson-audio-naked-drums.jpg",
+              "size": 24453
+            },
+            "linux": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "mac": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "win": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
             }
           },
           "release": "v1.0.0"
@@ -1167,50 +1211,6 @@
             }
           },
           "release": "v1.1.0"
-        }
-      }
-    },
-    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
-      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "wilkinson-audio-naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wilkinson-audio-naked-drums.flac",
-              "size": 553525
-            },
-            "image": {
-              "name": "wilkinson-audio-naked-drums.jpg",
-              "size": 24453
-            },
-            "linux": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "mac": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "win": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -1479,6 +1479,50 @@
         }
       }
     },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Editor"
+          ],
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-shaper.png",
+              "size": 42563
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
+            }
+          },
+          "release": "v0.1.8"
+        }
+      }
+    },
     "studiorack/nekobi/nekobi": {
       "id": "studiorack/nekobi/nekobi",
       "license": "gpl-2.0",
@@ -1568,179 +1612,180 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
       "license": "gpl-3.0",
-      "version": "0.1.8",
+      "version": "2.1.0",
       "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-shaper.png",
-              "size": 42563
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
-            }
-          },
-          "release": "v0.1.8"
-        }
-      }
-    },
-    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
-      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
-      "license": "gpl-3.0",
-      "version": "1.13.0",
-      "versions": {
-        "1.13.0": {
-          "author": "Institute of Electronic Music and Acoustics",
-          "homepage": "https://plugins.iem.at",
-          "name": "IEM Plugin Suite",
-          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Delay"
-          ],
-          "version": "1.13.0",
-          "id": "iem-plugin-suite.jpg",
-          "date": "2021-11-27T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "iem-plugin-suite.flac",
-              "size": 112666
-            },
-            "image": {
-              "name": "iem-plugin-suite.jpg",
-              "size": 111401
-            },
-            "linux": {
-              "name": "iem-plugin-suite-linux.zip",
-              "size": 51310651
-            },
-            "mac": {
-              "name": "iem-plugin-suite-mac.zip",
-              "size": 115219195
-            },
-            "win": {
-              "name": "iem-plugin-suite-win.zip",
-              "size": 79870766
-            }
-          },
-          "release": "v1.13.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
           "tags": [
             "Instrument",
             "Synth",
-            "Modulation"
+            "Casio"
           ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "octasine.wav",
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
+      "license": "gpl-3.0",
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.wav",
               "size": 352844
             },
             "image": {
-              "name": "octasine.png",
-              "size": 679563
+              "name": "chow-tape-model.png",
+              "size": 94400
             },
             "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
             },
             "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
             },
             "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
+              "name": "chow-tape-model-win.exe",
+              "size": 10053679
             }
           },
-          "release": "v0.5.3"
+          "release": "v2.8.0"
+        }
+      }
+    },
+    "studiorack/ninjas2/ninjas2": {
+      "id": "studiorack/ninjas2/ninjas2",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Slicer"
+          ],
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ninjas2.png",
+              "size": 139641
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116
+            }
+          },
+          "release": "v0.2.0"
+        }
+      }
+    },
+    "studiorack/monique-monosynth/monique": {
+      "id": "studiorack/monique-monosynth/monique",
+      "license": "other",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Thomas Arndt",
+          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
+          "name": "Monique",
+          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bass",
+            "Lead"
+          ],
+          "version": "1.2.0",
+          "id": "monique",
+          "date": "2021-12-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "monique.flac",
+              "size": 386812
+            },
+            "image": {
+              "name": "monique.jpg",
+              "size": 228421
+            },
+            "linux": {
+              "name": "monique-linux.zip",
+              "size": 7258419
+            },
+            "mac": {
+              "name": "monique-mac.zip",
+              "size": 19330773
+            },
+            "win": {
+              "name": "monique-win.exe",
+              "size": 8255789
+            }
+          },
+          "release": "v1.2.0"
         }
       }
     },
@@ -1964,50 +2009,6 @@
         }
       }
     },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "smartguitaramp.png",
-              "size": 756468
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
     "studiorack/obxd/obxd": {
       "id": "studiorack/obxd/obxd",
       "license": "gpl-3.0",
@@ -2049,6 +2050,50 @@
             }
           },
           "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "smartguitaramp.png",
+              "size": 756468
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
         }
       }
     },
@@ -2096,180 +2141,135 @@
         }
       }
     },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "id": "studiorack/chow-tape-model/chow-tape-model",
+    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
+      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
       "license": "gpl-3.0",
-      "version": "2.8.0",
+      "version": "1.13.0",
       "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+        "1.13.0": {
+          "author": "Institute of Electronic Music and Acoustics",
+          "homepage": "https://plugins.iem.at",
+          "name": "IEM Plugin Suite",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
           "tags": [
             "Effect",
-            "Filter",
-            "Tape"
+            "Reverb",
+            "Delay"
           ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
+          "version": "1.13.0",
+          "id": "iem-plugin-suite.jpg",
+          "date": "2021-11-27T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-tape-model.wav",
-              "size": 352844
+              "name": "iem-plugin-suite.flac",
+              "size": 112666
             },
             "image": {
-              "name": "chow-tape-model.png",
-              "size": 94400
+              "name": "iem-plugin-suite.jpg",
+              "size": 111401
             },
             "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
+              "name": "iem-plugin-suite-linux.zip",
+              "size": 51310651
             },
             "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
+              "name": "iem-plugin-suite-mac.zip",
+              "size": 115219195
             },
             "win": {
-              "name": "chow-tape-model-win.exe",
-              "size": 10053679
+              "name": "iem-plugin-suite-win.zip",
+              "size": 79870766
             }
           },
-          "release": "v2.8.0"
+          "release": "v1.13.0"
         }
       }
     },
-    "studiorack/ninjas2/ninjas2": {
-      "id": "studiorack/ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
       "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Slicer"
-          ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ninjas2.png",
-              "size": 139641
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
           "tags": [
             "Instrument",
             "Synth",
-            "Casio"
+            "Modulation"
           ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "digits.wav",
-              "size": 134990
+              "name": "octasine.wav",
+              "size": 352844
             },
             "image": {
-              "name": "digits.png",
-              "size": 97572
+              "name": "octasine.png",
+              "size": 679563
             },
             "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
+              "name": "octasine-linux.zip",
+              "size": 3528874
             },
             "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
+              "name": "octasine-mac.zip",
+              "size": 3115190
             },
             "win": {
-              "name": "digits-win.exe",
-              "size": 669291
+              "name": "octasine-win.zip",
+              "size": 3203934
             }
           },
-          "release": "v2.1.0"
+          "release": "v0.5.3"
         }
       }
     },
-    "studiorack/monique-monosynth/monique": {
-      "id": "studiorack/monique-monosynth/monique",
-      "license": "other",
-      "version": "1.2.0",
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
       "versions": {
-        "1.2.0": {
-          "author": "Thomas Arndt",
-          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
-          "name": "Monique",
-          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "Bass",
-            "Lead"
+            "Effect",
+            "EQ",
+            "Modulation"
           ],
-          "version": "1.2.0",
-          "id": "monique",
-          "date": "2021-12-13T08:00:00.000Z",
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "monique.flac",
-              "size": 386812
+              "name": "modeq.wav",
+              "size": 352844
             },
             "image": {
-              "name": "monique.jpg",
-              "size": 228421
+              "name": "modeq.png",
+              "size": 105317
             },
             "linux": {
-              "name": "monique-linux.zip",
-              "size": 7258419
+              "name": "modeq-linux.zip",
+              "size": 7109975
             },
             "mac": {
-              "name": "monique-mac.zip",
-              "size": 19330773
+              "name": "modeq-mac.zip",
+              "size": 3209964
             },
             "win": {
-              "name": "monique-win.exe",
-              "size": 8255789
+              "name": "modeq-win.zip",
+              "size": 3719312
             }
           },
-          "release": "v1.2.0"
+          "release": "v0.4.0"
         }
       }
     },
@@ -2710,50 +2710,6 @@
         }
       }
     },
-    "studiorack/odin/odin": {
-      "id": "studiorack/odin/odin",
-      "license": "gpl-3.0",
-      "version": "2.2.4",
-      "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Moog"
-          ],
-          "version": "2.2.4",
-          "id": "odin",
-          "date": "2020-10-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "odin.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "odin.png",
-              "size": 802665
-            },
-            "linux": {
-              "name": "odin-linux.zip",
-              "size": 97250026
-            },
-            "mac": {
-              "name": "odin-mac.zip",
-              "size": 78842812
-            },
-            "win": {
-              "name": "odin-win.zip",
-              "size": 46173771
-            }
-          },
-          "release": "v2.2.4"
-        }
-      }
-    },
     "studiorack/chow-matrix/chow-matrix": {
       "id": "studiorack/chow-matrix/chow-matrix",
       "license": "bsd-3-clause",
@@ -2842,47 +2798,47 @@
         }
       }
     },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
+    "studiorack/odin/odin": {
+      "id": "studiorack/odin/odin",
       "license": "gpl-3.0",
-      "version": "1.1.0",
+      "version": "2.2.4",
       "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
+        "2.2.4": {
+          "author": "TheWaveWarden",
+          "homepage": "https://github.com/TheWaveWarden/odin2",
+          "name": "Odin",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
           "tags": [
             "Instrument",
             "Synth",
-            "Lofi"
+            "Moog"
           ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
+          "version": "2.2.4",
+          "id": "odin",
+          "date": "2020-10-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "os-251.wav",
+              "name": "odin.wav",
               "size": 352844
             },
             "image": {
-              "name": "os-251.png",
-              "size": 212651
+              "name": "odin.png",
+              "size": 802665
             },
             "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
+              "name": "odin-linux.zip",
+              "size": 97250026
             },
             "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
+              "name": "odin-mac.zip",
+              "size": 78842812
             },
             "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
+              "name": "odin-win.zip",
+              "size": 46173771
             }
           },
-          "release": "v1.1.0"
+          "release": "v2.2.4"
         }
       }
     },
@@ -2927,6 +2883,50 @@
             }
           },
           "release": "v1.0.4"
+        }
+      }
+    },
+    "studiorack/os-251/os-251": {
+      "id": "studiorack/os-251/os-251",
+      "license": "gpl-3.0",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Lofi"
+          ],
+          "version": "1.1.0",
+          "id": "os-251",
+          "date": "2021-10-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "os-251.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "os-251.png",
+              "size": 212651
+            },
+            "linux": {
+              "name": "os-251-linux.zip",
+              "size": 8860818
+            },
+            "mac": {
+              "name": "os-251-mac.zip",
+              "size": 7611441
+            },
+            "win": {
+              "name": "os-251-win.zip",
+              "size": 2496031
+            }
+          },
+          "release": "v1.1.0"
         }
       }
     },
@@ -3067,6 +3067,6 @@
       }
     }
   },
-  "time": "2022-03-13T00:36:13.971Z",
+  "time": "2022-03-20T00:38:09.401Z",
   "total": 69
 }
