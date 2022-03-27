@@ -441,6 +441,51 @@
         }
       }
     },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.wav",
+              "size": 429902
+            },
+            "image": {
+              "name": "andes.png",
+              "size": 33884
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0",
+          "repo": "studiorack/andes"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -528,51 +573,6 @@
           },
           "release": "v1.0.2",
           "repo": "studiorack/adlplug"
-        }
-      }
-    },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.wav",
-              "size": 429902
-            },
-            "image": {
-              "name": "andes.png",
-              "size": 33884
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0",
-          "repo": "studiorack/andes"
         }
       }
     },
@@ -711,6 +711,51 @@
         }
       }
     },
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dexed.png",
+              "size": 450543
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.exe",
+              "size": 3927579
+            }
+          },
+          "release": "v0.9.6",
+          "repo": "studiorack/dexed"
+        }
+      }
+    },
     "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
       "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
@@ -754,51 +799,6 @@
           },
           "release": "v3.2.2",
           "repo": "studiorack/virtual-playing-orchestra"
-        }
-      }
-    },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 450543
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
-            },
-            "win": {
-              "name": "dexed-win.exe",
-              "size": 3927579
-            }
-          },
-          "release": "v0.9.6",
-          "repo": "studiorack/dexed"
         }
       }
     },
@@ -1121,142 +1121,6 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.wav",
-              "size": 134990
-            },
-            "image": {
-              "name": "digits.png",
-              "size": 97572
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
-            },
-            "win": {
-              "name": "digits-win.exe",
-              "size": 669291
-            }
-          },
-          "release": "v2.1.0",
-          "repo": "studiorack/digits"
-        }
-      }
-    },
-    "studiorack/ninjas2/ninjas2": {
-      "id": "studiorack/ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Slicer"
-          ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ninjas2.png",
-              "size": 139641
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
-            }
-          },
-          "release": "v0.2.0",
-          "repo": "studiorack/ninjas2"
-        }
-      }
-    },
-    "studiorack/monique-monosynth/monique": {
-      "id": "studiorack/monique-monosynth/monique",
-      "license": "other",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Thomas Arndt",
-          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
-          "name": "Monique",
-          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Bass",
-            "Lead"
-          ],
-          "version": "1.2.0",
-          "id": "monique",
-          "date": "2021-12-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "monique.flac",
-              "size": 386812
-            },
-            "image": {
-              "name": "monique.jpg",
-              "size": 228421
-            },
-            "linux": {
-              "name": "monique-linux.zip",
-              "size": 7258419
-            },
-            "mac": {
-              "name": "monique-mac.zip",
-              "size": 19330773
-            },
-            "win": {
-              "name": "monique-win.exe",
-              "size": 8255789
-            }
-          },
-          "release": "v1.2.0",
-          "repo": "studiorack/monique-monosynth"
-        }
-      }
-    },
     "studiorack/salamander-grand-piano/salamander-grand-piano": {
       "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
       "license": "other",
@@ -1393,6 +1257,187 @@
         }
       }
     },
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0",
+          "repo": "studiorack/digits"
+        }
+      }
+    },
+    "studiorack/ninjas2/ninjas2": {
+      "id": "studiorack/ninjas2/ninjas2",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Slicer"
+          ],
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ninjas2.png",
+              "size": 139641
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116
+            }
+          },
+          "release": "v0.2.0",
+          "repo": "studiorack/ninjas2"
+        }
+      }
+    },
+    "studiorack/monique-monosynth/monique": {
+      "id": "studiorack/monique-monosynth/monique",
+      "license": "other",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Thomas Arndt",
+          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
+          "name": "Monique",
+          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bass",
+            "Lead"
+          ],
+          "version": "1.2.0",
+          "id": "monique",
+          "date": "2021-12-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "monique.flac",
+              "size": 386812
+            },
+            "image": {
+              "name": "monique.jpg",
+              "size": 228421
+            },
+            "linux": {
+              "name": "monique-linux.zip",
+              "size": 7258419
+            },
+            "mac": {
+              "name": "monique-mac.zip",
+              "size": 19330773
+            },
+            "win": {
+              "name": "monique-win.exe",
+              "size": 8255789
+            }
+          },
+          "release": "v1.2.0",
+          "repo": "studiorack/monique-monosynth"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "octasine.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "repo": "studiorack/octasine"
+        }
+      }
+    },
     "studiorack/obxd/obxd": {
       "id": "studiorack/obxd/obxd",
       "license": "gpl-3.0",
@@ -1480,51 +1525,6 @@
           },
           "release": "v1.0.7",
           "repo": "studiorack/vital"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3",
-          "repo": "studiorack/octasine"
         }
       }
     },
@@ -1753,51 +1753,6 @@
         }
       }
     },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "os-251.png",
-              "size": 212651
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
-            }
-          },
-          "release": "v1.1.0",
-          "repo": "studiorack/os-251"
-        }
-      }
-    },
     "studiorack/virtuosity-drums/virtuosity-drums": {
       "id": "studiorack/virtuosity-drums/virtuosity-drums",
       "license": "cc0-1.0",
@@ -1886,6 +1841,51 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/salamander-drumkit"
+        }
+      }
+    },
+    "studiorack/os-251/os-251": {
+      "id": "studiorack/os-251/os-251",
+      "license": "gpl-3.0",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Lofi"
+          ],
+          "version": "1.1.0",
+          "id": "os-251",
+          "date": "2021-10-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "os-251.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "os-251.png",
+              "size": 212651
+            },
+            "linux": {
+              "name": "os-251-linux.zip",
+              "size": 8860818
+            },
+            "mac": {
+              "name": "os-251-mac.zip",
+              "size": 7611441
+            },
+            "win": {
+              "name": "os-251-win.zip",
+              "size": 2496031
+            }
+          },
+          "release": "v1.1.0",
+          "repo": "studiorack/os-251"
         }
       }
     }
