@@ -727,50 +727,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -859,47 +815,47 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
       "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
             "Instrument",
             "Synth",
-            "String"
+            "FM"
           ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "kars.wav",
+              "name": "oxe.wav",
               "size": 352844
             },
             "image": {
-              "name": "kars.png",
-              "size": 174131
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v1.0.0"
+          "release": "v1.3.5"
         }
       }
     },
@@ -944,6 +900,50 @@
             }
           },
           "release": "v4.2.0"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "kars.png",
+              "size": 174131
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1149271
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1327762
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1175194
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -1035,51 +1035,6 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2"
-        }
-      }
-    },
     "studiorack/helm/helm": {
       "id": "studiorack/helm/helm",
       "license": "gpl-3.0",
@@ -1121,6 +1076,50 @@
             }
           },
           "release": "v0.9.0"
+        }
+      }
+    },
+    "studiorack/regrader/regrader": {
+      "id": "studiorack/regrader/regrader",
+      "license": "mit",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Sync"
+          ],
+          "version": "1.0.4",
+          "id": "regrader",
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "regrader.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "regrader.png",
+              "size": 576052
+            },
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030
+            }
+          },
+          "release": "v1.0.4"
         }
       }
     },
@@ -1168,47 +1167,223 @@
         }
       }
     },
-    "studiorack/regrader/regrader": {
-      "id": "studiorack/regrader/regrader",
-      "license": "mit",
-      "version": "1.0.4",
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
       "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
           "tags": [
-            "Effect",
-            "Delay",
-            "Sync"
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
           ],
-          "version": "1.0.4",
-          "id": "regrader",
-          "date": "2021-08-08T07:00:00.000Z",
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "regrader.wav",
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2"
+        }
+      }
+    },
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.wav",
               "size": 352844
             },
             "image": {
-              "name": "regrader.png",
-              "size": 576052
+              "name": "obxd.png",
+              "size": 679563
             },
             "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901
+              "name": "obxd-linux.zip",
+              "size": 21745339
             },
             "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572
+              "name": "obxd-mac.zip",
+              "size": 6653931
             },
             "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030
+              "name": "obxd-win.exe",
+              "size": 20368962
             }
           },
-          "release": "v1.0.4"
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "smartguitaramp.png",
+              "size": 756468
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/vital/vital": {
+      "id": "studiorack/vital/vital",
+      "license": "gpl-3.0",
+      "version": "1.0.7",
+      "versions": {
+        "1.0.7": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/vital",
+          "name": "Vital",
+          "description": "Spectral warping wavetable synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Spectral"
+          ],
+          "version": "1.0.7",
+          "id": "vital",
+          "date": "2021-02-17T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vital.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "vital.png",
+              "size": 380571
+            },
+            "linux": {
+              "name": "vital-linux.zip",
+              "size": 26219711
+            },
+            "mac": {
+              "name": "vital-mac.zip",
+              "size": 11198493
+            },
+            "win": {
+              "name": "vital-win.exe",
+              "size": 24904312
+            }
+          },
+          "release": "v1.0.7"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.wav",
+              "size": 126798
+            },
+            "image": {
+              "name": "mverb.png",
+              "size": 398787
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -1477,314 +1652,6 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
-      "license": "gpl-3.0",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
-            }
-          },
-          "release": "v3.2.5"
-        }
-      }
-    },
-    "studiorack/diopser/diopser": {
-      "id": "studiorack/diopser/diopser",
-      "license": "gpl-3.0",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
-          "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
-          ],
-          "version": "0.0.1",
-          "id": "diopser",
-          "date": "2021-11-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "diopser.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "diopser.png",
-              "size": 120831
-            },
-            "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1769070
-            },
-            "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
-            },
-            "win": {
-              "name": "diopser-win.zip",
-              "size": 2019788
-            }
-          },
-          "release": "v0.0.1"
-        }
-      }
-    },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.wav",
-              "size": 126798
-            },
-            "image": {
-              "name": "mverb.png",
-              "size": 398787
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "smartguitaramp.png",
-              "size": 756468
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "obxd.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.exe",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/vital/vital": {
-      "id": "studiorack/vital/vital",
-      "license": "gpl-3.0",
-      "version": "1.0.7",
-      "versions": {
-        "1.0.7": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/vital",
-          "name": "Vital",
-          "description": "Spectral warping wavetable synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Spectral"
-          ],
-          "version": "1.0.7",
-          "id": "vital",
-          "date": "2021-02-17T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vital.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "vital.png",
-              "size": 380571
-            },
-            "linux": {
-              "name": "vital-linux.zip",
-              "size": 26219711
-            },
-            "mac": {
-              "name": "vital-mac.zip",
-              "size": 11198493
-            },
-            "win": {
-              "name": "vital-win.exe",
-              "size": 24904312
-            }
-          },
-          "release": "v1.0.7"
-        }
-      }
-    },
     "studiorack/chow-tape-model/chow-tape-model": {
       "id": "studiorack/chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
@@ -1959,6 +1826,139 @@
             }
           },
           "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
+      "versions": {
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dragonfly-reverb.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dragonfly-reverb.png",
+              "size": 394705
+            },
+            "linux": {
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
+            },
+            "mac": {
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
+            },
+            "win": {
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
+            }
+          },
+          "release": "v3.2.5"
+        }
+      }
+    },
+    "studiorack/diopser/diopser": {
+      "id": "studiorack/diopser/diopser",
+      "license": "gpl-3.0",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
+          "tags": [
+            "Effect",
+            "Phaser",
+            "Frequency"
+          ],
+          "version": "0.0.1",
+          "id": "diopser",
+          "date": "2021-11-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "diopser.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "diopser.png",
+              "size": 120831
+            },
+            "linux": {
+              "name": "diopser-linux.zip",
+              "size": 1769070
+            },
+            "mac": {
+              "name": "diopser-mac.zip",
+              "size": 1894438
+            },
+            "win": {
+              "name": "diopser-win.zip",
+              "size": 2019788
+            }
+          },
+          "release": "v0.0.1"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -2710,50 +2710,6 @@
         }
       }
     },
-    "studiorack/odin/odin": {
-      "id": "studiorack/odin/odin",
-      "license": "gpl-3.0",
-      "version": "2.2.4",
-      "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Moog"
-          ],
-          "version": "2.2.4",
-          "id": "odin",
-          "date": "2020-10-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "odin.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "odin.png",
-              "size": 802665
-            },
-            "linux": {
-              "name": "odin-linux.zip",
-              "size": 97250026
-            },
-            "mac": {
-              "name": "odin-mac.zip",
-              "size": 78842812
-            },
-            "win": {
-              "name": "odin-win.zip",
-              "size": 46173771
-            }
-          },
-          "release": "v2.2.4"
-        }
-      }
-    },
     "studiorack/chow-matrix/chow-matrix": {
       "id": "studiorack/chow-matrix/chow-matrix",
       "license": "bsd-3-clause",
@@ -2795,6 +2751,50 @@
             }
           },
           "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/odin/odin": {
+      "id": "studiorack/odin/odin",
+      "license": "gpl-3.0",
+      "version": "2.2.4",
+      "versions": {
+        "2.2.4": {
+          "author": "TheWaveWarden",
+          "homepage": "https://github.com/TheWaveWarden/odin2",
+          "name": "Odin",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Moog"
+          ],
+          "version": "2.2.4",
+          "id": "odin",
+          "date": "2020-10-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "odin.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "odin.png",
+              "size": 802665
+            },
+            "linux": {
+              "name": "odin-linux.zip",
+              "size": 97250026
+            },
+            "mac": {
+              "name": "odin-mac.zip",
+              "size": 78842812
+            },
+            "win": {
+              "name": "odin-win.zip",
+              "size": 46173771
+            }
+          },
+          "release": "v2.2.4"
         }
       }
     },
@@ -2842,50 +2842,6 @@
         }
       }
     },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "os-251.png",
-              "size": 212651
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
-            }
-          },
-          "release": "v1.1.0"
-        }
-      }
-    },
     "studiorack/mda/mda": {
       "id": "studiorack/mda/mda",
       "license": "gpl-3.0",
@@ -2930,6 +2886,50 @@
         }
       }
     },
+    "studiorack/os-251/os-251": {
+      "id": "studiorack/os-251/os-251",
+      "license": "gpl-3.0",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Lofi"
+          ],
+          "version": "1.1.0",
+          "id": "os-251",
+          "date": "2021-10-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "os-251.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "os-251.png",
+              "size": 212651
+            },
+            "linux": {
+              "name": "os-251-linux.zip",
+              "size": 8860818
+            },
+            "mac": {
+              "name": "os-251-mac.zip",
+              "size": 7611441
+            },
+            "win": {
+              "name": "os-251-win.zip",
+              "size": 2496031
+            }
+          },
+          "release": "v1.1.0"
+        }
+      }
+    },
     "studiorack/airwindows/airwindows": {
       "id": "studiorack/airwindows/airwindows",
       "license": "mit",
@@ -2971,50 +2971,6 @@
             "win": {
               "name": "airwindows-win.zip",
               "size": 22181434
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/salamander-drumkit/salamander-drumkit": {
-      "id": "studiorack/salamander-drumkit/salamander-drumkit",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Rytmenpinne",
-          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
-          "name": "Salamander Drumkit",
-          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "salamander-drumkit",
-          "date": "2012-02-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-drumkit.flac",
-              "size": 162704
-            },
-            "image": {
-              "name": "salamander-drumkit.jpg",
-              "size": 94023
-            },
-            "linux": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "mac": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "win": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
             }
           },
           "release": "v1.0.0"
@@ -3103,8 +3059,52 @@
           "release": "v0.9.22"
         }
       }
+    },
+    "studiorack/salamander-drumkit/salamander-drumkit": {
+      "id": "studiorack/salamander-drumkit/salamander-drumkit",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Rytmenpinne",
+          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
+          "name": "Salamander Drumkit",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "salamander-drumkit",
+          "date": "2012-02-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-drumkit.flac",
+              "size": 162704
+            },
+            "image": {
+              "name": "salamander-drumkit.jpg",
+              "size": 94023
+            },
+            "linux": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "mac": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "win": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
     }
   },
-  "time": "2022-04-24T00:43:08.181Z",
+  "time": "2022-05-01T00:57:39.643Z",
   "total": 69
 }

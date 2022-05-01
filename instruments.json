@@ -486,51 +486,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "repo": "studiorack/oxe"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -621,48 +576,48 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
       "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
             "Instrument",
             "Synth",
-            "String"
+            "FM"
           ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "kars.wav",
+              "name": "oxe.wav",
               "size": 352844
             },
             "image": {
-              "name": "kars.png",
-              "size": 174131
+              "name": "oxe.png",
+              "size": 98712
             },
             "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v1.0.0",
-          "repo": "studiorack/kars"
+          "release": "v1.3.5",
+          "repo": "studiorack/oxe"
         }
       }
     },
@@ -711,6 +666,51 @@
         }
       }
     },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "kars.png",
+              "size": 174131
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1149271
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1327762
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1175194
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/kars"
+        }
+      }
+    },
     "studiorack/dexed/dexed": {
       "id": "studiorack/dexed/dexed",
       "license": "gpl-3.0",
@@ -753,6 +753,51 @@
           },
           "release": "v0.9.6",
           "repo": "studiorack/dexed"
+        }
+      }
+    },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "helm.png",
+              "size": 417945
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0",
+          "repo": "studiorack/helm"
         }
       }
     },
@@ -802,48 +847,93 @@
         }
       }
     },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
       "license": "gpl-3.0",
-      "version": "0.9.0",
+      "version": "2.4.0",
       "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
           "tags": [
             "Instrument",
             "Synth",
-            "Modulation"
+            "OB-X"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.wav",
+              "name": "obxd.wav",
               "size": 352844
             },
             "image": {
-              "name": "helm.png",
-              "size": 417945
+              "name": "obxd.png",
+              "size": 679563
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
+              "name": "obxd-linux.zip",
+              "size": 21745339
             },
             "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
+              "name": "obxd-mac.zip",
+              "size": 6653931
             },
             "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
+              "name": "obxd-win.exe",
+              "size": 20368962
             }
           },
-          "release": "v0.9.0",
-          "repo": "studiorack/helm"
+          "release": "v2.4.0",
+          "repo": "studiorack/obxd"
+        }
+      }
+    },
+    "studiorack/vital/vital": {
+      "id": "studiorack/vital/vital",
+      "license": "gpl-3.0",
+      "version": "1.0.7",
+      "versions": {
+        "1.0.7": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/vital",
+          "name": "Vital",
+          "description": "Spectral warping wavetable synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Spectral"
+          ],
+          "version": "1.0.7",
+          "id": "vital",
+          "date": "2021-02-17T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vital.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "vital.png",
+              "size": 380571
+            },
+            "linux": {
+              "name": "vital-linux.zip",
+              "size": 26219711
+            },
+            "mac": {
+              "name": "vital-mac.zip",
+              "size": 11198493
+            },
+            "win": {
+              "name": "vital-win.exe",
+              "size": 24904312
+            }
+          },
+          "release": "v1.0.7",
+          "repo": "studiorack/vital"
         }
       }
     },
@@ -983,142 +1073,6 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/splendid-grand-piano"
-        }
-      }
-    },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "obxd.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.exe",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0",
-          "repo": "studiorack/obxd"
-        }
-      }
-    },
-    "studiorack/vital/vital": {
-      "id": "studiorack/vital/vital",
-      "license": "gpl-3.0",
-      "version": "1.0.7",
-      "versions": {
-        "1.0.7": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/vital",
-          "name": "Vital",
-          "description": "Spectral warping wavetable synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Spectral"
-          ],
-          "version": "1.0.7",
-          "id": "vital",
-          "date": "2021-02-17T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vital.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "vital.png",
-              "size": 380571
-            },
-            "linux": {
-              "name": "vital-linux.zip",
-              "size": 26219711
-            },
-            "mac": {
-              "name": "vital-mac.zip",
-              "size": 11198493
-            },
-            "win": {
-              "name": "vital-win.exe",
-              "size": 24904312
-            }
-          },
-          "release": "v1.0.7",
-          "repo": "studiorack/vital"
-        }
-      }
-    },
     "studiorack/ninjas2/ninjas2": {
       "id": "studiorack/ninjas2/ninjas2",
       "license": "gpl-3.0",
@@ -1252,6 +1206,52 @@
           },
           "release": "v1.2.0",
           "repo": "studiorack/monique-monosynth"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/splendid-grand-piano"
         }
       }
     },
@@ -1798,51 +1798,6 @@
         }
       }
     },
-    "studiorack/salamander-drumkit/salamander-drumkit": {
-      "id": "studiorack/salamander-drumkit/salamander-drumkit",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Rytmenpinne",
-          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
-          "name": "Salamander Drumkit",
-          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "salamander-drumkit",
-          "date": "2012-02-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-drumkit.flac",
-              "size": 162704
-            },
-            "image": {
-              "name": "salamander-drumkit.jpg",
-              "size": 94023
-            },
-            "linux": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "mac": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "win": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/salamander-drumkit"
-        }
-      }
-    },
     "studiorack/virtuosity-drums/virtuosity-drums": {
       "id": "studiorack/virtuosity-drums/virtuosity-drums",
       "license": "cc0-1.0",
@@ -1924,6 +1879,51 @@
             }
           },
           "release": "v0.9.22"
+        }
+      }
+    },
+    "studiorack/salamander-drumkit/salamander-drumkit": {
+      "id": "studiorack/salamander-drumkit/salamander-drumkit",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Rytmenpinne",
+          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
+          "name": "Salamander Drumkit",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "salamander-drumkit",
+          "date": "2012-02-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-drumkit.flac",
+              "size": 162704
+            },
+            "image": {
+              "name": "salamander-drumkit.jpg",
+              "size": 94023
+            },
+            "linux": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "mac": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "win": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/salamander-drumkit"
         }
       }
     }
