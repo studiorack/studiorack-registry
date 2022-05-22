@@ -1,10 +1,81 @@
 {
   "objects": {
+    "ryukau/vstplugins/basic-limiter": {
+      "id": "ryukau/vstplugins/basic-limiter",
+      "license": "gpl-3.0",
+      "version": "0.1.2",
+      "versions": {
+        "0.1.2": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.2",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.wav",
+              "size": 5266858
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter-linux.zip",
+              "size": 1475357
+            },
+            "win": {
+              "name": "BasicLimiter-win.zip",
+              "size": 1475357
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        }
+      }
+    },
     "ryukau/vstplugins/colliding-comb-synth": {
       "id": "ryukau/vstplugins/colliding-comb-synth",
       "license": "gpl-3.0",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "versions": {
+        "0.1.2": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "CollidingCombSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.2",
+          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
+          "id": "colliding-comb-synth",
+          "files": {
+            "audio": {
+              "name": "CollidingCombSynth.wav",
+              "size": 4496454
+            },
+            "image": {
+              "name": "CollidingCombSynth.png",
+              "size": 64026
+            },
+            "linux": {
+              "name": "CollidingCombSynth-linux.zip",
+              "size": 1700167
+            },
+            "win": {
+              "name": "CollidingCombSynth-win.zip",
+              "size": 1700167
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.1": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -46,8 +117,40 @@
     "ryukau/vstplugins/cubic-pad-synth": {
       "id": "ryukau/vstplugins/cubic-pad-synth",
       "license": "gpl-3.0",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "versions": {
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.11",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.wav",
+              "size": 4374542
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth-linux.zip",
+              "size": 4788347
+            },
+            "win": {
+              "name": "CubicPadSynth-win.zip",
+              "size": 4788347
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.10": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -89,8 +192,40 @@
     "ryukau/vstplugins/enveloped-sine": {
       "id": "ryukau/vstplugins/enveloped-sine",
       "license": "gpl-3.0",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "versions": {
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "EnvelopedSine",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.12",
+          "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
+          "id": "enveloped-sine",
+          "files": {
+            "audio": {
+              "name": "EnvelopedSine.wav",
+              "size": 9045446
+            },
+            "image": {
+              "name": "EnvelopedSine.png",
+              "size": 61185
+            },
+            "linux": {
+              "name": "EnvelopedSine-linux.zip",
+              "size": 1762249
+            },
+            "win": {
+              "name": "EnvelopedSine-win.zip",
+              "size": 1762249
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.11": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -132,8 +267,40 @@
     "ryukau/vstplugins/es-phaser": {
       "id": "ryukau/vstplugins/es-phaser",
       "license": "gpl-3.0",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "versions": {
+        "0.1.8": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.8",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.wav",
+              "size": 8448508
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser-linux.zip",
+              "size": 1446744
+            },
+            "win": {
+              "name": "EsPhaser-win.zip",
+              "size": 1446744
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.7": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -172,11 +339,82 @@
         }
       }
     },
+    "ryukau/vstplugins/f-d-n64-reverb": {
+      "id": "ryukau/vstplugins/f-d-n64-reverb",
+      "license": "gpl-3.0",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.0",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.wav",
+              "size": 5431434
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb-linux.zip",
+              "size": 1672539
+            },
+            "win": {
+              "name": "FDN64Reverb-win.zip",
+              "size": 1672539
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        }
+      }
+    },
     "ryukau/vstplugins/f-d-n-cymbal": {
       "id": "ryukau/vstplugins/f-d-n-cymbal",
       "license": "gpl-3.0",
-      "version": "0.2.6",
+      "version": "0.2.7",
       "versions": {
+        "0.2.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.7",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.wav",
+              "size": 6134428
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal-linux.zip",
+              "size": 1604100
+            },
+            "win": {
+              "name": "FDNCymbal-win.zip",
+              "size": 1604100
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.2.6": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -218,8 +456,40 @@
     "ryukau/vstplugins/iterative-sin-cluster": {
       "id": "ryukau/vstplugins/iterative-sin-cluster",
       "license": "gpl-3.0",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "versions": {
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "IterativeSinCluster",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.13",
+          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
+          "id": "iterative-sin-cluster",
+          "files": {
+            "audio": {
+              "name": "IterativeSinCluster.wav",
+              "size": 5993510
+            },
+            "image": {
+              "name": "IterativeSinCluster.png",
+              "size": 61133
+            },
+            "linux": {
+              "name": "IterativeSinCluster-linux.zip",
+              "size": 1679554
+            },
+            "win": {
+              "name": "IterativeSinCluster-win.zip",
+              "size": 1679554
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.12": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -261,8 +531,40 @@
     "ryukau/vstplugins/l4-reverb": {
       "id": "ryukau/vstplugins/l4-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "versions": {
+        "0.1.5": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.5",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.wav",
+              "size": 8212508
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb-linux.zip",
+              "size": 1626021
+            },
+            "win": {
+              "name": "L4Reverb-win.zip",
+              "size": 1626021
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.4": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -304,8 +606,40 @@
     "ryukau/vstplugins/lattice-reverb": {
       "id": "ryukau/vstplugins/lattice-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "versions": {
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.7",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.wav",
+              "size": 3840348
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb-linux.zip",
+              "size": 1649466
+            },
+            "win": {
+              "name": "LatticeReverb-win.zip",
+              "size": 1649466
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.6": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -347,8 +681,40 @@
     "ryukau/vstplugins/light-pad-synth": {
       "id": "ryukau/vstplugins/light-pad-synth",
       "license": "gpl-3.0",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "versions": {
+        "0.1.9": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "LightPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.9",
+          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
+          "id": "light-pad-synth",
+          "files": {
+            "audio": {
+              "name": "LightPadSynth.wav",
+              "size": 5487542
+            },
+            "image": {
+              "name": "LightPadSynth.png",
+              "size": 57697
+            },
+            "linux": {
+              "name": "LightPadSynth-linux.zip",
+              "size": 1891145
+            },
+            "win": {
+              "name": "LightPadSynth-win.zip",
+              "size": 1891145
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.8": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -390,8 +756,40 @@
     "ryukau/vstplugins/seven-delay": {
       "id": "ryukau/vstplugins/seven-delay",
       "license": "gpl-3.0",
-      "version": "0.1.15",
+      "version": "0.1.16",
       "versions": {
+        "0.1.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.16",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.wav",
+              "size": 5781966
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay-linux.zip",
+              "size": 1553193
+            },
+            "win": {
+              "name": "SevenDelay-win.zip",
+              "size": 1553193
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.15": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -469,8 +867,40 @@
     "ryukau/vstplugins/sync-saw-synth": {
       "id": "ryukau/vstplugins/sync-saw-synth",
       "license": "gpl-3.0",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "versions": {
+        "0.1.18": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "SyncSawSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.18",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
+          "files": {
+            "audio": {
+              "name": "SyncSawSynth.wav",
+              "size": 1978606
+            },
+            "image": {
+              "name": "SyncSawSynth.png",
+              "size": 55212
+            },
+            "linux": {
+              "name": "SyncSawSynth-linux.zip",
+              "size": 1614837
+            },
+            "win": {
+              "name": "SyncSawSynth-win.zip",
+              "size": 1614837
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.17": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -512,8 +942,40 @@
     "ryukau/vstplugins/trapezoid-synth": {
       "id": "ryukau/vstplugins/trapezoid-synth",
       "license": "gpl-3.0",
-      "version": "0.1.13",
+      "version": "0.1.14",
       "versions": {
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "TrapezoidSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.14",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
+          "files": {
+            "audio": {
+              "name": "TrapezoidSynth.wav",
+              "size": 5826542
+            },
+            "image": {
+              "name": "TrapezoidSynth.png",
+              "size": 62651
+            },
+            "linux": {
+              "name": "TrapezoidSynth-linux.zip",
+              "size": 1622428
+            },
+            "win": {
+              "name": "TrapezoidSynth-win.zip",
+              "size": 1622428
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -555,8 +1017,40 @@
     "ryukau/vstplugins/wave-cymbal": {
       "id": "ryukau/vstplugins/wave-cymbal",
       "license": "gpl-3.0",
-      "version": "0.1.13",
+      "version": "0.1.14",
       "versions": {
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.14",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1592936
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1592936
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
         "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -2273,6 +2767,400 @@
         }
       }
     },
+    "studiorack/chow-matrix/chow-matrix": {
+      "id": "studiorack/chow-matrix/chow-matrix",
+      "license": "bsd-3-clause",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
+          "name": "CHOW Matrix",
+          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Feedback"
+          ],
+          "version": "1.2.0",
+          "id": "chow-matrix",
+          "date": "2021-04-23T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-matrix.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "chow-matrix.png",
+              "size": 181814
+            },
+            "linux": {
+              "name": "chow-matrix-linux.zip",
+              "size": 16260494
+            },
+            "mac": {
+              "name": "chow-matrix-mac.zip",
+              "size": 10373268
+            },
+            "win": {
+              "name": "chow-matrix-win.exe",
+              "size": 7728493
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/temper/temper": {
+      "id": "studiorack/temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Modulation"
+          ],
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "temper.png",
+              "size": 551686
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694
+            },
+            "win": {
+              "name": "temper-win.exe",
+              "size": 3942251
+            }
+          },
+          "release": "v1.1.1"
+        }
+      }
+    },
+    "studiorack/odin/odin": {
+      "id": "studiorack/odin/odin",
+      "license": "gpl-3.0",
+      "version": "2.2.4",
+      "versions": {
+        "2.2.4": {
+          "author": "TheWaveWarden",
+          "homepage": "https://github.com/TheWaveWarden/odin2",
+          "name": "Odin",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Moog"
+          ],
+          "version": "2.2.4",
+          "id": "odin",
+          "date": "2020-10-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "odin.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "odin.png",
+              "size": 802665
+            },
+            "linux": {
+              "name": "odin-linux.zip",
+              "size": 97250026
+            },
+            "mac": {
+              "name": "odin-mac.zip",
+              "size": 78842812
+            },
+            "win": {
+              "name": "odin-win.zip",
+              "size": 46173771
+            }
+          },
+          "release": "v2.2.4"
+        }
+      }
+    },
+    "studiorack/airwindows/airwindows": {
+      "id": "studiorack/airwindows/airwindows",
+      "license": "mit",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Chris Johnson",
+          "homepage": "https://www.airwindows.com",
+          "name": "Airwindows",
+          "description": "Huge collection of effects using simple UI controls",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "airwindows",
+          "date": "2020-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "airwindows.flac",
+              "size": 111355
+            },
+            "image": {
+              "name": "airwindows.jpg",
+              "size": 71522
+            },
+            "linux": {
+              "name": "airwindows-linux.zip",
+              "size": 8241206
+            },
+            "mac": {
+              "name": "airwindows-mac.zip",
+              "size": 14246351
+            },
+            "win": {
+              "name": "airwindows-win.zip",
+              "size": 22181434
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/mda/mda": {
+      "id": "studiorack/mda/mda",
+      "license": "gpl-3.0",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "version": "1.0.4",
+          "id": "mda",
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mda.png",
+              "size": 305613
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768
+            }
+          },
+          "release": "v1.0.4"
+        }
+      }
+    },
+    "studiorack/os-251/os-251": {
+      "id": "studiorack/os-251/os-251",
+      "license": "gpl-3.0",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Lofi"
+          ],
+          "version": "1.1.0",
+          "id": "os-251",
+          "date": "2021-10-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "os-251.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "os-251.png",
+              "size": 212651
+            },
+            "linux": {
+              "name": "os-251-linux.zip",
+              "size": 8860818
+            },
+            "mac": {
+              "name": "os-251-mac.zip",
+              "size": 7611441
+            },
+            "win": {
+              "name": "os-251-win.zip",
+              "size": 2496031
+            }
+          },
+          "release": "v1.1.0"
+        }
+      }
+    },
+    "studiorack/salamander-drumkit/salamander-drumkit": {
+      "id": "studiorack/salamander-drumkit/salamander-drumkit",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Rytmenpinne",
+          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
+          "name": "Salamander Drumkit",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "salamander-drumkit",
+          "date": "2012-02-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-drumkit.flac",
+              "size": 162704
+            },
+            "image": {
+              "name": "salamander-drumkit.jpg",
+              "size": 94023
+            },
+            "linux": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "mac": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "win": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/virtuosity-drums/virtuosity-drums": {
+      "id": "studiorack/virtuosity-drums/virtuosity-drums",
+      "license": "cc0-1.0",
+      "version": "0.9.23",
+      "versions": {
+        "0.9.23": {
+          "author": "Versilian Studios",
+          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
+          "name": "Virtuosity Drums",
+          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Jazz",
+            "sfz"
+          ],
+          "version": "0.9.23",
+          "id": "virtuosity-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtuosity-drums.flac",
+              "size": 821118
+            },
+            "image": {
+              "name": "virtuosity-drums.jpg",
+              "size": 73357
+            },
+            "linux": {
+              "name": "virtuosity-drums.zip",
+              "size": 1224065679
+            },
+            "mac": {
+              "name": "virtuosity-drums.zip",
+              "size": 1224065679
+            },
+            "win": {
+              "name": "virtuosity-drums.zip",
+              "size": 1224065679
+            }
+          },
+          "release": "v0.9.23"
+        },
+        "0.9.22": {
+          "author": "Versilian Studios",
+          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
+          "name": "Virtuosity Drums",
+          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Jazz",
+            "sfz"
+          ],
+          "version": "0.9.22",
+          "id": "virtuosity-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtuosity-drums.flac",
+              "size": 821118
+            },
+            "image": {
+              "name": "virtuosity-drums.jpg",
+              "size": 73357
+            },
+            "linux": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v0.9.22"
+        }
+      }
+    },
     "studiorack/sfizz/sfizz": {
       "id": "studiorack/sfizz/sfizz",
       "license": "bsd-2-clause",
@@ -2709,402 +3597,8 @@
           "release": "v1.0.0"
         }
       }
-    },
-    "studiorack/chow-matrix/chow-matrix": {
-      "id": "studiorack/chow-matrix/chow-matrix",
-      "license": "bsd-3-clause",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Feedback"
-          ],
-          "version": "1.2.0",
-          "id": "chow-matrix",
-          "date": "2021-04-23T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-matrix.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "chow-matrix.png",
-              "size": 181814
-            },
-            "linux": {
-              "name": "chow-matrix-linux.zip",
-              "size": 16260494
-            },
-            "mac": {
-              "name": "chow-matrix-mac.zip",
-              "size": 10373268
-            },
-            "win": {
-              "name": "chow-matrix-win.exe",
-              "size": 7728493
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
-      "license": "gpl-3.0",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Modulation"
-          ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "temper.png",
-              "size": 551686
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
-            },
-            "win": {
-              "name": "temper-win.exe",
-              "size": 3942251
-            }
-          },
-          "release": "v1.1.1"
-        }
-      }
-    },
-    "studiorack/odin/odin": {
-      "id": "studiorack/odin/odin",
-      "license": "gpl-3.0",
-      "version": "2.2.4",
-      "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Moog"
-          ],
-          "version": "2.2.4",
-          "id": "odin",
-          "date": "2020-10-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "odin.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "odin.png",
-              "size": 802665
-            },
-            "linux": {
-              "name": "odin-linux.zip",
-              "size": 97250026
-            },
-            "mac": {
-              "name": "odin-mac.zip",
-              "size": 78842812
-            },
-            "win": {
-              "name": "odin-win.zip",
-              "size": 46173771
-            }
-          },
-          "release": "v2.2.4"
-        }
-      }
-    },
-    "studiorack/airwindows/airwindows": {
-      "id": "studiorack/airwindows/airwindows",
-      "license": "mit",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Chris Johnson",
-          "homepage": "https://www.airwindows.com",
-          "name": "Airwindows",
-          "description": "Huge collection of effects using simple UI controls",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Distortion",
-            "EQ",
-            "Filter",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "airwindows",
-          "date": "2020-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "airwindows.flac",
-              "size": 111355
-            },
-            "image": {
-              "name": "airwindows.jpg",
-              "size": 71522
-            },
-            "linux": {
-              "name": "airwindows-linux.zip",
-              "size": 8241206
-            },
-            "mac": {
-              "name": "airwindows-mac.zip",
-              "size": 14246351
-            },
-            "win": {
-              "name": "airwindows-win.zip",
-              "size": 22181434
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/mda/mda": {
-      "id": "studiorack/mda/mda",
-      "license": "gpl-3.0",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
-          ],
-          "version": "1.0.4",
-          "id": "mda",
-          "date": "2020-12-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mda.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mda.png",
-              "size": 305613
-            },
-            "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938
-            },
-            "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516
-            },
-            "win": {
-              "name": "mda-win.zip",
-              "size": 1247768
-            }
-          },
-          "release": "v1.0.4"
-        }
-      }
-    },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "os-251.png",
-              "size": 212651
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
-            }
-          },
-          "release": "v1.1.0"
-        }
-      }
-    },
-    "studiorack/salamander-drumkit/salamander-drumkit": {
-      "id": "studiorack/salamander-drumkit/salamander-drumkit",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Rytmenpinne",
-          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
-          "name": "Salamander Drumkit",
-          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "salamander-drumkit",
-          "date": "2012-02-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-drumkit.flac",
-              "size": 162704
-            },
-            "image": {
-              "name": "salamander-drumkit.jpg",
-              "size": 94023
-            },
-            "linux": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "mac": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "win": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/virtuosity-drums/virtuosity-drums": {
-      "id": "studiorack/virtuosity-drums/virtuosity-drums",
-      "license": "cc0-1.0",
-      "version": "0.9.23",
-      "versions": {
-        "0.9.23": {
-          "author": "Versilian Studios",
-          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
-          "name": "Virtuosity Drums",
-          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Jazz",
-            "sfz"
-          ],
-          "version": "0.9.23",
-          "id": "virtuosity-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtuosity-drums.flac",
-              "size": 821118
-            },
-            "image": {
-              "name": "virtuosity-drums.jpg",
-              "size": 73357
-            },
-            "linux": {
-              "name": "virtuosity-drums.zip",
-              "size": 1224065679
-            },
-            "mac": {
-              "name": "virtuosity-drums.zip",
-              "size": 1224065679
-            },
-            "win": {
-              "name": "virtuosity-drums.zip",
-              "size": 1224065679
-            }
-          },
-          "release": "v0.9.23"
-        },
-        "0.9.22": {
-          "author": "Versilian Studios",
-          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
-          "name": "Virtuosity Drums",
-          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Jazz",
-            "sfz"
-          ],
-          "version": "0.9.22",
-          "id": "virtuosity-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtuosity-drums.flac",
-              "size": 821118
-            },
-            "image": {
-              "name": "virtuosity-drums.jpg",
-              "size": 73357
-            },
-            "linux": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v0.9.22"
-        }
-      }
     }
   },
-  "time": "2022-05-15T01:00:34.804Z",
-  "total": 69
+  "time": "2022-05-22T00:47:42.038Z",
+  "total": 71
 }
