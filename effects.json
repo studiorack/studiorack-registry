@@ -1,577 +1,5 @@
 {
   "objects": {
-    "ryukau/vstplugins/basic-limiter": {
-      "id": "ryukau/vstplugins/basic-limiter",
-      "license": "gpl-3.0",
-      "version": "0.1.2",
-      "versions": {
-        "0.1.2": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "BasicLimiter",
-          "tags": [
-            "Fx",
-            "Dynamics"
-          ],
-          "version": "0.1.2",
-          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
-          "id": "basic-limiter",
-          "files": {
-            "audio": {
-              "name": "BasicLimiter.wav",
-              "size": 5266858
-            },
-            "image": {
-              "name": "BasicLimiter.png",
-              "size": 14414
-            },
-            "linux": {
-              "name": "BasicLimiter-linux.zip",
-              "size": 1475357
-            },
-            "win": {
-              "name": "BasicLimiter-win.zip",
-              "size": 1475357
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/es-phaser": {
-      "id": "ryukau/vstplugins/es-phaser",
-      "license": "gpl-3.0",
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "EsPhaser",
-          "tags": [
-            "Fx",
-            "Modulation"
-          ],
-          "version": "0.1.8",
-          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
-          "id": "es-phaser",
-          "files": {
-            "audio": {
-              "name": "EsPhaser.wav",
-              "size": 8448508
-            },
-            "image": {
-              "name": "EsPhaser.png",
-              "size": 14068
-            },
-            "linux": {
-              "name": "EsPhaser-linux.zip",
-              "size": 1446744
-            },
-            "win": {
-              "name": "EsPhaser-win.zip",
-              "size": 1446744
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.7": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "EsPhaser",
-          "tags": [
-            "Fx",
-            "Modulation"
-          ],
-          "version": "0.1.7",
-          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
-          "id": "es-phaser",
-          "files": {
-            "audio": {
-              "name": "EsPhaser.wav",
-              "size": 8448508
-            },
-            "image": {
-              "name": "EsPhaser.png",
-              "size": 9628
-            },
-            "linux": {
-              "name": "EsPhaser-linux.zip",
-              "size": 1501633
-            },
-            "mac": {
-              "name": "EsPhaser-mac.zip",
-              "size": 1501633
-            },
-            "win": {
-              "name": "EsPhaser-win.zip",
-              "size": 1501633
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/f-d-n64-reverb": {
-      "id": "ryukau/vstplugins/f-d-n64-reverb",
-      "license": "gpl-3.0",
-      "version": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "FDN64Reverb",
-          "tags": [
-            "Fx",
-            "Reverb"
-          ],
-          "version": "0.1.0",
-          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
-          "id": "f-d-n64-reverb",
-          "files": {
-            "audio": {
-              "name": "FDN64Reverb.wav",
-              "size": 5431434
-            },
-            "image": {
-              "name": "FDN64Reverb.png",
-              "size": 39715
-            },
-            "linux": {
-              "name": "FDN64Reverb-linux.zip",
-              "size": 1672539
-            },
-            "win": {
-              "name": "FDN64Reverb-win.zip",
-              "size": 1672539
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/f-d-n-cymbal": {
-      "id": "ryukau/vstplugins/f-d-n-cymbal",
-      "license": "gpl-3.0",
-      "version": "0.2.7",
-      "versions": {
-        "0.2.7": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.7",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.wav",
-              "size": 6134428
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal-linux.zip",
-              "size": 1604100
-            },
-            "win": {
-              "name": "FDNCymbal-win.zip",
-              "size": 1604100
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.2.6": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.6",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.wav",
-              "size": 6134428
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 34324
-            },
-            "linux": {
-              "name": "FDNCymbal-linux.zip",
-              "size": 1669749
-            },
-            "mac": {
-              "name": "FDNCymbal-mac.zip",
-              "size": 1669749
-            },
-            "win": {
-              "name": "FDNCymbal-win.zip",
-              "size": 1669749
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/l4-reverb": {
-      "id": "ryukau/vstplugins/l4-reverb",
-      "license": "gpl-3.0",
-      "version": "0.1.5",
-      "versions": {
-        "0.1.5": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "L4Reverb",
-          "tags": [
-            "Fx",
-            "Reverb"
-          ],
-          "version": "0.1.5",
-          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
-          "id": "l4-reverb",
-          "files": {
-            "audio": {
-              "name": "L4Reverb.wav",
-              "size": 8212508
-            },
-            "image": {
-              "name": "L4Reverb.png",
-              "size": 44220
-            },
-            "linux": {
-              "name": "L4Reverb-linux.zip",
-              "size": 1626021
-            },
-            "win": {
-              "name": "L4Reverb-win.zip",
-              "size": 1626021
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.4": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "L4Reverb",
-          "tags": [
-            "Fx",
-            "Reverb"
-          ],
-          "version": "0.1.4",
-          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
-          "id": "l4-reverb",
-          "files": {
-            "audio": {
-              "name": "L4Reverb.wav",
-              "size": 8212508
-            },
-            "image": {
-              "name": "L4Reverb.png",
-              "size": 32981
-            },
-            "linux": {
-              "name": "L4Reverb-linux.zip",
-              "size": 1720420
-            },
-            "mac": {
-              "name": "L4Reverb-mac.zip",
-              "size": 1720420
-            },
-            "win": {
-              "name": "L4Reverb-win.zip",
-              "size": 1720420
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/lattice-reverb": {
-      "id": "ryukau/vstplugins/lattice-reverb",
-      "license": "gpl-3.0",
-      "version": "0.1.7",
-      "versions": {
-        "0.1.7": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "LatticeReverb",
-          "tags": [
-            "Fx",
-            "Reverb"
-          ],
-          "version": "0.1.7",
-          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
-          "id": "lattice-reverb",
-          "files": {
-            "audio": {
-              "name": "LatticeReverb.wav",
-              "size": 3840348
-            },
-            "image": {
-              "name": "LatticeReverb.png",
-              "size": 36407
-            },
-            "linux": {
-              "name": "LatticeReverb-linux.zip",
-              "size": 1649466
-            },
-            "win": {
-              "name": "LatticeReverb-win.zip",
-              "size": 1649466
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.6": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "LatticeReverb",
-          "tags": [
-            "Fx",
-            "Reverb"
-          ],
-          "version": "0.1.6",
-          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
-          "id": "lattice-reverb",
-          "files": {
-            "audio": {
-              "name": "LatticeReverb.wav",
-              "size": 3840348
-            },
-            "image": {
-              "name": "LatticeReverb.png",
-              "size": 26006
-            },
-            "linux": {
-              "name": "LatticeReverb-linux.zip",
-              "size": 1722758
-            },
-            "mac": {
-              "name": "LatticeReverb-mac.zip",
-              "size": 1722758
-            },
-            "win": {
-              "name": "LatticeReverb-win.zip",
-              "size": 1722758
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/seven-delay": {
-      "id": "ryukau/vstplugins/seven-delay",
-      "license": "gpl-3.0",
-      "version": "0.1.16",
-      "versions": {
-        "0.1.16": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "SevenDelay",
-          "tags": [
-            "Fx",
-            "Delay"
-          ],
-          "version": "0.1.16",
-          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
-          "id": "seven-delay",
-          "files": {
-            "audio": {
-              "name": "SevenDelay.wav",
-              "size": 5781966
-            },
-            "image": {
-              "name": "SevenDelay.png",
-              "size": 43021
-            },
-            "linux": {
-              "name": "SevenDelay-linux.zip",
-              "size": 1553193
-            },
-            "win": {
-              "name": "SevenDelay-win.zip",
-              "size": 1553193
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.15": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "SevenDelay",
-          "tags": [
-            "Fx",
-            "Delay"
-          ],
-          "version": "0.1.15",
-          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
-          "id": "seven-delay",
-          "files": {
-            "audio": {
-              "name": "SevenDelay.wav",
-              "size": 5781966
-            },
-            "image": {
-              "name": "SevenDelay.png",
-              "size": 30066
-            },
-            "linux": {
-              "name": "SevenDelay-linux.zip",
-              "size": 1611663
-            },
-            "mac": {
-              "name": "SevenDelay-mac.zip",
-              "size": 1611663
-            },
-            "win": {
-              "name": "SevenDelay-win.zip",
-              "size": 1611663
-            }
-          },
-          "release": "ResetAndMuteFix"
-        },
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "description": "A stereo delay tuned towards short delay.",
-          "date": "2020-12-11T03:48:37.553Z",
-          "name": "SevenDelay",
-          "tags": [
-            "Fx",
-            "Delay"
-          ],
-          "version": "0.1.14",
-          "id": "seven-delay",
-          "files": {
-            "audio": {
-              "name": "SevenDelay.wav",
-              "size": 2396716
-            },
-            "image": {
-              "name": "SevenDelay.png",
-              "size": 32087
-            },
-            "linux": {
-              "name": "SevenDelay-linux.zip",
-              "size": 749745
-            },
-            "mac": {
-              "name": "SevenDelay-mac.zip",
-              "size": 708326
-            },
-            "win": {
-              "name": "SevenDelay-win.zip",
-              "size": 668548
-            }
-          },
-          "release": "SevenDelay0.1.14"
-        }
-      }
-    },
-    "ryukau/vstplugins/wave-cymbal": {
-      "id": "ryukau/vstplugins/wave-cymbal",
-      "license": "gpl-3.0",
-      "version": "0.1.14",
-      "versions": {
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.14",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.wav",
-              "size": 5761398
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal-linux.zip",
-              "size": 1592936
-            },
-            "win": {
-              "name": "WaveCymbal-win.zip",
-              "size": 1592936
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.13": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.13",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.wav",
-              "size": 5761398
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 28050
-            },
-            "linux": {
-              "name": "WaveCymbal-linux.zip",
-              "size": 1672674
-            },
-            "mac": {
-              "name": "WaveCymbal-mac.zip",
-              "size": 1672674
-            },
-            "win": {
-              "name": "WaveCymbal-win.zip",
-              "size": 1672674
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
     "studiorack/argotlunar/argotlunar": {
       "id": "studiorack/argotlunar/argotlunar",
       "license": "gpl-2.0",
@@ -749,6 +177,51 @@
           },
           "release": "v1.4.0",
           "repo": "studiorack/swankyamp"
+        }
+      }
+    },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Editor"
+          ],
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "wolf-shaper.png",
+              "size": 42563
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
+            }
+          },
+          "release": "v0.1.8",
+          "repo": "studiorack/wolf-shaper"
         }
       }
     },
@@ -932,50 +405,6 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.wav",
-              "size": 126798
-            },
-            "image": {
-              "name": "mverb.png",
-              "size": 398787
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mverb"
-        }
-      }
-    },
     "studiorack/smartguitaramp/smartguitaramp": {
       "id": "studiorack/smartguitaramp/smartguitaramp",
       "license": "apache-2.0",
@@ -1018,6 +447,50 @@
           },
           "release": "v1.2.0",
           "repo": "studiorack/smartguitaramp"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.wav",
+              "size": 126798
+            },
+            "image": {
+              "name": "mverb.png",
+              "size": 398787
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mverb"
         }
       }
     },
@@ -1066,51 +539,6 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
-      "license": "gpl-3.0",
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "wolf-shaper.png",
-              "size": 42563
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
-            }
-          },
-          "release": "v0.1.8",
-          "repo": "studiorack/wolf-shaper"
-        }
-      }
-    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -1153,189 +581,6 @@
           },
           "release": "v0.1.0",
           "repo": "studiorack/ampli-fe"
-        }
-      }
-    },
-    "studiorack/chow-matrix/chow-matrix": {
-      "id": "studiorack/chow-matrix/chow-matrix",
-      "license": "bsd-3-clause",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Feedback"
-          ],
-          "version": "1.2.0",
-          "id": "chow-matrix",
-          "date": "2021-04-23T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-matrix.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "chow-matrix.png",
-              "size": 181814
-            },
-            "linux": {
-              "name": "chow-matrix-linux.zip",
-              "size": 16260494
-            },
-            "mac": {
-              "name": "chow-matrix-mac.zip",
-              "size": 10373268
-            },
-            "win": {
-              "name": "chow-matrix-win.exe",
-              "size": 7728493
-            }
-          },
-          "release": "v1.2.0",
-          "repo": "studiorack/chow-matrix"
-        }
-      }
-    },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
-      "license": "gpl-3.0",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Modulation"
-          ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "temper.png",
-              "size": 551686
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
-            },
-            "win": {
-              "name": "temper-win.exe",
-              "size": 3942251
-            }
-          },
-          "release": "v1.1.1",
-          "repo": "studiorack/temper"
-        }
-      }
-    },
-    "studiorack/airwindows/airwindows": {
-      "id": "studiorack/airwindows/airwindows",
-      "license": "mit",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Chris Johnson",
-          "homepage": "https://www.airwindows.com",
-          "name": "Airwindows",
-          "description": "Huge collection of effects using simple UI controls",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Distortion",
-            "EQ",
-            "Filter",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "airwindows",
-          "date": "2020-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "airwindows.flac",
-              "size": 111355
-            },
-            "image": {
-              "name": "airwindows.jpg",
-              "size": 71522
-            },
-            "linux": {
-              "name": "airwindows-linux.zip",
-              "size": 8241206
-            },
-            "mac": {
-              "name": "airwindows-mac.zip",
-              "size": 14246351
-            },
-            "win": {
-              "name": "airwindows-win.zip",
-              "size": 22181434
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/airwindows"
-        }
-      }
-    },
-    "studiorack/mda/mda": {
-      "id": "studiorack/mda/mda",
-      "license": "gpl-3.0",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
-          ],
-          "version": "1.0.4",
-          "id": "mda",
-          "date": "2020-12-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mda.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "mda.png",
-              "size": 305613
-            },
-            "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938
-            },
-            "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516
-            },
-            "win": {
-              "name": "mda-win.zip",
-              "size": 1247768
-            }
-          },
-          "release": "v1.0.4",
-          "repo": "studiorack/mda"
         }
       }
     },
@@ -1603,6 +848,189 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/chow-matrix/chow-matrix": {
+      "id": "studiorack/chow-matrix/chow-matrix",
+      "license": "bsd-3-clause",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
+          "name": "CHOW Matrix",
+          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Feedback"
+          ],
+          "version": "1.2.0",
+          "id": "chow-matrix",
+          "date": "2021-04-23T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-matrix.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "chow-matrix.png",
+              "size": 181814
+            },
+            "linux": {
+              "name": "chow-matrix-linux.zip",
+              "size": 16260494
+            },
+            "mac": {
+              "name": "chow-matrix-mac.zip",
+              "size": 10373268
+            },
+            "win": {
+              "name": "chow-matrix-win.exe",
+              "size": 7728493
+            }
+          },
+          "release": "v1.2.0",
+          "repo": "studiorack/chow-matrix"
+        }
+      }
+    },
+    "studiorack/temper/temper": {
+      "id": "studiorack/temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Modulation"
+          ],
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "temper.png",
+              "size": 551686
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694
+            },
+            "win": {
+              "name": "temper-win.exe",
+              "size": 3942251
+            }
+          },
+          "release": "v1.1.1",
+          "repo": "studiorack/temper"
+        }
+      }
+    },
+    "studiorack/mda/mda": {
+      "id": "studiorack/mda/mda",
+      "license": "gpl-3.0",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "version": "1.0.4",
+          "id": "mda",
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "mda.png",
+              "size": 305613
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768
+            }
+          },
+          "release": "v1.0.4",
+          "repo": "studiorack/mda"
+        }
+      }
+    },
+    "studiorack/airwindows/airwindows": {
+      "id": "studiorack/airwindows/airwindows",
+      "license": "mit",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Chris Johnson",
+          "homepage": "https://www.airwindows.com",
+          "name": "Airwindows",
+          "description": "Huge collection of effects using simple UI controls",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "airwindows",
+          "date": "2020-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "airwindows.flac",
+              "size": 111355
+            },
+            "image": {
+              "name": "airwindows.jpg",
+              "size": 71522
+            },
+            "linux": {
+              "name": "airwindows-linux.zip",
+              "size": 8241206
+            },
+            "mac": {
+              "name": "airwindows-mac.zip",
+              "size": 14246351
+            },
+            "win": {
+              "name": "airwindows-win.zip",
+              "size": 22181434
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/airwindows"
         }
       }
     }

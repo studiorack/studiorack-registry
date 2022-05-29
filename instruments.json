@@ -1,689 +1,5 @@
 {
   "objects": {
-    "ryukau/vstplugins/colliding-comb-synth": {
-      "id": "ryukau/vstplugins/colliding-comb-synth",
-      "license": "gpl-3.0",
-      "version": "0.1.2",
-      "versions": {
-        "0.1.2": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "CollidingCombSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.2",
-          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
-          "files": {
-            "audio": {
-              "name": "CollidingCombSynth.wav",
-              "size": 4496454
-            },
-            "image": {
-              "name": "CollidingCombSynth.png",
-              "size": 64026
-            },
-            "linux": {
-              "name": "CollidingCombSynth-linux.zip",
-              "size": 1700167
-            },
-            "win": {
-              "name": "CollidingCombSynth-win.zip",
-              "size": 1700167
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.1": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "CollidingCombSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.1",
-          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
-          "files": {
-            "audio": {
-              "name": "CollidingCombSynth.wav",
-              "size": 4496454
-            },
-            "image": {
-              "name": "CollidingCombSynth.png",
-              "size": 43505
-            },
-            "linux": {
-              "name": "CollidingCombSynth-linux.zip",
-              "size": 1811427
-            },
-            "mac": {
-              "name": "CollidingCombSynth-mac.zip",
-              "size": 1811427
-            },
-            "win": {
-              "name": "CollidingCombSynth-win.zip",
-              "size": 1811427
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/cubic-pad-synth": {
-      "id": "ryukau/vstplugins/cubic-pad-synth",
-      "license": "gpl-3.0",
-      "version": "0.1.11",
-      "versions": {
-        "0.1.11": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "CubicPadSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.11",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
-          "files": {
-            "audio": {
-              "name": "CubicPadSynth.wav",
-              "size": 4374542
-            },
-            "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
-            },
-            "linux": {
-              "name": "CubicPadSynth-linux.zip",
-              "size": 4788347
-            },
-            "win": {
-              "name": "CubicPadSynth-win.zip",
-              "size": 4788347
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.10": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "CubicPadSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.10",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
-          "files": {
-            "audio": {
-              "name": "CubicPadSynth.wav",
-              "size": 4374542
-            },
-            "image": {
-              "name": "CubicPadSynth.png",
-              "size": 57259
-            },
-            "linux": {
-              "name": "CubicPadSynth-linux.zip",
-              "size": 6523077
-            },
-            "mac": {
-              "name": "CubicPadSynth-mac.zip",
-              "size": 6523077
-            },
-            "win": {
-              "name": "CubicPadSynth-win.zip",
-              "size": 6523077
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/enveloped-sine": {
-      "id": "ryukau/vstplugins/enveloped-sine",
-      "license": "gpl-3.0",
-      "version": "0.1.12",
-      "versions": {
-        "0.1.12": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "EnvelopedSine",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.12",
-          "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
-          "files": {
-            "audio": {
-              "name": "EnvelopedSine.wav",
-              "size": 9045446
-            },
-            "image": {
-              "name": "EnvelopedSine.png",
-              "size": 61185
-            },
-            "linux": {
-              "name": "EnvelopedSine-linux.zip",
-              "size": 1762249
-            },
-            "win": {
-              "name": "EnvelopedSine-win.zip",
-              "size": 1762249
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.11": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "EnvelopedSine",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.11",
-          "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
-          "files": {
-            "audio": {
-              "name": "EnvelopedSine.wav",
-              "size": 9045446
-            },
-            "image": {
-              "name": "EnvelopedSine.png",
-              "size": 56493
-            },
-            "linux": {
-              "name": "EnvelopedSine-linux.zip",
-              "size": 1900075
-            },
-            "mac": {
-              "name": "EnvelopedSine-mac.zip",
-              "size": 1900075
-            },
-            "win": {
-              "name": "EnvelopedSine-win.zip",
-              "size": 1900075
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/f-d-n-cymbal": {
-      "id": "ryukau/vstplugins/f-d-n-cymbal",
-      "license": "gpl-3.0",
-      "version": "0.2.7",
-      "versions": {
-        "0.2.7": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.7",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.wav",
-              "size": 6134428
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal-linux.zip",
-              "size": 1604100
-            },
-            "win": {
-              "name": "FDNCymbal-win.zip",
-              "size": 1604100
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.2.6": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.6",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.wav",
-              "size": 6134428
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 34324
-            },
-            "linux": {
-              "name": "FDNCymbal-linux.zip",
-              "size": 1669749
-            },
-            "mac": {
-              "name": "FDNCymbal-mac.zip",
-              "size": 1669749
-            },
-            "win": {
-              "name": "FDNCymbal-win.zip",
-              "size": 1669749
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/iterative-sin-cluster": {
-      "id": "ryukau/vstplugins/iterative-sin-cluster",
-      "license": "gpl-3.0",
-      "version": "0.1.13",
-      "versions": {
-        "0.1.13": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "IterativeSinCluster",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.13",
-          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
-          "files": {
-            "audio": {
-              "name": "IterativeSinCluster.wav",
-              "size": 5993510
-            },
-            "image": {
-              "name": "IterativeSinCluster.png",
-              "size": 61133
-            },
-            "linux": {
-              "name": "IterativeSinCluster-linux.zip",
-              "size": 1679554
-            },
-            "win": {
-              "name": "IterativeSinCluster-win.zip",
-              "size": 1679554
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.12": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "IterativeSinCluster",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.12",
-          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
-          "files": {
-            "audio": {
-              "name": "IterativeSinCluster.wav",
-              "size": 5993510
-            },
-            "image": {
-              "name": "IterativeSinCluster.png",
-              "size": 39318
-            },
-            "linux": {
-              "name": "IterativeSinCluster-linux.zip",
-              "size": 1778673
-            },
-            "mac": {
-              "name": "IterativeSinCluster-mac.zip",
-              "size": 1778673
-            },
-            "win": {
-              "name": "IterativeSinCluster-win.zip",
-              "size": 1778673
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/light-pad-synth": {
-      "id": "ryukau/vstplugins/light-pad-synth",
-      "license": "gpl-3.0",
-      "version": "0.1.9",
-      "versions": {
-        "0.1.9": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "LightPadSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.9",
-          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
-          "files": {
-            "audio": {
-              "name": "LightPadSynth.wav",
-              "size": 5487542
-            },
-            "image": {
-              "name": "LightPadSynth.png",
-              "size": 57697
-            },
-            "linux": {
-              "name": "LightPadSynth-linux.zip",
-              "size": 1891145
-            },
-            "win": {
-              "name": "LightPadSynth-win.zip",
-              "size": 1891145
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.8": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "LightPadSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.8",
-          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
-          "files": {
-            "audio": {
-              "name": "LightPadSynth.wav",
-              "size": 5487542
-            },
-            "image": {
-              "name": "LightPadSynth.png",
-              "size": 54549
-            },
-            "linux": {
-              "name": "LightPadSynth-linux.zip",
-              "size": 2044205
-            },
-            "mac": {
-              "name": "LightPadSynth-mac.zip",
-              "size": 2044205
-            },
-            "win": {
-              "name": "LightPadSynth-win.zip",
-              "size": 2044205
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/sync-saw-synth": {
-      "id": "ryukau/vstplugins/sync-saw-synth",
-      "license": "gpl-3.0",
-      "version": "0.1.18",
-      "versions": {
-        "0.1.18": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "SyncSawSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.18",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
-          "files": {
-            "audio": {
-              "name": "SyncSawSynth.wav",
-              "size": 1978606
-            },
-            "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
-            },
-            "linux": {
-              "name": "SyncSawSynth-linux.zip",
-              "size": 1614837
-            },
-            "win": {
-              "name": "SyncSawSynth-win.zip",
-              "size": 1614837
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.17": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "SyncSawSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.17",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
-          "files": {
-            "audio": {
-              "name": "SyncSawSynth.wav",
-              "size": 1978606
-            },
-            "image": {
-              "name": "SyncSawSynth.png",
-              "size": 40255
-            },
-            "linux": {
-              "name": "SyncSawSynth-linux.zip",
-              "size": 1690199
-            },
-            "mac": {
-              "name": "SyncSawSynth-mac.zip",
-              "size": 1690199
-            },
-            "win": {
-              "name": "SyncSawSynth-win.zip",
-              "size": 1690199
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/trapezoid-synth": {
-      "id": "ryukau/vstplugins/trapezoid-synth",
-      "license": "gpl-3.0",
-      "version": "0.1.14",
-      "versions": {
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.14",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.wav",
-              "size": 5826542
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth-linux.zip",
-              "size": 1622428
-            },
-            "win": {
-              "name": "TrapezoidSynth-win.zip",
-              "size": 1622428
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.13": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.13",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.wav",
-              "size": 5826542
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 40114
-            },
-            "linux": {
-              "name": "TrapezoidSynth-linux.zip",
-              "size": 1686343
-            },
-            "mac": {
-              "name": "TrapezoidSynth-mac.zip",
-              "size": 1686343
-            },
-            "win": {
-              "name": "TrapezoidSynth-win.zip",
-              "size": 1686343
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/wave-cymbal": {
-      "id": "ryukau/vstplugins/wave-cymbal",
-      "license": "gpl-3.0",
-      "version": "0.1.14",
-      "versions": {
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.14",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.wav",
-              "size": 5761398
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal-linux.zip",
-              "size": 1592936
-            },
-            "win": {
-              "name": "WaveCymbal-win.zip",
-              "size": 1592936
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.13": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.13",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.wav",
-              "size": 5761398
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 28050
-            },
-            "linux": {
-              "name": "WaveCymbal-linux.zip",
-              "size": 1672674
-            },
-            "mac": {
-              "name": "WaveCymbal-mac.zip",
-              "size": 1672674
-            },
-            "win": {
-              "name": "WaveCymbal-win.zip",
-              "size": 1672674
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
     "studiorack/opl/opl": {
       "id": "studiorack/opl/opl",
       "license": "gpl-2.0",
@@ -726,6 +42,51 @@
           },
           "release": "v2.1.0",
           "repo": "studiorack/opl"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "oxe.png",
+              "size": 98712
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5",
+          "repo": "studiorack/oxe"
         }
       }
     },
@@ -861,51 +222,6 @@
           },
           "release": "v0.2.0",
           "repo": "studiorack/andes"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "repo": "studiorack/oxe"
         }
       }
     },
@@ -1135,6 +451,234 @@
         }
       }
     },
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ep-mk1.png",
+              "size": 139928
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0",
+          "repo": "studiorack/ep-mk1"
+        }
+      }
+    },
+    "studiorack/avl-percussions/avl-percussions": {
+      "id": "studiorack/avl-percussions/avl-percussions",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-percussions",
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            }
+          },
+          "release": "v1.1.0",
+          "repo": "studiorack/avl-percussions"
+        }
+      }
+    },
+    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
+      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "wilkinson-audio-naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wilkinson-audio-naked-drums.flac",
+              "size": 553525
+            },
+            "image": {
+              "name": "wilkinson-audio-naked-drums.jpg",
+              "size": 24453
+            },
+            "linux": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "mac": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            },
+            "win": {
+              "name": "wilkinson-audio-naked-drums.zip",
+              "size": 1288490188
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/wilkinson-audio-naked-drums"
+        }
+      }
+    },
+    "studiorack/nekobi/nekobi": {
+      "id": "studiorack/nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "nekobi.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "nekobi.png",
+              "size": 50361
+            },
+            "linux": {
+              "name": "nekobi-linux.zip",
+              "size": 865321
+            },
+            "mac": {
+              "name": "nekobi-mac.zip",
+              "size": 997364
+            },
+            "win": {
+              "name": "nekobi-win.zip",
+              "size": 983729
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/nekobi"
+        }
+      }
+    },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "id": "studiorack/jrhodes-3c/jrhodes-3c",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "jrhodes-3c",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jrhodes-3c.flac",
+              "size": 64422
+            },
+            "image": {
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
+            },
+            "linux": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "mac": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "win": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
     "studiorack/octasine/octasine": {
       "id": "studiorack/octasine/octasine",
       "license": "agpl-3.0",
@@ -1316,51 +860,6 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.wav",
-              "size": 134990
-            },
-            "image": {
-              "name": "digits.png",
-              "size": 97572
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
-            },
-            "win": {
-              "name": "digits-win.exe",
-              "size": 669291
-            }
-          },
-          "release": "v2.1.0",
-          "repo": "studiorack/digits"
-        }
-      }
-    },
     "studiorack/ninjas2/ninjas2": {
       "id": "studiorack/ninjas2/ninjas2",
       "license": "gpl-3.0",
@@ -1403,6 +902,51 @@
           },
           "release": "v0.2.0",
           "repo": "studiorack/ninjas2"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.wav",
+              "size": 134990
+            },
+            "image": {
+              "name": "digits.png",
+              "size": 97572
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.exe",
+              "size": 669291
+            }
+          },
+          "release": "v2.1.0",
+          "repo": "studiorack/digits"
         }
       }
     },
@@ -1449,234 +993,6 @@
           },
           "release": "v1.2.0",
           "repo": "studiorack/monique-monosynth"
-        }
-      }
-    },
-    "studiorack/nekobi/nekobi": {
-      "id": "studiorack/nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "nekobi.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "nekobi.png",
-              "size": 50361
-            },
-            "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 865321
-            },
-            "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 997364
-            },
-            "win": {
-              "name": "nekobi-win.zip",
-              "size": 983729
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/nekobi"
-        }
-      }
-    },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/jrhodes-3c"
-        }
-      }
-    },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0",
-          "repo": "studiorack/ep-mk1"
-        }
-      }
-    },
-    "studiorack/avl-percussions/avl-percussions": {
-      "id": "studiorack/avl-percussions/avl-percussions",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-percussions",
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            }
-          },
-          "release": "v1.1.0",
-          "repo": "studiorack/avl-percussions"
-        }
-      }
-    },
-    "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums": {
-      "id": "studiorack/wilkinson-audio-naked-drums/wilkinson-audio-naked-drums",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "wilkinson-audio-naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wilkinson-audio-naked-drums.flac",
-              "size": 553525
-            },
-            "image": {
-              "name": "wilkinson-audio-naked-drums.jpg",
-              "size": 24453
-            },
-            "linux": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "mac": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            },
-            "win": {
-              "name": "wilkinson-audio-naked-drums.zip",
-              "size": 1288490188
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/wilkinson-audio-naked-drums"
         }
       }
     },
@@ -1813,225 +1129,6 @@
           },
           "release": "v3.0.0",
           "repo": "studiorack/salamander-grand-piano"
-        }
-      }
-    },
-    "studiorack/odin/odin": {
-      "id": "studiorack/odin/odin",
-      "license": "gpl-3.0",
-      "version": "2.2.4",
-      "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Moog"
-          ],
-          "version": "2.2.4",
-          "id": "odin",
-          "date": "2020-10-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "odin.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "odin.png",
-              "size": 802665
-            },
-            "linux": {
-              "name": "odin-linux.zip",
-              "size": 97250026
-            },
-            "mac": {
-              "name": "odin-mac.zip",
-              "size": 78842812
-            },
-            "win": {
-              "name": "odin-win.zip",
-              "size": 46173771
-            }
-          },
-          "release": "v2.2.4",
-          "repo": "studiorack/odin"
-        }
-      }
-    },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "os-251.png",
-              "size": 212651
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
-            }
-          },
-          "release": "v1.1.0",
-          "repo": "studiorack/os-251"
-        }
-      }
-    },
-    "studiorack/salamander-drumkit/salamander-drumkit": {
-      "id": "studiorack/salamander-drumkit/salamander-drumkit",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Rytmenpinne",
-          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
-          "name": "Salamander Drumkit",
-          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "salamander-drumkit",
-          "date": "2012-02-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-drumkit.flac",
-              "size": 162704
-            },
-            "image": {
-              "name": "salamander-drumkit.jpg",
-              "size": 94023
-            },
-            "linux": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "mac": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "win": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/salamander-drumkit"
-        }
-      }
-    },
-    "studiorack/virtuosity-drums/virtuosity-drums": {
-      "id": "studiorack/virtuosity-drums/virtuosity-drums",
-      "license": "cc0-1.0",
-      "version": "0.9.23",
-      "versions": {
-        "0.9.23": {
-          "author": "Versilian Studios",
-          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
-          "name": "Virtuosity Drums",
-          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Jazz",
-            "sfz"
-          ],
-          "version": "0.9.23",
-          "id": "virtuosity-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtuosity-drums.flac",
-              "size": 821118
-            },
-            "image": {
-              "name": "virtuosity-drums.jpg",
-              "size": 73357
-            },
-            "linux": {
-              "name": "virtuosity-drums.zip",
-              "size": 1224065679
-            },
-            "mac": {
-              "name": "virtuosity-drums.zip",
-              "size": 1224065679
-            },
-            "win": {
-              "name": "virtuosity-drums.zip",
-              "size": 1224065679
-            }
-          },
-          "release": "v0.9.23",
-          "repo": "studiorack/virtuosity-drums"
-        },
-        "0.9.22": {
-          "author": "Versilian Studios",
-          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
-          "name": "Virtuosity Drums",
-          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Jazz",
-            "sfz"
-          ],
-          "version": "0.9.22",
-          "id": "virtuosity-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtuosity-drums.flac",
-              "size": 821118
-            },
-            "image": {
-              "name": "virtuosity-drums.jpg",
-              "size": 73357
-            },
-            "linux": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtuosity-drums.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v0.9.22"
         }
       }
     },
@@ -2212,6 +1309,225 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/odin/odin": {
+      "id": "studiorack/odin/odin",
+      "license": "gpl-3.0",
+      "version": "2.2.4",
+      "versions": {
+        "2.2.4": {
+          "author": "TheWaveWarden",
+          "homepage": "https://github.com/TheWaveWarden/odin2",
+          "name": "Odin",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Moog"
+          ],
+          "version": "2.2.4",
+          "id": "odin",
+          "date": "2020-10-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "odin.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "odin.png",
+              "size": 802665
+            },
+            "linux": {
+              "name": "odin-linux.zip",
+              "size": 97250026
+            },
+            "mac": {
+              "name": "odin-mac.zip",
+              "size": 78842812
+            },
+            "win": {
+              "name": "odin-win.zip",
+              "size": 46173771
+            }
+          },
+          "release": "v2.2.4",
+          "repo": "studiorack/odin"
+        }
+      }
+    },
+    "studiorack/os-251/os-251": {
+      "id": "studiorack/os-251/os-251",
+      "license": "gpl-3.0",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Lofi"
+          ],
+          "version": "1.1.0",
+          "id": "os-251",
+          "date": "2021-10-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "os-251.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "os-251.png",
+              "size": 212651
+            },
+            "linux": {
+              "name": "os-251-linux.zip",
+              "size": 8860818
+            },
+            "mac": {
+              "name": "os-251-mac.zip",
+              "size": 7611441
+            },
+            "win": {
+              "name": "os-251-win.zip",
+              "size": 2496031
+            }
+          },
+          "release": "v1.1.0",
+          "repo": "studiorack/os-251"
+        }
+      }
+    },
+    "studiorack/virtuosity-drums/virtuosity-drums": {
+      "id": "studiorack/virtuosity-drums/virtuosity-drums",
+      "license": "cc0-1.0",
+      "version": "0.9.23",
+      "versions": {
+        "0.9.23": {
+          "author": "Versilian Studios",
+          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
+          "name": "Virtuosity Drums",
+          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Jazz",
+            "sfz"
+          ],
+          "version": "0.9.23",
+          "id": "virtuosity-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtuosity-drums.flac",
+              "size": 821118
+            },
+            "image": {
+              "name": "virtuosity-drums.jpg",
+              "size": 73357
+            },
+            "linux": {
+              "name": "virtuosity-drums.zip",
+              "size": 1224065679
+            },
+            "mac": {
+              "name": "virtuosity-drums.zip",
+              "size": 1224065679
+            },
+            "win": {
+              "name": "virtuosity-drums.zip",
+              "size": 1224065679
+            }
+          },
+          "release": "v0.9.23",
+          "repo": "studiorack/virtuosity-drums"
+        },
+        "0.9.22": {
+          "author": "Versilian Studios",
+          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
+          "name": "Virtuosity Drums",
+          "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Jazz",
+            "sfz"
+          ],
+          "version": "0.9.22",
+          "id": "virtuosity-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtuosity-drums.flac",
+              "size": 821118
+            },
+            "image": {
+              "name": "virtuosity-drums.jpg",
+              "size": 73357
+            },
+            "linux": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtuosity-drums.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v0.9.22"
+        }
+      }
+    },
+    "studiorack/salamander-drumkit/salamander-drumkit": {
+      "id": "studiorack/salamander-drumkit/salamander-drumkit",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Rytmenpinne",
+          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
+          "name": "Salamander Drumkit",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "salamander-drumkit",
+          "date": "2012-02-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-drumkit.flac",
+              "size": 162704
+            },
+            "image": {
+              "name": "salamander-drumkit.jpg",
+              "size": 94023
+            },
+            "linux": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "mac": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "win": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/salamander-drumkit"
         }
       }
     }
