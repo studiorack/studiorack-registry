@@ -884,138 +884,6 @@
         }
       }
     },
-    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
-      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
-      "license": "gpl-3.0",
-      "version": "1.13.0",
-      "versions": {
-        "1.13.0": {
-          "author": "Institute of Electronic Music and Acoustics",
-          "homepage": "https://plugins.iem.at",
-          "name": "IEM Plugin Suite",
-          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Delay"
-          ],
-          "version": "1.13.0",
-          "id": "iem-plugin-suite.jpg",
-          "date": "2021-11-27T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "iem-plugin-suite.flac",
-              "size": 112666
-            },
-            "image": {
-              "name": "iem-plugin-suite.jpg",
-              "size": 111401
-            },
-            "linux": {
-              "name": "iem-plugin-suite-linux.zip",
-              "size": 51310651
-            },
-            "mac": {
-              "name": "iem-plugin-suite-mac.zip",
-              "size": 115219195
-            },
-            "win": {
-              "name": "iem-plugin-suite-win.zip",
-              "size": 79870766
-            }
-          },
-          "release": "v1.13.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3"
-        }
-      }
-    },
     "studiorack/dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -1185,7 +1053,7 @@
               "size": 6653931
             },
             "win": {
-              "name": "obxd-win.exe",
+              "name": "obxd-win.zip",
               "size": 20368962
             }
           },
@@ -1273,8 +1141,8 @@
               "size": 11198493
             },
             "win": {
-              "name": "vital-win.exe",
-              "size": 24904312
+              "name": "vital-win.zip",
+              "size": 9211205
             }
           },
           "release": "v1.0.7"
@@ -1324,6 +1192,138 @@
         }
       }
     },
+    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
+      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
+      "license": "gpl-3.0",
+      "version": "1.13.0",
+      "versions": {
+        "1.13.0": {
+          "author": "Institute of Electronic Music and Acoustics",
+          "homepage": "https://plugins.iem.at",
+          "name": "IEM Plugin Suite",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Delay"
+          ],
+          "version": "1.13.0",
+          "id": "iem-plugin-suite.jpg",
+          "date": "2021-11-27T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "iem-plugin-suite.flac",
+              "size": 112666
+            },
+            "image": {
+              "name": "iem-plugin-suite.jpg",
+              "size": 111401
+            },
+            "linux": {
+              "name": "iem-plugin-suite-linux.zip",
+              "size": 51310651
+            },
+            "mac": {
+              "name": "iem-plugin-suite-mac.zip",
+              "size": 115219195
+            },
+            "win": {
+              "name": "iem-plugin-suite-win.zip",
+              "size": 79870766
+            }
+          },
+          "release": "v1.13.0"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "modeq.png",
+              "size": 105317
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7109975
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3209964
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3719312
+            }
+          },
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "octasine.png",
+              "size": 679563
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
+        }
+      }
+    },
     "studiorack/chow-tape-model/chow-tape-model": {
       "id": "studiorack/chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
@@ -1360,8 +1360,8 @@
               "size": 10706301
             },
             "win": {
-              "name": "chow-tape-model-win.exe",
-              "size": 10053679
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679
             }
           },
           "release": "v2.8.0"
@@ -1448,8 +1448,8 @@
               "size": 2109406
             },
             "win": {
-              "name": "digits-win.exe",
-              "size": 669291
+              "name": "digits-win.zip",
+              "size": 211492
             }
           },
           "release": "v2.1.0"
@@ -1493,7 +1493,7 @@
               "size": 19330773
             },
             "win": {
-              "name": "monique-win.exe",
+              "name": "monique-win.zip",
               "size": 8255789
             }
           },
@@ -1707,15 +1707,15 @@
             },
             "linux": {
               "name": "sfizz-linux.zip",
-              "size": 6555322
+              "size": 5504066
             },
             "mac": {
               "name": "sfizz-mac.zip",
-              "size": 11256240
+              "size": 7498595
             },
             "win": {
-              "name": "sfizz-win.exe",
-              "size": 3482728
+              "name": "sfizz-win.zip",
+              "size": 4084698
             }
           },
           "release": "v1.1.1"
@@ -1887,8 +1887,8 @@
               "size": 47300596
             },
             "win": {
-              "name": "surge-win.exe",
-              "size": 108842250
+              "name": "surge-win.zip",
+              "size": 152481233
             }
           },
           "release": "v1.9.0"
@@ -2151,8 +2151,8 @@
               "size": 10373268
             },
             "win": {
-              "name": "chow-matrix-win.exe",
-              "size": 7728493
+              "name": "chow-matrix-win.zip",
+              "size": 4719759
             }
           },
           "release": "v1.2.0"
@@ -2239,8 +2239,8 @@
               "size": 6764694
             },
             "win": {
-              "name": "temper-win.exe",
-              "size": 3942251
+              "name": "temper-win.zip",
+              "size": 6181044
             }
           },
           "release": "v1.1.1"
@@ -2332,53 +2332,6 @@
             }
           },
           "release": "v1.1.0"
-        }
-      }
-    },
-    "studiorack/airwindows/airwindows": {
-      "id": "studiorack/airwindows/airwindows",
-      "license": "mit",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Chris Johnson",
-          "homepage": "https://www.airwindows.com",
-          "name": "Airwindows",
-          "description": "Huge collection of effects using simple UI controls",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Distortion",
-            "EQ",
-            "Filter",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "airwindows",
-          "date": "2020-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "airwindows.flac",
-              "size": 111355
-            },
-            "image": {
-              "name": "airwindows.jpg",
-              "size": 71522
-            },
-            "linux": {
-              "name": "airwindows-linux.zip",
-              "size": 8241206
-            },
-            "mac": {
-              "name": "airwindows-mac.zip",
-              "size": 14246351
-            },
-            "win": {
-              "name": "airwindows-win.zip",
-              "size": 22181434
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -2508,8 +2461,55 @@
           "release": "v1.0.0"
         }
       }
+    },
+    "studiorack/airwindows/airwindows": {
+      "id": "studiorack/airwindows/airwindows",
+      "license": "mit",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Chris Johnson",
+          "homepage": "https://www.airwindows.com",
+          "name": "Airwindows",
+          "description": "Huge collection of effects using simple UI controls",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "airwindows",
+          "date": "2020-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "airwindows.flac",
+              "size": 111355
+            },
+            "image": {
+              "name": "airwindows.jpg",
+              "size": 71522
+            },
+            "linux": {
+              "name": "airwindows-linux.zip",
+              "size": 8241206
+            },
+            "mac": {
+              "name": "airwindows-mac.zip",
+              "size": 14246351
+            },
+            "win": {
+              "name": "airwindows-win.zip",
+              "size": 22181434
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
     }
   },
-  "time": "2022-05-29T00:51:31.554Z",
+  "time": "2022-05-30T04:22:13.680Z",
   "total": 56
 }
