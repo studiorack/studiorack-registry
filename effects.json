@@ -1,90 +1,47 @@
 {
   "objects": {
-    "ryukau/vstplugins/basic-limiter-auto-make": {
-      "id": "ryukau/vstplugins/basic-limiter-auto-make",
+    "ryukau/vstplugins/basic-limiter": {
+      "id": "ryukau/vstplugins/basic-limiter",
       "license": "gpl-3.0",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "versions": {
-        "0.1.7": {
+        "0.1.8": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "BasicLimiterAutoMake",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "BasicLimiter",
           "tags": [
             "Fx",
             "Dynamics"
           ],
-          "version": "0.1.7",
+          "version": "0.1.8",
           "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
-          "id": "basic-limiter-auto-make",
+          "id": "basic-limiter",
           "files": {
             "audio": {
-              "name": "BasicLimiterAutoMake.flac",
-              "size": 276981
+              "name": "BasicLimiter.flac",
+              "size": 1736593
             },
             "image": {
-              "name": "BasicLimiterAutoMake.png",
-              "size": 18293
+              "name": "BasicLimiter.png",
+              "size": 14414
             },
             "linux": {
-              "name": "BasicLimiterAutoMake_0.1.7.zip",
-              "size": 1846640
+              "name": "BasicLimiter_0.1.8.zip",
+              "size": 2760721
             },
             "win": {
-              "name": "BasicLimiterAutoMake_0.1.7.zip",
-              "size": 1846640
+              "name": "BasicLimiter_0.1.8.zip",
+              "size": 2760721
+            },
+            "mac": {
+              "name": "BasicLimiter_0.1.8.zip",
+              "size": 2760721
             }
           },
-          "release": "UhhyouPlugins0.33.0",
+          "release": "UhhyouPlugins0.34.0",
           "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/f-d-n-cymbal": {
-      "id": "ryukau/vstplugins/f-d-n-cymbal",
-      "license": "gpl-3.0",
-      "version": "0.2.11",
-      "versions": {
-        "0.2.11": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.11",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.flac",
-              "size": 1546996
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal_0.2.11.zip",
-              "size": 1950882
-            },
-            "win": {
-              "name": "FDNCymbal_0.2.11.zip",
-              "size": 1950882
-            }
-          },
-          "release": "UhhyouPlugins0.33.0",
-          "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/basic-limiter": {
-      "id": "ryukau/vstplugins/basic-limiter",
-      "license": "gpl-3.0",
-      "version": "0.1.6",
-      "versions": {
+        },
         "0.1.6": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -115,8 +72,7 @@
               "size": 1827863
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.33.0"
         }
       }
     },
@@ -160,43 +116,79 @@
         }
       }
     },
-    "ryukau/vstplugins/wave-cymbal": {
-      "id": "ryukau/vstplugins/wave-cymbal",
+    "ryukau/vstplugins/l4-reverb": {
+      "id": "ryukau/vstplugins/l4-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.18",
+      "version": "0.1.10",
       "versions": {
-        "0.1.18": {
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.10",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.10.zip",
+              "size": 2969076
+            },
+            "win": {
+              "name": "L4Reverb_0.1.10.zip",
+              "size": 2969076
+            },
+            "mac": {
+              "name": "L4Reverb_0.1.10.zip",
+              "size": 2969076
+            }
+          },
+          "release": "UhhyouPlugins0.34.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.9": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-06-04T00:28:41.276Z",
-          "name": "WaveCymbal",
+          "name": "L4Reverb",
           "tags": [
             "Fx",
-            "Instrument"
+            "Reverb"
           ],
-          "version": "0.1.18",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
+          "version": "0.1.9",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
           "files": {
             "audio": {
-              "name": "WaveCymbal.flac",
-              "size": 1805740
+              "name": "L4Reverb.flac",
+              "size": 611850
             },
             "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
+              "name": "L4Reverb.png",
+              "size": 44220
             },
             "linux": {
-              "name": "WaveCymbal_0.1.18.zip",
-              "size": 1904014
+              "name": "L4Reverb_0.1.9.zip",
+              "size": 1973710
             },
             "win": {
-              "name": "WaveCymbal_0.1.18.zip",
-              "size": 1904014
+              "name": "L4Reverb_0.1.9.zip",
+              "size": 1973710
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.33.0"
         }
       }
     },
@@ -240,91 +232,48 @@
         }
       }
     },
-    "ryukau/vstplugins/seven-delay": {
-      "id": "ryukau/vstplugins/seven-delay",
+    "ryukau/vstplugins/l3-reverb": {
+      "id": "ryukau/vstplugins/l3-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.20",
+      "version": "0.1.10",
       "versions": {
-        "0.1.20": {
+        "0.1.10": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "SevenDelay",
-          "tags": [
-            "Fx",
-            "Delay"
-          ],
-          "version": "0.1.20",
-          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
-          "id": "seven-delay",
-          "files": {
-            "audio": {
-              "name": "SevenDelay.flac",
-              "size": 1280003
-            },
-            "image": {
-              "name": "SevenDelay.png",
-              "size": 43021
-            },
-            "linux": {
-              "name": "SevenDelay_0.1.20.zip",
-              "size": 1901629
-            },
-            "win": {
-              "name": "SevenDelay_0.1.20.zip",
-              "size": 1901629
-            }
-          },
-          "release": "UhhyouPlugins0.33.0",
-          "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/l4-reverb": {
-      "id": "ryukau/vstplugins/l4-reverb",
-      "license": "gpl-3.0",
-      "version": "0.1.9",
-      "versions": {
-        "0.1.9": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "L4Reverb",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "L3Reverb",
           "tags": [
             "Fx",
             "Reverb"
           ],
-          "version": "0.1.9",
+          "version": "0.1.10",
           "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
-          "id": "l4-reverb",
+          "id": "l3-reverb",
           "files": {
             "audio": {
-              "name": "L4Reverb.flac",
-              "size": 611850
+              "name": "L3Reverb.flac",
+              "size": 605291
             },
             "image": {
-              "name": "L4Reverb.png",
-              "size": 44220
+              "name": "L3Reverb.png",
+              "size": 43045
             },
             "linux": {
-              "name": "L4Reverb_0.1.9.zip",
-              "size": 1973710
+              "name": "L3Reverb_0.1.10.zip",
+              "size": 2975533
             },
             "win": {
-              "name": "L4Reverb_0.1.9.zip",
-              "size": 1973710
+              "name": "L3Reverb_0.1.10.zip",
+              "size": 2975533
+            },
+            "mac": {
+              "name": "L3Reverb_0.1.10.zip",
+              "size": 2975533
             }
           },
-          "release": "UhhyouPlugins0.33.0",
+          "release": "UhhyouPlugins0.34.0",
           "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/l3-reverb": {
-      "id": "ryukau/vstplugins/l3-reverb",
-      "license": "gpl-3.0",
-      "version": "0.1.9",
-      "versions": {
+        },
         "0.1.9": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -355,16 +304,356 @@
               "size": 1971354
             }
           },
-          "release": "UhhyouPlugins0.33.0",
+          "release": "UhhyouPlugins0.33.0"
+        }
+      }
+    },
+    "ryukau/vstplugins/wave-cymbal": {
+      "id": "ryukau/vstplugins/wave-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.1.19",
+      "versions": {
+        "0.1.19": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.19",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            }
+          },
+          "release": "UhhyouPlugins0.34.0",
           "repo": "ryukau/vstplugins"
+        },
+        "0.1.18": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.18",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.18.zip",
+              "size": 1904014
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.18.zip",
+              "size": 1904014
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        }
+      }
+    },
+    "ryukau/vstplugins/seven-delay": {
+      "id": "ryukau/vstplugins/seven-delay",
+      "license": "gpl-3.0",
+      "version": "0.1.21",
+      "versions": {
+        "0.1.21": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.21",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.flac",
+              "size": 1280003
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay_0.1.21.zip",
+              "size": 2865649
+            },
+            "win": {
+              "name": "SevenDelay_0.1.21.zip",
+              "size": 2865649
+            },
+            "mac": {
+              "name": "SevenDelay_0.1.21.zip",
+              "size": 2865649
+            }
+          },
+          "release": "UhhyouPlugins0.34.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.20",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.flac",
+              "size": 1280003
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay_0.1.20.zip",
+              "size": 1901629
+            },
+            "win": {
+              "name": "SevenDelay_0.1.20.zip",
+              "size": 1901629
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        }
+      }
+    },
+    "ryukau/vstplugins/basic-limiter-auto-make": {
+      "id": "ryukau/vstplugins/basic-limiter-auto-make",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.8",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.8.zip",
+              "size": 2778057
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.8.zip",
+              "size": 2778057
+            },
+            "mac": {
+              "name": "BasicLimiterAutoMake_0.1.8.zip",
+              "size": 2778057
+            }
+          },
+          "release": "UhhyouPlugins0.34.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.7",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.7.zip",
+              "size": 1846640
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.7.zip",
+              "size": 1846640
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        }
+      }
+    },
+    "ryukau/vstplugins/f-d-n-cymbal": {
+      "id": "ryukau/vstplugins/f-d-n-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.2.12",
+      "versions": {
+        "0.2.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.12",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            }
+          },
+          "release": "UhhyouPlugins0.34.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.2.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.11",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.11.zip",
+              "size": 1950882
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.11.zip",
+              "size": 1950882
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
         }
       }
     },
     "ryukau/vstplugins/lattice-reverb": {
       "id": "ryukau/vstplugins/lattice-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "versions": {
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.12",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.12.zip",
+              "size": 2981588
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.12.zip",
+              "size": 2981588
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.12.zip",
+              "size": 2981588
+            }
+          },
+          "release": "UhhyouPlugins0.34.0",
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.11": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -395,8 +684,7 @@
               "size": 1995521
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.33.0"
         }
       }
     },
@@ -490,230 +778,6 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
-      "license": "gpl-3.0",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
-            }
-          },
-          "release": "v3.2.5",
-          "repo": "studiorack/dragonfly-reverb"
-        }
-      }
-    },
-    "studiorack/diopser/diopser": {
-      "id": "studiorack/diopser/diopser",
-      "license": "gpl-3.0",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
-          "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
-          ],
-          "version": "0.0.1",
-          "id": "diopser",
-          "date": "2021-11-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "diopser.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "diopser.png",
-              "size": 120831
-            },
-            "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1769070
-            },
-            "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
-            },
-            "win": {
-              "name": "diopser-win.zip",
-              "size": 2019788
-            }
-          },
-          "release": "v0.0.1",
-          "repo": "studiorack/diopser"
-        }
-      }
-    },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "id": "studiorack/chow-tape-model/chow-tape-model",
-      "license": "gpl-3.0",
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Tape"
-          ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "chow-tape-model.png",
-              "size": 94400
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
-            },
-            "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679
-            }
-          },
-          "release": "v2.8.0",
-          "repo": "studiorack/chow-tape-model"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.wav",
-              "size": 126798
-            },
-            "image": {
-              "name": "mverb.png",
-              "size": 398787
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mverb"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "smartguitaramp.png",
-              "size": 756468
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0",
-          "repo": "studiorack/smartguitaramp"
-        }
-      }
-    },
     "studiorack/wolf-shaper/wolf-shaper": {
       "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
@@ -756,51 +820,6 @@
           },
           "release": "v0.1.8",
           "repo": "studiorack/wolf-shaper"
-        }
-      }
-    },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
-      "license": "gpl-3.0",
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Tube"
-          ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "swankyamp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "swankyamp.png",
-              "size": 494455
-            },
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
-            }
-          },
-          "release": "v1.4.0",
-          "repo": "studiorack/swankyamp"
         }
       }
     },
@@ -849,48 +868,48 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
           "tags": [
             "Effect",
             "Amplifier",
-            "Volume"
+            "Tube"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
+              "name": "swankyamp.wav",
               "size": 352844
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "swankyamp.png",
+              "size": 494455
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "swankyamp-win.zip",
+              "size": 2155426
             }
           },
-          "release": "v0.1.0",
-          "repo": "studiorack/ampli-fe"
+          "release": "v1.4.0",
+          "repo": "studiorack/swankyamp"
         }
       }
     },
@@ -981,6 +1000,275 @@
           },
           "release": "v0.4.0",
           "repo": "studiorack/modeq"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
+      "license": "gpl-3.0",
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "chow-tape-model.png",
+              "size": 94400
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679
+            }
+          },
+          "release": "v2.8.0",
+          "repo": "studiorack/chow-tape-model"
+        }
+      }
+    },
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
+      "versions": {
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dragonfly-reverb.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "dragonfly-reverb.png",
+              "size": 394705
+            },
+            "linux": {
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6926922
+            },
+            "mac": {
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4527137
+            },
+            "win": {
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9353259
+            }
+          },
+          "release": "v3.2.5",
+          "repo": "studiorack/dragonfly-reverb"
+        }
+      }
+    },
+    "studiorack/diopser/diopser": {
+      "id": "studiorack/diopser/diopser",
+      "license": "gpl-3.0",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
+          "tags": [
+            "Effect",
+            "Phaser",
+            "Frequency"
+          ],
+          "version": "0.0.1",
+          "id": "diopser",
+          "date": "2021-11-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "diopser.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "diopser.png",
+              "size": 120831
+            },
+            "linux": {
+              "name": "diopser-linux.zip",
+              "size": 1769070
+            },
+            "mac": {
+              "name": "diopser-mac.zip",
+              "size": 1894438
+            },
+            "win": {
+              "name": "diopser-win.zip",
+              "size": 2019788
+            }
+          },
+          "release": "v0.0.1",
+          "repo": "studiorack/diopser"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "smartguitaramp.png",
+              "size": 756468
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0",
+          "repo": "studiorack/smartguitaramp"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.wav",
+              "size": 126798
+            },
+            "image": {
+              "name": "mverb.png",
+              "size": 398787
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mverb"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.wav",
+              "size": 352844
+            },
+            "image": {
+              "name": "ampli-fe.png",
+              "size": 159478
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "repo": "studiorack/ampli-fe"
         }
       }
     },
