@@ -90,93 +90,48 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
-      "version": "3.2.5",
+      "version": "0.1.8",
       "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
           "tags": [
             "Effect",
-            "Reverb",
-            "Plate"
+            "Distortion",
+            "Editor"
           ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.flac",
-              "size": 82471
+              "name": "wolf-shaper.flac",
+              "size": 103066
             },
             "image": {
-              "name": "dragonfly-reverb.jpg",
-              "size": 119902
+              "name": "wolf-shaper.jpg",
+              "size": 39286
             },
             "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6921808
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
             },
             "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4542730
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
             },
             "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9359636
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
             }
           },
-          "release": "v3.2.5",
-          "repo": "studiorack/dragonfly-reverb"
-        }
-      }
-    },
-    "studiorack/diopser/diopser": {
-      "id": "studiorack/diopser/diopser",
-      "license": "gpl-3.0",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
-          "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
-          ],
-          "version": "0.0.1",
-          "id": "diopser",
-          "date": "2021-11-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "diopser.flac",
-              "size": 77049
-            },
-            "image": {
-              "name": "diopser.jpg",
-              "size": 43851
-            },
-            "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1767254
-            },
-            "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
-            },
-            "win": {
-              "name": "diopser-win.zip",
-              "size": 2017988
-            }
-          },
-          "release": "v0.0.1",
-          "repo": "studiorack/diopser"
+          "release": "v0.1.8",
+          "repo": "studiorack/wolf-shaper"
         }
       }
     },
@@ -269,93 +224,93 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.8",
+      "version": "3.2.5",
       "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
             "Effect",
-            "Distortion",
-            "Editor"
+            "Reverb",
+            "Plate"
           ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066
+              "name": "dragonfly-reverb.flac",
+              "size": 82471
             },
             "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286
+              "name": "dragonfly-reverb.jpg",
+              "size": 119902
             },
             "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6921808
             },
             "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4542730
             },
             "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9359636
             }
           },
-          "release": "v0.1.8",
-          "repo": "studiorack/wolf-shaper"
+          "release": "v3.2.5",
+          "repo": "studiorack/dragonfly-reverb"
         }
       }
     },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
+    "studiorack/diopser/diopser": {
+      "id": "studiorack/diopser/diopser",
       "license": "gpl-3.0",
-      "version": "1.4.0",
+      "version": "0.0.1",
       "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
           "tags": [
             "Effect",
-            "Amplifier",
-            "Tube"
+            "Phaser",
+            "Frequency"
           ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
+          "version": "0.0.1",
+          "id": "diopser",
+          "date": "2021-11-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "swankyamp.flac",
-              "size": 94744
+              "name": "diopser.flac",
+              "size": 77049
             },
             "image": {
-              "name": "swankyamp.jpg",
-              "size": 93556
+              "name": "diopser.jpg",
+              "size": 43851
             },
             "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
+              "name": "diopser-linux.zip",
+              "size": 1767254
             },
             "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
+              "name": "diopser-mac.zip",
+              "size": 1894438
             },
             "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
+              "name": "diopser-win.zip",
+              "size": 2017988
             }
           },
-          "release": "v1.4.0",
-          "repo": "studiorack/swankyamp"
+          "release": "v0.0.1",
+          "repo": "studiorack/diopser"
         }
       }
     },
@@ -404,48 +359,48 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
           "tags": [
             "Effect",
             "Amplifier",
-            "Volume"
+            "Tube"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405
+              "name": "swankyamp.flac",
+              "size": 94744
             },
             "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141
+              "name": "swankyamp.jpg",
+              "size": 93556
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "swankyamp-win.zip",
+              "size": 2155426
             }
           },
-          "release": "v0.1.0",
-          "repo": "studiorack/ampli-fe"
+          "release": "v1.4.0",
+          "repo": "studiorack/swankyamp"
         }
       }
     },
@@ -491,6 +446,51 @@
           },
           "release": "v2.8.0",
           "repo": "studiorack/chow-tape-model"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "repo": "studiorack/ampli-fe"
         }
       }
     },
@@ -986,51 +986,6 @@
         }
       }
     },
-    "studiorack/mda/mda": {
-      "id": "studiorack/mda/mda",
-      "license": "gpl-3.0",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
-          ],
-          "version": "1.0.4",
-          "id": "mda",
-          "date": "2020-12-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mda.flac",
-              "size": 127392
-            },
-            "image": {
-              "name": "mda.jpg",
-              "size": 104156
-            },
-            "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938
-            },
-            "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516
-            },
-            "win": {
-              "name": "mda-win.zip",
-              "size": 1247768
-            }
-          },
-          "release": "v1.0.4",
-          "repo": "studiorack/mda"
-        }
-      }
-    },
     "studiorack/airwindows/airwindows": {
       "id": "studiorack/airwindows/airwindows",
       "license": "mit",
@@ -1076,6 +1031,51 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/airwindows"
+        }
+      }
+    },
+    "studiorack/mda/mda": {
+      "id": "studiorack/mda/mda",
+      "license": "gpl-3.0",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "version": "1.0.4",
+          "id": "mda",
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.flac",
+              "size": 127392
+            },
+            "image": {
+              "name": "mda.jpg",
+              "size": 104156
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768
+            }
+          },
+          "release": "v1.0.4",
+          "repo": "studiorack/mda"
         }
       }
     }
