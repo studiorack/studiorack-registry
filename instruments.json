@@ -20,12 +20,12 @@
           "date": "2021-02-01T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "opl.wav",
-              "size": 352844
+              "name": "opl.flac",
+              "size": 65277
             },
             "image": {
-              "name": "opl.png",
-              "size": 17227
+              "name": "opl.jpg",
+              "size": 50828
             },
             "linux": {
               "name": "opl-linux.zip",
@@ -42,51 +42,6 @@
           },
           "release": "v2.1.0",
           "repo": "studiorack/opl"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "repo": "studiorack/oxe"
         }
       }
     },
@@ -110,12 +65,12 @@
           "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
+              "name": "andes.flac",
+              "size": 12493
             },
             "image": {
-              "name": "andes.png",
-              "size": 33884
+              "name": "andes.jpg",
+              "size": 27379
             },
             "linux": {
               "name": "andes-linux.zip",
@@ -132,6 +87,51 @@
           },
           "release": "v0.2.0",
           "repo": "studiorack/andes"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5",
+          "repo": "studiorack/oxe"
         }
       }
     },
@@ -225,6 +225,51 @@
         }
       }
     },
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.flac",
+              "size": 51235
+            },
+            "image": {
+              "name": "dexed.jpg",
+              "size": 282883
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.zip",
+              "size": 2588488
+            }
+          },
+          "release": "v0.9.6",
+          "repo": "studiorack/dexed"
+        }
+      }
+    },
     "studiorack/kars/kars": {
       "id": "studiorack/kars/kars",
       "license": "isc",
@@ -245,24 +290,24 @@
           "date": "2019-11-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "kars.wav",
-              "size": 352844
+              "name": "kars.flac",
+              "size": 52170
             },
             "image": {
-              "name": "kars.png",
-              "size": 174131
+              "name": "kars.jpg",
+              "size": 16547
             },
             "linux": {
               "name": "kars-linux.zip",
-              "size": 1149271
+              "size": 1146039
             },
             "mac": {
               "name": "kars-mac.zip",
-              "size": 1327762
+              "size": 1330027
             },
             "win": {
               "name": "kars-win.zip",
-              "size": 1175194
+              "size": 1177464
             }
           },
           "release": "v1.0.0",
@@ -290,12 +335,12 @@
           "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
+              "name": "tunefish.flac",
+              "size": 239665
             },
             "image": {
-              "name": "tunefish.png",
-              "size": 380571
+              "name": "tunefish.jpg",
+              "size": 107198
             },
             "linux": {
               "name": "tunefish-linux.zip",
@@ -312,51 +357,6 @@
           },
           "release": "v4.2.0",
           "repo": "studiorack/tunefish"
-        }
-      }
-    },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "dexed.png",
-              "size": 450543
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
-            },
-            "win": {
-              "name": "dexed-win.zip",
-              "size": 2588488
-            }
-          },
-          "release": "v0.9.6",
-          "repo": "studiorack/dexed"
         }
       }
     },
@@ -472,12 +472,12 @@
           "date": "2021-05-30T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "obxd.wav",
-              "size": 352844
+              "name": "obxd.flac",
+              "size": 63794
             },
             "image": {
-              "name": "obxd.png",
-              "size": 679563
+              "name": "obxd.jpg",
+              "size": 76569
             },
             "linux": {
               "name": "obxd-linux.zip",
@@ -517,12 +517,12 @@
           "date": "2021-02-17T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "vital.wav",
-              "size": 352844
+              "name": "vital.flac",
+              "size": 72507
             },
             "image": {
-              "name": "vital.png",
-              "size": 380571
+              "name": "vital.jpg",
+              "size": 68534
             },
             "linux": {
               "name": "vital-linux.zip",
@@ -539,141 +539,6 @@
           },
           "release": "v1.0.7",
           "repo": "studiorack/vital"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3",
-          "repo": "studiorack/octasine"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0",
-          "repo": "studiorack/helm"
-        }
-      }
-    },
-    "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
-      "version": "3.1.0",
-      "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "3.1.0",
-          "id": "juicysf",
-          "date": "2022-02-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "juicysf.flac",
-              "size": 83683
-            },
-            "image": {
-              "name": "juicysf.jpg",
-              "size": 116895
-            },
-            "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 19050275
-            },
-            "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275
-            },
-            "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510
-            }
-          },
-          "release": "3.1.0",
-          "repo": "studiorack/juicysf"
         }
       }
     },
@@ -697,24 +562,24 @@
           "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "nekobi.wav",
-              "size": 352844
+              "name": "nekobi.flac",
+              "size": 54778
             },
             "image": {
-              "name": "nekobi.png",
-              "size": 50361
+              "name": "nekobi.jpg",
+              "size": 14389
             },
             "linux": {
               "name": "nekobi-linux.zip",
-              "size": 865321
+              "size": 861637
             },
             "mac": {
               "name": "nekobi-mac.zip",
-              "size": 997364
+              "size": 1001626
             },
             "win": {
               "name": "nekobi-win.zip",
-              "size": 983729
+              "size": 984470
             }
           },
           "release": "v1.0.0",
@@ -765,6 +630,96 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0",
+          "repo": "studiorack/helm"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "id": "studiorack/juicysf/juicysf",
+      "license": "gpl-3.0",
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "3.1.0",
+          "id": "juicysf",
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510
+            }
+          },
+          "release": "3.1.0",
+          "repo": "studiorack/juicysf"
         }
       }
     },
@@ -924,12 +879,12 @@
           "date": "2020-01-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ninjas2.wav",
-              "size": 352844
+              "name": "ninjas2.flac",
+              "size": 63564
             },
             "image": {
-              "name": "ninjas2.png",
-              "size": 139641
+              "name": "ninjas2.jpg",
+              "size": 88079
             },
             "linux": {
               "name": "ninjas2-linux.zip",
@@ -969,12 +924,12 @@
           "date": "2019-09-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "digits.wav",
-              "size": 134990
+              "name": "digits.flac",
+              "size": 56084
             },
             "image": {
-              "name": "digits.png",
-              "size": 97572
+              "name": "digits.jpg",
+              "size": 55074
             },
             "linux": {
               "name": "digits-linux.zip",
@@ -1040,6 +995,51 @@
         }
       }
     },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "repo": "studiorack/octasine"
+        }
+      }
+    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -1061,12 +1061,12 @@
           "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
+              "name": "ep-mk1.flac",
+              "size": 50454
             },
             "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
+              "name": "ep-mk1.jpg",
+              "size": 97173
             },
             "linux": {
               "name": "ep-mk1-linux.zip",
@@ -1157,19 +1157,19 @@
             },
             "image": {
               "name": "naked-drums.jpg",
-              "size": 24453
+              "size": 24452
             },
             "linux": {
               "name": "naked-drums.zip",
-              "size": 1288490188
+              "size": 1283342538
             },
             "mac": {
               "name": "naked-drums.zip",
-              "size": 1288490188
+              "size": 1283342538
             },
             "win": {
               "name": "naked-drums.zip",
-              "size": 1288490188
+              "size": 1283342538
             }
           },
           "release": "v1.0.0",
@@ -1197,12 +1197,12 @@
           "date": "2020-11-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "sfizz.wav",
-              "size": 352844
+              "name": "sfizz.flac",
+              "size": 47910
             },
             "image": {
-              "name": "sfizz.png",
-              "size": 44587
+              "name": "sfizz.jpg",
+              "size": 33976
             },
             "linux": {
               "name": "sfizz-linux.zip",
@@ -1242,12 +1242,12 @@
           "date": "2021-02-14T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tal-noisemaker.wav",
-              "size": 352844
+              "name": "tal-noisemaker.flac",
+              "size": 63114
             },
             "image": {
-              "name": "tal-noisemaker.png",
-              "size": 246238
+              "name": "tal-noisemaker.jpg",
+              "size": 92713
             },
             "linux": {
               "name": "tal-noisemaker-linux.zip",
@@ -1287,12 +1287,12 @@
           "date": "2021-04-21T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "surge.wav",
-              "size": 352844
+              "name": "surge.flac",
+              "size": 141339
             },
             "image": {
-              "name": "surge.png",
-              "size": 523598
+              "name": "surge.jpg",
+              "size": 159518
             },
             "linux": {
               "name": "surge-linux.zip",
@@ -1332,12 +1332,12 @@
           "date": "2020-10-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "odin.wav",
-              "size": 352844
+              "name": "odin.flac",
+              "size": 51889
             },
             "image": {
-              "name": "odin.png",
-              "size": 802665
+              "name": "odin.jpg",
+              "size": 123090
             },
             "linux": {
               "name": "odin-linux.zip",
@@ -1349,56 +1349,11 @@
             },
             "win": {
               "name": "odin-win.zip",
-              "size": 46173771
+              "size": 0
             }
           },
           "release": "v2.2.4",
           "repo": "studiorack/odin"
-        }
-      }
-    },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "os-251.png",
-              "size": 212651
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
-            }
-          },
-          "release": "v1.1.0",
-          "repo": "studiorack/os-251"
         }
       }
     },

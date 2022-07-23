@@ -20,12 +20,12 @@
           "date": "2021-02-01T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "opl.wav",
-              "size": 352844
+              "name": "opl.flac",
+              "size": 65277
             },
             "image": {
-              "name": "opl.png",
-              "size": 17227
+              "name": "opl.jpg",
+              "size": 50828
             },
             "linux": {
               "name": "opl-linux.zip",
@@ -64,12 +64,12 @@
           "date": "2013-02-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "argotlunar.wav",
-              "size": 352844
+              "name": "argotlunar.flac",
+              "size": 76050
             },
             "image": {
-              "name": "argotlunar.png",
-              "size": 48207
+              "name": "argotlunar.jpg",
+              "size": 36536
             },
             "linux": {
               "name": "argotlunar-linux.zip",
@@ -85,50 +85,6 @@
             }
           },
           "release": "v2.0.6"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "oxe.png",
-              "size": 98712
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
         }
       }
     },
@@ -152,12 +108,12 @@
           "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.wav",
-              "size": 429902
+              "name": "andes.flac",
+              "size": 12493
             },
             "image": {
-              "name": "andes.png",
-              "size": 33884
+              "name": "andes.jpg",
+              "size": 27379
             },
             "linux": {
               "name": "andes-linux.zip",
@@ -173,6 +129,50 @@
             }
           },
           "release": "v0.2.0"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
         }
       }
     },
@@ -264,94 +264,6 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "kars.png",
-              "size": 174131
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1149271
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1327762
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1175194
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "tunefish.png",
-              "size": 380571
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0"
-        }
-      }
-    },
     "studiorack/dexed/dexed": {
       "id": "studiorack/dexed/dexed",
       "license": "gpl-3.0",
@@ -372,12 +284,12 @@
           "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dexed.wav",
-              "size": 352844
+              "name": "dexed.flac",
+              "size": 51235
             },
             "image": {
-              "name": "dexed.png",
-              "size": 450543
+              "name": "dexed.jpg",
+              "size": 282883
             },
             "linux": {
               "name": "dexed-linux.zip",
@@ -416,12 +328,12 @@
           "date": "2019-04-15T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-spectrum.wav",
-              "size": 352844
+              "name": "wolf-spectrum.flac",
+              "size": 103066
             },
             "image": {
-              "name": "wolf-spectrum.png",
-              "size": 101160
+              "name": "wolf-spectrum.jpg",
+              "size": 17057
             },
             "linux": {
               "name": "wolf-spectrum-linux.zip",
@@ -437,6 +349,94 @@
             }
           },
           "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.flac",
+              "size": 52170
+            },
+            "image": {
+              "name": "kars.jpg",
+              "size": 16547
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1146039
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1330027
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1177464
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.flac",
+              "size": 239665
+            },
+            "image": {
+              "name": "tunefish.jpg",
+              "size": 107198
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0"
         }
       }
     },
@@ -460,24 +460,24 @@
           "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.wav",
-              "size": 352844
+              "name": "dragonfly-reverb.flac",
+              "size": 82471
             },
             "image": {
-              "name": "dragonfly-reverb.png",
-              "size": 394705
+              "name": "dragonfly-reverb.jpg",
+              "size": 119902
             },
             "linux": {
               "name": "dragonfly-reverb-linux.zip",
-              "size": 6926922
+              "size": 6921808
             },
             "mac": {
               "name": "dragonfly-reverb-mac.zip",
-              "size": 4527137
+              "size": 4542730
             },
             "win": {
               "name": "dragonfly-reverb-win.zip",
-              "size": 9353259
+              "size": 9359636
             }
           },
           "release": "v3.2.5"
@@ -504,16 +504,16 @@
           "date": "2021-11-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "diopser.wav",
-              "size": 352844
+              "name": "diopser.flac",
+              "size": 77049
             },
             "image": {
-              "name": "diopser.png",
-              "size": 120831
+              "name": "diopser.jpg",
+              "size": 43851
             },
             "linux": {
               "name": "diopser-linux.zip",
-              "size": 1769070
+              "size": 1767254
             },
             "mac": {
               "name": "diopser-mac.zip",
@@ -521,7 +521,7 @@
             },
             "win": {
               "name": "diopser-win.zip",
-              "size": 2019788
+              "size": 2017988
             }
           },
           "release": "v0.0.1"
@@ -637,12 +637,12 @@
           "date": "2013-03-25T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mverb.wav",
-              "size": 126798
+              "name": "mverb.flac",
+              "size": 41738
             },
             "image": {
-              "name": "mverb.png",
-              "size": 398787
+              "name": "mverb.jpg",
+              "size": 48422
             },
             "linux": {
               "name": "mverb-linux.zip",
@@ -681,12 +681,12 @@
           "date": "2020-12-09T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "smartguitaramp.wav",
-              "size": 352844
+              "name": "smartguitaramp.flac",
+              "size": 67467
             },
             "image": {
-              "name": "smartguitaramp.png",
-              "size": 756468
+              "name": "smartguitaramp.jpg",
+              "size": 105632
             },
             "linux": {
               "name": "smartguitaramp-linux.zip",
@@ -725,12 +725,12 @@
           "date": "2021-05-30T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "obxd.wav",
-              "size": 352844
+              "name": "obxd.flac",
+              "size": 63794
             },
             "image": {
-              "name": "obxd.png",
-              "size": 679563
+              "name": "obxd.jpg",
+              "size": 76569
             },
             "linux": {
               "name": "obxd-linux.zip",
@@ -769,12 +769,12 @@
           "date": "2021-02-17T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "vital.wav",
-              "size": 352844
+              "name": "vital.flac",
+              "size": 72507
             },
             "image": {
-              "name": "vital.png",
-              "size": 380571
+              "name": "vital.jpg",
+              "size": 68534
             },
             "linux": {
               "name": "vital-linux.zip",
@@ -790,314 +790,6 @@
             }
           },
           "release": "v1.0.7"
-        }
-      }
-    },
-    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
-      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
-      "license": "gpl-3.0",
-      "version": "1.13.0",
-      "versions": {
-        "1.13.0": {
-          "author": "Institute of Electronic Music and Acoustics",
-          "homepage": "https://plugins.iem.at",
-          "name": "IEM Plugin Suite",
-          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Delay"
-          ],
-          "version": "1.13.0",
-          "id": "iem-plugin-suite.jpg",
-          "date": "2021-11-27T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "iem-plugin-suite.flac",
-              "size": 112666
-            },
-            "image": {
-              "name": "iem-plugin-suite.jpg",
-              "size": 111401
-            },
-            "linux": {
-              "name": "iem-plugin-suite-linux.zip",
-              "size": 51310651
-            },
-            "mac": {
-              "name": "iem-plugin-suite-mac.zip",
-              "size": 115219195
-            },
-            "win": {
-              "name": "iem-plugin-suite-win.zip",
-              "size": 79870766
-            }
-          },
-          "release": "v1.13.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "modeq.png",
-              "size": 105317
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7109975
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3209964
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3719312
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "octasine.png",
-              "size": 679563
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "helm.png",
-              "size": 417945
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
-            },
-            "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
-            }
-          },
-          "release": "v0.9.0"
-        }
-      }
-    },
-    "studiorack/swankyamp/swankyamp": {
-      "id": "studiorack/swankyamp/swankyamp",
-      "license": "gpl-3.0",
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Tube"
-          ],
-          "version": "1.4.0",
-          "id": "swankyamp",
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "swankyamp.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "swankyamp.png",
-              "size": 494455
-            },
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426
-            }
-          },
-          "release": "v1.4.0"
-        }
-      }
-    },
-    "studiorack/regrader/regrader": {
-      "id": "studiorack/regrader/regrader",
-      "license": "mit",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Sync"
-          ],
-          "version": "1.0.4",
-          "id": "regrader",
-          "date": "2021-08-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "regrader.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "regrader.png",
-              "size": 576052
-            },
-            "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901
-            },
-            "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572
-            },
-            "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030
-            }
-          },
-          "release": "v1.0.4"
-        }
-      }
-    },
-    "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
-      "version": "3.1.0",
-      "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "3.1.0",
-          "id": "juicysf",
-          "date": "2022-02-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "juicysf.flac",
-              "size": 83683
-            },
-            "image": {
-              "name": "juicysf.jpg",
-              "size": 116895
-            },
-            "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 19050275
-            },
-            "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275
-            },
-            "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510
-            }
-          },
-          "release": "3.1.0"
         }
       }
     },
@@ -1121,24 +813,24 @@
           "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "nekobi.wav",
-              "size": 352844
+              "name": "nekobi.flac",
+              "size": 54778
             },
             "image": {
-              "name": "nekobi.png",
-              "size": 50361
+              "name": "nekobi.jpg",
+              "size": 14389
             },
             "linux": {
               "name": "nekobi-linux.zip",
-              "size": 865321
+              "size": 861637
             },
             "mac": {
               "name": "nekobi-mac.zip",
-              "size": 997364
+              "size": 1001626
             },
             "win": {
               "name": "nekobi-win.zip",
-              "size": 983729
+              "size": 984470
             }
           },
           "release": "v1.0.0"
@@ -1165,12 +857,12 @@
           "date": "2020-10-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-shaper.wav",
-              "size": 352844
+              "name": "wolf-shaper.flac",
+              "size": 103066
             },
             "image": {
-              "name": "wolf-shaper.png",
-              "size": 42563
+              "name": "wolf-shaper.jpg",
+              "size": 39286
             },
             "linux": {
               "name": "wolf-shaper-linux.zip",
@@ -1234,6 +926,182 @@
         }
       }
     },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 12294991
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 12827630
+            },
+            "win": {
+              "name": "helm-win.msi",
+              "size": 19533824
+            }
+          },
+          "release": "v0.9.0"
+        }
+      }
+    },
+    "studiorack/swankyamp/swankyamp": {
+      "id": "studiorack/swankyamp/swankyamp",
+      "license": "gpl-3.0",
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Tube"
+          ],
+          "version": "1.4.0",
+          "id": "swankyamp",
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "swankyamp.flac",
+              "size": 94744
+            },
+            "image": {
+              "name": "swankyamp.jpg",
+              "size": 93556
+            },
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426
+            }
+          },
+          "release": "v1.4.0"
+        }
+      }
+    },
+    "studiorack/regrader/regrader": {
+      "id": "studiorack/regrader/regrader",
+      "license": "mit",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Sync"
+          ],
+          "version": "1.0.4",
+          "id": "regrader",
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "regrader.flac",
+              "size": 86583
+            },
+            "image": {
+              "name": "regrader.jpg",
+              "size": 99822
+            },
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030
+            }
+          },
+          "release": "v1.0.4"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "id": "studiorack/juicysf/juicysf",
+      "license": "gpl-3.0",
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "3.1.0",
+          "id": "juicysf",
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510
+            }
+          },
+          "release": "3.1.0"
+        }
+      }
+    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -1254,12 +1122,12 @@
           "date": "2021-11-02T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.wav",
-              "size": 352844
+              "name": "ampli-fe.flac",
+              "size": 81405
             },
             "image": {
-              "name": "ampli-fe.png",
-              "size": 159478
+              "name": "ampli-fe.jpg",
+              "size": 27141
             },
             "linux": {
               "name": "ampli-fe-linux.zip",
@@ -1431,12 +1299,12 @@
           "date": "2021-04-20T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-tape-model.wav",
-              "size": 352844
+              "name": "chow-tape-model.flac",
+              "size": 72368
             },
             "image": {
-              "name": "chow-tape-model.png",
-              "size": 94400
+              "name": "chow-tape-model.jpg",
+              "size": 52419
             },
             "linux": {
               "name": "chow-tape-model-linux.zip",
@@ -1475,12 +1343,12 @@
           "date": "2020-01-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ninjas2.wav",
-              "size": 352844
+              "name": "ninjas2.flac",
+              "size": 63564
             },
             "image": {
-              "name": "ninjas2.png",
-              "size": 139641
+              "name": "ninjas2.jpg",
+              "size": 88079
             },
             "linux": {
               "name": "ninjas2-linux.zip",
@@ -1519,12 +1387,12 @@
           "date": "2019-09-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "digits.wav",
-              "size": 134990
+              "name": "digits.flac",
+              "size": 56084
             },
             "image": {
-              "name": "digits.png",
-              "size": 97572
+              "name": "digits.jpg",
+              "size": 55074
             },
             "linux": {
               "name": "digits-linux.zip",
@@ -1588,6 +1456,138 @@
         }
       }
     },
+    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
+      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
+      "license": "gpl-3.0",
+      "version": "1.13.0",
+      "versions": {
+        "1.13.0": {
+          "author": "Institute of Electronic Music and Acoustics",
+          "homepage": "https://plugins.iem.at",
+          "name": "IEM Plugin Suite",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Delay"
+          ],
+          "version": "1.13.0",
+          "id": "iem-plugin-suite.jpg",
+          "date": "2021-11-27T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "iem-plugin-suite.flac",
+              "size": 112666
+            },
+            "image": {
+              "name": "iem-plugin-suite.jpg",
+              "size": 111401
+            },
+            "linux": {
+              "name": "iem-plugin-suite-linux.zip",
+              "size": 51310651
+            },
+            "mac": {
+              "name": "iem-plugin-suite-mac.zip",
+              "size": 115219195
+            },
+            "win": {
+              "name": "iem-plugin-suite-win.zip",
+              "size": 79870766
+            }
+          },
+          "release": "v1.13.0"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919
+            }
+          },
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
+        }
+      }
+    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -1609,12 +1609,12 @@
           "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ep-mk1.wav",
-              "size": 352844
+              "name": "ep-mk1.flac",
+              "size": 50454
             },
             "image": {
-              "name": "ep-mk1.png",
-              "size": 139928
+              "name": "ep-mk1.jpg",
+              "size": 97173
             },
             "linux": {
               "name": "ep-mk1-linux.zip",
@@ -1703,19 +1703,19 @@
             },
             "image": {
               "name": "naked-drums.jpg",
-              "size": 24453
+              "size": 24452
             },
             "linux": {
               "name": "naked-drums.zip",
-              "size": 1288490188
+              "size": 1283342538
             },
             "mac": {
               "name": "naked-drums.zip",
-              "size": 1288490188
+              "size": 1283342538
             },
             "win": {
               "name": "naked-drums.zip",
-              "size": 1288490188
+              "size": 1283342538
             }
           },
           "release": "v1.0.0"
@@ -1742,12 +1742,12 @@
           "date": "2020-11-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "sfizz.wav",
-              "size": 352844
+              "name": "sfizz.flac",
+              "size": 47910
             },
             "image": {
-              "name": "sfizz.png",
-              "size": 44587
+              "name": "sfizz.jpg",
+              "size": 33976
             },
             "linux": {
               "name": "sfizz-linux.zip",
@@ -1785,12 +1785,12 @@
           "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mini-series-eq.wav",
-              "size": 352844
+              "name": "mini-series-eq.flac",
+              "size": 79282
             },
             "image": {
-              "name": "mini-series-eq.png",
-              "size": 195027
+              "name": "mini-series-eq.jpg",
+              "size": 18650
             },
             "linux": {
               "name": "mini-series-eq-linux.zip",
@@ -1828,12 +1828,12 @@
           "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mini-series-splitter.wav",
-              "size": 352844
+              "name": "mini-series-splitter.flac",
+              "size": 76826
             },
             "image": {
-              "name": "mini-series-splitter.png",
-              "size": 91635
+              "name": "mini-series-splitter.jpg",
+              "size": 18493
             },
             "linux": {
               "name": "mini-series-splitter-linux.zip",
@@ -1871,12 +1871,12 @@
           "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mini-series-pan.wav",
-              "size": 352844
+              "name": "mini-series-pan.flac",
+              "size": 70115
             },
             "image": {
-              "name": "mini-series-pan.png",
-              "size": 91635
+              "name": "mini-series-pan.jpg",
+              "size": 11264
             },
             "linux": {
               "name": "mini-series-pan-linux.zip",
@@ -1915,12 +1915,12 @@
           "date": "2021-05-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tal-chorus.wav",
-              "size": 352844
+              "name": "tal-chorus.flac",
+              "size": 78645
             },
             "image": {
-              "name": "tal-chorus.png",
-              "size": 59369
+              "name": "tal-chorus.jpg",
+              "size": 31671
             },
             "linux": {
               "name": "tal-chorus-linux.zip",
@@ -1959,12 +1959,12 @@
           "date": "2021-03-07T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tal-filter.wav",
-              "size": 352844
+              "name": "tal-filter.flac",
+              "size": 70390
             },
             "image": {
-              "name": "tal-filter.png",
-              "size": 102407
+              "name": "tal-filter.jpg",
+              "size": 74456
             },
             "linux": {
               "name": "tal-filter-linux.zip",
@@ -2003,12 +2003,12 @@
           "date": "2021-02-14T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tal-noisemaker.wav",
-              "size": 352844
+              "name": "tal-noisemaker.flac",
+              "size": 63114
             },
             "image": {
-              "name": "tal-noisemaker.png",
-              "size": 246238
+              "name": "tal-noisemaker.jpg",
+              "size": 92713
             },
             "linux": {
               "name": "tal-noisemaker-linux.zip",
@@ -2047,12 +2047,12 @@
           "date": "2021-02-11T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tal-reverb.wav",
-              "size": 352844
+              "name": "tal-reverb.flac",
+              "size": 109498
             },
             "image": {
-              "name": "tal-reverb.png",
-              "size": 142655
+              "name": "tal-reverb.jpg",
+              "size": 59550
             },
             "linux": {
               "name": "tal-reverb-linux.zip",
@@ -2060,11 +2060,11 @@
             },
             "mac": {
               "name": "tal-reverb-mac.zip",
-              "size": 7575145
+              "size": 11515261
             },
             "win": {
               "name": "tal-reverb-win.zip",
-              "size": 7764121
+              "size": 7575145
             }
           },
           "release": "v1.0.0"
@@ -2091,12 +2091,12 @@
           "date": "2021-01-28T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tal-vocoder.wav",
-              "size": 352844
+              "name": "tal-vocoder.flac",
+              "size": 99144
             },
             "image": {
-              "name": "tal-vocoder.png",
-              "size": 56378
+              "name": "tal-vocoder.jpg",
+              "size": 28705
             },
             "linux": {
               "name": "tal-vocoder-linux.zip",
@@ -2135,12 +2135,12 @@
           "date": "2021-04-21T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "surge.wav",
-              "size": 352844
+              "name": "surge.flac",
+              "size": 141339
             },
             "image": {
-              "name": "surge.png",
-              "size": 523598
+              "name": "surge.jpg",
+              "size": 159518
             },
             "linux": {
               "name": "surge-linux.zip",
@@ -2179,12 +2179,12 @@
           "date": "2020-10-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "odin.wav",
-              "size": 352844
+              "name": "odin.flac",
+              "size": 51889
             },
             "image": {
-              "name": "odin.png",
-              "size": 802665
+              "name": "odin.jpg",
+              "size": 123090
             },
             "linux": {
               "name": "odin-linux.zip",
@@ -2196,7 +2196,7 @@
             },
             "win": {
               "name": "odin-win.zip",
-              "size": 46173771
+              "size": 0
             }
           },
           "release": "v2.2.4"
@@ -2223,12 +2223,12 @@
           "date": "2021-04-23T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-matrix.wav",
-              "size": 352844
+              "name": "chow-matrix.flac",
+              "size": 71529
             },
             "image": {
-              "name": "chow-matrix.png",
-              "size": 181814
+              "name": "chow-matrix.jpg",
+              "size": 74210
             },
             "linux": {
               "name": "chow-matrix-linux.zip",
@@ -2267,12 +2267,12 @@
           "date": "2018-04-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "temper.wav",
-              "size": 352844
+              "name": "temper.flac",
+              "size": 95804
             },
             "image": {
-              "name": "temper.png",
-              "size": 551686
+              "name": "temper.jpg",
+              "size": 62400
             },
             "linux": {
               "name": "temper-linux.zip",
@@ -2288,50 +2288,6 @@
             }
           },
           "release": "v1.1.1"
-        }
-      }
-    },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.wav",
-              "size": 352844
-            },
-            "image": {
-              "name": "os-251.png",
-              "size": 212651
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
-            }
-          },
-          "release": "v1.1.0"
         }
       }
     },
@@ -2355,12 +2311,12 @@
           "date": "2020-12-20T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mda.wav",
-              "size": 352844
+              "name": "mda.flac",
+              "size": 127392
             },
             "image": {
-              "name": "mda.png",
-              "size": 305613
+              "name": "mda.jpg",
+              "size": 104156
             },
             "linux": {
               "name": "mda-linux.zip",
@@ -2598,6 +2554,6 @@
       }
     }
   },
-  "time": "2022-07-17T00:57:25.763Z",
-  "total": 58
+  "time": "2022-07-23T03:17:07.157Z",
+  "total": 57
 }
