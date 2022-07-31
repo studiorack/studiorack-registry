@@ -177,50 +177,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.flac",
-              "size": 66799
-            },
-            "image": {
-              "name": "oxe.jpg",
-              "size": 91580
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -306,6 +262,50 @@
             }
           },
           "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
         }
       }
     },
@@ -663,181 +663,6 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.flac",
-              "size": 63794
-            },
-            "image": {
-              "name": "obxd.jpg",
-              "size": 76569
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/vital/vital": {
-      "id": "studiorack/vital/vital",
-      "license": "gpl-3.0",
-      "version": "1.0.7",
-      "versions": {
-        "1.0.7": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/vital",
-          "name": "Vital",
-          "description": "Spectral warping wavetable synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Spectral"
-          ],
-          "version": "1.0.7",
-          "id": "vital",
-          "date": "2021-02-17T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vital.flac",
-              "size": 72507
-            },
-            "image": {
-              "name": "vital.jpg",
-              "size": 68534
-            },
-            "linux": {
-              "name": "vital-linux.zip",
-              "size": 26219711
-            },
-            "mac": {
-              "name": "vital-mac.zip",
-              "size": 11198493
-            },
-            "win": {
-              "name": "vital-win.zip",
-              "size": 9211205
-            }
-          },
-          "release": "v1.0.7"
-        }
-      }
-    },
     "studiorack/helm/helm": {
       "id": "studiorack/helm/helm",
       "license": "gpl-3.0",
@@ -1011,139 +836,6 @@
             }
           },
           "release": "3.1.0"
-        }
-      }
-    },
-    "studiorack/nekobi/nekobi": {
-      "id": "studiorack/nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "nekobi.flac",
-              "size": 54778
-            },
-            "image": {
-              "name": "nekobi.jpg",
-              "size": 14389
-            },
-            "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 861637
-            },
-            "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 1001626
-            },
-            "win": {
-              "name": "nekobi-win.zip",
-              "size": 984470
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
-      "license": "gpl-3.0",
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066
-            },
-            "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
-            }
-          },
-          "release": "v0.1.8"
-        }
-      }
-    },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            }
-          },
-          "release": "v1.0.0"
         }
       }
     },
@@ -1324,6 +1016,314 @@
         }
       }
     },
+    "studiorack/nekobi/nekobi": {
+      "id": "studiorack/nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "nekobi.flac",
+              "size": 54778
+            },
+            "image": {
+              "name": "nekobi.jpg",
+              "size": 14389
+            },
+            "linux": {
+              "name": "nekobi-linux.zip",
+              "size": 861637
+            },
+            "mac": {
+              "name": "nekobi-mac.zip",
+              "size": 1001626
+            },
+            "win": {
+              "name": "nekobi-win.zip",
+              "size": 984470
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Editor"
+          ],
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.flac",
+              "size": 103066
+            },
+            "image": {
+              "name": "wolf-shaper.jpg",
+              "size": 39286
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
+            }
+          },
+          "release": "v0.1.8"
+        }
+      }
+    },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "id": "studiorack/jrhodes-3c/jrhodes-3c",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "jrhodes-3c",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jrhodes-3c.flac",
+              "size": 64422
+            },
+            "image": {
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
+            },
+            "linux": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "mac": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "win": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/vital/vital": {
+      "id": "studiorack/vital/vital",
+      "license": "gpl-3.0",
+      "version": "1.0.7",
+      "versions": {
+        "1.0.7": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/vital",
+          "name": "Vital",
+          "description": "Spectral warping wavetable synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Spectral"
+          ],
+          "version": "1.0.7",
+          "id": "vital",
+          "date": "2021-02-17T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vital.flac",
+              "size": 72507
+            },
+            "image": {
+              "name": "vital.jpg",
+              "size": 68534
+            },
+            "linux": {
+              "name": "vital-linux.zip",
+              "size": 26219711
+            },
+            "mac": {
+              "name": "vital-mac.zip",
+              "size": 11198493
+            },
+            "win": {
+              "name": "vital-win.zip",
+              "size": 9211205
+            }
+          },
+          "release": "v1.0.7"
+        }
+      }
+    },
     "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
       "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
@@ -1408,6 +1408,50 @@
             "win": {
               "name": "SynthesizerPercussion-20220718.zip",
               "size": 1663242
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/vst2413/vst2413": {
+      "id": "studiorack/vst2413/vst2413",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "version": "1.0.0",
+          "id": "vst2413",
+          "date": "2013-04-21T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vst2413.flac",
+              "size": 347527
+            },
+            "image": {
+              "name": "vst2413.jpg",
+              "size": 22493
+            },
+            "linux": {
+              "name": "vst2413-linux.zip",
+              "size": 386422
+            },
+            "mac": {
+              "name": "vst2413-mac.zip",
+              "size": 187561
+            },
+            "win": {
+              "name": "vst2413-win.zip",
+              "size": 228506
             }
           },
           "release": "v1.0.0"
@@ -2823,6 +2867,6 @@
       }
     }
   },
-  "time": "2022-07-24T00:58:22.652Z",
-  "total": 63
+  "time": "2022-07-31T00:56:05.369Z",
+  "total": 64
 }
