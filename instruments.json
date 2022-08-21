@@ -679,93 +679,140 @@
         }
       }
     },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
-      "version": "0.9.0",
+      "version": "3.2.2",
       "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
           "tags": [
             "Instrument",
-            "Synth",
-            "Modulation"
+            "Orchestral",
+            "Strings",
+            "sfz"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.flac",
-              "size": 75330
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
             },
             "image": {
-              "name": "helm.jpg",
-              "size": 118535
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 12294991
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "mac": {
-              "name": "helm-mac.zip",
-              "size": 12827630
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "win": {
-              "name": "helm-win.msi",
-              "size": 19533824
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             }
           },
-          "release": "v0.9.0",
-          "repo": "studiorack/helm"
+          "release": "v3.2.2",
+          "repo": "studiorack/virtual-playing-orchestra"
         }
       }
     },
-    "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
-      "version": "3.1.0",
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
       "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music.",
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
           "tags": [
             "Instrument",
-            "Sampler",
-            "Synth"
+            "Drums",
+            "Electro",
+            "sfz"
           ],
-          "version": "3.1.0",
-          "id": "juicysf",
-          "date": "2022-02-13T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "synthesizer-percussion",
+          "date": "2022-07-18T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "juicysf.flac",
-              "size": 83683
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815
             },
             "image": {
-              "name": "juicysf.jpg",
-              "size": 38148
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466
             },
             "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 0
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
             },
             "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
             },
             "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
             }
           },
-          "release": "3.1.0",
-          "repo": "studiorack/juicysf"
+          "release": "v1.0.0",
+          "repo": "freepats/synthesizer-percussion"
+        }
+      }
+    },
+    "studiorack/vst2413/vst2413": {
+      "id": "studiorack/vst2413/vst2413",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "version": "1.0.0",
+          "id": "vst2413",
+          "date": "2013-04-21T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vst2413.flac",
+              "size": 347527
+            },
+            "image": {
+              "name": "vst2413.jpg",
+              "size": 22493
+            },
+            "linux": {
+              "name": "vst2413-linux.zip",
+              "size": 386422
+            },
+            "mac": {
+              "name": "vst2413-mac.zip",
+              "size": 187561
+            },
+            "win": {
+              "name": "vst2413-win.zip",
+              "size": 228506
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/vst2413"
         }
       }
     },
@@ -951,140 +998,93 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
       "license": "gpl-3.0",
-      "version": "3.2.2",
+      "version": "0.9.0",
       "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2",
-          "repo": "studiorack/virtual-playing-orchestra"
-        }
-      }
-    },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "freepats/synthesizer-percussion"
-        }
-      }
-    },
-    "studiorack/vst2413/vst2413": {
-      "id": "studiorack/vst2413/vst2413",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Keijiro Takahashi",
-          "homepage": "http://www.keijiro.tokyo/vst2413/",
-          "name": "VST2413",
-          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
           "tags": [
             "Instrument",
             "Synth",
-            "Bit"
+            "Modulation"
           ],
-          "version": "1.0.0",
-          "id": "vst2413",
-          "date": "2013-04-21T08:00:00.000Z",
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "vst2413.flac",
-              "size": 347527
+              "name": "helm.flac",
+              "size": 75330
             },
             "image": {
-              "name": "vst2413.jpg",
-              "size": 22493
+              "name": "helm.jpg",
+              "size": 118535
             },
             "linux": {
-              "name": "vst2413-linux.zip",
-              "size": 386422
+              "name": "helm-linux.zip",
+              "size": 12294991
             },
             "mac": {
-              "name": "vst2413-mac.zip",
-              "size": 187561
+              "name": "helm-mac.zip",
+              "size": 12827630
             },
             "win": {
-              "name": "vst2413-win.zip",
-              "size": 228506
+              "name": "helm-win.msi",
+              "size": 19533824
             }
           },
-          "release": "v1.0.0",
-          "repo": "studiorack/vst2413"
+          "release": "v0.9.0",
+          "repo": "studiorack/helm"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "id": "studiorack/juicysf/juicysf",
+      "license": "gpl-3.0",
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "3.1.0",
+          "id": "juicysf",
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510
+            }
+          },
+          "release": "3.1.0",
+          "repo": "studiorack/juicysf"
         }
       }
     },
@@ -1406,6 +1406,141 @@
         }
       }
     },
+    "studiorack/sfizz/sfizz": {
+      "id": "studiorack/sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "1.1.1",
+          "id": "sfizz",
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698
+            }
+          },
+          "release": "v1.1.1",
+          "repo": "studiorack/sfizz"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-noisemaker": {
+      "id": "studiorack/distrho-ports/tal-noisemaker",
+      "license": "other",
+      "version": "5.0.4",
+      "versions": {
+        "5.0.4": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Noisemaker",
+          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "5.0.4",
+          "id": "tal-noisemaker",
+          "date": "2021-02-14T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-noisemaker.flac",
+              "size": 63114
+            },
+            "image": {
+              "name": "tal-noisemaker.jpg",
+              "size": 92713
+            },
+            "linux": {
+              "name": "tal-noisemaker-linux.zip",
+              "size": 4572081
+            },
+            "mac": {
+              "name": "tal-noisemaker-mac.zip",
+              "size": 11980734
+            },
+            "win": {
+              "name": "tal-noisemaker-win.zip",
+              "size": 7764121
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/surge/surge": {
+      "id": "studiorack/surge/surge",
+      "license": "gpl-3.0",
+      "version": "1.9.0",
+      "versions": {
+        "1.9.0": {
+          "author": "Surge Synth Team",
+          "homepage": "https://surge-synthesizer.github.io",
+          "name": "Surge XT",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "1.9.0",
+          "id": "surge",
+          "date": "2021-04-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "surge.flac",
+              "size": 141339
+            },
+            "image": {
+              "name": "surge.jpg",
+              "size": 159518
+            },
+            "linux": {
+              "name": "surge-linux.zip",
+              "size": 34112118
+            },
+            "mac": {
+              "name": "surge-mac.zip",
+              "size": 61103675
+            },
+            "win": {
+              "name": "surge-win.zip",
+              "size": 16772957
+            }
+          },
+          "release": "v1.9.0",
+          "repo": "studiorack/surge"
+        }
+      }
+    },
     "studiorack/odin/odin": {
       "id": "studiorack/odin/odin",
       "license": "gpl-3.0",
@@ -1713,141 +1848,6 @@
           },
           "release": "v1.0.0",
           "repo": "freepats/spanish-classical-guitar"
-        }
-      }
-    },
-    "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "1.1.1",
-          "id": "sfizz",
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698
-            }
-          },
-          "release": "v1.1.1",
-          "repo": "studiorack/sfizz"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-noisemaker": {
-      "id": "studiorack/distrho-ports/tal-noisemaker",
-      "license": "other",
-      "version": "5.0.4",
-      "versions": {
-        "5.0.4": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Noisemaker",
-          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "5.0.4",
-          "id": "tal-noisemaker",
-          "date": "2021-02-14T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-noisemaker.flac",
-              "size": 63114
-            },
-            "image": {
-              "name": "tal-noisemaker.jpg",
-              "size": 92713
-            },
-            "linux": {
-              "name": "tal-noisemaker-linux.zip",
-              "size": 4572081
-            },
-            "mac": {
-              "name": "tal-noisemaker-mac.zip",
-              "size": 11980734
-            },
-            "win": {
-              "name": "tal-noisemaker-win.zip",
-              "size": 7764121
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/distrho-ports"
-        }
-      }
-    },
-    "studiorack/surge/surge": {
-      "id": "studiorack/surge/surge",
-      "license": "gpl-3.0",
-      "version": "1.9.0",
-      "versions": {
-        "1.9.0": {
-          "author": "Surge Synth Team",
-          "homepage": "https://surge-synthesizer.github.io",
-          "name": "Surge XT",
-          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "1.9.0",
-          "id": "surge",
-          "date": "2021-04-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "surge.flac",
-              "size": 141339
-            },
-            "image": {
-              "name": "surge.jpg",
-              "size": 159518
-            },
-            "linux": {
-              "name": "surge-linux.zip",
-              "size": 34112118
-            },
-            "mac": {
-              "name": "surge-mac.zip",
-              "size": 61103675
-            },
-            "win": {
-              "name": "surge-win.zip",
-              "size": 16772957
-            }
-          },
-          "release": "v1.9.0",
-          "repo": "studiorack/surge"
         }
       }
     }
