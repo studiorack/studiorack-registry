@@ -91,6 +91,51 @@
         }
       }
     },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5",
+          "repo": "studiorack/oxe"
+        }
+      }
+    },
     "studiorack/andes/andes": {
       "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
@@ -226,48 +271,48 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
       "license": "gpl-3.0",
-      "version": "1.3.5",
+      "version": "4.0.0",
       "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
             "Instrument",
             "Synth",
-            "FM"
+            "Analog"
           ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "oxe.flac",
-              "size": 66799
+              "name": "tunefish.flac",
+              "size": 239665
             },
             "image": {
-              "name": "oxe.jpg",
-              "size": 91580
+              "name": "tunefish.jpg",
+              "size": 107198
             },
             "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
+              "name": "tunefish-linux.zip",
+              "size": 3569540
             },
             "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
+              "name": "tunefish-mac.zip",
+              "size": 6443515
             },
             "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
+              "name": "tunefish-win.zip",
+              "size": 4147020
             }
           },
-          "release": "v1.3.5",
-          "repo": "studiorack/oxe"
+          "release": "v4.2.0",
+          "repo": "studiorack/tunefish"
         }
       }
     },
@@ -313,51 +358,6 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/kars"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.flac",
-              "size": 239665
-            },
-            "image": {
-              "name": "tunefish.jpg",
-              "size": 107198
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0",
-          "repo": "studiorack/tunefish"
         }
       }
     },
@@ -452,52 +452,6 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/splendid-grand-piano"
-        }
-      }
-    },
     "studiorack/obxd/obxd": {
       "id": "studiorack/obxd/obxd",
       "license": "gpl-3.0",
@@ -540,51 +494,6 @@
           },
           "release": "v2.4.0",
           "repo": "studiorack/obxd"
-        }
-      }
-    },
-    "studiorack/vital/vital": {
-      "id": "studiorack/vital/vital",
-      "license": "gpl-3.0",
-      "version": "1.0.7",
-      "versions": {
-        "1.0.7": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/vital",
-          "name": "Vital",
-          "description": "Spectral warping wavetable synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Spectral"
-          ],
-          "version": "1.0.7",
-          "id": "vital",
-          "date": "2021-02-17T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vital.flac",
-              "size": 72507
-            },
-            "image": {
-              "name": "vital.jpg",
-              "size": 68534
-            },
-            "linux": {
-              "name": "vital-linux.zip",
-              "size": 26219711
-            },
-            "mac": {
-              "name": "vital-mac.zip",
-              "size": 11198493
-            },
-            "win": {
-              "name": "vital-win.zip",
-              "size": 9211205
-            }
-          },
-          "release": "v1.0.7",
-          "repo": "studiorack/vital"
         }
       }
     },
@@ -679,140 +588,49 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2",
-          "repo": "studiorack/virtual-playing-orchestra"
-        }
-      }
-    },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "freepats/synthesizer-percussion"
-        }
-      }
-    },
-    "studiorack/vst2413/vst2413": {
-      "id": "studiorack/vst2413/vst2413",
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
       "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Keijiro Takahashi",
-          "homepage": "http://www.keijiro.tokyo/vst2413/",
-          "name": "VST2413",
-          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
           "tags": [
             "Instrument",
-            "Synth",
-            "Bit"
+            "Keys",
+            "Piano",
+            "sfz"
           ],
           "version": "1.0.0",
-          "id": "vst2413",
-          "date": "2013-04-21T08:00:00.000Z",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "vst2413.flac",
-              "size": 347527
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
             },
             "image": {
-              "name": "vst2413.jpg",
-              "size": 22493
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
             },
             "linux": {
-              "name": "vst2413-linux.zip",
-              "size": 386422
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "mac": {
-              "name": "vst2413-mac.zip",
-              "size": 187561
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "win": {
-              "name": "vst2413-win.zip",
-              "size": 228506
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             }
           },
           "release": "v1.0.0",
-          "repo": "studiorack/vst2413"
+          "repo": "studiorack/splendid-grand-piano"
         }
       }
     },
@@ -1088,6 +906,143 @@
         }
       }
     },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2",
+          "repo": "studiorack/virtual-playing-orchestra"
+        }
+      }
+    },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "synthesizer-percussion",
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "freepats/synthesizer-percussion"
+        }
+      }
+    },
+    "studiorack/vst2413/vst2413": {
+      "id": "studiorack/vst2413/vst2413",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "version": "1.0.0",
+          "id": "vst2413",
+          "date": "2013-04-21T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vst2413.flac",
+              "size": 347527
+            },
+            "image": {
+              "name": "vst2413.jpg",
+              "size": 22493
+            },
+            "linux": {
+              "name": "vst2413-linux.zip",
+              "size": 386422
+            },
+            "mac": {
+              "name": "vst2413-mac.zip",
+              "size": 187561
+            },
+            "win": {
+              "name": "vst2413-win.zip",
+              "size": 228506
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/vst2413"
+        }
+      }
+    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -1225,51 +1180,6 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3",
-          "repo": "studiorack/octasine"
-        }
-      }
-    },
     "studiorack/carla/carla": {
       "id": "studiorack/carla/carla",
       "license": "other",
@@ -1403,6 +1313,51 @@
           },
           "release": "v3.0.0",
           "repo": "studiorack/salamander-grand-piano"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "repo": "studiorack/octasine"
         }
       }
     },
@@ -1586,48 +1541,93 @@
         }
       }
     },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
+    "studiorack/opl3-soundfont/opl3-soundfont": {
+      "id": "studiorack/opl3-soundfont/opl3-soundfont",
+      "license": "cc-by-sa-4.0",
+      "version": "1.0.0",
       "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
+        "1.0.0": {
+          "author": "Zandro Reveille",
+          "homepage": "https://github.com/Mindwerks/opl3-soundfont",
+          "name": "OPL-3 FM 128M",
+          "description": "SoundFont designed to simulate the classic MIDI sound of the Sound Blaster 16 (and other YM262 enabled hardware)",
           "tags": [
             "Instrument",
             "Synth",
-            "Lofi"
+            "sf2"
           ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "opl3-soundfont",
+          "date": "2017-02-08T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "os-251.flac",
-              "size": 115597
+              "name": "opl3-soundfont.flac",
+              "size": 89812
             },
             "image": {
-              "name": "os-251.jpg",
-              "size": 77849
+              "name": "opl3-soundfont.jpg",
+              "size": 51951
             },
             "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
+              "name": "opl3-soundfont.zip",
+              "size": 121192707
             },
             "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
+              "name": "opl3-soundfont.zip",
+              "size": 121192707
             },
             "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
+              "name": "opl3-soundfont.zip",
+              "size": 121192707
             }
           },
-          "release": "v1.1.0",
-          "repo": "studiorack/os-251"
+          "release": "v1.0.0",
+          "repo": "studiorack/opl3-soundfont"
+        }
+      }
+    },
+    "studiorack/salamander-drumkit/salamander-drumkit": {
+      "id": "studiorack/salamander-drumkit/salamander-drumkit",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Rytmenpinne",
+          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
+          "name": "Salamander Drumkit",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "salamander-drumkit",
+          "date": "2012-02-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-drumkit.flac",
+              "size": 162704
+            },
+            "image": {
+              "name": "salamander-drumkit.jpg",
+              "size": 94023
+            },
+            "linux": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "mac": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "win": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/salamander-drumkit"
         }
       }
     },
@@ -1715,93 +1715,48 @@
         }
       }
     },
-    "studiorack/salamander-drumkit/salamander-drumkit": {
-      "id": "studiorack/salamander-drumkit/salamander-drumkit",
-      "license": "other",
-      "version": "1.0.0",
+    "studiorack/os-251/os-251": {
+      "id": "studiorack/os-251/os-251",
+      "license": "gpl-3.0",
+      "version": "1.1.0",
       "versions": {
-        "1.0.0": {
-          "author": "Rytmenpinne",
-          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
-          "name": "Salamander Drumkit",
-          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "salamander-drumkit",
-          "date": "2012-02-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-drumkit.flac",
-              "size": 162704
-            },
-            "image": {
-              "name": "salamander-drumkit.jpg",
-              "size": 94023
-            },
-            "linux": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "mac": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            },
-            "win": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/salamander-drumkit"
-        }
-      }
-    },
-    "studiorack/opl3-soundfont/opl3-soundfont": {
-      "id": "studiorack/opl3-soundfont/opl3-soundfont",
-      "license": "cc-by-sa-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Zandro Reveille",
-          "homepage": "https://github.com/Mindwerks/opl3-soundfont",
-          "name": "OPL-3 FM 128M",
-          "description": "SoundFont designed to simulate the classic MIDI sound of the Sound Blaster 16 (and other YM262 enabled hardware)",
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
           "tags": [
             "Instrument",
             "Synth",
-            "sf2"
+            "Lofi"
           ],
-          "version": "1.0.0",
-          "id": "opl3-soundfont",
-          "date": "2017-02-08T08:00:00.000Z",
+          "version": "1.1.0",
+          "id": "os-251",
+          "date": "2021-10-09T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "opl3-soundfont.flac",
-              "size": 89812
+              "name": "os-251.flac",
+              "size": 115597
             },
             "image": {
-              "name": "opl3-soundfont.jpg",
-              "size": 51951
+              "name": "os-251.jpg",
+              "size": 77849
             },
             "linux": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
+              "name": "os-251-linux.zip",
+              "size": 8860818
             },
             "mac": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
+              "name": "os-251-mac.zip",
+              "size": 7611441
             },
             "win": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
+              "name": "os-251-win.zip",
+              "size": 2496031
             }
           },
-          "release": "v1.0.0",
-          "repo": "studiorack/opl3-soundfont"
+          "release": "v1.1.0",
+          "repo": "studiorack/os-251"
         }
       }
     },

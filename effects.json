@@ -90,6 +90,140 @@
         }
       }
     },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mverb"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0",
+          "repo": "studiorack/smartguitaramp"
+        }
+      }
+    },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Editor"
+          ],
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.flac",
+              "size": 103066
+            },
+            "image": {
+              "name": "wolf-shaper.jpg",
+              "size": 39286
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
+            }
+          },
+          "release": "v0.1.8",
+          "repo": "studiorack/wolf-shaper"
+        }
+      }
+    },
     "studiorack/dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -177,140 +311,6 @@
           },
           "release": "v0.0.1",
           "repo": "studiorack/diopser"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0",
-          "repo": "studiorack/smartguitaramp"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mverb"
-        }
-      }
-    },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
-      "license": "gpl-3.0",
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066
-            },
-            "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
-            }
-          },
-          "release": "v0.1.8",
-          "repo": "studiorack/wolf-shaper"
         }
       }
     },
@@ -449,6 +449,51 @@
         }
       }
     },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "repo": "studiorack/ampli-fe"
+        }
+      }
+    },
     "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
       "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
       "license": "gpl-3.0",
@@ -536,51 +581,6 @@
           },
           "release": "v0.4.0",
           "repo": "studiorack/modeq"
-        }
-      }
-    },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
-          ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405
-            },
-            "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141
-            },
-            "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
-            },
-            "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
-            },
-            "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
-            }
-          },
-          "release": "v0.1.0",
-          "repo": "studiorack/ampli-fe"
         }
       }
     },
@@ -986,51 +986,6 @@
         }
       }
     },
-    "studiorack/mda/mda": {
-      "id": "studiorack/mda/mda",
-      "license": "gpl-3.0",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
-          ],
-          "version": "1.0.4",
-          "id": "mda",
-          "date": "2020-12-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mda.flac",
-              "size": 127392
-            },
-            "image": {
-              "name": "mda.jpg",
-              "size": 104156
-            },
-            "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938
-            },
-            "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516
-            },
-            "win": {
-              "name": "mda-win.zip",
-              "size": 1247768
-            }
-          },
-          "release": "v1.0.4",
-          "repo": "studiorack/mda"
-        }
-      }
-    },
     "studiorack/airwindows/airwindows": {
       "id": "studiorack/airwindows/airwindows",
       "license": "mit",
@@ -1076,6 +1031,51 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/airwindows"
+        }
+      }
+    },
+    "studiorack/mda/mda": {
+      "id": "studiorack/mda/mda",
+      "license": "gpl-3.0",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "version": "1.0.4",
+          "id": "mda",
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.flac",
+              "size": 127392
+            },
+            "image": {
+              "name": "mda.jpg",
+              "size": 104156
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768
+            }
+          },
+          "release": "v1.0.4",
+          "repo": "studiorack/mda"
         }
       }
     }
