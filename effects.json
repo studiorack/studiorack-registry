@@ -90,6 +90,96 @@
         }
       }
     },
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
+      "versions": {
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dragonfly-reverb.flac",
+              "size": 82471
+            },
+            "image": {
+              "name": "dragonfly-reverb.jpg",
+              "size": 119902
+            },
+            "linux": {
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6921808
+            },
+            "mac": {
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4542730
+            },
+            "win": {
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9359636
+            }
+          },
+          "release": "v3.2.5",
+          "repo": "studiorack/dragonfly-reverb"
+        }
+      }
+    },
+    "studiorack/diopser/diopser": {
+      "id": "studiorack/diopser/diopser",
+      "license": "gpl-3.0",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
+          "tags": [
+            "Effect",
+            "Phaser",
+            "Frequency"
+          ],
+          "version": "0.0.1",
+          "id": "diopser",
+          "date": "2021-11-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "diopser.flac",
+              "size": 77049
+            },
+            "image": {
+              "name": "diopser.jpg",
+              "size": 43851
+            },
+            "linux": {
+              "name": "diopser-linux.zip",
+              "size": 1767254
+            },
+            "mac": {
+              "name": "diopser-mac.zip",
+              "size": 1894438
+            },
+            "win": {
+              "name": "diopser-win.zip",
+              "size": 2017988
+            }
+          },
+          "release": "v0.0.1",
+          "repo": "studiorack/diopser"
+        }
+      }
+    },
     "studiorack/mverb/mverb": {
       "id": "studiorack/mverb/mverb",
       "license": "gpl-3.0",
@@ -221,96 +311,6 @@
           },
           "release": "v0.1.8",
           "repo": "studiorack/wolf-shaper"
-        }
-      }
-    },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
-      "license": "gpl-3.0",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.flac",
-              "size": 82471
-            },
-            "image": {
-              "name": "dragonfly-reverb.jpg",
-              "size": 119902
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6921808
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4542730
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9359636
-            }
-          },
-          "release": "v3.2.5",
-          "repo": "studiorack/dragonfly-reverb"
-        }
-      }
-    },
-    "studiorack/diopser/diopser": {
-      "id": "studiorack/diopser/diopser",
-      "license": "gpl-3.0",
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
-          "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
-          ],
-          "version": "0.0.1",
-          "id": "diopser",
-          "date": "2021-11-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "diopser.flac",
-              "size": 77049
-            },
-            "image": {
-              "name": "diopser.jpg",
-              "size": 43851
-            },
-            "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1767254
-            },
-            "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
-            },
-            "win": {
-              "name": "diopser-win.zip",
-              "size": 2017988
-            }
-          },
-          "release": "v0.0.1",
-          "repo": "studiorack/diopser"
         }
       }
     },
