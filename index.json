@@ -865,51 +865,6 @@
         }
       }
     },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "freepats/upright-piano-kw/upright-piano-kw": {
       "id": "freepats/upright-piano-kw/upright-piano-kw",
       "license": "cc0-1.0",
@@ -949,6 +904,51 @@
             "win": {
               "name": "UprightPianoKW-20220221.zip",
               "size": 32365885
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "synthesizer-percussion",
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
             }
           },
           "release": "v1.0.0"
@@ -1441,94 +1441,6 @@
         }
       }
     },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.flac",
-              "size": 51235
-            },
-            "image": {
-              "name": "dexed.jpg",
-              "size": 282883
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
-            },
-            "win": {
-              "name": "dexed-win.zip",
-              "size": 2588488
-            }
-          },
-          "release": "v0.9.6"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Effect",
-            "Spectrogram",
-            "Frequency"
-          ],
-          "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.flac",
-              "size": 103066
-            },
-            "image": {
-              "name": "wolf-spectrum.jpg",
-              "size": 17057
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "studiorack/dragonfly-reverb/dragonfly-reverb": {
       "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
@@ -1656,137 +1568,6 @@
             "win": {
               "name": "splendid-grand-piano.zip",
               "size": 74736682
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.flac",
-              "size": 63794
-            },
-            "image": {
-              "name": "obxd.jpg",
-              "size": 76569
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
             }
           },
           "release": "v1.0.0"
@@ -1927,89 +1708,264 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
       "license": "gpl-3.0",
-      "version": "3.2.2",
+      "version": "2.4.0",
       "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2"
-        }
-      }
-    },
-    "studiorack/vst2413/vst2413": {
-      "id": "studiorack/vst2413/vst2413",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Keijiro Takahashi",
-          "homepage": "http://www.keijiro.tokyo/vst2413/",
-          "name": "VST2413",
-          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
           "tags": [
             "Instrument",
             "Synth",
-            "Bit"
+            "OB-X"
           ],
-          "version": "1.0.0",
-          "id": "vst2413",
-          "date": "2013-04-21T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "vst2413.flac",
-              "size": 347527
+              "name": "obxd.flac",
+              "size": 63794
             },
             "image": {
-              "name": "vst2413.jpg",
-              "size": 22493
+              "name": "obxd.jpg",
+              "size": 76569
             },
             "linux": {
-              "name": "vst2413-linux.zip",
-              "size": 386422
+              "name": "obxd-linux.zip",
+              "size": 21745339
             },
             "mac": {
-              "name": "vst2413-mac.zip",
-              "size": 187561
+              "name": "obxd-mac.zip",
+              "size": 6653931
             },
             "win": {
-              "name": "vst2413-win.zip",
-              "size": 228506
+              "name": "obxd-win.zip",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.flac",
+              "size": 51235
+            },
+            "image": {
+              "name": "dexed.jpg",
+              "size": 282883
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.zip",
+              "size": 2588488
+            }
+          },
+          "release": "v0.9.6"
+        }
+      }
+    },
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Effect",
+            "Spectrogram",
+            "Frequency"
+          ],
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-spectrum.flac",
+              "size": 103066
+            },
+            "image": {
+              "name": "wolf-spectrum.jpg",
+              "size": 17057
+            },
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/black-and-green-guitars/black-and-green-guitars": {
+      "id": "studiorack/black-and-green-guitars/black-and-green-guitars",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars",
+          "name": "Black and Green Guitars",
+          "description": "Black Hofner Club and Green Gretsch Anniversary electric guitars",
+          "tags": [
+            "Instrument",
+            "Guitar",
+            "Electric",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "black-and-green-guitars",
+          "date": "2022-08-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "black-and-green-guitars.flac",
+              "size": 64823
+            },
+            "image": {
+              "name": "black-and-green-guitars.jpg",
+              "size": 100550
+            },
+            "linux": {
+              "name": "black-and-green-guitars.zip",
+              "size": 292323008
+            },
+            "mac": {
+              "name": "black-and-green-guitars.zip",
+              "size": 292323008
+            },
+            "win": {
+              "name": "black-and-green-guitars.zip",
+              "size": 292323008
             }
           },
           "release": "v1.0.0"
@@ -2369,6 +2325,272 @@
         }
       }
     },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2"
+        }
+      }
+    },
+    "studiorack/vst2413/vst2413": {
+      "id": "studiorack/vst2413/vst2413",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "version": "1.0.0",
+          "id": "vst2413",
+          "date": "2013-04-21T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vst2413.flac",
+              "size": 347527
+            },
+            "image": {
+              "name": "vst2413.jpg",
+              "size": 22493
+            },
+            "linux": {
+              "name": "vst2413-linux.zip",
+              "size": 386422
+            },
+            "mac": {
+              "name": "vst2413-mac.zip",
+              "size": 187561
+            },
+            "win": {
+              "name": "vst2413-win.zip",
+              "size": 228506
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/jsteeldrum/jsteel-drum": {
+      "id": "studiorack/jsteeldrum/jsteel-drum",
+      "license": "unlicense",
+      "version": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+          "name": "jSteelDrum",
+          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+          "tags": [
+            "Instrument",
+            "Steel",
+            "Drum",
+            "sfz"
+          ],
+          "version": "2.0.0",
+          "id": "jsteel-drum",
+          "date": "2022-09-22T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jsteel-drum.flac",
+              "size": 83358
+            },
+            "image": {
+              "name": "jsteel-drum.jpg",
+              "size": 222224
+            },
+            "linux": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "mac": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "win": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            }
+          },
+          "release": "v2.0.0"
+        }
+      }
+    },
+    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
+      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
+      "license": "gpl-3.0",
+      "version": "1.13.0",
+      "versions": {
+        "1.13.0": {
+          "author": "Institute of Electronic Music and Acoustics",
+          "homepage": "https://plugins.iem.at",
+          "name": "IEM Plugin Suite",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Delay"
+          ],
+          "version": "1.13.0",
+          "id": "iem-plugin-suite.jpg",
+          "date": "2021-11-27T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "iem-plugin-suite.flac",
+              "size": 112666
+            },
+            "image": {
+              "name": "iem-plugin-suite.jpg",
+              "size": 111401
+            },
+            "linux": {
+              "name": "iem-plugin-suite-linux.zip",
+              "size": 51310651
+            },
+            "mac": {
+              "name": "iem-plugin-suite-mac.zip",
+              "size": 115219195
+            },
+            "win": {
+              "name": "iem-plugin-suite-win.zip",
+              "size": 79870766
+            }
+          },
+          "release": "v1.13.0"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919
+            }
+          },
+          "release": "v0.4.0"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3"
+        }
+      }
+    },
     "studiorack/ampli-fe/ampli-fe": {
       "id": "studiorack/ampli-fe/ampli-fe",
       "license": "mit",
@@ -2546,135 +2768,93 @@
         }
       }
     },
-    "studiorack/iem-plugin-suite/iem-plugin-suite.jpg": {
-      "id": "studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
-      "license": "gpl-3.0",
-      "version": "1.13.0",
+    "studiorack/hungarian-zither/hungarian-zither": {
+      "id": "studiorack/hungarian-zither/hungarian-zither",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
       "versions": {
-        "1.13.0": {
-          "author": "Institute of Electronic Music and Acoustics",
-          "homepage": "https://plugins.iem.at",
-          "name": "IEM Plugin Suite",
-          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Delay"
-          ],
-          "version": "1.13.0",
-          "id": "iem-plugin-suite.jpg",
-          "date": "2021-11-27T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "iem-plugin-suite.flac",
-              "size": 112666
-            },
-            "image": {
-              "name": "iem-plugin-suite.jpg",
-              "size": 111401
-            },
-            "linux": {
-              "name": "iem-plugin-suite-linux.zip",
-              "size": 51310651
-            },
-            "mac": {
-              "name": "iem-plugin-suite-mac.zip",
-              "size": 115219195
-            },
-            "win": {
-              "name": "iem-plugin-suite-win.zip",
-              "size": 79870766
-            }
-          },
-          "release": "v1.13.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.flac",
-              "size": 66240
-            },
-            "image": {
-              "name": "modeq.jpg",
-              "size": 75899
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7097654
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3222514
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3677919
-            }
-          },
-          "release": "v0.4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
+          "name": "Hungarian Zither",
+          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
           "tags": [
             "Instrument",
-            "Synth",
-            "Modulation"
+            "Strings",
+            "Classical",
+            "sfz"
           ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "hungarian-zither",
+          "date": "2022-09-13T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "octasine.flac",
-              "size": 84574
+              "name": "hungarian-zither.flac",
+              "size": 172274
             },
             "image": {
-              "name": "octasine.jpg",
-              "size": 90200
+              "name": "hungarian-zither.jpg",
+              "size": 88693
             },
             "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
+              "name": "hungarian-zither.zip",
+              "size": 181711154
             },
             "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
+              "name": "hungarian-zither.zip",
+              "size": 181711154
             },
             "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
+              "name": "hungarian-zither.zip",
+              "size": 181711154
             }
           },
-          "release": "v0.5.3"
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/karoryfer.bear-sax/bear-sax": {
+      "id": "studiorack/karoryfer.bear-sax/bear-sax",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+          "name": "Bear Sax",
+          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Saxophone",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "bear-sax",
+          "date": "2021-09-11T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "bear-sax.flac",
+              "size": 86918
+            },
+            "image": {
+              "name": "bear-sax.jpg",
+              "size": 85425
+            },
+            "linux": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "mac": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "win": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -3508,97 +3688,8 @@
           "release": "v1.0.0"
         }
       }
-    },
-    "studiorack/surge/surge": {
-      "id": "studiorack/surge/surge",
-      "license": "gpl-3.0",
-      "version": "1.9.0",
-      "versions": {
-        "1.9.0": {
-          "author": "Surge Synth Team",
-          "homepage": "https://surge-synthesizer.github.io",
-          "name": "Surge XT",
-          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "1.9.0",
-          "id": "surge",
-          "date": "2021-04-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "surge.flac",
-              "size": 141339
-            },
-            "image": {
-              "name": "surge.jpg",
-              "size": 159518
-            },
-            "linux": {
-              "name": "surge-linux.zip",
-              "size": 34112118
-            },
-            "mac": {
-              "name": "surge-mac.zip",
-              "size": 61103675
-            },
-            "win": {
-              "name": "surge-win.zip",
-              "size": 16772957
-            }
-          },
-          "release": "v1.9.0"
-        }
-      }
-    },
-    "studiorack/hungarian-zither/hungarian-zither": {
-      "id": "studiorack/hungarian-zither/hungarian-zither",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
-          "name": "Hungarian Zither",
-          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
-          "tags": [
-            "Instrument",
-            "Strings",
-            "Classical",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "hungarian-zither",
-          "date": "2022-09-13T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "hungarian-zither.flac",
-              "size": 172274
-            },
-            "image": {
-              "name": "hungarian-zither.jpg",
-              "size": 88693
-            },
-            "linux": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "mac": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "win": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
     }
   },
-  "time": "2022-09-25T01:00:51.276Z",
-  "total": 81
+  "time": "2022-09-30T04:12:16.750Z",
+  "total": 83
 }
