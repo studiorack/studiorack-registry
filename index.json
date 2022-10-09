@@ -1088,50 +1088,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.flac",
-              "size": 66799
-            },
-            "image": {
-              "name": "oxe.jpg",
-              "size": 91580
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -1217,6 +1173,95 @@
             }
           },
           "release": "v1.0.2"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/basic-harmonica/basic-harmonica": {
+      "id": "studiorack/basic-harmonica/basic-harmonica",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "michael02022",
+          "homepage": "https://github.com/michael02022/basic-harmonica",
+          "name": "Basic Harmonica",
+          "description": "Basic harmonica.",
+          "tags": [
+            "Instrument",
+            "Wind",
+            "Harmonica",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "basic-harmonica",
+          "date": "2022-10-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "basic-harmonica.flac",
+              "size": 100197
+            },
+            "image": {
+              "name": "basic-harmonica.jpg",
+              "size": 65716
+            },
+            "linux": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            },
+            "mac": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            },
+            "win": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            }
+          },
+          "release": "v1.0.0"
         }
       }
     },
@@ -1708,46 +1753,47 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
       "license": "gpl-3.0",
-      "version": "1.0.0",
+      "version": "2.4.0",
       "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
           "tags": [
-            "Effect",
-            "Reverb"
+            "Instrument",
+            "Synth",
+            "OB-X"
           ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mverb.flac",
-              "size": 41738
+              "name": "obxd.flac",
+              "size": 63794
             },
             "image": {
-              "name": "mverb.jpg",
-              "size": 48422
+              "name": "obxd.jpg",
+              "size": 76569
             },
             "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
+              "name": "obxd-linux.zip",
+              "size": 21745339
             },
             "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
+              "name": "obxd-mac.zip",
+              "size": 6653931
             },
             "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
+              "name": "obxd-win.zip",
+              "size": 20368962
             }
           },
-          "release": "v1.0.0"
+          "release": "v2.4.0"
         }
       }
     },
@@ -1795,47 +1841,46 @@
         }
       }
     },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
       "license": "gpl-3.0",
-      "version": "2.4.0",
+      "version": "1.0.0",
       "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
+            "Effect",
+            "Reverb"
           ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "obxd.flac",
-              "size": 63794
+              "name": "mverb.flac",
+              "size": 41738
             },
             "image": {
-              "name": "obxd.jpg",
-              "size": 76569
+              "name": "mverb.jpg",
+              "size": 48422
             },
             "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
+              "name": "mverb-linux.zip",
+              "size": 188933
             },
             "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
+              "name": "mverb-mac.zip",
+              "size": 674694
             },
             "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962
+              "name": "mverb-win.zip",
+              "size": 283901
             }
           },
-          "release": "v2.4.0"
+          "release": "v1.0.0"
         }
       }
     },
@@ -2726,6 +2771,318 @@
         }
       }
     },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0"
+        }
+      }
+    },
+    "studiorack/carla/carla": {
+      "id": "studiorack/carla/carla",
+      "license": "other",
+      "version": "2.4.2",
+      "versions": {
+        "2.4.2": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/falkTX/Carla",
+          "name": "Carla",
+          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
+          "tags": [
+            "Instrument",
+            "Host",
+            "Player"
+          ],
+          "version": "2.4.2",
+          "id": "carla",
+          "date": "2022-02-19T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "carla.flac",
+              "size": 330759
+            },
+            "image": {
+              "name": "carla.jpg",
+              "size": 252192
+            },
+            "linux": {
+              "name": "carla-linux.zip",
+              "size": 160951738
+            },
+            "mac": {
+              "name": "carla-mac.zip",
+              "size": 312938720
+            },
+            "win": {
+              "name": "carla-win.zip",
+              "size": 196435153
+            }
+          },
+          "release": "v2.4.2"
+        }
+      }
+    },
+    "studiorack/avl-drumkits/avl-drumkits": {
+      "id": "studiorack/avl-drumkits/avl-drumkits",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Drumkits",
+          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-drumkits",
+          "date": "2022-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-drumkits.flac",
+              "size": 696023
+            },
+            "image": {
+              "name": "avl-drumkits.jpg",
+              "size": 326339
+            },
+            "linux": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "mac": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "win": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            }
+          },
+          "release": "v1.1.0"
+        }
+      }
+    },
+    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
+      "license": "other",
+      "version": "3.0.0",
+      "versions": {
+        "3.0.0": {
+          "author": "Alexander Holm",
+          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
+          "name": "Salamander Grand Piano",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+          "tags": [
+            "Instrument",
+            "Piano",
+            "Yamaha",
+            "sfz"
+          ],
+          "version": "3.0.0",
+          "id": "salamander-grand-piano",
+          "date": "2021-09-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-grand-piano.flac",
+              "size": 365662
+            },
+            "image": {
+              "name": "salamander-grand-piano.jpg",
+              "size": 88748
+            },
+            "linux": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "mac": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "win": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            }
+          },
+          "release": "v3.0.0"
+        }
+      }
+    },
+    "studiorack/hungarian-zither/hungarian-zither": {
+      "id": "studiorack/hungarian-zither/hungarian-zither",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
+          "name": "Hungarian Zither",
+          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+          "tags": [
+            "Instrument",
+            "Strings",
+            "Classical",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "hungarian-zither",
+          "date": "2022-09-13T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "hungarian-zither.flac",
+              "size": 172274
+            },
+            "image": {
+              "name": "hungarian-zither.jpg",
+              "size": 88693
+            },
+            "linux": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "mac": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "win": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/double-bass/double-bass": {
+      "id": "studiorack/double-bass/double-bass",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/dsmolken.double-bass",
+          "name": "Double Bass",
+          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+          "tags": [
+            "Instrument",
+            "String",
+            "Bass",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "double-bass",
+          "date": "2021-10-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "double-bass.flac",
+              "size": 77117
+            },
+            "image": {
+              "name": "double-bass.jpg",
+              "size": 45157
+            },
+            "linux": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "mac": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "win": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/bear-sax/bear-sax": {
+      "id": "studiorack/bear-sax/bear-sax",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+          "name": "Bear Sax",
+          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Saxophone",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "bear-sax",
+          "date": "2021-09-11T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "bear-sax.flac",
+              "size": 86918
+            },
+            "image": {
+              "name": "bear-sax.jpg",
+              "size": 85425
+            },
+            "linux": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "mac": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "win": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
     "studiorack/sfizz/sfizz": {
       "id": "studiorack/sfizz/sfizz",
       "license": "bsd-2-clause",
@@ -3163,318 +3520,6 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
-          ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405
-            },
-            "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141
-            },
-            "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
-            },
-            "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
-            },
-            "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
-            }
-          },
-          "release": "v0.1.0"
-        }
-      }
-    },
-    "studiorack/carla/carla": {
-      "id": "studiorack/carla/carla",
-      "license": "other",
-      "version": "2.4.2",
-      "versions": {
-        "2.4.2": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/falkTX/Carla",
-          "name": "Carla",
-          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
-          "tags": [
-            "Instrument",
-            "Host",
-            "Player"
-          ],
-          "version": "2.4.2",
-          "id": "carla",
-          "date": "2022-02-19T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "carla.flac",
-              "size": 330759
-            },
-            "image": {
-              "name": "carla.jpg",
-              "size": 252192
-            },
-            "linux": {
-              "name": "carla-linux.zip",
-              "size": 160951738
-            },
-            "mac": {
-              "name": "carla-mac.zip",
-              "size": 312938720
-            },
-            "win": {
-              "name": "carla-win.zip",
-              "size": 196435153
-            }
-          },
-          "release": "v2.4.2"
-        }
-      }
-    },
-    "studiorack/avl-drumkits/avl-drumkits": {
-      "id": "studiorack/avl-drumkits/avl-drumkits",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Drumkits",
-          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-drumkits",
-          "date": "2022-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-drumkits.flac",
-              "size": 696023
-            },
-            "image": {
-              "name": "avl-drumkits.jpg",
-              "size": 326339
-            },
-            "linux": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            },
-            "mac": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            },
-            "win": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            }
-          },
-          "release": "v1.1.0"
-        }
-      }
-    },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
-      "version": "3.0.0",
-      "versions": {
-        "3.0.0": {
-          "author": "Alexander Holm",
-          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
-          "name": "Salamander Grand Piano",
-          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
-          "tags": [
-            "Instrument",
-            "Piano",
-            "Yamaha",
-            "sfz"
-          ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
-          "date": "2021-09-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-grand-piano.flac",
-              "size": 365662
-            },
-            "image": {
-              "name": "salamander-grand-piano.jpg",
-              "size": 88748
-            },
-            "linux": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
-            },
-            "mac": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
-            },
-            "win": {
-              "name": "salamander-grand-piano.zip",
-              "size": 748416023
-            }
-          },
-          "release": "v3.0.0"
-        }
-      }
-    },
-    "studiorack/hungarian-zither/hungarian-zither": {
-      "id": "studiorack/hungarian-zither/hungarian-zither",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
-          "name": "Hungarian Zither",
-          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
-          "tags": [
-            "Instrument",
-            "Strings",
-            "Classical",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "hungarian-zither",
-          "date": "2022-09-13T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "hungarian-zither.flac",
-              "size": 172274
-            },
-            "image": {
-              "name": "hungarian-zither.jpg",
-              "size": 88693
-            },
-            "linux": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "mac": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "win": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/double-bass/double-bass": {
-      "id": "studiorack/double-bass/double-bass",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/dsmolken.double-bass",
-          "name": "Double Bass",
-          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
-          "tags": [
-            "Instrument",
-            "String",
-            "Bass",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "double-bass",
-          "date": "2021-10-07T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "double-bass.flac",
-              "size": 77117
-            },
-            "image": {
-              "name": "double-bass.jpg",
-              "size": 45157
-            },
-            "linux": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            },
-            "mac": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            },
-            "win": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/bear-sax/bear-sax": {
-      "id": "studiorack/bear-sax/bear-sax",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
-          "name": "Bear Sax",
-          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Saxophone",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "bear-sax",
-          "date": "2021-09-11T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "bear-sax.flac",
-              "size": 86918
-            },
-            "image": {
-              "name": "bear-sax.jpg",
-              "size": 85425
-            },
-            "linux": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            },
-            "mac": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            },
-            "win": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
     "studiorack/chow-matrix/chow-matrix": {
       "id": "studiorack/chow-matrix/chow-matrix",
       "license": "bsd-3-clause",
@@ -3606,52 +3651,8 @@
           "release": "v2.2.4"
         }
       }
-    },
-    "studiorack/opl3-soundfont/opl3-soundfont": {
-      "id": "studiorack/opl3-soundfont/opl3-soundfont",
-      "license": "cc-by-sa-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Zandro Reveille",
-          "homepage": "https://github.com/Mindwerks/opl3-soundfont",
-          "name": "OPL-3 FM 128M",
-          "description": "SoundFont designed to simulate the classic MIDI sound of the Sound Blaster 16 (and other YM262 enabled hardware)",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "sf2"
-          ],
-          "version": "1.0.0",
-          "id": "opl3-soundfont",
-          "date": "2017-02-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opl3-soundfont.flac",
-              "size": 89812
-            },
-            "image": {
-              "name": "opl3-soundfont.jpg",
-              "size": 51951
-            },
-            "linux": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
-            },
-            "mac": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
-            },
-            "win": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
     }
   },
-  "time": "2022-10-09T01:03:24.146Z",
+  "time": "2022-10-09T22:26:24.691Z",
   "total": 83
 }

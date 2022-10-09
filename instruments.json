@@ -716,51 +716,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.flac",
-              "size": 66799
-            },
-            "image": {
-              "name": "oxe.jpg",
-              "size": 91580
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "repo": "studiorack/oxe"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -848,6 +803,97 @@
           },
           "release": "v1.0.2",
           "repo": "studiorack/adlplug"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5",
+          "repo": "studiorack/oxe"
+        }
+      }
+    },
+    "studiorack/basic-harmonica/basic-harmonica": {
+      "id": "studiorack/basic-harmonica/basic-harmonica",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "michael02022",
+          "homepage": "https://github.com/michael02022/basic-harmonica",
+          "name": "Basic Harmonica",
+          "description": "Basic harmonica.",
+          "tags": [
+            "Instrument",
+            "Wind",
+            "Harmonica",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "basic-harmonica",
+          "date": "2022-10-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "basic-harmonica.flac",
+              "size": 100197
+            },
+            "image": {
+              "name": "basic-harmonica.jpg",
+              "size": 65716
+            },
+            "linux": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            },
+            "mac": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            },
+            "win": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/basic-harmonica"
         }
       }
     },
@@ -1897,141 +1943,6 @@
         }
       }
     },
-    "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "1.1.1",
-          "id": "sfizz",
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698
-            }
-          },
-          "release": "v1.1.1",
-          "repo": "studiorack/sfizz"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-noisemaker": {
-      "id": "studiorack/distrho-ports/tal-noisemaker",
-      "license": "other",
-      "version": "5.0.4",
-      "versions": {
-        "5.0.4": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Noisemaker",
-          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "5.0.4",
-          "id": "tal-noisemaker",
-          "date": "2021-02-14T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-noisemaker.flac",
-              "size": 63114
-            },
-            "image": {
-              "name": "tal-noisemaker.jpg",
-              "size": 92713
-            },
-            "linux": {
-              "name": "tal-noisemaker-linux.zip",
-              "size": 4572081
-            },
-            "mac": {
-              "name": "tal-noisemaker-mac.zip",
-              "size": 11980734
-            },
-            "win": {
-              "name": "tal-noisemaker-win.zip",
-              "size": 7764121
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/distrho-ports"
-        }
-      }
-    },
-    "studiorack/surge/surge": {
-      "id": "studiorack/surge/surge",
-      "license": "gpl-3.0",
-      "version": "1.9.0",
-      "versions": {
-        "1.9.0": {
-          "author": "Surge Synth Team",
-          "homepage": "https://surge-synthesizer.github.io",
-          "name": "Surge XT",
-          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "1.9.0",
-          "id": "surge",
-          "date": "2021-04-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "surge.flac",
-              "size": 141339
-            },
-            "image": {
-              "name": "surge.jpg",
-              "size": 159518
-            },
-            "linux": {
-              "name": "surge-linux.zip",
-              "size": 34112118
-            },
-            "mac": {
-              "name": "surge-mac.zip",
-              "size": 61103675
-            },
-            "win": {
-              "name": "surge-win.zip",
-              "size": 16772957
-            }
-          },
-          "release": "v1.9.0",
-          "repo": "studiorack/surge"
-        }
-      }
-    },
     "studiorack/carla/carla": {
       "id": "studiorack/carla/carla",
       "license": "other",
@@ -2306,6 +2217,141 @@
         }
       }
     },
+    "studiorack/sfizz/sfizz": {
+      "id": "studiorack/sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "1.1.1",
+          "id": "sfizz",
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698
+            }
+          },
+          "release": "v1.1.1",
+          "repo": "studiorack/sfizz"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-noisemaker": {
+      "id": "studiorack/distrho-ports/tal-noisemaker",
+      "license": "other",
+      "version": "5.0.4",
+      "versions": {
+        "5.0.4": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Noisemaker",
+          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "5.0.4",
+          "id": "tal-noisemaker",
+          "date": "2021-02-14T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-noisemaker.flac",
+              "size": 63114
+            },
+            "image": {
+              "name": "tal-noisemaker.jpg",
+              "size": 92713
+            },
+            "linux": {
+              "name": "tal-noisemaker-linux.zip",
+              "size": 4572081
+            },
+            "mac": {
+              "name": "tal-noisemaker-mac.zip",
+              "size": 11980734
+            },
+            "win": {
+              "name": "tal-noisemaker-win.zip",
+              "size": 7764121
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/surge/surge": {
+      "id": "studiorack/surge/surge",
+      "license": "gpl-3.0",
+      "version": "1.9.0",
+      "versions": {
+        "1.9.0": {
+          "author": "Surge Synth Team",
+          "homepage": "https://surge-synthesizer.github.io",
+          "name": "Surge XT",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "1.9.0",
+          "id": "surge",
+          "date": "2021-04-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "surge.flac",
+              "size": 141339
+            },
+            "image": {
+              "name": "surge.jpg",
+              "size": 159518
+            },
+            "linux": {
+              "name": "surge-linux.zip",
+              "size": 34112118
+            },
+            "mac": {
+              "name": "surge-mac.zip",
+              "size": 61103675
+            },
+            "win": {
+              "name": "surge-win.zip",
+              "size": 16772957
+            }
+          },
+          "release": "v1.9.0",
+          "repo": "studiorack/surge"
+        }
+      }
+    },
     "studiorack/odin/odin": {
       "id": "studiorack/odin/odin",
       "license": "gpl-3.0",
@@ -2348,51 +2394,6 @@
           },
           "release": "v2.2.4",
           "repo": "studiorack/odin"
-        }
-      }
-    },
-    "studiorack/opl3-soundfont/opl3-soundfont": {
-      "id": "studiorack/opl3-soundfont/opl3-soundfont",
-      "license": "cc-by-sa-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Zandro Reveille",
-          "homepage": "https://github.com/Mindwerks/opl3-soundfont",
-          "name": "OPL-3 FM 128M",
-          "description": "SoundFont designed to simulate the classic MIDI sound of the Sound Blaster 16 (and other YM262 enabled hardware)",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "sf2"
-          ],
-          "version": "1.0.0",
-          "id": "opl3-soundfont",
-          "date": "2017-02-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opl3-soundfont.flac",
-              "size": 89812
-            },
-            "image": {
-              "name": "opl3-soundfont.jpg",
-              "size": 51951
-            },
-            "linux": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
-            },
-            "mac": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
-            },
-            "win": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/opl3-soundfont"
         }
       }
     }
