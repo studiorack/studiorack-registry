@@ -671,51 +671,6 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.flac",
-              "size": 66799
-            },
-            "image": {
-              "name": "oxe.jpg",
-              "size": 91580
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "repo": "studiorack/oxe"
-        }
-      }
-    },
     "studiorack/andes/andes": {
       "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
@@ -758,6 +713,51 @@
           },
           "release": "v0.2.0",
           "repo": "studiorack/andes"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5",
+          "repo": "studiorack/oxe"
         }
       }
     },
@@ -851,51 +851,6 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.flac",
-              "size": 52170
-            },
-            "image": {
-              "name": "kars.jpg",
-              "size": 16547
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1146039
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1330027
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1177464
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/kars"
-        }
-      }
-    },
     "studiorack/tunefish/tunefish": {
       "id": "studiorack/tunefish/tunefish",
       "license": "gpl-3.0",
@@ -941,49 +896,48 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
           "tags": [
             "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
+            "Synth",
+            "String"
           ],
           "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
+              "name": "kars.flac",
+              "size": 52170
             },
             "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
+              "name": "kars.jpg",
+              "size": 16547
             },
             "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "kars-linux.zip",
+              "size": 1146039
             },
             "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "kars-mac.zip",
+              "size": 1330027
             },
             "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "kars-win.zip",
+              "size": 1177464
             }
           },
           "release": "v1.0.0",
-          "repo": "studiorack/splendid-grand-piano"
+          "repo": "studiorack/kars"
         }
       }
     },
@@ -1075,6 +1029,52 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/splendid-grand-piano"
         }
       }
     },
@@ -2348,6 +2348,51 @@
           },
           "release": "v2.2.4",
           "repo": "studiorack/odin"
+        }
+      }
+    },
+    "studiorack/opl3-soundfont/opl3-soundfont": {
+      "id": "studiorack/opl3-soundfont/opl3-soundfont",
+      "license": "cc-by-sa-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Zandro Reveille",
+          "homepage": "https://github.com/Mindwerks/opl3-soundfont",
+          "name": "OPL-3 FM 128M",
+          "description": "SoundFont designed to simulate the classic MIDI sound of the Sound Blaster 16 (and other YM262 enabled hardware)",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "sf2"
+          ],
+          "version": "1.0.0",
+          "id": "opl3-soundfont",
+          "date": "2017-02-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opl3-soundfont.flac",
+              "size": 89812
+            },
+            "image": {
+              "name": "opl3-soundfont.jpg",
+              "size": 51951
+            },
+            "linux": {
+              "name": "opl3-soundfont.zip",
+              "size": 121192707
+            },
+            "mac": {
+              "name": "opl3-soundfont.zip",
+              "size": 121192707
+            },
+            "win": {
+              "name": "opl3-soundfont.zip",
+              "size": 121192707
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/opl3-soundfont"
         }
       }
     }
