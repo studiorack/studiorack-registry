@@ -1044,50 +1044,6 @@
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.flac",
-              "size": 12493
-            },
-            "image": {
-              "name": "andes.jpg",
-              "size": 27379
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -1176,92 +1132,47 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
-      "version": "1.3.5",
+      "version": "0.2.0",
       "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "tags": [
             "Instrument",
             "Synth",
-            "FM"
+            "Oscillator"
           ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "oxe.flac",
-              "size": 66799
+              "name": "andes.flac",
+              "size": 12493
             },
             "image": {
-              "name": "oxe.jpg",
-              "size": 91580
+              "name": "andes.jpg",
+              "size": 27379
             },
             "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
+              "name": "andes-linux.zip",
+              "size": 6118842
             },
             "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
+              "name": "andes-mac.zip",
+              "size": 5225268
             },
             "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
+              "name": "andes-win.zip",
+              "size": 3450947
             }
           },
-          "release": "v1.3.5"
-        }
-      }
-    },
-    "studiorack/basic-harmonica/basic-harmonica": {
-      "id": "studiorack/basic-harmonica/basic-harmonica",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "michael02022",
-          "homepage": "https://github.com/michael02022/basic-harmonica",
-          "name": "Basic Harmonica",
-          "description": "Basic harmonica.",
-          "tags": [
-            "Instrument",
-            "Wind",
-            "Harmonica",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "basic-harmonica",
-          "date": "2022-10-07T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "basic-harmonica.flac",
-              "size": 100197
-            },
-            "image": {
-              "name": "basic-harmonica.jpg",
-              "size": 65716
-            },
-            "linux": {
-              "name": "basic-harmonica.zip",
-              "size": 1404185
-            },
-            "mac": {
-              "name": "basic-harmonica.zip",
-              "size": 1404185
-            },
-            "win": {
-              "name": "basic-harmonica.zip",
-              "size": 1404185
-            }
-          },
-          "release": "v1.0.0"
+          "release": "v0.2.0"
         }
       }
     },
@@ -1347,6 +1258,95 @@
             "win": {
               "name": "kars-win.zip",
               "size": 1177464
+            }
+          },
+          "release": "v1.0.0"
+        }
+      }
+    },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5"
+        }
+      }
+    },
+    "studiorack/basic-harmonica/basic-harmonica": {
+      "id": "studiorack/basic-harmonica/basic-harmonica",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "michael02022",
+          "homepage": "https://github.com/michael02022/basic-harmonica",
+          "name": "Basic Harmonica",
+          "description": "Basic harmonica.",
+          "tags": [
+            "Instrument",
+            "Wind",
+            "Harmonica",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "basic-harmonica",
+          "date": "2022-10-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "basic-harmonica.flac",
+              "size": 100197
+            },
+            "image": {
+              "name": "basic-harmonica.jpg",
+              "size": 65716
+            },
+            "linux": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            },
+            "mac": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
+            },
+            "win": {
+              "name": "basic-harmonica.zip",
+              "size": 1404185
             }
           },
           "release": "v1.0.0"
@@ -3082,577 +3082,8 @@
           "release": "v1.0.0"
         }
       }
-    },
-    "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "1.1.1",
-          "id": "sfizz",
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698
-            }
-          },
-          "release": "v1.1.1"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-eq": {
-      "id": "studiorack/mini-series/mini-series-eq",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band EQ",
-          "description": "3-Band EQ",
-          "tags": [
-            "Effect",
-            "EQ"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-eq",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-eq.flac",
-              "size": 79282
-            },
-            "image": {
-              "name": "mini-series-eq.jpg",
-              "size": 18650
-            },
-            "linux": {
-              "name": "mini-series-eq-linux.zip",
-              "size": 884722
-            },
-            "mac": {
-              "name": "mini-series-eq-mac.zip",
-              "size": 1101475
-            },
-            "win": {
-              "name": "mini-series-eq-win.zip",
-              "size": 850005
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-splitter": {
-      "id": "studiorack/mini-series/mini-series-splitter",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band Splitter",
-          "description": "3-Band Splitter",
-          "tags": [
-            "Effect",
-            "Splitter"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-splitter",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-splitter.flac",
-              "size": 76826
-            },
-            "image": {
-              "name": "mini-series-splitter.jpg",
-              "size": 18493
-            },
-            "linux": {
-              "name": "mini-series-splitter-linux.zip",
-              "size": 925750
-            },
-            "mac": {
-              "name": "mini-series-splitter-mac.zip",
-              "size": 1155137
-            },
-            "win": {
-              "name": "mini-series-splitter-win.zip",
-              "size": 878640
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-pan": {
-      "id": "studiorack/mini-series/mini-series-pan",
-      "license": "lgpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: Ping Pong Pan",
-          "description": "Ping Pong Pan",
-          "tags": [
-            "Effect",
-            "Pan"
-          ],
-          "version": "1.0.0",
-          "id": "mini-series-pan",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-pan.flac",
-              "size": 70115
-            },
-            "image": {
-              "name": "mini-series-pan.jpg",
-              "size": 11264
-            },
-            "linux": {
-              "name": "mini-series-pan-linux.zip",
-              "size": 940248
-            },
-            "mac": {
-              "name": "mini-series-pan-mac.zip",
-              "size": 1065872
-            },
-            "win": {
-              "name": "mini-series-pan-win.zip",
-              "size": 1002204
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-chorus": {
-      "id": "studiorack/distrho-ports/tal-chorus",
-      "license": "other",
-      "version": "1.6.0",
-      "versions": {
-        "1.6.0": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Chorus",
-          "description": "Characteristics of the Juno-60 chorus.",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Juno"
-          ],
-          "version": "1.6.0",
-          "id": "tal-chorus",
-          "date": "2021-05-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-chorus.flac",
-              "size": 78645
-            },
-            "image": {
-              "name": "tal-chorus.jpg",
-              "size": 31671
-            },
-            "linux": {
-              "name": "tal-chorus-linux.zip",
-              "size": 2302019
-            },
-            "mac": {
-              "name": "tal-chorus-mac.zip",
-              "size": 5132019
-            },
-            "win": {
-              "name": "tal-chorus-win.zip",
-              "size": 4440111
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-filter": {
-      "id": "studiorack/distrho-ports/tal-filter",
-      "license": "other",
-      "version": "3.0.1",
-      "versions": {
-        "3.0.1": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Filter",
-          "description": "Host synced filter module with different filter types, panorama and volume modulation possibilities",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Modulation"
-          ],
-          "version": "3.0.1",
-          "id": "tal-filter",
-          "date": "2021-03-07T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-filter.flac",
-              "size": 70390
-            },
-            "image": {
-              "name": "tal-filter.jpg",
-              "size": 74456
-            },
-            "linux": {
-              "name": "tal-filter-linux.zip",
-              "size": 4199145
-            },
-            "mac": {
-              "name": "tal-filter-mac.zip",
-              "size": 10836170
-            },
-            "win": {
-              "name": "tal-filter-win.zip",
-              "size": 7239861
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-noisemaker": {
-      "id": "studiorack/distrho-ports/tal-noisemaker",
-      "license": "other",
-      "version": "5.0.4",
-      "versions": {
-        "5.0.4": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Noisemaker",
-          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "5.0.4",
-          "id": "tal-noisemaker",
-          "date": "2021-02-14T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-noisemaker.flac",
-              "size": 63114
-            },
-            "image": {
-              "name": "tal-noisemaker.jpg",
-              "size": 92713
-            },
-            "linux": {
-              "name": "tal-noisemaker-linux.zip",
-              "size": 4572081
-            },
-            "mac": {
-              "name": "tal-noisemaker-mac.zip",
-              "size": 11980734
-            },
-            "win": {
-              "name": "tal-noisemaker-win.zip",
-              "size": 7764121
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-reverb": {
-      "id": "studiorack/distrho-ports/tal-reverb",
-      "license": "other",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Reverb",
-          "description": "High quality plate reverb with a vintage 80's character",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "version": "2.4.0",
-          "id": "tal-reverb",
-          "date": "2021-02-11T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-reverb.flac",
-              "size": 109498
-            },
-            "image": {
-              "name": "tal-reverb.jpg",
-              "size": 59550
-            },
-            "linux": {
-              "name": "tal-reverb-linux.zip",
-              "size": 4409884
-            },
-            "mac": {
-              "name": "tal-reverb-mac.zip",
-              "size": 11515261
-            },
-            "win": {
-              "name": "tal-reverb-win.zip",
-              "size": 7575145
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-vocoder": {
-      "id": "studiorack/distrho-ports/tal-vocoder",
-      "license": "other",
-      "version": "2.2.0",
-      "versions": {
-        "2.2.0": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Vocoder",
-          "description": "Vintage vocoder emulation with 11 bands that emulates the sound of vocoders from the early 80s",
-          "tags": [
-            "Effect",
-            "Vocoder",
-            "Analog"
-          ],
-          "version": "2.2.0",
-          "id": "tal-vocoder",
-          "date": "2021-01-28T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-vocoder.flac",
-              "size": 99144
-            },
-            "image": {
-              "name": "tal-vocoder.jpg",
-              "size": 28705
-            },
-            "linux": {
-              "name": "tal-vocoder-linux.zip",
-              "size": 2906953
-            },
-            "mac": {
-              "name": "tal-vocoder-mac.zip",
-              "size": 7076283
-            },
-            "win": {
-              "name": "tal-vocoder-win.zip",
-              "size": 5351774
-            }
-          },
-          "release": "v1.0.0"
-        }
-      }
-    },
-    "studiorack/surge/surge": {
-      "id": "studiorack/surge/surge",
-      "license": "gpl-3.0",
-      "version": "1.9.0",
-      "versions": {
-        "1.9.0": {
-          "author": "Surge Synth Team",
-          "homepage": "https://surge-synthesizer.github.io",
-          "name": "Surge XT",
-          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "1.9.0",
-          "id": "surge",
-          "date": "2021-04-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "surge.flac",
-              "size": 141339
-            },
-            "image": {
-              "name": "surge.jpg",
-              "size": 159518
-            },
-            "linux": {
-              "name": "surge-linux.zip",
-              "size": 34112118
-            },
-            "mac": {
-              "name": "surge-mac.zip",
-              "size": 61103675
-            },
-            "win": {
-              "name": "surge-win.zip",
-              "size": 16772957
-            }
-          },
-          "release": "v1.9.0"
-        }
-      }
-    },
-    "studiorack/chow-matrix/chow-matrix": {
-      "id": "studiorack/chow-matrix/chow-matrix",
-      "license": "bsd-3-clause",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Feedback"
-          ],
-          "version": "1.2.0",
-          "id": "chow-matrix",
-          "date": "2021-04-23T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-matrix.flac",
-              "size": 71529
-            },
-            "image": {
-              "name": "chow-matrix.jpg",
-              "size": 74210
-            },
-            "linux": {
-              "name": "chow-matrix-linux.zip",
-              "size": 16260494
-            },
-            "mac": {
-              "name": "chow-matrix-mac.zip",
-              "size": 10373268
-            },
-            "win": {
-              "name": "chow-matrix-win.zip",
-              "size": 4719759
-            }
-          },
-          "release": "v1.2.0"
-        }
-      }
-    },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
-      "license": "gpl-3.0",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Modulation"
-          ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.flac",
-              "size": 95804
-            },
-            "image": {
-              "name": "temper.jpg",
-              "size": 62400
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
-            },
-            "win": {
-              "name": "temper-win.zip",
-              "size": 6181044
-            }
-          },
-          "release": "v1.1.1"
-        }
-      }
-    },
-    "studiorack/odin/odin": {
-      "id": "studiorack/odin/odin",
-      "license": "gpl-3.0",
-      "version": "2.2.4",
-      "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Moog"
-          ],
-          "version": "2.2.4",
-          "id": "odin",
-          "date": "2020-10-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "odin.flac",
-              "size": 51889
-            },
-            "image": {
-              "name": "odin.jpg",
-              "size": 123090
-            },
-            "linux": {
-              "name": "odin-linux.zip",
-              "size": 97250026
-            },
-            "mac": {
-              "name": "odin-mac.zip",
-              "size": 78842812
-            },
-            "win": {
-              "name": "odin-win.zip",
-              "size": 0
-            }
-          },
-          "release": "v2.2.4"
-        }
-      }
     }
   },
-  "time": "2022-10-09T22:26:24.691Z",
-  "total": 83
+  "time": "2022-10-16T01:11:57.440Z",
+  "total": 70
 }
