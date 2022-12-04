@@ -225,95 +225,6 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/mverb"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0",
-          "repo": "studiorack/smartguitaramp"
-        }
-      }
-    },
     "studiorack/regrader/regrader": {
       "id": "studiorack/regrader/regrader",
       "license": "mit",
@@ -446,6 +357,95 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/wolf-spectrum"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mverb"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0",
+          "repo": "studiorack/smartguitaramp"
         }
       }
     },
@@ -584,6 +584,318 @@
         }
       }
     },
+    "studiorack/mini-series/mini-series-eq": {
+      "id": "studiorack/mini-series/mini-series-eq",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band EQ",
+          "description": "3-Band EQ",
+          "tags": [
+            "Effect",
+            "EQ"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-eq",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-eq.flac",
+              "size": 79282
+            },
+            "image": {
+              "name": "mini-series-eq.jpg",
+              "size": 18650
+            },
+            "linux": {
+              "name": "mini-series-eq-linux.zip",
+              "size": 884722
+            },
+            "mac": {
+              "name": "mini-series-eq-mac.zip",
+              "size": 1101475
+            },
+            "win": {
+              "name": "mini-series-eq-win.zip",
+              "size": 850005
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-splitter": {
+      "id": "studiorack/mini-series/mini-series-splitter",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band Splitter",
+          "description": "3-Band Splitter",
+          "tags": [
+            "Effect",
+            "Splitter"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-splitter",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-splitter.flac",
+              "size": 76826
+            },
+            "image": {
+              "name": "mini-series-splitter.jpg",
+              "size": 18493
+            },
+            "linux": {
+              "name": "mini-series-splitter-linux.zip",
+              "size": 925750
+            },
+            "mac": {
+              "name": "mini-series-splitter-mac.zip",
+              "size": 1155137
+            },
+            "win": {
+              "name": "mini-series-splitter-win.zip",
+              "size": 878640
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-pan": {
+      "id": "studiorack/mini-series/mini-series-pan",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: Ping Pong Pan",
+          "description": "Ping Pong Pan",
+          "tags": [
+            "Effect",
+            "Pan"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-pan",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-pan.flac",
+              "size": 70115
+            },
+            "image": {
+              "name": "mini-series-pan.jpg",
+              "size": 11264
+            },
+            "linux": {
+              "name": "mini-series-pan-linux.zip",
+              "size": 940248
+            },
+            "mac": {
+              "name": "mini-series-pan-mac.zip",
+              "size": 1065872
+            },
+            "win": {
+              "name": "mini-series-pan-win.zip",
+              "size": 1002204
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-chorus": {
+      "id": "studiorack/distrho-ports/tal-chorus",
+      "license": "other",
+      "version": "1.6.0",
+      "versions": {
+        "1.6.0": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Chorus",
+          "description": "Characteristics of the Juno-60 chorus.",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Juno"
+          ],
+          "version": "1.6.0",
+          "id": "tal-chorus",
+          "date": "2021-05-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-chorus.flac",
+              "size": 78645
+            },
+            "image": {
+              "name": "tal-chorus.jpg",
+              "size": 31671
+            },
+            "linux": {
+              "name": "tal-chorus-linux.zip",
+              "size": 2302019
+            },
+            "mac": {
+              "name": "tal-chorus-mac.zip",
+              "size": 5132019
+            },
+            "win": {
+              "name": "tal-chorus-win.zip",
+              "size": 4440111
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-filter": {
+      "id": "studiorack/distrho-ports/tal-filter",
+      "license": "other",
+      "version": "3.0.1",
+      "versions": {
+        "3.0.1": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Filter",
+          "description": "Host synced filter module with different filter types, panorama and volume modulation possibilities",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Modulation"
+          ],
+          "version": "3.0.1",
+          "id": "tal-filter",
+          "date": "2021-03-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-filter.flac",
+              "size": 70390
+            },
+            "image": {
+              "name": "tal-filter.jpg",
+              "size": 74456
+            },
+            "linux": {
+              "name": "tal-filter-linux.zip",
+              "size": 4199145
+            },
+            "mac": {
+              "name": "tal-filter-mac.zip",
+              "size": 10836170
+            },
+            "win": {
+              "name": "tal-filter-win.zip",
+              "size": 7239861
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-reverb": {
+      "id": "studiorack/distrho-ports/tal-reverb",
+      "license": "other",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Reverb",
+          "description": "High quality plate reverb with a vintage 80's character",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "version": "2.4.0",
+          "id": "tal-reverb",
+          "date": "2021-02-11T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-reverb.flac",
+              "size": 109498
+            },
+            "image": {
+              "name": "tal-reverb.jpg",
+              "size": 59550
+            },
+            "linux": {
+              "name": "tal-reverb-linux.zip",
+              "size": 4409884
+            },
+            "mac": {
+              "name": "tal-reverb-mac.zip",
+              "size": 11515261
+            },
+            "win": {
+              "name": "tal-reverb-win.zip",
+              "size": 7575145
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-vocoder": {
+      "id": "studiorack/distrho-ports/tal-vocoder",
+      "license": "other",
+      "version": "2.2.0",
+      "versions": {
+        "2.2.0": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Vocoder",
+          "description": "Vintage vocoder emulation with 11 bands that emulates the sound of vocoders from the early 80s",
+          "tags": [
+            "Effect",
+            "Vocoder",
+            "Analog"
+          ],
+          "version": "2.2.0",
+          "id": "tal-vocoder",
+          "date": "2021-01-28T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-vocoder.flac",
+              "size": 99144
+            },
+            "image": {
+              "name": "tal-vocoder.jpg",
+              "size": 28705
+            },
+            "linux": {
+              "name": "tal-vocoder-linux.zip",
+              "size": 2906953
+            },
+            "mac": {
+              "name": "tal-vocoder-mac.zip",
+              "size": 7076283
+            },
+            "win": {
+              "name": "tal-vocoder-win.zip",
+              "size": 5351774
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
     "studiorack/chow-matrix/chow-matrix": {
       "id": "studiorack/chow-matrix/chow-matrix",
       "license": "bsd-3-clause",
@@ -671,54 +983,6 @@
           },
           "release": "v1.1.1",
           "repo": "studiorack/temper"
-        }
-      }
-    },
-    "studiorack/airwindows/airwindows": {
-      "id": "studiorack/airwindows/airwindows",
-      "license": "mit",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Chris Johnson",
-          "homepage": "https://www.airwindows.com",
-          "name": "Airwindows",
-          "description": "Huge collection of effects using simple UI controls",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Distortion",
-            "EQ",
-            "Filter",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "airwindows",
-          "date": "2020-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "airwindows.flac",
-              "size": 111355
-            },
-            "image": {
-              "name": "airwindows.jpg",
-              "size": 71522
-            },
-            "linux": {
-              "name": "airwindows-linux.zip",
-              "size": 8241206
-            },
-            "mac": {
-              "name": "airwindows-mac.zip",
-              "size": 14246351
-            },
-            "win": {
-              "name": "airwindows-win.zip",
-              "size": 22181434
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/airwindows"
         }
       }
     }
