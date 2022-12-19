@@ -30,10 +30,10 @@ async function run() {
   const registry = registryLoad();
   registryAdd(registry, await getGithubPack());
   // registryAdd(registry, await getOwlplugPack());
-  registrySave(`${DIST_PATH}/${REGISTRY_OUT}`, registry);
 
   // Create separate registries for Effects and Instruments
   const effects: any = { objects: {} };
+  const index: any = { objects: {} };
   const instruments: any = { objects: {} };
   for (const pluginId in registry.objects) {
     const pluginEntry: PluginEntry = registry.objects[pluginId];
@@ -45,7 +45,9 @@ async function run() {
     if (plugin.tags.includes('Instrument')) {
       instruments.objects[pluginId] = pluginEntry;
     }
+    index.objects[pluginId] = pluginEntry;
   }
+  registrySave(`${DIST_PATH}/${REGISTRY_OUT}`, index);
   registrySave(`${DIST_PATH}/${REGISTRY_OUT_EFFECTS}`, effects);
   registrySave(`${DIST_PATH}/${REGISTRY_OUT_INSTRUMENTS}`, instruments);
 }
