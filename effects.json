@@ -1,134 +1,82 @@
 {
   "objects": {
-    "ryukau/vstplugins/lattice-reverb": {
-      "id": "ryukau/vstplugins/lattice-reverb",
+    "ryukau/vstplugins/basic-limiter": {
+      "id": "ryukau/vstplugins/basic-limiter",
       "license": "gpl-3.0",
-      "version": "0.1.16",
+      "version": "0.1.13",
       "versions": {
-        "0.1.16": {
+        "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "LatticeReverb",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "BasicLimiter",
           "tags": [
             "Fx",
-            "Reverb"
+            "Dynamics"
           ],
-          "version": "0.1.16",
-          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
-          "id": "lattice-reverb",
+          "version": "0.1.13",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
           "files": {
             "audio": {
-              "name": "LatticeReverb.flac",
-              "size": 328632
+              "name": "BasicLimiter.flac",
+              "size": 1736593
             },
             "image": {
-              "name": "LatticeReverb.png",
-              "size": 36407
+              "name": "BasicLimiter.png",
+              "size": 14414
             },
             "linux": {
-              "name": "LatticeReverb_0.1.16.zip",
-              "size": 2783307
+              "name": "BasicLimiter_0.1.13.zip",
+              "size": 2540785
             },
             "win": {
-              "name": "LatticeReverb_0.1.16.zip",
-              "size": 2783307
+              "name": "BasicLimiter_0.1.13.zip",
+              "size": 2540785
             },
             "mac": {
-              "name": "LatticeReverb_0.1.16.zip",
-              "size": 2783307
+              "name": "BasicLimiter_0.1.13.zip",
+              "size": 2540785
             }
           },
-          "release": "UhhyouPlugins0.50.0",
+          "release": "UhhyouPlugins0.51.0",
           "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/basic-limiter-auto-make": {
-      "id": "ryukau/vstplugins/basic-limiter-auto-make",
-      "license": "gpl-3.0",
-      "version": "0.1.12",
-      "versions": {
+        },
         "0.1.12": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "BasicLimiterAutoMake",
+          "name": "BasicLimiter",
           "tags": [
             "Fx",
             "Dynamics"
           ],
           "version": "0.1.12",
           "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
-          "id": "basic-limiter-auto-make",
+          "id": "basic-limiter",
           "files": {
             "audio": {
-              "name": "BasicLimiterAutoMake.flac",
-              "size": 276981
+              "name": "BasicLimiter.flac",
+              "size": 1736593
             },
             "image": {
-              "name": "BasicLimiterAutoMake.png",
-              "size": 18293
+              "name": "BasicLimiter.png",
+              "size": 14414
             },
             "linux": {
-              "name": "BasicLimiterAutoMake_0.1.12.zip",
-              "size": 2558006
+              "name": "BasicLimiter_0.1.12.zip",
+              "size": 2540665
             },
             "win": {
-              "name": "BasicLimiterAutoMake_0.1.12.zip",
-              "size": 2558006
+              "name": "BasicLimiter_0.1.12.zip",
+              "size": 2540665
             },
             "mac": {
-              "name": "BasicLimiterAutoMake_0.1.12.zip",
-              "size": 2558006
+              "name": "BasicLimiter_0.1.12.zip",
+              "size": 2540665
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/es-phaser": {
-      "id": "ryukau/vstplugins/es-phaser",
-      "license": "gpl-3.0",
-      "version": "0.1.14",
-      "versions": {
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "EsPhaser",
-          "tags": [
-            "Fx",
-            "Modulation"
-          ],
-          "version": "0.1.14",
-          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
-          "id": "es-phaser",
-          "files": {
-            "audio": {
-              "name": "EsPhaser.flac",
-              "size": 1497800
-            },
-            "image": {
-              "name": "EsPhaser.png",
-              "size": 14068
-            },
-            "linux": {
-              "name": "EsPhaser_0.1.14.zip",
-              "size": 2487076
-            },
-            "win": {
-              "name": "EsPhaser_0.1.14.zip",
-              "size": 2487076
-            },
-            "mac": {
-              "name": "EsPhaser_0.1.14.zip",
-              "size": 2487076
-            }
-          },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -176,11 +124,128 @@
         }
       }
     },
+    "ryukau/vstplugins/l4-reverb": {
+      "id": "ryukau/vstplugins/l4-reverb",
+      "license": "gpl-3.0",
+      "version": "0.1.14",
+      "versions": {
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.14",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.14.zip",
+              "size": 2766221
+            },
+            "win": {
+              "name": "L4Reverb_0.1.14.zip",
+              "size": 2766221
+            },
+            "mac": {
+              "name": "L4Reverb_0.1.14.zip",
+              "size": 2766221
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.13",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.13.zip",
+              "size": 2764378
+            },
+            "win": {
+              "name": "L4Reverb_0.1.13.zip",
+              "size": 2764378
+            },
+            "mac": {
+              "name": "L4Reverb_0.1.13.zip",
+              "size": 2764378
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        }
+      }
+    },
     "ryukau/vstplugins/f-d-n64-reverb": {
       "id": "ryukau/vstplugins/f-d-n64-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "versions": {
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.10",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.flac",
+              "size": 1049623
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb_0.1.10.zip",
+              "size": 2796816
+            },
+            "win": {
+              "name": "FDN64Reverb_0.1.10.zip",
+              "size": 2796816
+            },
+            "mac": {
+              "name": "FDN64Reverb_0.1.10.zip",
+              "size": 2796816
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.9": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -215,52 +280,167 @@
               "size": 2793803
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
-    "ryukau/vstplugins/l3-reverb": {
-      "id": "ryukau/vstplugins/l3-reverb",
+    "ryukau/vstplugins/es-phaser": {
+      "id": "ryukau/vstplugins/es-phaser",
+      "license": "gpl-3.0",
+      "version": "0.1.15",
+      "versions": {
+        "0.1.15": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.15",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.flac",
+              "size": 1497800
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser_0.1.15.zip",
+              "size": 2488389
+            },
+            "win": {
+              "name": "EsPhaser_0.1.15.zip",
+              "size": 2488389
+            },
+            "mac": {
+              "name": "EsPhaser_0.1.15.zip",
+              "size": 2488389
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.14",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.flac",
+              "size": 1497800
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser_0.1.14.zip",
+              "size": 2487076
+            },
+            "win": {
+              "name": "EsPhaser_0.1.14.zip",
+              "size": 2487076
+            },
+            "mac": {
+              "name": "EsPhaser_0.1.14.zip",
+              "size": 2487076
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        }
+      }
+    },
+    "ryukau/vstplugins/basic-limiter-auto-make": {
+      "id": "ryukau/vstplugins/basic-limiter-auto-make",
       "license": "gpl-3.0",
       "version": "0.1.13",
       "versions": {
         "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "L3Reverb",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "BasicLimiterAutoMake",
           "tags": [
             "Fx",
-            "Reverb"
+            "Dynamics"
           ],
           "version": "0.1.13",
-          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
-          "id": "l3-reverb",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
           "files": {
             "audio": {
-              "name": "L3Reverb.flac",
-              "size": 605291
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
             },
             "image": {
-              "name": "L3Reverb.png",
-              "size": 43045
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
             },
             "linux": {
-              "name": "L3Reverb_0.1.13.zip",
-              "size": 2774398
+              "name": "BasicLimiterAutoMake_0.1.13.zip",
+              "size": 2558812
             },
             "win": {
-              "name": "L3Reverb_0.1.13.zip",
-              "size": 2774398
+              "name": "BasicLimiterAutoMake_0.1.13.zip",
+              "size": 2558812
             },
             "mac": {
-              "name": "L3Reverb_0.1.13.zip",
-              "size": 2774398
+              "name": "BasicLimiterAutoMake_0.1.13.zip",
+              "size": 2558812
             }
           },
-          "release": "UhhyouPlugins0.50.0",
+          "release": "UhhyouPlugins0.51.0",
           "repo": "ryukau/vstplugins"
+        },
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.12",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.12.zip",
+              "size": 2558006
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.12.zip",
+              "size": 2558006
+            },
+            "mac": {
+              "name": "BasicLimiterAutoMake_0.1.12.zip",
+              "size": 2558006
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -308,6 +488,86 @@
         }
       }
     },
+    "ryukau/vstplugins/lattice-reverb": {
+      "id": "ryukau/vstplugins/lattice-reverb",
+      "license": "gpl-3.0",
+      "version": "0.1.17",
+      "versions": {
+        "0.1.17": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.17",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.17.zip",
+              "size": 2784816
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.17.zip",
+              "size": 2784816
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.17.zip",
+              "size": 2784816
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.16",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.16.zip",
+              "size": 2783307
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.16.zip",
+              "size": 2783307
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.16.zip",
+              "size": 2783307
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        }
+      }
+    },
     "ryukau/vstplugins/wave-cymbal": {
       "id": "ryukau/vstplugins/wave-cymbal",
       "license": "gpl-3.0",
@@ -352,91 +612,83 @@
         }
       }
     },
-    "ryukau/vstplugins/basic-limiter": {
-      "id": "ryukau/vstplugins/basic-limiter",
+    "ryukau/vstplugins/l3-reverb": {
+      "id": "ryukau/vstplugins/l3-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.12",
+      "version": "0.1.14",
       "versions": {
-        "0.1.12": {
+        "0.1.14": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "BasicLimiter",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "L3Reverb",
           "tags": [
             "Fx",
-            "Dynamics"
+            "Reverb"
           ],
-          "version": "0.1.12",
-          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
-          "id": "basic-limiter",
+          "version": "0.1.14",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l3-reverb",
           "files": {
             "audio": {
-              "name": "BasicLimiter.flac",
-              "size": 1736593
+              "name": "L3Reverb.flac",
+              "size": 605291
             },
             "image": {
-              "name": "BasicLimiter.png",
-              "size": 14414
+              "name": "L3Reverb.png",
+              "size": 43045
             },
             "linux": {
-              "name": "BasicLimiter_0.1.12.zip",
-              "size": 2540665
+              "name": "L3Reverb_0.1.14.zip",
+              "size": 2776247
             },
             "win": {
-              "name": "BasicLimiter_0.1.12.zip",
-              "size": 2540665
+              "name": "L3Reverb_0.1.14.zip",
+              "size": 2776247
             },
             "mac": {
-              "name": "BasicLimiter_0.1.12.zip",
-              "size": 2540665
+              "name": "L3Reverb_0.1.14.zip",
+              "size": 2776247
             }
           },
-          "release": "UhhyouPlugins0.50.0",
+          "release": "UhhyouPlugins0.51.0",
           "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/l4-reverb": {
-      "id": "ryukau/vstplugins/l4-reverb",
-      "license": "gpl-3.0",
-      "version": "0.1.13",
-      "versions": {
+        },
         "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "L4Reverb",
+          "name": "L3Reverb",
           "tags": [
             "Fx",
             "Reverb"
           ],
           "version": "0.1.13",
           "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
-          "id": "l4-reverb",
+          "id": "l3-reverb",
           "files": {
             "audio": {
-              "name": "L4Reverb.flac",
-              "size": 611850
+              "name": "L3Reverb.flac",
+              "size": 605291
             },
             "image": {
-              "name": "L4Reverb.png",
-              "size": 44220
+              "name": "L3Reverb.png",
+              "size": 43045
             },
             "linux": {
-              "name": "L4Reverb_0.1.13.zip",
-              "size": 2764378
+              "name": "L3Reverb_0.1.13.zip",
+              "size": 2774398
             },
             "win": {
-              "name": "L4Reverb_0.1.13.zip",
-              "size": 2764378
+              "name": "L3Reverb_0.1.13.zip",
+              "size": 2774398
             },
             "mac": {
-              "name": "L4Reverb_0.1.13.zip",
-              "size": 2764378
+              "name": "L3Reverb_0.1.13.zip",
+              "size": 2774398
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -800,6 +1052,51 @@
         }
       }
     },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0",
+          "repo": "studiorack/smartguitaramp"
+        }
+      }
+    },
     "studiorack/mverb/mverb": {
       "id": "studiorack/mverb/mverb",
       "license": "gpl-3.0",
@@ -844,48 +1141,270 @@
         }
       }
     },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
+      "license": "gpl-3.0",
+      "version": "2.8.0",
       "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
           "tags": [
             "Effect",
-            "Guitar",
-            "Amp"
+            "Filter",
+            "Tape"
           ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
+              "name": "chow-tape-model.flac",
+              "size": 72368
             },
             "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
+              "name": "chow-tape-model.jpg",
+              "size": 52419
             },
             "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
             },
             "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
             },
             "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679
             }
           },
-          "release": "v1.2.0",
-          "repo": "studiorack/smartguitaramp"
+          "release": "v2.8.0",
+          "repo": "studiorack/chow-tape-model"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919
+            }
+          },
+          "release": "v0.4.0",
+          "repo": "studiorack/modeq"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "repo": "studiorack/ampli-fe"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-eq": {
+      "id": "studiorack/mini-series/mini-series-eq",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band EQ",
+          "description": "3-Band EQ",
+          "tags": [
+            "Effect",
+            "EQ"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-eq",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-eq.flac",
+              "size": 79282
+            },
+            "image": {
+              "name": "mini-series-eq.jpg",
+              "size": 18650
+            },
+            "linux": {
+              "name": "mini-series-eq-linux.zip",
+              "size": 884722
+            },
+            "mac": {
+              "name": "mini-series-eq-mac.zip",
+              "size": 1101475
+            },
+            "win": {
+              "name": "mini-series-eq-win.zip",
+              "size": 850005
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-splitter": {
+      "id": "studiorack/mini-series/mini-series-splitter",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band Splitter",
+          "description": "3-Band Splitter",
+          "tags": [
+            "Effect",
+            "Splitter"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-splitter",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-splitter.flac",
+              "size": 76826
+            },
+            "image": {
+              "name": "mini-series-splitter.jpg",
+              "size": 18493
+            },
+            "linux": {
+              "name": "mini-series-splitter-linux.zip",
+              "size": 925750
+            },
+            "mac": {
+              "name": "mini-series-splitter-mac.zip",
+              "size": 1155137
+            },
+            "win": {
+              "name": "mini-series-splitter-win.zip",
+              "size": 878640
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-pan": {
+      "id": "studiorack/mini-series/mini-series-pan",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: Ping Pong Pan",
+          "description": "Ping Pong Pan",
+          "tags": [
+            "Effect",
+            "Pan"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-pan",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-pan.flac",
+              "size": 70115
+            },
+            "image": {
+              "name": "mini-series-pan.jpg",
+              "size": 11264
+            },
+            "linux": {
+              "name": "mini-series-pan-linux.zip",
+              "size": 940248
+            },
+            "mac": {
+              "name": "mini-series-pan-mac.zip",
+              "size": 1065872
+            },
+            "win": {
+              "name": "mini-series-pan-win.zip",
+              "size": 1002204
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
         }
       }
     }

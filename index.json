@@ -1,134 +1,242 @@
 {
   "objects": {
-    "ryukau/vstplugins/lattice-reverb": {
-      "id": "ryukau/vstplugins/lattice-reverb",
+    "ryukau/vstplugins/light-pad-synth": {
+      "id": "ryukau/vstplugins/light-pad-synth",
       "license": "gpl-3.0",
-      "version": "0.1.16",
+      "version": "0.1.18",
       "versions": {
-        "0.1.16": {
+        "0.1.18": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "LightPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.18",
+          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
+          "id": "light-pad-synth",
+          "files": {
+            "audio": {
+              "name": "LightPadSynth.flac",
+              "size": 951405
+            },
+            "image": {
+              "name": "LightPadSynth.png",
+              "size": 57697
+            },
+            "linux": {
+              "name": "LightPadSynth_0.1.18.zip",
+              "size": 3045010
+            },
+            "win": {
+              "name": "LightPadSynth_0.1.18.zip",
+              "size": 3045010
+            },
+            "mac": {
+              "name": "LightPadSynth_0.1.18.zip",
+              "size": 3045010
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.17": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "LatticeReverb",
+          "name": "LightPadSynth",
           "tags": [
-            "Fx",
-            "Reverb"
+            "Instrument",
+            "Synth"
           ],
-          "version": "0.1.16",
-          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
-          "id": "lattice-reverb",
+          "version": "0.1.17",
+          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
+          "id": "light-pad-synth",
           "files": {
             "audio": {
-              "name": "LatticeReverb.flac",
-              "size": 328632
+              "name": "LightPadSynth.flac",
+              "size": 951405
             },
             "image": {
-              "name": "LatticeReverb.png",
-              "size": 36407
+              "name": "LightPadSynth.png",
+              "size": 57697
             },
             "linux": {
-              "name": "LatticeReverb_0.1.16.zip",
-              "size": 2783307
+              "name": "LightPadSynth_0.1.17.zip",
+              "size": 3043567
             },
             "win": {
-              "name": "LatticeReverb_0.1.16.zip",
-              "size": 2783307
+              "name": "LightPadSynth_0.1.17.zip",
+              "size": 3043567
             },
             "mac": {
-              "name": "LatticeReverb_0.1.16.zip",
-              "size": 2783307
+              "name": "LightPadSynth_0.1.17.zip",
+              "size": 3043567
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
-    "ryukau/vstplugins/basic-limiter-auto-make": {
-      "id": "ryukau/vstplugins/basic-limiter-auto-make",
+    "ryukau/vstplugins/basic-limiter": {
+      "id": "ryukau/vstplugins/basic-limiter",
       "license": "gpl-3.0",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "versions": {
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.13",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.flac",
+              "size": 1736593
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter_0.1.13.zip",
+              "size": 2540785
+            },
+            "win": {
+              "name": "BasicLimiter_0.1.13.zip",
+              "size": 2540785
+            },
+            "mac": {
+              "name": "BasicLimiter_0.1.13.zip",
+              "size": 2540785
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.12": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "BasicLimiterAutoMake",
+          "name": "BasicLimiter",
           "tags": [
             "Fx",
             "Dynamics"
           ],
           "version": "0.1.12",
           "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
-          "id": "basic-limiter-auto-make",
+          "id": "basic-limiter",
           "files": {
             "audio": {
-              "name": "BasicLimiterAutoMake.flac",
-              "size": 276981
+              "name": "BasicLimiter.flac",
+              "size": 1736593
             },
             "image": {
-              "name": "BasicLimiterAutoMake.png",
-              "size": 18293
+              "name": "BasicLimiter.png",
+              "size": 14414
             },
             "linux": {
-              "name": "BasicLimiterAutoMake_0.1.12.zip",
-              "size": 2558006
+              "name": "BasicLimiter_0.1.12.zip",
+              "size": 2540665
             },
             "win": {
-              "name": "BasicLimiterAutoMake_0.1.12.zip",
-              "size": 2558006
+              "name": "BasicLimiter_0.1.12.zip",
+              "size": 2540665
             },
             "mac": {
-              "name": "BasicLimiterAutoMake_0.1.12.zip",
-              "size": 2558006
+              "name": "BasicLimiter_0.1.12.zip",
+              "size": 2540665
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
-    "ryukau/vstplugins/es-phaser": {
-      "id": "ryukau/vstplugins/es-phaser",
+    "ryukau/vstplugins/colliding-comb-synth": {
+      "id": "ryukau/vstplugins/colliding-comb-synth",
       "license": "gpl-3.0",
-      "version": "0.1.14",
+      "version": "0.1.11",
       "versions": {
-        "0.1.14": {
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "CollidingCombSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.11",
+          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
+          "id": "colliding-comb-synth",
+          "files": {
+            "audio": {
+              "name": "CollidingCombSynth.flac",
+              "size": 1005341
+            },
+            "image": {
+              "name": "CollidingCombSynth.png",
+              "size": 64026
+            },
+            "linux": {
+              "name": "CollidingCombSynth_0.1.11.zip",
+              "size": 2821715
+            },
+            "win": {
+              "name": "CollidingCombSynth_0.1.11.zip",
+              "size": 2821715
+            },
+            "mac": {
+              "name": "CollidingCombSynth_0.1.11.zip",
+              "size": 2821715
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.10": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "EsPhaser",
+          "name": "CollidingCombSynth",
           "tags": [
-            "Fx",
-            "Modulation"
+            "Instrument",
+            "Synth"
           ],
-          "version": "0.1.14",
-          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
-          "id": "es-phaser",
+          "version": "0.1.10",
+          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
+          "id": "colliding-comb-synth",
           "files": {
             "audio": {
-              "name": "EsPhaser.flac",
-              "size": 1497800
+              "name": "CollidingCombSynth.flac",
+              "size": 1005341
             },
             "image": {
-              "name": "EsPhaser.png",
-              "size": 14068
+              "name": "CollidingCombSynth.png",
+              "size": 64026
             },
             "linux": {
-              "name": "EsPhaser_0.1.14.zip",
-              "size": 2487076
+              "name": "CollidingCombSynth_0.1.10.zip",
+              "size": 2820135
             },
             "win": {
-              "name": "EsPhaser_0.1.14.zip",
-              "size": 2487076
+              "name": "CollidingCombSynth_0.1.10.zip",
+              "size": 2820135
             },
             "mac": {
-              "name": "EsPhaser_0.1.14.zip",
-              "size": 2487076
+              "name": "CollidingCombSynth_0.1.10.zip",
+              "size": 2820135
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -176,47 +284,83 @@
         }
       }
     },
-    "ryukau/vstplugins/colliding-comb-synth": {
-      "id": "ryukau/vstplugins/colliding-comb-synth",
+    "ryukau/vstplugins/l4-reverb": {
+      "id": "ryukau/vstplugins/l4-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.10",
+      "version": "0.1.14",
       "versions": {
-        "0.1.10": {
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.14",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.14.zip",
+              "size": 2766221
+            },
+            "win": {
+              "name": "L4Reverb_0.1.14.zip",
+              "size": 2766221
+            },
+            "mac": {
+              "name": "L4Reverb_0.1.14.zip",
+              "size": 2766221
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "CollidingCombSynth",
+          "name": "L4Reverb",
           "tags": [
-            "Instrument",
-            "Synth"
+            "Fx",
+            "Reverb"
           ],
-          "version": "0.1.10",
-          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
+          "version": "0.1.13",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
           "files": {
             "audio": {
-              "name": "CollidingCombSynth.flac",
-              "size": 1005341
+              "name": "L4Reverb.flac",
+              "size": 611850
             },
             "image": {
-              "name": "CollidingCombSynth.png",
-              "size": 64026
+              "name": "L4Reverb.png",
+              "size": 44220
             },
             "linux": {
-              "name": "CollidingCombSynth_0.1.10.zip",
-              "size": 2820135
+              "name": "L4Reverb_0.1.13.zip",
+              "size": 2764378
             },
             "win": {
-              "name": "CollidingCombSynth_0.1.10.zip",
-              "size": 2820135
+              "name": "L4Reverb_0.1.13.zip",
+              "size": 2764378
             },
             "mac": {
-              "name": "CollidingCombSynth_0.1.10.zip",
-              "size": 2820135
+              "name": "L4Reverb_0.1.13.zip",
+              "size": 2764378
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -264,11 +408,128 @@
         }
       }
     },
+    "ryukau/vstplugins/cubic-pad-synth": {
+      "id": "ryukau/vstplugins/cubic-pad-synth",
+      "license": "gpl-3.0",
+      "version": "0.1.20",
+      "versions": {
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.20",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.20.zip",
+              "size": 6303125
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.20.zip",
+              "size": 6303125
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.20.zip",
+              "size": 6303125
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.19": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.19",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.19.zip",
+              "size": 6298736
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.19.zip",
+              "size": 6298736
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.19.zip",
+              "size": 6298736
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        }
+      }
+    },
     "ryukau/vstplugins/enveloped-sine": {
       "id": "ryukau/vstplugins/enveloped-sine",
       "license": "gpl-3.0",
-      "version": "0.1.19",
+      "version": "0.1.20",
       "versions": {
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "EnvelopedSine",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.20",
+          "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
+          "id": "enveloped-sine",
+          "files": {
+            "audio": {
+              "name": "EnvelopedSine.flac",
+              "size": 1413976
+            },
+            "image": {
+              "name": "EnvelopedSine.png",
+              "size": 61185
+            },
+            "linux": {
+              "name": "EnvelopedSine_0.1.20.zip",
+              "size": 2862973
+            },
+            "win": {
+              "name": "EnvelopedSine_0.1.20.zip",
+              "size": 2862973
+            },
+            "mac": {
+              "name": "EnvelopedSine_0.1.20.zip",
+              "size": 2862973
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.19": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -303,16 +564,52 @@
               "size": 2858527
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
     "ryukau/vstplugins/f-d-n64-reverb": {
       "id": "ryukau/vstplugins/f-d-n64-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "versions": {
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.10",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.flac",
+              "size": 1049623
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb_0.1.10.zip",
+              "size": 2796816
+            },
+            "win": {
+              "name": "FDN64Reverb_0.1.10.zip",
+              "size": 2796816
+            },
+            "mac": {
+              "name": "FDN64Reverb_0.1.10.zip",
+              "size": 2796816
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.9": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -347,140 +644,167 @@
               "size": 2793803
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
-    "ryukau/vstplugins/iterative-sin-cluster": {
-      "id": "ryukau/vstplugins/iterative-sin-cluster",
+    "ryukau/vstplugins/es-phaser": {
+      "id": "ryukau/vstplugins/es-phaser",
       "license": "gpl-3.0",
-      "version": "0.1.20",
+      "version": "0.1.15",
       "versions": {
-        "0.1.20": {
+        "0.1.15": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.15",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.flac",
+              "size": 1497800
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser_0.1.15.zip",
+              "size": 2488389
+            },
+            "win": {
+              "name": "EsPhaser_0.1.15.zip",
+              "size": 2488389
+            },
+            "mac": {
+              "name": "EsPhaser_0.1.15.zip",
+              "size": 2488389
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.14": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "IterativeSinCluster",
+          "name": "EsPhaser",
           "tags": [
-            "Instrument",
-            "Synth"
+            "Fx",
+            "Modulation"
           ],
-          "version": "0.1.20",
-          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
+          "version": "0.1.14",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
           "files": {
             "audio": {
-              "name": "IterativeSinCluster.flac",
-              "size": 1489884
+              "name": "EsPhaser.flac",
+              "size": 1497800
             },
             "image": {
-              "name": "IterativeSinCluster.png",
-              "size": 61133
+              "name": "EsPhaser.png",
+              "size": 14068
             },
             "linux": {
-              "name": "IterativeSinCluster_0.1.20.zip",
-              "size": 2783937
+              "name": "EsPhaser_0.1.14.zip",
+              "size": 2487076
             },
             "win": {
-              "name": "IterativeSinCluster_0.1.20.zip",
-              "size": 2783937
+              "name": "EsPhaser_0.1.14.zip",
+              "size": 2487076
             },
             "mac": {
-              "name": "IterativeSinCluster_0.1.20.zip",
-              "size": 2783937
+              "name": "EsPhaser_0.1.14.zip",
+              "size": 2487076
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
-    "ryukau/vstplugins/light-pad-synth": {
-      "id": "ryukau/vstplugins/light-pad-synth",
-      "license": "gpl-3.0",
-      "version": "0.1.17",
-      "versions": {
-        "0.1.17": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "LightPadSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.17",
-          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
-          "files": {
-            "audio": {
-              "name": "LightPadSynth.flac",
-              "size": 951405
-            },
-            "image": {
-              "name": "LightPadSynth.png",
-              "size": 57697
-            },
-            "linux": {
-              "name": "LightPadSynth_0.1.17.zip",
-              "size": 3043567
-            },
-            "win": {
-              "name": "LightPadSynth_0.1.17.zip",
-              "size": 3043567
-            },
-            "mac": {
-              "name": "LightPadSynth_0.1.17.zip",
-              "size": 3043567
-            }
-          },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/l3-reverb": {
-      "id": "ryukau/vstplugins/l3-reverb",
+    "ryukau/vstplugins/basic-limiter-auto-make": {
+      "id": "ryukau/vstplugins/basic-limiter-auto-make",
       "license": "gpl-3.0",
       "version": "0.1.13",
       "versions": {
         "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "L3Reverb",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "BasicLimiterAutoMake",
           "tags": [
             "Fx",
-            "Reverb"
+            "Dynamics"
           ],
           "version": "0.1.13",
-          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
-          "id": "l3-reverb",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
           "files": {
             "audio": {
-              "name": "L3Reverb.flac",
-              "size": 605291
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
             },
             "image": {
-              "name": "L3Reverb.png",
-              "size": 43045
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
             },
             "linux": {
-              "name": "L3Reverb_0.1.13.zip",
-              "size": 2774398
+              "name": "BasicLimiterAutoMake_0.1.13.zip",
+              "size": 2558812
             },
             "win": {
-              "name": "L3Reverb_0.1.13.zip",
-              "size": 2774398
+              "name": "BasicLimiterAutoMake_0.1.13.zip",
+              "size": 2558812
             },
             "mac": {
-              "name": "L3Reverb_0.1.13.zip",
-              "size": 2774398
+              "name": "BasicLimiterAutoMake_0.1.13.zip",
+              "size": 2558812
             }
           },
-          "release": "UhhyouPlugins0.50.0",
+          "release": "UhhyouPlugins0.51.0",
           "repo": "ryukau/vstplugins"
+        },
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.12",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.12.zip",
+              "size": 2558006
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.12.zip",
+              "size": 2558006
+            },
+            "mac": {
+              "name": "BasicLimiterAutoMake_0.1.12.zip",
+              "size": 2558006
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -572,47 +896,163 @@
         }
       }
     },
-    "ryukau/vstplugins/cubic-pad-synth": {
-      "id": "ryukau/vstplugins/cubic-pad-synth",
+    "ryukau/vstplugins/iterative-sin-cluster": {
+      "id": "ryukau/vstplugins/iterative-sin-cluster",
       "license": "gpl-3.0",
-      "version": "0.1.19",
+      "version": "0.1.21",
       "versions": {
-        "0.1.19": {
+        "0.1.21": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "CubicPadSynth",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "IterativeSinCluster",
           "tags": [
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.19",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "version": "0.1.21",
+          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
+          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
+              "name": "IterativeSinCluster.flac",
+              "size": 1489884
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "IterativeSinCluster.png",
+              "size": 61133
             },
             "linux": {
-              "name": "CubicPadSynth_0.1.19.zip",
-              "size": 6298736
+              "name": "IterativeSinCluster_0.1.21.zip",
+              "size": 2785758
             },
             "win": {
-              "name": "CubicPadSynth_0.1.19.zip",
-              "size": 6298736
+              "name": "IterativeSinCluster_0.1.21.zip",
+              "size": 2785758
             },
             "mac": {
-              "name": "CubicPadSynth_0.1.19.zip",
-              "size": 6298736
+              "name": "IterativeSinCluster_0.1.21.zip",
+              "size": 2785758
             }
           },
-          "release": "UhhyouPlugins0.50.0",
+          "release": "UhhyouPlugins0.51.0",
           "repo": "ryukau/vstplugins"
+        },
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "IterativeSinCluster",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.20",
+          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
+          "id": "iterative-sin-cluster",
+          "files": {
+            "audio": {
+              "name": "IterativeSinCluster.flac",
+              "size": 1489884
+            },
+            "image": {
+              "name": "IterativeSinCluster.png",
+              "size": 61133
+            },
+            "linux": {
+              "name": "IterativeSinCluster_0.1.20.zip",
+              "size": 2783937
+            },
+            "win": {
+              "name": "IterativeSinCluster_0.1.20.zip",
+              "size": 2783937
+            },
+            "mac": {
+              "name": "IterativeSinCluster_0.1.20.zip",
+              "size": 2783937
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        }
+      }
+    },
+    "ryukau/vstplugins/lattice-reverb": {
+      "id": "ryukau/vstplugins/lattice-reverb",
+      "license": "gpl-3.0",
+      "version": "0.1.17",
+      "versions": {
+        "0.1.17": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.17",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.17.zip",
+              "size": 2784816
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.17.zip",
+              "size": 2784816
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.17.zip",
+              "size": 2784816
+            }
+          },
+          "release": "UhhyouPlugins0.51.0",
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.16",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.16.zip",
+              "size": 2783307
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.16.zip",
+              "size": 2783307
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.16.zip",
+              "size": 2783307
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -660,91 +1100,83 @@
         }
       }
     },
-    "ryukau/vstplugins/basic-limiter": {
-      "id": "ryukau/vstplugins/basic-limiter",
+    "ryukau/vstplugins/l3-reverb": {
+      "id": "ryukau/vstplugins/l3-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.12",
+      "version": "0.1.14",
       "versions": {
-        "0.1.12": {
+        "0.1.14": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "BasicLimiter",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "L3Reverb",
           "tags": [
             "Fx",
-            "Dynamics"
+            "Reverb"
           ],
-          "version": "0.1.12",
-          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
-          "id": "basic-limiter",
+          "version": "0.1.14",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l3-reverb",
           "files": {
             "audio": {
-              "name": "BasicLimiter.flac",
-              "size": 1736593
+              "name": "L3Reverb.flac",
+              "size": 605291
             },
             "image": {
-              "name": "BasicLimiter.png",
-              "size": 14414
+              "name": "L3Reverb.png",
+              "size": 43045
             },
             "linux": {
-              "name": "BasicLimiter_0.1.12.zip",
-              "size": 2540665
+              "name": "L3Reverb_0.1.14.zip",
+              "size": 2776247
             },
             "win": {
-              "name": "BasicLimiter_0.1.12.zip",
-              "size": 2540665
+              "name": "L3Reverb_0.1.14.zip",
+              "size": 2776247
             },
             "mac": {
-              "name": "BasicLimiter_0.1.12.zip",
-              "size": 2540665
+              "name": "L3Reverb_0.1.14.zip",
+              "size": 2776247
             }
           },
-          "release": "UhhyouPlugins0.50.0",
+          "release": "UhhyouPlugins0.51.0",
           "repo": "ryukau/vstplugins"
-        }
-      }
-    },
-    "ryukau/vstplugins/l4-reverb": {
-      "id": "ryukau/vstplugins/l4-reverb",
-      "license": "gpl-3.0",
-      "version": "0.1.13",
-      "versions": {
+        },
         "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-12-19T06:18:40.814Z",
-          "name": "L4Reverb",
+          "name": "L3Reverb",
           "tags": [
             "Fx",
             "Reverb"
           ],
           "version": "0.1.13",
           "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
-          "id": "l4-reverb",
+          "id": "l3-reverb",
           "files": {
             "audio": {
-              "name": "L4Reverb.flac",
-              "size": 611850
+              "name": "L3Reverb.flac",
+              "size": 605291
             },
             "image": {
-              "name": "L4Reverb.png",
-              "size": 44220
+              "name": "L3Reverb.png",
+              "size": 43045
             },
             "linux": {
-              "name": "L4Reverb_0.1.13.zip",
-              "size": 2764378
+              "name": "L3Reverb_0.1.13.zip",
+              "size": 2774398
             },
             "win": {
-              "name": "L4Reverb_0.1.13.zip",
-              "size": 2764378
+              "name": "L3Reverb_0.1.13.zip",
+              "size": 2774398
             },
             "mac": {
-              "name": "L4Reverb_0.1.13.zip",
-              "size": 2764378
+              "name": "L3Reverb_0.1.13.zip",
+              "size": 2774398
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.50.0"
         }
       }
     },
@@ -1113,6 +1545,51 @@
         }
       }
     },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.flac",
+              "size": 12493
+            },
+            "image": {
+              "name": "andes.jpg",
+              "size": 27379
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0",
+          "repo": "studiorack/andes"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -1200,141 +1677,6 @@
           },
           "release": "v1.0.2",
           "repo": "studiorack/adlplug"
-        }
-      }
-    },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.flac",
-              "size": 12493
-            },
-            "image": {
-              "name": "andes.jpg",
-              "size": 27379
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0",
-          "repo": "studiorack/andes"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.flac",
-              "size": 239665
-            },
-            "image": {
-              "name": "tunefish.jpg",
-              "size": 107198
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0",
-          "repo": "studiorack/tunefish"
-        }
-      }
-    },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.flac",
-              "size": 52170
-            },
-            "image": {
-              "name": "kars.jpg",
-              "size": 16547
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1146039
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1330027
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1177464
-            }
-          },
-          "release": "v1.0.0",
-          "repo": "studiorack/kars"
         }
       }
     },
@@ -1426,6 +1768,96 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/basic-harmonica"
+        }
+      }
+    },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.flac",
+              "size": 239665
+            },
+            "image": {
+              "name": "tunefish.jpg",
+              "size": 107198
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0",
+          "repo": "studiorack/tunefish"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.flac",
+              "size": 52170
+            },
+            "image": {
+              "name": "kars.jpg",
+              "size": 16547
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1146039
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1330027
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1177464
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/kars"
         }
       }
     },
@@ -2200,47 +2632,140 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2",
+          "repo": "studiorack/virtual-playing-orchestra"
+        }
+      }
+    },
+    "studiorack/vst2413/vst2413": {
+      "id": "studiorack/vst2413/vst2413",
+      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
           "tags": [
-            "Effect",
-            "Reverb"
+            "Instrument",
+            "Synth",
+            "Bit"
           ],
           "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
+          "id": "vst2413",
+          "date": "2013-04-21T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mverb.flac",
-              "size": 41738
+              "name": "vst2413.flac",
+              "size": 347527
             },
             "image": {
-              "name": "mverb.jpg",
-              "size": 48422
+              "name": "vst2413.jpg",
+              "size": 22493
             },
             "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
+              "name": "vst2413-linux.zip",
+              "size": 386422
             },
             "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
+              "name": "vst2413-mac.zip",
+              "size": 187561
             },
             "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
+              "name": "vst2413-win.zip",
+              "size": 228506
             }
           },
           "release": "v1.0.0",
-          "repo": "studiorack/mverb"
+          "repo": "studiorack/vst2413"
+        }
+      }
+    },
+    "studiorack/jsteeldrum/jsteel-drum": {
+      "id": "studiorack/jsteeldrum/jsteel-drum",
+      "license": "unlicense",
+      "version": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+          "name": "jSteelDrum",
+          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+          "tags": [
+            "Instrument",
+            "Steel",
+            "Drum",
+            "sfz"
+          ],
+          "version": "2.0.0",
+          "id": "jsteel-drum",
+          "date": "2022-09-22T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jsteel-drum.flac",
+              "size": 83358
+            },
+            "image": {
+              "name": "jsteel-drum.jpg",
+              "size": 222224
+            },
+            "linux": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "mac": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "win": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            }
+          },
+          "release": "v2.0.0",
+          "repo": "studiorack/jsteeldrum"
         }
       }
     },
@@ -2289,6 +2814,50 @@
         }
       }
     },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mverb"
+        }
+      }
+    },
     "studiorack/sams-sonor/sams-sonor": {
       "id": "studiorack/sams-sonor/sams-sonor",
       "license": "cc-by-sa-4.0",
@@ -2332,6 +2901,864 @@
           },
           "release": "v1.0.0",
           "repo": "studiorack/sams-sonor"
+        }
+      }
+    },
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0",
+          "repo": "studiorack/obxd"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
+      "license": "gpl-3.0",
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.flac",
+              "size": 72368
+            },
+            "image": {
+              "name": "chow-tape-model.jpg",
+              "size": 52419
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679
+            }
+          },
+          "release": "v2.8.0",
+          "repo": "studiorack/chow-tape-model"
+        }
+      }
+    },
+    "studiorack/ninjas2/ninjas2": {
+      "id": "studiorack/ninjas2/ninjas2",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Slicer"
+          ],
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.flac",
+              "size": 63564
+            },
+            "image": {
+              "name": "ninjas2.jpg",
+              "size": 88079
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116
+            }
+          },
+          "release": "v0.2.0",
+          "repo": "studiorack/ninjas2"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.flac",
+              "size": 56084
+            },
+            "image": {
+              "name": "digits.jpg",
+              "size": 55074
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.zip",
+              "size": 211492
+            }
+          },
+          "release": "v2.1.0",
+          "repo": "studiorack/digits"
+        }
+      }
+    },
+    "studiorack/monique-monosynth/monique": {
+      "id": "studiorack/monique-monosynth/monique",
+      "license": "other",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Thomas Arndt",
+          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
+          "name": "Monique",
+          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bass",
+            "Lead"
+          ],
+          "version": "1.2.0",
+          "id": "monique",
+          "date": "2021-12-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "monique.flac",
+              "size": 386812
+            },
+            "image": {
+              "name": "monique.jpg",
+              "size": 228421
+            },
+            "linux": {
+              "name": "monique-linux.zip",
+              "size": 7258419
+            },
+            "mac": {
+              "name": "monique-mac.zip",
+              "size": 19330773
+            },
+            "win": {
+              "name": "monique-win.zip",
+              "size": 8255789
+            }
+          },
+          "release": "v1.2.0",
+          "repo": "studiorack/monique-monosynth"
+        }
+      }
+    },
+    "studiorack/war-tuba/war-tuba": {
+      "id": "studiorack/war-tuba/war-tuba",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "war-tuba",
+          "date": "2021-09-03T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "war-tuba.flac",
+              "size": 88482
+            },
+            "image": {
+              "name": "war-tuba.jpg",
+              "size": 69063
+            },
+            "linux": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            },
+            "mac": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            },
+            "win": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/war-tuba"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919
+            }
+          },
+          "release": "v0.4.0",
+          "repo": "studiorack/modeq"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "repo": "studiorack/octasine"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "repo": "studiorack/ampli-fe"
+        }
+      }
+    },
+    "studiorack/carla/carla": {
+      "id": "studiorack/carla/carla",
+      "license": "other",
+      "version": "2.4.2",
+      "versions": {
+        "2.4.2": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/falkTX/Carla",
+          "name": "Carla",
+          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
+          "tags": [
+            "Instrument",
+            "Host",
+            "Player"
+          ],
+          "version": "2.4.2",
+          "id": "carla",
+          "date": "2022-02-19T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "carla.flac",
+              "size": 330759
+            },
+            "image": {
+              "name": "carla.jpg",
+              "size": 252192
+            },
+            "linux": {
+              "name": "carla-linux.zip",
+              "size": 160951738
+            },
+            "mac": {
+              "name": "carla-mac.zip",
+              "size": 312938720
+            },
+            "win": {
+              "name": "carla-win.zip",
+              "size": 196435153
+            }
+          },
+          "release": "v2.4.2",
+          "repo": "studiorack/carla"
+        }
+      }
+    },
+    "studiorack/avl-drumkits/avl-drumkits": {
+      "id": "studiorack/avl-drumkits/avl-drumkits",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Drumkits",
+          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-drumkits",
+          "date": "2022-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-drumkits.flac",
+              "size": 696023
+            },
+            "image": {
+              "name": "avl-drumkits.jpg",
+              "size": 326339
+            },
+            "linux": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "mac": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            },
+            "win": {
+              "name": "avl-drumkits.zip",
+              "size": 16017234
+            }
+          },
+          "release": "v1.1.0",
+          "repo": "studiorack/avl-drumkits"
+        }
+      }
+    },
+    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
+      "license": "other",
+      "version": "3.0.0",
+      "versions": {
+        "3.0.0": {
+          "author": "Alexander Holm",
+          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
+          "name": "Salamander Grand Piano",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+          "tags": [
+            "Instrument",
+            "Piano",
+            "Yamaha",
+            "sfz"
+          ],
+          "version": "3.0.0",
+          "id": "salamander-grand-piano",
+          "date": "2021-09-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-grand-piano.flac",
+              "size": 365662
+            },
+            "image": {
+              "name": "salamander-grand-piano.jpg",
+              "size": 88748
+            },
+            "linux": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "mac": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            },
+            "win": {
+              "name": "salamander-grand-piano.zip",
+              "size": 748416023
+            }
+          },
+          "release": "v3.0.0",
+          "repo": "studiorack/salamander-grand-piano"
+        }
+      }
+    },
+    "studiorack/double-bass/double-bass": {
+      "id": "studiorack/double-bass/double-bass",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/dsmolken.double-bass",
+          "name": "Double Bass",
+          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+          "tags": [
+            "Instrument",
+            "String",
+            "Bass",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "double-bass",
+          "date": "2021-10-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "double-bass.flac",
+              "size": 77117
+            },
+            "image": {
+              "name": "double-bass.jpg",
+              "size": 45157
+            },
+            "linux": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "mac": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "win": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/double-bass"
+        }
+      }
+    },
+    "studiorack/bear-sax/bear-sax": {
+      "id": "studiorack/bear-sax/bear-sax",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+          "name": "Bear Sax",
+          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Saxophone",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "bear-sax",
+          "date": "2021-09-11T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "bear-sax.flac",
+              "size": 86918
+            },
+            "image": {
+              "name": "bear-sax.jpg",
+              "size": 85425
+            },
+            "linux": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "mac": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "win": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/bear-sax"
+        }
+      }
+    },
+    "studiorack/hungarian-zither/hungarian-zither": {
+      "id": "studiorack/hungarian-zither/hungarian-zither",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
+          "name": "Hungarian Zither",
+          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+          "tags": [
+            "Instrument",
+            "Strings",
+            "Classical",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "hungarian-zither",
+          "date": "2022-09-13T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "hungarian-zither.flac",
+              "size": 172274
+            },
+            "image": {
+              "name": "hungarian-zither.jpg",
+              "size": 88693
+            },
+            "linux": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "mac": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "win": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/hungarian-zither"
+        }
+      }
+    },
+    "studiorack/sfizz/sfizz": {
+      "id": "studiorack/sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "1.1.1",
+          "id": "sfizz",
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698
+            }
+          },
+          "release": "v1.1.1",
+          "repo": "studiorack/sfizz"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-eq": {
+      "id": "studiorack/mini-series/mini-series-eq",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band EQ",
+          "description": "3-Band EQ",
+          "tags": [
+            "Effect",
+            "EQ"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-eq",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-eq.flac",
+              "size": 79282
+            },
+            "image": {
+              "name": "mini-series-eq.jpg",
+              "size": 18650
+            },
+            "linux": {
+              "name": "mini-series-eq-linux.zip",
+              "size": 884722
+            },
+            "mac": {
+              "name": "mini-series-eq-mac.zip",
+              "size": 1101475
+            },
+            "win": {
+              "name": "mini-series-eq-win.zip",
+              "size": 850005
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-splitter": {
+      "id": "studiorack/mini-series/mini-series-splitter",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band Splitter",
+          "description": "3-Band Splitter",
+          "tags": [
+            "Effect",
+            "Splitter"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-splitter",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-splitter.flac",
+              "size": 76826
+            },
+            "image": {
+              "name": "mini-series-splitter.jpg",
+              "size": 18493
+            },
+            "linux": {
+              "name": "mini-series-splitter-linux.zip",
+              "size": 925750
+            },
+            "mac": {
+              "name": "mini-series-splitter-mac.zip",
+              "size": 1155137
+            },
+            "win": {
+              "name": "mini-series-splitter-win.zip",
+              "size": 878640
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-pan": {
+      "id": "studiorack/mini-series/mini-series-pan",
+      "license": "lgpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: Ping Pong Pan",
+          "description": "Ping Pong Pan",
+          "tags": [
+            "Effect",
+            "Pan"
+          ],
+          "version": "1.0.0",
+          "id": "mini-series-pan",
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-pan.flac",
+              "size": 70115
+            },
+            "image": {
+              "name": "mini-series-pan.jpg",
+              "size": 11264
+            },
+            "linux": {
+              "name": "mini-series-pan-linux.zip",
+              "size": 940248
+            },
+            "mac": {
+              "name": "mini-series-pan-mac.zip",
+              "size": 1065872
+            },
+            "win": {
+              "name": "mini-series-pan-win.zip",
+              "size": 1002204
+            }
+          },
+          "release": "v1.0.0",
+          "repo": "studiorack/mini-series"
         }
       }
     }
