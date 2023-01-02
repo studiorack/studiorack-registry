@@ -9,13 +9,14 @@ const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorac
 
 async function getJSONAuthed(url: string): Promise<any> {
   console.log('⤓', url);
-  const params = new URLSearchParams();
-  params.append('access_token', process.env.GITHUB_TOKEN || '');
-  console.log('⤓', params);
-  let data;
   try {
-    const response = await fetch(url + '?' + params);
-    data = await response.json();
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`
+      },
+    });
+    const data = await response.json();
     console.log('⤓', data);
     return data;
   } catch(error) {
