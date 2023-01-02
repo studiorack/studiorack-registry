@@ -1,14 +1,32 @@
 import * as semver from 'semver';
 import slugify from 'slugify';
-import { getJSON, PluginInterface, PluginLocal, PluginPack, validatePluginSchema } from '@studiorack/core';
+import { PluginInterface, PluginLocal, PluginPack, validatePluginSchema } from '@studiorack/core';
+import fetch from 'node-fetch';
 
 // Plugins need to have a topic `studiorack-plugin` to appear in the results
 // https://github.com/topics/studiorack-plugin
 const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true&per_page=100';
 
+async function getJSONAuthed(url: string): Promise<any> {
+  console.log('⤓', url);
+  const params = new URLSearchParams();
+  params.append('access_token', process.env.GITHUB_TOKEN || '');
+  console.log('⤓', params);
+  let data;
+  try {
+    const response = await fetch(url + '?' + params);
+    data = await response.json();
+    console.log('⤓', data);
+    return data;
+  } catch(error) {
+    console.log('⤓', error);
+    return false;
+  }
+}
+
 async function getGithubPack(): Promise<PluginPack> {
   const pluginPack: PluginPack = {};
-  const results = await getJSON(SEARCH_URL);
+  const results = await getJSONAuthed(SEARCH_URL);
   for (const result of results.items) {
     await getGithubReleases(pluginPack, result);
   }
@@ -18,7 +36,7 @@ async function getGithubPack(): Promise<PluginPack> {
 async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<PluginPack> {
   try {
     // Get releases for a GitHub repo
-    const releases = await getJSON(result.releases_url.replace('{/id}', ''));
+    const releases = await getJSONAuthed(result.releases_url.replace('{/id}', ''));
     for (const release of releases) {
       // For each release get plugins.json
       const pluginsJsonList = await getGithubPlugins(
@@ -58,7 +76,7 @@ async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<P
 
 async function getGithubPlugins(url: string) {
   const pluginsValid: PluginInterface[] = [];
-  const pluginsJson = await getJSON(url);
+  const pluginsJson = await getJSONAuthed(url);
   pluginsJson.plugins.forEach((plugin: PluginInterface) => {
     const error = validatePluginSchema(plugin as PluginLocal);
     if (error === false) {
