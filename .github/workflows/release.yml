@@ -6,8 +6,6 @@ on:
       # https://crontab.guru/weekly
     - cron: '0 0 * * 0'
 
-permissions: read-all
-
 jobs:
   release:
     name: Create release

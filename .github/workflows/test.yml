@@ -31,3 +31,5 @@ jobs:
         run: |
           npm run build && npm start
           cat out/index.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
