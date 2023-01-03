@@ -11,18 +11,14 @@ async function getJSONAuthed(url: string): Promise<any> {
   console.log('⤓', url);
   const headers: any = {};
   if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-  console.log('headers', headers);
   try {
     const response = await fetch(url, {
       method: 'GET',
       headers,
     });
-    const data = await response.json();
-    console.log('⤓', data);
-    return data;
+    return await response.json();
   } catch(error) {
-    console.log('⤓', error);
-    return false;
+    return console.log('⤓', error);
   }
 }
 
