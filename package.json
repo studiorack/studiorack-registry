@@ -34,6 +34,7 @@
   "dependencies": {
     "@studiorack/core": "^1.0.35",
     "@types/semver": "^7.3.4",
+    "graphql-request": "^5.1.0",
     "node-fetch": "^2.6.7",
     "semver": "^7.3.4",
     "slugify": "^1.4.6"

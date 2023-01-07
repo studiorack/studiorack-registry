@@ -1,5 +1,5 @@
 import { dirCreate, fileJsonCreate, PluginEntry, PluginInterface, pluginLatest, PluginPack } from '@studiorack/core';
-import { getGithubPack } from './sources/github';
+import { githubGetPack } from './sources/github';
 import { getOwlplugPack } from './sources/owlplug';
 
 const DIST_PATH = './out';
@@ -28,7 +28,7 @@ async function registrySave(path: string, file: any) {
 
 async function run() {
   const registry = registryLoad();
-  registryAdd(registry, await getGithubPack());
+  registryAdd(registry, await githubGetPack());
   // registryAdd(registry, await getOwlplugPack());
 
   // Create separate registries for Effects and Instruments

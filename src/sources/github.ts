@@ -2,79 +2,106 @@ import * as semver from 'semver';
 import slugify from 'slugify';
 import { PluginInterface, PluginLocal, PluginPack, validatePluginSchema } from '@studiorack/core';
 import fetch from 'node-fetch';
+import { gql, GraphQLClient, RequestDocument } from 'graphql-request';
 
 // Plugins need to have a topic `studiorack-plugin` to appear in the results
 // https://github.com/topics/studiorack-plugin
-const SEARCH_URL = 'https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true&per_page=100';
+const GITHUB_API: string = 'https://api.github.com/graphql';
+const GITHUB_TOPIC: string = 'studiorack-plugin';
+const GITHUB_REPO_PAGINATION: number = 100;
+const GITHUB_RELEASES_PAGINATION: number = 100;
 
-async function getJSONAuthed(url: string): Promise<any> {
-  console.log('⤓', url);
+interface GitHubRelease {
+  tagName: string;
+}
+
+interface GitHubRepository {
+  nameWithOwner: string;
+  licenseInfo: {
+    key: string;
+  };
+  releases: {
+    nodes: GitHubRelease[];
+  };
+}
+
+interface GitHubSearch {
+  search: {
+    nodes: GitHubRepository[];
+  };
+}
+
+async function githubGetPack(): Promise<PluginPack> {
+  const pluginPack: PluginPack = {};
+  const results: GitHubSearch = await githubSearchRepos(GITHUB_API);
+  for (const repo of results.search.nodes) {
+    for (const release of repo.releases.nodes) {
+      await githubGetRelease(pluginPack, repo, release);
+    }
+  }
+  return pluginPack;
+}
+
+async function githubSearchRepos(url: string): Promise<GitHubSearch> {
   const headers: any = {};
   if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-  try {
-    const response = await fetch(url, {
-      method: 'GET',
-      headers,
-    });
-    return await response.json();
-  } catch(error) {
-    return console.log('⤓', error);
-  }
-}
-
-async function getGithubPack(): Promise<PluginPack> {
-  const pluginPack: PluginPack = {};
-  const results = await getJSONAuthed(SEARCH_URL);
-  for (const result of results.items) {
-    await getGithubReleases(pluginPack, result);
-  }
-  return pluginPack;
-}
-
-async function getGithubReleases(pluginPack: PluginPack, result: any): Promise<PluginPack> {
-  try {
-    // Get releases for a GitHub repo
-    const releases = await getJSONAuthed(result.releases_url.replace('{/id}', ''));
-    for (const release of releases) {
-      // For each release get plugins.json
-      const pluginsJsonList = await getGithubPlugins(
-        `https://github.com/${result.full_name}/releases/download/${release.tag_name}/plugins.json`
-      );
-      pluginsJsonList.plugins.forEach((plugin: PluginInterface) => {
-        // For each plugin sanitize the id and add to registry
-        const pluginId = slugify(`${result.full_name}/${plugin.id}`, {
-          lower: true,
-          remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g,
-        });
-        const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
-        console.log('github', pluginId, pluginVersion);
-        if (!pluginPack[pluginId]) {
-          pluginPack[pluginId] = {
-            id: pluginId,
-            license: result.license?.key || 'other',
-            version: pluginVersion,
-            versions: {},
-          };
+  const graphQLClient = new GraphQLClient(url, { headers });
+  const query: RequestDocument = gql`
+    {
+      search(query: "topic:${GITHUB_TOPIC} fork:true", type: REPOSITORY, first: ${GITHUB_REPO_PAGINATION}) {
+        nodes {
+          ... on Repository {
+            nameWithOwner
+            licenseInfo {
+              key
+            }
+            releases(first: ${GITHUB_RELEASES_PAGINATION}) {
+              nodes {
+                tagName
+              }
+            }
+          }
         }
-        // Release is different from version and can vary per version
-        plugin.release = release.tag_name;
-        pluginPack[pluginId].versions[pluginVersion] = plugin;
-        // If plugin version is greater than the current, set as latest version
-        if (semver.gt(pluginVersion, pluginPack[pluginId].version)) {
-          pluginPack[pluginId].version = pluginVersion;
-        }
-      });
+      }
     }
-  } catch (error) {
-    // do nothing
-    console.log('error', error);
-  }
+  `;
+  return graphQLClient.request(query);
+}
+
+async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, release: GitHubRelease) {
+  const pluginsJsonList = await githubGetPlugins(
+    `https://github.com/${repo.nameWithOwner}/releases/download/${release.tagName}/plugins.json`
+  );
+  pluginsJsonList.plugins.forEach((plugin: PluginInterface) => {
+    // For each plugin sanitize the id and add to registry
+    const pluginId = slugify(`${repo.nameWithOwner}/${plugin.id}`, {
+      lower: true,
+      remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g,
+    });
+    const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
+    console.log('github', pluginId, pluginVersion);
+    if (!pluginPack[pluginId]) {
+      pluginPack[pluginId] = {
+        id: pluginId,
+        license: repo.licenseInfo?.key || 'other',
+        version: pluginVersion,
+        versions: {},
+      };
+    }
+    // Release is different from version and can vary per version
+    plugin.release = release.tagName;
+    pluginPack[pluginId].versions[pluginVersion] = plugin;
+    // If plugin version is greater than the current, set as latest version
+    if (semver.gt(pluginVersion, pluginPack[pluginId].version)) {
+      pluginPack[pluginId].version = pluginVersion;
+    }
+  });
   return pluginPack;
 }
 
-async function getGithubPlugins(url: string) {
+async function githubGetPlugins(url: string) {
   const pluginsValid: PluginInterface[] = [];
-  const pluginsJson = await getJSONAuthed(url);
+  const pluginsJson = await getJSONSafe(url);
   pluginsJson.plugins.forEach((plugin: PluginInterface) => {
     const error = validatePluginSchema(plugin as PluginLocal);
     if (error === false) {
@@ -86,4 +113,16 @@ async function getGithubPlugins(url: string) {
   return { plugins: pluginsValid };
 }
 
-export { getGithubPack };
+async function getJSONSafe(url: string): Promise<any> {
+  console.log('⤓', url);
+  try {
+    const response = await fetch(url);
+    const json = await response.json();
+    return json;
+  } catch (error) {
+    // console.log(error);
+    return { plugins: [] };
+  }
+}
+
+export { githubGetPack };
