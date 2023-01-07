@@ -1,6 +1,6 @@
 import * as semver from 'semver';
 import slugify from 'slugify';
-import { PluginInterface, PluginLocal, PluginPack, validatePluginSchema } from '@studiorack/core';
+import { PluginInterface, PluginLocal, PluginPack, pluginValidateSchema } from '@studiorack/core';
 import fetch from 'node-fetch';
 import { gql, GraphQLClient, RequestDocument } from 'graphql-request';
 
@@ -103,7 +103,7 @@ async function githubGetPlugins(url: string) {
   const pluginsValid: PluginInterface[] = [];
   const pluginsJson = await getJSONSafe(url);
   pluginsJson.plugins.forEach((plugin: PluginInterface) => {
-    const error = validatePluginSchema(plugin as PluginLocal);
+    const error = pluginValidateSchema(plugin as PluginLocal);
     if (error === false) {
       pluginsValid.push(plugin);
     } else {
