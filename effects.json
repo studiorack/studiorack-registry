@@ -40,6 +40,12 @@
             }
           },
           "release": "UhhyouPlugins0.51.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
         },
         "0.1.12": {
@@ -77,6 +83,210 @@
             }
           },
           "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.11",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.flac",
+              "size": 1736593
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter_0.1.11.zip",
+              "size": 2534156
+            },
+            "win": {
+              "name": "BasicLimiter_0.1.11.zip",
+              "size": 2534156
+            },
+            "mac": {
+              "name": "BasicLimiter_0.1.11.zip",
+              "size": 2534156
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.9": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-08-08T12:00:25.591Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.9",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.flac",
+              "size": 1736593
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter_0.1.9.zip",
+              "size": 2519035
+            },
+            "win": {
+              "name": "BasicLimiter_0.1.9.zip",
+              "size": 2519035
+            },
+            "mac": {
+              "name": "BasicLimiter_0.1.9.zip",
+              "size": 2519035
+            }
+          },
+          "release": "UhhyouPlugins0.41.0"
+        },
+        "0.1.8": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.8",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.flac",
+              "size": 1736593
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter_0.1.8.zip",
+              "size": 2760721
+            },
+            "win": {
+              "name": "BasicLimiter_0.1.8.zip",
+              "size": 2760721
+            },
+            "mac": {
+              "name": "BasicLimiter_0.1.8.zip",
+              "size": 2760721
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.6": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.6",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.flac",
+              "size": 1736593
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter_0.1.6.zip",
+              "size": 1827863
+            },
+            "win": {
+              "name": "BasicLimiter_0.1.6.zip",
+              "size": 1827863
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.4": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.4",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.wav",
+              "size": 5266858
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter-linux.zip",
+              "size": 1811997
+            },
+            "win": {
+              "name": "BasicLimiter-win.zip",
+              "size": 1811997
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.2": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "BasicLimiter",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.2",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter",
+          "files": {
+            "audio": {
+              "name": "BasicLimiter.wav",
+              "size": 5266858
+            },
+            "image": {
+              "name": "BasicLimiter.png",
+              "size": 14414
+            },
+            "linux": {
+              "name": "BasicLimiter-linux.zip",
+              "size": 1475357
+            },
+            "win": {
+              "name": "BasicLimiter-win.zip",
+              "size": 1475357
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
         }
       }
     },
@@ -120,7 +330,217 @@
             }
           },
           "release": "UhhyouPlugins0.50.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
+        },
+        "0.2.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.13",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.13.zip",
+              "size": 2700815
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.13.zip",
+              "size": 2700815
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.13.zip",
+              "size": 2700815
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.2.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.12",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.2.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.11",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.11.zip",
+              "size": 1950882
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.11.zip",
+              "size": 1950882
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.2.9": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.9",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.wav",
+              "size": 6134428
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal-linux.zip",
+              "size": 1905722
+            },
+            "win": {
+              "name": "FDNCymbal-win.zip",
+              "size": 1905722
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.2.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.7",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.wav",
+              "size": 6134428
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal-linux.zip",
+              "size": 1604100
+            },
+            "win": {
+              "name": "FDNCymbal-win.zip",
+              "size": 1604100
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.2.6": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.6",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.wav",
+              "size": 6134428
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 34324
+            },
+            "linux": {
+              "name": "FDNCymbal-linux.zip",
+              "size": 1669749
+            },
+            "mac": {
+              "name": "FDNCymbal-mac.zip",
+              "size": 1669749
+            },
+            "win": {
+              "name": "FDNCymbal-win.zip",
+              "size": 1669749
+            }
+          },
+          "release": "ResetAndMuteFix"
         }
       }
     },
@@ -164,6 +584,12 @@
             }
           },
           "release": "UhhyouPlugins0.51.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
         },
         "0.1.13": {
@@ -201,6 +627,246 @@
             }
           },
           "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.12",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.12.zip",
+              "size": 2757626
+            },
+            "win": {
+              "name": "L4Reverb_0.1.12.zip",
+              "size": 2757626
+            },
+            "mac": {
+              "name": "L4Reverb_0.1.12.zip",
+              "size": 2757626
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-08-08T12:00:25.591Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.11",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.11.zip",
+              "size": 2725167
+            },
+            "win": {
+              "name": "L4Reverb_0.1.11.zip",
+              "size": 2725167
+            },
+            "mac": {
+              "name": "L4Reverb_0.1.11.zip",
+              "size": 2725167
+            }
+          },
+          "release": "UhhyouPlugins0.41.0"
+        },
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.10",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.10.zip",
+              "size": 2969076
+            },
+            "win": {
+              "name": "L4Reverb_0.1.10.zip",
+              "size": 2969076
+            },
+            "mac": {
+              "name": "L4Reverb_0.1.10.zip",
+              "size": 2969076
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.9": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.9",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.flac",
+              "size": 611850
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb_0.1.9.zip",
+              "size": 1973710
+            },
+            "win": {
+              "name": "L4Reverb_0.1.9.zip",
+              "size": 1973710
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.7",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.wav",
+              "size": 8212508
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb-linux.zip",
+              "size": 1932709
+            },
+            "win": {
+              "name": "L4Reverb-win.zip",
+              "size": 1932709
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.5": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.5",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.wav",
+              "size": 8212508
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 44220
+            },
+            "linux": {
+              "name": "L4Reverb-linux.zip",
+              "size": 1626021
+            },
+            "win": {
+              "name": "L4Reverb-win.zip",
+              "size": 1626021
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.1.4": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "L4Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.4",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l4-reverb",
+          "files": {
+            "audio": {
+              "name": "L4Reverb.wav",
+              "size": 8212508
+            },
+            "image": {
+              "name": "L4Reverb.png",
+              "size": 32981
+            },
+            "linux": {
+              "name": "L4Reverb-linux.zip",
+              "size": 1720420
+            },
+            "mac": {
+              "name": "L4Reverb-mac.zip",
+              "size": 1720420
+            },
+            "win": {
+              "name": "L4Reverb-win.zip",
+              "size": 1720420
+            }
+          },
+          "release": "ResetAndMuteFix"
         }
       }
     },
@@ -244,6 +910,12 @@
             }
           },
           "release": "UhhyouPlugins0.51.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
         },
         "0.1.9": {
@@ -281,6 +953,174 @@
             }
           },
           "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.8": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.8",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.flac",
+              "size": 1049623
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb_0.1.8.zip",
+              "size": 2777608
+            },
+            "win": {
+              "name": "FDN64Reverb_0.1.8.zip",
+              "size": 2777608
+            },
+            "mac": {
+              "name": "FDN64Reverb_0.1.8.zip",
+              "size": 2777608
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-08-08T12:00:25.591Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.7",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.flac",
+              "size": 1049623
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb_0.1.7.zip",
+              "size": 2749040
+            },
+            "win": {
+              "name": "FDN64Reverb_0.1.7.zip",
+              "size": 2749040
+            },
+            "mac": {
+              "name": "FDN64Reverb_0.1.7.zip",
+              "size": 2749040
+            }
+          },
+          "release": "UhhyouPlugins0.41.0"
+        },
+        "0.1.6": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.6",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.flac",
+              "size": 1049623
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb_0.1.6.zip",
+              "size": 2021800
+            },
+            "win": {
+              "name": "FDN64Reverb_0.1.6.zip",
+              "size": 2021800
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.2": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.2",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.wav",
+              "size": 5431434
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb-linux.zip",
+              "size": 1972803
+            },
+            "win": {
+              "name": "FDN64Reverb-win.zip",
+              "size": 1972803
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.0": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "FDN64Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.0",
+          "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+          "id": "f-d-n64-reverb",
+          "files": {
+            "audio": {
+              "name": "FDN64Reverb.wav",
+              "size": 5431434
+            },
+            "image": {
+              "name": "FDN64Reverb.png",
+              "size": 39715
+            },
+            "linux": {
+              "name": "FDN64Reverb-linux.zip",
+              "size": 1672539
+            },
+            "win": {
+              "name": "FDN64Reverb-win.zip",
+              "size": 1672539
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
         }
       }
     },
@@ -324,6 +1164,12 @@
             }
           },
           "release": "UhhyouPlugins0.51.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
         },
         "0.1.14": {
@@ -361,6 +1207,174 @@
             }
           },
           "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.13",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.flac",
+              "size": 1497800
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser_0.1.13.zip",
+              "size": 1556782
+            },
+            "win": {
+              "name": "EsPhaser_0.1.13.zip",
+              "size": 1556782
+            },
+            "mac": {
+              "name": "EsPhaser_0.1.13.zip",
+              "size": 1556782
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.12",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.flac",
+              "size": 1497800
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser_0.1.12.zip",
+              "size": 1788882
+            },
+            "win": {
+              "name": "EsPhaser_0.1.12.zip",
+              "size": 1788882
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.10",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.wav",
+              "size": 8448508
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser-linux.zip",
+              "size": 1770754
+            },
+            "win": {
+              "name": "EsPhaser-win.zip",
+              "size": 1770754
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.8": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.8",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.wav",
+              "size": 8448508
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 14068
+            },
+            "linux": {
+              "name": "EsPhaser-linux.zip",
+              "size": 1446744
+            },
+            "win": {
+              "name": "EsPhaser-win.zip",
+              "size": 1446744
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "EsPhaser",
+          "tags": [
+            "Fx",
+            "Modulation"
+          ],
+          "version": "0.1.7",
+          "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+          "id": "es-phaser",
+          "files": {
+            "audio": {
+              "name": "EsPhaser.wav",
+              "size": 8448508
+            },
+            "image": {
+              "name": "EsPhaser.png",
+              "size": 9628
+            },
+            "linux": {
+              "name": "EsPhaser-linux.zip",
+              "size": 1501633
+            },
+            "mac": {
+              "name": "EsPhaser-mac.zip",
+              "size": 1501633
+            },
+            "win": {
+              "name": "EsPhaser-win.zip",
+              "size": 1501633
+            }
+          },
+          "release": "ResetAndMuteFix"
         }
       }
     },
@@ -404,6 +1418,12 @@
             }
           },
           "release": "UhhyouPlugins0.51.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
         },
         "0.1.12": {
@@ -441,6 +1461,178 @@
             }
           },
           "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.11",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.11.zip",
+              "size": 2553571
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.11.zip",
+              "size": 2553571
+            },
+            "mac": {
+              "name": "BasicLimiterAutoMake_0.1.11.zip",
+              "size": 2553571
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.9": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-08-08T12:00:25.591Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.9",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.9.zip",
+              "size": 2536656
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.9.zip",
+              "size": 2536656
+            },
+            "mac": {
+              "name": "BasicLimiterAutoMake_0.1.9.zip",
+              "size": 2536656
+            }
+          },
+          "release": "UhhyouPlugins0.41.0"
+        },
+        "0.1.8": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.8",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.8.zip",
+              "size": 2778057
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.8.zip",
+              "size": 2778057
+            },
+            "mac": {
+              "name": "BasicLimiterAutoMake_0.1.8.zip",
+              "size": 2778057
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.7",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.flac",
+              "size": 276981
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake_0.1.7.zip",
+              "size": 1846640
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake_0.1.7.zip",
+              "size": 1846640
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.4": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "BasicLimiterAutoMake",
+          "tags": [
+            "Fx",
+            "Dynamics"
+          ],
+          "version": "0.1.4",
+          "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+          "id": "basic-limiter-auto-make",
+          "files": {
+            "audio": {
+              "name": "BasicLimiterAutoMake.wav",
+              "size": 3190762
+            },
+            "image": {
+              "name": "BasicLimiterAutoMake.png",
+              "size": 18293
+            },
+            "linux": {
+              "name": "BasicLimiterAutoMake-linux.zip",
+              "size": 1826161
+            },
+            "win": {
+              "name": "BasicLimiterAutoMake-win.zip",
+              "size": 1826161
+            }
+          },
+          "release": "CustomFontOptions"
         }
       }
     },
@@ -484,7 +1676,253 @@
             }
           },
           "release": "UhhyouPlugins0.50.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
+        },
+        "0.1.22": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.22",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.flac",
+              "size": 1280003
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay_0.1.22.zip",
+              "size": 2634837
+            },
+            "win": {
+              "name": "SevenDelay_0.1.22.zip",
+              "size": 2634837
+            },
+            "mac": {
+              "name": "SevenDelay_0.1.22.zip",
+              "size": 2634837
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.21": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.21",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.flac",
+              "size": 1280003
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay_0.1.21.zip",
+              "size": 2865649
+            },
+            "win": {
+              "name": "SevenDelay_0.1.21.zip",
+              "size": 2865649
+            },
+            "mac": {
+              "name": "SevenDelay_0.1.21.zip",
+              "size": 2865649
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.20",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.flac",
+              "size": 1280003
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay_0.1.20.zip",
+              "size": 1901629
+            },
+            "win": {
+              "name": "SevenDelay_0.1.20.zip",
+              "size": 1901629
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.18": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.18",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.wav",
+              "size": 5781966
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay-linux.zip",
+              "size": 1858890
+            },
+            "win": {
+              "name": "SevenDelay-win.zip",
+              "size": 1858890
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.16",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.wav",
+              "size": 5781966
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 43021
+            },
+            "linux": {
+              "name": "SevenDelay-linux.zip",
+              "size": 1553193
+            },
+            "win": {
+              "name": "SevenDelay-win.zip",
+              "size": 1553193
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.1.15": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.15",
+          "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.wav",
+              "size": 5781966
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 30066
+            },
+            "linux": {
+              "name": "SevenDelay-linux.zip",
+              "size": 1611663
+            },
+            "mac": {
+              "name": "SevenDelay-mac.zip",
+              "size": 1611663
+            },
+            "win": {
+              "name": "SevenDelay-win.zip",
+              "size": 1611663
+            }
+          },
+          "release": "ResetAndMuteFix"
+        },
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "description": "A stereo delay tuned towards short delay.",
+          "date": "2020-12-11T03:48:37.553Z",
+          "name": "SevenDelay",
+          "tags": [
+            "Fx",
+            "Delay"
+          ],
+          "version": "0.1.14",
+          "id": "seven-delay",
+          "files": {
+            "audio": {
+              "name": "SevenDelay.wav",
+              "size": 2396716
+            },
+            "image": {
+              "name": "SevenDelay.png",
+              "size": 32087
+            },
+            "linux": {
+              "name": "SevenDelay-linux.zip",
+              "size": 749745
+            },
+            "mac": {
+              "name": "SevenDelay-mac.zip",
+              "size": 708326
+            },
+            "win": {
+              "name": "SevenDelay-win.zip",
+              "size": 668548
+            }
+          },
+          "release": "SevenDelay0.1.14"
         }
       }
     },
@@ -528,6 +1966,12 @@
             }
           },
           "release": "UhhyouPlugins0.51.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
         },
         "0.1.16": {
@@ -565,6 +2009,246 @@
             }
           },
           "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.15": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.15",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.15.zip",
+              "size": 2769926
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.15.zip",
+              "size": 2769926
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.15.zip",
+              "size": 2769926
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-08-08T12:00:25.591Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.13",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.13.zip",
+              "size": 2737288
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.13.zip",
+              "size": 2737288
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.13.zip",
+              "size": 2737288
+            }
+          },
+          "release": "UhhyouPlugins0.41.0"
+        },
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.12",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.12.zip",
+              "size": 2981588
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.12.zip",
+              "size": 2981588
+            },
+            "mac": {
+              "name": "LatticeReverb_0.1.12.zip",
+              "size": 2981588
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.11",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.flac",
+              "size": 328632
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb_0.1.11.zip",
+              "size": 1995521
+            },
+            "win": {
+              "name": "LatticeReverb_0.1.11.zip",
+              "size": 1995521
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.9": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.9",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.wav",
+              "size": 3840348
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb-linux.zip",
+              "size": 1959643
+            },
+            "win": {
+              "name": "LatticeReverb-win.zip",
+              "size": 1959643
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.7",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.wav",
+              "size": 3840348
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 36407
+            },
+            "linux": {
+              "name": "LatticeReverb-linux.zip",
+              "size": 1649466
+            },
+            "win": {
+              "name": "LatticeReverb-win.zip",
+              "size": 1649466
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.1.6": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "LatticeReverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.6",
+          "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+          "id": "lattice-reverb",
+          "files": {
+            "audio": {
+              "name": "LatticeReverb.wav",
+              "size": 3840348
+            },
+            "image": {
+              "name": "LatticeReverb.png",
+              "size": 26006
+            },
+            "linux": {
+              "name": "LatticeReverb-linux.zip",
+              "size": 1722758
+            },
+            "mac": {
+              "name": "LatticeReverb-mac.zip",
+              "size": 1722758
+            },
+            "win": {
+              "name": "LatticeReverb-win.zip",
+              "size": 1722758
+            }
+          },
+          "release": "ResetAndMuteFix"
         }
       }
     },
@@ -608,7 +2292,217 @@
             }
           },
           "release": "UhhyouPlugins0.50.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
+        },
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.20",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.20.zip",
+              "size": 2657212
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.20.zip",
+              "size": 2657212
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.20.zip",
+              "size": 2657212
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.19": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.19",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.18": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.18",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.18.zip",
+              "size": 1904014
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.18.zip",
+              "size": 1904014
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.16",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1867950
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1867950
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.14",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1592936
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1592936
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.13",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 28050
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1672674
+            },
+            "mac": {
+              "name": "WaveCymbal-mac.zip",
+              "size": 1672674
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1672674
+            }
+          },
+          "release": "ResetAndMuteFix"
         }
       }
     },
@@ -652,6 +2546,12 @@
             }
           },
           "release": "UhhyouPlugins0.51.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "ryukau/vstplugins"
         },
         "0.1.13": {
@@ -689,6 +2589,178 @@
             }
           },
           "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "L3Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.12",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l3-reverb",
+          "files": {
+            "audio": {
+              "name": "L3Reverb.flac",
+              "size": 605291
+            },
+            "image": {
+              "name": "L3Reverb.png",
+              "size": 43045
+            },
+            "linux": {
+              "name": "L3Reverb_0.1.12.zip",
+              "size": 2763119
+            },
+            "win": {
+              "name": "L3Reverb_0.1.12.zip",
+              "size": 2763119
+            },
+            "mac": {
+              "name": "L3Reverb_0.1.12.zip",
+              "size": 2763119
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-08-08T12:00:25.591Z",
+          "name": "L3Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.11",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l3-reverb",
+          "files": {
+            "audio": {
+              "name": "L3Reverb.flac",
+              "size": 605291
+            },
+            "image": {
+              "name": "L3Reverb.png",
+              "size": 43045
+            },
+            "linux": {
+              "name": "L3Reverb_0.1.11.zip",
+              "size": 2732678
+            },
+            "win": {
+              "name": "L3Reverb_0.1.11.zip",
+              "size": 2732678
+            },
+            "mac": {
+              "name": "L3Reverb_0.1.11.zip",
+              "size": 2732678
+            }
+          },
+          "release": "UhhyouPlugins0.41.0"
+        },
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "L3Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.10",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l3-reverb",
+          "files": {
+            "audio": {
+              "name": "L3Reverb.flac",
+              "size": 605291
+            },
+            "image": {
+              "name": "L3Reverb.png",
+              "size": 43045
+            },
+            "linux": {
+              "name": "L3Reverb_0.1.10.zip",
+              "size": 2975533
+            },
+            "win": {
+              "name": "L3Reverb_0.1.10.zip",
+              "size": 2975533
+            },
+            "mac": {
+              "name": "L3Reverb_0.1.10.zip",
+              "size": 2975533
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.9": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "L3Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.9",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l3-reverb",
+          "files": {
+            "audio": {
+              "name": "L3Reverb.flac",
+              "size": 605291
+            },
+            "image": {
+              "name": "L3Reverb.png",
+              "size": 43045
+            },
+            "linux": {
+              "name": "L3Reverb_0.1.9.zip",
+              "size": 1971354
+            },
+            "win": {
+              "name": "L3Reverb_0.1.9.zip",
+              "size": 1971354
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.7": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "L3Reverb",
+          "tags": [
+            "Fx",
+            "Reverb"
+          ],
+          "version": "0.1.7",
+          "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+          "id": "l3-reverb",
+          "files": {
+            "audio": {
+              "name": "L3Reverb.wav",
+              "size": 8153180
+            },
+            "image": {
+              "name": "L3Reverb.png",
+              "size": 43045
+            },
+            "linux": {
+              "name": "L3Reverb-linux.zip",
+              "size": 1931917
+            },
+            "win": {
+              "name": "L3Reverb-win.zip",
+              "size": 1931917
+            }
+          },
+          "release": "CustomFontOptions"
         }
       }
     },
@@ -733,6 +2805,12 @@
             }
           },
           "release": "v2.0.6",
+          "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
+            "same": true
+          },
           "repo": "studiorack/argotlunar"
         }
       }
@@ -778,6 +2856,12 @@
             }
           },
           "release": "v1.13.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/iem-plugin-suite"
         }
       }
@@ -823,6 +2907,12 @@
             }
           },
           "release": "v0.1.8",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/wolf-shaper"
         }
       }
@@ -868,6 +2958,12 @@
             }
           },
           "release": "v3.2.5",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/dragonfly-reverb"
         }
       }
@@ -913,6 +3009,12 @@
             }
           },
           "release": "v0.0.1",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/diopser"
         }
       }
@@ -958,6 +3060,12 @@
             }
           },
           "release": "v1.0.4",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "url": "https://choosealicense.com/licenses/mit",
+            "same": false
+          },
           "repo": "studiorack/regrader"
         }
       }
@@ -1003,6 +3111,12 @@
             }
           },
           "release": "v1.4.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/swankyamp"
         }
       }
@@ -1048,6 +3162,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/wolf-spectrum"
         }
       }
@@ -1092,6 +3212,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/mverb"
         }
       }
@@ -1137,6 +3263,12 @@
             }
           },
           "release": "v1.2.0",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "url": "https://choosealicense.com/licenses/apache-2.0",
+            "same": false
+          },
           "repo": "studiorack/smartguitaramp"
         }
       }
@@ -1182,6 +3314,12 @@
             }
           },
           "release": "v2.8.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/chow-tape-model"
         }
       }
@@ -1227,6 +3365,12 @@
             }
           },
           "release": "v0.4.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/modeq"
         }
       }
@@ -1272,6 +3416,12 @@
             }
           },
           "release": "v0.1.0",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "url": "https://choosealicense.com/licenses/mit",
+            "same": false
+          },
           "repo": "studiorack/ampli-fe"
         }
       }
@@ -1317,6 +3467,12 @@
             }
           },
           "release": "v1.2.0",
+          "license": {
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause 'New' or 'Revised' License",
+            "url": "https://choosealicense.com/licenses/bsd-3-clause",
+            "same": false
+          },
           "repo": "studiorack/chow-matrix"
         }
       }
@@ -1362,6 +3518,12 @@
             }
           },
           "release": "v1.1.1",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/temper"
         }
       }
@@ -1410,6 +3572,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "url": "https://choosealicense.com/licenses/mit",
+            "same": false
+          },
           "repo": "studiorack/airwindows"
         }
       }
@@ -1455,6 +3623,12 @@
             }
           },
           "release": "v1.0.4",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
           "repo": "studiorack/mda"
         }
       }
@@ -1499,6 +3673,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "lgpl-3.0",
+            "name": "GNU Lesser General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/lgpl-3.0",
+            "same": false
+          },
           "repo": "studiorack/mini-series"
         }
       }
@@ -1543,6 +3723,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "lgpl-3.0",
+            "name": "GNU Lesser General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/lgpl-3.0",
+            "same": false
+          },
           "repo": "studiorack/mini-series"
         }
       }
@@ -1587,6 +3773,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "lgpl-3.0",
+            "name": "GNU Lesser General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/lgpl-3.0",
+            "same": false
+          },
           "repo": "studiorack/mini-series"
         }
       }
@@ -1632,6 +3824,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
           "repo": "studiorack/distrho-ports"
         }
       }
@@ -1677,6 +3875,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
           "repo": "studiorack/distrho-ports"
         }
       }
@@ -1722,6 +3926,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
           "repo": "studiorack/distrho-ports"
         }
       }
@@ -1767,6 +3977,12 @@
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
           "repo": "studiorack/distrho-ports"
         }
       }
