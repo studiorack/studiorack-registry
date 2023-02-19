@@ -2981,58 +2981,6 @@
         }
       }
     },
-    "freepats/upright-piano-kw/upright-piano-kw": {
-      "id": "freepats/upright-piano-kw/upright-piano-kw",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Upright Piano KW",
-          "description": "Kawai upright piano, recorded in a living room using a Zoom H1 portable recorder mounted on a tripod in front of the piano.",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "upright-piano-kw",
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "UprightPianoKW-20220221.flac",
-              "size": 64803
-            },
-            "image": {
-              "name": "UprightPianoKW-20220221.jpg",
-              "size": 87924
-            },
-            "linux": {
-              "name": "UprightPianoKW-20220221.zip",
-              "size": 32365885
-            },
-            "mac": {
-              "name": "UprightPianoKW-20220221.zip",
-              "size": 32365885
-            },
-            "win": {
-              "name": "UprightPianoKW-20220221.zip",
-              "size": 32365885
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/upright-piano-kw"
-        }
-      }
-    },
     "freepats/synthesizer-percussion/synthesizer-percussion": {
       "id": "freepats/synthesizer-percussion/synthesizer-percussion",
       "license": "cc0-1.0",
@@ -3082,6 +3030,58 @@
             "same": false
           },
           "repo": "freepats/synthesizer-percussion"
+        }
+      }
+    },
+    "freepats/upright-piano-kw/upright-piano-kw": {
+      "id": "freepats/upright-piano-kw/upright-piano-kw",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Upright Piano KW",
+          "description": "Kawai upright piano, recorded in a living room using a Zoom H1 portable recorder mounted on a tripod in front of the piano.",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "upright-piano-kw",
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "UprightPianoKW-20220221.flac",
+              "size": 64803
+            },
+            "image": {
+              "name": "UprightPianoKW-20220221.jpg",
+              "size": 87924
+            },
+            "linux": {
+              "name": "UprightPianoKW-20220221.zip",
+              "size": 32365885
+            },
+            "mac": {
+              "name": "UprightPianoKW-20220221.zip",
+              "size": 32365885
+            },
+            "win": {
+              "name": "UprightPianoKW-20220221.zip",
+              "size": 32365885
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "freepats/upright-piano-kw"
         }
       }
     },
@@ -3342,108 +3342,6 @@
         }
       }
     },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.flac",
-              "size": 239665
-            },
-            "image": {
-              "name": "tunefish.jpg",
-              "size": 107198
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/tunefish"
-        }
-      }
-    },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.flac",
-              "size": 52170
-            },
-            "image": {
-              "name": "kars.jpg",
-              "size": 16547
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1146039
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1330027
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1177464
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "isc",
-            "name": "ISC License",
-            "url": "https://choosealicense.com/licenses/isc",
-            "same": false
-          },
-          "repo": "studiorack/kars"
-        }
-      }
-    },
     "studiorack/oxe/oxe": {
       "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
@@ -3547,6 +3445,108 @@
         }
       }
     },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.flac",
+              "size": 239665
+            },
+            "image": {
+              "name": "tunefish.jpg",
+              "size": 107198
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/tunefish"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.flac",
+              "size": 52170
+            },
+            "image": {
+              "name": "kars.jpg",
+              "size": 16547
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1146039
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1330027
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1177464
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "isc",
+            "name": "ISC License",
+            "url": "https://choosealicense.com/licenses/isc",
+            "same": false
+          },
+          "repo": "studiorack/kars"
+        }
+      }
+    },
     "studiorack/nekobi/nekobi": {
       "id": "studiorack/nekobi/nekobi",
       "license": "gpl-2.0",
@@ -3647,6 +3647,58 @@
             "same": true
           },
           "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/splendid-grand-piano"
         }
       }
     },
@@ -3805,160 +3857,6 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/splendid-grand-piano"
-        }
-      }
-    },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.flac",
-              "size": 75330
-            },
-            "image": {
-              "name": "helm.jpg",
-              "size": 118535
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 8678132
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 13299862
-            },
-            "win": {
-              "name": "helm-win.zip",
-              "size": 12671911
-            }
-          },
-          "release": "v0.9.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/helm"
-        }
-      }
-    },
-    "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
-      "version": "3.1.0",
-      "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "3.1.0",
-          "id": "juicysf",
-          "date": "2022-02-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "juicysf.flac",
-              "size": 83683
-            },
-            "image": {
-              "name": "juicysf.jpg",
-              "size": 38148
-            },
-            "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 0
-            },
-            "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275
-            },
-            "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510
-            }
-          },
-          "release": "3.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/juicysf"
-        }
-      }
-    },
     "studiorack/dexed/dexed": {
       "id": "studiorack/dexed/dexed",
       "license": "gpl-3.0",
@@ -4111,6 +4009,366 @@
             "same": false
           },
           "repo": "studiorack/horse-pulse"
+        }
+      }
+    },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 8678132
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 13299862
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 12671911
+            }
+          },
+          "release": "v0.9.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/helm"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "id": "studiorack/juicysf/juicysf",
+      "license": "gpl-3.0",
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "3.1.0",
+          "id": "juicysf",
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510
+            }
+          },
+          "release": "3.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/juicysf"
+        }
+      }
+    },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/virtual-playing-orchestra"
+        }
+      }
+    },
+    "studiorack/vst2413/vst2413": {
+      "id": "studiorack/vst2413/vst2413",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "version": "1.0.0",
+          "id": "vst2413",
+          "date": "2013-04-21T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vst2413.flac",
+              "size": 347527
+            },
+            "image": {
+              "name": "vst2413.jpg",
+              "size": 22493
+            },
+            "linux": {
+              "name": "vst2413-linux.zip",
+              "size": 386422
+            },
+            "mac": {
+              "name": "vst2413-mac.zip",
+              "size": 187561
+            },
+            "win": {
+              "name": "vst2413-win.zip",
+              "size": 228506
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/vst2413"
+        }
+      }
+    },
+    "studiorack/jsteeldrum/jsteel-drum": {
+      "id": "studiorack/jsteeldrum/jsteel-drum",
+      "license": "unlicense",
+      "version": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+          "name": "jSteelDrum",
+          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+          "tags": [
+            "Instrument",
+            "Steel",
+            "Drum",
+            "sfz"
+          ],
+          "version": "2.0.0",
+          "id": "jsteel-drum",
+          "date": "2022-09-22T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jsteel-drum.flac",
+              "size": 83358
+            },
+            "image": {
+              "name": "jsteel-drum.jpg",
+              "size": 222224
+            },
+            "linux": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "mac": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "win": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            }
+          },
+          "release": "v2.0.0",
+          "license": {
+            "key": "unlicense",
+            "name": "The Unlicense",
+            "url": "https://choosealicense.com/licenses/unlicense",
+            "same": false
+          },
+          "repo": "studiorack/jsteeldrum"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "id": "studiorack/sams-sonor/sams-sonor",
+      "license": "cc-by-sa-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "sams-sonor",
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-sa-4.0",
+            "name": "Creative Commons Attribution Share Alike 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
+            "same": true
+          },
+          "repo": "studiorack/sams-sonor"
+        }
+      }
+    },
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/obxd"
         }
       }
     },
@@ -4317,264 +4575,6 @@
             "same": false
           },
           "repo": "studiorack/war-tuba"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "id": "studiorack/sams-sonor/sams-sonor",
-      "license": "cc-by-sa-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "sams-sonor",
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
-            "same": true
-          },
-          "repo": "studiorack/sams-sonor"
-        }
-      }
-    },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.flac",
-              "size": 63794
-            },
-            "image": {
-              "name": "obxd.jpg",
-              "size": 76569
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/obxd"
-        }
-      }
-    },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/virtual-playing-orchestra"
-        }
-      }
-    },
-    "studiorack/vst2413/vst2413": {
-      "id": "studiorack/vst2413/vst2413",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Keijiro Takahashi",
-          "homepage": "http://www.keijiro.tokyo/vst2413/",
-          "name": "VST2413",
-          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Bit"
-          ],
-          "version": "1.0.0",
-          "id": "vst2413",
-          "date": "2013-04-21T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vst2413.flac",
-              "size": 347527
-            },
-            "image": {
-              "name": "vst2413.jpg",
-              "size": 22493
-            },
-            "linux": {
-              "name": "vst2413-linux.zip",
-              "size": 386422
-            },
-            "mac": {
-              "name": "vst2413-mac.zip",
-              "size": 187561
-            },
-            "win": {
-              "name": "vst2413-win.zip",
-              "size": 228506
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/vst2413"
-        }
-      }
-    },
-    "studiorack/jsteeldrum/jsteel-drum": {
-      "id": "studiorack/jsteeldrum/jsteel-drum",
-      "license": "unlicense",
-      "version": "2.0.0",
-      "versions": {
-        "2.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
-          "name": "jSteelDrum",
-          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
-          "tags": [
-            "Instrument",
-            "Steel",
-            "Drum",
-            "sfz"
-          ],
-          "version": "2.0.0",
-          "id": "jsteel-drum",
-          "date": "2022-09-22T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jsteel-drum.flac",
-              "size": 83358
-            },
-            "image": {
-              "name": "jsteel-drum.jpg",
-              "size": 222224
-            },
-            "linux": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496
-            },
-            "mac": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496
-            },
-            "win": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496
-            }
-          },
-          "release": "v2.0.0",
-          "license": {
-            "key": "unlicense",
-            "name": "The Unlicense",
-            "url": "https://choosealicense.com/licenses/unlicense",
-            "same": false
-          },
-          "repo": "studiorack/jsteeldrum"
         }
       }
     },
