@@ -16,9 +16,21 @@ Install dependencies using:
 
 ## Usage
 
-Create the registry using:
+Setup a personal access token on [GitHub](https://github.com/settings/tokens) with `public_repo` access. Export in your terminal:
+
+    export GITHUB_TOKEN="your_token"
+
+Run development build:
+
+    npm run dev
+
+Create a production build:
 
     npm run build
+
+Run the production build:
+
+    npm start
 
 
 ## How it works
