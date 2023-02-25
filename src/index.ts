@@ -6,6 +6,7 @@ const DIST_PATH = './out';
 const REGISTRY_OUT = 'index.json';
 const REGISTRY_OUT_EFFECTS = 'effects.json';
 const REGISTRY_OUT_INSTRUMENTS = 'instruments.json';
+const REGISTRY_OUT_SFZ = 'sfz.json';
 
 function registryLoad() {
   const registry: any = require('./registry.json');
@@ -35,6 +36,7 @@ async function run() {
   const effects: any = { objects: {} };
   const index: any = { objects: {} };
   const instruments: any = { objects: {} };
+  const sfz: any = { objects: {} };
   for (const pluginId in registry.objects) {
     const pluginEntry: PluginEntry = registry.objects[pluginId];
     const plugin: PluginInterface = pluginLatest(pluginEntry);
@@ -45,11 +47,15 @@ async function run() {
     if (plugin.tags.includes('Instrument')) {
       instruments.objects[pluginId] = pluginEntry;
     }
+    if (plugin.tags.includes('sfz')) {
+      sfz.objects[pluginId] = pluginEntry;
+    }
     index.objects[pluginId] = pluginEntry;
   }
   registrySave(`${DIST_PATH}/${REGISTRY_OUT}`, index);
   registrySave(`${DIST_PATH}/${REGISTRY_OUT_EFFECTS}`, effects);
   registrySave(`${DIST_PATH}/${REGISTRY_OUT_INSTRUMENTS}`, instruments);
+  registrySave(`${DIST_PATH}/${REGISTRY_OUT_SFZ}`, sfz);
 }
 
 run();
