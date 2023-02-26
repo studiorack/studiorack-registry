@@ -3124,57 +3124,6 @@
         }
       }
     },
-    "studiorack/argotlunar/argotlunar": {
-      "id": "studiorack/argotlunar/argotlunar",
-      "license": "gpl-2.0",
-      "version": "2.0.6",
-      "versions": {
-        "2.0.6": {
-          "author": "Michael Ourednik",
-          "homepage": "https://mourednik.github.io/argotlunar/",
-          "name": "Argotlunar",
-          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Envelope"
-          ],
-          "version": "2.0.6",
-          "id": "argotlunar",
-          "date": "2013-02-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "argotlunar.flac",
-              "size": 76050
-            },
-            "image": {
-              "name": "argotlunar.jpg",
-              "size": 36536
-            },
-            "linux": {
-              "name": "argotlunar-linux.zip",
-              "size": 1870819
-            },
-            "mac": {
-              "name": "argotlunar-mac.zip",
-              "size": 3235381
-            },
-            "win": {
-              "name": "argotlunar-win.zip",
-              "size": 1037064
-            }
-          },
-          "release": "v2.0.6",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/argotlunar"
-        }
-      }
-    },
     "studiorack/iem-plugin-suite/iem-plugin-suite": {
       "id": "studiorack/iem-plugin-suite/iem-plugin-suite",
       "license": "gpl-3.0",
@@ -3223,6 +3172,57 @@
             "same": true
           },
           "repo": "studiorack/iem-plugin-suite"
+        }
+      }
+    },
+    "studiorack/argotlunar/argotlunar": {
+      "id": "studiorack/argotlunar/argotlunar",
+      "license": "gpl-2.0",
+      "version": "2.0.6",
+      "versions": {
+        "2.0.6": {
+          "author": "Michael Ourednik",
+          "homepage": "https://mourednik.github.io/argotlunar/",
+          "name": "Argotlunar",
+          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Envelope"
+          ],
+          "version": "2.0.6",
+          "id": "argotlunar",
+          "date": "2013-02-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "argotlunar.flac",
+              "size": 76050
+            },
+            "image": {
+              "name": "argotlunar.jpg",
+              "size": 36536
+            },
+            "linux": {
+              "name": "argotlunar-linux.zip",
+              "size": 1870819
+            },
+            "mac": {
+              "name": "argotlunar-mac.zip",
+              "size": 3235381
+            },
+            "win": {
+              "name": "argotlunar-win.zip",
+              "size": 1037064
+            }
+          },
+          "release": "v2.0.6",
+          "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
+            "same": true
+          },
+          "repo": "studiorack/argotlunar"
         }
       }
     },
@@ -3532,53 +3532,54 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
-      "version": "1.0.0",
+      "version": "2.8.0",
       "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
           "tags": [
             "Effect",
-            "Reverb"
+            "Filter",
+            "Tape"
           ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mverb.flac",
-              "size": 41738
+              "name": "chow-tape-model.flac",
+              "size": 72368
             },
             "image": {
-              "name": "mverb.jpg",
-              "size": 48422
+              "name": "chow-tape-model.jpg",
+              "size": 52419
             },
             "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
             },
             "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
             },
             "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679
             }
           },
-          "release": "v1.0.0",
+          "release": "v2.8.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/mverb"
+          "repo": "studiorack/chow-tape-model"
         }
       }
     },
@@ -3633,54 +3634,53 @@
         }
       }
     },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "id": "studiorack/chow-tape-model/chow-tape-model",
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
       "license": "gpl-3.0",
-      "version": "2.8.0",
+      "version": "1.0.0",
       "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
           "tags": [
             "Effect",
-            "Filter",
-            "Tape"
+            "Reverb"
           ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-tape-model.flac",
-              "size": 72368
+              "name": "mverb.flac",
+              "size": 41738
             },
             "image": {
-              "name": "chow-tape-model.jpg",
-              "size": 52419
+              "name": "mverb.jpg",
+              "size": 48422
             },
             "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
+              "name": "mverb-linux.zip",
+              "size": 188933
             },
             "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
+              "name": "mverb-mac.zip",
+              "size": 674694
             },
             "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679
+              "name": "mverb-win.zip",
+              "size": 283901
             }
           },
-          "release": "v2.8.0",
+          "release": "v1.0.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/chow-tape-model"
+          "repo": "studiorack/mverb"
         }
       }
     },

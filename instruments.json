@@ -2981,58 +2981,6 @@
         }
       }
     },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/synthesizer-percussion"
-        }
-      }
-    },
     "freepats/upright-piano-kw/upright-piano-kw": {
       "id": "freepats/upright-piano-kw/upright-piano-kw",
       "license": "cc0-1.0",
@@ -3082,6 +3030,58 @@
             "same": false
           },
           "repo": "freepats/upright-piano-kw"
+        }
+      }
+    },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "synthesizer-percussion",
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "freepats/synthesizer-percussion"
         }
       }
     },
@@ -3189,6 +3189,57 @@
         }
       }
     },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.flac",
+              "size": 12493
+            },
+            "image": {
+              "name": "andes.jpg",
+              "size": 27379
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/andes"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -3291,54 +3342,105 @@
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
       "license": "gpl-3.0",
-      "version": "0.2.0",
+      "version": "4.0.0",
       "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
           "tags": [
             "Instrument",
             "Synth",
-            "Oscillator"
+            "Analog"
           ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "andes.flac",
-              "size": 12493
+              "name": "tunefish.flac",
+              "size": 239665
             },
             "image": {
-              "name": "andes.jpg",
-              "size": 27379
+              "name": "tunefish.jpg",
+              "size": 107198
             },
             "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
+              "name": "tunefish-linux.zip",
+              "size": 3569540
             },
             "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
+              "name": "tunefish-mac.zip",
+              "size": 6443515
             },
             "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
+              "name": "tunefish-win.zip",
+              "size": 4147020
             }
           },
-          "release": "v0.2.0",
+          "release": "v4.2.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/andes"
+          "repo": "studiorack/tunefish"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.flac",
+              "size": 52170
+            },
+            "image": {
+              "name": "kars.jpg",
+              "size": 16547
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1146039
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1330027
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1177464
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "isc",
+            "name": "ISC License",
+            "url": "https://choosealicense.com/licenses/isc",
+            "same": false
+          },
+          "repo": "studiorack/kars"
         }
       }
     },
@@ -3442,108 +3544,6 @@
             "same": false
           },
           "repo": "studiorack/basic-harmonica"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.flac",
-              "size": 239665
-            },
-            "image": {
-              "name": "tunefish.jpg",
-              "size": 107198
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/tunefish"
-        }
-      }
-    },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.flac",
-              "size": 52170
-            },
-            "image": {
-              "name": "kars.jpg",
-              "size": 16547
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1146039
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1330027
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1177464
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "isc",
-            "name": "ISC License",
-            "url": "https://choosealicense.com/licenses/isc",
-            "same": false
-          },
-          "repo": "studiorack/kars"
         }
       }
     },
@@ -4114,6 +4114,212 @@
         }
       }
     },
+    "studiorack/ninjas2/ninjas2": {
+      "id": "studiorack/ninjas2/ninjas2",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Slicer"
+          ],
+          "version": "0.2.0",
+          "id": "ninjas2",
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.flac",
+              "size": 63564
+            },
+            "image": {
+              "name": "ninjas2.jpg",
+              "size": 88079
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116
+            }
+          },
+          "release": "v0.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/ninjas2"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.flac",
+              "size": 56084
+            },
+            "image": {
+              "name": "digits.jpg",
+              "size": 55074
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.zip",
+              "size": 211492
+            }
+          },
+          "release": "v2.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/digits"
+        }
+      }
+    },
+    "studiorack/monique-monosynth/monique": {
+      "id": "studiorack/monique-monosynth/monique",
+      "license": "other",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Thomas Arndt",
+          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
+          "name": "Monique",
+          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bass",
+            "Lead"
+          ],
+          "version": "1.2.0",
+          "id": "monique",
+          "date": "2021-12-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "monique.flac",
+              "size": 386812
+            },
+            "image": {
+              "name": "monique.jpg",
+              "size": 228421
+            },
+            "linux": {
+              "name": "monique-linux.zip",
+              "size": 7258419
+            },
+            "mac": {
+              "name": "monique-mac.zip",
+              "size": 19330773
+            },
+            "win": {
+              "name": "monique-win.zip",
+              "size": 8255789
+            }
+          },
+          "release": "v1.2.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/monique-monosynth"
+        }
+      }
+    },
+    "studiorack/war-tuba/war-tuba": {
+      "id": "studiorack/war-tuba/war-tuba",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "war-tuba",
+          "date": "2021-09-03T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "war-tuba.flac",
+              "size": 88482
+            },
+            "image": {
+              "name": "war-tuba.jpg",
+              "size": 69063
+            },
+            "linux": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            },
+            "mac": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            },
+            "win": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/war-tuba"
+        }
+      }
+    },
     "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
       "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
@@ -4369,212 +4575,6 @@
             "same": true
           },
           "repo": "studiorack/obxd"
-        }
-      }
-    },
-    "studiorack/ninjas2/ninjas2": {
-      "id": "studiorack/ninjas2/ninjas2",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Slicer"
-          ],
-          "version": "0.2.0",
-          "id": "ninjas2",
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.flac",
-              "size": 63564
-            },
-            "image": {
-              "name": "ninjas2.jpg",
-              "size": 88079
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116
-            }
-          },
-          "release": "v0.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/ninjas2"
-        }
-      }
-    },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.flac",
-              "size": 56084
-            },
-            "image": {
-              "name": "digits.jpg",
-              "size": 55074
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
-            },
-            "win": {
-              "name": "digits-win.zip",
-              "size": 211492
-            }
-          },
-          "release": "v2.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/digits"
-        }
-      }
-    },
-    "studiorack/monique-monosynth/monique": {
-      "id": "studiorack/monique-monosynth/monique",
-      "license": "other",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Thomas Arndt",
-          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
-          "name": "Monique",
-          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Bass",
-            "Lead"
-          ],
-          "version": "1.2.0",
-          "id": "monique",
-          "date": "2021-12-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "monique.flac",
-              "size": 386812
-            },
-            "image": {
-              "name": "monique.jpg",
-              "size": 228421
-            },
-            "linux": {
-              "name": "monique-linux.zip",
-              "size": 7258419
-            },
-            "mac": {
-              "name": "monique-mac.zip",
-              "size": 19330773
-            },
-            "win": {
-              "name": "monique-win.zip",
-              "size": 8255789
-            }
-          },
-          "release": "v1.2.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/monique-monosynth"
-        }
-      }
-    },
-    "studiorack/war-tuba/war-tuba": {
-      "id": "studiorack/war-tuba/war-tuba",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Tuba",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "war-tuba",
-          "date": "2021-09-03T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482
-            },
-            "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063
-            },
-            "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312
-            },
-            "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312
-            },
-            "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/war-tuba"
         }
       }
     },
