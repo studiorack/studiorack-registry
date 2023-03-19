@@ -5982,57 +5982,6 @@
         }
       }
     },
-    "studiorack/opl/opl": {
-      "id": "studiorack/opl/opl",
-      "license": "gpl-2.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OPL",
-          "name": "OPL",
-          "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "2.1.0",
-          "id": "opl",
-          "date": "2021-02-01T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opl.flac",
-              "size": 65277
-            },
-            "image": {
-              "name": "opl.jpg",
-              "size": 50828
-            },
-            "linux": {
-              "name": "opl-linux.zip",
-              "size": 5804207
-            },
-            "mac": {
-              "name": "opl-mac.zip",
-              "size": 7388864
-            },
-            "win": {
-              "name": "opl-win.zip",
-              "size": 5845308
-            }
-          },
-          "release": "v2.1.0",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/opl"
-        }
-      }
-    },
     "studiorack/iem-plugin-suite/iem-plugin-suite": {
       "id": "studiorack/iem-plugin-suite/iem-plugin-suite",
       "license": "gpl-3.0",
@@ -6136,55 +6085,54 @@
         }
       }
     },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
+    "studiorack/opl/opl": {
+      "id": "studiorack/opl/opl",
+      "license": "gpl-2.0",
+      "version": "2.1.0",
       "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+        "2.1.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OPL",
+          "name": "OPL",
+          "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
           "tags": [
             "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
+            "Synth",
+            "FM"
           ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
-          "date": "2022-07-18T07:00:00.000Z",
+          "version": "2.1.0",
+          "id": "opl",
+          "date": "2021-02-01T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
+              "name": "opl.flac",
+              "size": 65277
             },
             "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
+              "name": "opl.jpg",
+              "size": 50828
             },
             "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
+              "name": "opl-linux.zip",
+              "size": 5804207
             },
             "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
+              "name": "opl-mac.zip",
+              "size": 7388864
             },
             "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
+              "name": "opl-win.zip",
+              "size": 5845308
             }
           },
-          "release": "v1.0.0",
+          "release": "v2.1.0",
           "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
+            "same": true
           },
-          "repo": "freepats/synthesizer-percussion"
+          "repo": "studiorack/opl"
         }
       }
     },
@@ -6236,6 +6184,58 @@
             "same": true
           },
           "repo": "studiorack/argotlunar"
+        }
+      }
+    },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "synthesizer-percussion",
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "freepats/synthesizer-percussion"
         }
       }
     },
@@ -6600,108 +6600,6 @@
         }
       }
     },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.flac",
-              "size": 239665
-            },
-            "image": {
-              "name": "tunefish.jpg",
-              "size": 107198
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/tunefish"
-        }
-      }
-    },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.flac",
-              "size": 52170
-            },
-            "image": {
-              "name": "kars.jpg",
-              "size": 16547
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1146039
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1330027
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1177464
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "isc",
-            "name": "ISC License",
-            "url": "https://choosealicense.com/licenses/isc",
-            "same": false
-          },
-          "repo": "studiorack/kars"
-        }
-      }
-    },
     "studiorack/oxe/oxe": {
       "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
@@ -6805,6 +6703,108 @@
         }
       }
     },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.flac",
+              "size": 52170
+            },
+            "image": {
+              "name": "kars.jpg",
+              "size": 16547
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1146039
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1330027
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1177464
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "isc",
+            "name": "ISC License",
+            "url": "https://choosealicense.com/licenses/isc",
+            "same": false
+          },
+          "repo": "studiorack/kars"
+        }
+      }
+    },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.flac",
+              "size": 239665
+            },
+            "image": {
+              "name": "tunefish.jpg",
+              "size": 107198
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/tunefish"
+        }
+      }
+    },
     "studiorack/nekobi/nekobi": {
       "id": "studiorack/nekobi/nekobi",
       "license": "gpl-2.0",
@@ -6853,57 +6853,6 @@
             "same": true
           },
           "repo": "studiorack/nekobi"
-        }
-      }
-    },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
-      "license": "gpl-3.0",
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066
-            },
-            "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
-            }
-          },
-          "release": "v0.1.8",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/wolf-shaper"
         }
       }
     },
@@ -6956,6 +6905,57 @@
             "same": true
           },
           "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
+      "license": "gpl-3.0",
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Editor"
+          ],
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.flac",
+              "size": 103066
+            },
+            "image": {
+              "name": "wolf-shaper.jpg",
+              "size": 39286
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
+            }
+          },
+          "release": "v0.1.8",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/wolf-shaper"
         }
       }
     },
@@ -7114,6 +7114,57 @@
         }
       }
     },
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
+      "versions": {
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dragonfly-reverb.flac",
+              "size": 82471
+            },
+            "image": {
+              "name": "dragonfly-reverb.jpg",
+              "size": 119902
+            },
+            "linux": {
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6921808
+            },
+            "mac": {
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4542730
+            },
+            "win": {
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9359636
+            }
+          },
+          "release": "v3.2.5",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/dragonfly-reverb"
+        }
+      }
+    },
     "studiorack/splendid-grand-piano/splendid-grand-piano": {
       "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
       "license": "other",
@@ -7214,57 +7265,6 @@
             "same": true
           },
           "repo": "studiorack/diopser"
-        }
-      }
-    },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
-      "license": "gpl-3.0",
-      "version": "3.2.5",
-      "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dragonfly-reverb.flac",
-              "size": 82471
-            },
-            "image": {
-              "name": "dragonfly-reverb.jpg",
-              "size": 119902
-            },
-            "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6921808
-            },
-            "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4542730
-            },
-            "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9359636
-            }
-          },
-          "release": "v3.2.5",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/dragonfly-reverb"
         }
       }
     },
@@ -7472,57 +7472,6 @@
         }
       }
     },
-    "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "version": "2.4.0",
-          "id": "obxd",
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.flac",
-              "size": 63794
-            },
-            "image": {
-              "name": "obxd.jpg",
-              "size": 76569
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962
-            }
-          },
-          "release": "v2.4.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/obxd"
-        }
-      }
-    },
     "studiorack/mverb/mverb": {
       "id": "studiorack/mverb/mverb",
       "license": "gpl-3.0",
@@ -7624,6 +7573,57 @@
         }
       }
     },
+    "studiorack/obxd/obxd": {
+      "id": "studiorack/obxd/obxd",
+      "license": "gpl-3.0",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "version": "2.4.0",
+          "id": "obxd",
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962
+            }
+          },
+          "release": "v2.4.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/obxd"
+        }
+      }
+    },
     "studiorack/sams-sonor/sams-sonor": {
       "id": "studiorack/sams-sonor/sams-sonor",
       "license": "cc-by-sa-4.0",
@@ -7673,161 +7673,6 @@
             "same": true
           },
           "repo": "studiorack/sams-sonor"
-        }
-      }
-    },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/virtual-playing-orchestra"
-        }
-      }
-    },
-    "studiorack/vst2413/vst2413": {
-      "id": "studiorack/vst2413/vst2413",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Keijiro Takahashi",
-          "homepage": "http://www.keijiro.tokyo/vst2413/",
-          "name": "VST2413",
-          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Bit"
-          ],
-          "version": "1.0.0",
-          "id": "vst2413",
-          "date": "2013-04-21T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vst2413.flac",
-              "size": 347527
-            },
-            "image": {
-              "name": "vst2413.jpg",
-              "size": 22493
-            },
-            "linux": {
-              "name": "vst2413-linux.zip",
-              "size": 386422
-            },
-            "mac": {
-              "name": "vst2413-mac.zip",
-              "size": 187561
-            },
-            "win": {
-              "name": "vst2413-win.zip",
-              "size": 228506
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/vst2413"
-        }
-      }
-    },
-    "studiorack/jsteeldrum/jsteel-drum": {
-      "id": "studiorack/jsteeldrum/jsteel-drum",
-      "license": "unlicense",
-      "version": "2.0.0",
-      "versions": {
-        "2.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
-          "name": "jSteelDrum",
-          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
-          "tags": [
-            "Instrument",
-            "Steel",
-            "Drum",
-            "sfz"
-          ],
-          "version": "2.0.0",
-          "id": "jsteel-drum",
-          "date": "2022-09-22T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jsteel-drum.flac",
-              "size": 83358
-            },
-            "image": {
-              "name": "jsteel-drum.jpg",
-              "size": 222224
-            },
-            "linux": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496
-            },
-            "mac": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496
-            },
-            "win": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496
-            }
-          },
-          "release": "v2.0.0",
-          "license": {
-            "key": "unlicense",
-            "name": "The Unlicense",
-            "url": "https://choosealicense.com/licenses/unlicense",
-            "same": false
-          },
-          "repo": "studiorack/jsteeldrum"
         }
       }
     },
@@ -7930,6 +7775,161 @@
             "same": true
           },
           "repo": "studiorack/octasine"
+        }
+      }
+    },
+    "studiorack/vst2413/vst2413": {
+      "id": "studiorack/vst2413/vst2413",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "version": "1.0.0",
+          "id": "vst2413",
+          "date": "2013-04-21T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vst2413.flac",
+              "size": 347527
+            },
+            "image": {
+              "name": "vst2413.jpg",
+              "size": 22493
+            },
+            "linux": {
+              "name": "vst2413-linux.zip",
+              "size": 386422
+            },
+            "mac": {
+              "name": "vst2413-mac.zip",
+              "size": 187561
+            },
+            "win": {
+              "name": "vst2413-win.zip",
+              "size": 228506
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/vst2413"
+        }
+      }
+    },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
+      "license": "gpl-3.0",
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
+            }
+          },
+          "release": "v3.2.2",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/virtual-playing-orchestra"
+        }
+      }
+    },
+    "studiorack/jsteeldrum/jsteel-drum": {
+      "id": "studiorack/jsteeldrum/jsteel-drum",
+      "license": "unlicense",
+      "version": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+          "name": "jSteelDrum",
+          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+          "tags": [
+            "Instrument",
+            "Steel",
+            "Drum",
+            "sfz"
+          ],
+          "version": "2.0.0",
+          "id": "jsteel-drum",
+          "date": "2022-09-22T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jsteel-drum.flac",
+              "size": 83358
+            },
+            "image": {
+              "name": "jsteel-drum.jpg",
+              "size": 222224
+            },
+            "linux": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "mac": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            },
+            "win": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496
+            }
+          },
+          "release": "v2.0.0",
+          "license": {
+            "key": "unlicense",
+            "name": "The Unlicense",
+            "url": "https://choosealicense.com/licenses/unlicense",
+            "same": false
+          },
+          "repo": "studiorack/jsteeldrum"
         }
       }
     },
@@ -8139,57 +8139,6 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.flac",
-              "size": 56084
-            },
-            "image": {
-              "name": "digits.jpg",
-              "size": 55074
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
-            },
-            "win": {
-              "name": "digits-win.zip",
-              "size": 211492
-            }
-          },
-          "release": "v2.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/digits"
-        }
-      }
-    },
     "studiorack/chow-tape-model/chow-tape-model": {
       "id": "studiorack/chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
@@ -8238,6 +8187,57 @@
             "same": true
           },
           "repo": "studiorack/chow-tape-model"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.flac",
+              "size": 56084
+            },
+            "image": {
+              "name": "digits.jpg",
+              "size": 55074
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.zip",
+              "size": 211492
+            }
+          },
+          "release": "v2.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/digits"
         }
       }
     },
@@ -8396,54 +8396,54 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
+    "studiorack/carla/carla": {
+      "id": "studiorack/carla/carla",
+      "license": "other",
+      "version": "2.4.2",
       "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+        "2.4.2": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/falkTX/Carla",
+          "name": "Carla",
+          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
           "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
+            "Instrument",
+            "Host",
+            "Player"
           ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
+          "version": "2.4.2",
+          "id": "carla",
+          "date": "2022-02-19T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405
+              "name": "carla.flac",
+              "size": 330759
             },
             "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141
+              "name": "carla.jpg",
+              "size": 252192
             },
             "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
+              "name": "carla-linux.zip",
+              "size": 160951738
             },
             "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
+              "name": "carla-mac.zip",
+              "size": 312938720
             },
             "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
+              "name": "carla-win.zip",
+              "size": 196435153
             }
           },
-          "release": "v0.1.0",
+          "release": "v2.4.2",
           "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "url": "https://choosealicense.com/licenses/mit",
-            "same": false
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
           },
-          "repo": "studiorack/ampli-fe"
+          "repo": "studiorack/carla"
         }
       }
     },
@@ -8498,54 +8498,54 @@
         }
       }
     },
-    "studiorack/carla/carla": {
-      "id": "studiorack/carla/carla",
-      "license": "other",
-      "version": "2.4.2",
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
       "versions": {
-        "2.4.2": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/falkTX/Carla",
-          "name": "Carla",
-          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
           "tags": [
-            "Instrument",
-            "Host",
-            "Player"
+            "Effect",
+            "Amplifier",
+            "Volume"
           ],
-          "version": "2.4.2",
-          "id": "carla",
-          "date": "2022-02-19T07:00:00.000Z",
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "carla.flac",
-              "size": 330759
+              "name": "ampli-fe.flac",
+              "size": 81405
             },
             "image": {
-              "name": "carla.jpg",
-              "size": 252192
+              "name": "ampli-fe.jpg",
+              "size": 27141
             },
             "linux": {
-              "name": "carla-linux.zip",
-              "size": 160951738
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
             },
             "mac": {
-              "name": "carla-mac.zip",
-              "size": 312938720
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
             },
             "win": {
-              "name": "carla-win.zip",
-              "size": 196435153
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
             }
           },
-          "release": "v2.4.2",
+          "release": "v0.1.0",
           "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
+            "key": "mit",
+            "name": "MIT License",
+            "url": "https://choosealicense.com/licenses/mit",
+            "same": false
           },
-          "repo": "studiorack/carla"
+          "repo": "studiorack/ampli-fe"
         }
       }
     },
@@ -8705,57 +8705,6 @@
         }
       }
     },
-    "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "1.1.1",
-          "id": "sfizz",
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698
-            }
-          },
-          "release": "v1.1.1",
-          "license": {
-            "key": "bsd-2-clause",
-            "name": "BSD 2-Clause 'Simplified' License",
-            "url": "https://choosealicense.com/licenses/bsd-2-clause",
-            "same": false
-          },
-          "repo": "studiorack/sfizz"
-        }
-      }
-    },
     "studiorack/surge/surge": {
       "id": "studiorack/surge/surge",
       "license": "gpl-3.0",
@@ -8804,6 +8753,57 @@
             "same": true
           },
           "repo": "studiorack/surge"
+        }
+      }
+    },
+    "studiorack/sfizz/sfizz": {
+      "id": "studiorack/sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "1.1.1",
+          "id": "sfizz",
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698
+            }
+          },
+          "release": "v1.1.1",
+          "license": {
+            "key": "bsd-2-clause",
+            "name": "BSD 2-Clause 'Simplified' License",
+            "url": "https://choosealicense.com/licenses/bsd-2-clause",
+            "same": false
+          },
+          "repo": "studiorack/sfizz"
         }
       }
     },
@@ -9212,54 +9212,54 @@
         }
       }
     },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
-      "license": "gpl-3.0",
-      "version": "1.1.1",
+    "studiorack/chow-matrix/chow-matrix": {
+      "id": "studiorack/chow-matrix/chow-matrix",
+      "license": "bsd-3-clause",
+      "version": "1.2.0",
       "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+        "1.2.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
+          "name": "CHOW Matrix",
+          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
           "tags": [
             "Effect",
-            "Distortion",
-            "Modulation"
+            "Delay",
+            "Feedback"
           ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
+          "version": "1.2.0",
+          "id": "chow-matrix",
+          "date": "2021-04-23T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "temper.flac",
-              "size": 95804
+              "name": "chow-matrix.flac",
+              "size": 71529
             },
             "image": {
-              "name": "temper.jpg",
-              "size": 62400
+              "name": "chow-matrix.jpg",
+              "size": 74210
             },
             "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
+              "name": "chow-matrix-linux.zip",
+              "size": 16260494
             },
             "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
+              "name": "chow-matrix-mac.zip",
+              "size": 10373268
             },
             "win": {
-              "name": "temper-win.zip",
-              "size": 6181044
+              "name": "chow-matrix-win.zip",
+              "size": 4719759
             }
           },
-          "release": "v1.1.1",
+          "release": "v1.2.0",
           "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause 'New' or 'Revised' License",
+            "url": "https://choosealicense.com/licenses/bsd-3-clause",
+            "same": false
           },
-          "repo": "studiorack/temper"
+          "repo": "studiorack/chow-matrix"
         }
       }
     },
@@ -9314,54 +9314,54 @@
         }
       }
     },
-    "studiorack/chow-matrix/chow-matrix": {
-      "id": "studiorack/chow-matrix/chow-matrix",
-      "license": "bsd-3-clause",
-      "version": "1.2.0",
+    "studiorack/temper/temper": {
+      "id": "studiorack/temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
       "versions": {
-        "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
           "tags": [
             "Effect",
-            "Delay",
-            "Feedback"
+            "Distortion",
+            "Modulation"
           ],
-          "version": "1.2.0",
-          "id": "chow-matrix",
-          "date": "2021-04-23T08:00:00.000Z",
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "chow-matrix.flac",
-              "size": 71529
+              "name": "temper.flac",
+              "size": 95804
             },
             "image": {
-              "name": "chow-matrix.jpg",
-              "size": 74210
+              "name": "temper.jpg",
+              "size": 62400
             },
             "linux": {
-              "name": "chow-matrix-linux.zip",
-              "size": 16260494
+              "name": "temper-linux.zip",
+              "size": 9837586
             },
             "mac": {
-              "name": "chow-matrix-mac.zip",
-              "size": 10373268
+              "name": "temper-mac.zip",
+              "size": 6764694
             },
             "win": {
-              "name": "chow-matrix-win.zip",
-              "size": 4719759
+              "name": "temper-win.zip",
+              "size": 6181044
             }
           },
-          "release": "v1.2.0",
+          "release": "v1.1.1",
           "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause 'New' or 'Revised' License",
-            "url": "https://choosealicense.com/licenses/bsd-3-clause",
-            "same": false
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
           },
-          "repo": "studiorack/chow-matrix"
+          "repo": "studiorack/temper"
         }
       }
     },
@@ -9413,6 +9413,57 @@
             "same": true
           },
           "repo": "studiorack/os-251"
+        }
+      }
+    },
+    "studiorack/mda/mda": {
+      "id": "studiorack/mda/mda",
+      "license": "gpl-3.0",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "version": "1.0.4",
+          "id": "mda",
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.flac",
+              "size": 127392
+            },
+            "image": {
+              "name": "mda.jpg",
+              "size": 104156
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768
+            }
+          },
+          "release": "v1.0.4",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/mda"
         }
       }
     },
@@ -9518,57 +9569,6 @@
             "same": true
           },
           "repo": "studiorack/salamander-drumkit"
-        }
-      }
-    },
-    "studiorack/mda/mda": {
-      "id": "studiorack/mda/mda",
-      "license": "gpl-3.0",
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
-          ],
-          "version": "1.0.4",
-          "id": "mda",
-          "date": "2020-12-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mda.flac",
-              "size": 127392
-            },
-            "image": {
-              "name": "mda.jpg",
-              "size": 104156
-            },
-            "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938
-            },
-            "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516
-            },
-            "win": {
-              "name": "mda-win.zip",
-              "size": 1247768
-            }
-          },
-          "release": "v1.0.4",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/mda"
         }
       }
     },
