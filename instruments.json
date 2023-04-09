@@ -3150,57 +3150,6 @@
         }
       }
     },
-    "studiorack/opl/opl": {
-      "id": "studiorack/opl/opl",
-      "license": "gpl-2.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OPL",
-          "name": "OPL",
-          "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "2.1.0",
-          "id": "opl",
-          "date": "2021-02-01T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opl.flac",
-              "size": 65277
-            },
-            "image": {
-              "name": "opl.jpg",
-              "size": 50828
-            },
-            "linux": {
-              "name": "opl-linux.zip",
-              "size": 5804207
-            },
-            "mac": {
-              "name": "opl-mac.zip",
-              "size": 7388864
-            },
-            "win": {
-              "name": "opl-win.zip",
-              "size": 5845308
-            }
-          },
-          "release": "v2.1.0",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/opl"
-        }
-      }
-    },
     "freepats/glass/glasses-of-water": {
       "id": "freepats/glass/glasses-of-water",
       "license": "cc0-1.0",
@@ -3250,6 +3199,57 @@
             "same": false
           },
           "repo": "freepats/glass"
+        }
+      }
+    },
+    "studiorack/opl/opl": {
+      "id": "studiorack/opl/opl",
+      "license": "gpl-2.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OPL",
+          "name": "OPL",
+          "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "2.1.0",
+          "id": "opl",
+          "date": "2021-02-01T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opl.flac",
+              "size": 65277
+            },
+            "image": {
+              "name": "opl.jpg",
+              "size": 50828
+            },
+            "linux": {
+              "name": "opl-linux.zip",
+              "size": 5804207
+            },
+            "mac": {
+              "name": "opl-mac.zip",
+              "size": 7388864
+            },
+            "win": {
+              "name": "opl-win.zip",
+              "size": 5845308
+            }
+          },
+          "release": "v2.1.0",
+          "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
+            "same": true
+          },
+          "repo": "studiorack/opl"
         }
       }
     },
@@ -3513,6 +3513,57 @@
         }
       }
     },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.flac",
+              "size": 12493
+            },
+            "image": {
+              "name": "andes.jpg",
+              "size": 27379
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/andes"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -3612,57 +3663,6 @@
             "same": false
           },
           "repo": "studiorack/adlplug"
-        }
-      }
-    },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.flac",
-              "size": 12493
-            },
-            "image": {
-              "name": "andes.jpg",
-              "size": 27379
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/andes"
         }
       }
     },
@@ -3871,161 +3871,6 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.flac",
-              "size": 50454
-            },
-            "image": {
-              "name": "ep-mk1.jpg",
-              "size": 97173
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0",
-          "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause 'New' or 'Revised' License",
-            "url": "https://choosealicense.com/licenses/bsd-3-clause",
-            "same": false
-          },
-          "repo": "studiorack/ep-mk1"
-        }
-      }
-    },
-    "studiorack/naked-drums/naked-drums": {
-      "id": "studiorack/naked-drums/naked-drums",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452
-            },
-            "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            },
-            "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            },
-            "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/naked-drums"
-        }
-      }
-    },
-    "studiorack/avl-percussions/avl-percussions": {
-      "id": "studiorack/avl-percussions/avl-percussions",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-percussions",
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            }
-          },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-percussions"
-        }
-      }
-    },
     "studiorack/splendid-grand-piano/splendid-grand-piano": {
       "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
       "license": "other",
@@ -4181,105 +4026,158 @@
         }
       }
     },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
             "Instrument",
             "Synth",
-            "Modulation"
+            "Electric",
+            "Piano"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.flac",
-              "size": 75330
+              "name": "ep-mk1.flac",
+              "size": 50454
             },
             "image": {
-              "name": "helm.jpg",
-              "size": 118535
+              "name": "ep-mk1.jpg",
+              "size": 97173
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 8678132
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "helm-mac.zip",
-              "size": 13299862
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "helm-win.zip",
-              "size": 12671911
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v0.9.0",
+          "release": "v2.4.0",
           "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause 'New' or 'Revised' License",
+            "url": "https://choosealicense.com/licenses/bsd-3-clause",
+            "same": false
           },
-          "repo": "studiorack/helm"
+          "repo": "studiorack/ep-mk1"
         }
       }
     },
-    "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
-      "version": "3.1.0",
+    "studiorack/naked-drums/naked-drums": {
+      "id": "studiorack/naked-drums/naked-drums",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
       "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
           "tags": [
             "Instrument",
-            "Sampler",
-            "Synth"
+            "Drums",
+            "sfz"
           ],
-          "version": "3.1.0",
-          "id": "juicysf",
-          "date": "2022-02-13T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "juicysf.flac",
-              "size": 83683
+              "name": "naked-drums.flac",
+              "size": 553525
             },
             "image": {
-              "name": "juicysf.jpg",
-              "size": 38148
+              "name": "naked-drums.jpg",
+              "size": 24452
             },
             "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 0
+              "name": "naked-drums.zip",
+              "size": 1283342538
             },
             "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275
+              "name": "naked-drums.zip",
+              "size": 1283342538
             },
             "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510
+              "name": "naked-drums.zip",
+              "size": 1283342538
             }
           },
-          "release": "3.1.0",
+          "release": "v1.0.0",
           "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/naked-drums"
+        }
+      }
+    },
+    "studiorack/avl-percussions/avl-percussions": {
+      "id": "studiorack/avl-percussions/avl-percussions",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-percussions",
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            }
+          },
+          "release": "v1.1.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
             "same": true
           },
-          "repo": "studiorack/juicysf"
+          "repo": "studiorack/avl-percussions"
         }
       }
     },
@@ -4383,6 +4281,108 @@
             "same": true
           },
           "repo": "studiorack/sams-sonor"
+        }
+      }
+    },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 8678132
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 13299862
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 12671911
+            }
+          },
+          "release": "v0.9.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/helm"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "id": "studiorack/juicysf/juicysf",
+      "license": "gpl-3.0",
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "3.1.0",
+          "id": "juicysf",
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510
+            }
+          },
+          "release": "3.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/juicysf"
         }
       }
     },
