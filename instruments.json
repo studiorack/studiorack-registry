@@ -3,8 +3,51 @@
     "ryukau/vstplugins/iterative-sin-cluster": {
       "id": "ryukau/vstplugins/iterative-sin-cluster",
       "license": "gpl-3.0",
-      "version": "0.1.24",
+      "version": "0.1.25",
       "versions": {
+        "0.1.25": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "IterativeSinCluster",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.25",
+          "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
+          "id": "iterative-sin-cluster",
+          "files": {
+            "audio": {
+              "name": "IterativeSinCluster.flac",
+              "size": 1489884
+            },
+            "image": {
+              "name": "IterativeSinCluster.png",
+              "size": 61133
+            },
+            "linux": {
+              "name": "IterativeSinCluster_0.1.25.zip",
+              "size": 2799626
+            },
+            "win": {
+              "name": "IterativeSinCluster_0.1.25.zip",
+              "size": 2799626
+            },
+            "mac": {
+              "name": "IterativeSinCluster_0.1.25.zip",
+              "size": 2799626
+            }
+          },
+          "release": "UhhyouPlugins0.55.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.24": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -39,14 +82,7 @@
               "size": 2799100
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.53.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -362,46 +398,46 @@
         }
       }
     },
-    "ryukau/vstplugins/cubic-pad-synth": {
-      "id": "ryukau/vstplugins/cubic-pad-synth",
+    "ryukau/vstplugins/sync-saw-synth": {
+      "id": "ryukau/vstplugins/sync-saw-synth",
       "license": "gpl-3.0",
-      "version": "0.1.23",
+      "version": "0.1.27",
       "versions": {
-        "0.1.23": {
+        "0.1.27": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-03-03T14:49:28.706Z",
-          "name": "CubicPadSynth",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "SyncSawSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.23",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "version": "0.1.27",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
+              "name": "SyncSawSynth.flac",
+              "size": 329666
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "SyncSawSynth.png",
+              "size": 55212
             },
             "linux": {
-              "name": "CubicPadSynth_0.1.23.zip",
-              "size": 6315726
+              "name": "SyncSawSynth_0.1.27.zip",
+              "size": 2685118
             },
             "win": {
-              "name": "CubicPadSynth_0.1.23.zip",
-              "size": 6315726
+              "name": "SyncSawSynth_0.1.27.zip",
+              "size": 2685118
             },
             "mac": {
-              "name": "CubicPadSynth_0.1.23.zip",
-              "size": 6315726
+              "name": "SyncSawSynth_0.1.27.zip",
+              "size": 2685118
             }
           },
-          "release": "UhhyouPlugins0.53.0",
+          "release": "UhhyouPlugins0.55.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
@@ -410,314 +446,1002 @@
           },
           "repo": "ryukau/vstplugins"
         },
+        "0.1.26": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-03-03T14:49:28.706Z",
+          "name": "SyncSawSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.26",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
+          "files": {
+            "audio": {
+              "name": "SyncSawSynth.flac",
+              "size": 329666
+            },
+            "image": {
+              "name": "SyncSawSynth.png",
+              "size": 55212
+            },
+            "linux": {
+              "name": "SyncSawSynth_0.1.26.zip",
+              "size": 2683547
+            },
+            "win": {
+              "name": "SyncSawSynth_0.1.26.zip",
+              "size": 2683547
+            },
+            "mac": {
+              "name": "SyncSawSynth_0.1.26.zip",
+              "size": 2683547
+            }
+          },
+          "release": "UhhyouPlugins0.53.0"
+        },
+        "0.1.25": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "SyncSawSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.25",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
+          "files": {
+            "audio": {
+              "name": "SyncSawSynth.flac",
+              "size": 329666
+            },
+            "image": {
+              "name": "SyncSawSynth.png",
+              "size": 55212
+            },
+            "linux": {
+              "name": "SyncSawSynth_0.1.25.zip",
+              "size": 2685014
+            },
+            "win": {
+              "name": "SyncSawSynth_0.1.25.zip",
+              "size": 2685014
+            },
+            "mac": {
+              "name": "SyncSawSynth_0.1.25.zip",
+              "size": 2685014
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.24": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "SyncSawSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.24",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
+          "files": {
+            "audio": {
+              "name": "SyncSawSynth.flac",
+              "size": 329666
+            },
+            "image": {
+              "name": "SyncSawSynth.png",
+              "size": 55212
+            },
+            "linux": {
+              "name": "SyncSawSynth_0.1.24.zip",
+              "size": 2680692
+            },
+            "win": {
+              "name": "SyncSawSynth_0.1.24.zip",
+              "size": 2680692
+            },
+            "mac": {
+              "name": "SyncSawSynth_0.1.24.zip",
+              "size": 2680692
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.23": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "SyncSawSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.23",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
+          "files": {
+            "audio": {
+              "name": "SyncSawSynth.flac",
+              "size": 329666
+            },
+            "image": {
+              "name": "SyncSawSynth.png",
+              "size": 55212
+            },
+            "linux": {
+              "name": "SyncSawSynth_0.1.23.zip",
+              "size": 2902651
+            },
+            "win": {
+              "name": "SyncSawSynth_0.1.23.zip",
+              "size": 2902651
+            },
+            "mac": {
+              "name": "SyncSawSynth_0.1.23.zip",
+              "size": 2902651
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
         "0.1.22": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-01-28T02:29:33.582Z",
-          "name": "CubicPadSynth",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "SyncSawSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.22",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
+              "name": "SyncSawSynth.flac",
+              "size": 329666
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "SyncSawSynth.png",
+              "size": 55212
             },
             "linux": {
-              "name": "CubicPadSynth_0.1.22.zip",
-              "size": 6302482
+              "name": "SyncSawSynth_0.1.22.zip",
+              "size": 1929998
             },
             "win": {
-              "name": "CubicPadSynth_0.1.22.zip",
-              "size": 6302482
-            },
-            "mac": {
-              "name": "CubicPadSynth_0.1.22.zip",
-              "size": 6302482
+              "name": "SyncSawSynth_0.1.22.zip",
+              "size": 1929998
             }
           },
-          "release": "UhhyouPlugins0.52.0"
+          "release": "UhhyouPlugins0.33.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-28T08:32:34.481Z",
-          "name": "CubicPadSynth",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "SyncSawSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.20",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
+              "name": "SyncSawSynth.wav",
+              "size": 1978606
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "SyncSawSynth.png",
+              "size": 55212
             },
             "linux": {
-              "name": "CubicPadSynth_0.1.20.zip",
-              "size": 6303125
+              "name": "SyncSawSynth-linux.zip",
+              "size": 1876134
             },
             "win": {
-              "name": "CubicPadSynth_0.1.20.zip",
-              "size": 6303125
-            },
-            "mac": {
-              "name": "CubicPadSynth_0.1.20.zip",
-              "size": 6303125
+              "name": "SyncSawSynth-win.zip",
+              "size": 1876134
             }
           },
-          "release": "UhhyouPlugins0.51.0"
-        },
-        "0.1.19": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "CubicPadSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.19",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
-          "files": {
-            "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
-            },
-            "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
-            },
-            "linux": {
-              "name": "CubicPadSynth_0.1.19.zip",
-              "size": 6298736
-            },
-            "win": {
-              "name": "CubicPadSynth_0.1.19.zip",
-              "size": 6298736
-            },
-            "mac": {
-              "name": "CubicPadSynth_0.1.19.zip",
-              "size": 6298736
-            }
-          },
-          "release": "UhhyouPlugins0.50.0"
+          "release": "CustomFontOptions"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-09-09T09:26:32.884Z",
-          "name": "CubicPadSynth",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "SyncSawSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.18",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
+              "name": "SyncSawSynth.wav",
+              "size": 1978606
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "SyncSawSynth.png",
+              "size": 55212
             },
             "linux": {
-              "name": "CubicPadSynth_0.1.18.zip",
-              "size": 4237520
+              "name": "SyncSawSynth-linux.zip",
+              "size": 1614837
             },
             "win": {
-              "name": "CubicPadSynth_0.1.18.zip",
-              "size": 4237520
-            },
-            "mac": {
-              "name": "CubicPadSynth_0.1.18.zip",
-              "size": 4237520
+              "name": "SyncSawSynth-win.zip",
+              "size": 1614837
             }
           },
-          "release": "UhhyouPlugins0.46.0"
+          "release": "BasicLimiterAndFDN64Reverb"
         },
         "0.1.17": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-08-08T12:00:25.591Z",
-          "name": "CubicPadSynth",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "SyncSawSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.17",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+          "id": "sync-saw-synth",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
+              "name": "SyncSawSynth.wav",
+              "size": 1978606
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "SyncSawSynth.png",
+              "size": 40255
             },
             "linux": {
-              "name": "CubicPadSynth_0.1.17.zip",
-              "size": 4229056
-            },
-            "win": {
-              "name": "CubicPadSynth_0.1.17.zip",
-              "size": 4229056
+              "name": "SyncSawSynth-linux.zip",
+              "size": 1690199
             },
             "mac": {
-              "name": "CubicPadSynth_0.1.17.zip",
-              "size": 4229056
+              "name": "SyncSawSynth-mac.zip",
+              "size": 1690199
+            },
+            "win": {
+              "name": "SyncSawSynth-win.zip",
+              "size": 1690199
             }
           },
-          "release": "UhhyouPlugins0.41.0"
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/f-d-n-cymbal": {
+      "id": "ryukau/vstplugins/f-d-n-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.2.17",
+      "versions": {
+        "0.2.17": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.17",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.17.zip",
+              "size": 2709797
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.17.zip",
+              "size": 2709797
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.17.zip",
+              "size": 2709797
+            }
+          },
+          "release": "UhhyouPlugins0.55.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
         },
-        "0.1.15": {
+        "0.2.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-03-03T14:49:28.706Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.16",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.16.zip",
+              "size": 2708103
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.16.zip",
+              "size": 2708103
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.16.zip",
+              "size": 2708103
+            }
+          },
+          "release": "UhhyouPlugins0.53.0"
+        },
+        "0.2.15": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-01-28T02:29:33.582Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.15",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.15.zip",
+              "size": 2708148
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.15.zip",
+              "size": 2708148
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.15.zip",
+              "size": 2708148
+            }
+          },
+          "release": "UhhyouPlugins0.52.0"
+        },
+        "0.2.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.14",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.14.zip",
+              "size": 2705642
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.14.zip",
+              "size": 2705642
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.14.zip",
+              "size": 2705642
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        },
+        "0.2.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.13",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.13.zip",
+              "size": 2700815
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.13.zip",
+              "size": 2700815
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.13.zip",
+              "size": 2700815
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.2.12": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "FDNCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.2.12",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
+          "files": {
+            "audio": {
+              "name": "FDNCymbal.flac",
+              "size": 1546996
+            },
+            "image": {
+              "name": "FDNCymbal.png",
+              "size": 45637
+            },
+            "linux": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            },
+            "win": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            },
+            "mac": {
+              "name": "FDNCymbal_0.2.12.zip",
+              "size": 2921511
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.2.11": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-06-04T00:28:41.276Z",
-          "name": "CubicPadSynth",
+          "name": "FDNCymbal",
           "tags": [
-            "Instrument",
-            "Synth"
+            "Fx",
+            "Instrument"
           ],
-          "version": "0.1.15",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "version": "0.2.11",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.flac",
-              "size": 613476
+              "name": "FDNCymbal.flac",
+              "size": 1546996
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "FDNCymbal.png",
+              "size": 45637
             },
             "linux": {
-              "name": "CubicPadSynth_0.1.15.zip",
-              "size": 5098219
+              "name": "FDNCymbal_0.2.11.zip",
+              "size": 1950882
             },
             "win": {
-              "name": "CubicPadSynth_0.1.15.zip",
-              "size": 5098219
+              "name": "FDNCymbal_0.2.11.zip",
+              "size": 1950882
             }
           },
           "release": "UhhyouPlugins0.33.0"
         },
-        "0.1.13": {
+        "0.2.9": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-05-24T13:32:25.622Z",
-          "name": "CubicPadSynth",
+          "name": "FDNCymbal",
           "tags": [
-            "Instrument",
-            "Synth"
+            "Fx",
+            "Instrument"
           ],
-          "version": "0.1.13",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "version": "0.2.9",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.wav",
-              "size": 4374542
+              "name": "FDNCymbal.wav",
+              "size": 6134428
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "FDNCymbal.png",
+              "size": 45637
             },
             "linux": {
-              "name": "CubicPadSynth-linux.zip",
-              "size": 5042364
+              "name": "FDNCymbal-linux.zip",
+              "size": 1905722
             },
             "win": {
-              "name": "CubicPadSynth-win.zip",
-              "size": 5042364
+              "name": "FDNCymbal-win.zip",
+              "size": 1905722
             }
           },
           "release": "CustomFontOptions"
         },
-        "0.1.11": {
+        "0.2.7": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2022-05-16T05:28:21.864Z",
-          "name": "CubicPadSynth",
+          "name": "FDNCymbal",
           "tags": [
-            "Instrument",
-            "Synth"
+            "Fx",
+            "Instrument"
           ],
-          "version": "0.1.11",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "version": "0.2.7",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.wav",
-              "size": 4374542
+              "name": "FDNCymbal.wav",
+              "size": 6134428
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 59111
+              "name": "FDNCymbal.png",
+              "size": 45637
             },
             "linux": {
-              "name": "CubicPadSynth-linux.zip",
-              "size": 4788347
+              "name": "FDNCymbal-linux.zip",
+              "size": 1604100
             },
             "win": {
-              "name": "CubicPadSynth-win.zip",
-              "size": 4788347
+              "name": "FDNCymbal-win.zip",
+              "size": 1604100
             }
           },
           "release": "BasicLimiterAndFDN64Reverb"
         },
-        "0.1.10": {
+        "0.2.6": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2021-11-16T07:57:41.415Z",
-          "name": "CubicPadSynth",
+          "name": "FDNCymbal",
           "tags": [
-            "Instrument",
-            "Synth"
+            "Fx",
+            "Instrument"
           ],
-          "version": "0.1.10",
-          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
+          "version": "0.2.6",
+          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
+          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
-              "name": "CubicPadSynth.wav",
-              "size": 4374542
+              "name": "FDNCymbal.wav",
+              "size": 6134428
             },
             "image": {
-              "name": "CubicPadSynth.png",
-              "size": 57259
+              "name": "FDNCymbal.png",
+              "size": 34324
             },
             "linux": {
-              "name": "CubicPadSynth-linux.zip",
-              "size": 6523077
+              "name": "FDNCymbal-linux.zip",
+              "size": 1669749
             },
             "mac": {
-              "name": "CubicPadSynth-mac.zip",
-              "size": 6523077
+              "name": "FDNCymbal-mac.zip",
+              "size": 1669749
             },
             "win": {
-              "name": "CubicPadSynth-win.zip",
-              "size": 6523077
+              "name": "FDNCymbal-win.zip",
+              "size": 1669749
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/wave-cymbal": {
+      "id": "ryukau/vstplugins/wave-cymbal",
+      "license": "gpl-3.0",
+      "version": "0.1.24",
+      "versions": {
+        "0.1.24": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.24",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.24.zip",
+              "size": 2659169
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.24.zip",
+              "size": 2659169
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.24.zip",
+              "size": 2659169
+            }
+          },
+          "release": "UhhyouPlugins0.55.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.23": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-03-03T14:49:28.706Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.23",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.23.zip",
+              "size": 2656968
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.23.zip",
+              "size": 2656968
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.23.zip",
+              "size": 2656968
+            }
+          },
+          "release": "UhhyouPlugins0.53.0"
+        },
+        "0.1.22": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-01-28T02:29:33.582Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.22",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.22.zip",
+              "size": 2656461
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.22.zip",
+              "size": 2656461
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.22.zip",
+              "size": 2656461
+            }
+          },
+          "release": "UhhyouPlugins0.52.0"
+        },
+        "0.1.21": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.21",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.21.zip",
+              "size": 2659103
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.21.zip",
+              "size": 2659103
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.21.zip",
+              "size": 2659103
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.20",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.20.zip",
+              "size": 2657212
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.20.zip",
+              "size": 2657212
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.20.zip",
+              "size": 2657212
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.19": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.19",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            },
+            "mac": {
+              "name": "WaveCymbal_0.1.19.zip",
+              "size": 2878678
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
+        },
+        "0.1.18": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.18",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.flac",
+              "size": 1805740
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal_0.1.18.zip",
+              "size": 1904014
+            },
+            "win": {
+              "name": "WaveCymbal_0.1.18.zip",
+              "size": 1904014
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.16",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1867950
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1867950
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.14",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 36135
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1592936
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1592936
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "WaveCymbal",
+          "tags": [
+            "Fx",
+            "Instrument"
+          ],
+          "version": "0.1.13",
+          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+          "id": "wave-cymbal",
+          "files": {
+            "audio": {
+              "name": "WaveCymbal.wav",
+              "size": 5761398
+            },
+            "image": {
+              "name": "WaveCymbal.png",
+              "size": 28050
+            },
+            "linux": {
+              "name": "WaveCymbal-linux.zip",
+              "size": 1672674
+            },
+            "mac": {
+              "name": "WaveCymbal-mac.zip",
+              "size": 1672674
+            },
+            "win": {
+              "name": "WaveCymbal-win.zip",
+              "size": 1672674
             }
           },
           "release": "ResetAndMuteFix"
@@ -727,8 +1451,51 @@
     "ryukau/vstplugins/colliding-comb-synth": {
       "id": "ryukau/vstplugins/colliding-comb-synth",
       "license": "gpl-3.0",
-      "version": "0.1.13",
+      "version": "0.1.14",
       "versions": {
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "CollidingCombSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.14",
+          "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
+          "id": "colliding-comb-synth",
+          "files": {
+            "audio": {
+              "name": "CollidingCombSynth.flac",
+              "size": 1005341
+            },
+            "image": {
+              "name": "CollidingCombSynth.png",
+              "size": 64026
+            },
+            "linux": {
+              "name": "CollidingCombSynth_0.1.14.zip",
+              "size": 2826073
+            },
+            "win": {
+              "name": "CollidingCombSynth_0.1.14.zip",
+              "size": 2826073
+            },
+            "mac": {
+              "name": "CollidingCombSynth_0.1.14.zip",
+              "size": 2826073
+            }
+          },
+          "release": "UhhyouPlugins0.55.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -763,14 +1530,7 @@
               "size": 2825504
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.53.0"
         },
         "0.1.12": {
           "author": "Takamitsu Endo",
@@ -1122,663 +1882,54 @@
         }
       }
     },
-    "ryukau/vstplugins/trapezoid-synth": {
-      "id": "ryukau/vstplugins/trapezoid-synth",
-      "license": "gpl-3.0",
-      "version": "0.1.23",
-      "versions": {
-        "0.1.23": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-03-03T14:49:28.706Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.23",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.flac",
-              "size": 711407
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth_0.1.23.zip",
-              "size": 2689044
-            },
-            "win": {
-              "name": "TrapezoidSynth_0.1.23.zip",
-              "size": 2689044
-            },
-            "mac": {
-              "name": "TrapezoidSynth_0.1.23.zip",
-              "size": 2689044
-            }
-          },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.22": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-01-28T02:29:33.582Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.22",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.flac",
-              "size": 711407
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth_0.1.22.zip",
-              "size": 2689532
-            },
-            "win": {
-              "name": "TrapezoidSynth_0.1.22.zip",
-              "size": 2689532
-            },
-            "mac": {
-              "name": "TrapezoidSynth_0.1.22.zip",
-              "size": 2689532
-            }
-          },
-          "release": "UhhyouPlugins0.52.0"
-        },
-        "0.1.21": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.21",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.flac",
-              "size": 711407
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth_0.1.21.zip",
-              "size": 2689751
-            },
-            "win": {
-              "name": "TrapezoidSynth_0.1.21.zip",
-              "size": 2689751
-            },
-            "mac": {
-              "name": "TrapezoidSynth_0.1.21.zip",
-              "size": 2689751
-            }
-          },
-          "release": "UhhyouPlugins0.50.0"
-        },
-        "0.1.20": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-09-09T09:26:32.884Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.20",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.flac",
-              "size": 711407
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth_0.1.20.zip",
-              "size": 2679593
-            },
-            "win": {
-              "name": "TrapezoidSynth_0.1.20.zip",
-              "size": 2679593
-            },
-            "mac": {
-              "name": "TrapezoidSynth_0.1.20.zip",
-              "size": 2679593
-            }
-          },
-          "release": "UhhyouPlugins0.46.0"
-        },
-        "0.1.19": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-10T11:35:21.248Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.19",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.flac",
-              "size": 711407
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth_0.1.19.zip",
-              "size": 2907999
-            },
-            "win": {
-              "name": "TrapezoidSynth_0.1.19.zip",
-              "size": 2907999
-            },
-            "mac": {
-              "name": "TrapezoidSynth_0.1.19.zip",
-              "size": 2907999
-            }
-          },
-          "release": "UhhyouPlugins0.34.0"
-        },
-        "0.1.18": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.18",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.flac",
-              "size": 711407
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth_0.1.18.zip",
-              "size": 1946267
-            },
-            "win": {
-              "name": "TrapezoidSynth_0.1.18.zip",
-              "size": 1946267
-            }
-          },
-          "release": "UhhyouPlugins0.33.0"
-        },
-        "0.1.16": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-24T13:32:25.622Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.16",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.wav",
-              "size": 5826542
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth-linux.zip",
-              "size": 1885030
-            },
-            "win": {
-              "name": "TrapezoidSynth-win.zip",
-              "size": 1885030
-            }
-          },
-          "release": "CustomFontOptions"
-        },
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.14",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.wav",
-              "size": 5826542
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 62651
-            },
-            "linux": {
-              "name": "TrapezoidSynth-linux.zip",
-              "size": 1622428
-            },
-            "win": {
-              "name": "TrapezoidSynth-win.zip",
-              "size": 1622428
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb"
-        },
-        "0.1.13": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "TrapezoidSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.13",
-          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
-          "files": {
-            "audio": {
-              "name": "TrapezoidSynth.wav",
-              "size": 5826542
-            },
-            "image": {
-              "name": "TrapezoidSynth.png",
-              "size": 40114
-            },
-            "linux": {
-              "name": "TrapezoidSynth-linux.zip",
-              "size": 1686343
-            },
-            "mac": {
-              "name": "TrapezoidSynth-mac.zip",
-              "size": 1686343
-            },
-            "win": {
-              "name": "TrapezoidSynth-win.zip",
-              "size": 1686343
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/wave-cymbal": {
-      "id": "ryukau/vstplugins/wave-cymbal",
-      "license": "gpl-3.0",
-      "version": "0.1.23",
-      "versions": {
-        "0.1.23": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-03-03T14:49:28.706Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.23",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.flac",
-              "size": 1805740
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal_0.1.23.zip",
-              "size": 2656968
-            },
-            "win": {
-              "name": "WaveCymbal_0.1.23.zip",
-              "size": 2656968
-            },
-            "mac": {
-              "name": "WaveCymbal_0.1.23.zip",
-              "size": 2656968
-            }
-          },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
-        },
-        "0.1.22": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-01-28T02:29:33.582Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.22",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.flac",
-              "size": 1805740
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal_0.1.22.zip",
-              "size": 2656461
-            },
-            "win": {
-              "name": "WaveCymbal_0.1.22.zip",
-              "size": 2656461
-            },
-            "mac": {
-              "name": "WaveCymbal_0.1.22.zip",
-              "size": 2656461
-            }
-          },
-          "release": "UhhyouPlugins0.52.0"
-        },
-        "0.1.21": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.21",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.flac",
-              "size": 1805740
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal_0.1.21.zip",
-              "size": 2659103
-            },
-            "win": {
-              "name": "WaveCymbal_0.1.21.zip",
-              "size": 2659103
-            },
-            "mac": {
-              "name": "WaveCymbal_0.1.21.zip",
-              "size": 2659103
-            }
-          },
-          "release": "UhhyouPlugins0.50.0"
-        },
-        "0.1.20": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-09-09T09:26:32.884Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.20",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.flac",
-              "size": 1805740
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal_0.1.20.zip",
-              "size": 2657212
-            },
-            "win": {
-              "name": "WaveCymbal_0.1.20.zip",
-              "size": 2657212
-            },
-            "mac": {
-              "name": "WaveCymbal_0.1.20.zip",
-              "size": 2657212
-            }
-          },
-          "release": "UhhyouPlugins0.46.0"
-        },
-        "0.1.19": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-10T11:35:21.248Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.19",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.flac",
-              "size": 1805740
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal_0.1.19.zip",
-              "size": 2878678
-            },
-            "win": {
-              "name": "WaveCymbal_0.1.19.zip",
-              "size": 2878678
-            },
-            "mac": {
-              "name": "WaveCymbal_0.1.19.zip",
-              "size": 2878678
-            }
-          },
-          "release": "UhhyouPlugins0.34.0"
-        },
-        "0.1.18": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.18",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.flac",
-              "size": 1805740
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal_0.1.18.zip",
-              "size": 1904014
-            },
-            "win": {
-              "name": "WaveCymbal_0.1.18.zip",
-              "size": 1904014
-            }
-          },
-          "release": "UhhyouPlugins0.33.0"
-        },
-        "0.1.16": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-24T13:32:25.622Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.16",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.wav",
-              "size": 5761398
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal-linux.zip",
-              "size": 1867950
-            },
-            "win": {
-              "name": "WaveCymbal-win.zip",
-              "size": 1867950
-            }
-          },
-          "release": "CustomFontOptions"
-        },
-        "0.1.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.14",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.wav",
-              "size": 5761398
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 36135
-            },
-            "linux": {
-              "name": "WaveCymbal-linux.zip",
-              "size": 1592936
-            },
-            "win": {
-              "name": "WaveCymbal-win.zip",
-              "size": 1592936
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb"
-        },
-        "0.1.13": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "WaveCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.1.13",
-          "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
-          "files": {
-            "audio": {
-              "name": "WaveCymbal.wav",
-              "size": 5761398
-            },
-            "image": {
-              "name": "WaveCymbal.png",
-              "size": 28050
-            },
-            "linux": {
-              "name": "WaveCymbal-linux.zip",
-              "size": 1672674
-            },
-            "mac": {
-              "name": "WaveCymbal-mac.zip",
-              "size": 1672674
-            },
-            "win": {
-              "name": "WaveCymbal-win.zip",
-              "size": 1672674
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
     "ryukau/vstplugins/enveloped-sine": {
       "id": "ryukau/vstplugins/enveloped-sine",
       "license": "gpl-3.0",
-      "version": "0.1.22",
+      "version": "0.1.23",
       "versions": {
+        "0.1.23": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "EnvelopedSine",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.23",
+          "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
+          "id": "enveloped-sine",
+          "files": {
+            "audio": {
+              "name": "EnvelopedSine.flac",
+              "size": 1413976
+            },
+            "image": {
+              "name": "EnvelopedSine.png",
+              "size": 61185
+            },
+            "linux": {
+              "name": "EnvelopedSine_0.1.23.zip",
+              "size": 2871009
+            },
+            "win": {
+              "name": "EnvelopedSine_0.1.23.zip",
+              "size": 2871009
+            },
+            "mac": {
+              "name": "EnvelopedSine_0.1.23.zip",
+              "size": 2871009
+            }
+          },
+          "release": "UhhyouPlugins0.55.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.22": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -1813,14 +1964,7 @@
               "size": 2871349
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.53.0"
         },
         "0.1.21": {
           "author": "Takamitsu Endo",
@@ -2136,46 +2280,46 @@
         }
       }
     },
-    "ryukau/vstplugins/sync-saw-synth": {
-      "id": "ryukau/vstplugins/sync-saw-synth",
+    "ryukau/vstplugins/trapezoid-synth": {
+      "id": "ryukau/vstplugins/trapezoid-synth",
       "license": "gpl-3.0",
-      "version": "0.1.26",
+      "version": "0.1.24",
       "versions": {
-        "0.1.26": {
+        "0.1.24": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-03-03T14:49:28.706Z",
-          "name": "SyncSawSynth",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "TrapezoidSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.26",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
+          "version": "0.1.24",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
           "files": {
             "audio": {
-              "name": "SyncSawSynth.flac",
-              "size": 329666
+              "name": "TrapezoidSynth.flac",
+              "size": 711407
             },
             "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
+              "name": "TrapezoidSynth.png",
+              "size": 62651
             },
             "linux": {
-              "name": "SyncSawSynth_0.1.26.zip",
-              "size": 2683547
+              "name": "TrapezoidSynth_0.1.24.zip",
+              "size": 2690543
             },
             "win": {
-              "name": "SyncSawSynth_0.1.26.zip",
-              "size": 2683547
+              "name": "TrapezoidSynth_0.1.24.zip",
+              "size": 2690543
             },
             "mac": {
-              "name": "SyncSawSynth_0.1.26.zip",
-              "size": 2683547
+              "name": "TrapezoidSynth_0.1.24.zip",
+              "size": 2690543
             }
           },
-          "release": "UhhyouPlugins0.53.0",
+          "release": "UhhyouPlugins0.55.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
@@ -2184,242 +2328,712 @@
           },
           "repo": "ryukau/vstplugins"
         },
-        "0.1.25": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "SyncSawSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.25",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
-          "files": {
-            "audio": {
-              "name": "SyncSawSynth.flac",
-              "size": 329666
-            },
-            "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
-            },
-            "linux": {
-              "name": "SyncSawSynth_0.1.25.zip",
-              "size": 2685014
-            },
-            "win": {
-              "name": "SyncSawSynth_0.1.25.zip",
-              "size": 2685014
-            },
-            "mac": {
-              "name": "SyncSawSynth_0.1.25.zip",
-              "size": 2685014
-            }
-          },
-          "release": "UhhyouPlugins0.50.0"
-        },
-        "0.1.24": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-09-09T09:26:32.884Z",
-          "name": "SyncSawSynth",
-          "tags": [
-            "Instrument",
-            "Synth"
-          ],
-          "version": "0.1.24",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
-          "files": {
-            "audio": {
-              "name": "SyncSawSynth.flac",
-              "size": 329666
-            },
-            "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
-            },
-            "linux": {
-              "name": "SyncSawSynth_0.1.24.zip",
-              "size": 2680692
-            },
-            "win": {
-              "name": "SyncSawSynth_0.1.24.zip",
-              "size": 2680692
-            },
-            "mac": {
-              "name": "SyncSawSynth_0.1.24.zip",
-              "size": 2680692
-            }
-          },
-          "release": "UhhyouPlugins0.46.0"
-        },
         "0.1.23": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-10T11:35:21.248Z",
-          "name": "SyncSawSynth",
+          "date": "2023-03-03T14:49:28.706Z",
+          "name": "TrapezoidSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.23",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
           "files": {
             "audio": {
-              "name": "SyncSawSynth.flac",
-              "size": 329666
+              "name": "TrapezoidSynth.flac",
+              "size": 711407
             },
             "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
+              "name": "TrapezoidSynth.png",
+              "size": 62651
             },
             "linux": {
-              "name": "SyncSawSynth_0.1.23.zip",
-              "size": 2902651
+              "name": "TrapezoidSynth_0.1.23.zip",
+              "size": 2689044
             },
             "win": {
-              "name": "SyncSawSynth_0.1.23.zip",
-              "size": 2902651
+              "name": "TrapezoidSynth_0.1.23.zip",
+              "size": 2689044
             },
             "mac": {
-              "name": "SyncSawSynth_0.1.23.zip",
-              "size": 2902651
+              "name": "TrapezoidSynth_0.1.23.zip",
+              "size": 2689044
             }
           },
-          "release": "UhhyouPlugins0.34.0"
+          "release": "UhhyouPlugins0.53.0"
         },
         "0.1.22": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "SyncSawSynth",
+          "date": "2023-01-28T02:29:33.582Z",
+          "name": "TrapezoidSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.22",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
           "files": {
             "audio": {
-              "name": "SyncSawSynth.flac",
-              "size": 329666
+              "name": "TrapezoidSynth.flac",
+              "size": 711407
             },
             "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
+              "name": "TrapezoidSynth.png",
+              "size": 62651
             },
             "linux": {
-              "name": "SyncSawSynth_0.1.22.zip",
-              "size": 1929998
+              "name": "TrapezoidSynth_0.1.22.zip",
+              "size": 2689532
             },
             "win": {
-              "name": "SyncSawSynth_0.1.22.zip",
-              "size": 1929998
+              "name": "TrapezoidSynth_0.1.22.zip",
+              "size": 2689532
+            },
+            "mac": {
+              "name": "TrapezoidSynth_0.1.22.zip",
+              "size": 2689532
             }
           },
-          "release": "UhhyouPlugins0.33.0"
+          "release": "UhhyouPlugins0.52.0"
+        },
+        "0.1.21": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "TrapezoidSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.21",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
+          "files": {
+            "audio": {
+              "name": "TrapezoidSynth.flac",
+              "size": 711407
+            },
+            "image": {
+              "name": "TrapezoidSynth.png",
+              "size": 62651
+            },
+            "linux": {
+              "name": "TrapezoidSynth_0.1.21.zip",
+              "size": 2689751
+            },
+            "win": {
+              "name": "TrapezoidSynth_0.1.21.zip",
+              "size": 2689751
+            },
+            "mac": {
+              "name": "TrapezoidSynth_0.1.21.zip",
+              "size": 2689751
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-24T13:32:25.622Z",
-          "name": "SyncSawSynth",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "TrapezoidSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.20",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
           "files": {
             "audio": {
-              "name": "SyncSawSynth.wav",
-              "size": 1978606
+              "name": "TrapezoidSynth.flac",
+              "size": 711407
             },
             "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
+              "name": "TrapezoidSynth.png",
+              "size": 62651
             },
             "linux": {
-              "name": "SyncSawSynth-linux.zip",
-              "size": 1876134
+              "name": "TrapezoidSynth_0.1.20.zip",
+              "size": 2679593
             },
             "win": {
-              "name": "SyncSawSynth-win.zip",
-              "size": 1876134
+              "name": "TrapezoidSynth_0.1.20.zip",
+              "size": 2679593
+            },
+            "mac": {
+              "name": "TrapezoidSynth_0.1.20.zip",
+              "size": 2679593
             }
           },
-          "release": "CustomFontOptions"
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.19": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-10T11:35:21.248Z",
+          "name": "TrapezoidSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.19",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
+          "files": {
+            "audio": {
+              "name": "TrapezoidSynth.flac",
+              "size": 711407
+            },
+            "image": {
+              "name": "TrapezoidSynth.png",
+              "size": 62651
+            },
+            "linux": {
+              "name": "TrapezoidSynth_0.1.19.zip",
+              "size": 2907999
+            },
+            "win": {
+              "name": "TrapezoidSynth_0.1.19.zip",
+              "size": 2907999
+            },
+            "mac": {
+              "name": "TrapezoidSynth_0.1.19.zip",
+              "size": 2907999
+            }
+          },
+          "release": "UhhyouPlugins0.34.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "SyncSawSynth",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "TrapezoidSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.18",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
           "files": {
             "audio": {
-              "name": "SyncSawSynth.wav",
-              "size": 1978606
+              "name": "TrapezoidSynth.flac",
+              "size": 711407
             },
             "image": {
-              "name": "SyncSawSynth.png",
-              "size": 55212
+              "name": "TrapezoidSynth.png",
+              "size": 62651
             },
             "linux": {
-              "name": "SyncSawSynth-linux.zip",
-              "size": 1614837
+              "name": "TrapezoidSynth_0.1.18.zip",
+              "size": 1946267
             },
             "win": {
-              "name": "SyncSawSynth-win.zip",
-              "size": 1614837
+              "name": "TrapezoidSynth_0.1.18.zip",
+              "size": 1946267
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.16": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "TrapezoidSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.16",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
+          "files": {
+            "audio": {
+              "name": "TrapezoidSynth.wav",
+              "size": 5826542
+            },
+            "image": {
+              "name": "TrapezoidSynth.png",
+              "size": 62651
+            },
+            "linux": {
+              "name": "TrapezoidSynth-linux.zip",
+              "size": 1885030
+            },
+            "win": {
+              "name": "TrapezoidSynth-win.zip",
+              "size": 1885030
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.14": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "TrapezoidSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.14",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
+          "files": {
+            "audio": {
+              "name": "TrapezoidSynth.wav",
+              "size": 5826542
+            },
+            "image": {
+              "name": "TrapezoidSynth.png",
+              "size": 62651
+            },
+            "linux": {
+              "name": "TrapezoidSynth-linux.zip",
+              "size": 1622428
+            },
+            "win": {
+              "name": "TrapezoidSynth-win.zip",
+              "size": 1622428
             }
           },
           "release": "BasicLimiterAndFDN64Reverb"
         },
-        "0.1.17": {
+        "0.1.13": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
           "date": "2021-11-16T07:57:41.415Z",
-          "name": "SyncSawSynth",
+          "name": "TrapezoidSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.13",
+          "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
+          "id": "trapezoid-synth",
+          "files": {
+            "audio": {
+              "name": "TrapezoidSynth.wav",
+              "size": 5826542
+            },
+            "image": {
+              "name": "TrapezoidSynth.png",
+              "size": 40114
+            },
+            "linux": {
+              "name": "TrapezoidSynth-linux.zip",
+              "size": 1686343
+            },
+            "mac": {
+              "name": "TrapezoidSynth-mac.zip",
+              "size": 1686343
+            },
+            "win": {
+              "name": "TrapezoidSynth-win.zip",
+              "size": 1686343
+            }
+          },
+          "release": "ResetAndMuteFix"
+        }
+      }
+    },
+    "ryukau/vstplugins/cubic-pad-synth": {
+      "id": "ryukau/vstplugins/cubic-pad-synth",
+      "license": "gpl-3.0",
+      "version": "0.1.24",
+      "versions": {
+        "0.1.24": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.24",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.24.zip",
+              "size": 6316077
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.24.zip",
+              "size": 6316077
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.24.zip",
+              "size": 6316077
+            }
+          },
+          "release": "UhhyouPlugins0.55.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
+        "0.1.23": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-03-03T14:49:28.706Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.23",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.23.zip",
+              "size": 6315726
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.23.zip",
+              "size": 6315726
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.23.zip",
+              "size": 6315726
+            }
+          },
+          "release": "UhhyouPlugins0.53.0"
+        },
+        "0.1.22": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-01-28T02:29:33.582Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.22",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.22.zip",
+              "size": 6302482
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.22.zip",
+              "size": 6302482
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.22.zip",
+              "size": 6302482
+            }
+          },
+          "release": "UhhyouPlugins0.52.0"
+        },
+        "0.1.20": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-28T08:32:34.481Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.20",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.20.zip",
+              "size": 6303125
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.20.zip",
+              "size": 6303125
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.20.zip",
+              "size": 6303125
+            }
+          },
+          "release": "UhhyouPlugins0.51.0"
+        },
+        "0.1.19": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-12-19T06:18:40.814Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.19",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.19.zip",
+              "size": 6298736
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.19.zip",
+              "size": 6298736
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.19.zip",
+              "size": 6298736
+            }
+          },
+          "release": "UhhyouPlugins0.50.0"
+        },
+        "0.1.18": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-09-09T09:26:32.884Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.18",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.18.zip",
+              "size": 4237520
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.18.zip",
+              "size": 4237520
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.18.zip",
+              "size": 4237520
+            }
+          },
+          "release": "UhhyouPlugins0.46.0"
+        },
+        "0.1.17": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-08-08T12:00:25.591Z",
+          "name": "CubicPadSynth",
           "tags": [
             "Instrument",
             "Synth"
           ],
           "version": "0.1.17",
-          "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
           "files": {
             "audio": {
-              "name": "SyncSawSynth.wav",
-              "size": 1978606
+              "name": "CubicPadSynth.flac",
+              "size": 613476
             },
             "image": {
-              "name": "SyncSawSynth.png",
-              "size": 40255
+              "name": "CubicPadSynth.png",
+              "size": 59111
             },
             "linux": {
-              "name": "SyncSawSynth-linux.zip",
-              "size": 1690199
-            },
-            "mac": {
-              "name": "SyncSawSynth-mac.zip",
-              "size": 1690199
+              "name": "CubicPadSynth_0.1.17.zip",
+              "size": 4229056
             },
             "win": {
-              "name": "SyncSawSynth-win.zip",
-              "size": 1690199
+              "name": "CubicPadSynth_0.1.17.zip",
+              "size": 4229056
+            },
+            "mac": {
+              "name": "CubicPadSynth_0.1.17.zip",
+              "size": 4229056
+            }
+          },
+          "release": "UhhyouPlugins0.41.0"
+        },
+        "0.1.15": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-06-04T00:28:41.276Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.15",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.flac",
+              "size": 613476
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth_0.1.15.zip",
+              "size": 5098219
+            },
+            "win": {
+              "name": "CubicPadSynth_0.1.15.zip",
+              "size": 5098219
+            }
+          },
+          "release": "UhhyouPlugins0.33.0"
+        },
+        "0.1.13": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-24T13:32:25.622Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.13",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.wav",
+              "size": 4374542
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth-linux.zip",
+              "size": 5042364
+            },
+            "win": {
+              "name": "CubicPadSynth-win.zip",
+              "size": 5042364
+            }
+          },
+          "release": "CustomFontOptions"
+        },
+        "0.1.11": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2022-05-16T05:28:21.864Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.11",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.wav",
+              "size": 4374542
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 59111
+            },
+            "linux": {
+              "name": "CubicPadSynth-linux.zip",
+              "size": 4788347
+            },
+            "win": {
+              "name": "CubicPadSynth-win.zip",
+              "size": 4788347
+            }
+          },
+          "release": "BasicLimiterAndFDN64Reverb"
+        },
+        "0.1.10": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2021-11-16T07:57:41.415Z",
+          "name": "CubicPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.10",
+          "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
+          "id": "cubic-pad-synth",
+          "files": {
+            "audio": {
+              "name": "CubicPadSynth.wav",
+              "size": 4374542
+            },
+            "image": {
+              "name": "CubicPadSynth.png",
+              "size": 57259
+            },
+            "linux": {
+              "name": "CubicPadSynth-linux.zip",
+              "size": 6523077
+            },
+            "mac": {
+              "name": "CubicPadSynth-mac.zip",
+              "size": 6523077
+            },
+            "win": {
+              "name": "CubicPadSynth-win.zip",
+              "size": 6523077
             }
           },
           "release": "ResetAndMuteFix"
@@ -2429,8 +3043,51 @@
     "ryukau/vstplugins/light-pad-synth": {
       "id": "ryukau/vstplugins/light-pad-synth",
       "license": "gpl-3.0",
-      "version": "0.1.21",
+      "version": "0.1.22",
       "versions": {
+        "0.1.22": {
+          "author": "Takamitsu Endo",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "date": "2023-05-06T08:24:26.692Z",
+          "name": "LightPadSynth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "0.1.22",
+          "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
+          "id": "light-pad-synth",
+          "files": {
+            "audio": {
+              "name": "LightPadSynth.flac",
+              "size": 951405
+            },
+            "image": {
+              "name": "LightPadSynth.png",
+              "size": 57697
+            },
+            "linux": {
+              "name": "LightPadSynth_0.1.22.zip",
+              "size": 3054748
+            },
+            "win": {
+              "name": "LightPadSynth_0.1.22.zip",
+              "size": 3054748
+            },
+            "mac": {
+              "name": "LightPadSynth_0.1.22.zip",
+              "size": 3054748
+            }
+          },
+          "release": "UhhyouPlugins0.55.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
         "0.1.21": {
           "author": "Takamitsu Endo",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -2465,14 +3122,7 @@
               "size": 3055283
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "release": "UhhyouPlugins0.53.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -2818,332 +3468,6 @@
             "win": {
               "name": "LightPadSynth-win.zip",
               "size": 2044205
-            }
-          },
-          "release": "ResetAndMuteFix"
-        }
-      }
-    },
-    "ryukau/vstplugins/f-d-n-cymbal": {
-      "id": "ryukau/vstplugins/f-d-n-cymbal",
-      "license": "gpl-3.0",
-      "version": "0.2.16",
-      "versions": {
-        "0.2.16": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-03-03T14:49:28.706Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.16",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.flac",
-              "size": 1546996
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal_0.2.16.zip",
-              "size": 2708103
-            },
-            "win": {
-              "name": "FDNCymbal_0.2.16.zip",
-              "size": 2708103
-            },
-            "mac": {
-              "name": "FDNCymbal_0.2.16.zip",
-              "size": 2708103
-            }
-          },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
-        },
-        "0.2.15": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2023-01-28T02:29:33.582Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.15",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.flac",
-              "size": 1546996
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal_0.2.15.zip",
-              "size": 2708148
-            },
-            "win": {
-              "name": "FDNCymbal_0.2.15.zip",
-              "size": 2708148
-            },
-            "mac": {
-              "name": "FDNCymbal_0.2.15.zip",
-              "size": 2708148
-            }
-          },
-          "release": "UhhyouPlugins0.52.0"
-        },
-        "0.2.14": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-12-19T06:18:40.814Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.14",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.flac",
-              "size": 1546996
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal_0.2.14.zip",
-              "size": 2705642
-            },
-            "win": {
-              "name": "FDNCymbal_0.2.14.zip",
-              "size": 2705642
-            },
-            "mac": {
-              "name": "FDNCymbal_0.2.14.zip",
-              "size": 2705642
-            }
-          },
-          "release": "UhhyouPlugins0.50.0"
-        },
-        "0.2.13": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-09-09T09:26:32.884Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.13",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.flac",
-              "size": 1546996
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal_0.2.13.zip",
-              "size": 2700815
-            },
-            "win": {
-              "name": "FDNCymbal_0.2.13.zip",
-              "size": 2700815
-            },
-            "mac": {
-              "name": "FDNCymbal_0.2.13.zip",
-              "size": 2700815
-            }
-          },
-          "release": "UhhyouPlugins0.46.0"
-        },
-        "0.2.12": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-10T11:35:21.248Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.12",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.flac",
-              "size": 1546996
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal_0.2.12.zip",
-              "size": 2921511
-            },
-            "win": {
-              "name": "FDNCymbal_0.2.12.zip",
-              "size": 2921511
-            },
-            "mac": {
-              "name": "FDNCymbal_0.2.12.zip",
-              "size": 2921511
-            }
-          },
-          "release": "UhhyouPlugins0.34.0"
-        },
-        "0.2.11": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-06-04T00:28:41.276Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.11",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.flac",
-              "size": 1546996
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal_0.2.11.zip",
-              "size": 1950882
-            },
-            "win": {
-              "name": "FDNCymbal_0.2.11.zip",
-              "size": 1950882
-            }
-          },
-          "release": "UhhyouPlugins0.33.0"
-        },
-        "0.2.9": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-24T13:32:25.622Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.9",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.wav",
-              "size": 6134428
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal-linux.zip",
-              "size": 1905722
-            },
-            "win": {
-              "name": "FDNCymbal-win.zip",
-              "size": 1905722
-            }
-          },
-          "release": "CustomFontOptions"
-        },
-        "0.2.7": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2022-05-16T05:28:21.864Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.7",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.wav",
-              "size": 6134428
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 45637
-            },
-            "linux": {
-              "name": "FDNCymbal-linux.zip",
-              "size": 1604100
-            },
-            "win": {
-              "name": "FDNCymbal-win.zip",
-              "size": 1604100
-            }
-          },
-          "release": "BasicLimiterAndFDN64Reverb"
-        },
-        "0.2.6": {
-          "author": "Takamitsu Endo",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "date": "2021-11-16T07:57:41.415Z",
-          "name": "FDNCymbal",
-          "tags": [
-            "Fx",
-            "Instrument"
-          ],
-          "version": "0.2.6",
-          "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
-          "files": {
-            "audio": {
-              "name": "FDNCymbal.wav",
-              "size": 6134428
-            },
-            "image": {
-              "name": "FDNCymbal.png",
-              "size": 34324
-            },
-            "linux": {
-              "name": "FDNCymbal-linux.zip",
-              "size": 1669749
-            },
-            "mac": {
-              "name": "FDNCymbal-mac.zip",
-              "size": 1669749
-            },
-            "win": {
-              "name": "FDNCymbal-win.zip",
-              "size": 1669749
             }
           },
           "release": "ResetAndMuteFix"
@@ -3513,57 +3837,6 @@
         }
       }
     },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.flac",
-              "size": 12493
-            },
-            "image": {
-              "name": "andes.jpg",
-              "size": 27379
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/andes"
-        }
-      }
-    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -3666,105 +3939,54 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.flac",
-              "size": 52170
-            },
-            "image": {
-              "name": "kars.jpg",
-              "size": 16547
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1146039
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1330027
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1177464
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "isc",
-            "name": "ISC License",
-            "url": "https://choosealicense.com/licenses/isc",
-            "same": false
-          },
-          "repo": "studiorack/kars"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
       "license": "gpl-3.0",
-      "version": "4.0.0",
+      "version": "0.2.0",
       "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "tags": [
             "Instrument",
             "Synth",
-            "Analog"
+            "Oscillator"
           ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "tunefish.flac",
-              "size": 239665
+              "name": "andes.flac",
+              "size": 12493
             },
             "image": {
-              "name": "tunefish.jpg",
-              "size": 107198
+              "name": "andes.jpg",
+              "size": 27379
             },
             "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
+              "name": "andes-linux.zip",
+              "size": 6118842
             },
             "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
+              "name": "andes-mac.zip",
+              "size": 5225268
             },
             "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
+              "name": "andes-win.zip",
+              "size": 3450947
             }
           },
-          "release": "v4.2.0",
+          "release": "v0.2.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/tunefish"
+          "repo": "studiorack/andes"
         }
       }
     },
@@ -3871,55 +4093,105 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.flac",
+              "size": 239665
+            },
+            "image": {
+              "name": "tunefish.jpg",
+              "size": 107198
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/tunefish"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
           "tags": [
             "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
+            "Synth",
+            "String"
           ],
           "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
+              "name": "kars.flac",
+              "size": 52170
             },
             "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
+              "name": "kars.jpg",
+              "size": 16547
             },
             "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "kars-linux.zip",
+              "size": 1146039
             },
             "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "kars-mac.zip",
+              "size": 1330027
             },
             "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "kars-win.zip",
+              "size": 1177464
             }
           },
           "release": "v1.0.0",
           "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
+            "key": "isc",
+            "name": "ISC License",
+            "url": "https://choosealicense.com/licenses/isc",
+            "same": false
           },
-          "repo": "studiorack/splendid-grand-piano"
+          "repo": "studiorack/kars"
         }
       }
     },
@@ -4023,6 +4295,58 @@
             "same": true
           },
           "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/splendid-grand-piano"
         }
       }
     },
@@ -4181,6 +4505,108 @@
         }
       }
     },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 8678132
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 13299862
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 12671911
+            }
+          },
+          "release": "v0.9.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/helm"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "id": "studiorack/juicysf/juicysf",
+      "license": "gpl-3.0",
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "3.1.0",
+          "id": "juicysf",
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510
+            }
+          },
+          "release": "3.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/juicysf"
+        }
+      }
+    },
     "studiorack/obxd/obxd": {
       "id": "studiorack/obxd/obxd",
       "license": "gpl-3.0",
@@ -4284,105 +4710,55 @@
         }
       }
     },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
       "license": "gpl-3.0",
-      "version": "0.9.0",
+      "version": "3.2.2",
       "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
           "tags": [
             "Instrument",
-            "Synth",
-            "Modulation"
+            "Orchestral",
+            "Strings",
+            "sfz"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "3.2.2",
+          "id": "virtual-playing-orchestra",
+          "date": "2020-10-31T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.flac",
-              "size": 75330
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127
             },
             "image": {
-              "name": "helm.jpg",
-              "size": 118535
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 8678132
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "mac": {
-              "name": "helm-mac.zip",
-              "size": 13299862
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             },
             "win": {
-              "name": "helm-win.zip",
-              "size": 12671911
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714
             }
           },
-          "release": "v0.9.0",
+          "release": "v3.2.2",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/helm"
-        }
-      }
-    },
-    "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
-      "version": "3.1.0",
-      "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "3.1.0",
-          "id": "juicysf",
-          "date": "2022-02-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "juicysf.flac",
-              "size": 83683
-            },
-            "image": {
-              "name": "juicysf.jpg",
-              "size": 38148
-            },
-            "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 0
-            },
-            "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275
-            },
-            "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510
-            }
-          },
-          "release": "3.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/juicysf"
+          "repo": "studiorack/virtual-playing-orchestra"
         }
       }
     },
@@ -4434,58 +4810,6 @@
             "same": true
           },
           "repo": "studiorack/vst2413"
-        }
-      }
-    },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
-            }
-          },
-          "release": "v3.2.2",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/virtual-playing-orchestra"
         }
       }
     },
@@ -4696,6 +5020,57 @@
         }
       }
     },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "license": {
+            "key": "agpl-3.0",
+            "name": "GNU Affero General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/agpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/octasine"
+        }
+      }
+    },
     "studiorack/digits/digits": {
       "id": "studiorack/digits/digits",
       "license": "gpl-3.0",
@@ -4902,54 +5277,54 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
+    "studiorack/avl-drumkits/avl-drumkits": {
+      "id": "studiorack/avl-drumkits/avl-drumkits",
+      "license": "other",
+      "version": "1.1.0",
       "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Drumkits",
+          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
           "tags": [
             "Instrument",
-            "Synth",
-            "Modulation"
+            "Drums",
+            "sfz"
           ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
+          "version": "1.1.0",
+          "id": "avl-drumkits",
+          "date": "2022-02-20T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "octasine.flac",
-              "size": 84574
+              "name": "avl-drumkits.flac",
+              "size": 696023
             },
             "image": {
-              "name": "octasine.jpg",
-              "size": 90200
+              "name": "avl-drumkits.jpg",
+              "size": 326339
             },
             "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
+              "name": "avl-drumkits.zip",
+              "size": 16017234
             },
             "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
+              "name": "avl-drumkits.zip",
+              "size": 16017234
             },
             "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
+              "name": "avl-drumkits.zip",
+              "size": 16017234
             }
           },
-          "release": "v0.5.3",
+          "release": "v1.1.0",
           "license": {
-            "key": "agpl-3.0",
-            "name": "GNU Affero General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/agpl-3.0",
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
             "same": true
           },
-          "repo": "studiorack/octasine"
+          "repo": "studiorack/avl-drumkits"
         }
       }
     },
@@ -5001,57 +5376,6 @@
             "same": true
           },
           "repo": "studiorack/carla"
-        }
-      }
-    },
-    "studiorack/avl-drumkits/avl-drumkits": {
-      "id": "studiorack/avl-drumkits/avl-drumkits",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Drumkits",
-          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-drumkits",
-          "date": "2022-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-drumkits.flac",
-              "size": 696023
-            },
-            "image": {
-              "name": "avl-drumkits.jpg",
-              "size": 326339
-            },
-            "linux": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            },
-            "mac": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            },
-            "win": {
-              "name": "avl-drumkits.zip",
-              "size": 16017234
-            }
-          },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-drumkits"
         }
       }
     },
@@ -5262,57 +5586,6 @@
         }
       }
     },
-    "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "version": "1.1.1",
-          "id": "sfizz",
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698
-            }
-          },
-          "release": "v1.1.1",
-          "license": {
-            "key": "bsd-2-clause",
-            "name": "BSD 2-Clause 'Simplified' License",
-            "url": "https://choosealicense.com/licenses/bsd-2-clause",
-            "same": false
-          },
-          "repo": "studiorack/sfizz"
-        }
-      }
-    },
     "studiorack/distrho-ports/tal-noisemaker": {
       "id": "studiorack/distrho-ports/tal-noisemaker",
       "license": "other",
@@ -5361,6 +5634,57 @@
             "same": true
           },
           "repo": "studiorack/distrho-ports"
+        }
+      }
+    },
+    "studiorack/sfizz/sfizz": {
+      "id": "studiorack/sfizz/sfizz",
+      "license": "bsd-2-clause",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "1.1.1",
+          "id": "sfizz",
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698
+            }
+          },
+          "release": "v1.1.1",
+          "license": {
+            "key": "bsd-2-clause",
+            "name": "BSD 2-Clause 'Simplified' License",
+            "url": "https://choosealicense.com/licenses/bsd-2-clause",
+            "same": false
+          },
+          "repo": "studiorack/sfizz"
         }
       }
     },
