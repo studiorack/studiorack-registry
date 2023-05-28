@@ -3946,54 +3946,54 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
       "license": "gpl-3.0",
-      "version": "0.1.8",
+      "version": "3.2.5",
       "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
             "Effect",
-            "Distortion",
-            "Editor"
+            "Reverb",
+            "Plate"
           ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066
+              "name": "dragonfly-reverb.flac",
+              "size": 82471
             },
             "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286
+              "name": "dragonfly-reverb.jpg",
+              "size": 119902
             },
             "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6921808
             },
             "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4542730
             },
             "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9359636
             }
           },
-          "release": "v0.1.8",
+          "release": "v3.2.5",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/wolf-shaper"
+          "repo": "studiorack/dragonfly-reverb"
         }
       }
     },
@@ -4048,54 +4048,54 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
-      "version": "3.2.5",
+      "version": "0.1.8",
       "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
           "tags": [
             "Effect",
-            "Reverb",
-            "Plate"
+            "Distortion",
+            "Editor"
           ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.flac",
-              "size": 82471
+              "name": "wolf-shaper.flac",
+              "size": 103066
             },
             "image": {
-              "name": "dragonfly-reverb.jpg",
-              "size": 119902
+              "name": "wolf-shaper.jpg",
+              "size": 39286
             },
             "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6921808
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
             },
             "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4542730
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
             },
             "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9359636
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
             }
           },
-          "release": "v3.2.5",
+          "release": "v0.1.8",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/dragonfly-reverb"
+          "repo": "studiorack/wolf-shaper"
         }
       }
     },
@@ -4401,6 +4401,108 @@
             "same": true
           },
           "repo": "studiorack/modeq"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "url": "https://choosealicense.com/licenses/mit",
+            "same": false
+          },
+          "repo": "studiorack/ampli-fe"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
+      "license": "gpl-3.0",
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.flac",
+              "size": 72368
+            },
+            "image": {
+              "name": "chow-tape-model.jpg",
+              "size": 52419
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679
+            }
+          },
+          "release": "v2.8.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/chow-tape-model"
         }
       }
     },
@@ -4758,159 +4860,6 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
-          ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405
-            },
-            "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141
-            },
-            "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
-            },
-            "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
-            },
-            "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
-            }
-          },
-          "release": "v0.1.0",
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "url": "https://choosealicense.com/licenses/mit",
-            "same": false
-          },
-          "repo": "studiorack/ampli-fe"
-        }
-      }
-    },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "id": "studiorack/chow-tape-model/chow-tape-model",
-      "license": "gpl-3.0",
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Tape"
-          ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.flac",
-              "size": 72368
-            },
-            "image": {
-              "name": "chow-tape-model.jpg",
-              "size": 52419
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
-            },
-            "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679
-            }
-          },
-          "release": "v2.8.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/chow-tape-model"
-        }
-      }
-    },
-    "studiorack/temper/temper": {
-      "id": "studiorack/temper/temper",
-      "license": "gpl-3.0",
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Modulation"
-          ],
-          "version": "1.1.1",
-          "id": "temper",
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.flac",
-              "size": 95804
-            },
-            "image": {
-              "name": "temper.jpg",
-              "size": 62400
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694
-            },
-            "win": {
-              "name": "temper-win.zip",
-              "size": 6181044
-            }
-          },
-          "release": "v1.1.1",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/temper"
-        }
-      }
-    },
     "studiorack/chow-matrix/chow-matrix": {
       "id": "studiorack/chow-matrix/chow-matrix",
       "license": "bsd-3-clause",
@@ -5013,6 +4962,57 @@
             "same": false
           },
           "repo": "studiorack/airwindows"
+        }
+      }
+    },
+    "studiorack/temper/temper": {
+      "id": "studiorack/temper/temper",
+      "license": "gpl-3.0",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Modulation"
+          ],
+          "version": "1.1.1",
+          "id": "temper",
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.flac",
+              "size": 95804
+            },
+            "image": {
+              "name": "temper.jpg",
+              "size": 62400
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694
+            },
+            "win": {
+              "name": "temper-win.zip",
+              "size": 6181044
+            }
+          },
+          "release": "v1.1.1",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/temper"
         }
       }
     },
