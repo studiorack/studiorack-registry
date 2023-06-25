@@ -104,45 +104,45 @@
         }
       }
     },
-    "freepats/hang-d-minor/hang-d-minor": {
-      "id": "freepats/hang-d-minor/hang-d-minor",
+    "freepats/spanish-classical-guitar/spanish-classical-guitar": {
+      "id": "freepats/spanish-classical-guitar/spanish-classical-guitar",
       "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
           "author": "Freepats",
           "homepage": "https://freepats.zenvoid.org",
-          "name": "Hang D Minor",
-          "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
+          "name": "Spanish Classical Guitar",
+          "description": "Spanish classical guitar with nylon strings, recorded with an AKG Perception 120 microphone.",
           "tags": [
             "Instrument",
-            "Orchestra",
-            "Hang",
+            "Guitar",
+            "Classical",
             "sfz"
           ],
           "version": "1.0.0",
-          "id": "hang-d-minor",
-          "date": "2022-03-30T07:00:00.000Z",
+          "id": "spanish-classical-guitar",
+          "date": "2019-06-18T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "Hang-D-minor-20220330.flac",
-              "size": 78343
+              "name": "SpanishClassicalGuitar-20190618.flac",
+              "size": 75338
             },
             "image": {
-              "name": "Hang-D-minor-20220330.jpg",
-              "size": 43408
+              "name": "SpanishClassicalGuitar-20190618.jpg",
+              "size": 147385
             },
             "linux": {
-              "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
+              "name": "SpanishClassicalGuitar-20190618.zip",
+              "size": 4944097
             },
             "mac": {
-              "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
+              "name": "SpanishClassicalGuitar-20190618.zip",
+              "size": 4944097
             },
             "win": {
-              "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
+              "name": "SpanishClassicalGuitar-20190618.zip",
+              "size": 4944097
             }
           },
           "release": "v1.0.0",
@@ -152,7 +152,7 @@
             "url": "https://choosealicense.com/licenses/cc0-1.0",
             "same": false
           },
-          "repo": "freepats/hang-d-minor"
+          "repo": "freepats/spanish-classical-guitar"
         }
       }
     },
@@ -208,6 +208,58 @@
         }
       }
     },
+    "freepats/hang-d-minor/hang-d-minor": {
+      "id": "freepats/hang-d-minor/hang-d-minor",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Hang D Minor",
+          "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
+          "tags": [
+            "Instrument",
+            "Orchestra",
+            "Hang",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "hang-d-minor",
+          "date": "2022-03-30T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "Hang-D-minor-20220330.flac",
+              "size": 78343
+            },
+            "image": {
+              "name": "Hang-D-minor-20220330.jpg",
+              "size": 43408
+            },
+            "linux": {
+              "name": "Hang-D-minor-20220330.zip",
+              "size": 13369709
+            },
+            "mac": {
+              "name": "Hang-D-minor-20220330.zip",
+              "size": 13369709
+            },
+            "win": {
+              "name": "Hang-D-minor-20220330.zip",
+              "size": 13369709
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "freepats/hang-d-minor"
+        }
+      }
+    },
     "studiorack/salamander-grand-piano/salamander-grand-piano": {
       "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
       "license": "other",
@@ -260,58 +312,6 @@
         }
       }
     },
-    "freepats/spanish-classical-guitar/spanish-classical-guitar": {
-      "id": "freepats/spanish-classical-guitar/spanish-classical-guitar",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Spanish Classical Guitar",
-          "description": "Spanish classical guitar with nylon strings, recorded with an AKG Perception 120 microphone.",
-          "tags": [
-            "Instrument",
-            "Guitar",
-            "Classical",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "spanish-classical-guitar",
-          "date": "2019-06-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SpanishClassicalGuitar-20190618.flac",
-              "size": 75338
-            },
-            "image": {
-              "name": "SpanishClassicalGuitar-20190618.jpg",
-              "size": 147385
-            },
-            "linux": {
-              "name": "SpanishClassicalGuitar-20190618.zip",
-              "size": 4944097
-            },
-            "mac": {
-              "name": "SpanishClassicalGuitar-20190618.zip",
-              "size": 4944097
-            },
-            "win": {
-              "name": "SpanishClassicalGuitar-20190618.zip",
-              "size": 4944097
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/spanish-classical-guitar"
-        }
-      }
-    },
     "studiorack/basic-harmonica/basic-harmonica": {
       "id": "studiorack/basic-harmonica/basic-harmonica",
       "license": "cc0-1.0",
@@ -361,6 +361,58 @@
             "same": false
           },
           "repo": "studiorack/basic-harmonica"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/splendid-grand-piano"
         }
       }
     },
@@ -519,58 +571,6 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/splendid-grand-piano"
-        }
-      }
-    },
     "studiorack/sams-sonor/sams-sonor": {
       "id": "studiorack/sams-sonor/sams-sonor",
       "license": "cc-by-sa-4.0",
@@ -620,110 +620,6 @@
             "same": true
           },
           "repo": "studiorack/sams-sonor"
-        }
-      }
-    },
-    "studiorack/black-and-green-guitars/black-and-green-guitars": {
-      "id": "studiorack/black-and-green-guitars/black-and-green-guitars",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars",
-          "name": "Black and Green Guitars",
-          "description": "Black Hofner Club and Green Gretsch Anniversary electric guitars",
-          "tags": [
-            "Instrument",
-            "Guitar",
-            "Electric",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "black-and-green-guitars",
-          "date": "2022-08-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "black-and-green-guitars.flac",
-              "size": 64823
-            },
-            "image": {
-              "name": "black-and-green-guitars.jpg",
-              "size": 100550
-            },
-            "linux": {
-              "name": "black-and-green-guitars.zip",
-              "size": 292323008
-            },
-            "mac": {
-              "name": "black-and-green-guitars.zip",
-              "size": 292323008
-            },
-            "win": {
-              "name": "black-and-green-guitars.zip",
-              "size": 292323008
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/black-and-green-guitars"
-        }
-      }
-    },
-    "studiorack/horse-pulse/horse-pulse": {
-      "id": "studiorack/horse-pulse/horse-pulse",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
-          "name": "Horse Pulse",
-          "description": "Bass Tagelharpa played pizzicato",
-          "tags": [
-            "Instrument",
-            "String",
-            "Pluck",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "horse-pulse",
-          "date": "2022-03-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "horse-pulse.flac",
-              "size": 58263
-            },
-            "image": {
-              "name": "horse-pulse.jpg",
-              "size": 92078
-            },
-            "linux": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
-            },
-            "mac": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
-            },
-            "win": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/horse-pulse"
         }
       }
     },
@@ -831,55 +727,107 @@
         }
       }
     },
-    "studiorack/war-tuba/war-tuba": {
-      "id": "studiorack/war-tuba/war-tuba",
-      "license": "cc-by-4.0",
+    "studiorack/black-and-green-guitars/black-and-green-guitars": {
+      "id": "studiorack/black-and-green-guitars/black-and-green-guitars",
+      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
           "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars",
+          "name": "Black and Green Guitars",
+          "description": "Black Hofner Club and Green Gretsch Anniversary electric guitars",
           "tags": [
             "Instrument",
-            "Brass",
-            "Tuba",
+            "Guitar",
+            "Electric",
             "sfz"
           ],
           "version": "1.0.0",
-          "id": "war-tuba",
-          "date": "2021-09-03T07:00:00.000Z",
+          "id": "black-and-green-guitars",
+          "date": "2022-08-08T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482
+              "name": "black-and-green-guitars.flac",
+              "size": 64823
             },
             "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063
+              "name": "black-and-green-guitars.jpg",
+              "size": 100550
             },
             "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312
+              "name": "black-and-green-guitars.zip",
+              "size": 292323008
             },
             "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312
+              "name": "black-and-green-guitars.zip",
+              "size": 292323008
             },
             "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312
+              "name": "black-and-green-guitars.zip",
+              "size": 292323008
             }
           },
           "release": "v1.0.0",
           "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
             "same": false
           },
-          "repo": "studiorack/war-tuba"
+          "repo": "studiorack/black-and-green-guitars"
+        }
+      }
+    },
+    "studiorack/horse-pulse/horse-pulse": {
+      "id": "studiorack/horse-pulse/horse-pulse",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+          "name": "Horse Pulse",
+          "description": "Bass Tagelharpa played pizzicato",
+          "tags": [
+            "Instrument",
+            "String",
+            "Pluck",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "horse-pulse",
+          "date": "2022-03-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "horse-pulse.flac",
+              "size": 58263
+            },
+            "image": {
+              "name": "horse-pulse.jpg",
+              "size": 92078
+            },
+            "linux": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            },
+            "mac": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            },
+            "win": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "studiorack/horse-pulse"
         }
       }
     },
@@ -1087,6 +1035,58 @@
             "same": false
           },
           "repo": "studiorack/bear-sax"
+        }
+      }
+    },
+    "studiorack/war-tuba/war-tuba": {
+      "id": "studiorack/war-tuba/war-tuba",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "war-tuba",
+          "date": "2021-09-03T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "war-tuba.flac",
+              "size": 88482
+            },
+            "image": {
+              "name": "war-tuba.jpg",
+              "size": 69063
+            },
+            "linux": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            },
+            "mac": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            },
+            "win": {
+              "name": "war-tuba.zip",
+              "size": 35601312
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/war-tuba"
         }
       }
     },
