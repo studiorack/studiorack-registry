@@ -3990,108 +3990,6 @@
         }
       }
     },
-    "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Kars",
-          "name": "Kars",
-          "description": "Simple karplus-strong plucked string synth.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "String"
-          ],
-          "version": "1.0.0",
-          "id": "kars",
-          "date": "2019-11-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "kars.flac",
-              "size": 52170
-            },
-            "image": {
-              "name": "kars.jpg",
-              "size": 16547
-            },
-            "linux": {
-              "name": "kars-linux.zip",
-              "size": 1146039
-            },
-            "mac": {
-              "name": "kars-mac.zip",
-              "size": 1330027
-            },
-            "win": {
-              "name": "kars-win.zip",
-              "size": 1177464
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "isc",
-            "name": "ISC License",
-            "url": "https://choosealicense.com/licenses/isc",
-            "same": false
-          },
-          "repo": "studiorack/kars"
-        }
-      }
-    },
-    "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
-      "version": "4.0.0",
-      "versions": {
-        "4.0.0": {
-          "author": "Brain Control",
-          "homepage": "https://github.com/paynebc/tunefish",
-          "name": "Tunefish",
-          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "version": "4.0.0",
-          "id": "tunefish",
-          "date": "2018-05-04T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tunefish.flac",
-              "size": 239665
-            },
-            "image": {
-              "name": "tunefish.jpg",
-              "size": 107198
-            },
-            "linux": {
-              "name": "tunefish-linux.zip",
-              "size": 3569540
-            },
-            "mac": {
-              "name": "tunefish-mac.zip",
-              "size": 6443515
-            },
-            "win": {
-              "name": "tunefish-win.zip",
-              "size": 4147020
-            }
-          },
-          "release": "v4.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/tunefish"
-        }
-      }
-    },
     "studiorack/oxe/oxe": {
       "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
@@ -4195,6 +4093,108 @@
         }
       }
     },
+    "studiorack/tunefish/tunefish": {
+      "id": "studiorack/tunefish/tunefish",
+      "license": "gpl-3.0",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "author": "Brain Control",
+          "homepage": "https://github.com/paynebc/tunefish",
+          "name": "Tunefish",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "version": "4.0.0",
+          "id": "tunefish",
+          "date": "2018-05-04T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tunefish.flac",
+              "size": 239665
+            },
+            "image": {
+              "name": "tunefish.jpg",
+              "size": 107198
+            },
+            "linux": {
+              "name": "tunefish-linux.zip",
+              "size": 3569540
+            },
+            "mac": {
+              "name": "tunefish-mac.zip",
+              "size": 6443515
+            },
+            "win": {
+              "name": "tunefish-win.zip",
+              "size": 4147020
+            }
+          },
+          "release": "v4.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/tunefish"
+        }
+      }
+    },
+    "studiorack/kars/kars": {
+      "id": "studiorack/kars/kars",
+      "license": "isc",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Kars",
+          "name": "Kars",
+          "description": "Simple karplus-strong plucked string synth.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "String"
+          ],
+          "version": "1.0.0",
+          "id": "kars",
+          "date": "2019-11-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "kars.flac",
+              "size": 52170
+            },
+            "image": {
+              "name": "kars.jpg",
+              "size": 16547
+            },
+            "linux": {
+              "name": "kars-linux.zip",
+              "size": 1146039
+            },
+            "mac": {
+              "name": "kars-mac.zip",
+              "size": 1330027
+            },
+            "win": {
+              "name": "kars-win.zip",
+              "size": 1177464
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "isc",
+            "name": "ISC License",
+            "url": "https://choosealicense.com/licenses/isc",
+            "same": false
+          },
+          "repo": "studiorack/kars"
+        }
+      }
+    },
     "studiorack/splendid-grand-piano/splendid-grand-piano": {
       "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
       "license": "other",
@@ -4244,109 +4244,6 @@
             "same": true
           },
           "repo": "studiorack/splendid-grand-piano"
-        }
-      }
-    },
-    "studiorack/nekobi/nekobi": {
-      "id": "studiorack/nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "nekobi.flac",
-              "size": 54778
-            },
-            "image": {
-              "name": "nekobi.jpg",
-              "size": 14389
-            },
-            "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 861637
-            },
-            "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 1001626
-            },
-            "win": {
-              "name": "nekobi-win.zip",
-              "size": 984470
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/nekobi"
-        }
-      }
-    },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/jrhodes-3c"
         }
       }
     },
@@ -4505,105 +4402,106 @@
         }
       }
     },
-    "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
-      "version": "0.9.0",
+    "studiorack/nekobi/nekobi": {
+      "id": "studiorack/nekobi/nekobi",
+      "license": "gpl-2.0",
+      "version": "1.0.0",
       "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
           "tags": [
             "Instrument",
             "Synth",
-            "Modulation"
+            "Oscillator"
           ],
-          "version": "0.9.0",
-          "id": "helm",
-          "date": "2017-07-08T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "helm.flac",
-              "size": 75330
+              "name": "nekobi.flac",
+              "size": 54778
             },
             "image": {
-              "name": "helm.jpg",
-              "size": 118535
+              "name": "nekobi.jpg",
+              "size": 14389
             },
             "linux": {
-              "name": "helm-linux.zip",
-              "size": 8678132
+              "name": "nekobi-linux.zip",
+              "size": 861637
             },
             "mac": {
-              "name": "helm-mac.zip",
-              "size": 13299862
+              "name": "nekobi-mac.zip",
+              "size": 1001626
             },
             "win": {
-              "name": "helm-win.zip",
-              "size": 12671911
+              "name": "nekobi-win.zip",
+              "size": 984470
             }
           },
-          "release": "v0.9.0",
+          "release": "v1.0.0",
           "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
             "same": true
           },
-          "repo": "studiorack/helm"
+          "repo": "studiorack/nekobi"
         }
       }
     },
-    "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
-      "version": "3.1.0",
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "id": "studiorack/jrhodes-3c/jrhodes-3c",
+      "license": "other",
+      "version": "1.0.0",
       "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
           "tags": [
             "Instrument",
-            "Sampler",
-            "Synth"
+            "Keys",
+            "Rhodes",
+            "sfz"
           ],
-          "version": "3.1.0",
-          "id": "juicysf",
-          "date": "2022-02-13T08:00:00.000Z",
+          "version": "1.0.0",
+          "id": "jrhodes-3c",
+          "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "juicysf.flac",
-              "size": 83683
+              "name": "jrhodes-3c.flac",
+              "size": 64422
             },
             "image": {
-              "name": "juicysf.jpg",
-              "size": 38148
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
             },
             "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 0
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             },
             "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             },
             "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             }
           },
-          "release": "3.1.0",
+          "release": "v1.0.0",
           "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
             "same": true
           },
-          "repo": "studiorack/juicysf"
+          "repo": "studiorack/jrhodes-3c"
         }
       }
     },
@@ -4707,6 +4605,108 @@
             "same": true
           },
           "repo": "studiorack/sams-sonor"
+        }
+      }
+    },
+    "studiorack/helm/helm": {
+      "id": "studiorack/helm/helm",
+      "license": "gpl-3.0",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.9.0",
+          "id": "helm",
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 8678132
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 13299862
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 12671911
+            }
+          },
+          "release": "v0.9.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/helm"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "id": "studiorack/juicysf/juicysf",
+      "license": "gpl-3.0",
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "version": "3.1.0",
+          "id": "juicysf",
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510
+            }
+          },
+          "release": "3.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/juicysf"
         }
       }
     },
@@ -5278,57 +5278,6 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
-      "license": "gpl-3.0",
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "version": "2.1.0",
-          "id": "digits",
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.flac",
-              "size": 56084
-            },
-            "image": {
-              "name": "digits.jpg",
-              "size": 55074
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406
-            },
-            "win": {
-              "name": "digits-win.zip",
-              "size": 211492
-            }
-          },
-          "release": "v2.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/digits"
-        }
-      }
-    },
     "studiorack/ninjas2/ninjas2": {
       "id": "studiorack/ninjas2/ninjas2",
       "license": "gpl-3.0",
@@ -5377,6 +5326,57 @@
             "same": true
           },
           "repo": "studiorack/ninjas2"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "id": "studiorack/digits/digits",
+      "license": "gpl-3.0",
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "version": "2.1.0",
+          "id": "digits",
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.flac",
+              "size": 56084
+            },
+            "image": {
+              "name": "digits.jpg",
+              "size": 55074
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406
+            },
+            "win": {
+              "name": "digits-win.zip",
+              "size": 211492
+            }
+          },
+          "release": "v2.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/digits"
         }
       }
     },
@@ -5481,6 +5481,57 @@
             "same": false
           },
           "repo": "studiorack/war-tuba"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "license": {
+            "key": "agpl-3.0",
+            "name": "GNU Affero General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/agpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/octasine"
         }
       }
     },
@@ -5637,57 +5688,6 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3",
-          "license": {
-            "key": "agpl-3.0",
-            "name": "GNU Affero General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/agpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/octasine"
-        }
-      }
-    },
     "studiorack/odin/odin": {
       "id": "studiorack/odin/odin",
       "license": "gpl-3.0",
@@ -5739,57 +5739,6 @@
         }
       }
     },
-    "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "version": "1.1.0",
-          "id": "os-251",
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.flac",
-              "size": 115597
-            },
-            "image": {
-              "name": "os-251.jpg",
-              "size": 77849
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031
-            }
-          },
-          "release": "v1.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/os-251"
-        }
-      }
-    },
     "studiorack/salamander-drumkit/salamander-drumkit": {
       "id": "studiorack/salamander-drumkit/salamander-drumkit",
       "license": "other",
@@ -5838,6 +5787,57 @@
             "same": true
           },
           "repo": "studiorack/salamander-drumkit"
+        }
+      }
+    },
+    "studiorack/os-251/os-251": {
+      "id": "studiorack/os-251/os-251",
+      "license": "gpl-3.0",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Lofi"
+          ],
+          "version": "1.1.0",
+          "id": "os-251",
+          "date": "2021-10-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "os-251.flac",
+              "size": 115597
+            },
+            "image": {
+              "name": "os-251.jpg",
+              "size": 77849
+            },
+            "linux": {
+              "name": "os-251-linux.zip",
+              "size": 8860818
+            },
+            "mac": {
+              "name": "os-251-mac.zip",
+              "size": 7611441
+            },
+            "win": {
+              "name": "os-251-win.zip",
+              "size": 2496031
+            }
+          },
+          "release": "v1.1.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/os-251"
         }
       }
     },
