@@ -557,110 +557,6 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/splendid-grand-piano"
-        }
-      }
-    },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/jrhodes-3c"
-        }
-      }
-    },
     "studiorack/avl-percussions/avl-percussions": {
       "id": "studiorack/avl-percussions/avl-percussions",
       "license": "other",
@@ -761,6 +657,162 @@
             "same": false
           },
           "repo": "studiorack/naked-drums"
+        }
+      }
+    },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "id": "studiorack/jrhodes-3c/jrhodes-3c",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "jrhodes-3c",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jrhodes-3c.flac",
+              "size": 64422
+            },
+            "image": {
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
+            },
+            "linux": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "mac": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "win": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/splendid-grand-piano"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "id": "studiorack/sams-sonor/sams-sonor",
+      "license": "cc-by-sa-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "sams-sonor",
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-sa-4.0",
+            "name": "Creative Commons Attribution Share Alike 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
+            "same": true
+          },
+          "repo": "studiorack/sams-sonor"
         }
       }
     },
@@ -868,55 +920,55 @@
         }
       }
     },
-    "studiorack/sams-sonor/sams-sonor": {
-      "id": "studiorack/sams-sonor/sams-sonor",
-      "license": "cc-by-sa-4.0",
+    "studiorack/war-tuba/war-tuba": {
+      "id": "studiorack/war-tuba/war-tuba",
+      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
           "tags": [
             "Instrument",
-            "Drums",
-            "Kit",
+            "Brass",
+            "Tuba",
             "sfz"
           ],
           "version": "1.0.0",
-          "id": "sams-sonor",
-          "date": "2021-08-21T07:00:00.000Z",
+          "id": "war-tuba",
+          "date": "2021-09-03T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120
+              "name": "war-tuba.flac",
+              "size": 88482
             },
             "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836
+              "name": "war-tuba.jpg",
+              "size": 69063
             },
             "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "war-tuba.zip",
+              "size": 35601312
             },
             "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "war-tuba.zip",
+              "size": 35601312
             },
             "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "war-tuba.zip",
+              "size": 35601312
             }
           },
           "release": "v1.0.0",
           "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
-            "same": true
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
           },
-          "repo": "studiorack/sams-sonor"
+          "repo": "studiorack/war-tuba"
         }
       }
     },
@@ -969,58 +1021,6 @@
             "same": false
           },
           "repo": "studiorack/horse-pulse"
-        }
-      }
-    },
-    "studiorack/war-tuba/war-tuba": {
-      "id": "studiorack/war-tuba/war-tuba",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Tuba",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "war-tuba",
-          "date": "2021-09-03T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482
-            },
-            "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063
-            },
-            "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312
-            },
-            "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312
-            },
-            "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/war-tuba"
         }
       }
     },
