@@ -7967,6 +7967,57 @@
         }
       }
     },
+    "studiorack/andes/andes": {
+      "id": "studiorack/andes/andes",
+      "license": "gpl-3.0",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "version": "0.2.0",
+          "id": "andes",
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.flac",
+              "size": 12493
+            },
+            "image": {
+              "name": "andes.jpg",
+              "size": 27379
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "release": "v0.2.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/andes"
+        }
+      }
+    },
     "studiorack/adlplug/adlplug": {
       "id": "studiorack/adlplug/adlplug",
       "license": "bsl-1.0",
@@ -8066,108 +8117,6 @@
             "same": false
           },
           "repo": "studiorack/adlplug"
-        }
-      }
-    },
-    "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "0.2.0",
-          "id": "andes",
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.flac",
-              "size": 12493
-            },
-            "image": {
-              "name": "andes.jpg",
-              "size": 27379
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "release": "v0.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/andes"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.flac",
-              "size": 66799
-            },
-            "image": {
-              "name": "oxe.jpg",
-              "size": 91580
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/oxe"
         }
       }
     },
@@ -8273,157 +8222,209 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
       "license": "gpl-3.0",
-      "version": "3.2.5",
+      "version": "1.3.5",
       "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
           "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
+            "Instrument",
+            "Synth",
+            "FM"
           ],
-          "version": "3.2.5",
-          "id": "dragonfly-reverb",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.flac",
-              "size": 82471
+              "name": "oxe.flac",
+              "size": 66799
             },
             "image": {
-              "name": "dragonfly-reverb.jpg",
-              "size": 119902
+              "name": "oxe.jpg",
+              "size": 91580
             },
             "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6921808
+              "name": "oxe-linux.zip",
+              "size": 411823
             },
             "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4542730
+              "name": "oxe-mac.zip",
+              "size": 188225
             },
             "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9359636
+              "name": "oxe-win.zip",
+              "size": 232072
             }
           },
-          "release": "v3.2.5",
+          "release": "v1.3.5",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/dragonfly-reverb"
+          "repo": "studiorack/oxe"
         }
       }
     },
-    "studiorack/diopser/diopser": {
-      "id": "studiorack/diopser/diopser",
-      "license": "gpl-3.0",
-      "version": "0.0.1",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
           ],
-          "version": "0.0.1",
-          "id": "diopser",
-          "date": "2021-11-14T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "diopser.flac",
-              "size": 77049
+              "name": "ep-mk1.flac",
+              "size": 50454
             },
             "image": {
-              "name": "diopser.jpg",
-              "size": 43851
+              "name": "ep-mk1.jpg",
+              "size": 97173
             },
             "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1767254
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "diopser-win.zip",
-              "size": 2017988
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v0.0.1",
+          "release": "v2.4.0",
           "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause 'New' or 'Revised' License",
+            "url": "https://choosealicense.com/licenses/bsd-3-clause",
+            "same": false
           },
-          "repo": "studiorack/diopser"
+          "repo": "studiorack/ep-mk1"
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
+    "studiorack/naked-drums/naked-drums": {
+      "id": "studiorack/naked-drums/naked-drums",
+      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
           "tags": [
             "Instrument",
-            "Keys",
-            "Piano",
+            "Drums",
             "sfz"
           ],
           "version": "1.0.0",
-          "id": "splendid-grand-piano",
-          "date": "2022-01-02T07:00:00.000Z",
+          "id": "naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
+              "name": "naked-drums.flac",
+              "size": 553525
             },
             "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
+              "name": "naked-drums.jpg",
+              "size": 24452
             },
             "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "naked-drums.zip",
+              "size": 1283342538
             },
             "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "naked-drums.zip",
+              "size": 1283342538
             },
             "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "naked-drums.zip",
+              "size": 1283342538
             }
           },
           "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/naked-drums"
+        }
+      }
+    },
+    "studiorack/avl-percussions/avl-percussions": {
+      "id": "studiorack/avl-percussions/avl-percussions",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-percussions",
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            }
+          },
+          "release": "v1.1.0",
           "license": {
             "key": "other",
             "name": "Other",
             "url": "https://choosealicense.com",
             "same": true
           },
-          "repo": "studiorack/splendid-grand-piano"
+          "repo": "studiorack/avl-percussions"
         }
       }
     },
@@ -8581,158 +8582,310 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "id": "studiorack/dragonfly-reverb/dragonfly-reverb",
+      "license": "gpl-3.0",
+      "version": "3.2.5",
       "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
+            "Effect",
+            "Reverb",
+            "Plate"
           ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
+          "version": "3.2.5",
+          "id": "dragonfly-reverb",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "ep-mk1.flac",
-              "size": 50454
+              "name": "dragonfly-reverb.flac",
+              "size": 82471
             },
             "image": {
-              "name": "ep-mk1.jpg",
-              "size": 97173
+              "name": "dragonfly-reverb.jpg",
+              "size": 119902
             },
             "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6921808
             },
             "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4542730
             },
             "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9359636
             }
           },
-          "release": "v2.4.0",
+          "release": "v3.2.5",
           "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause 'New' or 'Revised' License",
-            "url": "https://choosealicense.com/licenses/bsd-3-clause",
-            "same": false
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
           },
-          "repo": "studiorack/ep-mk1"
+          "repo": "studiorack/dragonfly-reverb"
         }
       }
     },
-    "studiorack/naked-drums/naked-drums": {
-      "id": "studiorack/naked-drums/naked-drums",
-      "license": "cc-by-4.0",
+    "studiorack/diopser/diopser": {
+      "id": "studiorack/diopser/diopser",
+      "license": "gpl-3.0",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
+          "tags": [
+            "Effect",
+            "Phaser",
+            "Frequency"
+          ],
+          "version": "0.0.1",
+          "id": "diopser",
+          "date": "2021-11-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "diopser.flac",
+              "size": 77049
+            },
+            "image": {
+              "name": "diopser.jpg",
+              "size": 43851
+            },
+            "linux": {
+              "name": "diopser-linux.zip",
+              "size": 1767254
+            },
+            "mac": {
+              "name": "diopser-mac.zip",
+              "size": 1894438
+            },
+            "win": {
+              "name": "diopser-win.zip",
+              "size": 2017988
+            }
+          },
+          "release": "v0.0.1",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/diopser"
+        }
+      }
+    },
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
+      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
           "tags": [
             "Instrument",
-            "Drums",
+            "Keys",
+            "Piano",
             "sfz"
           ],
           "version": "1.0.0",
-          "id": "naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
+          "id": "splendid-grand-piano",
+          "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
             },
             "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
             },
             "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             }
           },
           "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/naked-drums"
-        }
-      }
-    },
-    "studiorack/avl-percussions/avl-percussions": {
-      "id": "studiorack/avl-percussions/avl-percussions",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-percussions",
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            }
-          },
-          "release": "v1.1.0",
           "license": {
             "key": "other",
             "name": "Other",
             "url": "https://choosealicense.com",
             "same": true
           },
-          "repo": "studiorack/avl-percussions"
+          "repo": "studiorack/splendid-grand-piano"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "url": "https://choosealicense.com/licenses/apache-2.0",
+            "same": false
+          },
+          "repo": "studiorack/smartguitaramp"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/mverb"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "id": "studiorack/sams-sonor/sams-sonor",
+      "license": "cc-by-sa-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "sams-sonor",
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-sa-4.0",
+            "name": "Creative Commons Attribution Share Alike 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
+            "same": true
+          },
+          "repo": "studiorack/sams-sonor"
         }
       }
     },
@@ -8937,159 +9090,6 @@
             "same": true
           },
           "repo": "studiorack/juicysf"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0",
-          "license": {
-            "key": "apache-2.0",
-            "name": "Apache License 2.0",
-            "url": "https://choosealicense.com/licenses/apache-2.0",
-            "same": false
-          },
-          "repo": "studiorack/smartguitaramp"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/mverb"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "id": "studiorack/sams-sonor/sams-sonor",
-      "license": "cc-by-sa-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "sams-sonor",
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
-            "same": true
-          },
-          "repo": "studiorack/sams-sonor"
         }
       }
     },
@@ -9761,6 +9761,264 @@
         }
       }
     },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "url": "https://choosealicense.com/licenses/mit",
+            "same": false
+          },
+          "repo": "studiorack/ampli-fe"
+        }
+      }
+    },
+    "studiorack/carla/carla": {
+      "id": "studiorack/carla/carla",
+      "license": "other",
+      "version": "2.4.2",
+      "versions": {
+        "2.4.2": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/falkTX/Carla",
+          "name": "Carla",
+          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
+          "tags": [
+            "Instrument",
+            "Host",
+            "Player"
+          ],
+          "version": "2.4.2",
+          "id": "carla",
+          "date": "2022-02-19T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "carla.flac",
+              "size": 330759
+            },
+            "image": {
+              "name": "carla.jpg",
+              "size": 252192
+            },
+            "linux": {
+              "name": "carla-linux.zip",
+              "size": 160951738
+            },
+            "mac": {
+              "name": "carla-mac.zip",
+              "size": 312938720
+            },
+            "win": {
+              "name": "carla-win.zip",
+              "size": 196435153
+            }
+          },
+          "release": "v2.4.2",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/carla"
+        }
+      }
+    },
+    "studiorack/bear-sax/bear-sax": {
+      "id": "studiorack/bear-sax/bear-sax",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+          "name": "Bear Sax",
+          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Saxophone",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "bear-sax",
+          "date": "2021-09-11T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "bear-sax.flac",
+              "size": 86918
+            },
+            "image": {
+              "name": "bear-sax.jpg",
+              "size": 85425
+            },
+            "linux": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "mac": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "win": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/bear-sax"
+        }
+      }
+    },
+    "studiorack/double-bass/double-bass": {
+      "id": "studiorack/double-bass/double-bass",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/dsmolken.double-bass",
+          "name": "Double Bass",
+          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+          "tags": [
+            "Instrument",
+            "String",
+            "Bass",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "double-bass",
+          "date": "2021-10-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "double-bass.flac",
+              "size": 77117
+            },
+            "image": {
+              "name": "double-bass.jpg",
+              "size": 45157
+            },
+            "linux": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "mac": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "win": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/double-bass"
+        }
+      }
+    },
+    "studiorack/hungarian-zither/hungarian-zither": {
+      "id": "studiorack/hungarian-zither/hungarian-zither",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
+          "name": "Hungarian Zither",
+          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+          "tags": [
+            "Instrument",
+            "Strings",
+            "Classical",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "hungarian-zither",
+          "date": "2022-09-13T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "hungarian-zither.flac",
+              "size": 172274
+            },
+            "image": {
+              "name": "hungarian-zither.jpg",
+              "size": 88693
+            },
+            "linux": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "mac": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "win": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "studiorack/hungarian-zither"
+        }
+      }
+    },
     "studiorack/surge/surge": {
       "id": "studiorack/surge/surge",
       "license": "gpl-3.0",
@@ -10265,264 +10523,6 @@
             "same": true
           },
           "repo": "studiorack/distrho-ports"
-        }
-      }
-    },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
-          ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405
-            },
-            "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141
-            },
-            "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
-            },
-            "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
-            },
-            "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
-            }
-          },
-          "release": "v0.1.0",
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "url": "https://choosealicense.com/licenses/mit",
-            "same": false
-          },
-          "repo": "studiorack/ampli-fe"
-        }
-      }
-    },
-    "studiorack/carla/carla": {
-      "id": "studiorack/carla/carla",
-      "license": "other",
-      "version": "2.4.2",
-      "versions": {
-        "2.4.2": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/falkTX/Carla",
-          "name": "Carla",
-          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
-          "tags": [
-            "Instrument",
-            "Host",
-            "Player"
-          ],
-          "version": "2.4.2",
-          "id": "carla",
-          "date": "2022-02-19T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "carla.flac",
-              "size": 330759
-            },
-            "image": {
-              "name": "carla.jpg",
-              "size": 252192
-            },
-            "linux": {
-              "name": "carla-linux.zip",
-              "size": 160951738
-            },
-            "mac": {
-              "name": "carla-mac.zip",
-              "size": 312938720
-            },
-            "win": {
-              "name": "carla-win.zip",
-              "size": 196435153
-            }
-          },
-          "release": "v2.4.2",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/carla"
-        }
-      }
-    },
-    "studiorack/bear-sax/bear-sax": {
-      "id": "studiorack/bear-sax/bear-sax",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
-          "name": "Bear Sax",
-          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Saxophone",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "bear-sax",
-          "date": "2021-09-11T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "bear-sax.flac",
-              "size": 86918
-            },
-            "image": {
-              "name": "bear-sax.jpg",
-              "size": 85425
-            },
-            "linux": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            },
-            "mac": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            },
-            "win": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/bear-sax"
-        }
-      }
-    },
-    "studiorack/double-bass/double-bass": {
-      "id": "studiorack/double-bass/double-bass",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/dsmolken.double-bass",
-          "name": "Double Bass",
-          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
-          "tags": [
-            "Instrument",
-            "String",
-            "Bass",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "double-bass",
-          "date": "2021-10-07T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "double-bass.flac",
-              "size": 77117
-            },
-            "image": {
-              "name": "double-bass.jpg",
-              "size": 45157
-            },
-            "linux": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            },
-            "mac": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            },
-            "win": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/double-bass"
-        }
-      }
-    },
-    "studiorack/hungarian-zither/hungarian-zither": {
-      "id": "studiorack/hungarian-zither/hungarian-zither",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
-          "name": "Hungarian Zither",
-          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
-          "tags": [
-            "Instrument",
-            "Strings",
-            "Classical",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "hungarian-zither",
-          "date": "2022-09-13T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "hungarian-zither.flac",
-              "size": 172274
-            },
-            "image": {
-              "name": "hungarian-zither.jpg",
-              "size": 88693
-            },
-            "linux": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "mac": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "win": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/hungarian-zither"
         }
       }
     },
