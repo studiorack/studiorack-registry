@@ -7619,57 +7619,6 @@
         }
       }
     },
-    "studiorack/argotlunar/argotlunar": {
-      "id": "studiorack/argotlunar/argotlunar",
-      "license": "gpl-2.0",
-      "version": "2.0.6",
-      "versions": {
-        "2.0.6": {
-          "author": "Michael Ourednik",
-          "homepage": "https://mourednik.github.io/argotlunar/",
-          "name": "Argotlunar",
-          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Envelope"
-          ],
-          "version": "2.0.6",
-          "id": "argotlunar",
-          "date": "2013-02-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "argotlunar.flac",
-              "size": 76050
-            },
-            "image": {
-              "name": "argotlunar.jpg",
-              "size": 36536
-            },
-            "linux": {
-              "name": "argotlunar-linux.zip",
-              "size": 1870819
-            },
-            "mac": {
-              "name": "argotlunar-mac.zip",
-              "size": 3235381
-            },
-            "win": {
-              "name": "argotlunar-win.zip",
-              "size": 1037064
-            }
-          },
-          "release": "v2.0.6",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/argotlunar"
-        }
-      }
-    },
     "freepats/hang-d-minor/hang-d-minor": {
       "id": "freepats/hang-d-minor/hang-d-minor",
       "license": "cc0-1.0",
@@ -7771,6 +7720,57 @@
             "same": false
           },
           "repo": "studiorack/black-and-green-guitars"
+        }
+      }
+    },
+    "studiorack/argotlunar/argotlunar": {
+      "id": "studiorack/argotlunar/argotlunar",
+      "license": "gpl-2.0",
+      "version": "2.0.6",
+      "versions": {
+        "2.0.6": {
+          "author": "Michael Ourednik",
+          "homepage": "https://mourednik.github.io/argotlunar/",
+          "name": "Argotlunar",
+          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Envelope"
+          ],
+          "version": "2.0.6",
+          "id": "argotlunar",
+          "date": "2013-02-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "argotlunar.flac",
+              "size": 76050
+            },
+            "image": {
+              "name": "argotlunar.jpg",
+              "size": 36536
+            },
+            "linux": {
+              "name": "argotlunar-linux.zip",
+              "size": 1870819
+            },
+            "mac": {
+              "name": "argotlunar-mac.zip",
+              "size": 3235381
+            },
+            "win": {
+              "name": "argotlunar-win.zip",
+              "size": 1037064
+            }
+          },
+          "release": "v2.0.6",
+          "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
+            "same": true
+          },
+          "repo": "studiorack/argotlunar"
         }
       }
     },
@@ -8120,6 +8120,57 @@
         }
       }
     },
+    "studiorack/oxe/oxe": {
+      "id": "studiorack/oxe/oxe",
+      "license": "gpl-3.0",
+      "version": "1.3.5",
+      "versions": {
+        "1.3.5": {
+          "author": "Oxe Software",
+          "homepage": "https://github.com/oxesoft/oxefmsynth",
+          "name": "Oxe",
+          "description": "8 operator frequency modulation synthesizer.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "1.3.5",
+          "id": "oxe",
+          "date": "2016-04-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "oxe.flac",
+              "size": 66799
+            },
+            "image": {
+              "name": "oxe.jpg",
+              "size": 91580
+            },
+            "linux": {
+              "name": "oxe-linux.zip",
+              "size": 411823
+            },
+            "mac": {
+              "name": "oxe-mac.zip",
+              "size": 188225
+            },
+            "win": {
+              "name": "oxe-win.zip",
+              "size": 232072
+            }
+          },
+          "release": "v1.3.5",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/oxe"
+        }
+      }
+    },
     "studiorack/tunefish/tunefish": {
       "id": "studiorack/tunefish/tunefish",
       "license": "gpl-3.0",
@@ -8219,212 +8270,6 @@
             "same": false
           },
           "repo": "studiorack/kars"
-        }
-      }
-    },
-    "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
-      "version": "1.3.5",
-      "versions": {
-        "1.3.5": {
-          "author": "Oxe Software",
-          "homepage": "https://github.com/oxesoft/oxefmsynth",
-          "name": "Oxe",
-          "description": "8 operator frequency modulation synthesizer.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "version": "1.3.5",
-          "id": "oxe",
-          "date": "2016-04-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "oxe.flac",
-              "size": 66799
-            },
-            "image": {
-              "name": "oxe.jpg",
-              "size": 91580
-            },
-            "linux": {
-              "name": "oxe-linux.zip",
-              "size": 411823
-            },
-            "mac": {
-              "name": "oxe-mac.zip",
-              "size": 188225
-            },
-            "win": {
-              "name": "oxe-win.zip",
-              "size": 232072
-            }
-          },
-          "release": "v1.3.5",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/oxe"
-        }
-      }
-    },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.flac",
-              "size": 50454
-            },
-            "image": {
-              "name": "ep-mk1.jpg",
-              "size": 97173
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0",
-          "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause 'New' or 'Revised' License",
-            "url": "https://choosealicense.com/licenses/bsd-3-clause",
-            "same": false
-          },
-          "repo": "studiorack/ep-mk1"
-        }
-      }
-    },
-    "studiorack/naked-drums/naked-drums": {
-      "id": "studiorack/naked-drums/naked-drums",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452
-            },
-            "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            },
-            "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            },
-            "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/naked-drums"
-        }
-      }
-    },
-    "studiorack/avl-percussions/avl-percussions": {
-      "id": "studiorack/avl-percussions/avl-percussions",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-percussions",
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            }
-          },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-percussions"
         }
       }
     },
@@ -8736,156 +8581,158 @@
         }
       }
     },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
       "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
           "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
           ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
+              "name": "ep-mk1.flac",
+              "size": 50454
             },
             "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
+              "name": "ep-mk1.jpg",
+              "size": 97173
             },
             "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
             },
             "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
             },
             "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
             }
           },
-          "release": "v1.2.0",
+          "release": "v2.4.0",
           "license": {
-            "key": "apache-2.0",
-            "name": "Apache License 2.0",
-            "url": "https://choosealicense.com/licenses/apache-2.0",
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause 'New' or 'Revised' License",
+            "url": "https://choosealicense.com/licenses/bsd-3-clause",
             "same": false
           },
-          "repo": "studiorack/smartguitaramp"
+          "repo": "studiorack/ep-mk1"
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
-      "license": "gpl-3.0",
+    "studiorack/naked-drums/naked-drums": {
+      "id": "studiorack/naked-drums/naked-drums",
+      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/mverb"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "id": "studiorack/sams-sonor/sams-sonor",
-      "license": "cc-by-sa-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
           "tags": [
             "Instrument",
             "Drums",
-            "Kit",
             "sfz"
           ],
           "version": "1.0.0",
-          "id": "sams-sonor",
-          "date": "2021-08-21T07:00:00.000Z",
+          "id": "naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120
+              "name": "naked-drums.flac",
+              "size": 553525
             },
             "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836
+              "name": "naked-drums.jpg",
+              "size": 24452
             },
             "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "naked-drums.zip",
+              "size": 1283342538
             },
             "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "naked-drums.zip",
+              "size": 1283342538
             },
             "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "naked-drums.zip",
+              "size": 1283342538
             }
           },
           "release": "v1.0.0",
           "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/naked-drums"
+        }
+      }
+    },
+    "studiorack/avl-percussions/avl-percussions": {
+      "id": "studiorack/avl-percussions/avl-percussions",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-percussions",
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            }
+          },
+          "release": "v1.1.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
             "same": true
           },
-          "repo": "studiorack/sams-sonor"
+          "repo": "studiorack/avl-percussions"
         }
       }
     },
@@ -9093,6 +8940,159 @@
         }
       }
     },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "release": "v1.2.0",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "url": "https://choosealicense.com/licenses/apache-2.0",
+            "same": false
+          },
+          "repo": "studiorack/smartguitaramp"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "version": "1.0.0",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/mverb"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "id": "studiorack/sams-sonor/sams-sonor",
+      "license": "cc-by-sa-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "sams-sonor",
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-sa-4.0",
+            "name": "Creative Commons Attribution Share Alike 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
+            "same": true
+          },
+          "repo": "studiorack/sams-sonor"
+        }
+      }
+    },
     "studiorack/vst2413/vst2413": {
       "id": "studiorack/vst2413/vst2413",
       "license": "other",
@@ -9248,108 +9248,6 @@
         }
       }
     },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.flac",
-              "size": 66240
-            },
-            "image": {
-              "name": "modeq.jpg",
-              "size": 75899
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7097654
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3222514
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3677919
-            }
-          },
-          "release": "v0.4.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/modeq"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3",
-          "license": {
-            "key": "agpl-3.0",
-            "name": "GNU Affero General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/agpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/octasine"
-        }
-      }
-    },
     "studiorack/dexed/dexed": {
       "id": "studiorack/dexed/dexed",
       "license": "gpl-3.0",
@@ -9501,6 +9399,108 @@
             "same": false
           },
           "repo": "studiorack/horse-pulse"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919
+            }
+          },
+          "release": "v0.4.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/modeq"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "license": {
+            "key": "agpl-3.0",
+            "name": "GNU Affero General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/agpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/octasine"
         }
       }
     },
