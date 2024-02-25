@@ -8283,57 +8283,6 @@
         }
       }
     },
-    "studiorack/argotlunar/argotlunar": {
-      "id": "studiorack/argotlunar/argotlunar",
-      "license": "gpl-2.0",
-      "version": "2.0.6",
-      "versions": {
-        "2.0.6": {
-          "author": "Michael Ourednik",
-          "homepage": "https://mourednik.github.io/argotlunar/",
-          "name": "Argotlunar",
-          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Envelope"
-          ],
-          "version": "2.0.6",
-          "id": "argotlunar",
-          "date": "2013-02-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "argotlunar.flac",
-              "size": 76050
-            },
-            "image": {
-              "name": "argotlunar.jpg",
-              "size": 36536
-            },
-            "linux": {
-              "name": "argotlunar-linux.zip",
-              "size": 1870819
-            },
-            "mac": {
-              "name": "argotlunar-mac.zip",
-              "size": 3235381
-            },
-            "win": {
-              "name": "argotlunar-win.zip",
-              "size": 1037064
-            }
-          },
-          "release": "v2.0.6",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/argotlunar"
-        }
-      }
-    },
     "freepats/synthesizer-percussion/synthesizer-percussion": {
       "id": "freepats/synthesizer-percussion/synthesizer-percussion",
       "license": "cc0-1.0",
@@ -8383,6 +8332,57 @@
             "same": false
           },
           "repo": "freepats/synthesizer-percussion"
+        }
+      }
+    },
+    "studiorack/argotlunar/argotlunar": {
+      "id": "studiorack/argotlunar/argotlunar",
+      "license": "gpl-2.0",
+      "version": "2.0.6",
+      "versions": {
+        "2.0.6": {
+          "author": "Michael Ourednik",
+          "homepage": "https://mourednik.github.io/argotlunar/",
+          "name": "Argotlunar",
+          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Envelope"
+          ],
+          "version": "2.0.6",
+          "id": "argotlunar",
+          "date": "2013-02-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "argotlunar.flac",
+              "size": 76050
+            },
+            "image": {
+              "name": "argotlunar.jpg",
+              "size": 36536
+            },
+            "linux": {
+              "name": "argotlunar-linux.zip",
+              "size": 1870819
+            },
+            "mac": {
+              "name": "argotlunar-mac.zip",
+              "size": 3235381
+            },
+            "win": {
+              "name": "argotlunar-win.zip",
+              "size": 1037064
+            }
+          },
+          "release": "v2.0.6",
+          "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
+            "same": true
+          },
+          "repo": "studiorack/argotlunar"
         }
       }
     },
@@ -8936,161 +8936,6 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.flac",
-              "size": 50454
-            },
-            "image": {
-              "name": "ep-mk1.jpg",
-              "size": 97173
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700
-            }
-          },
-          "release": "v2.4.0",
-          "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause 'New' or 'Revised' License",
-            "url": "https://choosealicense.com/licenses/bsd-3-clause",
-            "same": false
-          },
-          "repo": "studiorack/ep-mk1"
-        }
-      }
-    },
-    "studiorack/naked-drums/naked-drums": {
-      "id": "studiorack/naked-drums/naked-drums",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "naked-drums",
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452
-            },
-            "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            },
-            "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            },
-            "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/naked-drums"
-        }
-      }
-    },
-    "studiorack/avl-percussions/avl-percussions": {
-      "id": "studiorack/avl-percussions/avl-percussions",
-      "license": "other",
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "version": "1.1.0",
-          "id": "avl-percussions",
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506
-            }
-          },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-percussions"
-        }
-      }
-    },
     "studiorack/wolf-shaper/wolf-shaper": {
       "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
@@ -9396,6 +9241,161 @@
             "same": true
           },
           "repo": "studiorack/splendid-grand-piano"
+        }
+      }
+    },
+    "studiorack/ep-mk1/ep-mk1": {
+      "id": "studiorack/ep-mk1/ep-mk1",
+      "license": "bsd-3-clause",
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "version": "2.4.0",
+          "id": "ep-mk1",
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.flac",
+              "size": 50454
+            },
+            "image": {
+              "name": "ep-mk1.jpg",
+              "size": 97173
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700
+            }
+          },
+          "release": "v2.4.0",
+          "license": {
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause 'New' or 'Revised' License",
+            "url": "https://choosealicense.com/licenses/bsd-3-clause",
+            "same": false
+          },
+          "repo": "studiorack/ep-mk1"
+        }
+      }
+    },
+    "studiorack/naked-drums/naked-drums": {
+      "id": "studiorack/naked-drums/naked-drums",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "naked-drums",
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "naked-drums.flac",
+              "size": 553525
+            },
+            "image": {
+              "name": "naked-drums.jpg",
+              "size": 24452
+            },
+            "linux": {
+              "name": "naked-drums.zip",
+              "size": 1283342538
+            },
+            "mac": {
+              "name": "naked-drums.zip",
+              "size": 1283342538
+            },
+            "win": {
+              "name": "naked-drums.zip",
+              "size": 1283342538
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/naked-drums"
+        }
+      }
+    },
+    "studiorack/avl-percussions/avl-percussions": {
+      "id": "studiorack/avl-percussions/avl-percussions",
+      "license": "other",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "version": "1.1.0",
+          "id": "avl-percussions",
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506
+            }
+          },
+          "release": "v1.1.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/avl-percussions"
         }
       }
     },
@@ -9910,108 +9910,6 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "version": "0.5.3",
-          "id": "octasine",
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934
-            }
-          },
-          "release": "v0.5.3",
-          "license": {
-            "key": "agpl-3.0",
-            "name": "GNU Affero General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/agpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/octasine"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.flac",
-              "size": 66240
-            },
-            "image": {
-              "name": "modeq.jpg",
-              "size": 75899
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7097654
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3222514
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3677919
-            }
-          },
-          "release": "v0.4.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/modeq"
-        }
-      }
-    },
     "studiorack/vst2413/vst2413": {
       "id": "studiorack/vst2413/vst2413",
       "license": "other",
@@ -10164,6 +10062,108 @@
             "same": false
           },
           "repo": "studiorack/jsteeldrum"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "id": "studiorack/octasine/octasine",
+      "license": "agpl-3.0",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "version": "0.5.3",
+          "id": "octasine",
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934
+            }
+          },
+          "release": "v0.5.3",
+          "license": {
+            "key": "agpl-3.0",
+            "name": "GNU Affero General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/agpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/octasine"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919
+            }
+          },
+          "release": "v0.4.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/modeq"
         }
       }
     },
