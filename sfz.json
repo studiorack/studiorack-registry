@@ -208,6 +208,58 @@
         }
       }
     },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "synthesizer-percussion",
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "freepats/synthesizer-percussion"
+        }
+      }
+    },
     "freepats/hang-d-minor/hang-d-minor": {
       "id": "freepats/hang-d-minor/hang-d-minor",
       "license": "cc0-1.0",
@@ -309,58 +361,6 @@
             "same": false
           },
           "repo": "studiorack/black-and-green-guitars"
-        }
-      }
-    },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/synthesizer-percussion"
         }
       }
     },
@@ -557,58 +557,6 @@
         }
       }
     },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/jrhodes-3c"
-        }
-      }
-    },
     "studiorack/naked-drums/naked-drums": {
       "id": "studiorack/naked-drums/naked-drums",
       "license": "cc-by-4.0",
@@ -764,6 +712,58 @@
         }
       }
     },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "id": "studiorack/jrhodes-3c/jrhodes-3c",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "jrhodes-3c",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jrhodes-3c.flac",
+              "size": 64422
+            },
+            "image": {
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
+            },
+            "linux": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "mac": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "win": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/jrhodes-3c"
+        }
+      }
+    },
     "studiorack/sams-sonor/sams-sonor": {
       "id": "studiorack/sams-sonor/sams-sonor",
       "license": "cc-by-sa-4.0",
@@ -813,58 +813,6 @@
             "same": true
           },
           "repo": "studiorack/sams-sonor"
-        }
-      }
-    },
-    "studiorack/horse-pulse/horse-pulse": {
-      "id": "studiorack/horse-pulse/horse-pulse",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
-          "name": "Horse Pulse",
-          "description": "Bass Tagelharpa played pizzicato",
-          "tags": [
-            "Instrument",
-            "String",
-            "Pluck",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "horse-pulse",
-          "date": "2022-03-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "horse-pulse.flac",
-              "size": 58263
-            },
-            "image": {
-              "name": "horse-pulse.jpg",
-              "size": 92078
-            },
-            "linux": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
-            },
-            "mac": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
-            },
-            "win": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/horse-pulse"
         }
       }
     },
@@ -969,6 +917,58 @@
             "same": false
           },
           "repo": "studiorack/jsteeldrum"
+        }
+      }
+    },
+    "studiorack/horse-pulse/horse-pulse": {
+      "id": "studiorack/horse-pulse/horse-pulse",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+          "name": "Horse Pulse",
+          "description": "Bass Tagelharpa played pizzicato",
+          "tags": [
+            "Instrument",
+            "String",
+            "Pluck",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "horse-pulse",
+          "date": "2022-03-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "horse-pulse.flac",
+              "size": 58263
+            },
+            "image": {
+              "name": "horse-pulse.jpg",
+              "size": 92078
+            },
+            "linux": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            },
+            "mac": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            },
+            "win": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "studiorack/horse-pulse"
         }
       }
     },

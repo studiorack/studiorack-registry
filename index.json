@@ -8179,6 +8179,109 @@
         }
       }
     },
+    "studiorack/argotlunar/argotlunar": {
+      "id": "studiorack/argotlunar/argotlunar",
+      "license": "gpl-2.0",
+      "version": "2.0.6",
+      "versions": {
+        "2.0.6": {
+          "author": "Michael Ourednik",
+          "homepage": "https://mourednik.github.io/argotlunar/",
+          "name": "Argotlunar",
+          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Envelope"
+          ],
+          "version": "2.0.6",
+          "id": "argotlunar",
+          "date": "2013-02-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "argotlunar.flac",
+              "size": 76050
+            },
+            "image": {
+              "name": "argotlunar.jpg",
+              "size": 36536
+            },
+            "linux": {
+              "name": "argotlunar-linux.zip",
+              "size": 1870819
+            },
+            "mac": {
+              "name": "argotlunar-mac.zip",
+              "size": 3235381
+            },
+            "win": {
+              "name": "argotlunar-win.zip",
+              "size": 1037064
+            }
+          },
+          "release": "v2.0.6",
+          "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
+            "same": true
+          },
+          "repo": "studiorack/argotlunar"
+        }
+      }
+    },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "synthesizer-percussion",
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "freepats/synthesizer-percussion"
+        }
+      }
+    },
     "freepats/hang-d-minor/hang-d-minor": {
       "id": "freepats/hang-d-minor/hang-d-minor",
       "license": "cc0-1.0",
@@ -8280,109 +8383,6 @@
             "same": false
           },
           "repo": "studiorack/black-and-green-guitars"
-        }
-      }
-    },
-    "studiorack/argotlunar/argotlunar": {
-      "id": "studiorack/argotlunar/argotlunar",
-      "license": "gpl-2.0",
-      "version": "2.0.6",
-      "versions": {
-        "2.0.6": {
-          "author": "Michael Ourednik",
-          "homepage": "https://mourednik.github.io/argotlunar/",
-          "name": "Argotlunar",
-          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Envelope"
-          ],
-          "version": "2.0.6",
-          "id": "argotlunar",
-          "date": "2013-02-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "argotlunar.flac",
-              "size": 76050
-            },
-            "image": {
-              "name": "argotlunar.jpg",
-              "size": 36536
-            },
-            "linux": {
-              "name": "argotlunar-linux.zip",
-              "size": 1870819
-            },
-            "mac": {
-              "name": "argotlunar-mac.zip",
-              "size": 3235381
-            },
-            "win": {
-              "name": "argotlunar-win.zip",
-              "size": 1037064
-            }
-          },
-          "release": "v2.0.6",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/argotlunar"
-        }
-      }
-    },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/synthesizer-percussion"
         }
       }
     },
@@ -8936,160 +8936,6 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "id": "studiorack/wolf-shaper/wolf-shaper",
-      "license": "gpl-3.0",
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "version": "0.1.8",
-          "id": "wolf-shaper",
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066
-            },
-            "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
-            }
-          },
-          "release": "v0.1.8",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/wolf-shaper"
-        }
-      }
-    },
-    "studiorack/nekobi/nekobi": {
-      "id": "studiorack/nekobi/nekobi",
-      "license": "gpl-2.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "version": "1.0.0",
-          "id": "nekobi",
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "nekobi.flac",
-              "size": 54778
-            },
-            "image": {
-              "name": "nekobi.jpg",
-              "size": 14389
-            },
-            "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 861637
-            },
-            "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 1001626
-            },
-            "win": {
-              "name": "nekobi-win.zip",
-              "size": 984470
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/nekobi"
-        }
-      }
-    },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/jrhodes-3c"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "id": "studiorack/ep-mk1/ep-mk1",
       "license": "bsd-3-clause",
@@ -9399,156 +9245,157 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "id": "studiorack/mverb/mverb",
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "id": "studiorack/wolf-shaper/wolf-shaper",
       "license": "gpl-3.0",
-      "version": "1.0.0",
+      "version": "0.1.8",
       "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
           "tags": [
             "Effect",
-            "Reverb"
+            "Distortion",
+            "Editor"
           ],
-          "version": "1.0.0",
-          "id": "mverb",
-          "date": "2013-03-25T07:00:00.000Z",
+          "version": "0.1.8",
+          "id": "wolf-shaper",
+          "date": "2020-10-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mverb.flac",
-              "size": 41738
+              "name": "wolf-shaper.flac",
+              "size": 103066
             },
             "image": {
-              "name": "mverb.jpg",
-              "size": 48422
+              "name": "wolf-shaper.jpg",
+              "size": 39286
             },
             "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
             },
             "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
             },
             "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
             }
           },
-          "release": "v1.0.0",
+          "release": "v0.1.8",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/mverb"
+          "repo": "studiorack/wolf-shaper"
         }
       }
     },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "id": "studiorack/smartguitaramp/smartguitaramp",
-      "license": "apache-2.0",
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "version": "1.2.0",
-          "id": "smartguitaramp",
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "release": "v1.2.0",
-          "license": {
-            "key": "apache-2.0",
-            "name": "Apache License 2.0",
-            "url": "https://choosealicense.com/licenses/apache-2.0",
-            "same": false
-          },
-          "repo": "studiorack/smartguitaramp"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "id": "studiorack/sams-sonor/sams-sonor",
-      "license": "cc-by-sa-4.0",
+    "studiorack/nekobi/nekobi": {
+      "id": "studiorack/nekobi/nekobi",
+      "license": "gpl-2.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
           "tags": [
             "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
+            "Synth",
+            "Oscillator"
           ],
           "version": "1.0.0",
-          "id": "sams-sonor",
-          "date": "2021-08-21T07:00:00.000Z",
+          "id": "nekobi",
+          "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120
+              "name": "nekobi.flac",
+              "size": 54778
             },
             "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836
+              "name": "nekobi.jpg",
+              "size": 14389
             },
             "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "nekobi-linux.zip",
+              "size": 861637
             },
             "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "nekobi-mac.zip",
+              "size": 1001626
             },
             "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
+              "name": "nekobi-win.zip",
+              "size": 984470
             }
           },
           "release": "v1.0.0",
           "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "url": "https://choosealicense.com/licenses/gpl-2.0",
             "same": true
           },
-          "repo": "studiorack/sams-sonor"
+          "repo": "studiorack/nekobi"
+        }
+      }
+    },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "id": "studiorack/jrhodes-3c/jrhodes-3c",
+      "license": "other",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "jrhodes-3c",
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jrhodes-3c.flac",
+              "size": 64422
+            },
+            "image": {
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
+            },
+            "linux": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "mac": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            },
+            "win": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/jrhodes-3c"
         }
       }
     },
@@ -9756,44 +9603,43 @@
         }
       }
     },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+    "studiorack/mverb/mverb": {
+      "id": "studiorack/mverb/mverb",
       "license": "gpl-3.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
           "tags": [
             "Effect",
-            "Spectrogram",
-            "Frequency"
+            "Reverb"
           ],
           "version": "1.0.0",
-          "id": "wolf-spectrum",
-          "date": "2019-04-15T07:00:00.000Z",
+          "id": "mverb",
+          "date": "2013-03-25T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-spectrum.flac",
-              "size": 103066
+              "name": "mverb.flac",
+              "size": 41738
             },
             "image": {
-              "name": "wolf-spectrum.jpg",
-              "size": 17057
+              "name": "mverb.jpg",
+              "size": 48422
             },
             "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607
+              "name": "mverb-linux.zip",
+              "size": 188933
             },
             "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633
+              "name": "mverb-mac.zip",
+              "size": 674694
             },
             "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963
+              "name": "mverb-win.zip",
+              "size": 283901
             }
           },
           "release": "v1.0.0",
@@ -9803,110 +9649,110 @@
             "url": "https://choosealicense.com/licenses/gpl-3.0",
             "same": true
           },
-          "repo": "studiorack/wolf-spectrum"
+          "repo": "studiorack/mverb"
         }
       }
     },
-    "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
-      "version": "0.9.6",
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "id": "studiorack/smartguitaramp/smartguitaramp",
+      "license": "apache-2.0",
+      "version": "1.2.0",
       "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
+            "Effect",
+            "Guitar",
+            "Amp"
           ],
-          "version": "0.9.6",
-          "id": "dexed",
-          "date": "2021-03-04T08:00:00.000Z",
+          "version": "1.2.0",
+          "id": "smartguitaramp",
+          "date": "2020-12-09T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dexed.flac",
-              "size": 51235
+              "name": "smartguitaramp.flac",
+              "size": 67467
             },
             "image": {
-              "name": "dexed.jpg",
-              "size": 282883
+              "name": "smartguitaramp.jpg",
+              "size": 105632
             },
             "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
             },
             "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
             },
             "win": {
-              "name": "dexed-win.zip",
-              "size": 2588488
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
             }
           },
-          "release": "v0.9.6",
+          "release": "v1.2.0",
           "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "url": "https://choosealicense.com/licenses/apache-2.0",
+            "same": false
           },
-          "repo": "studiorack/dexed"
+          "repo": "studiorack/smartguitaramp"
         }
       }
     },
-    "studiorack/horse-pulse/horse-pulse": {
-      "id": "studiorack/horse-pulse/horse-pulse",
-      "license": "cc0-1.0",
+    "studiorack/sams-sonor/sams-sonor": {
+      "id": "studiorack/sams-sonor/sams-sonor",
+      "license": "cc-by-sa-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
-          "name": "Horse Pulse",
-          "description": "Bass Tagelharpa played pizzicato",
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
           "tags": [
             "Instrument",
-            "String",
-            "Pluck",
+            "Drums",
+            "Kit",
             "sfz"
           ],
           "version": "1.0.0",
-          "id": "horse-pulse",
-          "date": "2022-03-31T07:00:00.000Z",
+          "id": "sams-sonor",
+          "date": "2021-08-21T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "horse-pulse.flac",
-              "size": 58263
+              "name": "sams-sonor.flac",
+              "size": 207120
             },
             "image": {
-              "name": "horse-pulse.jpg",
-              "size": 92078
+              "name": "sams-sonor.jpg",
+              "size": 239836
             },
             "linux": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
+              "name": "sams-sonor.zip",
+              "size": 36642874
             },
             "mac": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
+              "name": "sams-sonor.zip",
+              "size": 36642874
             },
             "win": {
-              "name": "horse-pulse.zip",
-              "size": 74462529
+              "name": "sams-sonor.zip",
+              "size": 36642874
             }
           },
           "release": "v1.0.0",
           "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
+            "key": "cc-by-sa-4.0",
+            "name": "Creative Commons Attribution Share Alike 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
+            "same": true
           },
-          "repo": "studiorack/horse-pulse"
+          "repo": "studiorack/sams-sonor"
         }
       }
     },
@@ -10167,6 +10013,160 @@
         }
       }
     },
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "id": "studiorack/wolf-spectrum/wolf-spectrum",
+      "license": "gpl-3.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Effect",
+            "Spectrogram",
+            "Frequency"
+          ],
+          "version": "1.0.0",
+          "id": "wolf-spectrum",
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-spectrum.flac",
+              "size": 103066
+            },
+            "image": {
+              "name": "wolf-spectrum.jpg",
+              "size": 17057
+            },
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/wolf-spectrum"
+        }
+      }
+    },
+    "studiorack/dexed/dexed": {
+      "id": "studiorack/dexed/dexed",
+      "license": "gpl-3.0",
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "version": "0.9.6",
+          "id": "dexed",
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.flac",
+              "size": 51235
+            },
+            "image": {
+              "name": "dexed.jpg",
+              "size": 282883
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576
+            },
+            "win": {
+              "name": "dexed-win.zip",
+              "size": 2588488
+            }
+          },
+          "release": "v0.9.6",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/dexed"
+        }
+      }
+    },
+    "studiorack/horse-pulse/horse-pulse": {
+      "id": "studiorack/horse-pulse/horse-pulse",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+          "name": "Horse Pulse",
+          "description": "Bass Tagelharpa played pizzicato",
+          "tags": [
+            "Instrument",
+            "String",
+            "Pluck",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "horse-pulse",
+          "date": "2022-03-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "horse-pulse.flac",
+              "size": 58263
+            },
+            "image": {
+              "name": "horse-pulse.jpg",
+              "size": 92078
+            },
+            "linux": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            },
+            "mac": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            },
+            "win": {
+              "name": "horse-pulse.zip",
+              "size": 74462529
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "studiorack/horse-pulse"
+        }
+      }
+    },
     "studiorack/chow-tape-model/chow-tape-model": {
       "id": "studiorack/chow-tape-model/chow-tape-model",
       "license": "gpl-3.0",
@@ -10370,6 +10370,264 @@
             "same": false
           },
           "repo": "studiorack/war-tuba"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "id": "studiorack/ampli-fe/ampli-fe",
+      "license": "mit",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "version": "0.1.0",
+          "id": "ampli-fe",
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298
+            }
+          },
+          "release": "v0.1.0",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "url": "https://choosealicense.com/licenses/mit",
+            "same": false
+          },
+          "repo": "studiorack/ampli-fe"
+        }
+      }
+    },
+    "studiorack/carla/carla": {
+      "id": "studiorack/carla/carla",
+      "license": "other",
+      "version": "2.4.2",
+      "versions": {
+        "2.4.2": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/falkTX/Carla",
+          "name": "Carla",
+          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
+          "tags": [
+            "Instrument",
+            "Host",
+            "Player"
+          ],
+          "version": "2.4.2",
+          "id": "carla",
+          "date": "2022-02-19T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "carla.flac",
+              "size": 330759
+            },
+            "image": {
+              "name": "carla.jpg",
+              "size": 252192
+            },
+            "linux": {
+              "name": "carla-linux.zip",
+              "size": 160951738
+            },
+            "mac": {
+              "name": "carla-mac.zip",
+              "size": 312938720
+            },
+            "win": {
+              "name": "carla-win.zip",
+              "size": 196435153
+            }
+          },
+          "release": "v2.4.2",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "url": "https://choosealicense.com",
+            "same": true
+          },
+          "repo": "studiorack/carla"
+        }
+      }
+    },
+    "studiorack/bear-sax/bear-sax": {
+      "id": "studiorack/bear-sax/bear-sax",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+          "name": "Bear Sax",
+          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Saxophone",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "bear-sax",
+          "date": "2021-09-11T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "bear-sax.flac",
+              "size": 86918
+            },
+            "image": {
+              "name": "bear-sax.jpg",
+              "size": 85425
+            },
+            "linux": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "mac": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            },
+            "win": {
+              "name": "bear-sax.zip",
+              "size": 70617479
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/bear-sax"
+        }
+      }
+    },
+    "studiorack/hungarian-zither/hungarian-zither": {
+      "id": "studiorack/hungarian-zither/hungarian-zither",
+      "license": "cc0-1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
+          "name": "Hungarian Zither",
+          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+          "tags": [
+            "Instrument",
+            "Strings",
+            "Classical",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "hungarian-zither",
+          "date": "2022-09-13T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "hungarian-zither.flac",
+              "size": 172274
+            },
+            "image": {
+              "name": "hungarian-zither.jpg",
+              "size": 88693
+            },
+            "linux": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "mac": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            },
+            "win": {
+              "name": "hungarian-zither.zip",
+              "size": 181711154
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "url": "https://choosealicense.com/licenses/cc0-1.0",
+            "same": false
+          },
+          "repo": "studiorack/hungarian-zither"
+        }
+      }
+    },
+    "studiorack/double-bass/double-bass": {
+      "id": "studiorack/double-bass/double-bass",
+      "license": "cc-by-4.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/dsmolken.double-bass",
+          "name": "Double Bass",
+          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+          "tags": [
+            "Instrument",
+            "String",
+            "Bass",
+            "sfz"
+          ],
+          "version": "1.0.0",
+          "id": "double-bass",
+          "date": "2021-10-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "double-bass.flac",
+              "size": 77117
+            },
+            "image": {
+              "name": "double-bass.jpg",
+              "size": 45157
+            },
+            "linux": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "mac": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            },
+            "win": {
+              "name": "double-bass.zip",
+              "size": 79014147
+            }
+          },
+          "release": "v1.0.0",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "url": "https://choosealicense.com/licenses/cc-by-4.0",
+            "same": false
+          },
+          "repo": "studiorack/double-bass"
         }
       }
     },
@@ -10877,264 +11135,6 @@
             "same": true
           },
           "repo": "studiorack/distrho-ports"
-        }
-      }
-    },
-    "studiorack/ampli-fe/ampli-fe": {
-      "id": "studiorack/ampli-fe/ampli-fe",
-      "license": "mit",
-      "version": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
-          ],
-          "version": "0.1.0",
-          "id": "ampli-fe",
-          "date": "2021-11-02T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405
-            },
-            "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141
-            },
-            "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170
-            },
-            "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913
-            },
-            "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298
-            }
-          },
-          "release": "v0.1.0",
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "url": "https://choosealicense.com/licenses/mit",
-            "same": false
-          },
-          "repo": "studiorack/ampli-fe"
-        }
-      }
-    },
-    "studiorack/carla/carla": {
-      "id": "studiorack/carla/carla",
-      "license": "other",
-      "version": "2.4.2",
-      "versions": {
-        "2.4.2": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/falkTX/Carla",
-          "name": "Carla",
-          "description": "Audio plugin host, with support for many audio drivers and plugin formats",
-          "tags": [
-            "Instrument",
-            "Host",
-            "Player"
-          ],
-          "version": "2.4.2",
-          "id": "carla",
-          "date": "2022-02-19T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "carla.flac",
-              "size": 330759
-            },
-            "image": {
-              "name": "carla.jpg",
-              "size": 252192
-            },
-            "linux": {
-              "name": "carla-linux.zip",
-              "size": 160951738
-            },
-            "mac": {
-              "name": "carla-mac.zip",
-              "size": 312938720
-            },
-            "win": {
-              "name": "carla-win.zip",
-              "size": 196435153
-            }
-          },
-          "release": "v2.4.2",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/carla"
-        }
-      }
-    },
-    "studiorack/bear-sax/bear-sax": {
-      "id": "studiorack/bear-sax/bear-sax",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.bear-sax",
-          "name": "Bear Sax",
-          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Saxophone",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "bear-sax",
-          "date": "2021-09-11T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "bear-sax.flac",
-              "size": 86918
-            },
-            "image": {
-              "name": "bear-sax.jpg",
-              "size": 85425
-            },
-            "linux": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            },
-            "mac": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            },
-            "win": {
-              "name": "bear-sax.zip",
-              "size": 70617479
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/bear-sax"
-        }
-      }
-    },
-    "studiorack/hungarian-zither/hungarian-zither": {
-      "id": "studiorack/hungarian-zither/hungarian-zither",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/hungarian_zither",
-          "name": "Hungarian Zither",
-          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
-          "tags": [
-            "Instrument",
-            "Strings",
-            "Classical",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "hungarian-zither",
-          "date": "2022-09-13T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "hungarian-zither.flac",
-              "size": 172274
-            },
-            "image": {
-              "name": "hungarian-zither.jpg",
-              "size": 88693
-            },
-            "linux": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "mac": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            },
-            "win": {
-              "name": "hungarian-zither.zip",
-              "size": 181711154
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/hungarian-zither"
-        }
-      }
-    },
-    "studiorack/double-bass/double-bass": {
-      "id": "studiorack/double-bass/double-bass",
-      "license": "cc-by-4.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/dsmolken.double-bass",
-          "name": "Double Bass",
-          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
-          "tags": [
-            "Instrument",
-            "String",
-            "Bass",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "double-bass",
-          "date": "2021-10-07T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "double-bass.flac",
-              "size": 77117
-            },
-            "image": {
-              "name": "double-bass.jpg",
-              "size": 45157
-            },
-            "linux": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            },
-            "mac": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            },
-            "win": {
-              "name": "double-bass.zip",
-              "size": 79014147
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/double-bass"
         }
       }
     },
