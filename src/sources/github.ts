@@ -1,6 +1,5 @@
 import * as semver from 'semver';
-import slugify from 'slugify';
-import { PluginInterface, PluginLocal, PluginPack, pluginValidateSchema } from '@studiorack/core';
+import { PluginInterface, PluginLocal, PluginPack, pluginValidateSchema, safeSlug } from '@studiorack/core';
 import fetch from 'node-fetch';
 import { gql, GraphQLClient, RequestDocument } from 'graphql-request';
 
@@ -74,10 +73,7 @@ async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, 
   );
   pluginsJsonList.plugins.forEach((plugin: PluginInterface) => {
     // For each plugin sanitize the id and add to registry
-    const pluginId = slugify(`${repo.nameWithOwner}/${plugin.id}`, {
-      lower: true,
-      remove: /[^\w\s$*_+~.()'"!\-:@\/]+/g,
-    });
+    const pluginId = safeSlug(`${repo.nameWithOwner}/${plugin.id}`);
     const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
     console.log('github', pluginId, pluginVersion);
     if (!pluginPack[pluginId]) {

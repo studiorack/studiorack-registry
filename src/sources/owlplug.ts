@@ -1,5 +1,5 @@
 import * as semver from 'semver';
-import { getJSON, pathGetId, pathGetVersion, PluginInterface, PluginPack } from '@studiorack/core';
+import { getJSON, pathGetId, pathGetVersion, PluginInterface, PluginPack, safeSlug } from '@studiorack/core';
 
 const REGISTRY_URL = 'https://central.owlplug.com/store';
 
@@ -63,7 +63,7 @@ async function getOwlplugPack(): Promise<PluginPack> {
       }
     });
     // For each plugin sanitize the id and add to registry
-    const pluginId = `${plugin.repo}/${plugin.id}`;
+    const pluginId = safeSlug(`${plugin.repo}/${plugin.id}`);
     const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
     console.log('owlplug', pluginId, pluginVersion);
     if (!pluginPack[pluginId]) {
