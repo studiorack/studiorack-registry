@@ -32,12 +32,11 @@
   },
   "homepage": "https://github.com/studiorack/studiorack-registry#readme",
   "dependencies": {
-    "@studiorack/core": "^1.2.3",
+    "@studiorack/core": "^1.2.5",
     "@types/semver": "^7.3.13",
     "graphql-request": "^5.1.0",
     "node-fetch": "^2.6.7",
-    "semver": "^7.3.8",
-    "slugify": "^1.6.5"
+    "semver": "^7.3.8"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
