@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && cp ./src/registry.json ./dist",
-    "dev": "npx tsx src/index.ts",
+    "dev": "ts-node src/index.ts",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "tslint -p tsconfig.json",
     "start": "node dist/index.js",
@@ -33,18 +33,18 @@
   "homepage": "https://github.com/studiorack/studiorack-registry#readme",
   "dependencies": {
     "@studiorack/core": "^1.2.5",
-    "@types/semver": "^7.5.8",
-    "graphql-request": "^6.1.0",
-    "node-fetch": "^3.3.2",
-    "semver": "^7.6.0"
+    "@types/semver": "^7.3.13",
+    "graphql-request": "^5.1.0",
+    "node-fetch": "^2.6.7",
+    "semver": "^7.3.8"
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@types/node-fetch": "^2.6.11",
-    "prettier": "^3.2.5",
+    "@types/node": "^18.11.18",
+    "@types/node-fetch": "^2.6.2",
+    "prettier": "^2.8.1",
+    "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
-    "tsx": "^4.7.3",
-    "typescript": "^5.4.5"
+    "typescript": "^4.9.4"
   }
 }

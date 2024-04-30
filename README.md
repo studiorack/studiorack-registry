@@ -3,7 +3,7 @@
 
 Audio plugin registry with searchable plugin list, metadata and download urls using:
 
-* NodeJS 20.x
+* NodeJS 12.x
 * TypeScript 4.x
 
 
