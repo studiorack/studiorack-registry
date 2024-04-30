@@ -101,6 +101,7 @@ async function githubGetPlugins(url: string) {
   pluginsJson.plugins.forEach((plugin: PluginInterface) => {
     const error = pluginValidateSchema(plugin as PluginLocal);
     if (error === false) {
+      plugin.id = safeSlug(plugin.id);
       pluginsValid.push(plugin);
     } else {
       console.log(error, plugin);
