@@ -4,11 +4,12 @@
   "description": "Audio plugin registry with searchable plugin list, metadata and download urls",
   "main": "dist/index.js",
   "scripts": {
+    "copy": "cp -r ./src/audio ./out && cp -r ./src/image ./out",
     "build": "tsc && cp ./src/registry.json ./dist",
     "dev": "ts-node src/index.ts",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "tslint -p tsconfig.json",
-    "start": "node dist/index.js",
+    "start": "node dist/index.js && npm run copy",
     "test": "echo 'No tests were run'"
   },
   "repository": {
