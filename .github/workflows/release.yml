@@ -1,9 +1,9 @@
 name: Release
 
-on: 
+on:
   workflow_dispatch:
   schedule:
-      # https://crontab.guru/weekly
+    # https://crontab.guru/weekly
     - cron: '0 0 * * 0'
 
 jobs:

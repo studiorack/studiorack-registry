@@ -1,36 +1,33 @@
-/**
- * Some predefined delay values (in milliseconds).
- */
-export enum Delays {
-  Short = 500,
-  Medium = 2000,
-  Long = 6000,
+import fs from 'fs';
+import yaml from 'js-yaml';
+import { PluginInterface, PluginRegistry } from './types/Plugin.js';
+
+function registryLoad(repo: string, version: string, id: string) {
+  const file: string = fs.readFileSync(`./src/plugins/${repo}/${version}/${id}.yaml`, 'utf8');
+  return yaml.load(file) as PluginInterface;
 }
 
-/**
- * Returns a Promise<string> that resolves after a given time.
- *
- * @param {string} name - A name.
- * @param {number=} [delay=Delays.Medium] - A number of milliseconds to delay resolution of the Promise.
- * @returns {Promise<string>}
- */
-function delayedHello(
-  name: string,
-  delay: number = Delays.Medium,
-): Promise<string> {
-  return new Promise((resolve: (value?: string) => void) =>
-    setTimeout(() => resolve(`Hello, ${name}`), delay),
-  );
+function registryNew() {
+  return {
+    name: 'StudioRack Registry',
+    url: 'https://studiorack.github.io/studiorack-registry',
+    version: '2.0.0',
+    objects: [],
+  };
 }
 
-// Please see the comment in the .eslintrc.json file about the suppressed rule!
-// Below is an example of how to use ESLint errors suppression. You can read more
-// at https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules
-
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-export async function greeter(name: any) { // eslint-disable-line @typescript-eslint/no-explicit-any
-  // The name parameter should be of type string. Any is used only to trigger the rule.
-  return await delayedHello(name, Delays.Long);
+function run() {
+  const registry: PluginRegistry = registryNew();
+  const pluginRepo: string = 'surge-synthesizer/releases-xt';
+  const pluginVersion: string = '1.3.1';
+  const pluginId: string = 'surge';
+  const plugin: PluginInterface = registryLoad(pluginRepo, pluginVersion, pluginId);
+  // registry.objects[`${pluginRepo}/${pluginId}`] = {
+  //   id: pluginId,
+  //   version: pluginVersion,
+  //   versions[pluginVersion]: plugin;,
+  // }
+  console.log(plugin);
 }
 
-console.log(await greeter('Tony'));
+run();

@@ -1,18 +1,17 @@
 # studiorack-registry
+
 ![Release](https://github.com/studiorack/studiorack-registry/workflows/Release/badge.svg)
 
 Audio plugin registry with searchable plugin list, metadata and download urls using:
 
-* NodeJS 12.x
-* TypeScript 4.x
-
+- NodeJS 20.x
+- TypeScript 5.x
 
 ## Installation
 
 Install dependencies using:
 
     npm install
-
 
 ## Usage
 
@@ -31,7 +30,6 @@ Create a production build:
 Run the production build:
 
     npm start
-
 
 ## How it works
 
@@ -117,7 +115,6 @@ Registry then performs some validation on the plugins.json before compiling into
 This registry json is updated once a day, and used for the StudioRack website, app and command line tool:
 
     https://studiorack.github.io/studiorack-registry/
-
 
 ## Contact
 

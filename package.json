@@ -4,15 +4,16 @@
   "description": "Audio plugin registry with searchable plugin list, metadata and download urls",
   "type": "module",
   "scripts": {
+    "copy": "cp -r ./src/plugins ./build/src",
     "start": "node build/src/main.js",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
-    "build": "tsc -p tsconfig.json",
-    "build:watch": "tsc -w -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && npm run copy",
+    "dev": "tsx src/main.ts",
     "build:release": "npm run clean && tsc -p tsconfig.release.json",
     "lint": "eslint . --ext .ts --ext .mts",
     "test": "jest --coverage",
-    "prettier": "prettier --config .prettierrc --write .",
+    "format": "prettier --config .prettierrc --write .",
     "test:watch": "jest --watch"
   },
   "repository": {
@@ -38,8 +39,12 @@
   "engines": {
     "node": ">= 20.9 < 21"
   },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
   "devDependencies": {
     "@types/jest": "~29.5",
+    "@types/js-yaml": "^4.0.9",
     "@types/node": "~20",
     "@typescript-eslint/eslint-plugin": "~7.6",
     "@typescript-eslint/parser": "~7.6",
@@ -50,6 +55,7 @@
     "prettier": "~3.2",
     "rimraf": "~5.0",
     "ts-jest": "~29.1",
+    "tsx": "^4.9.0",
     "typescript": "~5.4"
   }
 }
