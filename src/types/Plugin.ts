@@ -2,7 +2,7 @@ export interface PluginRegistry {
   name: string;
   url: string;
   version: string;
-  objects: PluginPack[];
+  objects: PluginPack;
 }
 
 export interface PluginPack {
@@ -10,7 +10,6 @@ export interface PluginPack {
 }
 
 export interface PluginEntry {
-  id: string;
   version: string;
   versions: { [version: string]: PluginInterface };
 }
@@ -35,13 +34,11 @@ export interface PluginInterface {
   homepage: string;
   name: string;
   files: PluginFiles;
-  license?: PluginLicense;
+  license: string;
   tags: string[];
 }
 
-interface PluginLicense {
-  key: string;
-  name: string;
-  url: string;
-  same: boolean;
+export interface PluginRelease extends PluginInterface {
+  id: string;
+  version: string;
 }

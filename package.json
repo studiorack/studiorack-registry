@@ -40,7 +40,10 @@
     "node": ">= 20.9 < 21"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "@studiorack/core": "^1.2.6",
+    "graphql-request": "^6.1.0",
+    "js-yaml": "^4.1.0",
+    "semver": "^7.6.0"
   },
   "devDependencies": {
     "@types/jest": "~29.5",
