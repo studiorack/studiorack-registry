@@ -1,8 +1,7 @@
 import * as semver from 'semver';
-import { PluginLocal, pluginValidateSchema, safeSlug } from '@studiorack/core';
+import { PluginLocal, PluginPack, PluginInterface, pluginValidateSchema, safeSlug } from '@studiorack/core';
 import fetch from 'node-fetch';
 import { gql, GraphQLClient, RequestDocument } from 'graphql-request';
-import { PluginPack, PluginRelease } from '../types/Plugin.js';
 
 // Plugins need to have a topic `studiorack-plugin` to appear in the results
 // https://github.com/topics/studiorack-plugin
@@ -39,14 +38,12 @@ async function githubGetPack(): Promise<PluginPack> {
       await githubGetRelease(pluginPack, repo, release);
     }
   }
-  console.log(pluginPack);
   return pluginPack;
 }
 
 async function githubSearchRepos(url: string): Promise<GitHubSearch> {
   const headers: any = {};
-  if (process.env.GITHUB_TOKEN)
-    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
   const graphQLClient = new GraphQLClient(url, { headers });
   const query: RequestDocument = gql`
     {
@@ -70,28 +67,27 @@ async function githubSearchRepos(url: string): Promise<GitHubSearch> {
   return graphQLClient.request(query);
 }
 
-async function githubGetRelease(
-  pluginPack: PluginPack,
-  repo: GitHubRepository,
-  release: GitHubRelease,
-) {
+async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, release: GitHubRelease) {
   const pluginsJsonList = await githubGetPlugins(
     `https://github.com/${repo.nameWithOwner}/releases/download/${release.tagName}/plugins.json`,
   );
-  pluginsJsonList.plugins.forEach((plugin: PluginRelease) => {
+  pluginsJsonList.plugins.forEach((plugin: PluginInterface) => {
     // For each plugin sanitize the id and add to registry
-    const pluginId = safeSlug(`${repo.nameWithOwner}/${safeSlug(plugin.id)}`);
+    const pluginId = safeSlug(`${repo.nameWithOwner}/${plugin.id}`);
     const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
     console.log('github', pluginId, pluginVersion);
     if (!pluginPack[pluginId]) {
       pluginPack[pluginId] = {
+        id: pluginId,
+        license: repo.licenseInfo?.key,
         version: pluginVersion,
         versions: {},
       };
     }
-    // TODO update plugins.json to not need these fields
-    delete plugin.id;
-    delete plugin.version;
+    // Ensure all plugins have these legacy attributes.
+    plugin.id = pluginId;
+    plugin.release = release.tagName;
+    plugin.version = pluginVersion;
     pluginPack[pluginId].versions[pluginVersion] = plugin;
     // If plugin version is greater than the current, set as latest version
     if (semver.gt(pluginVersion, pluginPack[pluginId].version)) {
@@ -102,11 +98,12 @@ async function githubGetRelease(
 }
 
 async function githubGetPlugins(url: string) {
-  const pluginsValid: PluginRelease[] = [];
+  const pluginsValid: PluginInterface[] = [];
   const pluginsJson = await getJSONSafe(url);
-  pluginsJson.plugins.forEach((plugin: PluginRelease) => {
+  pluginsJson.plugins.forEach((plugin: PluginInterface) => {
     const error = pluginValidateSchema(plugin as unknown as PluginLocal);
     if (error === false) {
+      plugin.id = safeSlug(plugin.id || '');
       pluginsValid.push(plugin);
     } else {
       console.log(error, plugin);

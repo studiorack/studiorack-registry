@@ -1,12 +1,5 @@
 import * as semver from 'semver';
-import {
-  fileReadJson,
-  pathGetId,
-  pathGetVersion,
-  PluginInterface,
-  PluginPack,
-  safeSlug,
-} from '@studiorack/core';
+import { fileReadJson, pathGetId, pathGetVersion, PluginInterface, PluginPack, safeSlug } from '@studiorack/core';
 
 const REGISTRY_URL = 'https://central.owlplug.com/store';
 

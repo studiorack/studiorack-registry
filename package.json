@@ -13,7 +13,7 @@
     "build:release": "npm run clean && tsc -p tsconfig.release.json",
     "lint": "eslint ./**/*.ts",
     "test": "vitest run ./tests",
-    "format": "prettier ./**/*.ts --write",
+    "format": "prettier . --write",
     "test:watch": "vitest ./tests"
   },
   "repository": {
@@ -40,7 +40,7 @@
     "node": ">= 20.9 < 21"
   },
   "dependencies": {
-    "@studiorack/core": "^1.2.6",
+    "@studiorack/core": "^1.2.8",
     "graphql-request": "^6.1.0",
     "js-yaml": "^4.1.0",
     "semver": "^7.6.0"

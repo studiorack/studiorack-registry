@@ -1,9 +1,16 @@
-import { dirCreate, fileJsonCreate } from '@studiorack/core';
 import {
+  dirCreate,
+  fileJsonCreate,
+  pluginLatest,
   PluginEntry,
   PluginInterface,
+  PluginFile,
+  PluginFiles,
+  pluginFileUrl,
+  PluginPack,
   PluginRegistry,
-} from './types/Plugin.js';
+  PluginLicense,
+} from '@studiorack/core';
 import { githubGetPack } from './sources/github.js';
 import { localGetPack } from './sources/local.js';
 
@@ -13,49 +20,107 @@ const REGISTRY_OUT_EFFECTS: string = 'effects.json';
 const REGISTRY_OUT_INSTRUMENTS: string = 'instruments.json';
 const REGISTRY_OUT_SFZ: string = 'sfz.json';
 
-export function registryNew(type: string): PluginRegistry {
+export function registryNew(type: string, version: string, path = ''): PluginRegistry {
   return {
     name: `StudioRack Registry - ${type}`,
-    url: `https://studiorack.github.io/studiorack-registry/${type}.json`,
-    version: '2.0.0',
+    url: `https://studiorack.github.io/studiorack-registry/${path}${type}.json`,
+    version,
     objects: {},
   };
 }
 
-async function registrySave(path: string, file: PluginRegistry) {
+export function registrySave(path: string, file: PluginRegistry) {
   dirCreate(DIST_PATH);
   fileJsonCreate(path, file);
 }
 
-async function run() {
-  const registry: PluginRegistry = registryNew('registry');
-  registry.objects = Object.assign(registry.objects, await githubGetPack());
-  registry.objects = Object.assign(registry.objects, localGetPack());
+export function registryPackAdd(registry: PluginRegistry, pluginPack: PluginPack) {
+  registry.objects = Object.assign(registry.objects, pluginPack);
+}
 
-  // Create separate registries for Effects and Instruments
-  const effects: PluginRegistry = registryNew('effects');
-  const index: PluginRegistry = registryNew('index');
-  const instruments: PluginRegistry = registryNew('instruments');
-  const sfz: PluginRegistry = registryNew('sfz');
-  for (const pluginId in registry.objects) {
-    const pluginEntry: PluginEntry = registry.objects[pluginId];
-    const plugin: PluginInterface = pluginEntry.versions[pluginEntry.version];
-    // Check if tags include Effect/Fx
-    if (plugin.tags.includes('Effect') || plugin.tags.includes('Fx')) {
-      effects.objects[pluginId] = pluginEntry;
+export function registryPackClean(pack: PluginPack) {
+  // Remove legacy attributes from plugins
+  Object.keys(pack).forEach((entryId: string) => {
+    const pluginEntry: PluginEntry = pack[entryId];
+    Object.keys(pluginEntry.versions).forEach((versionId: string) => {
+      const plugin: PluginInterface = pluginEntry.versions[versionId];
+      Object.keys(plugin.files).forEach((fileId: string) => {
+        const file: PluginFile = plugin.files[fileId as keyof PluginFiles];
+        file.name = pluginFileUrl(plugin, fileId as keyof PluginFiles);
+      });
+      console.log('before', plugin.id, plugin.license);
+      if (plugin.license && typeof plugin.license !== 'string' && plugin.license.key)
+        plugin.license = plugin.license.key as unknown as PluginLicense;
+      console.log('after', plugin.id, plugin.license);
+      // @ts-expect-error Types need to be updated in core package
+      delete plugin.release;
+    });
+    // @ts-expect-error Types need to be updated in core package
+    delete pluginEntry.id;
+    // @ts-expect-error Types need to be updated in core package
+    delete pluginEntry.license;
+  });
+  return pack;
+}
+
+export function registryPackFilter(pack: PluginPack, tag: string, version: string) {
+  const packFiltered: PluginPack = {};
+  for (const pluginId in pack) {
+    const pluginEntry: PluginEntry = pack[pluginId];
+    let plugin: PluginInterface = pluginEntry.versions[pluginEntry.version];
+    if (version === '1.0.0') {
+      plugin = pluginLatest(pluginEntry);
     }
-    if (plugin.tags.includes('Instrument')) {
-      instruments.objects[pluginId] = pluginEntry;
+    if (plugin.tags.includes(tag) || (tag === 'Effect' && plugin.tags.includes('Fx'))) {
+      packFiltered[pluginId] = pluginEntry;
     }
-    if (plugin.tags.includes('sfz')) {
-      sfz.objects[pluginId] = pluginEntry;
-    }
-    index.objects[pluginId] = pluginEntry;
   }
-  registrySave(`${DIST_PATH}/${REGISTRY_OUT}`, index);
-  registrySave(`${DIST_PATH}/${REGISTRY_OUT_EFFECTS}`, effects);
-  registrySave(`${DIST_PATH}/${REGISTRY_OUT_INSTRUMENTS}`, instruments);
-  registrySave(`${DIST_PATH}/${REGISTRY_OUT_SFZ}`, sfz);
+  return packFiltered;
+}
+
+export function registryVersion(registry: PluginRegistry, path = '') {
+  // Create directory
+  if (path !== '') dirCreate(`${DIST_PATH}/${path}`);
+
+  // All plugins
+  const index: PluginRegistry = registryNew('index', registry.version, path);
+  const indexPack: PluginPack = registry.objects;
+  registryPackAdd(index, indexPack);
+  registrySave(`${DIST_PATH}/${path}${REGISTRY_OUT}`, index);
+
+  // Effects
+  const effects: PluginRegistry = registryNew('effects', registry.version, path);
+  const effectsPack: PluginPack = registryPackFilter(registry.objects, 'Effect', registry.version);
+  registryPackAdd(effects, effectsPack);
+  registrySave(`${DIST_PATH}/${path}${REGISTRY_OUT_EFFECTS}`, effects);
+
+  // Instruments
+  const instruments: PluginRegistry = registryNew('instruments', registry.version, path);
+  const instrumentsPack: PluginPack = registryPackFilter(registry.objects, 'Instrument', registry.version);
+  registryPackAdd(instruments, instrumentsPack);
+  registrySave(`${DIST_PATH}/${path}${REGISTRY_OUT_INSTRUMENTS}`, instruments);
+
+  // Sfz
+  const sfz: PluginRegistry = registryNew('sfz', registry.version, path);
+  const sfzPack: PluginPack = registryPackFilter(registry.objects, 'sfz', registry.version);
+  registryPackAdd(sfz, sfzPack);
+  registrySave(`${DIST_PATH}/${path}${REGISTRY_OUT_SFZ}`, sfz);
+}
+
+export async function run() {
+  const githubPack: PluginPack = await githubGetPack();
+  const localPack: PluginPack = localGetPack();
+
+  // Registry v1
+  const registryV1: PluginRegistry = registryNew('registry', '1.0.0');
+  registryPackAdd(registryV1, githubPack);
+  registryVersion(registryV1);
+
+  // Registry v2
+  const registryV2: PluginRegistry = registryNew('registry', '2.0.0');
+  registryPackAdd(registryV2, registryPackClean(githubPack));
+  registryPackAdd(registryV2, localPack);
+  registryVersion(registryV2, 'v2/');
 }
 
 run();
