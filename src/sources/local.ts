@@ -1,7 +1,7 @@
 import yaml from 'js-yaml';
 import path from 'path';
 import * as semver from 'semver';
-import { PluginInterface, PluginPack, dirRead, fileReadString, safeSlug } from '@studiorack/core';
+import { PluginPack, PluginVersion, dirRead, fileReadString, safeSlug } from '@studiorack/core';
 
 const LOCAL_DIR: string = path.join('src', 'plugins');
 const LOCAL_EXT: string = '.yaml';
@@ -23,7 +23,7 @@ export function localGetPack() {
       };
     }
     // Release is different from version and can vary per version
-    const plugin: PluginInterface = localGetFile(filepath);
+    const plugin: PluginVersion = localGetFile(filepath);
     plugin.id = id;
     plugin.version = version;
     pack[id].versions[version] = plugin;
@@ -37,5 +37,5 @@ export function localGetPack() {
 
 export function localGetFile(path: string) {
   const file: string = fileReadString(path);
-  return yaml.load(file) as PluginInterface;
+  return yaml.load(file) as PluginVersion;
 }

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Audio plugin registry with searchable plugin list, metadata and download urls",
   "type": "module",
+  "main": "./build/main.js",
+  "exports": "./build/main.js",
   "scripts": {
     "copy": "cp -r ./src/plugins ./build/src",
     "start": "node build/src/main.js",
@@ -37,7 +39,7 @@
   },
   "homepage": "https://github.com/studiorack/studiorack-registry#readme",
   "engines": {
-    "node": ">= 20.9 < 21"
+    "node": ">=18"
   },
   "dependencies": {
     "@studiorack/core": "^1.2.8",

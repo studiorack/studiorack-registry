@@ -1,5 +1,5 @@
 import * as semver from 'semver';
-import { PluginLocal, PluginPack, PluginInterface, pluginValidateSchema, safeSlug } from '@studiorack/core';
+import { PluginPack, PluginVersion, PluginVersionLocal, pluginValidateSchema, safeSlug } from '@studiorack/core';
 import fetch from 'node-fetch';
 import { gql, GraphQLClient, RequestDocument } from 'graphql-request';
 
@@ -71,22 +71,19 @@ async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, 
   const pluginsJsonList = await githubGetPlugins(
     `https://github.com/${repo.nameWithOwner}/releases/download/${release.tagName}/plugins.json`,
   );
-  pluginsJsonList.plugins.forEach((plugin: PluginInterface) => {
+  pluginsJsonList.plugins.forEach((plugin: PluginVersion) => {
     // For each plugin sanitize the id and add to registry
     const pluginId = safeSlug(`${repo.nameWithOwner}/${plugin.id}`);
     const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
     console.log('github', pluginId, pluginVersion);
     if (!pluginPack[pluginId]) {
       pluginPack[pluginId] = {
-        id: pluginId,
-        license: repo.licenseInfo?.key,
         version: pluginVersion,
         versions: {},
       };
     }
     // Ensure all plugins have these legacy attributes.
     plugin.id = pluginId;
-    plugin.release = release.tagName;
     plugin.version = pluginVersion;
     pluginPack[pluginId].versions[pluginVersion] = plugin;
     // If plugin version is greater than the current, set as latest version
@@ -98,10 +95,10 @@ async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, 
 }
 
 async function githubGetPlugins(url: string) {
-  const pluginsValid: PluginInterface[] = [];
+  const pluginsValid: PluginVersion[] = [];
   const pluginsJson = await getJSONSafe(url);
-  pluginsJson.plugins.forEach((plugin: PluginInterface) => {
-    const error = pluginValidateSchema(plugin as unknown as PluginLocal);
+  pluginsJson.plugins.forEach((plugin: PluginVersion) => {
+    const error = pluginValidateSchema(plugin as PluginVersionLocal);
     if (error === false) {
       plugin.id = safeSlug(plugin.id || '');
       pluginsValid.push(plugin);
