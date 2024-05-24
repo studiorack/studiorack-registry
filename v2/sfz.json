@@ -1,11 +1,9 @@
 {
   "name": "StudioRack Registry - sfz",
-  "url": "https://studiorack.github.io/studiorack-registry/sfz.json",
-  "version": "1.0.0",
+  "url": "https://studiorack.github.io/studiorack-registry/v2/sfz.json",
+  "version": "2.0.0",
   "objects": {
     "freepats/glass/glasses-of-water": {
-      "id": "freepats/glass/glasses-of-water",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -19,8 +17,6 @@
             "Glass",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "glasses-of-water",
           "date": "2019-12-27T07:00:00.000Z",
           "files": {
             "audio": {
@@ -44,20 +40,11 @@
               "size": 10610381
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/glass"
+          "license": "cc0-1.0"
         }
       }
     },
     "freepats/upright-piano-kw/upright-piano-kw": {
-      "id": "freepats/upright-piano-kw/upright-piano-kw",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -71,8 +58,6 @@
             "Piano",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "upright-piano-kw",
           "date": "2022-02-21T07:00:00.000Z",
           "files": {
             "audio": {
@@ -96,20 +81,11 @@
               "size": 32365885
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/upright-piano-kw"
+          "license": "cc0-1.0"
         }
       }
     },
     "freepats/spanish-classical-guitar/spanish-classical-guitar": {
-      "id": "freepats/spanish-classical-guitar/spanish-classical-guitar",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -123,8 +99,6 @@
             "Classical",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "spanish-classical-guitar",
           "date": "2019-06-18T07:00:00.000Z",
           "files": {
             "audio": {
@@ -148,20 +122,11 @@
               "size": 4944097
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/spanish-classical-guitar"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/basic-harmonica/basic-harmonica": {
-      "id": "studiorack/basic-harmonica/basic-harmonica",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -175,8 +140,6 @@
             "Harmonica",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "basic-harmonica",
           "date": "2022-10-07T07:00:00.000Z",
           "files": {
             "audio": {
@@ -200,20 +163,11 @@
               "size": 1404185
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/basic-harmonica"
+          "license": "cc0-1.0"
         }
       }
     },
     "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -227,8 +181,6 @@
             "Electro",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
           "date": "2022-07-18T07:00:00.000Z",
           "files": {
             "audio": {
@@ -252,20 +204,11 @@
               "size": 1663242
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/synthesizer-percussion"
+          "license": "cc0-1.0"
         }
       }
     },
     "freepats/hang-d-minor/hang-d-minor": {
-      "id": "freepats/hang-d-minor/hang-d-minor",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -279,8 +222,6 @@
             "Hang",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "hang-d-minor",
           "date": "2022-03-30T07:00:00.000Z",
           "files": {
             "audio": {
@@ -304,20 +245,11 @@
               "size": 13369709
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/hang-d-minor"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/black-and-green-guitars/black-and-green-guitars": {
-      "id": "studiorack/black-and-green-guitars/black-and-green-guitars",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -331,8 +263,6 @@
             "Electric",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "black-and-green-guitars",
           "date": "2022-08-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -356,20 +286,11 @@
               "size": 292323008
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/black-and-green-guitars"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
       "version": "3.0.0",
       "versions": {
         "3.0.0": {
@@ -383,8 +304,6 @@
             "Yamaha",
             "sfz"
           ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
           "date": "2021-09-20T07:00:00.000Z",
           "files": {
             "audio": {
@@ -408,20 +327,11 @@
               "size": 748416023
             }
           },
-          "release": "v3.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/salamander-grand-piano"
+          "license": "other"
         }
       }
     },
     "studiorack/avl-drumkits/avl-drumkits": {
-      "id": "studiorack/avl-drumkits/avl-drumkits",
-      "license": "other",
       "version": "1.1.0",
       "versions": {
         "1.1.0": {
@@ -434,8 +344,6 @@
             "Drums",
             "sfz"
           ],
-          "version": "1.1.0",
-          "id": "avl-drumkits",
           "date": "2022-02-20T07:00:00.000Z",
           "files": {
             "audio": {
@@ -459,20 +367,11 @@
               "size": 16017234
             }
           },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-drumkits"
+          "license": "other"
         }
       }
     },
     "studiorack/virtuosity-drums/virtuosity-drums": {
-      "id": "studiorack/virtuosity-drums/virtuosity-drums",
-      "license": "cc0-1.0",
       "version": "0.9.23",
       "versions": {
         "0.9.23": {
@@ -486,8 +385,6 @@
             "Jazz",
             "sfz"
           ],
-          "version": "0.9.23",
-          "id": "virtuosity-drums",
           "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -511,14 +408,7 @@
               "size": 1224065679
             }
           },
-          "release": "v0.9.23",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/virtuosity-drums"
+          "license": "cc0-1.0"
         },
         "0.9.22": {
           "author": "Versilian Studios",
@@ -531,8 +421,6 @@
             "Jazz",
             "sfz"
           ],
-          "version": "0.9.22",
-          "id": "virtuosity-drums",
           "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -556,20 +444,11 @@
               "size": 618693714
             }
           },
-          "release": "v0.9.22",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/virtuosity-drums"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -583,8 +462,6 @@
             "Piano",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
@@ -608,20 +485,11 @@
               "size": 74736682
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/splendid-grand-piano"
+          "license": "other"
         }
       }
     },
     "studiorack/naked-drums/naked-drums": {
-      "id": "studiorack/naked-drums/naked-drums",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -634,8 +502,6 @@
             "Drums",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "naked-drums",
           "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -659,20 +525,11 @@
               "size": 1283342538
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/naked-drums"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/avl-percussions/avl-percussions": {
-      "id": "studiorack/avl-percussions/avl-percussions",
-      "license": "other",
       "version": "1.1.0",
       "versions": {
         "1.1.0": {
@@ -686,8 +543,6 @@
             "Percussions",
             "sfz"
           ],
-          "version": "1.1.0",
-          "id": "avl-percussions",
           "date": "2022-02-21T07:00:00.000Z",
           "files": {
             "audio": {
@@ -711,20 +566,11 @@
               "size": 1730506
             }
           },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-percussions"
+          "license": "other"
         }
       }
     },
     "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -738,8 +584,6 @@
             "Rhodes",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
@@ -763,20 +607,11 @@
               "size": 17073884
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/jrhodes-3c"
+          "license": "other"
         }
       }
     },
     "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
       "version": "3.2.2",
       "versions": {
         "3.2.2": {
@@ -790,8 +625,6 @@
             "Strings",
             "sfz"
           ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
           "date": "2020-10-31T07:00:00.000Z",
           "files": {
             "audio": {
@@ -815,20 +648,11 @@
               "size": 618693714
             }
           },
-          "release": "v3.2.2",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/virtual-playing-orchestra"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/jsteeldrum/jsteel-drum": {
-      "id": "studiorack/jsteeldrum/jsteel-drum",
-      "license": "unlicense",
       "version": "2.0.0",
       "versions": {
         "2.0.0": {
@@ -842,8 +666,6 @@
             "Drum",
             "sfz"
           ],
-          "version": "2.0.0",
-          "id": "jsteel-drum",
           "date": "2022-09-22T07:00:00.000Z",
           "files": {
             "audio": {
@@ -867,20 +689,11 @@
               "size": 38363496
             }
           },
-          "release": "v2.0.0",
-          "license": {
-            "key": "unlicense",
-            "name": "The Unlicense",
-            "url": "https://choosealicense.com/licenses/unlicense",
-            "same": false
-          },
-          "repo": "studiorack/jsteeldrum"
+          "license": "unlicense"
         }
       }
     },
     "studiorack/horse-pulse/horse-pulse": {
-      "id": "studiorack/horse-pulse/horse-pulse",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -894,8 +707,6 @@
             "Pluck",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "horse-pulse",
           "date": "2022-03-31T07:00:00.000Z",
           "files": {
             "audio": {
@@ -919,20 +730,11 @@
               "size": 74462529
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/horse-pulse"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/war-tuba/war-tuba": {
-      "id": "studiorack/war-tuba/war-tuba",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -946,8 +748,6 @@
             "Tuba",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "war-tuba",
           "date": "2021-09-03T07:00:00.000Z",
           "files": {
             "audio": {
@@ -971,20 +771,11 @@
               "size": 35601312
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/war-tuba"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/bear-sax/bear-sax": {
-      "id": "studiorack/bear-sax/bear-sax",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -998,8 +789,6 @@
             "Saxophone",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "bear-sax",
           "date": "2021-09-11T07:00:00.000Z",
           "files": {
             "audio": {
@@ -1023,20 +812,11 @@
               "size": 70617479
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/bear-sax"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/hungarian-zither/hungarian-zither": {
-      "id": "studiorack/hungarian-zither/hungarian-zither",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -1050,8 +830,6 @@
             "Classical",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "hungarian-zither",
           "date": "2022-09-13T07:00:00.000Z",
           "files": {
             "audio": {
@@ -1075,20 +853,11 @@
               "size": 181711154
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/hungarian-zither"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/double-bass/double-bass": {
-      "id": "studiorack/double-bass/double-bass",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -1102,8 +871,6 @@
             "Bass",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "double-bass",
           "date": "2021-10-07T07:00:00.000Z",
           "files": {
             "audio": {
@@ -1127,20 +894,11 @@
               "size": 79014147
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/double-bass"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/sams-sonor/sams-sonor": {
-      "id": "studiorack/sams-sonor/sams-sonor",
-      "license": "cc-by-sa-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -1154,8 +912,6 @@
             "Kit",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "sams-sonor",
           "date": "2021-08-21T07:00:00.000Z",
           "files": {
             "audio": {
@@ -1179,20 +935,11 @@
               "size": 36642874
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
-            "same": true
-          },
-          "repo": "studiorack/sams-sonor"
+          "license": "cc-by-sa-4.0"
         }
       }
     },
     "studiorack/salamander-drumkit/salamander-drumkit": {
-      "id": "studiorack/salamander-drumkit/salamander-drumkit",
-      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -1205,8 +952,6 @@
             "Drums",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "salamander-drumkit",
           "date": "2012-02-25T07:00:00.000Z",
           "files": {
             "audio": {
@@ -1230,14 +975,7 @@
               "size": 269599176
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/salamander-drumkit"
+          "license": "other"
         }
       }
     }

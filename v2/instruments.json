@@ -1,11 +1,9 @@
 {
   "name": "StudioRack Registry - instruments",
-  "url": "https://studiorack.github.io/studiorack-registry/instruments.json",
-  "version": "1.0.0",
+  "url": "https://studiorack.github.io/studiorack-registry/v2/instruments.json",
+  "version": "2.0.0",
   "objects": {
     "vastdynamics/vaporizer2/com.vastdynamics.vast2": {
-      "id": "vastdynamics/vaporizer2/com.vastdynamics.vast2",
-      "license": "gpl-3.0",
       "version": "3.5.0",
       "versions": {
         "3.5.0": {
@@ -19,8 +17,6 @@
             "Sampler",
             "Wavetable Editor"
           ],
-          "version": "3.5.0",
-          "id": "com.vastdynamics.vast2",
           "date": "2024-03-02T00:00:00.000Z",
           "files": {
             "audio": {
@@ -44,20 +40,11 @@
               "size": 421509729
             }
           },
-          "release": "v3.5.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "vastdynamics/vaporizer2"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/iterative-sin-cluster": {
-      "id": "ryukau/vstplugins/iterative-sin-cluster",
-      "license": "gpl-3.0",
       "version": "0.1.27",
       "versions": {
         "0.1.27": {
@@ -69,9 +56,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.27",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -94,14 +79,7 @@
               "size": 2595732
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.26": {
           "author": "Takamitsu Endo",
@@ -112,9 +90,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.26",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -137,14 +113,7 @@
               "size": 2752677
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.25": {
           "author": "Takamitsu Endo",
@@ -155,9 +124,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.25",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -180,14 +147,7 @@
               "size": 2799626
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.24": {
           "author": "Takamitsu Endo",
@@ -198,9 +158,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.24",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -223,14 +181,7 @@
               "size": 2799100
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -241,9 +192,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.23",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -266,14 +215,7 @@
               "size": 2790770
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.21": {
           "author": "Takamitsu Endo",
@@ -284,9 +226,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.21",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -309,14 +249,7 @@
               "size": 2785758
             }
           },
-          "release": "UhhyouPlugins0.51.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -327,9 +260,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.20",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -352,14 +283,7 @@
               "size": 2783937
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.19": {
           "author": "Takamitsu Endo",
@@ -370,9 +294,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.19",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -395,14 +317,7 @@
               "size": 1793983
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
@@ -413,9 +328,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.18",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -438,14 +351,7 @@
               "size": 1782552
             }
           },
-          "release": "UhhyouPlugins0.41.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.17": {
           "author": "Takamitsu Endo",
@@ -456,9 +362,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.17",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.flac",
@@ -477,14 +381,7 @@
               "size": 2003980
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.15": {
           "author": "Takamitsu Endo",
@@ -495,9 +392,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.15",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.wav",
@@ -516,14 +411,7 @@
               "size": 1941764
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.13": {
           "author": "Takamitsu Endo",
@@ -534,9 +422,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.13",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.wav",
@@ -555,14 +441,7 @@
               "size": 1679554
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.12": {
           "author": "Takamitsu Endo",
@@ -573,9 +452,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.12",
           "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
-          "id": "iterative-sin-cluster",
           "files": {
             "audio": {
               "name": "IterativeSinCluster.wav",
@@ -598,20 +475,11 @@
               "size": 1778673
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/cubic-pad-synth": {
-      "id": "ryukau/vstplugins/cubic-pad-synth",
-      "license": "gpl-3.0",
       "version": "0.1.26",
       "versions": {
         "0.1.26": {
@@ -623,9 +491,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.26",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -648,14 +514,7 @@
               "size": 6248739
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.25": {
           "author": "Takamitsu Endo",
@@ -666,9 +525,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.25",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -691,14 +548,7 @@
               "size": 6265132
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.24": {
           "author": "Takamitsu Endo",
@@ -709,9 +559,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.24",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -734,14 +582,7 @@
               "size": 6316077
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -752,9 +593,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.23",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -777,14 +616,7 @@
               "size": 6315726
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.22": {
           "author": "Takamitsu Endo",
@@ -795,9 +627,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.22",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -820,14 +650,7 @@
               "size": 6302482
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -838,9 +661,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.20",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -863,14 +684,7 @@
               "size": 6303125
             }
           },
-          "release": "UhhyouPlugins0.51.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.19": {
           "author": "Takamitsu Endo",
@@ -881,9 +695,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.19",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -906,14 +718,7 @@
               "size": 6298736
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
@@ -924,9 +729,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.18",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -949,14 +752,7 @@
               "size": 4237520
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.17": {
           "author": "Takamitsu Endo",
@@ -967,9 +763,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.17",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -992,14 +786,7 @@
               "size": 4229056
             }
           },
-          "release": "UhhyouPlugins0.41.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.15": {
           "author": "Takamitsu Endo",
@@ -1010,9 +797,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.15",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.flac",
@@ -1031,14 +816,7 @@
               "size": 5098219
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.13": {
           "author": "Takamitsu Endo",
@@ -1049,9 +827,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.13",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.wav",
@@ -1070,14 +846,7 @@
               "size": 5042364
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.11": {
           "author": "Takamitsu Endo",
@@ -1088,9 +857,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.11",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.wav",
@@ -1109,14 +876,7 @@
               "size": 4788347
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.10": {
           "author": "Takamitsu Endo",
@@ -1127,9 +887,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.10",
           "description": "CubicPadSynth is a wavetable synthesizer which uses PADsynth algorithm to generate oscillator tables. Cubic interpolation is used to get smooth sound even at inaudible low frequency range. LFO waveform can be directly drawn.",
-          "id": "cubic-pad-synth",
           "files": {
             "audio": {
               "name": "CubicPadSynth.wav",
@@ -1152,20 +910,11 @@
               "size": 6523077
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/light-pad-synth": {
-      "id": "ryukau/vstplugins/light-pad-synth",
-      "license": "gpl-3.0",
       "version": "0.1.24",
       "versions": {
         "0.1.24": {
@@ -1177,9 +926,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.24",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1202,14 +949,7 @@
               "size": 2905821
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -1220,9 +960,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.23",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1245,14 +983,7 @@
               "size": 3007217
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.22": {
           "author": "Takamitsu Endo",
@@ -1263,9 +994,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.22",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1288,14 +1017,7 @@
               "size": 3054748
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.21": {
           "author": "Takamitsu Endo",
@@ -1306,9 +1028,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.21",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1331,14 +1051,7 @@
               "size": 3055283
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -1349,9 +1062,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.20",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1374,14 +1085,7 @@
               "size": 3044859
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
@@ -1392,9 +1096,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.18",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1417,14 +1119,7 @@
               "size": 3045010
             }
           },
-          "release": "UhhyouPlugins0.51.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.17": {
           "author": "Takamitsu Endo",
@@ -1435,9 +1130,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.17",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1460,14 +1153,7 @@
               "size": 3043567
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.16": {
           "author": "Takamitsu Endo",
@@ -1478,9 +1164,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.16",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1503,14 +1187,7 @@
               "size": 3034219
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.15": {
           "author": "Takamitsu Endo",
@@ -1521,9 +1198,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.15",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1546,14 +1221,7 @@
               "size": 3005747
             }
           },
-          "release": "UhhyouPlugins0.41.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.14": {
           "author": "Takamitsu Endo",
@@ -1564,9 +1232,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.14",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1589,14 +1255,7 @@
               "size": 3248283
             }
           },
-          "release": "UhhyouPlugins0.34.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.13": {
           "author": "Takamitsu Endo",
@@ -1607,9 +1266,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.13",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.flac",
@@ -1628,14 +1285,7 @@
               "size": 2197156
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.11": {
           "author": "Takamitsu Endo",
@@ -1646,9 +1296,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.11",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.wav",
@@ -1667,14 +1315,7 @@
               "size": 2142128
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.9": {
           "author": "Takamitsu Endo",
@@ -1685,9 +1326,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.9",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.wav",
@@ -1706,14 +1345,7 @@
               "size": 1891145
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.8": {
           "author": "Takamitsu Endo",
@@ -1724,9 +1356,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.8",
           "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
-          "id": "light-pad-synth",
           "files": {
             "audio": {
               "name": "LightPadSynth.wav",
@@ -1749,20 +1379,11 @@
               "size": 2044205
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/wave-cymbal": {
-      "id": "ryukau/vstplugins/wave-cymbal",
-      "license": "gpl-3.0",
       "version": "0.1.26",
       "versions": {
         "0.1.26": {
@@ -1774,9 +1395,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.26",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -1799,14 +1418,7 @@
               "size": 2437423
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.25": {
           "author": "Takamitsu Endo",
@@ -1817,9 +1429,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.25",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -1842,14 +1452,7 @@
               "size": 2610171
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.24": {
           "author": "Takamitsu Endo",
@@ -1860,9 +1463,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.24",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -1885,14 +1486,7 @@
               "size": 2659169
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -1903,9 +1497,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.23",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -1928,14 +1520,7 @@
               "size": 2656968
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.22": {
           "author": "Takamitsu Endo",
@@ -1946,9 +1531,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.22",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -1971,14 +1554,7 @@
               "size": 2656461
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.21": {
           "author": "Takamitsu Endo",
@@ -1989,9 +1565,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.21",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -2014,14 +1588,7 @@
               "size": 2659103
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -2032,9 +1599,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.20",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -2057,14 +1622,7 @@
               "size": 2657212
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.19": {
           "author": "Takamitsu Endo",
@@ -2075,9 +1633,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.19",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -2100,14 +1656,7 @@
               "size": 2878678
             }
           },
-          "release": "UhhyouPlugins0.34.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
@@ -2118,9 +1667,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.18",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.flac",
@@ -2139,14 +1686,7 @@
               "size": 1904014
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.16": {
           "author": "Takamitsu Endo",
@@ -2157,9 +1697,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.16",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.wav",
@@ -2178,14 +1716,7 @@
               "size": 1867950
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.14": {
           "author": "Takamitsu Endo",
@@ -2196,9 +1727,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.14",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.wav",
@@ -2217,14 +1746,7 @@
               "size": 1592936
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.13": {
           "author": "Takamitsu Endo",
@@ -2235,9 +1757,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.1.13",
           "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
-          "id": "wave-cymbal",
           "files": {
             "audio": {
               "name": "WaveCymbal.wav",
@@ -2260,20 +1780,11 @@
               "size": 1672674
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/colliding-comb-synth": {
-      "id": "ryukau/vstplugins/colliding-comb-synth",
-      "license": "gpl-3.0",
       "version": "0.1.16",
       "versions": {
         "0.1.16": {
@@ -2285,9 +1796,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.16",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2310,14 +1819,7 @@
               "size": 2624082
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.15": {
           "author": "Takamitsu Endo",
@@ -2328,9 +1830,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.15",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2353,14 +1853,7 @@
               "size": 2779989
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.14": {
           "author": "Takamitsu Endo",
@@ -2371,9 +1864,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.14",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2396,14 +1887,7 @@
               "size": 2826073
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.13": {
           "author": "Takamitsu Endo",
@@ -2414,9 +1898,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.13",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2439,14 +1921,7 @@
               "size": 2825504
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.12": {
           "author": "Takamitsu Endo",
@@ -2457,9 +1932,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.12",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2482,14 +1955,7 @@
               "size": 2821154
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.11": {
           "author": "Takamitsu Endo",
@@ -2500,9 +1966,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.11",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2525,14 +1989,7 @@
               "size": 2821715
             }
           },
-          "release": "UhhyouPlugins0.51.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.10": {
           "author": "Takamitsu Endo",
@@ -2543,9 +2000,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.10",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2568,14 +2023,7 @@
               "size": 2820135
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.9": {
           "author": "Takamitsu Endo",
@@ -2586,9 +2034,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.9",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2611,14 +2057,7 @@
               "size": 2807682
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.8": {
           "author": "Takamitsu Endo",
@@ -2629,9 +2068,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.8",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2654,14 +2091,7 @@
               "size": 2784137
             }
           },
-          "release": "UhhyouPlugins0.41.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.7": {
           "author": "Takamitsu Endo",
@@ -2672,9 +2102,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.7",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2697,14 +2125,7 @@
               "size": 3028827
             }
           },
-          "release": "UhhyouPlugins0.34.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.6": {
           "author": "Takamitsu Endo",
@@ -2715,9 +2136,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.6",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.flac",
@@ -2736,14 +2155,7 @@
               "size": 2021761
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.4": {
           "author": "Takamitsu Endo",
@@ -2754,9 +2166,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.4",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.wav",
@@ -2775,14 +2185,7 @@
               "size": 1958349
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.2": {
           "author": "Takamitsu Endo",
@@ -2793,9 +2196,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.2",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.wav",
@@ -2814,14 +2215,7 @@
               "size": 1700167
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.1": {
           "author": "Takamitsu Endo",
@@ -2832,9 +2226,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.1",
           "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
-          "id": "colliding-comb-synth",
           "files": {
             "audio": {
               "name": "CollidingCombSynth.wav",
@@ -2857,20 +2249,11 @@
               "size": 1811427
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/trapezoid-synth": {
-      "id": "ryukau/vstplugins/trapezoid-synth",
-      "license": "gpl-3.0",
       "version": "0.1.26",
       "versions": {
         "0.1.26": {
@@ -2882,9 +2265,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.26",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -2907,14 +2288,7 @@
               "size": 2477369
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.25": {
           "author": "Takamitsu Endo",
@@ -2925,9 +2299,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.25",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -2950,14 +2322,7 @@
               "size": 2635174
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.24": {
           "author": "Takamitsu Endo",
@@ -2968,9 +2333,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.24",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -2993,14 +2356,7 @@
               "size": 2690543
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -3011,9 +2367,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.23",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -3036,14 +2390,7 @@
               "size": 2689044
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.22": {
           "author": "Takamitsu Endo",
@@ -3054,9 +2401,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.22",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -3079,14 +2424,7 @@
               "size": 2689532
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.21": {
           "author": "Takamitsu Endo",
@@ -3097,9 +2435,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.21",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -3122,14 +2458,7 @@
               "size": 2689751
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -3140,9 +2469,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.20",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -3165,14 +2492,7 @@
               "size": 2679593
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.19": {
           "author": "Takamitsu Endo",
@@ -3183,9 +2503,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.19",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -3208,14 +2526,7 @@
               "size": 2907999
             }
           },
-          "release": "UhhyouPlugins0.34.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
@@ -3226,9 +2537,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.18",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.flac",
@@ -3247,14 +2556,7 @@
               "size": 1946267
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.16": {
           "author": "Takamitsu Endo",
@@ -3265,9 +2567,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.16",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.wav",
@@ -3286,14 +2586,7 @@
               "size": 1885030
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.14": {
           "author": "Takamitsu Endo",
@@ -3304,9 +2597,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.14",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.wav",
@@ -3325,14 +2616,7 @@
               "size": 1622428
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.13": {
           "author": "Takamitsu Endo",
@@ -3343,9 +2627,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.13",
           "description": "TrapezoidSynth is a monophonic synthesizer equipped with 2 trapezoid oscillator. Trapezoid oscillator is based on PTR (Polynomial Transition Regions) and it has a drawback that increasing noise at high frequency. Therefore 8 times oversampled. 2 pitch shifters are added to make some chord.",
-          "id": "trapezoid-synth",
           "files": {
             "audio": {
               "name": "TrapezoidSynth.wav",
@@ -3368,20 +2650,11 @@
               "size": 1686343
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/f-d-n-cymbal": {
-      "id": "ryukau/vstplugins/f-d-n-cymbal",
-      "license": "gpl-3.0",
       "version": "0.2.19",
       "versions": {
         "0.2.19": {
@@ -3393,9 +2666,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.19",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3418,14 +2689,7 @@
               "size": 2483778
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.18": {
           "author": "Takamitsu Endo",
@@ -3436,9 +2700,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.18",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3461,14 +2723,7 @@
               "size": 2663704
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.17": {
           "author": "Takamitsu Endo",
@@ -3479,9 +2734,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.17",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3504,14 +2757,7 @@
               "size": 2709797
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.16": {
           "author": "Takamitsu Endo",
@@ -3522,9 +2768,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.16",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3547,14 +2791,7 @@
               "size": 2708103
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.15": {
           "author": "Takamitsu Endo",
@@ -3565,9 +2802,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.15",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3590,14 +2825,7 @@
               "size": 2708148
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.14": {
           "author": "Takamitsu Endo",
@@ -3608,9 +2836,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.14",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3633,14 +2859,7 @@
               "size": 2705642
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.13": {
           "author": "Takamitsu Endo",
@@ -3651,9 +2870,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.13",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3676,14 +2893,7 @@
               "size": 2700815
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.12": {
           "author": "Takamitsu Endo",
@@ -3694,9 +2904,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.12",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3719,14 +2927,7 @@
               "size": 2921511
             }
           },
-          "release": "UhhyouPlugins0.34.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.11": {
           "author": "Takamitsu Endo",
@@ -3737,9 +2938,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.11",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.flac",
@@ -3758,14 +2957,7 @@
               "size": 1950882
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.9": {
           "author": "Takamitsu Endo",
@@ -3776,9 +2968,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.9",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.wav",
@@ -3797,14 +2987,7 @@
               "size": 1905722
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.7": {
           "author": "Takamitsu Endo",
@@ -3815,9 +2998,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.7",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.wav",
@@ -3836,14 +3017,7 @@
               "size": 1604100
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.2.6": {
           "author": "Takamitsu Endo",
@@ -3854,9 +3028,7 @@
             "Fx",
             "Instrument"
           ],
-          "version": "0.2.6",
           "description": "FDNCymbal is a cymbal sound synthesizer. It can also be used as an effect. Unlike the name, most of metallic texture comes from Schroeder allpass section rather than FDN (feedback delay network). FDN section makes nice impact sound when `FDN.Time` is short. Tremolo is added to simulate wobbling of cymbal.",
-          "id": "f-d-n-cymbal",
           "files": {
             "audio": {
               "name": "FDNCymbal.wav",
@@ -3879,20 +3051,11 @@
               "size": 1669749
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/sync-saw-synth": {
-      "id": "ryukau/vstplugins/sync-saw-synth",
-      "license": "gpl-3.0",
       "version": "0.1.29",
       "versions": {
         "0.1.29": {
@@ -3904,9 +3067,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.29",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -3929,14 +3090,7 @@
               "size": 2476929
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.28": {
           "author": "Takamitsu Endo",
@@ -3947,9 +3101,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.28",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -3972,14 +3124,7 @@
               "size": 2637481
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.27": {
           "author": "Takamitsu Endo",
@@ -3990,9 +3135,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.27",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -4015,14 +3158,7 @@
               "size": 2685118
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.26": {
           "author": "Takamitsu Endo",
@@ -4033,9 +3169,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.26",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -4058,14 +3192,7 @@
               "size": 2683547
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.25": {
           "author": "Takamitsu Endo",
@@ -4076,9 +3203,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.25",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -4101,14 +3226,7 @@
               "size": 2685014
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.24": {
           "author": "Takamitsu Endo",
@@ -4119,9 +3237,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.24",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -4144,14 +3260,7 @@
               "size": 2680692
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -4162,9 +3271,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.23",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -4187,14 +3294,7 @@
               "size": 2902651
             }
           },
-          "release": "UhhyouPlugins0.34.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.22": {
           "author": "Takamitsu Endo",
@@ -4205,9 +3305,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.22",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.flac",
@@ -4226,14 +3324,7 @@
               "size": 1929998
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -4244,9 +3335,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.20",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.wav",
@@ -4265,14 +3354,7 @@
               "size": 1876134
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
@@ -4283,9 +3365,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.18",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.wav",
@@ -4304,14 +3384,7 @@
               "size": 1614837
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.17": {
           "author": "Takamitsu Endo",
@@ -4322,9 +3395,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.17",
           "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
-          "id": "sync-saw-synth",
           "files": {
             "audio": {
               "name": "SyncSawSynth.wav",
@@ -4347,20 +3418,11 @@
               "size": 1690199
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "ryukau/vstplugins/enveloped-sine": {
-      "id": "ryukau/vstplugins/enveloped-sine",
-      "license": "gpl-3.0",
       "version": "0.1.25",
       "versions": {
         "0.1.25": {
@@ -4372,9 +3434,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.25",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4397,14 +3457,7 @@
               "size": 2696459
             }
           },
-          "release": "UhhyouPlugins0.61.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.24": {
           "author": "Takamitsu Endo",
@@ -4415,9 +3468,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.24",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4440,14 +3491,7 @@
               "size": 2815008
             }
           },
-          "release": "UhhyouPlugins0.57.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.23": {
           "author": "Takamitsu Endo",
@@ -4458,9 +3502,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.23",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4483,14 +3525,7 @@
               "size": 2871009
             }
           },
-          "release": "UhhyouPlugins0.55.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.22": {
           "author": "Takamitsu Endo",
@@ -4501,9 +3536,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.22",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4526,14 +3559,7 @@
               "size": 2871349
             }
           },
-          "release": "UhhyouPlugins0.53.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.21": {
           "author": "Takamitsu Endo",
@@ -4544,9 +3570,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.21",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4569,14 +3593,7 @@
               "size": 2862643
             }
           },
-          "release": "UhhyouPlugins0.52.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.20": {
           "author": "Takamitsu Endo",
@@ -4587,9 +3604,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.20",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4612,14 +3627,7 @@
               "size": 2862973
             }
           },
-          "release": "UhhyouPlugins0.51.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.19": {
           "author": "Takamitsu Endo",
@@ -4630,9 +3638,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.19",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4655,14 +3661,7 @@
               "size": 2858527
             }
           },
-          "release": "UhhyouPlugins0.50.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.18": {
           "author": "Takamitsu Endo",
@@ -4673,9 +3672,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.18",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4698,14 +3695,7 @@
               "size": 1865097
             }
           },
-          "release": "UhhyouPlugins0.46.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.17": {
           "author": "Takamitsu Endo",
@@ -4716,9 +3706,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.17",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4741,14 +3729,7 @@
               "size": 1854349
             }
           },
-          "release": "UhhyouPlugins0.41.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.16": {
           "author": "Takamitsu Endo",
@@ -4759,9 +3740,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.16",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.flac",
@@ -4780,14 +3759,7 @@
               "size": 2070242
             }
           },
-          "release": "UhhyouPlugins0.33.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.14": {
           "author": "Takamitsu Endo",
@@ -4798,9 +3770,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.14",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.wav",
@@ -4819,14 +3789,7 @@
               "size": 2008285
             }
           },
-          "release": "CustomFontOptions",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.12": {
           "author": "Takamitsu Endo",
@@ -4837,9 +3800,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.12",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.wav",
@@ -4858,14 +3819,7 @@
               "size": 1762249
             }
           },
-          "release": "BasicLimiterAndFDN64Reverb",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         },
         "0.1.11": {
           "author": "Takamitsu Endo",
@@ -4876,9 +3830,7 @@
             "Instrument",
             "Synth"
           ],
-          "version": "0.1.11",
           "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
-          "id": "enveloped-sine",
           "files": {
             "audio": {
               "name": "EnvelopedSine.wav",
@@ -4901,20 +3853,11 @@
               "size": 1900075
             }
           },
-          "release": "ResetAndMuteFix",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
+          "license": "gpl-3.0"
         }
       }
     },
     "freepats/glass/glasses-of-water": {
-      "id": "freepats/glass/glasses-of-water",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -4928,8 +3871,6 @@
             "Glass",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "glasses-of-water",
           "date": "2019-12-27T07:00:00.000Z",
           "files": {
             "audio": {
@@ -4953,20 +3894,11 @@
               "size": 10610381
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/glass"
+          "license": "cc0-1.0"
         }
       }
     },
     "freepats/upright-piano-kw/upright-piano-kw": {
-      "id": "freepats/upright-piano-kw/upright-piano-kw",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -4980,8 +3912,6 @@
             "Piano",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "upright-piano-kw",
           "date": "2022-02-21T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5005,20 +3935,11 @@
               "size": 32365885
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/upright-piano-kw"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/opl/opl": {
-      "id": "studiorack/opl/opl",
-      "license": "gpl-2.0",
       "version": "2.1.0",
       "versions": {
         "2.1.0": {
@@ -5031,8 +3952,6 @@
             "Synth",
             "FM"
           ],
-          "version": "2.1.0",
-          "id": "opl",
           "date": "2021-02-01T08:00:00.000Z",
           "files": {
             "audio": {
@@ -5056,20 +3975,11 @@
               "size": 5845308
             }
           },
-          "release": "v2.1.0",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/opl"
+          "license": "gpl-2.0"
         }
       }
     },
     "freepats/spanish-classical-guitar/spanish-classical-guitar": {
-      "id": "freepats/spanish-classical-guitar/spanish-classical-guitar",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -5083,8 +3993,6 @@
             "Classical",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "spanish-classical-guitar",
           "date": "2019-06-18T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5108,20 +4016,11 @@
               "size": 4944097
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/spanish-classical-guitar"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/basic-harmonica/basic-harmonica": {
-      "id": "studiorack/basic-harmonica/basic-harmonica",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -5135,8 +4034,6 @@
             "Harmonica",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "basic-harmonica",
           "date": "2022-10-07T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5160,20 +4057,11 @@
               "size": 1404185
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/basic-harmonica"
+          "license": "cc0-1.0"
         }
       }
     },
     "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "id": "freepats/synthesizer-percussion/synthesizer-percussion",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -5187,8 +4075,6 @@
             "Electro",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "synthesizer-percussion",
           "date": "2022-07-18T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5212,20 +4098,11 @@
               "size": 1663242
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/synthesizer-percussion"
+          "license": "cc0-1.0"
         }
       }
     },
     "freepats/hang-d-minor/hang-d-minor": {
-      "id": "freepats/hang-d-minor/hang-d-minor",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -5239,8 +4116,6 @@
             "Hang",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "hang-d-minor",
           "date": "2022-03-30T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5264,20 +4139,11 @@
               "size": 13369709
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/hang-d-minor"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/black-and-green-guitars/black-and-green-guitars": {
-      "id": "studiorack/black-and-green-guitars/black-and-green-guitars",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -5291,8 +4157,6 @@
             "Electric",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "black-and-green-guitars",
           "date": "2022-08-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5316,20 +4180,11 @@
               "size": 292323008
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/black-and-green-guitars"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/digits/digits": {
-      "id": "studiorack/digits/digits",
-      "license": "gpl-3.0",
       "version": "2.1.0",
       "versions": {
         "2.1.0": {
@@ -5342,8 +4197,6 @@
             "Synth",
             "Casio"
           ],
-          "version": "2.1.0",
-          "id": "digits",
           "date": "2019-09-19T08:00:00.000Z",
           "files": {
             "audio": {
@@ -5367,20 +4220,11 @@
               "size": 211492
             }
           },
-          "release": "v2.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/digits"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/salamander-grand-piano/salamander-grand-piano": {
-      "id": "studiorack/salamander-grand-piano/salamander-grand-piano",
-      "license": "other",
       "version": "3.0.0",
       "versions": {
         "3.0.0": {
@@ -5394,8 +4238,6 @@
             "Yamaha",
             "sfz"
           ],
-          "version": "3.0.0",
-          "id": "salamander-grand-piano",
           "date": "2021-09-20T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5419,20 +4261,11 @@
               "size": 748416023
             }
           },
-          "release": "v3.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/salamander-grand-piano"
+          "license": "other"
         }
       }
     },
     "studiorack/avl-drumkits/avl-drumkits": {
-      "id": "studiorack/avl-drumkits/avl-drumkits",
-      "license": "other",
       "version": "1.1.0",
       "versions": {
         "1.1.0": {
@@ -5445,8 +4278,6 @@
             "Drums",
             "sfz"
           ],
-          "version": "1.1.0",
-          "id": "avl-drumkits",
           "date": "2022-02-20T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5470,20 +4301,11 @@
               "size": 16017234
             }
           },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-drumkits"
+          "license": "other"
         }
       }
     },
     "studiorack/obxd/obxd": {
-      "id": "studiorack/obxd/obxd",
-      "license": "gpl-3.0",
       "version": "2.4.0",
       "versions": {
         "2.4.0": {
@@ -5496,8 +4318,6 @@
             "Synth",
             "OB-X"
           ],
-          "version": "2.4.0",
-          "id": "obxd",
           "date": "2021-05-30T08:00:00.000Z",
           "files": {
             "audio": {
@@ -5521,20 +4341,11 @@
               "size": 20368962
             }
           },
-          "release": "v2.4.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/obxd"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/virtuosity-drums/virtuosity-drums": {
-      "id": "studiorack/virtuosity-drums/virtuosity-drums",
-      "license": "cc0-1.0",
       "version": "0.9.23",
       "versions": {
         "0.9.23": {
@@ -5548,8 +4359,6 @@
             "Jazz",
             "sfz"
           ],
-          "version": "0.9.23",
-          "id": "virtuosity-drums",
           "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5573,14 +4382,7 @@
               "size": 1224065679
             }
           },
-          "release": "v0.9.23",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/virtuosity-drums"
+          "license": "cc0-1.0"
         },
         "0.9.22": {
           "author": "Versilian Studios",
@@ -5593,8 +4395,6 @@
             "Jazz",
             "sfz"
           ],
-          "version": "0.9.22",
-          "id": "virtuosity-drums",
           "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5618,20 +4418,11 @@
               "size": 618693714
             }
           },
-          "release": "v0.9.22",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/virtuosity-drums"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/adlplug/adlplug": {
-      "id": "studiorack/adlplug/adlplug",
-      "license": "bsl-1.0",
       "version": "1.0.2",
       "versions": {
         "1.0.2": {
@@ -5644,8 +4435,6 @@
             "Synth",
             "FM"
           ],
-          "version": "1.0.2",
-          "id": "adlplug",
           "date": "2020-08-05T08:00:00.000Z",
           "files": {
             "audio": {
@@ -5669,20 +4458,11 @@
               "size": 24833093
             }
           },
-          "release": "v1.0.2",
-          "license": {
-            "key": "bsl-1.0",
-            "name": "Boost Software License 1.0",
-            "url": "https://choosealicense.com/licenses/bsl-1.0",
-            "same": false
-          },
-          "repo": "studiorack/adlplug"
+          "license": "bsl-1.0"
         }
       }
     },
     "studiorack/adlplug/opnplug": {
-      "id": "studiorack/adlplug/opnplug",
-      "license": "bsl-1.0",
       "version": "1.0.2",
       "versions": {
         "1.0.2": {
@@ -5695,8 +4475,6 @@
             "Synth",
             "FM"
           ],
-          "version": "1.0.2",
-          "id": "opnplug",
           "date": "2020-08-05T08:00:00.000Z",
           "files": {
             "audio": {
@@ -5720,20 +4498,11 @@
               "size": 25020750
             }
           },
-          "release": "v1.0.2",
-          "license": {
-            "key": "bsl-1.0",
-            "name": "Boost Software License 1.0",
-            "url": "https://choosealicense.com/licenses/bsl-1.0",
-            "same": false
-          },
-          "repo": "studiorack/adlplug"
+          "license": "bsl-1.0"
         }
       }
     },
     "studiorack/andes/andes": {
-      "id": "studiorack/andes/andes",
-      "license": "gpl-3.0",
       "version": "0.2.0",
       "versions": {
         "0.2.0": {
@@ -5746,8 +4515,6 @@
             "Synth",
             "Oscillator"
           ],
-          "version": "0.2.0",
-          "id": "andes",
           "date": "2018-06-01T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5771,20 +4538,11 @@
               "size": 3450947
             }
           },
-          "release": "v0.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/andes"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/oxe/oxe": {
-      "id": "studiorack/oxe/oxe",
-      "license": "gpl-3.0",
       "version": "1.3.5",
       "versions": {
         "1.3.5": {
@@ -5797,8 +4555,6 @@
             "Synth",
             "FM"
           ],
-          "version": "1.3.5",
-          "id": "oxe",
           "date": "2016-04-19T08:00:00.000Z",
           "files": {
             "audio": {
@@ -5822,20 +4578,11 @@
               "size": 232072
             }
           },
-          "release": "v1.3.5",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/oxe"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/kars/kars": {
-      "id": "studiorack/kars/kars",
-      "license": "isc",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -5848,8 +4595,6 @@
             "Synth",
             "String"
           ],
-          "version": "1.0.0",
-          "id": "kars",
           "date": "2019-11-24T08:00:00.000Z",
           "files": {
             "audio": {
@@ -5873,20 +4618,11 @@
               "size": 1177464
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "isc",
-            "name": "ISC License",
-            "url": "https://choosealicense.com/licenses/isc",
-            "same": false
-          },
-          "repo": "studiorack/kars"
+          "license": "isc"
         }
       }
     },
     "studiorack/tunefish/tunefish": {
-      "id": "studiorack/tunefish/tunefish",
-      "license": "gpl-3.0",
       "version": "4.0.0",
       "versions": {
         "4.0.0": {
@@ -5899,8 +4635,6 @@
             "Synth",
             "Analog"
           ],
-          "version": "4.0.0",
-          "id": "tunefish",
           "date": "2018-05-04T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5924,20 +4658,11 @@
               "size": 4147020
             }
           },
-          "release": "v4.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/tunefish"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/splendid-grand-piano/splendid-grand-piano": {
-      "id": "studiorack/splendid-grand-piano/splendid-grand-piano",
-      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -5951,8 +4676,6 @@
             "Piano",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "splendid-grand-piano",
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
@@ -5976,20 +4699,11 @@
               "size": 74736682
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/splendid-grand-piano"
+          "license": "other"
         }
       }
     },
     "studiorack/ep-mk1/ep-mk1": {
-      "id": "studiorack/ep-mk1/ep-mk1",
-      "license": "bsd-3-clause",
       "version": "2.4.0",
       "versions": {
         "2.4.0": {
@@ -6003,8 +4717,6 @@
             "Electric",
             "Piano"
           ],
-          "version": "2.4.0",
-          "id": "ep-mk1",
           "date": "2020-09-28T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6028,20 +4740,11 @@
               "size": 4704700
             }
           },
-          "release": "v2.4.0",
-          "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause 'New' or 'Revised' License",
-            "url": "https://choosealicense.com/licenses/bsd-3-clause",
-            "same": false
-          },
-          "repo": "studiorack/ep-mk1"
+          "license": "bsd-3-clause"
         }
       }
     },
     "studiorack/naked-drums/naked-drums": {
-      "id": "studiorack/naked-drums/naked-drums",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6054,8 +4757,6 @@
             "Drums",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "naked-drums",
           "date": "2021-11-08T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6079,20 +4780,11 @@
               "size": 1283342538
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/naked-drums"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/avl-percussions/avl-percussions": {
-      "id": "studiorack/avl-percussions/avl-percussions",
-      "license": "other",
       "version": "1.1.0",
       "versions": {
         "1.1.0": {
@@ -6106,8 +4798,6 @@
             "Percussions",
             "sfz"
           ],
-          "version": "1.1.0",
-          "id": "avl-percussions",
           "date": "2022-02-21T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6131,20 +4821,11 @@
               "size": 1730506
             }
           },
-          "release": "v1.1.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/avl-percussions"
+          "license": "other"
         }
       }
     },
     "studiorack/nekobi/nekobi": {
-      "id": "studiorack/nekobi/nekobi",
-      "license": "gpl-2.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6157,8 +4838,6 @@
             "Synth",
             "Oscillator"
           ],
-          "version": "1.0.0",
-          "id": "nekobi",
           "date": "2021-06-14T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6182,20 +4861,11 @@
               "size": 984470
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "gpl-2.0",
-            "name": "GNU General Public License v2.0",
-            "url": "https://choosealicense.com/licenses/gpl-2.0",
-            "same": true
-          },
-          "repo": "studiorack/nekobi"
+          "license": "gpl-2.0"
         }
       }
     },
     "studiorack/jrhodes-3c/jrhodes-3c": {
-      "id": "studiorack/jrhodes-3c/jrhodes-3c",
-      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6209,8 +4879,6 @@
             "Rhodes",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "jrhodes-3c",
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6234,20 +4902,11 @@
               "size": 17073884
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/jrhodes-3c"
+          "license": "other"
         }
       }
     },
     "studiorack/helm/helm": {
-      "id": "studiorack/helm/helm",
-      "license": "gpl-3.0",
       "version": "0.9.0",
       "versions": {
         "0.9.0": {
@@ -6260,8 +4919,6 @@
             "Synth",
             "Modulation"
           ],
-          "version": "0.9.0",
-          "id": "helm",
           "date": "2017-07-08T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6285,20 +4942,11 @@
               "size": 12671911
             }
           },
-          "release": "v0.9.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/helm"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/juicysf/juicysf": {
-      "id": "studiorack/juicysf/juicysf",
-      "license": "gpl-3.0",
       "version": "3.1.0",
       "versions": {
         "3.1.0": {
@@ -6311,8 +4959,6 @@
             "Sampler",
             "Synth"
           ],
-          "version": "3.1.0",
-          "id": "juicysf",
           "date": "2022-02-13T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6336,20 +4982,11 @@
               "size": 10578510
             }
           },
-          "release": "3.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/juicysf"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/vst2413/vst2413": {
-      "id": "studiorack/vst2413/vst2413",
-      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6362,8 +4999,6 @@
             "Synth",
             "Bit"
           ],
-          "version": "1.0.0",
-          "id": "vst2413",
           "date": "2013-04-21T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6387,20 +5022,11 @@
               "size": 228506
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/vst2413"
+          "license": "other"
         }
       }
     },
     "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "id": "studiorack/virtual-playing-orchestra/virtual-playing-orchestra",
-      "license": "gpl-3.0",
       "version": "3.2.2",
       "versions": {
         "3.2.2": {
@@ -6414,8 +5040,6 @@
             "Strings",
             "sfz"
           ],
-          "version": "3.2.2",
-          "id": "virtual-playing-orchestra",
           "date": "2020-10-31T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6439,20 +5063,11 @@
               "size": 618693714
             }
           },
-          "release": "v3.2.2",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/virtual-playing-orchestra"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/jsteeldrum/jsteel-drum": {
-      "id": "studiorack/jsteeldrum/jsteel-drum",
-      "license": "unlicense",
       "version": "2.0.0",
       "versions": {
         "2.0.0": {
@@ -6466,8 +5081,6 @@
             "Drum",
             "sfz"
           ],
-          "version": "2.0.0",
-          "id": "jsteel-drum",
           "date": "2022-09-22T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6491,20 +5104,11 @@
               "size": 38363496
             }
           },
-          "release": "v2.0.0",
-          "license": {
-            "key": "unlicense",
-            "name": "The Unlicense",
-            "url": "https://choosealicense.com/licenses/unlicense",
-            "same": false
-          },
-          "repo": "studiorack/jsteeldrum"
+          "license": "unlicense"
         }
       }
     },
     "studiorack/octasine/octasine": {
-      "id": "studiorack/octasine/octasine",
-      "license": "agpl-3.0",
       "version": "0.5.3",
       "versions": {
         "0.5.3": {
@@ -6517,8 +5121,6 @@
             "Synth",
             "Modulation"
           ],
-          "version": "0.5.3",
-          "id": "octasine",
           "date": "2021-07-18T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6542,20 +5144,11 @@
               "size": 3203934
             }
           },
-          "release": "v0.5.3",
-          "license": {
-            "key": "agpl-3.0",
-            "name": "GNU Affero General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/agpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/octasine"
+          "license": "agpl-3.0"
         }
       }
     },
     "studiorack/dexed/dexed": {
-      "id": "studiorack/dexed/dexed",
-      "license": "gpl-3.0",
       "version": "0.9.6",
       "versions": {
         "0.9.6": {
@@ -6568,8 +5161,6 @@
             "Synth",
             "FM"
           ],
-          "version": "0.9.6",
-          "id": "dexed",
           "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6593,20 +5184,11 @@
               "size": 2588488
             }
           },
-          "release": "v0.9.6",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/dexed"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/horse-pulse/horse-pulse": {
-      "id": "studiorack/horse-pulse/horse-pulse",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6620,8 +5202,6 @@
             "Pluck",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "horse-pulse",
           "date": "2022-03-31T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6645,20 +5225,11 @@
               "size": 74462529
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/horse-pulse"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/ninjas2/ninjas2": {
-      "id": "studiorack/ninjas2/ninjas2",
-      "license": "gpl-3.0",
       "version": "0.2.0",
       "versions": {
         "0.2.0": {
@@ -6671,8 +5242,6 @@
             "Sampler",
             "Slicer"
           ],
-          "version": "0.2.0",
-          "id": "ninjas2",
           "date": "2020-01-17T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6696,20 +5265,11 @@
               "size": 5995116
             }
           },
-          "release": "v0.2.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/ninjas2"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/monique-monosynth/monique": {
-      "id": "studiorack/monique-monosynth/monique",
-      "license": "other",
       "version": "1.2.0",
       "versions": {
         "1.2.0": {
@@ -6723,8 +5283,6 @@
             "Bass",
             "Lead"
           ],
-          "version": "1.2.0",
-          "id": "monique",
           "date": "2021-12-13T08:00:00.000Z",
           "files": {
             "audio": {
@@ -6748,20 +5306,11 @@
               "size": 8255789
             }
           },
-          "release": "v1.2.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/monique-monosynth"
+          "license": "other"
         }
       }
     },
     "studiorack/war-tuba/war-tuba": {
-      "id": "studiorack/war-tuba/war-tuba",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6775,8 +5324,6 @@
             "Tuba",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "war-tuba",
           "date": "2021-09-03T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6800,20 +5347,11 @@
               "size": 35601312
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/war-tuba"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/carla/carla": {
-      "id": "studiorack/carla/carla",
-      "license": "other",
       "version": "2.4.2",
       "versions": {
         "2.4.2": {
@@ -6826,8 +5364,6 @@
             "Host",
             "Player"
           ],
-          "version": "2.4.2",
-          "id": "carla",
           "date": "2022-02-19T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6851,20 +5387,11 @@
               "size": 196435153
             }
           },
-          "release": "v2.4.2",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/carla"
+          "license": "other"
         }
       }
     },
     "studiorack/bear-sax/bear-sax": {
-      "id": "studiorack/bear-sax/bear-sax",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6878,8 +5405,6 @@
             "Saxophone",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "bear-sax",
           "date": "2021-09-11T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6903,20 +5428,11 @@
               "size": 70617479
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/bear-sax"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/hungarian-zither/hungarian-zither": {
-      "id": "studiorack/hungarian-zither/hungarian-zither",
-      "license": "cc0-1.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6930,8 +5446,6 @@
             "Classical",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "hungarian-zither",
           "date": "2022-09-13T07:00:00.000Z",
           "files": {
             "audio": {
@@ -6955,20 +5469,11 @@
               "size": 181711154
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "studiorack/hungarian-zither"
+          "license": "cc0-1.0"
         }
       }
     },
     "studiorack/double-bass/double-bass": {
-      "id": "studiorack/double-bass/double-bass",
-      "license": "cc-by-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -6982,8 +5487,6 @@
             "Bass",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "double-bass",
           "date": "2021-10-07T07:00:00.000Z",
           "files": {
             "audio": {
@@ -7007,20 +5510,11 @@
               "size": 79014147
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-4.0",
-            "name": "Creative Commons Attribution 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-4.0",
-            "same": false
-          },
-          "repo": "studiorack/double-bass"
+          "license": "cc-by-4.0"
         }
       }
     },
     "studiorack/sams-sonor/sams-sonor": {
-      "id": "studiorack/sams-sonor/sams-sonor",
-      "license": "cc-by-sa-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -7034,8 +5528,6 @@
             "Kit",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "sams-sonor",
           "date": "2021-08-21T07:00:00.000Z",
           "files": {
             "audio": {
@@ -7059,20 +5551,11 @@
               "size": 36642874
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
-            "same": true
-          },
-          "repo": "studiorack/sams-sonor"
+          "license": "cc-by-sa-4.0"
         }
       }
     },
     "studiorack/sfizz/sfizz": {
-      "id": "studiorack/sfizz/sfizz",
-      "license": "bsd-2-clause",
       "version": "1.1.1",
       "versions": {
         "1.1.1": {
@@ -7085,8 +5568,6 @@
             "Sampler",
             "Synth"
           ],
-          "version": "1.1.1",
-          "id": "sfizz",
           "date": "2020-11-08T08:00:00.000Z",
           "files": {
             "audio": {
@@ -7110,20 +5591,11 @@
               "size": 4084698
             }
           },
-          "release": "v1.1.1",
-          "license": {
-            "key": "bsd-2-clause",
-            "name": "BSD 2-Clause 'Simplified' License",
-            "url": "https://choosealicense.com/licenses/bsd-2-clause",
-            "same": false
-          },
-          "repo": "studiorack/sfizz"
+          "license": "bsd-2-clause"
         }
       }
     },
     "studiorack/distrho-ports/tal-noisemaker": {
-      "id": "studiorack/distrho-ports/tal-noisemaker",
-      "license": "other",
       "version": "5.0.4",
       "versions": {
         "5.0.4": {
@@ -7136,8 +5608,6 @@
             "Synth",
             "Analog"
           ],
-          "version": "5.0.4",
-          "id": "tal-noisemaker",
           "date": "2021-02-14T07:00:00.000Z",
           "files": {
             "audio": {
@@ -7161,20 +5631,11 @@
               "size": 7764121
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/distrho-ports"
+          "license": "other"
         }
       }
     },
     "studiorack/odin/odin": {
-      "id": "studiorack/odin/odin",
-      "license": "gpl-3.0",
       "version": "2.2.4",
       "versions": {
         "2.2.4": {
@@ -7187,8 +5648,6 @@
             "Synth",
             "Moog"
           ],
-          "version": "2.2.4",
-          "id": "odin",
           "date": "2020-10-24T08:00:00.000Z",
           "files": {
             "audio": {
@@ -7212,20 +5671,11 @@
               "size": 0
             }
           },
-          "release": "v2.2.4",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/odin"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/os-251/os-251": {
-      "id": "studiorack/os-251/os-251",
-      "license": "gpl-3.0",
       "version": "1.1.0",
       "versions": {
         "1.1.0": {
@@ -7238,8 +5688,6 @@
             "Synth",
             "Lofi"
           ],
-          "version": "1.1.0",
-          "id": "os-251",
           "date": "2021-10-09T08:00:00.000Z",
           "files": {
             "audio": {
@@ -7263,20 +5711,11 @@
               "size": 2496031
             }
           },
-          "release": "v1.1.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/os-251"
+          "license": "gpl-3.0"
         }
       }
     },
     "studiorack/opl3-soundfont/opl3-soundfont": {
-      "id": "studiorack/opl3-soundfont/opl3-soundfont",
-      "license": "cc-by-sa-4.0",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -7289,8 +5728,6 @@
             "Synth",
             "sf2"
           ],
-          "version": "1.0.0",
-          "id": "opl3-soundfont",
           "date": "2017-02-08T08:00:00.000Z",
           "files": {
             "audio": {
@@ -7314,20 +5751,11 @@
               "size": 121192707
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc-by-sa-4.0",
-            "name": "Creative Commons Attribution Share Alike 4.0 International",
-            "url": "https://choosealicense.com/licenses/cc-by-sa-4.0",
-            "same": true
-          },
-          "repo": "studiorack/opl3-soundfont"
+          "license": "cc-by-sa-4.0"
         }
       }
     },
     "studiorack/salamander-drumkit/salamander-drumkit": {
-      "id": "studiorack/salamander-drumkit/salamander-drumkit",
-      "license": "other",
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -7340,8 +5768,6 @@
             "Drums",
             "sfz"
           ],
-          "version": "1.0.0",
-          "id": "salamander-drumkit",
           "date": "2012-02-25T07:00:00.000Z",
           "files": {
             "audio": {
@@ -7365,14 +5791,122 @@
               "size": 269599176
             }
           },
-          "release": "v1.0.0",
-          "license": {
-            "key": "other",
-            "name": "Other",
-            "url": "https://choosealicense.com",
-            "same": true
-          },
-          "repo": "studiorack/salamander-drumkit"
+          "license": "other"
+        }
+      }
+    },
+    "surge-synthesizer/surge": {
+      "version": "1.3.1",
+      "versions": {
+        "1.3.1": {
+          "name": "Surge XT",
+          "author": "Surge Synth Team",
+          "homepage": "https://github.com/surge-synthesizer/surge",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "date": "2024-02-06T00:00:00.000Z",
+          "license": "gpl-3.0",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.flac",
+              "size": 141339
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.jpg",
+              "size": 159518
+            },
+            "linux": {
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz",
+              "size": 94448096
+            },
+            "mac": {
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macos-1.3.1-pluginsonly.zip",
+              "size": 180726292
+            },
+            "win": {
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-pluginsonly.zip",
+              "size": 48165645
+            }
+          }
+        },
+        "1.3.0": {
+          "name": "Surge XT",
+          "author": "Surge Synth Team",
+          "homepage": "https://github.com/surge-synthesizer/surge",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "date": "2023-12-08T00:00:00.000Z",
+          "license": "gpl-3.0",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.flac",
+              "size": 141339
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.jpg",
+              "size": 159518
+            },
+            "linux": {
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-linux-1.3.0-pluginsonly.tar.gz",
+              "size": 94448096
+            },
+            "mac": {
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-macos-1.3.0-pluginsonly.zip",
+              "size": 180726292
+            },
+            "win": {
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-win64-1.3.0-pluginsonly.zip",
+              "size": 48165645
+            }
+          }
+        }
+      }
+    },
+    "sfztools/sfizz": {
+      "version": "1.2.3",
+      "versions": {
+        "1.2.3": {
+          "name": "Sfizz",
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "date": "2024-01-14T00:00:00.000Z",
+          "license": "bsd-2-clause",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfztools/sfizz/sfizz.flac",
+              "size": 47910
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfztools/sfizz/sfizz.jpg",
+              "size": 33976
+            },
+            "linux": {
+              "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz",
+              "size": 19102967
+            },
+            "mac": {
+              "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz",
+              "size": 1748833
+            },
+            "win": {
+              "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip",
+              "size": 8286178
+            }
+          }
         }
       }
     }
