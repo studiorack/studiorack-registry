@@ -21,23 +21,28 @@
           "files": {
             "audio": {
               "name": "Glass-20191227.flac",
-              "size": 67037
+              "size": 67037,
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.flac"
             },
             "image": {
               "name": "Glass-20191227.jpg",
-              "size": 125355
+              "size": 125355,
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.jpg"
             },
             "linux": {
               "name": "Glass-20191227.zip",
-              "size": 10610381
+              "size": 10610381,
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip"
             },
             "mac": {
               "name": "glasses-of-water.zip",
-              "size": 10610381
+              "size": 10610381,
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/glasses-of-water.zip"
             },
             "win": {
               "name": "Glass-20191227.zip",
-              "size": 10610381
+              "size": 10610381,
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip"
             }
           },
           "license": "cc0-1.0"
@@ -62,23 +67,28 @@
           "files": {
             "audio": {
               "name": "UprightPianoKW-20220221.flac",
-              "size": 64803
+              "size": 64803,
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.flac"
             },
             "image": {
               "name": "UprightPianoKW-20220221.jpg",
-              "size": 87924
+              "size": 87924,
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.jpg"
             },
             "linux": {
               "name": "UprightPianoKW-20220221.zip",
-              "size": 32365885
+              "size": 32365885,
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip"
             },
             "mac": {
               "name": "UprightPianoKW-20220221.zip",
-              "size": 32365885
+              "size": 32365885,
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip"
             },
             "win": {
               "name": "UprightPianoKW-20220221.zip",
-              "size": 32365885
+              "size": 32365885,
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip"
             }
           },
           "license": "cc0-1.0"
@@ -103,23 +113,28 @@
           "files": {
             "audio": {
               "name": "SpanishClassicalGuitar-20190618.flac",
-              "size": 75338
+              "size": 75338,
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.flac"
             },
             "image": {
               "name": "SpanishClassicalGuitar-20190618.jpg",
-              "size": 147385
+              "size": 147385,
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.jpg"
             },
             "linux": {
               "name": "SpanishClassicalGuitar-20190618.zip",
-              "size": 4944097
+              "size": 4944097,
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip"
             },
             "mac": {
               "name": "SpanishClassicalGuitar-20190618.zip",
-              "size": 4944097
+              "size": 4944097,
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip"
             },
             "win": {
               "name": "SpanishClassicalGuitar-20190618.zip",
-              "size": 4944097
+              "size": 4944097,
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip"
             }
           },
           "license": "cc0-1.0"
@@ -144,23 +159,28 @@
           "files": {
             "audio": {
               "name": "basic-harmonica.flac",
-              "size": 100197
+              "size": 100197,
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.flac"
             },
             "image": {
               "name": "basic-harmonica.jpg",
-              "size": 65716
+              "size": 65716,
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.jpg"
             },
             "linux": {
               "name": "basic-harmonica.zip",
-              "size": 1404185
+              "size": 1404185,
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip"
             },
             "mac": {
               "name": "basic-harmonica.zip",
-              "size": 1404185
+              "size": 1404185,
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip"
             },
             "win": {
               "name": "basic-harmonica.zip",
-              "size": 1404185
+              "size": 1404185,
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip"
             }
           },
           "license": "cc0-1.0"
@@ -185,23 +205,28 @@
           "files": {
             "audio": {
               "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815
+              "size": 135815,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
             },
             "image": {
               "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466
+              "size": 154466,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
             },
             "linux": {
               "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
             },
             "mac": {
               "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
             },
             "win": {
               "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
             }
           },
           "license": "cc0-1.0"
@@ -226,23 +251,28 @@
           "files": {
             "audio": {
               "name": "Hang-D-minor-20220330.flac",
-              "size": 78343
+              "size": 78343,
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.flac"
             },
             "image": {
               "name": "Hang-D-minor-20220330.jpg",
-              "size": 43408
+              "size": 43408,
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.jpg"
             },
             "linux": {
               "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
+              "size": 13369709,
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip"
             },
             "mac": {
               "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
+              "size": 13369709,
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip"
             },
             "win": {
               "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
+              "size": 13369709,
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip"
             }
           },
           "license": "cc0-1.0"
@@ -267,23 +297,28 @@
           "files": {
             "audio": {
               "name": "black-and-green-guitars.flac",
-              "size": 64823
+              "size": 64823,
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.flac"
             },
             "image": {
               "name": "black-and-green-guitars.jpg",
-              "size": 100550
+              "size": 100550,
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.jpg"
             },
             "linux": {
               "name": "black-and-green-guitars.zip",
-              "size": 292323008
+              "size": 292323008,
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip"
             },
             "mac": {
               "name": "black-and-green-guitars.zip",
-              "size": 292323008
+              "size": 292323008,
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip"
             },
             "win": {
               "name": "black-and-green-guitars.zip",
-              "size": 292323008
+              "size": 292323008,
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip"
             }
           },
           "license": "cc0-1.0"
@@ -308,23 +343,28 @@
           "files": {
             "audio": {
               "name": "salamander-grand-piano.flac",
-              "size": 365662
+              "size": 365662,
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.flac"
             },
             "image": {
               "name": "salamander-grand-piano.jpg",
-              "size": 88748
+              "size": 88748,
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.jpg"
             },
             "linux": {
               "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "size": 748416023,
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip"
             },
             "mac": {
               "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "size": 748416023,
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip"
             },
             "win": {
               "name": "salamander-grand-piano.zip",
-              "size": 748416023
+              "size": 748416023,
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip"
             }
           },
           "license": "other"
@@ -348,23 +388,28 @@
           "files": {
             "audio": {
               "name": "avl-drumkits.flac",
-              "size": 696023
+              "size": 696023,
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.flac"
             },
             "image": {
               "name": "avl-drumkits.jpg",
-              "size": 326339
+              "size": 326339,
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.jpg"
             },
             "linux": {
               "name": "avl-drumkits.zip",
-              "size": 16017234
+              "size": 16017234,
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip"
             },
             "mac": {
               "name": "avl-drumkits.zip",
-              "size": 16017234
+              "size": 16017234,
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip"
             },
             "win": {
               "name": "avl-drumkits.zip",
-              "size": 16017234
+              "size": 16017234,
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip"
             }
           },
           "license": "other"
@@ -389,23 +434,28 @@
           "files": {
             "audio": {
               "name": "virtuosity-drums.flac",
-              "size": 821118
+              "size": 821118,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.flac"
             },
             "image": {
               "name": "virtuosity-drums.jpg",
-              "size": 73357
+              "size": 73357,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.jpg"
             },
             "linux": {
               "name": "virtuosity-drums.zip",
-              "size": 1224065679
+              "size": 1224065679,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip"
             },
             "mac": {
               "name": "virtuosity-drums.zip",
-              "size": 1224065679
+              "size": 1224065679,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip"
             },
             "win": {
               "name": "virtuosity-drums.zip",
-              "size": 1224065679
+              "size": 1224065679,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip"
             }
           },
           "license": "cc0-1.0"
@@ -425,23 +475,28 @@
           "files": {
             "audio": {
               "name": "virtuosity-drums.flac",
-              "size": 821118
+              "size": 821118,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.flac"
             },
             "image": {
               "name": "virtuosity-drums.jpg",
-              "size": 73357
+              "size": 73357,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.jpg"
             },
             "linux": {
               "name": "virtuosity-drums.zip",
-              "size": 618693714
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip"
             },
             "mac": {
               "name": "virtuosity-drums.zip",
-              "size": 618693714
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip"
             },
             "win": {
               "name": "virtuosity-drums.zip",
-              "size": 618693714
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip"
             }
           },
           "license": "cc0-1.0"
@@ -466,23 +521,28 @@
           "files": {
             "audio": {
               "name": "jrhodes-3c.flac",
-              "size": 64422
+              "size": 64422,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.flac"
             },
             "image": {
               "name": "jrhodes-3c.jpg",
-              "size": 283376
+              "size": 283376,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.jpg"
             },
             "linux": {
               "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
             },
             "mac": {
               "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
             },
             "win": {
               "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
             }
           },
           "license": "other"
@@ -506,23 +566,28 @@
           "files": {
             "audio": {
               "name": "naked-drums.flac",
-              "size": 553525
+              "size": 553525,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
             },
             "image": {
               "name": "naked-drums.jpg",
-              "size": 24452
+              "size": 24452,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
             },
             "linux": {
               "name": "naked-drums.zip",
-              "size": 1283342538
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
             },
             "mac": {
               "name": "naked-drums.zip",
-              "size": 1283342538
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
             },
             "win": {
               "name": "naked-drums.zip",
-              "size": 1283342538
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
             }
           },
           "license": "cc-by-4.0"
@@ -547,23 +612,28 @@
           "files": {
             "audio": {
               "name": "avl-percussions.flac",
-              "size": 193990
+              "size": 193990,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
             },
             "image": {
               "name": "avl-percussions.jpg",
-              "size": 159466
+              "size": 159466,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
             },
             "linux": {
               "name": "avl-percussions.zip",
-              "size": 1730506
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
             },
             "mac": {
               "name": "avl-percussions.zip",
-              "size": 1730506
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
             },
             "win": {
               "name": "avl-percussions.zip",
-              "size": 1730506
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
             }
           },
           "license": "other"
@@ -588,23 +658,28 @@
           "files": {
             "audio": {
               "name": "splendid-grand-piano.flac",
-              "size": 69723
+              "size": 69723,
+              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.flac"
             },
             "image": {
               "name": "splendid-grand-piano.jpg",
-              "size": 171264
+              "size": 171264,
+              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.jpg"
             },
             "linux": {
               "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "size": 74736682,
+              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
             },
             "mac": {
               "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "size": 74736682,
+              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
             },
             "win": {
               "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "size": 74736682,
+              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
             }
           },
           "license": "other"
@@ -629,23 +704,28 @@
           "files": {
             "audio": {
               "name": "virtual-playing-orchestra.flac",
-              "size": 137127
+              "size": 137127,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.flac"
             },
             "image": {
               "name": "virtual-playing-orchestra.jpg",
-              "size": 79890
+              "size": 79890,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.jpg"
             },
             "linux": {
               "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
             },
             "mac": {
               "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
             },
             "win": {
               "name": "virtual-playing-orchestra.zip",
-              "size": 618693714
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
             }
           },
           "license": "gpl-3.0"
@@ -670,23 +750,28 @@
           "files": {
             "audio": {
               "name": "jsteel-drum.flac",
-              "size": 83358
+              "size": 83358,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.flac"
             },
             "image": {
               "name": "jsteel-drum.jpg",
-              "size": 222224
+              "size": 222224,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.jpg"
             },
             "linux": {
               "name": "jsteel-drum.zip",
-              "size": 38363496
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
             },
             "mac": {
               "name": "jsteel-drum.zip",
-              "size": 38363496
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
             },
             "win": {
               "name": "jsteel-drum.zip",
-              "size": 38363496
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
             }
           },
           "license": "unlicense"
@@ -711,23 +796,28 @@
           "files": {
             "audio": {
               "name": "horse-pulse.flac",
-              "size": 58263
+              "size": 58263,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.flac"
             },
             "image": {
               "name": "horse-pulse.jpg",
-              "size": 92078
+              "size": 92078,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.jpg"
             },
             "linux": {
               "name": "horse-pulse.zip",
-              "size": 74462529
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
             },
             "mac": {
               "name": "horse-pulse.zip",
-              "size": 74462529
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
             },
             "win": {
               "name": "horse-pulse.zip",
-              "size": 74462529
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
             }
           },
           "license": "cc0-1.0"
@@ -752,23 +842,28 @@
           "files": {
             "audio": {
               "name": "sams-sonor.flac",
-              "size": 207120
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
             },
             "image": {
               "name": "sams-sonor.jpg",
-              "size": 239836
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
             },
             "linux": {
               "name": "sams-sonor.zip",
-              "size": 36642874
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
             },
             "mac": {
               "name": "sams-sonor.zip",
-              "size": 36642874
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
             },
             "win": {
               "name": "sams-sonor.zip",
-              "size": 36642874
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
             }
           },
           "license": "cc-by-sa-4.0"
@@ -793,23 +888,28 @@
           "files": {
             "audio": {
               "name": "war-tuba.flac",
-              "size": 88482
+              "size": 88482,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
             },
             "image": {
               "name": "war-tuba.jpg",
-              "size": 69063
+              "size": 69063,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
             },
             "linux": {
               "name": "war-tuba.zip",
-              "size": 35601312
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
             },
             "mac": {
               "name": "war-tuba.zip",
-              "size": 35601312
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
             },
             "win": {
               "name": "war-tuba.zip",
-              "size": 35601312
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
             }
           },
           "license": "cc-by-4.0"
@@ -834,23 +934,28 @@
           "files": {
             "audio": {
               "name": "bear-sax.flac",
-              "size": 86918
+              "size": 86918,
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.flac"
             },
             "image": {
               "name": "bear-sax.jpg",
-              "size": 85425
+              "size": 85425,
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.jpg"
             },
             "linux": {
               "name": "bear-sax.zip",
-              "size": 70617479
+              "size": 70617479,
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip"
             },
             "mac": {
               "name": "bear-sax.zip",
-              "size": 70617479
+              "size": 70617479,
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip"
             },
             "win": {
               "name": "bear-sax.zip",
-              "size": 70617479
+              "size": 70617479,
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip"
             }
           },
           "license": "cc-by-4.0"
@@ -875,23 +980,28 @@
           "files": {
             "audio": {
               "name": "hungarian-zither.flac",
-              "size": 172274
+              "size": 172274,
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.flac"
             },
             "image": {
               "name": "hungarian-zither.jpg",
-              "size": 88693
+              "size": 88693,
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.jpg"
             },
             "linux": {
               "name": "hungarian-zither.zip",
-              "size": 181711154
+              "size": 181711154,
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip"
             },
             "mac": {
               "name": "hungarian-zither.zip",
-              "size": 181711154
+              "size": 181711154,
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip"
             },
             "win": {
               "name": "hungarian-zither.zip",
-              "size": 181711154
+              "size": 181711154,
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip"
             }
           },
           "license": "cc0-1.0"
@@ -916,23 +1026,28 @@
           "files": {
             "audio": {
               "name": "double-bass.flac",
-              "size": 77117
+              "size": 77117,
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.flac"
             },
             "image": {
               "name": "double-bass.jpg",
-              "size": 45157
+              "size": 45157,
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.jpg"
             },
             "linux": {
               "name": "double-bass.zip",
-              "size": 79014147
+              "size": 79014147,
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip"
             },
             "mac": {
               "name": "double-bass.zip",
-              "size": 79014147
+              "size": 79014147,
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip"
             },
             "win": {
               "name": "double-bass.zip",
-              "size": 79014147
+              "size": 79014147,
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip"
             }
           },
           "license": "cc-by-4.0"
@@ -956,23 +1071,28 @@
           "files": {
             "audio": {
               "name": "salamander-drumkit.flac",
-              "size": 162704
+              "size": 162704,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.flac"
             },
             "image": {
               "name": "salamander-drumkit.jpg",
-              "size": 94023
+              "size": 94023,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.jpg"
             },
             "linux": {
               "name": "salamander-drumkit.zip",
-              "size": 269599176
+              "size": 269599176,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
             },
             "mac": {
               "name": "salamander-drumkit.zip",
-              "size": 269599176
+              "size": 269599176,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
             },
             "win": {
               "name": "salamander-drumkit.zip",
-              "size": 269599176
+              "size": 269599176,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
             }
           },
           "license": "other"
