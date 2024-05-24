@@ -47,16 +47,14 @@ export function registryPackClean(pack: PluginPack) {
         const file: PluginFile = plugin.files[fileId as keyof PluginFiles];
         file.url = pluginFileUrl(plugin, fileId as keyof PluginFiles);
       });
-      console.log('before', plugin.id, plugin.license);
-      // if (plugin.license && typeof plugin.license !== 'string' && plugin.license.key)
-      //   plugin.license = plugin.license.key as unknown as PluginLicense;
-      console.log('after', plugin.id, plugin.license);
-      // @ts-expect-error Types need to be updated in core package
+      if (plugin.license && typeof plugin.license !== 'string' && plugin.license.key)
+        plugin.license = plugin.license.key;
+      delete plugin.id;
       delete plugin.release;
+      delete plugin.repo;
+      delete plugin.version;
     });
-    // @ts-expect-error Types need to be updated in core package
     delete pluginEntry.id;
-    // @ts-expect-error Types need to be updated in core package
     delete pluginEntry.license;
   });
   return pack;
@@ -107,17 +105,17 @@ export function registryVersion(registry: PluginRegistry, path = '') {
 }
 
 export async function run() {
-  // const githubPack: PluginPack = await githubGetPack();
+  const githubPack: PluginPack = await githubGetPack();
   const localPack: PluginPack = localGetPack();
 
   // Registry v1
   const registryV1: PluginRegistry = registryNew('registry', '1.0.0');
-  // registryPackAdd(registryV1, githubPack);
+  registryPackAdd(registryV1, githubPack);
   registryVersion(registryV1);
 
   // Registry v2
   const registryV2: PluginRegistry = registryNew('registry', '2.0.0');
-  // registryPackAdd(registryV2, registryPackClean(githubPack));
+  registryPackAdd(registryV2, registryPackClean(githubPack));
   registryPackAdd(registryV2, localPack);
   registryVersion(registryV2, 'v2/');
 }

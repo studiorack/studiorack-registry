@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest';
 import { registryNew } from '../src/main';
-import { PluginRegistry } from '../src/types/Plugin';
+import { PluginRegistry } from '@studiorack/core';
 
 const PLUGIN_REGISTRY: PluginRegistry = {
   name: `StudioRack Registry - registry`,

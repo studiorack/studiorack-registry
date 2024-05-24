@@ -1,5 +1,12 @@
 import * as semver from 'semver';
-import { PluginPack, PluginVersion, PluginVersionLocal, pluginValidateSchema, safeSlug } from '@studiorack/core';
+import {
+  PluginPack,
+  PluginVersion,
+  PluginVersionLocal,
+  pluginLicense,
+  pluginValidateSchema,
+  safeSlug,
+} from '@studiorack/core';
 import fetch from 'node-fetch';
 import { gql, GraphQLClient, RequestDocument } from 'graphql-request';
 
@@ -10,15 +17,20 @@ const GITHUB_TOPIC: string = 'studiorack-plugin';
 const GITHUB_REPO_PAGINATION: number = 100;
 const GITHUB_RELEASES_PAGINATION: number = 100;
 
+export interface GitHubLicense {
+  key: string;
+  name: string;
+  url: string;
+  same: boolean;
+}
+
 interface GitHubRelease {
   tagName: string;
 }
 
 interface GitHubRepository {
   nameWithOwner: string;
-  licenseInfo: {
-    key: string;
-  };
+  licenseInfo: GitHubLicense;
   releases: {
     nodes: GitHubRelease[];
   };
@@ -68,23 +80,33 @@ async function githubSearchRepos(url: string): Promise<GitHubSearch> {
 }
 
 async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, release: GitHubRelease) {
-  const pluginsJsonList = await githubGetPlugins(
+  const pluginsJsonList = await getJSONSafe(
     `https://github.com/${repo.nameWithOwner}/releases/download/${release.tagName}/plugins.json`,
   );
   pluginsJsonList.plugins.forEach((plugin: PluginVersion) => {
     // For each plugin sanitize the id and add to registry
-    const pluginId = safeSlug(`${repo.nameWithOwner}/${plugin.id}`);
-    const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
+    const pluginId: string = safeSlug(`${repo.nameWithOwner}/${plugin.id}`);
+    const pluginVersion: string = semver.coerce(plugin.version)?.version || '0.0.0';
+
+    if (plugin.id) plugin.id = safeSlug(plugin.id);
+    plugin.version = pluginVersion;
+    plugin.release = release.tagName;
+    plugin.license = pluginLicense(repo.licenseInfo?.key || 'other');
+    plugin.repo = safeSlug(repo.nameWithOwner);
     console.log('github', pluginId, pluginVersion);
+
+    // Ensure plugin has valid fields.
+    const error = pluginValidateSchema(plugin as PluginVersionLocal);
+    if (error) return console.log(error);
+
     if (!pluginPack[pluginId]) {
       pluginPack[pluginId] = {
+        id: pluginId,
+        license: repo.licenseInfo?.key || 'other',
         version: pluginVersion,
         versions: {},
       };
     }
-    // Ensure all plugins have these legacy attributes.
-    plugin.id = pluginId;
-    plugin.version = pluginVersion;
     pluginPack[pluginId].versions[pluginVersion] = plugin;
     // If plugin version is greater than the current, set as latest version
     if (semver.gt(pluginVersion, pluginPack[pluginId].version)) {
@@ -92,21 +114,6 @@ async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, 
     }
   });
   return pluginPack;
-}
-
-async function githubGetPlugins(url: string) {
-  const pluginsValid: PluginVersion[] = [];
-  const pluginsJson = await getJSONSafe(url);
-  pluginsJson.plugins.forEach((plugin: PluginVersion) => {
-    const error = pluginValidateSchema(plugin as PluginVersionLocal);
-    if (error === false) {
-      plugin.id = safeSlug(plugin.id || '');
-      pluginsValid.push(plugin);
-    } else {
-      console.log(error, plugin);
-    }
-  });
-  return { plugins: pluginsValid };
 }
 
 async function getJSONSafe(url: string): Promise<any> {

@@ -1,7 +1,15 @@
 import yaml from 'js-yaml';
 import path from 'path';
 import * as semver from 'semver';
-import { PluginPack, PluginVersion, dirRead, fileReadString, safeSlug } from '@studiorack/core';
+import {
+  PluginPack,
+  PluginVersion,
+  PluginVersionLocal,
+  dirRead,
+  fileReadString,
+  pluginValidateSchema,
+  safeSlug,
+} from '@studiorack/core';
 
 const LOCAL_DIR: string = path.join('src', 'plugins');
 const LOCAL_EXT: string = '.yaml';
@@ -13,23 +21,30 @@ export function localGetPack() {
   filepaths.forEach((filepath: string) => {
     // TODO update studiorack/core to handle these strings
     const parts: string[] = filepath.replace(LOCAL_DIR, '').replace(LOCAL_EXT, '').substring(1).split(path.sep);
-    const id = safeSlug(`${parts[0]}/${parts[1]}`);
-    const version = parts[2];
-    if (!pack[id]) {
+    const pluginId: string = safeSlug(`${parts[0]}/${parts[1]}`);
+    const pluginVersion: string = parts[2];
+
+    // Get plugin from yaml files.
+    const plugin: PluginVersion = localGetFile(filepath);
+    if (typeof plugin.date === 'object') plugin.date = (plugin.date as Date).toISOString();
+    console.log('local', pluginId, pluginVersion);
+
+    // Ensure plugin has valid fields.
+    const error = pluginValidateSchema(plugin as PluginVersionLocal);
+    if (error) return console.log(error);
+
+    // Add plugin to the plugin pack.
+    if (!pack[pluginId]) {
       // @ts-ignore
-      pack[id] = {
-        version,
+      pack[pluginId] = {
+        version: pluginVersion,
         versions: {},
       };
     }
-    // Release is different from version and can vary per version
-    const plugin: PluginVersion = localGetFile(filepath);
-    plugin.id = id;
-    plugin.version = version;
-    pack[id].versions[version] = plugin;
+    pack[pluginId].versions[pluginVersion] = plugin;
     // If plugin version is greater than the current, set as latest version
-    if (semver.gt(version, pack[id].version)) {
-      pack[id].version = version;
+    if (semver.gt(pluginVersion, pack[pluginId].version)) {
+      pack[pluginId].version = pluginVersion;
     }
   });
   return pack;

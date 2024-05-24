@@ -1,6 +1,6 @@
 {
   "name": "studiorack-registry",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Audio plugin registry with searchable plugin list, metadata and download urls",
   "type": "module",
   "main": "./build/main.js",
@@ -42,7 +42,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@studiorack/core": "^1.2.8",
+    "@studiorack/core": "^2.0.1",
     "graphql-request": "^6.1.0",
     "js-yaml": "^4.1.0",
     "semver": "^7.6.0"
