@@ -1,19 +1,17 @@
 import * as semver from 'semver';
-import { getJSON, pathGetId, pathGetVersion, PluginInterface, PluginPack, safeSlug } from '@studiorack/core';
+import { fileReadJson, pathGetId, PluginPack, PluginVersion, safeSlug } from '@studiorack/core';
 
 const REGISTRY_URL = 'https://central.owlplug.com/store';
 
 interface OwlPluginInterface {
   name: string;
   creator: string;
+  license: string;
   screenshotUrl: string;
   description: string;
   pageUrl: string;
   donateUrl: string;
-  version: string;
-  technicalUid: string;
   type: string;
-  stage: string;
   tags: string[];
   bundles: OwlPluginFiles[];
 }
@@ -23,14 +21,15 @@ interface OwlPluginFiles {
   targets: string[];
   format: string;
   downloadUrl: string;
+  downloadSha256: string;
   fileSize: number;
 }
 
 async function getOwlplugPack(): Promise<PluginPack> {
   const pluginPack: PluginPack = {};
-  const registry = await getJSON(REGISTRY_URL);
+  const registry = await fileReadJson(REGISTRY_URL);
   registry.products.forEach((product: OwlPluginInterface) => {
-    const plugin: PluginInterface = {
+    const plugin: PluginVersion = {
       author: product.creator,
       date: new Date().toISOString(),
       description: product.description,
@@ -38,38 +37,35 @@ async function getOwlplugPack(): Promise<PluginPack> {
       id: pathGetId(product.screenshotUrl),
       name: product.name,
       files: {
-        audio: { name: '', size: 0 },
-        image: { name: product.screenshotUrl, size: 0 },
-        linux: { name: '', size: 0 },
-        mac: { name: '', size: 0 },
-        win: { name: '', size: 0 },
+        audio: { url: '', size: 0 },
+        image: { url: product.screenshotUrl, size: 0 },
+        linux: { url: '', size: 0 },
+        mac: { url: '', size: 0 },
+        win: { url: '', size: 0 },
       },
-      release: `v${registry.version}`,
-      repo: 'owlplug/central',
+      license: product.license,
       tags: product.tags,
-      version: pathGetVersion(product.version || '0.0.0'),
+      version: '0.0.0',
     };
     product.bundles.forEach((bundle: OwlPluginFiles) => {
       if (bundle.targets.includes('linux')) {
-        plugin.files.linux.name = bundle.downloadUrl;
+        plugin.files.linux.url = bundle.downloadUrl;
         plugin.files.linux.size = bundle.fileSize;
       }
       if (bundle.targets.includes('osx')) {
-        plugin.files.mac.name = bundle.downloadUrl;
+        plugin.files.mac.url = bundle.downloadUrl;
         plugin.files.mac.size = bundle.fileSize;
       } else if (bundle.targets.includes('win64')) {
-        plugin.files.win.name = bundle.downloadUrl;
+        plugin.files.win.url = bundle.downloadUrl;
         plugin.files.win.size = bundle.fileSize;
       }
     });
     // For each plugin sanitize the id and add to registry
-    const pluginId = safeSlug(`${plugin.repo}/${plugin.id}`);
+    const pluginId = safeSlug(plugin.id || '');
     const pluginVersion = semver.coerce(plugin.version)?.version || '0.0.0';
     console.log('owlplug', pluginId, pluginVersion);
     if (!pluginPack[pluginId]) {
       pluginPack[pluginId] = {
-        id: pluginId,
-        license: '',
         version: pluginVersion,
         versions: {},
       };
