@@ -5,9 +5,13 @@
   "type": "module",
   "main": "./build/main.js",
   "exports": "./build/main.js",
+  "types": "./build/main.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "copy": "cp -r ./src/plugins ./build/src",
-    "start": "node build/src/main.js",
+    "start": "node ./build/main.js",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.json && npm run copy",
