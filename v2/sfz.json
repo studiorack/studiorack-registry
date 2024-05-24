@@ -448,41 +448,41 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+    "studiorack/jrhodes-3c/jrhodes-3c": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
           "tags": [
             "Instrument",
             "Keys",
-            "Piano",
+            "Rhodes",
             "sfz"
           ],
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
+              "name": "jrhodes-3c.flac",
+              "size": 64422
             },
             "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
             },
             "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             },
             "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             },
             "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             }
           },
           "license": "other"
@@ -570,41 +570,41 @@
         }
       }
     },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
           "tags": [
             "Instrument",
             "Keys",
-            "Rhodes",
+            "Piano",
             "sfz"
           ],
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
             },
             "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
             },
             "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             }
           },
           "license": "other"
@@ -731,6 +731,47 @@
             }
           },
           "license": "cc0-1.0"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            }
+          },
+          "license": "cc-by-sa-4.0"
         }
       }
     },
@@ -895,47 +936,6 @@
             }
           },
           "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            }
-          },
-          "license": "cc-by-sa-4.0"
         }
       }
     },

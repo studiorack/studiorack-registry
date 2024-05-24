@@ -7684,6 +7684,46 @@
         }
       }
     },
+    "studiorack/obxd/obxd": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
     "studiorack/digits/digits": {
       "version": "2.1.0",
       "versions": {
@@ -7805,46 +7845,6 @@
         }
       }
     },
-    "studiorack/obxd/obxd": {
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.flac",
-              "size": 63794
-            },
-            "image": {
-              "name": "obxd.jpg",
-              "size": 76569
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931
-            },
-            "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
     "studiorack/virtuosity-drums/virtuosity-drums": {
       "version": "0.9.23",
       "versions": {
@@ -7919,6 +7919,46 @@
             }
           },
           "license": "cc0-1.0"
+        }
+      }
+    },
+    "studiorack/andes/andes": {
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Artem Popov",
+          "homepage": "https://artfwo.github.io/andes/",
+          "name": "Andes",
+          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "date": "2018-06-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "andes.flac",
+              "size": 12493
+            },
+            "image": {
+              "name": "andes.jpg",
+              "size": 27379
+            },
+            "linux": {
+              "name": "andes-linux.zip",
+              "size": 6118842
+            },
+            "mac": {
+              "name": "andes-mac.zip",
+              "size": 5225268
+            },
+            "win": {
+              "name": "andes-win.zip",
+              "size": 3450947
+            }
+          },
+          "license": "gpl-3.0"
         }
       }
     },
@@ -7999,46 +8039,6 @@
             }
           },
           "license": "bsl-1.0"
-        }
-      }
-    },
-    "studiorack/andes/andes": {
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
-          "name": "Andes",
-          "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "date": "2018-06-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "andes.flac",
-              "size": 12493
-            },
-            "image": {
-              "name": "andes.jpg",
-              "size": 27379
-            },
-            "linux": {
-              "name": "andes-linux.zip",
-              "size": 6118842
-            },
-            "mac": {
-              "name": "andes-mac.zip",
-              "size": 5225268
-            },
-            "win": {
-              "name": "andes-win.zip",
-              "size": 3450947
-            }
-          },
-          "license": "gpl-3.0"
         }
       }
     },
@@ -8162,121 +8162,121 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
-      "version": "3.2.5",
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "version": "0.1.8",
       "versions": {
-        "3.2.5": {
-          "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
-          "name": "Dragonfly Reverb",
-          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
           "tags": [
             "Effect",
-            "Reverb",
-            "Plate"
+            "Distortion",
+            "Editor"
           ],
-          "date": "2021-03-04T08:00:00.000Z",
+          "date": "2020-10-01T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "dragonfly-reverb.flac",
-              "size": 82471
+              "name": "wolf-shaper.flac",
+              "size": 103066
             },
             "image": {
-              "name": "dragonfly-reverb.jpg",
-              "size": 119902
+              "name": "wolf-shaper.jpg",
+              "size": 39286
             },
             "linux": {
-              "name": "dragonfly-reverb-linux.zip",
-              "size": 6921808
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880
             },
             "mac": {
-              "name": "dragonfly-reverb-mac.zip",
-              "size": 4542730
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937
             },
             "win": {
-              "name": "dragonfly-reverb-win.zip",
-              "size": 9359636
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913
             }
           },
           "license": "gpl-3.0"
         }
       }
     },
-    "studiorack/diopser/diopser": {
-      "version": "0.0.1",
-      "versions": {
-        "0.0.1": {
-          "author": "Robbert van der Helm",
-          "homepage": "https://github.com/robbert-vdh/diopser",
-          "name": "Diopser",
-          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
-          "tags": [
-            "Effect",
-            "Phaser",
-            "Frequency"
-          ],
-          "date": "2021-11-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "diopser.flac",
-              "size": 77049
-            },
-            "image": {
-              "name": "diopser.jpg",
-              "size": 43851
-            },
-            "linux": {
-              "name": "diopser-linux.zip",
-              "size": 1767254
-            },
-            "mac": {
-              "name": "diopser-mac.zip",
-              "size": 1894438
-            },
-            "win": {
-              "name": "diopser-win.zip",
-              "size": 2017988
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+    "studiorack/nekobi/nekobi": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "nekobi.flac",
+              "size": 54778
+            },
+            "image": {
+              "name": "nekobi.jpg",
+              "size": 14389
+            },
+            "linux": {
+              "name": "nekobi-linux.zip",
+              "size": 861637
+            },
+            "mac": {
+              "name": "nekobi-mac.zip",
+              "size": 1001626
+            },
+            "win": {
+              "name": "nekobi-win.zip",
+              "size": 984470
+            }
+          },
+          "license": "gpl-2.0"
+        }
+      }
+    },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
           "tags": [
             "Instrument",
             "Keys",
-            "Piano",
+            "Rhodes",
             "sfz"
           ],
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723
+              "name": "jrhodes-3c.flac",
+              "size": 64422
             },
             "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171264
+              "name": "jrhodes-3c.jpg",
+              "size": 283376
             },
             "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             },
             "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             },
             "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74736682
+              "name": "jrhodes-3c.zip",
+              "size": 17073884
             }
           },
           "license": "other"
@@ -8405,121 +8405,121 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "version": "0.1.8",
+    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+      "version": "3.2.5",
       "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+        "3.2.5": {
+          "author": "Michael Willis",
+          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "name": "Dragonfly Reverb",
+          "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "tags": [
             "Effect",
-            "Distortion",
-            "Editor"
+            "Reverb",
+            "Plate"
           ],
-          "date": "2020-10-01T07:00:00.000Z",
+          "date": "2021-03-04T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066
+              "name": "dragonfly-reverb.flac",
+              "size": 82471
             },
             "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286
+              "name": "dragonfly-reverb.jpg",
+              "size": 119902
             },
             "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880
+              "name": "dragonfly-reverb-linux.zip",
+              "size": 6921808
             },
             "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937
+              "name": "dragonfly-reverb-mac.zip",
+              "size": 4542730
             },
             "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913
+              "name": "dragonfly-reverb-win.zip",
+              "size": 9359636
             }
           },
           "license": "gpl-3.0"
         }
       }
     },
-    "studiorack/nekobi/nekobi": {
-      "version": "1.0.0",
+    "studiorack/diopser/diopser": {
+      "version": "0.0.1",
       "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+        "0.0.1": {
+          "author": "Robbert van der Helm",
+          "homepage": "https://github.com/robbert-vdh/diopser",
+          "name": "Diopser",
+          "description": "Rotate the phase of a signal around a specific frequency without affecting its spectral content.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
+            "Effect",
+            "Phaser",
+            "Frequency"
           ],
-          "date": "2021-06-14T08:00:00.000Z",
+          "date": "2021-11-14T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "nekobi.flac",
-              "size": 54778
+              "name": "diopser.flac",
+              "size": 77049
             },
             "image": {
-              "name": "nekobi.jpg",
-              "size": 14389
+              "name": "diopser.jpg",
+              "size": 43851
             },
             "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 861637
+              "name": "diopser-linux.zip",
+              "size": 1767254
             },
             "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 1001626
+              "name": "diopser-mac.zip",
+              "size": 1894438
             },
             "win": {
-              "name": "nekobi-win.zip",
-              "size": 984470
+              "name": "diopser-win.zip",
+              "size": 2017988
             }
           },
-          "license": "gpl-2.0"
+          "license": "gpl-3.0"
         }
       }
     },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
+    "studiorack/splendid-grand-piano/splendid-grand-piano": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "author": "Akai",
+          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
+          "name": "Splendid Grand Piano",
+          "description": "Steinway piano with 4 velocity layers",
           "tags": [
             "Instrument",
             "Keys",
-            "Rhodes",
+            "Piano",
             "sfz"
           ],
           "date": "2022-01-02T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422
+              "name": "splendid-grand-piano.flac",
+              "size": 69723
             },
             "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376
+              "name": "splendid-grand-piano.jpg",
+              "size": 171264
             },
             "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             },
             "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884
+              "name": "splendid-grand-piano.zip",
+              "size": 74736682
             }
           },
           "license": "other"
@@ -9009,6 +9009,126 @@
         }
       }
     },
+    "studiorack/mverb/mverb": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195
+            }
+          },
+          "license": "apache-2.0"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874
+            }
+          },
+          "license": "cc-by-sa-4.0"
+        }
+      }
+    },
     "studiorack/chow-tape-model/chow-tape-model": {
       "version": "2.8.0",
       "versions": {
@@ -9371,126 +9491,6 @@
             }
           },
           "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195
-            }
-          },
-          "license": "apache-2.0"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874
-            }
-          },
-          "license": "cc-by-sa-4.0"
         }
       }
     },
