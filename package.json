@@ -10,7 +10,7 @@
     "build"
   ],
   "scripts": {
-    "copy": "cp -r ./src/plugins ./out/plugins",
+    "copy": "cp -r ./src/plugins ./out",
     "start": "node ./build/main.js",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
