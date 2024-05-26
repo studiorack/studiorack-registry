@@ -824,98 +824,6 @@
         }
       }
     },
-    "studiorack/sams-sonor/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            }
-          },
-          "license": "cc-by-sa-4.0"
-        }
-      }
-    },
-    "studiorack/war-tuba/war-tuba": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Tuba",
-            "sfz"
-          ],
-          "date": "2021-09-03T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
-            },
-            "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
-            },
-            "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            }
-          },
-          "license": "cc-by-4.0"
-        }
-      }
-    },
     "studiorack/bear-sax/bear-sax": {
       "version": "1.0.0",
       "versions": {
@@ -1051,6 +959,98 @@
             }
           },
           "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/war-tuba/war-tuba": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "date": "2021-09-03T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "war-tuba.flac",
+              "size": 88482,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
+            },
+            "image": {
+              "name": "war-tuba.jpg",
+              "size": 69063,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
+            },
+            "linux": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "mac": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "win": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            }
+          },
+          "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            }
+          },
+          "license": "cc-by-sa-4.0"
         }
       }
     },

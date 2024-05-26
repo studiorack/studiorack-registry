@@ -8633,51 +8633,6 @@
         }
       }
     },
-    "studiorack/argotlunar/argotlunar": {
-      "version": "2.0.6",
-      "versions": {
-        "2.0.6": {
-          "author": "Michael Ourednik",
-          "homepage": "https://mourednik.github.io/argotlunar/",
-          "name": "Argotlunar",
-          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Envelope"
-          ],
-          "date": "2013-02-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "argotlunar.flac",
-              "size": 76050,
-              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar.flac"
-            },
-            "image": {
-              "name": "argotlunar.jpg",
-              "size": 36536,
-              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar.jpg"
-            },
-            "linux": {
-              "name": "argotlunar-linux.zip",
-              "size": 1870819,
-              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-linux.zip"
-            },
-            "mac": {
-              "name": "argotlunar-mac.zip",
-              "size": 3235381,
-              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-mac.zip"
-            },
-            "win": {
-              "name": "argotlunar-win.zip",
-              "size": 1037064,
-              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-win.zip"
-            }
-          },
-          "license": "gpl-2.0"
-        }
-      }
-    },
     "freepats/hang-d-minor/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
@@ -8770,93 +8725,48 @@
         }
       }
     },
-    "studiorack/obxd/obxd": {
-      "version": "2.4.0",
+    "studiorack/argotlunar/argotlunar": {
+      "version": "2.0.6",
       "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+        "2.0.6": {
+          "author": "Michael Ourednik",
+          "homepage": "https://mourednik.github.io/argotlunar/",
+          "name": "Argotlunar",
+          "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
           "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
+            "Effect",
+            "Delay",
+            "Envelope"
           ],
-          "date": "2021-05-30T08:00:00.000Z",
+          "date": "2013-02-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "obxd.flac",
-              "size": 63794,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.flac"
+              "name": "argotlunar.flac",
+              "size": 76050,
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar.flac"
             },
             "image": {
-              "name": "obxd.jpg",
-              "size": 76569,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.jpg"
+              "name": "argotlunar.jpg",
+              "size": 36536,
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar.jpg"
             },
             "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip"
+              "name": "argotlunar-linux.zip",
+              "size": 1870819,
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-linux.zip"
             },
             "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip"
+              "name": "argotlunar-mac.zip",
+              "size": 3235381,
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-mac.zip"
             },
             "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip"
+              "name": "argotlunar-win.zip",
+              "size": 1037064,
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-win.zip"
             }
           },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/digits/digits": {
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.flac",
-              "size": 56084,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.flac"
-            },
-            "image": {
-              "name": "digits.jpg",
-              "size": 55074,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.jpg"
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip"
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip"
-            },
-            "win": {
-              "name": "digits-win.zip",
-              "size": 211492,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
+          "license": "gpl-2.0"
         }
       }
     },
@@ -8948,6 +8858,96 @@
             }
           },
           "license": "other"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.flac",
+              "size": 56084,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.flac"
+            },
+            "image": {
+              "name": "digits.jpg",
+              "size": 55074,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.jpg"
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip"
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip"
+            },
+            "win": {
+              "name": "digits-win.zip",
+              "size": 211492,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/obxd/obxd": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.flac"
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.jpg"
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip"
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip"
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
         }
       }
     },
@@ -10034,96 +10034,6 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
-            }
-          },
-          "license": "agpl-3.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.flac",
-              "size": 66240,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.flac"
-            },
-            "image": {
-              "name": "modeq.jpg",
-              "size": 75899,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.jpg"
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7097654,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip"
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3222514,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip"
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3677919,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
     "studiorack/wolf-spectrum/wolf-spectrum": {
       "version": "1.0.0",
       "versions": {
@@ -10260,320 +10170,93 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "version": "1.0.0",
+    "studiorack/octasine/octasine": {
+      "version": "0.5.3",
       "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
-            }
-          },
-          "license": "apache-2.0"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            }
-          },
-          "license": "cc-by-sa-4.0"
-        }
-      }
-    },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Tape"
-          ],
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.flac",
-              "size": 72368,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
-            },
-            "image": {
-              "name": "chow-tape-model.jpg",
-              "size": 52419,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
-            },
-            "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/ninjas2/ninjas2": {
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Slicer"
-          ],
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.flac",
-              "size": 63564,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.flac"
-            },
-            "image": {
-              "name": "ninjas2.jpg",
-              "size": 88079,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.jpg"
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip"
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip"
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/monique-monosynth/monique": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Thomas Arndt",
-          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
-          "name": "Monique",
-          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
           "tags": [
             "Instrument",
             "Synth",
-            "Bass",
-            "Lead"
+            "Modulation"
           ],
-          "date": "2021-12-13T08:00:00.000Z",
+          "date": "2021-07-18T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "monique.flac",
-              "size": 386812,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.flac"
+              "name": "octasine.flac",
+              "size": 84574,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
             },
             "image": {
-              "name": "monique.jpg",
-              "size": 228421,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.jpg"
+              "name": "octasine.jpg",
+              "size": 90200,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
             },
             "linux": {
-              "name": "monique-linux.zip",
-              "size": 7258419,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip"
+              "name": "octasine-linux.zip",
+              "size": 3528874,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
             },
             "mac": {
-              "name": "monique-mac.zip",
-              "size": 19330773,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip"
+              "name": "octasine-mac.zip",
+              "size": 3115190,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
             },
             "win": {
-              "name": "monique-win.zip",
-              "size": 8255789,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip"
+              "name": "octasine-win.zip",
+              "size": 3203934,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
             }
           },
-          "license": "other"
+          "license": "agpl-3.0"
         }
       }
     },
-    "studiorack/war-tuba/war-tuba": {
-      "version": "1.0.0",
+    "studiorack/modeq/modeq": {
+      "version": "0.4.0",
       "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
           "tags": [
-            "Instrument",
-            "Brass",
-            "Tuba",
-            "sfz"
+            "Effect",
+            "EQ",
+            "Modulation"
           ],
-          "date": "2021-09-03T07:00:00.000Z",
+          "date": "2019-05-17T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
+              "name": "modeq.flac",
+              "size": 66240,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.flac"
             },
             "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
+              "name": "modeq.jpg",
+              "size": 75899,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.jpg"
             },
             "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+              "name": "modeq-linux.zip",
+              "size": 7097654,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip"
             },
             "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+              "name": "modeq-mac.zip",
+              "size": 3222514,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip"
             },
             "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+              "name": "modeq-win.zip",
+              "size": 3677919,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip"
             }
           },
-          "license": "cc-by-4.0"
+          "license": "gpl-3.0"
         }
       }
     },
@@ -11204,6 +10887,323 @@
             }
           },
           "license": "other"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.flac",
+              "size": 72368,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
+            },
+            "image": {
+              "name": "chow-tape-model.jpg",
+              "size": 52419,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/ninjas2/ninjas2": {
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Slicer"
+          ],
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.flac",
+              "size": 63564,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.flac"
+            },
+            "image": {
+              "name": "ninjas2.jpg",
+              "size": 88079,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.jpg"
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip"
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip"
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/monique-monosynth/monique": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Thomas Arndt",
+          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
+          "name": "Monique",
+          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bass",
+            "Lead"
+          ],
+          "date": "2021-12-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "monique.flac",
+              "size": 386812,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.flac"
+            },
+            "image": {
+              "name": "monique.jpg",
+              "size": 228421,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.jpg"
+            },
+            "linux": {
+              "name": "monique-linux.zip",
+              "size": 7258419,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip"
+            },
+            "mac": {
+              "name": "monique-mac.zip",
+              "size": 19330773,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip"
+            },
+            "win": {
+              "name": "monique-win.zip",
+              "size": 8255789,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/war-tuba/war-tuba": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "date": "2021-09-03T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "war-tuba.flac",
+              "size": 88482,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
+            },
+            "image": {
+              "name": "war-tuba.jpg",
+              "size": 69063,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
+            },
+            "linux": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "mac": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "win": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            }
+          },
+          "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
+            }
+          },
+          "license": "apache-2.0"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            }
+          },
+          "license": "cc-by-sa-4.0"
         }
       }
     },
