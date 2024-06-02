@@ -8587,52 +8587,6 @@
         }
       }
     },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            }
-          },
-          "license": "cc0-1.0"
-        }
-      }
-    },
     "freepats/hang-d-minor/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
@@ -8770,6 +8724,52 @@
         }
       }
     },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            }
+          },
+          "license": "cc0-1.0"
+        }
+      }
+    },
     "studiorack/salamander-grand-piano/salamander-grand-piano": {
       "version": "3.0.0",
       "versions": {
@@ -8861,51 +8861,6 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.flac",
-              "size": 56084,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.flac"
-            },
-            "image": {
-              "name": "digits.jpg",
-              "size": 55074,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.jpg"
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip"
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip"
-            },
-            "win": {
-              "name": "digits-win.zip",
-              "size": 211492,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
     "studiorack/obxd/obxd": {
       "version": "2.4.0",
       "versions": {
@@ -8945,6 +8900,51 @@
               "name": "obxd-win.zip",
               "size": 20368962,
               "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/digits/digits": {
+      "version": "2.1.0",
+      "versions": {
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Casio"
+          ],
+          "date": "2019-09-19T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "digits.flac",
+              "size": 56084,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.flac"
+            },
+            "image": {
+              "name": "digits.jpg",
+              "size": 55074,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.jpg"
+            },
+            "linux": {
+              "name": "digits-linux.zip",
+              "size": 339840,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip"
+            },
+            "mac": {
+              "name": "digits-mac.zip",
+              "size": 2109406,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip"
+            },
+            "win": {
+              "name": "digits-win.zip",
+              "size": 211492,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip"
             }
           },
           "license": "gpl-3.0"
@@ -9308,142 +9308,6 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.flac"
-            },
-            "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.jpg"
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip"
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip"
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/nekobi/nekobi": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Nekobi",
-          "name": "Nekobi",
-          "description": "Simple single-oscillator synth based on the Roland TB-303.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Oscillator"
-          ],
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "nekobi.flac",
-              "size": 54778,
-              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi.flac"
-            },
-            "image": {
-              "name": "nekobi.jpg",
-              "size": 14389,
-              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi.jpg"
-            },
-            "linux": {
-              "name": "nekobi-linux.zip",
-              "size": 861637,
-              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-linux.zip"
-            },
-            "mac": {
-              "name": "nekobi-mac.zip",
-              "size": 1001626,
-              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-mac.zip"
-            },
-            "win": {
-              "name": "nekobi-win.zip",
-              "size": 984470,
-              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-win.zip"
-            }
-          },
-          "license": "gpl-2.0"
-        }
-      }
-    },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.flac"
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.jpg"
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "version": "2.4.0",
       "versions": {
@@ -9717,6 +9581,142 @@
         }
       }
     },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Editor"
+          ],
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.flac",
+              "size": 103066,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.flac"
+            },
+            "image": {
+              "name": "wolf-shaper.jpg",
+              "size": 39286,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.jpg"
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip"
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip"
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/nekobi/nekobi": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Nekobi",
+          "name": "Nekobi",
+          "description": "Simple single-oscillator synth based on the Roland TB-303.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Oscillator"
+          ],
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "nekobi.flac",
+              "size": 54778,
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi.flac"
+            },
+            "image": {
+              "name": "nekobi.jpg",
+              "size": 14389,
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi.jpg"
+            },
+            "linux": {
+              "name": "nekobi-linux.zip",
+              "size": 861637,
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-linux.zip"
+            },
+            "mac": {
+              "name": "nekobi-mac.zip",
+              "size": 1001626,
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-mac.zip"
+            },
+            "win": {
+              "name": "nekobi-win.zip",
+              "size": 984470,
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-win.zip"
+            }
+          },
+          "license": "gpl-2.0"
+        }
+      }
+    },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jrhodes-3c.flac",
+              "size": 64422,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.flac"
+            },
+            "image": {
+              "name": "jrhodes-3c.jpg",
+              "size": 283376,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.jpg"
+            },
+            "linux": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
+            },
+            "mac": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
+            },
+            "win": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
     "studiorack/swankyamp/swankyamp": {
       "version": "1.4.0",
       "versions": {
@@ -9894,143 +9894,6 @@
             }
           },
           "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/vst2413/vst2413": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Keijiro Takahashi",
-          "homepage": "http://www.keijiro.tokyo/vst2413/",
-          "name": "VST2413",
-          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Bit"
-          ],
-          "date": "2013-04-21T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "vst2413.flac",
-              "size": 347527,
-              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413.flac"
-            },
-            "image": {
-              "name": "vst2413.jpg",
-              "size": 22493,
-              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413.jpg"
-            },
-            "linux": {
-              "name": "vst2413-linux.zip",
-              "size": 386422,
-              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-linux.zip"
-            },
-            "mac": {
-              "name": "vst2413-mac.zip",
-              "size": 187561,
-              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-mac.zip"
-            },
-            "win": {
-              "name": "vst2413-win.zip",
-              "size": 228506,
-              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-win.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.flac"
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.jpg"
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/jsteeldrum/jsteel-drum": {
-      "version": "2.0.0",
-      "versions": {
-        "2.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
-          "name": "jSteelDrum",
-          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
-          "tags": [
-            "Instrument",
-            "Steel",
-            "Drum",
-            "sfz"
-          ],
-          "date": "2022-09-22T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jsteel-drum.flac",
-              "size": 83358,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.flac"
-            },
-            "image": {
-              "name": "jsteel-drum.jpg",
-              "size": 222224,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.jpg"
-            },
-            "linux": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
-            },
-            "mac": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
-            },
-            "win": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
-            }
-          },
-          "license": "unlicense"
         }
       }
     },
@@ -10260,6 +10123,143 @@
         }
       }
     },
+    "studiorack/vst2413/vst2413": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Keijiro Takahashi",
+          "homepage": "http://www.keijiro.tokyo/vst2413/",
+          "name": "VST2413",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "date": "2013-04-21T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "vst2413.flac",
+              "size": 347527,
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413.flac"
+            },
+            "image": {
+              "name": "vst2413.jpg",
+              "size": 22493,
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413.jpg"
+            },
+            "linux": {
+              "name": "vst2413-linux.zip",
+              "size": 386422,
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-linux.zip"
+            },
+            "mac": {
+              "name": "vst2413-mac.zip",
+              "size": 187561,
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-mac.zip"
+            },
+            "win": {
+              "name": "vst2413-win.zip",
+              "size": 228506,
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.flac"
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.jpg"
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/jsteeldrum/jsteel-drum": {
+      "version": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+          "name": "jSteelDrum",
+          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+          "tags": [
+            "Instrument",
+            "Steel",
+            "Drum",
+            "sfz"
+          ],
+          "date": "2022-09-22T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jsteel-drum.flac",
+              "size": 83358,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.flac"
+            },
+            "image": {
+              "name": "jsteel-drum.jpg",
+              "size": 222224,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.jpg"
+            },
+            "linux": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
+            },
+            "mac": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
+            },
+            "win": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
+            }
+          },
+          "license": "unlicense"
+        }
+      }
+    },
     "studiorack/ampli-fe/ampli-fe": {
       "version": "0.1.0",
       "versions": {
@@ -10482,6 +10482,323 @@
               "name": "double-bass.zip",
               "size": 79014147,
               "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip"
+            }
+          },
+          "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
+            }
+          },
+          "license": "apache-2.0"
+        }
+      }
+    },
+    "studiorack/sams-sonor/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            }
+          },
+          "license": "cc-by-sa-4.0"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.flac",
+              "size": 72368,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
+            },
+            "image": {
+              "name": "chow-tape-model.jpg",
+              "size": 52419,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/ninjas2/ninjas2": {
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "author": "Clearly Broken",
+          "homepage": "https://github.com/clearly-broken-software/ninjas2",
+          "name": "Ninjas 2",
+          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Slicer"
+          ],
+          "date": "2020-01-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ninjas2.flac",
+              "size": 63564,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.flac"
+            },
+            "image": {
+              "name": "ninjas2.jpg",
+              "size": 88079,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.jpg"
+            },
+            "linux": {
+              "name": "ninjas2-linux.zip",
+              "size": 1441617,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip"
+            },
+            "mac": {
+              "name": "ninjas2-mac.zip",
+              "size": 5131863,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip"
+            },
+            "win": {
+              "name": "ninjas2-win.zip",
+              "size": 5995116,
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/monique-monosynth/monique": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Thomas Arndt",
+          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
+          "name": "Monique",
+          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bass",
+            "Lead"
+          ],
+          "date": "2021-12-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "monique.flac",
+              "size": 386812,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.flac"
+            },
+            "image": {
+              "name": "monique.jpg",
+              "size": 228421,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.jpg"
+            },
+            "linux": {
+              "name": "monique-linux.zip",
+              "size": 7258419,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip"
+            },
+            "mac": {
+              "name": "monique-mac.zip",
+              "size": 19330773,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip"
+            },
+            "win": {
+              "name": "monique-win.zip",
+              "size": 8255789,
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/war-tuba/war-tuba": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "date": "2021-09-03T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "war-tuba.flac",
+              "size": 88482,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
+            },
+            "image": {
+              "name": "war-tuba.jpg",
+              "size": 69063,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
+            },
+            "linux": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "mac": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "win": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
             }
           },
           "license": "cc-by-4.0"
@@ -10887,323 +11204,6 @@
             }
           },
           "license": "other"
-        }
-      }
-    },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Tape"
-          ],
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.flac",
-              "size": 72368,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
-            },
-            "image": {
-              "name": "chow-tape-model.jpg",
-              "size": 52419,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
-            },
-            "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/ninjas2/ninjas2": {
-      "version": "0.2.0",
-      "versions": {
-        "0.2.0": {
-          "author": "Clearly Broken",
-          "homepage": "https://github.com/clearly-broken-software/ninjas2",
-          "name": "Ninjas 2",
-          "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Slicer"
-          ],
-          "date": "2020-01-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ninjas2.flac",
-              "size": 63564,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.flac"
-            },
-            "image": {
-              "name": "ninjas2.jpg",
-              "size": 88079,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2.jpg"
-            },
-            "linux": {
-              "name": "ninjas2-linux.zip",
-              "size": 1441617,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip"
-            },
-            "mac": {
-              "name": "ninjas2-mac.zip",
-              "size": 5131863,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip"
-            },
-            "win": {
-              "name": "ninjas2-win.zip",
-              "size": 5995116,
-              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/monique-monosynth/monique": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Thomas Arndt",
-          "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
-          "name": "Monique",
-          "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Bass",
-            "Lead"
-          ],
-          "date": "2021-12-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "monique.flac",
-              "size": 386812,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.flac"
-            },
-            "image": {
-              "name": "monique.jpg",
-              "size": 228421,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique.jpg"
-            },
-            "linux": {
-              "name": "monique-linux.zip",
-              "size": 7258419,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip"
-            },
-            "mac": {
-              "name": "monique-mac.zip",
-              "size": 19330773,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip"
-            },
-            "win": {
-              "name": "monique-win.zip",
-              "size": 8255789,
-              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/war-tuba/war-tuba": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Tuba",
-            "sfz"
-          ],
-          "date": "2021-09-03T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
-            },
-            "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
-            },
-            "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            }
-          },
-          "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
-            }
-          },
-          "license": "apache-2.0"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            }
-          },
-          "license": "cc-by-sa-4.0"
         }
       }
     },

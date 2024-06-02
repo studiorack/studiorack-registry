@@ -187,52 +187,6 @@
         }
       }
     },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            }
-          },
-          "license": "cc0-1.0"
-        }
-      }
-    },
     "freepats/hang-d-minor/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
@@ -319,6 +273,52 @@
               "name": "black-and-green-guitars.zip",
               "size": 292323008,
               "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip"
+            }
+          },
+          "license": "cc0-1.0"
+        }
+      }
+    },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
             }
           },
           "license": "cc0-1.0"
@@ -503,52 +503,6 @@
         }
       }
     },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
-          "name": "jRhodes3c",
-          "description": "1977 Rhodes Mark I Stage 73 piano",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Rhodes",
-            "sfz"
-          ],
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jrhodes-3c.flac",
-              "size": 64422,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.flac"
-            },
-            "image": {
-              "name": "jrhodes-3c.jpg",
-              "size": 283376,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.jpg"
-            },
-            "linux": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
-            },
-            "mac": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
-            },
-            "win": {
-              "name": "jrhodes-3c.zip",
-              "size": 17073884,
-              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "studiorack/naked-drums/naked-drums": {
       "version": "1.0.0",
       "versions": {
@@ -686,6 +640,98 @@
         }
       }
     },
+    "studiorack/jrhodes-3c/jrhodes-3c": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "name": "jRhodes3c",
+          "description": "1977 Rhodes Mark I Stage 73 piano",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "date": "2022-01-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jrhodes-3c.flac",
+              "size": 64422,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.flac"
+            },
+            "image": {
+              "name": "jrhodes-3c.jpg",
+              "size": 283376,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.jpg"
+            },
+            "linux": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
+            },
+            "mac": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
+            },
+            "win": {
+              "name": "jrhodes-3c.zip",
+              "size": 17073884,
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/horse-pulse/horse-pulse": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+          "name": "Horse Pulse",
+          "description": "Bass Tagelharpa played pizzicato",
+          "tags": [
+            "Instrument",
+            "String",
+            "Pluck",
+            "sfz"
+          ],
+          "date": "2022-03-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "horse-pulse.flac",
+              "size": 58263,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.flac"
+            },
+            "image": {
+              "name": "horse-pulse.jpg",
+              "size": 92078,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.jpg"
+            },
+            "linux": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            },
+            "mac": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            },
+            "win": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            }
+          },
+          "license": "cc0-1.0"
+        }
+      }
+    },
     "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
       "version": "3.2.2",
       "versions": {
@@ -775,52 +821,6 @@
             }
           },
           "license": "unlicense"
-        }
-      }
-    },
-    "studiorack/horse-pulse/horse-pulse": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
-          "name": "Horse Pulse",
-          "description": "Bass Tagelharpa played pizzicato",
-          "tags": [
-            "Instrument",
-            "String",
-            "Pluck",
-            "sfz"
-          ],
-          "date": "2022-03-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "horse-pulse.flac",
-              "size": 58263,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.flac"
-            },
-            "image": {
-              "name": "horse-pulse.jpg",
-              "size": 92078,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.jpg"
-            },
-            "linux": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            },
-            "mac": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            },
-            "win": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            }
-          },
-          "license": "cc0-1.0"
         }
       }
     },
@@ -962,52 +962,6 @@
         }
       }
     },
-    "studiorack/war-tuba/war-tuba": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Tuba",
-            "sfz"
-          ],
-          "date": "2021-09-03T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
-            },
-            "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
-            },
-            "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            }
-          },
-          "license": "cc-by-4.0"
-        }
-      }
-    },
     "studiorack/sams-sonor/sams-sonor": {
       "version": "1.0.0",
       "versions": {
@@ -1051,6 +1005,52 @@
             }
           },
           "license": "cc-by-sa-4.0"
+        }
+      }
+    },
+    "studiorack/war-tuba/war-tuba": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "date": "2021-09-03T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "war-tuba.flac",
+              "size": 88482,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
+            },
+            "image": {
+              "name": "war-tuba.jpg",
+              "size": 69063,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
+            },
+            "linux": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "mac": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            },
+            "win": {
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
+            }
+          },
+          "license": "cc-by-4.0"
         }
       }
     },

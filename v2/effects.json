@@ -4917,51 +4917,6 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
-      "version": "0.1.8",
-      "versions": {
-        "0.1.8": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
-          "name": "Wolf Shaper",
-          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Editor"
-          ],
-          "date": "2020-10-01T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-shaper.flac",
-              "size": 103066,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.flac"
-            },
-            "image": {
-              "name": "wolf-shaper.jpg",
-              "size": 39286,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.jpg"
-            },
-            "linux": {
-              "name": "wolf-shaper-linux.zip",
-              "size": 1208880,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip"
-            },
-            "mac": {
-              "name": "wolf-shaper-mac.zip",
-              "size": 577937,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip"
-            },
-            "win": {
-              "name": "wolf-shaper-win.zip",
-              "size": 1006913,
-              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
     "studiorack/dragonfly-reverb/dragonfly-reverb": {
       "version": "3.2.5",
       "versions": {
@@ -5046,6 +5001,51 @@
               "name": "diopser-win.zip",
               "size": 2017988,
               "url": "https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/wolf-shaper/wolf-shaper": {
+      "version": "0.1.8",
+      "versions": {
+        "0.1.8": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-shaper",
+          "name": "Wolf Shaper",
+          "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Editor"
+          ],
+          "date": "2020-10-01T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-shaper.flac",
+              "size": 103066,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.flac"
+            },
+            "image": {
+              "name": "wolf-shaper.jpg",
+              "size": 39286,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper.jpg"
+            },
+            "linux": {
+              "name": "wolf-shaper-linux.zip",
+              "size": 1208880,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip"
+            },
+            "mac": {
+              "name": "wolf-shaper-mac.zip",
+              "size": 577937,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip"
+            },
+            "win": {
+              "name": "wolf-shaper-win.zip",
+              "size": 1006913,
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip"
             }
           },
           "license": "gpl-3.0"
@@ -5274,6 +5274,140 @@
             }
           },
           "license": "mit"
+        }
+      }
+    },
+    "studiorack/mverb/mverb": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
+            },
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp/smartguitaramp": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
+            }
+          },
+          "license": "apache-2.0"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.flac",
+              "size": 72368,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
+            },
+            "image": {
+              "name": "chow-tape-model.jpg",
+              "size": 52419,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
         }
       }
     },
@@ -5586,140 +5720,6 @@
             }
           },
           "license": "other"
-        }
-      }
-    },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Tape"
-          ],
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.flac",
-              "size": 72368,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
-            },
-            "image": {
-              "name": "chow-tape-model.jpg",
-              "size": 52419,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
-            },
-            "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/mverb/mverb": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
-            },
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
-            }
-          },
-          "license": "apache-2.0"
         }
       }
     },
