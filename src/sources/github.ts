@@ -83,6 +83,10 @@ async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, 
   const pluginsJsonList = await getJSONSafe(
     `https://github.com/${repo.nameWithOwner}/releases/download/${release.tagName}/plugins.json`,
   );
+  if (!pluginsJsonList.plugins)
+    return console.log(
+      `FetchError: invalid json response body at https://github.com/${repo.nameWithOwner}/releases/download/${release.tagName}/plugins.json`,
+    );
   pluginsJsonList.plugins.forEach((plugin: PluginVersion) => {
     // For each plugin sanitize the id and add to registry
     const pluginId: string = safeSlug(`${repo.nameWithOwner}/${plugin.id}`);
@@ -123,8 +127,7 @@ async function getJSONSafe(url: string): Promise<any> {
     const json = await response.json();
     return json;
   } catch (error) {
-    // console.log(error);
-    return { plugins: [] };
+    return error;
   }
 }
 
