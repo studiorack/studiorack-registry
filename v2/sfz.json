@@ -503,97 +503,6 @@
         }
       }
     },
-    "studiorack/naked-drums/naked-drums": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
-            },
-            "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            }
-          },
-          "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/avl-percussions/avl-percussions": {
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "studiorack/splendid-grand-piano/splendid-grand-piano": {
       "version": "1.0.0",
       "versions": {
@@ -680,6 +589,97 @@
               "name": "jrhodes-3c.zip",
               "size": 17073884,
               "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/naked-drums/naked-drums": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "naked-drums.flac",
+              "size": 553525,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
+            },
+            "image": {
+              "name": "naked-drums.jpg",
+              "size": 24452,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
+            },
+            "linux": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "mac": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "win": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            }
+          },
+          "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/avl-percussions/avl-percussions": {
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
             }
           },
           "license": "other"
@@ -824,6 +824,52 @@
         }
       }
     },
+    "studiorack/sams-sonor/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            }
+          },
+          "license": "cc-by-sa-4.0"
+        }
+      }
+    },
     "studiorack/bear-sax/bear-sax": {
       "version": "1.0.0",
       "versions": {
@@ -959,52 +1005,6 @@
             }
           },
           "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            }
-          },
-          "license": "cc-by-sa-4.0"
         }
       }
     },

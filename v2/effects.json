@@ -5232,51 +5232,6 @@
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
-      "version": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
-          "name": "ampli-Fe",
-          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Volume"
-          ],
-          "date": "2021-11-02T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ampli-fe.flac",
-              "size": 81405,
-              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe.flac"
-            },
-            "image": {
-              "name": "ampli-fe.jpg",
-              "size": 27141,
-              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe.jpg"
-            },
-            "linux": {
-              "name": "ampli-fe-linux.zip",
-              "size": 3497170,
-              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-linux.zip"
-            },
-            "mac": {
-              "name": "ampli-fe-mac.zip",
-              "size": 3176913,
-              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-mac.zip"
-            },
-            "win": {
-              "name": "ampli-fe-win.zip",
-              "size": 3355298,
-              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip"
-            }
-          },
-          "license": "mit"
-        }
-      }
-    },
     "studiorack/mverb/mverb": {
       "version": "1.0.0",
       "versions": {
@@ -5363,6 +5318,51 @@
             }
           },
           "license": "apache-2.0"
+        }
+      }
+    },
+    "studiorack/ampli-fe/ampli-fe": {
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "author": "Anton Lazarev",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "name": "ampli-Fe",
+          "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Volume"
+          ],
+          "date": "2021-11-02T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ampli-fe.flac",
+              "size": 81405,
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe.flac"
+            },
+            "image": {
+              "name": "ampli-fe.jpg",
+              "size": 27141,
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe.jpg"
+            },
+            "linux": {
+              "name": "ampli-fe-linux.zip",
+              "size": 3497170,
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-linux.zip"
+            },
+            "mac": {
+              "name": "ampli-fe-mac.zip",
+              "size": 3176913,
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-mac.zip"
+            },
+            "win": {
+              "name": "ampli-fe-win.zip",
+              "size": 3355298,
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip"
+            }
+          },
+          "license": "mit"
         }
       }
     },
