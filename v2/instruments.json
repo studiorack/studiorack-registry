@@ -4405,6 +4405,50 @@
         }
       }
     },
+    "sjoerdvankreel/firefly-synth/56affff7565f48348c4359d5e6c856a4": {
+      "version": "1.7.7",
+      "versions": {
+        "1.7.7": {
+          "author": "Sjoerd van Kreel",
+          "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
+          "name": "Firefly Synth",
+          "description": "Firefly Synth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "date": "2024-06-03T17:25:12.081Z",
+          "files": {
+            "audio": {
+              "name": "studiorack.flac",
+              "size": 826259,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.7/studiorack.flac"
+            },
+            "image": {
+              "name": "studiorack.jpg",
+              "size": 784884,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.7/studiorack.jpg"
+            },
+            "linux": {
+              "name": "firefly_synth_1.7.7_linux_vst3_instrument.zip",
+              "size": 5787856,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.7/firefly_synth_1.7.7_linux_vst3_instrument.zip"
+            },
+            "mac": {
+              "name": "firefly_synth_1.7.7_mac_vst3_instrument.zip",
+              "size": 8549464,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.7/firefly_synth_1.7.7_mac_vst3_instrument.zip"
+            },
+            "win": {
+              "name": "firefly_synth_1.7.7_windows_vst3_instrument.zip",
+              "size": 3087348,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.7/firefly_synth_1.7.7_windows_vst3_instrument.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
     "freepats/glass/glasses-of-water": {
       "version": "1.0.0",
       "versions": {
@@ -5447,6 +5491,96 @@
         }
       }
     },
+    "studiorack/helm/helm": {
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.flac"
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.jpg"
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 8678132,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-linux.zip"
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 13299862,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-mac.zip"
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 12671911,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/juicysf/juicysf": {
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.flac"
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.jpg"
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip"
+            },
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip"
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
     "studiorack/ep-mk1/ep-mk1": {
       "version": "2.4.0",
       "versions": {
@@ -5584,96 +5718,6 @@
         }
       }
     },
-    "studiorack/helm/helm": {
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.flac",
-              "size": 75330,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.flac"
-            },
-            "image": {
-              "name": "helm.jpg",
-              "size": 118535,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.jpg"
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 8678132,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-linux.zip"
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 13299862,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-mac.zip"
-            },
-            "win": {
-              "name": "helm-win.zip",
-              "size": 12671911,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/juicysf/juicysf": {
-      "version": "3.1.0",
-      "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "date": "2022-02-13T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "juicysf.flac",
-              "size": 83683,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.flac"
-            },
-            "image": {
-              "name": "juicysf.jpg",
-              "size": 38148,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.jpg"
-            },
-            "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 0,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip"
-            },
-            "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip"
-            },
-            "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
     "studiorack/dexed/dexed": {
       "version": "0.9.6",
       "versions": {
@@ -5762,51 +5806,6 @@
             }
           },
           "license": "cc0-1.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
-            }
-          },
-          "license": "agpl-3.0"
         }
       }
     },
@@ -5944,6 +5943,51 @@
             }
           },
           "license": "unlicense"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
+            }
+          },
+          "license": "agpl-3.0"
         }
       }
     },
