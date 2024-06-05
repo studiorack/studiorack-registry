@@ -4405,7 +4405,7 @@
         }
       }
     },
-    "sjoerdvankreel/firefly-synth/56affff7565f48348c4359d5e6c856a4": {
+    "sjoerdvankreel/firefly-synth/io.github.sjoerdvankreel.firefly_synth": {
       "version": "1.7.7",
       "versions": {
         "1.7.7": {
@@ -5581,143 +5581,6 @@
         }
       }
     },
-    "studiorack/ep-mk1/ep-mk1": {
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "ep-mk1.flac",
-              "size": 50454,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.flac"
-            },
-            "image": {
-              "name": "ep-mk1.jpg",
-              "size": 97173,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.jpg"
-            },
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip"
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip"
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip"
-            }
-          },
-          "license": "bsd-3-clause"
-        }
-      }
-    },
-    "studiorack/naked-drums/naked-drums": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
-            },
-            "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            }
-          },
-          "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/avl-percussions/avl-percussions": {
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "studiorack/dexed/dexed": {
       "version": "0.9.6",
       "versions": {
@@ -6034,6 +5897,143 @@
             }
           },
           "license": "cc-by-sa-4.0"
+        }
+      }
+    },
+    "studiorack/ep-mk1/ep-mk1": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "ep-mk1.flac",
+              "size": 50454,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.flac"
+            },
+            "image": {
+              "name": "ep-mk1.jpg",
+              "size": 97173,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.jpg"
+            },
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip"
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip"
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip"
+            }
+          },
+          "license": "bsd-3-clause"
+        }
+      }
+    },
+    "studiorack/naked-drums/naked-drums": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "naked-drums.flac",
+              "size": 553525,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
+            },
+            "image": {
+              "name": "naked-drums.jpg",
+              "size": 24452,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
+            },
+            "linux": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "mac": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "win": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            }
+          },
+          "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/avl-percussions/avl-percussions": {
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            }
+          },
+          "license": "other"
         }
       }
     },
@@ -6357,96 +6357,6 @@
         }
       }
     },
-    "studiorack/sfizz/sfizz": {
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.flac"
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.jpg"
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip"
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip"
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip"
-            }
-          },
-          "license": "bsd-2-clause"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-noisemaker": {
-      "version": "5.0.4",
-      "versions": {
-        "5.0.4": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Noisemaker",
-          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "date": "2021-02-14T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-noisemaker.flac",
-              "size": 63114,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.flac"
-            },
-            "image": {
-              "name": "tal-noisemaker.jpg",
-              "size": 92713,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.jpg"
-            },
-            "linux": {
-              "name": "tal-noisemaker-linux.zip",
-              "size": 4572081,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip"
-            },
-            "mac": {
-              "name": "tal-noisemaker-mac.zip",
-              "size": 11980734,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip"
-            },
-            "win": {
-              "name": "tal-noisemaker-win.zip",
-              "size": 7764121,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "studiorack/odin/odin": {
       "version": "2.2.4",
       "versions": {
@@ -6621,6 +6531,96 @@
               "name": "salamander-drumkit.zip",
               "size": 269599176,
               "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/sfizz/sfizz": {
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.flac"
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.jpg"
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip"
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip"
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip"
+            }
+          },
+          "license": "bsd-2-clause"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-noisemaker": {
+      "version": "5.0.4",
+      "versions": {
+        "5.0.4": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Noisemaker",
+          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "date": "2021-02-14T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-noisemaker.flac",
+              "size": 63114,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.flac"
+            },
+            "image": {
+              "name": "tal-noisemaker.jpg",
+              "size": 92713,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.jpg"
+            },
+            "linux": {
+              "name": "tal-noisemaker-linux.zip",
+              "size": 4572081,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip"
+            },
+            "mac": {
+              "name": "tal-noisemaker-mac.zip",
+              "size": 11980734,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip"
+            },
+            "win": {
+              "name": "tal-noisemaker-win.zip",
+              "size": 7764121,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip"
             }
           },
           "license": "other"
