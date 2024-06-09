@@ -4406,8 +4406,47 @@
       }
     },
     "sjoerdvankreel/firefly-synth/io.github.sjoerdvankreel.firefly_synth": {
-      "version": "1.7.7",
+      "version": "1.7.8",
       "versions": {
+        "1.7.8": {
+          "author": "Sjoerd van Kreel",
+          "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
+          "name": "Firefly Synth",
+          "description": "Firefly Synth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "date": "2024-06-03T17:25:12.081Z",
+          "files": {
+            "audio": {
+              "name": "studiorack.flac",
+              "size": 826259,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.8/studiorack.flac"
+            },
+            "image": {
+              "name": "studiorack.jpg",
+              "size": 784884,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.8/studiorack.jpg"
+            },
+            "linux": {
+              "name": "firefly_synth_1.7.8_linux_vst3_instrument.zip",
+              "size": 5787856,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.8/firefly_synth_1.7.8_linux_vst3_instrument.zip"
+            },
+            "mac": {
+              "name": "firefly_synth_1.7.8_mac_vst3_instrument.zip",
+              "size": 8549464,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.8/firefly_synth_1.7.8_mac_vst3_instrument.zip"
+            },
+            "win": {
+              "name": "firefly_synth_1.7.8_windows_vst3_instrument.zip",
+              "size": 3087348,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.8/firefly_synth_1.7.8_windows_vst3_instrument.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        },
         "1.7.7": {
           "author": "Sjoerd van Kreel",
           "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
@@ -5672,6 +5711,51 @@
         }
       }
     },
+    "studiorack/octasine/octasine": {
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
+            }
+          },
+          "license": "agpl-3.0"
+        }
+      }
+    },
     "studiorack/vst2413/vst2413": {
       "version": "1.0.0",
       "versions": {
@@ -5806,51 +5890,6 @@
             }
           },
           "license": "unlicense"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
-            }
-          },
-          "license": "agpl-3.0"
         }
       }
     },
