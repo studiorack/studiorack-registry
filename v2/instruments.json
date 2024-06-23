@@ -4717,6 +4717,52 @@
         }
       }
     },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            }
+          },
+          "license": "cc0-1.0"
+        }
+      }
+    },
     "freepats/hang-d-minor/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
@@ -4803,52 +4849,6 @@
               "name": "black-and-green-guitars.zip",
               "size": 292323008,
               "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip"
-            }
-          },
-          "license": "cc0-1.0"
-        }
-      }
-    },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
             }
           },
           "license": "cc0-1.0"
@@ -5620,97 +5620,6 @@
         }
       }
     },
-    "studiorack/dexed/dexed": {
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.flac",
-              "size": 51235,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.flac"
-            },
-            "image": {
-              "name": "dexed.jpg",
-              "size": 282883,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.jpg"
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-linux.zip"
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-mac.zip"
-            },
-            "win": {
-              "name": "dexed-win.zip",
-              "size": 2588488,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/horse-pulse/horse-pulse": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
-          "name": "Horse Pulse",
-          "description": "Bass Tagelharpa played pizzicato",
-          "tags": [
-            "Instrument",
-            "String",
-            "Pluck",
-            "sfz"
-          ],
-          "date": "2022-03-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "horse-pulse.flac",
-              "size": 58263,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.flac"
-            },
-            "image": {
-              "name": "horse-pulse.jpg",
-              "size": 92078,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.jpg"
-            },
-            "linux": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            },
-            "mac": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            },
-            "win": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            }
-          },
-          "license": "cc0-1.0"
-        }
-      }
-    },
     "studiorack/vst2413/vst2413": {
       "version": "1.0.0",
       "versions": {
@@ -5848,6 +5757,97 @@
         }
       }
     },
+    "studiorack/dexed/dexed": {
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.flac",
+              "size": 51235,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.flac"
+            },
+            "image": {
+              "name": "dexed.jpg",
+              "size": 282883,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.jpg"
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-linux.zip"
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-mac.zip"
+            },
+            "win": {
+              "name": "dexed-win.zip",
+              "size": 2588488,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/horse-pulse/horse-pulse": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+          "name": "Horse Pulse",
+          "description": "Bass Tagelharpa played pizzicato",
+          "tags": [
+            "Instrument",
+            "String",
+            "Pluck",
+            "sfz"
+          ],
+          "date": "2022-03-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "horse-pulse.flac",
+              "size": 58263,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.flac"
+            },
+            "image": {
+              "name": "horse-pulse.jpg",
+              "size": 92078,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.jpg"
+            },
+            "linux": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            },
+            "mac": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            },
+            "win": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            }
+          },
+          "license": "cc0-1.0"
+        }
+      }
+    },
     "studiorack/sams-sonor/sams-sonor": {
       "version": "1.0.0",
       "versions": {
@@ -5891,51 +5891,6 @@
             }
           },
           "license": "cc-by-sa-4.0"
-        }
-      }
-    },
-    "studiorack/octasine/octasine": {
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
-            }
-          },
-          "license": "agpl-3.0"
         }
       }
     },
@@ -6073,6 +6028,51 @@
             }
           },
           "license": "other"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
+            }
+          },
+          "license": "agpl-3.0"
         }
       }
     },
@@ -6256,6 +6256,96 @@
             }
           },
           "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/sfizz/sfizz": {
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.flac"
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.jpg"
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip"
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip"
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip"
+            }
+          },
+          "license": "bsd-2-clause"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-noisemaker": {
+      "version": "5.0.4",
+      "versions": {
+        "5.0.4": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Noisemaker",
+          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "date": "2021-02-14T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-noisemaker.flac",
+              "size": 63114,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.flac"
+            },
+            "image": {
+              "name": "tal-noisemaker.jpg",
+              "size": 92713,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.jpg"
+            },
+            "linux": {
+              "name": "tal-noisemaker-linux.zip",
+              "size": 4572081,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip"
+            },
+            "mac": {
+              "name": "tal-noisemaker-mac.zip",
+              "size": 11980734,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip"
+            },
+            "win": {
+              "name": "tal-noisemaker-win.zip",
+              "size": 7764121,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip"
+            }
+          },
+          "license": "other"
         }
       }
     },
@@ -6570,96 +6660,6 @@
               "name": "salamander-drumkit.zip",
               "size": 269599176,
               "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/sfizz/sfizz": {
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.flac"
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.jpg"
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip"
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip"
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip"
-            }
-          },
-          "license": "bsd-2-clause"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-noisemaker": {
-      "version": "5.0.4",
-      "versions": {
-        "5.0.4": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Noisemaker",
-          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "date": "2021-02-14T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-noisemaker.flac",
-              "size": 63114,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.flac"
-            },
-            "image": {
-              "name": "tal-noisemaker.jpg",
-              "size": 92713,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.jpg"
-            },
-            "linux": {
-              "name": "tal-noisemaker-linux.zip",
-              "size": 4572081,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip"
-            },
-            "mac": {
-              "name": "tal-noisemaker-mac.zip",
-              "size": 11980734,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip"
-            },
-            "win": {
-              "name": "tal-noisemaker-win.zip",
-              "size": 7764121,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip"
             }
           },
           "license": "other"

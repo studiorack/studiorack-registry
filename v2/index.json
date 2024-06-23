@@ -8670,6 +8670,52 @@
         }
       }
     },
+    "freepats/synthesizer-percussion/synthesizer-percussion": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            }
+          },
+          "license": "cc0-1.0"
+        }
+      }
+    },
     "freepats/hang-d-minor/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
@@ -8756,52 +8802,6 @@
               "name": "black-and-green-guitars.zip",
               "size": 292323008,
               "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip"
-            }
-          },
-          "license": "cc0-1.0"
-        }
-      }
-    },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
             }
           },
           "license": "cc0-1.0"
@@ -9843,142 +9843,6 @@
         }
       }
     },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Effect",
-            "Spectrogram",
-            "Frequency"
-          ],
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "wolf-spectrum.flac",
-              "size": 103066,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.flac"
-            },
-            "image": {
-              "name": "wolf-spectrum.jpg",
-              "size": 17057,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.jpg"
-            },
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip"
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip"
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/dexed/dexed": {
-      "version": "0.9.6",
-      "versions": {
-        "0.9.6": {
-          "author": "Pascal Gauthier",
-          "homepage": "http://asb2m10.github.io/dexed/",
-          "name": "Dexed",
-          "description": "Synthesizer closely modeled on the Yamaha DX7",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "date": "2021-03-04T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "dexed.flac",
-              "size": 51235,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.flac"
-            },
-            "image": {
-              "name": "dexed.jpg",
-              "size": 282883,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.jpg"
-            },
-            "linux": {
-              "name": "dexed-linux.zip",
-              "size": 6296573,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-linux.zip"
-            },
-            "mac": {
-              "name": "dexed-mac.zip",
-              "size": 9146576,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-mac.zip"
-            },
-            "win": {
-              "name": "dexed-win.zip",
-              "size": 2588488,
-              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/horse-pulse/horse-pulse": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
-          "name": "Horse Pulse",
-          "description": "Bass Tagelharpa played pizzicato",
-          "tags": [
-            "Instrument",
-            "String",
-            "Pluck",
-            "sfz"
-          ],
-          "date": "2022-03-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "horse-pulse.flac",
-              "size": 58263,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.flac"
-            },
-            "image": {
-              "name": "horse-pulse.jpg",
-              "size": 92078,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.jpg"
-            },
-            "linux": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            },
-            "mac": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            },
-            "win": {
-              "name": "horse-pulse.zip",
-              "size": 74462529,
-              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
-            }
-          },
-          "license": "cc0-1.0"
-        }
-      }
-    },
     "studiorack/vst2413/vst2413": {
       "version": "1.0.0",
       "versions": {
@@ -10113,6 +9977,142 @@
             }
           },
           "license": "unlicense"
+        }
+      }
+    },
+    "studiorack/wolf-spectrum/wolf-spectrum": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Effect",
+            "Spectrogram",
+            "Frequency"
+          ],
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "wolf-spectrum.flac",
+              "size": 103066,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.flac"
+            },
+            "image": {
+              "name": "wolf-spectrum.jpg",
+              "size": 17057,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.jpg"
+            },
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip"
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip"
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/dexed/dexed": {
+      "version": "0.9.6",
+      "versions": {
+        "0.9.6": {
+          "author": "Pascal Gauthier",
+          "homepage": "http://asb2m10.github.io/dexed/",
+          "name": "Dexed",
+          "description": "Synthesizer closely modeled on the Yamaha DX7",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "date": "2021-03-04T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "dexed.flac",
+              "size": 51235,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.flac"
+            },
+            "image": {
+              "name": "dexed.jpg",
+              "size": 282883,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed.jpg"
+            },
+            "linux": {
+              "name": "dexed-linux.zip",
+              "size": 6296573,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-linux.zip"
+            },
+            "mac": {
+              "name": "dexed-mac.zip",
+              "size": 9146576,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-mac.zip"
+            },
+            "win": {
+              "name": "dexed-win.zip",
+              "size": 2588488,
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/horse-pulse/horse-pulse": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+          "name": "Horse Pulse",
+          "description": "Bass Tagelharpa played pizzicato",
+          "tags": [
+            "Instrument",
+            "String",
+            "Pluck",
+            "sfz"
+          ],
+          "date": "2022-03-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "horse-pulse.flac",
+              "size": 58263,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.flac"
+            },
+            "image": {
+              "name": "horse-pulse.jpg",
+              "size": 92078,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.jpg"
+            },
+            "linux": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            },
+            "mac": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            },
+            "win": {
+              "name": "horse-pulse.zip",
+              "size": 74462529,
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip"
+            }
+          },
+          "license": "cc0-1.0"
         }
       }
     },
@@ -10251,96 +10251,6 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "version": "0.5.3",
-      "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
-            }
-          },
-          "license": "agpl-3.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.flac",
-              "size": 66240,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.flac"
-            },
-            "image": {
-              "name": "modeq.jpg",
-              "size": 75899,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.jpg"
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7097654,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip"
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3222514,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip"
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3677919,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
     "studiorack/ep-mk1/ep-mk1": {
       "version": "2.4.0",
       "versions": {
@@ -10475,6 +10385,96 @@
             }
           },
           "license": "other"
+        }
+      }
+    },
+    "studiorack/octasine/octasine": {
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "date": "2021-07-18T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "octasine.flac",
+              "size": 84574,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
+            },
+            "image": {
+              "name": "octasine.jpg",
+              "size": 90200,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
+            },
+            "linux": {
+              "name": "octasine-linux.zip",
+              "size": 3528874,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
+            },
+            "mac": {
+              "name": "octasine-mac.zip",
+              "size": 3115190,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
+            },
+            "win": {
+              "name": "octasine-win.zip",
+              "size": 3203934,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
+            }
+          },
+          "license": "agpl-3.0"
+        }
+      }
+    },
+    "studiorack/modeq/modeq": {
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.flac"
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.jpg"
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip"
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip"
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
         }
       }
     },
@@ -10703,6 +10703,408 @@
             }
           },
           "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/sfizz/sfizz": {
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "SFZTools",
+          "homepage": "https://github.com/sfztools/sfizz",
+          "name": "Sfizz",
+          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "date": "2020-11-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sfizz.flac",
+              "size": 47910,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.flac"
+            },
+            "image": {
+              "name": "sfizz.jpg",
+              "size": 33976,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.jpg"
+            },
+            "linux": {
+              "name": "sfizz-linux.zip",
+              "size": 5504066,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip"
+            },
+            "mac": {
+              "name": "sfizz-mac.zip",
+              "size": 7498595,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip"
+            },
+            "win": {
+              "name": "sfizz-win.zip",
+              "size": 4084698,
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip"
+            }
+          },
+          "license": "bsd-2-clause"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-eq": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band EQ",
+          "description": "3-Band EQ",
+          "tags": [
+            "Effect",
+            "EQ"
+          ],
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-eq.flac",
+              "size": 79282,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq.flac"
+            },
+            "image": {
+              "name": "mini-series-eq.jpg",
+              "size": 18650,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq.jpg"
+            },
+            "linux": {
+              "name": "mini-series-eq-linux.zip",
+              "size": 884722,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-linux.zip"
+            },
+            "mac": {
+              "name": "mini-series-eq-mac.zip",
+              "size": 1101475,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-mac.zip"
+            },
+            "win": {
+              "name": "mini-series-eq-win.zip",
+              "size": 850005,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-win.zip"
+            }
+          },
+          "license": "lgpl-3.0"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-splitter": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: 3-Band Splitter",
+          "description": "3-Band Splitter",
+          "tags": [
+            "Effect",
+            "Splitter"
+          ],
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-splitter.flac",
+              "size": 76826,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter.flac"
+            },
+            "image": {
+              "name": "mini-series-splitter.jpg",
+              "size": 18493,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter.jpg"
+            },
+            "linux": {
+              "name": "mini-series-splitter-linux.zip",
+              "size": 925750,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter-linux.zip"
+            },
+            "mac": {
+              "name": "mini-series-splitter-mac.zip",
+              "size": 1155137,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter-mac.zip"
+            },
+            "win": {
+              "name": "mini-series-splitter-win.zip",
+              "size": 878640,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter-win.zip"
+            }
+          },
+          "license": "lgpl-3.0"
+        }
+      }
+    },
+    "studiorack/mini-series/mini-series-pan": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Filipe Coelho",
+          "homepage": "https://github.com/DISTRHO/Mini-Series",
+          "name": "Mini Series: Ping Pong Pan",
+          "description": "Ping Pong Pan",
+          "tags": [
+            "Effect",
+            "Pan"
+          ],
+          "date": "2021-06-14T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mini-series-pan.flac",
+              "size": 70115,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan.flac"
+            },
+            "image": {
+              "name": "mini-series-pan.jpg",
+              "size": 11264,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan.jpg"
+            },
+            "linux": {
+              "name": "mini-series-pan-linux.zip",
+              "size": 940248,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan-linux.zip"
+            },
+            "mac": {
+              "name": "mini-series-pan-mac.zip",
+              "size": 1065872,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan-mac.zip"
+            },
+            "win": {
+              "name": "mini-series-pan-win.zip",
+              "size": 1002204,
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan-win.zip"
+            }
+          },
+          "license": "lgpl-3.0"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-chorus": {
+      "version": "1.6.0",
+      "versions": {
+        "1.6.0": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Chorus",
+          "description": "Characteristics of the Juno-60 chorus.",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Juno"
+          ],
+          "date": "2021-05-02T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-chorus.flac",
+              "size": 78645,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus.flac"
+            },
+            "image": {
+              "name": "tal-chorus.jpg",
+              "size": 31671,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus.jpg"
+            },
+            "linux": {
+              "name": "tal-chorus-linux.zip",
+              "size": 2302019,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip"
+            },
+            "mac": {
+              "name": "tal-chorus-mac.zip",
+              "size": 5132019,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-mac.zip"
+            },
+            "win": {
+              "name": "tal-chorus-win.zip",
+              "size": 4440111,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-filter": {
+      "version": "3.0.1",
+      "versions": {
+        "3.0.1": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Filter",
+          "description": "Host synced filter module with different filter types, panorama and volume modulation possibilities",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Modulation"
+          ],
+          "date": "2021-03-07T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-filter.flac",
+              "size": 70390,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter.flac"
+            },
+            "image": {
+              "name": "tal-filter.jpg",
+              "size": 74456,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter.jpg"
+            },
+            "linux": {
+              "name": "tal-filter-linux.zip",
+              "size": 4199145,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-linux.zip"
+            },
+            "mac": {
+              "name": "tal-filter-mac.zip",
+              "size": 10836170,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-mac.zip"
+            },
+            "win": {
+              "name": "tal-filter-win.zip",
+              "size": 7239861,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-noisemaker": {
+      "version": "5.0.4",
+      "versions": {
+        "5.0.4": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Noisemaker",
+          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "date": "2021-02-14T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-noisemaker.flac",
+              "size": 63114,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.flac"
+            },
+            "image": {
+              "name": "tal-noisemaker.jpg",
+              "size": 92713,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.jpg"
+            },
+            "linux": {
+              "name": "tal-noisemaker-linux.zip",
+              "size": 4572081,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip"
+            },
+            "mac": {
+              "name": "tal-noisemaker-mac.zip",
+              "size": 11980734,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip"
+            },
+            "win": {
+              "name": "tal-noisemaker-win.zip",
+              "size": 7764121,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-reverb": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Reverb",
+          "description": "High quality plate reverb with a vintage 80's character",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "date": "2021-02-11T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-reverb.flac",
+              "size": 109498,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb.flac"
+            },
+            "image": {
+              "name": "tal-reverb.jpg",
+              "size": 59550,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb.jpg"
+            },
+            "linux": {
+              "name": "tal-reverb-linux.zip",
+              "size": 4409884,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-linux.zip"
+            },
+            "mac": {
+              "name": "tal-reverb-mac.zip",
+              "size": 11515261,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-mac.zip"
+            },
+            "win": {
+              "name": "tal-reverb-win.zip",
+              "size": 7575145,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/distrho-ports/tal-vocoder": {
+      "version": "2.2.0",
+      "versions": {
+        "2.2.0": {
+          "author": "TAL Software",
+          "homepage": "https://tal-software.com",
+          "name": "TAL-Vocoder",
+          "description": "Vintage vocoder emulation with 11 bands that emulates the sound of vocoders from the early 80s",
+          "tags": [
+            "Effect",
+            "Vocoder",
+            "Analog"
+          ],
+          "date": "2021-01-28T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "tal-vocoder.flac",
+              "size": 99144,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder.flac"
+            },
+            "image": {
+              "name": "tal-vocoder.jpg",
+              "size": 28705,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder.jpg"
+            },
+            "linux": {
+              "name": "tal-vocoder-linux.zip",
+              "size": 2906953,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-linux.zip"
+            },
+            "mac": {
+              "name": "tal-vocoder-mac.zip",
+              "size": 7076283,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-mac.zip"
+            },
+            "win": {
+              "name": "tal-vocoder-win.zip",
+              "size": 5351774,
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-win.zip"
+            }
+          },
+          "license": "other"
         }
       }
     },
@@ -11248,408 +11650,6 @@
             }
           },
           "license": "mit"
-        }
-      }
-    },
-    "studiorack/sfizz/sfizz": {
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "name": "Sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "date": "2020-11-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sfizz.flac",
-              "size": 47910,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.flac"
-            },
-            "image": {
-              "name": "sfizz.jpg",
-              "size": 33976,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz.jpg"
-            },
-            "linux": {
-              "name": "sfizz-linux.zip",
-              "size": 5504066,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip"
-            },
-            "mac": {
-              "name": "sfizz-mac.zip",
-              "size": 7498595,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip"
-            },
-            "win": {
-              "name": "sfizz-win.zip",
-              "size": 4084698,
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip"
-            }
-          },
-          "license": "bsd-2-clause"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-eq": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band EQ",
-          "description": "3-Band EQ",
-          "tags": [
-            "Effect",
-            "EQ"
-          ],
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-eq.flac",
-              "size": 79282,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq.flac"
-            },
-            "image": {
-              "name": "mini-series-eq.jpg",
-              "size": 18650,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq.jpg"
-            },
-            "linux": {
-              "name": "mini-series-eq-linux.zip",
-              "size": 884722,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-linux.zip"
-            },
-            "mac": {
-              "name": "mini-series-eq-mac.zip",
-              "size": 1101475,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-mac.zip"
-            },
-            "win": {
-              "name": "mini-series-eq-win.zip",
-              "size": 850005,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-win.zip"
-            }
-          },
-          "license": "lgpl-3.0"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-splitter": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: 3-Band Splitter",
-          "description": "3-Band Splitter",
-          "tags": [
-            "Effect",
-            "Splitter"
-          ],
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-splitter.flac",
-              "size": 76826,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter.flac"
-            },
-            "image": {
-              "name": "mini-series-splitter.jpg",
-              "size": 18493,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter.jpg"
-            },
-            "linux": {
-              "name": "mini-series-splitter-linux.zip",
-              "size": 925750,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter-linux.zip"
-            },
-            "mac": {
-              "name": "mini-series-splitter-mac.zip",
-              "size": 1155137,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter-mac.zip"
-            },
-            "win": {
-              "name": "mini-series-splitter-win.zip",
-              "size": 878640,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-splitter-win.zip"
-            }
-          },
-          "license": "lgpl-3.0"
-        }
-      }
-    },
-    "studiorack/mini-series/mini-series-pan": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Filipe Coelho",
-          "homepage": "https://github.com/DISTRHO/Mini-Series",
-          "name": "Mini Series: Ping Pong Pan",
-          "description": "Ping Pong Pan",
-          "tags": [
-            "Effect",
-            "Pan"
-          ],
-          "date": "2021-06-14T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mini-series-pan.flac",
-              "size": 70115,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan.flac"
-            },
-            "image": {
-              "name": "mini-series-pan.jpg",
-              "size": 11264,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan.jpg"
-            },
-            "linux": {
-              "name": "mini-series-pan-linux.zip",
-              "size": 940248,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan-linux.zip"
-            },
-            "mac": {
-              "name": "mini-series-pan-mac.zip",
-              "size": 1065872,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan-mac.zip"
-            },
-            "win": {
-              "name": "mini-series-pan-win.zip",
-              "size": 1002204,
-              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-pan-win.zip"
-            }
-          },
-          "license": "lgpl-3.0"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-chorus": {
-      "version": "1.6.0",
-      "versions": {
-        "1.6.0": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Chorus",
-          "description": "Characteristics of the Juno-60 chorus.",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Juno"
-          ],
-          "date": "2021-05-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-chorus.flac",
-              "size": 78645,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus.flac"
-            },
-            "image": {
-              "name": "tal-chorus.jpg",
-              "size": 31671,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus.jpg"
-            },
-            "linux": {
-              "name": "tal-chorus-linux.zip",
-              "size": 2302019,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip"
-            },
-            "mac": {
-              "name": "tal-chorus-mac.zip",
-              "size": 5132019,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-mac.zip"
-            },
-            "win": {
-              "name": "tal-chorus-win.zip",
-              "size": 4440111,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-win.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-filter": {
-      "version": "3.0.1",
-      "versions": {
-        "3.0.1": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Filter",
-          "description": "Host synced filter module with different filter types, panorama and volume modulation possibilities",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Modulation"
-          ],
-          "date": "2021-03-07T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-filter.flac",
-              "size": 70390,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter.flac"
-            },
-            "image": {
-              "name": "tal-filter.jpg",
-              "size": 74456,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter.jpg"
-            },
-            "linux": {
-              "name": "tal-filter-linux.zip",
-              "size": 4199145,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-linux.zip"
-            },
-            "mac": {
-              "name": "tal-filter-mac.zip",
-              "size": 10836170,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-mac.zip"
-            },
-            "win": {
-              "name": "tal-filter-win.zip",
-              "size": 7239861,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-win.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-noisemaker": {
-      "version": "5.0.4",
-      "versions": {
-        "5.0.4": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Noisemaker",
-          "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Analog"
-          ],
-          "date": "2021-02-14T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-noisemaker.flac",
-              "size": 63114,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.flac"
-            },
-            "image": {
-              "name": "tal-noisemaker.jpg",
-              "size": 92713,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker.jpg"
-            },
-            "linux": {
-              "name": "tal-noisemaker-linux.zip",
-              "size": 4572081,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip"
-            },
-            "mac": {
-              "name": "tal-noisemaker-mac.zip",
-              "size": 11980734,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip"
-            },
-            "win": {
-              "name": "tal-noisemaker-win.zip",
-              "size": 7764121,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-reverb": {
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Reverb",
-          "description": "High quality plate reverb with a vintage 80's character",
-          "tags": [
-            "Effect",
-            "Reverb",
-            "Plate"
-          ],
-          "date": "2021-02-11T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-reverb.flac",
-              "size": 109498,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb.flac"
-            },
-            "image": {
-              "name": "tal-reverb.jpg",
-              "size": 59550,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb.jpg"
-            },
-            "linux": {
-              "name": "tal-reverb-linux.zip",
-              "size": 4409884,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-linux.zip"
-            },
-            "mac": {
-              "name": "tal-reverb-mac.zip",
-              "size": 11515261,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-mac.zip"
-            },
-            "win": {
-              "name": "tal-reverb-win.zip",
-              "size": 7575145,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-win.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/distrho-ports/tal-vocoder": {
-      "version": "2.2.0",
-      "versions": {
-        "2.2.0": {
-          "author": "TAL Software",
-          "homepage": "https://tal-software.com",
-          "name": "TAL-Vocoder",
-          "description": "Vintage vocoder emulation with 11 bands that emulates the sound of vocoders from the early 80s",
-          "tags": [
-            "Effect",
-            "Vocoder",
-            "Analog"
-          ],
-          "date": "2021-01-28T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "tal-vocoder.flac",
-              "size": 99144,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder.flac"
-            },
-            "image": {
-              "name": "tal-vocoder.jpg",
-              "size": 28705,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder.jpg"
-            },
-            "linux": {
-              "name": "tal-vocoder-linux.zip",
-              "size": 2906953,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-linux.zip"
-            },
-            "mac": {
-              "name": "tal-vocoder-mac.zip",
-              "size": 7076283,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-mac.zip"
-            },
-            "win": {
-              "name": "tal-vocoder-win.zip",
-              "size": 5351774,
-              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-win.zip"
-            }
-          },
-          "license": "other"
         }
       }
     },

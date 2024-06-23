@@ -5366,234 +5366,6 @@
         }
       }
     },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Tape"
-          ],
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.flac",
-              "size": 72368,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
-            },
-            "image": {
-              "name": "chow-tape-model.jpg",
-              "size": 52419,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
-            },
-            "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679,
-              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/temper/temper": {
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Modulation"
-          ],
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.flac",
-              "size": 95804,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.flac"
-            },
-            "image": {
-              "name": "temper.jpg",
-              "size": 62400,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.jpg"
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-linux.zip"
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-mac.zip"
-            },
-            "win": {
-              "name": "temper-win.zip",
-              "size": 6181044,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/mda/mda": {
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
-          ],
-          "date": "2020-12-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mda.flac",
-              "size": 127392,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.flac"
-            },
-            "image": {
-              "name": "mda.jpg",
-              "size": 104156,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.jpg"
-            },
-            "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip"
-            },
-            "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip"
-            },
-            "win": {
-              "name": "mda-win.zip",
-              "size": 1247768,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/chow-matrix/chow-matrix": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Feedback"
-          ],
-          "date": "2021-04-23T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-matrix.flac",
-              "size": 71529,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.flac"
-            },
-            "image": {
-              "name": "chow-matrix.jpg",
-              "size": 74210,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.jpg"
-            },
-            "linux": {
-              "name": "chow-matrix-linux.zip",
-              "size": 16260494,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-linux.zip"
-            },
-            "mac": {
-              "name": "chow-matrix-mac.zip",
-              "size": 10373268,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-mac.zip"
-            },
-            "win": {
-              "name": "chow-matrix-win.zip",
-              "size": 4719759,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-win.zip"
-            }
-          },
-          "license": "bsd-3-clause"
-        }
-      }
-    },
-    "studiorack/airwindows/airwindows": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Chris Johnson",
-          "homepage": "https://www.airwindows.com",
-          "name": "Airwindows",
-          "description": "Huge collection of effects using simple UI controls",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Distortion",
-            "EQ",
-            "Filter",
-            "Reverb"
-          ],
-          "date": "2020-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "airwindows.flac",
-              "size": 111355,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.flac"
-            },
-            "image": {
-              "name": "airwindows.jpg",
-              "size": 71522,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.jpg"
-            },
-            "linux": {
-              "name": "airwindows-linux.zip",
-              "size": 8241206,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-linux.zip"
-            },
-            "mac": {
-              "name": "airwindows-mac.zip",
-              "size": 14246351,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-mac.zip"
-            },
-            "win": {
-              "name": "airwindows-win.zip",
-              "size": 22181434,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-win.zip"
-            }
-          },
-          "license": "mit"
-        }
-      }
-    },
     "studiorack/mini-series/mini-series-eq": {
       "version": "1.0.0",
       "versions": {
@@ -5903,6 +5675,234 @@
             }
           },
           "license": "other"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.flac",
+              "size": 72368,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.flac"
+            },
+            "image": {
+              "name": "chow-tape-model.jpg",
+              "size": 52419,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model.jpg"
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip"
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip"
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679,
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/temper/temper": {
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Modulation"
+          ],
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.flac",
+              "size": 95804,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.flac"
+            },
+            "image": {
+              "name": "temper.jpg",
+              "size": 62400,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.jpg"
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-linux.zip"
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-mac.zip"
+            },
+            "win": {
+              "name": "temper-win.zip",
+              "size": 6181044,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/mda/mda": {
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.flac",
+              "size": 127392,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.flac"
+            },
+            "image": {
+              "name": "mda.jpg",
+              "size": 104156,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.jpg"
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip"
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip"
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/chow-matrix/chow-matrix": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
+          "name": "CHOW Matrix",
+          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Feedback"
+          ],
+          "date": "2021-04-23T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-matrix.flac",
+              "size": 71529,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.flac"
+            },
+            "image": {
+              "name": "chow-matrix.jpg",
+              "size": 74210,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.jpg"
+            },
+            "linux": {
+              "name": "chow-matrix-linux.zip",
+              "size": 16260494,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-linux.zip"
+            },
+            "mac": {
+              "name": "chow-matrix-mac.zip",
+              "size": 10373268,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-mac.zip"
+            },
+            "win": {
+              "name": "chow-matrix-win.zip",
+              "size": 4719759,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-win.zip"
+            }
+          },
+          "license": "bsd-3-clause"
+        }
+      }
+    },
+    "studiorack/airwindows/airwindows": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Chris Johnson",
+          "homepage": "https://www.airwindows.com",
+          "name": "Airwindows",
+          "description": "Huge collection of effects using simple UI controls",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "date": "2020-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "airwindows.flac",
+              "size": 111355,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.flac"
+            },
+            "image": {
+              "name": "airwindows.jpg",
+              "size": 71522,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.jpg"
+            },
+            "linux": {
+              "name": "airwindows-linux.zip",
+              "size": 8241206,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-linux.zip"
+            },
+            "mac": {
+              "name": "airwindows-mac.zip",
+              "size": 14246351,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-mac.zip"
+            },
+            "win": {
+              "name": "airwindows-win.zip",
+              "size": 22181434,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-win.zip"
+            }
+          },
+          "license": "mit"
         }
       }
     }
