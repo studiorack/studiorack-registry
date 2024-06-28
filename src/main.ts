@@ -37,7 +37,9 @@ export function registryPackAdd(registry: PluginRegistry, pluginPack: PluginPack
   registry.objects = Object.assign(registry.objects, pluginPack);
 }
 
+// This code will be removed after the deprecation of v1
 export function registryPackClean(pack: PluginPack) {
+  const packClean: PluginPack = {};
   // Remove legacy attributes from plugins
   Object.keys(pack).forEach((entryId: string) => {
     const pluginEntry: PluginEntry = pack[entryId];
@@ -54,10 +56,15 @@ export function registryPackClean(pack: PluginPack) {
       delete plugin.repo;
       delete plugin.version;
     });
-    delete pluginEntry.id;
-    delete pluginEntry.license;
+    // Turn three level id owner/repo/plugin into two levels owner/plugin
+    const pluginEntryClone: PluginEntry = Object.assign({}, pluginEntry);
+    const pluginIdParts: string[] | undefined = pluginEntryClone.id?.split('/');
+    const pluginEntryId: string = pluginIdParts ? `${pluginIdParts[0]}/${pluginIdParts.pop()}` : 'none';
+    delete pluginEntryClone.id;
+    delete pluginEntryClone.license;
+    if (pluginEntryId) packClean[pluginEntryId] = pluginEntryClone;
   });
-  return pack;
+  return packClean;
 }
 
 export function registryPackFilter(pack: PluginPack, tag: string, version: string) {
