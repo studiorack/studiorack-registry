@@ -5787,6 +5787,57 @@
         }
       }
     },
+    "studiorack/modeq/modeq": {
+      "id": "studiorack/modeq/modeq",
+      "license": "gpl-3.0",
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "version": "0.4.0",
+          "id": "modeq",
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919
+            }
+          },
+          "release": "v0.4.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/modeq"
+        }
+      }
+    },
     "studiorack/mverb/mverb": {
       "id": "studiorack/mverb/mverb",
       "license": "gpl-3.0",
@@ -5885,57 +5936,6 @@
             "same": false
           },
           "repo": "studiorack/smartguitaramp"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "id": "studiorack/modeq/modeq",
-      "license": "gpl-3.0",
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
-          "tags": [
-            "Effect",
-            "EQ",
-            "Modulation"
-          ],
-          "version": "0.4.0",
-          "id": "modeq",
-          "date": "2019-05-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "modeq.flac",
-              "size": 66240
-            },
-            "image": {
-              "name": "modeq.jpg",
-              "size": 75899
-            },
-            "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7097654
-            },
-            "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3222514
-            },
-            "win": {
-              "name": "modeq-win.zip",
-              "size": 3677919
-            }
-          },
-          "release": "v0.4.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/modeq"
         }
       }
     },
@@ -6344,57 +6344,6 @@
         }
       }
     },
-    "studiorack/chow-tape-model/chow-tape-model": {
-      "id": "studiorack/chow-tape-model/chow-tape-model",
-      "license": "gpl-3.0",
-      "version": "2.8.0",
-      "versions": {
-        "2.8.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
-          "name": "Chow Tape Model",
-          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
-          "tags": [
-            "Effect",
-            "Filter",
-            "Tape"
-          ],
-          "version": "2.8.0",
-          "id": "chow-tape-model",
-          "date": "2021-04-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-tape-model.flac",
-              "size": 72368
-            },
-            "image": {
-              "name": "chow-tape-model.jpg",
-              "size": 52419
-            },
-            "linux": {
-              "name": "chow-tape-model-linux.zip",
-              "size": 16435230
-            },
-            "mac": {
-              "name": "chow-tape-model-mac.zip",
-              "size": 10706301
-            },
-            "win": {
-              "name": "chow-tape-model-win.zip",
-              "size": 5497679
-            }
-          },
-          "release": "v2.8.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "studiorack/chow-tape-model"
-        }
-      }
-    },
     "studiorack/temper/temper": {
       "id": "studiorack/temper/temper",
       "license": "gpl-3.0",
@@ -6599,6 +6548,57 @@
             "same": false
           },
           "repo": "studiorack/airwindows"
+        }
+      }
+    },
+    "studiorack/chow-tape-model/chow-tape-model": {
+      "id": "studiorack/chow-tape-model/chow-tape-model",
+      "license": "gpl-3.0",
+      "version": "2.8.0",
+      "versions": {
+        "2.8.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/jatinchowdhury18/AnalogTapeModel",
+          "name": "Chow Tape Model",
+          "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Tape"
+          ],
+          "version": "2.8.0",
+          "id": "chow-tape-model",
+          "date": "2021-04-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-tape-model.flac",
+              "size": 72368
+            },
+            "image": {
+              "name": "chow-tape-model.jpg",
+              "size": 52419
+            },
+            "linux": {
+              "name": "chow-tape-model-linux.zip",
+              "size": 16435230
+            },
+            "mac": {
+              "name": "chow-tape-model-mac.zip",
+              "size": 10706301
+            },
+            "win": {
+              "name": "chow-tape-model-win.zip",
+              "size": 5497679
+            }
+          },
+          "release": "v2.8.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "studiorack/chow-tape-model"
         }
       }
     }

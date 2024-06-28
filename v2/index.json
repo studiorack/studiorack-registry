@@ -3,7 +3,7 @@
   "url": "https://studiorack.github.io/studiorack-registry/v2/index.json",
   "version": "2.0.0",
   "objects": {
-    "vastdynamics/vaporizer2/com.vastdynamics.vast2": {
+    "vastdynamics/com.vastdynamics.vast2": {
       "version": "3.5.0",
       "versions": {
         "3.5.0": {
@@ -49,7 +49,7 @@
         }
       }
     },
-    "ryukau/vstplugins/iterative-sin-cluster": {
+    "ryukau/iterative-sin-cluster": {
       "version": "0.1.27",
       "versions": {
         "0.1.27": {
@@ -546,7 +546,7 @@
         }
       }
     },
-    "ryukau/vstplugins/lattice-reverb": {
+    "ryukau/lattice-reverb": {
       "version": "0.1.24",
       "versions": {
         "0.1.24": {
@@ -1082,7 +1082,7 @@
         }
       }
     },
-    "ryukau/vstplugins/cubic-pad-synth": {
+    "ryukau/cubic-pad-synth": {
       "version": "0.1.26",
       "versions": {
         "0.1.26": {
@@ -1579,7 +1579,7 @@
         }
       }
     },
-    "ryukau/vstplugins/es-phaser": {
+    "ryukau/es-phaser": {
       "version": "0.1.20",
       "versions": {
         "0.1.20": {
@@ -2037,7 +2037,7 @@
         }
       }
     },
-    "ryukau/vstplugins/light-pad-synth": {
+    "ryukau/light-pad-synth": {
       "version": "0.1.24",
       "versions": {
         "0.1.24": {
@@ -2573,7 +2573,7 @@
         }
       }
     },
-    "ryukau/vstplugins/wave-cymbal": {
+    "ryukau/wave-cymbal": {
       "version": "0.1.26",
       "versions": {
         "0.1.26": {
@@ -3031,7 +3031,7 @@
         }
       }
     },
-    "ryukau/vstplugins/seven-delay": {
+    "ryukau/seven-delay": {
       "version": "0.1.30",
       "versions": {
         "0.1.30": {
@@ -3528,7 +3528,7 @@
         }
       }
     },
-    "ryukau/vstplugins/colliding-comb-synth": {
+    "ryukau/colliding-comb-synth": {
       "version": "0.1.16",
       "versions": {
         "0.1.16": {
@@ -4064,7 +4064,7 @@
         }
       }
     },
-    "ryukau/vstplugins/trapezoid-synth": {
+    "ryukau/trapezoid-synth": {
       "version": "0.1.26",
       "versions": {
         "0.1.26": {
@@ -4522,7 +4522,7 @@
         }
       }
     },
-    "ryukau/vstplugins/f-d-n-cymbal": {
+    "ryukau/f-d-n-cymbal": {
       "version": "0.2.19",
       "versions": {
         "0.2.19": {
@@ -4980,7 +4980,7 @@
         }
       }
     },
-    "ryukau/vstplugins/l4-reverb": {
+    "ryukau/l4-reverb": {
       "version": "0.1.21",
       "versions": {
         "0.1.21": {
@@ -5516,7 +5516,7 @@
         }
       }
     },
-    "ryukau/vstplugins/basic-limiter-auto-make": {
+    "ryukau/basic-limiter-auto-make": {
       "version": "0.1.20",
       "versions": {
         "0.1.20": {
@@ -5979,7 +5979,7 @@
         }
       }
     },
-    "ryukau/vstplugins/l3-reverb": {
+    "ryukau/l3-reverb": {
       "version": "0.1.21",
       "versions": {
         "0.1.21": {
@@ -6442,7 +6442,7 @@
         }
       }
     },
-    "ryukau/vstplugins/basic-limiter": {
+    "ryukau/basic-limiter": {
       "version": "0.1.20",
       "versions": {
         "0.1.20": {
@@ -6939,7 +6939,7 @@
         }
       }
     },
-    "ryukau/vstplugins/sync-saw-synth": {
+    "ryukau/sync-saw-synth": {
       "version": "0.1.29",
       "versions": {
         "0.1.29": {
@@ -7358,7 +7358,7 @@
         }
       }
     },
-    "ryukau/vstplugins/f-d-n64-reverb": {
+    "ryukau/f-d-n64-reverb": {
       "version": "0.1.17",
       "versions": {
         "0.1.17": {
@@ -7816,7 +7816,7 @@
         }
       }
     },
-    "ryukau/vstplugins/enveloped-sine": {
+    "ryukau/enveloped-sine": {
       "version": "0.1.25",
       "versions": {
         "0.1.25": {
@@ -8313,7 +8313,7 @@
         }
       }
     },
-    "sjoerdvankreel/firefly-synth/io.github.sjoerdvankreel.firefly_synth": {
+    "sjoerdvankreel/io.github.sjoerdvankreel.firefly_synth": {
       "version": "1.7.8",
       "versions": {
         "1.7.8": {
@@ -8396,7 +8396,7 @@
         }
       }
     },
-    "studiorack/iem-plugin-suite/iem-plugin-suite": {
+    "studiorack/iem-plugin-suite": {
       "version": "1.13.0",
       "versions": {
         "1.13.0": {
@@ -8441,7 +8441,7 @@
         }
       }
     },
-    "freepats/glass/glasses-of-water": {
+    "freepats/glasses-of-water": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -8487,7 +8487,7 @@
         }
       }
     },
-    "freepats/upright-piano-kw/upright-piano-kw": {
+    "freepats/upright-piano-kw": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -8533,7 +8533,7 @@
         }
       }
     },
-    "studiorack/opl/opl": {
+    "studiorack/opl": {
       "version": "2.1.0",
       "versions": {
         "2.1.0": {
@@ -8578,7 +8578,7 @@
         }
       }
     },
-    "freepats/spanish-classical-guitar/spanish-classical-guitar": {
+    "freepats/spanish-classical-guitar": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -8624,7 +8624,7 @@
         }
       }
     },
-    "studiorack/basic-harmonica/basic-harmonica": {
+    "studiorack/basic-harmonica": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -8670,7 +8670,7 @@
         }
       }
     },
-    "freepats/synthesizer-percussion/synthesizer-percussion": {
+    "freepats/synthesizer-percussion": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -8716,7 +8716,7 @@
         }
       }
     },
-    "freepats/hang-d-minor/hang-d-minor": {
+    "freepats/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -8762,7 +8762,7 @@
         }
       }
     },
-    "studiorack/black-and-green-guitars/black-and-green-guitars": {
+    "studiorack/black-and-green-guitars": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -8808,52 +8808,7 @@
         }
       }
     },
-    "studiorack/obxd/obxd": {
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "obxd.flac",
-              "size": 63794,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.flac"
-            },
-            "image": {
-              "name": "obxd.jpg",
-              "size": 76569,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.jpg"
-            },
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip"
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip"
-            },
-            "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/argotlunar/argotlunar": {
+    "studiorack/argotlunar": {
       "version": "2.0.6",
       "versions": {
         "2.0.6": {
@@ -8898,7 +8853,52 @@
         }
       }
     },
-    "studiorack/salamander-grand-piano/salamander-grand-piano": {
+    "studiorack/obxd": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.flac"
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.jpg"
+            },
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip"
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip"
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/salamander-grand-piano": {
       "version": "3.0.0",
       "versions": {
         "3.0.0": {
@@ -8944,7 +8944,7 @@
         }
       }
     },
-    "studiorack/avl-drumkits/avl-drumkits": {
+    "studiorack/avl-drumkits": {
       "version": "1.1.0",
       "versions": {
         "1.1.0": {
@@ -8989,52 +8989,7 @@
         }
       }
     },
-    "studiorack/digits/digits": {
-      "version": "2.1.0",
-      "versions": {
-        "2.1.0": {
-          "author": "Louis Gorenfeld",
-          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
-          "name": "Digits",
-          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Casio"
-          ],
-          "date": "2019-09-19T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "digits.flac",
-              "size": 56084,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.flac"
-            },
-            "image": {
-              "name": "digits.jpg",
-              "size": 55074,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.jpg"
-            },
-            "linux": {
-              "name": "digits-linux.zip",
-              "size": 339840,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip"
-            },
-            "mac": {
-              "name": "digits-mac.zip",
-              "size": 2109406,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip"
-            },
-            "win": {
-              "name": "digits-win.zip",
-              "size": 211492,
-              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/virtuosity-drums/virtuosity-drums": {
+    "studiorack/virtuosity-drums": {
       "version": "0.9.23",
       "versions": {
         "0.9.23": {
@@ -9121,97 +9076,52 @@
         }
       }
     },
-    "studiorack/adlplug/adlplug": {
-      "version": "1.0.2",
+    "studiorack/digits": {
+      "version": "2.1.0",
       "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+        "2.1.0": {
+          "author": "Louis Gorenfeld",
+          "homepage": "https://github.com/LouisGorenfeld/DigitsVst",
+          "name": "Digits",
+          "description": "Digits is a phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
           "tags": [
             "Instrument",
             "Synth",
-            "FM"
+            "Casio"
           ],
-          "date": "2020-08-05T08:00:00.000Z",
+          "date": "2019-09-19T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "adlplug.flac",
-              "size": 60649,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug.flac"
+              "name": "digits.flac",
+              "size": 56084,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.flac"
             },
             "image": {
-              "name": "adlplug.jpg",
-              "size": 140267,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug.jpg"
+              "name": "digits.jpg",
+              "size": 55074,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits.jpg"
             },
             "linux": {
-              "name": "adlplug-linux.zip",
-              "size": 11068718,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-linux.zip"
+              "name": "digits-linux.zip",
+              "size": 339840,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip"
             },
             "mac": {
-              "name": "adlplug-mac.zip",
-              "size": 33551714,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-mac.zip"
+              "name": "digits-mac.zip",
+              "size": 2109406,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip"
             },
             "win": {
-              "name": "adlplug-win.zip",
-              "size": 24833093,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-win.zip"
+              "name": "digits-win.zip",
+              "size": 211492,
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip"
             }
           },
-          "license": "bsl-1.0"
+          "license": "gpl-3.0"
         }
       }
     },
-    "studiorack/adlplug/opnplug": {
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "name": "OPNplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "date": "2020-08-05T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opnplug.flac",
-              "size": 58202,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug.flac"
-            },
-            "image": {
-              "name": "opnplug.jpg",
-              "size": 145332,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug.jpg"
-            },
-            "linux": {
-              "name": "opnplug-linux.zip",
-              "size": 11236640,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-linux.zip"
-            },
-            "mac": {
-              "name": "opnplug-mac.zip",
-              "size": 27264168,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-mac.zip"
-            },
-            "win": {
-              "name": "opnplug-win.zip",
-              "size": 25020750,
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-win.zip"
-            }
-          },
-          "license": "bsl-1.0"
-        }
-      }
-    },
-    "studiorack/andes/andes": {
+    "studiorack/andes": {
       "version": "0.2.0",
       "versions": {
         "0.2.0": {
@@ -9256,7 +9166,97 @@
         }
       }
     },
-    "studiorack/kars/kars": {
+    "studiorack/adlplug": {
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "adlplug.flac",
+              "size": 60649,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug.flac"
+            },
+            "image": {
+              "name": "adlplug.jpg",
+              "size": 140267,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug.jpg"
+            },
+            "linux": {
+              "name": "adlplug-linux.zip",
+              "size": 11068718,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-linux.zip"
+            },
+            "mac": {
+              "name": "adlplug-mac.zip",
+              "size": 33551714,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-mac.zip"
+            },
+            "win": {
+              "name": "adlplug-win.zip",
+              "size": 24833093,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-win.zip"
+            }
+          },
+          "license": "bsl-1.0"
+        }
+      }
+    },
+    "studiorack/opnplug": {
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "name": "OPNplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "date": "2020-08-05T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opnplug.flac",
+              "size": 58202,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug.flac"
+            },
+            "image": {
+              "name": "opnplug.jpg",
+              "size": 145332,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug.jpg"
+            },
+            "linux": {
+              "name": "opnplug-linux.zip",
+              "size": 11236640,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-linux.zip"
+            },
+            "mac": {
+              "name": "opnplug-mac.zip",
+              "size": 27264168,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-mac.zip"
+            },
+            "win": {
+              "name": "opnplug-win.zip",
+              "size": 25020750,
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-win.zip"
+            }
+          },
+          "license": "bsl-1.0"
+        }
+      }
+    },
+    "studiorack/kars": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -9301,7 +9301,7 @@
         }
       }
     },
-    "studiorack/tunefish/tunefish": {
+    "studiorack/tunefish": {
       "version": "4.0.0",
       "versions": {
         "4.0.0": {
@@ -9346,7 +9346,7 @@
         }
       }
     },
-    "studiorack/oxe/oxe": {
+    "studiorack/oxe": {
       "version": "1.3.5",
       "versions": {
         "1.3.5": {
@@ -9391,7 +9391,7 @@
         }
       }
     },
-    "studiorack/dragonfly-reverb/dragonfly-reverb": {
+    "studiorack/dragonfly-reverb": {
       "version": "3.2.5",
       "versions": {
         "3.2.5": {
@@ -9436,7 +9436,7 @@
         }
       }
     },
-    "studiorack/diopser/diopser": {
+    "studiorack/diopser": {
       "version": "0.0.1",
       "versions": {
         "0.0.1": {
@@ -9481,7 +9481,7 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano/splendid-grand-piano": {
+    "studiorack/splendid-grand-piano": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -9527,7 +9527,7 @@
         }
       }
     },
-    "studiorack/wolf-shaper/wolf-shaper": {
+    "studiorack/wolf-shaper": {
       "version": "0.1.8",
       "versions": {
         "0.1.8": {
@@ -9572,7 +9572,7 @@
         }
       }
     },
-    "studiorack/nekobi/nekobi": {
+    "studiorack/nekobi": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -9617,7 +9617,7 @@
         }
       }
     },
-    "studiorack/jrhodes-3c/jrhodes-3c": {
+    "studiorack/jrhodes-3c": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -9663,7 +9663,7 @@
         }
       }
     },
-    "studiorack/swankyamp/swankyamp": {
+    "studiorack/swankyamp": {
       "version": "1.4.0",
       "versions": {
         "1.4.0": {
@@ -9708,7 +9708,7 @@
         }
       }
     },
-    "studiorack/regrader/regrader": {
+    "studiorack/regrader": {
       "version": "1.0.4",
       "versions": {
         "1.0.4": {
@@ -9753,7 +9753,7 @@
         }
       }
     },
-    "studiorack/helm/helm": {
+    "studiorack/helm": {
       "version": "0.9.0",
       "versions": {
         "0.9.0": {
@@ -9798,7 +9798,7 @@
         }
       }
     },
-    "studiorack/juicysf/juicysf": {
+    "studiorack/juicysf": {
       "version": "3.1.0",
       "versions": {
         "3.1.0": {
@@ -9843,7 +9843,7 @@
         }
       }
     },
-    "studiorack/vst2413/vst2413": {
+    "studiorack/vst2413": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -9888,7 +9888,7 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra/virtual-playing-orchestra": {
+    "studiorack/virtual-playing-orchestra": {
       "version": "3.2.2",
       "versions": {
         "3.2.2": {
@@ -9934,7 +9934,7 @@
         }
       }
     },
-    "studiorack/jsteeldrum/jsteel-drum": {
+    "studiorack/jsteel-drum": {
       "version": "2.0.0",
       "versions": {
         "2.0.0": {
@@ -9980,7 +9980,7 @@
         }
       }
     },
-    "studiorack/wolf-spectrum/wolf-spectrum": {
+    "studiorack/wolf-spectrum": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10025,7 +10025,7 @@
         }
       }
     },
-    "studiorack/dexed/dexed": {
+    "studiorack/dexed": {
       "version": "0.9.6",
       "versions": {
         "0.9.6": {
@@ -10070,7 +10070,7 @@
         }
       }
     },
-    "studiorack/horse-pulse/horse-pulse": {
+    "studiorack/horse-pulse": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10116,142 +10116,97 @@
         }
       }
     },
-    "studiorack/mverb/mverb": {
-      "version": "1.0.0",
+    "studiorack/octasine": {
+      "version": "0.5.3",
       "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+        "0.5.3": {
+          "author": "Joakim Frostegård",
+          "homepage": "https://www.octasine.com",
+          "name": "OctaSine",
+          "description": "Frequency modulation-based synthesizer plugin.",
           "tags": [
-            "Effect",
-            "Reverb"
+            "Instrument",
+            "Synth",
+            "Modulation"
           ],
-          "date": "2013-03-25T07:00:00.000Z",
+          "date": "2021-07-18T08:00:00.000Z",
           "files": {
             "audio": {
-              "name": "mverb.flac",
-              "size": 41738,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
+              "name": "octasine.flac",
+              "size": 84574,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
             },
             "image": {
-              "name": "mverb.jpg",
-              "size": 48422,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
+              "name": "octasine.jpg",
+              "size": 90200,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
             },
             "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
+              "name": "octasine-linux.zip",
+              "size": 3528874,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
             },
             "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
+              "name": "octasine-mac.zip",
+              "size": 3115190,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
             },
             "win": {
-              "name": "mverb-win.zip",
-              "size": 283901,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
+              "name": "octasine-win.zip",
+              "size": 3203934,
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
+            }
+          },
+          "license": "agpl-3.0"
+        }
+      }
+    },
+    "studiorack/modeq": {
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "author": "Tobante Audio",
+          "homepage": "https://github.com/tobanteAudio/modEQ",
+          "name": "modEQ",
+          "description": "EQ audio effects plugin with modulation.",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "date": "2019-05-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "modeq.flac",
+              "size": 66240,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.flac"
+            },
+            "image": {
+              "name": "modeq.jpg",
+              "size": 75899,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.jpg"
+            },
+            "linux": {
+              "name": "modeq-linux.zip",
+              "size": 7097654,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip"
+            },
+            "mac": {
+              "name": "modeq-mac.zip",
+              "size": 3222514,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip"
+            },
+            "win": {
+              "name": "modeq-win.zip",
+              "size": 3677919,
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip"
             }
           },
           "license": "gpl-3.0"
         }
       }
     },
-    "studiorack/smartguitaramp/smartguitaramp": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
-            },
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
-            }
-          },
-          "license": "apache-2.0"
-        }
-      }
-    },
-    "studiorack/sams-sonor/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            }
-          },
-          "license": "cc-by-sa-4.0"
-        }
-      }
-    },
-    "studiorack/ep-mk1/ep-mk1": {
+    "studiorack/ep-mk1": {
       "version": "2.4.0",
       "versions": {
         "2.4.0": {
@@ -10297,7 +10252,7 @@
         }
       }
     },
-    "studiorack/naked-drums/naked-drums": {
+    "studiorack/naked-drums": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10342,7 +10297,7 @@
         }
       }
     },
-    "studiorack/avl-percussions/avl-percussions": {
+    "studiorack/avl-percussions": {
       "version": "1.1.0",
       "versions": {
         "1.1.0": {
@@ -10388,97 +10343,142 @@
         }
       }
     },
-    "studiorack/octasine/octasine": {
-      "version": "0.5.3",
+    "studiorack/mverb": {
+      "version": "1.0.0",
       "versions": {
-        "0.5.3": {
-          "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
-          "name": "OctaSine",
-          "description": "Frequency modulation-based synthesizer plugin.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2021-07-18T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "octasine.flac",
-              "size": 84574,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.flac"
-            },
-            "image": {
-              "name": "octasine.jpg",
-              "size": 90200,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine.jpg"
-            },
-            "linux": {
-              "name": "octasine-linux.zip",
-              "size": 3528874,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip"
-            },
-            "mac": {
-              "name": "octasine-mac.zip",
-              "size": 3115190,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip"
-            },
-            "win": {
-              "name": "octasine-win.zip",
-              "size": 3203934,
-              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip"
-            }
-          },
-          "license": "agpl-3.0"
-        }
-      }
-    },
-    "studiorack/modeq/modeq": {
-      "version": "0.4.0",
-      "versions": {
-        "0.4.0": {
-          "author": "Tobante Audio",
-          "homepage": "https://github.com/tobanteAudio/modEQ",
-          "name": "modEQ",
-          "description": "EQ audio effects plugin with modulation.",
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
           "tags": [
             "Effect",
-            "EQ",
-            "Modulation"
+            "Reverb"
           ],
-          "date": "2019-05-17T08:00:00.000Z",
+          "date": "2013-03-25T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "modeq.flac",
-              "size": 66240,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.flac"
+              "name": "mverb.flac",
+              "size": 41738,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
             },
             "image": {
-              "name": "modeq.jpg",
-              "size": 75899,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.jpg"
+              "name": "mverb.jpg",
+              "size": 48422,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
             },
             "linux": {
-              "name": "modeq-linux.zip",
-              "size": 7097654,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip"
+              "name": "mverb-linux.zip",
+              "size": 188933,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
             },
             "mac": {
-              "name": "modeq-mac.zip",
-              "size": 3222514,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip"
+              "name": "mverb-mac.zip",
+              "size": 674694,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
             },
             "win": {
-              "name": "modeq-win.zip",
-              "size": 3677919,
-              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip"
+              "name": "mverb-win.zip",
+              "size": 283901,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
             }
           },
           "license": "gpl-3.0"
         }
       }
     },
-    "studiorack/ampli-fe/ampli-fe": {
+    "studiorack/smartguitaramp": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
+            },
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
+            }
+          },
+          "license": "apache-2.0"
+        }
+      }
+    },
+    "studiorack/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            }
+          },
+          "license": "cc-by-sa-4.0"
+        }
+      }
+    },
+    "studiorack/ampli-fe": {
       "version": "0.1.0",
       "versions": {
         "0.1.0": {
@@ -10523,7 +10523,7 @@
         }
       }
     },
-    "studiorack/carla/carla": {
+    "studiorack/carla": {
       "version": "2.4.2",
       "versions": {
         "2.4.2": {
@@ -10568,7 +10568,7 @@
         }
       }
     },
-    "studiorack/bear-sax/bear-sax": {
+    "studiorack/bear-sax": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10614,7 +10614,7 @@
         }
       }
     },
-    "studiorack/hungarian-zither/hungarian-zither": {
+    "studiorack/hungarian-zither": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10660,7 +10660,7 @@
         }
       }
     },
-    "studiorack/double-bass/double-bass": {
+    "studiorack/double-bass": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10706,7 +10706,7 @@
         }
       }
     },
-    "studiorack/sfizz/sfizz": {
+    "studiorack/sfizz": {
       "version": "1.1.1",
       "versions": {
         "1.1.1": {
@@ -10751,7 +10751,7 @@
         }
       }
     },
-    "studiorack/mini-series/mini-series-eq": {
+    "studiorack/mini-series-eq": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10795,7 +10795,7 @@
         }
       }
     },
-    "studiorack/mini-series/mini-series-splitter": {
+    "studiorack/mini-series-splitter": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10839,7 +10839,7 @@
         }
       }
     },
-    "studiorack/mini-series/mini-series-pan": {
+    "studiorack/mini-series-pan": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -10883,7 +10883,7 @@
         }
       }
     },
-    "studiorack/distrho-ports/tal-chorus": {
+    "studiorack/tal-chorus": {
       "version": "1.6.0",
       "versions": {
         "1.6.0": {
@@ -10928,7 +10928,7 @@
         }
       }
     },
-    "studiorack/distrho-ports/tal-filter": {
+    "studiorack/tal-filter": {
       "version": "3.0.1",
       "versions": {
         "3.0.1": {
@@ -10973,7 +10973,7 @@
         }
       }
     },
-    "studiorack/distrho-ports/tal-noisemaker": {
+    "studiorack/tal-noisemaker": {
       "version": "5.0.4",
       "versions": {
         "5.0.4": {
@@ -11018,7 +11018,7 @@
         }
       }
     },
-    "studiorack/distrho-ports/tal-reverb": {
+    "studiorack/tal-reverb": {
       "version": "2.4.0",
       "versions": {
         "2.4.0": {
@@ -11063,7 +11063,7 @@
         }
       }
     },
-    "studiorack/distrho-ports/tal-vocoder": {
+    "studiorack/tal-vocoder": {
       "version": "2.2.0",
       "versions": {
         "2.2.0": {
@@ -11108,7 +11108,370 @@
         }
       }
     },
-    "studiorack/chow-tape-model/chow-tape-model": {
+    "studiorack/temper": {
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "author": "Nick Thompson",
+          "homepage": "https://github.com/creativeintent/temper",
+          "name": "Temper",
+          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
+          "tags": [
+            "Effect",
+            "Distortion",
+            "Modulation"
+          ],
+          "date": "2018-04-17T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "temper.flac",
+              "size": 95804,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.flac"
+            },
+            "image": {
+              "name": "temper.jpg",
+              "size": 62400,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.jpg"
+            },
+            "linux": {
+              "name": "temper-linux.zip",
+              "size": 9837586,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-linux.zip"
+            },
+            "mac": {
+              "name": "temper-mac.zip",
+              "size": 6764694,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-mac.zip"
+            },
+            "win": {
+              "name": "temper-win.zip",
+              "size": 6181044,
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/mda": {
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Paul Kellett",
+          "homepage": "http://mda.smartelectronix.com",
+          "name": "MDA",
+          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Vocoder"
+          ],
+          "date": "2020-12-20T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "mda.flac",
+              "size": 127392,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.flac"
+            },
+            "image": {
+              "name": "mda.jpg",
+              "size": 104156,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.jpg"
+            },
+            "linux": {
+              "name": "mda-linux.zip",
+              "size": 70938,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip"
+            },
+            "mac": {
+              "name": "mda-mac.zip",
+              "size": 5122516,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip"
+            },
+            "win": {
+              "name": "mda-win.zip",
+              "size": 1247768,
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/odin": {
+      "version": "2.2.4",
+      "versions": {
+        "2.2.4": {
+          "author": "TheWaveWarden",
+          "homepage": "https://github.com/TheWaveWarden/odin2",
+          "name": "Odin",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Moog"
+          ],
+          "date": "2020-10-24T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "odin.flac",
+              "size": 51889,
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin.flac"
+            },
+            "image": {
+              "name": "odin.jpg",
+              "size": 123090,
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin.jpg"
+            },
+            "linux": {
+              "name": "odin-linux.zip",
+              "size": 97250026,
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip"
+            },
+            "mac": {
+              "name": "odin-mac.zip",
+              "size": 78842812,
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-mac.zip"
+            },
+            "win": {
+              "name": "odin-win.zip",
+              "size": 0,
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/chow-matrix": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "Chowdhury DSP",
+          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
+          "name": "CHOW Matrix",
+          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Feedback"
+          ],
+          "date": "2021-04-23T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "chow-matrix.flac",
+              "size": 71529,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.flac"
+            },
+            "image": {
+              "name": "chow-matrix.jpg",
+              "size": 74210,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.jpg"
+            },
+            "linux": {
+              "name": "chow-matrix-linux.zip",
+              "size": 16260494,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-linux.zip"
+            },
+            "mac": {
+              "name": "chow-matrix-mac.zip",
+              "size": 10373268,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-mac.zip"
+            },
+            "win": {
+              "name": "chow-matrix-win.zip",
+              "size": 4719759,
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-win.zip"
+            }
+          },
+          "license": "bsd-3-clause"
+        }
+      }
+    },
+    "studiorack/os-251": {
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Onsen Audio",
+          "homepage": "https://github.com/utokusa/OS-251",
+          "name": "OS-251",
+          "description": "Pure digital lo-fi synthesizer plugin",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Lofi"
+          ],
+          "date": "2021-10-09T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "os-251.flac",
+              "size": 115597,
+              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251.flac"
+            },
+            "image": {
+              "name": "os-251.jpg",
+              "size": 77849,
+              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251.jpg"
+            },
+            "linux": {
+              "name": "os-251-linux.zip",
+              "size": 8860818,
+              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251-linux.zip"
+            },
+            "mac": {
+              "name": "os-251-mac.zip",
+              "size": 7611441,
+              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251-mac.zip"
+            },
+            "win": {
+              "name": "os-251-win.zip",
+              "size": 2496031,
+              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251-win.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/opl3-soundfont": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Zandro Reveille",
+          "homepage": "https://github.com/Mindwerks/opl3-soundfont",
+          "name": "OPL-3 FM 128M",
+          "description": "SoundFont designed to simulate the classic MIDI sound of the Sound Blaster 16 (and other YM262 enabled hardware)",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "sf2"
+          ],
+          "date": "2017-02-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "opl3-soundfont.flac",
+              "size": 89812,
+              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.flac"
+            },
+            "image": {
+              "name": "opl3-soundfont.jpg",
+              "size": 51951,
+              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.jpg"
+            },
+            "linux": {
+              "name": "opl3-soundfont.zip",
+              "size": 121192707,
+              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.zip"
+            },
+            "mac": {
+              "name": "opl3-soundfont.zip",
+              "size": 121192707,
+              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.zip"
+            },
+            "win": {
+              "name": "opl3-soundfont.zip",
+              "size": 121192707,
+              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.zip"
+            }
+          },
+          "license": "cc-by-sa-4.0"
+        }
+      }
+    },
+    "studiorack/salamander-drumkit": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Rytmenpinne",
+          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
+          "name": "Salamander Drumkit",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "date": "2012-02-25T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "salamander-drumkit.flac",
+              "size": 162704,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.flac"
+            },
+            "image": {
+              "name": "salamander-drumkit.jpg",
+              "size": 94023,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.jpg"
+            },
+            "linux": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
+            },
+            "mac": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
+            },
+            "win": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176,
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/airwindows": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Chris Johnson",
+          "homepage": "https://www.airwindows.com",
+          "name": "Airwindows",
+          "description": "Huge collection of effects using simple UI controls",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "date": "2020-02-20T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "airwindows.flac",
+              "size": 111355,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.flac"
+            },
+            "image": {
+              "name": "airwindows.jpg",
+              "size": 71522,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.jpg"
+            },
+            "linux": {
+              "name": "airwindows-linux.zip",
+              "size": 8241206,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-linux.zip"
+            },
+            "mac": {
+              "name": "airwindows-mac.zip",
+              "size": 14246351,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-mac.zip"
+            },
+            "win": {
+              "name": "airwindows-win.zip",
+              "size": 22181434,
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-win.zip"
+            }
+          },
+          "license": "mit"
+        }
+      }
+    },
+    "studiorack/chow-tape-model": {
       "version": "2.8.0",
       "versions": {
         "2.8.0": {
@@ -11153,7 +11516,7 @@
         }
       }
     },
-    "studiorack/ninjas2/ninjas2": {
+    "studiorack/ninjas2": {
       "version": "0.2.0",
       "versions": {
         "0.2.0": {
@@ -11198,7 +11561,7 @@
         }
       }
     },
-    "studiorack/monique-monosynth/monique": {
+    "studiorack/monique": {
       "version": "1.2.0",
       "versions": {
         "1.2.0": {
@@ -11244,7 +11607,7 @@
         }
       }
     },
-    "studiorack/war-tuba/war-tuba": {
+    "studiorack/war-tuba": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
@@ -11287,369 +11650,6 @@
             }
           },
           "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/temper/temper": {
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "author": "Nick Thompson",
-          "homepage": "https://github.com/creativeintent/temper",
-          "name": "Temper",
-          "description": "Digital distortion audio plugin which builds upon traditional waveshaping techniques, using modulated filter coefficients to produce a unique phase distortion.",
-          "tags": [
-            "Effect",
-            "Distortion",
-            "Modulation"
-          ],
-          "date": "2018-04-17T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "temper.flac",
-              "size": 95804,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.flac"
-            },
-            "image": {
-              "name": "temper.jpg",
-              "size": 62400,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper.jpg"
-            },
-            "linux": {
-              "name": "temper-linux.zip",
-              "size": 9837586,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-linux.zip"
-            },
-            "mac": {
-              "name": "temper-mac.zip",
-              "size": 6764694,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-mac.zip"
-            },
-            "win": {
-              "name": "temper-win.zip",
-              "size": 6181044,
-              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/mda/mda": {
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Paul Kellett",
-          "homepage": "http://mda.smartelectronix.com",
-          "name": "MDA",
-          "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Vocoder"
-          ],
-          "date": "2020-12-20T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "mda.flac",
-              "size": 127392,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.flac"
-            },
-            "image": {
-              "name": "mda.jpg",
-              "size": 104156,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda.jpg"
-            },
-            "linux": {
-              "name": "mda-linux.zip",
-              "size": 70938,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip"
-            },
-            "mac": {
-              "name": "mda-mac.zip",
-              "size": 5122516,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip"
-            },
-            "win": {
-              "name": "mda-win.zip",
-              "size": 1247768,
-              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/odin/odin": {
-      "version": "2.2.4",
-      "versions": {
-        "2.2.4": {
-          "author": "TheWaveWarden",
-          "homepage": "https://github.com/TheWaveWarden/odin2",
-          "name": "Odin",
-          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Moog"
-          ],
-          "date": "2020-10-24T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "odin.flac",
-              "size": 51889,
-              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin.flac"
-            },
-            "image": {
-              "name": "odin.jpg",
-              "size": 123090,
-              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin.jpg"
-            },
-            "linux": {
-              "name": "odin-linux.zip",
-              "size": 97250026,
-              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip"
-            },
-            "mac": {
-              "name": "odin-mac.zip",
-              "size": 78842812,
-              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-mac.zip"
-            },
-            "win": {
-              "name": "odin-win.zip",
-              "size": 0,
-              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/chow-matrix/chow-matrix": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "Chowdhury DSP",
-          "homepage": "https://github.com/Chowdhury-DSP/ChowMatrix",
-          "name": "CHOW Matrix",
-          "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Feedback"
-          ],
-          "date": "2021-04-23T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "chow-matrix.flac",
-              "size": 71529,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.flac"
-            },
-            "image": {
-              "name": "chow-matrix.jpg",
-              "size": 74210,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix.jpg"
-            },
-            "linux": {
-              "name": "chow-matrix-linux.zip",
-              "size": 16260494,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-linux.zip"
-            },
-            "mac": {
-              "name": "chow-matrix-mac.zip",
-              "size": 10373268,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-mac.zip"
-            },
-            "win": {
-              "name": "chow-matrix-win.zip",
-              "size": 4719759,
-              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-win.zip"
-            }
-          },
-          "license": "bsd-3-clause"
-        }
-      }
-    },
-    "studiorack/os-251/os-251": {
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Onsen Audio",
-          "homepage": "https://github.com/utokusa/OS-251",
-          "name": "OS-251",
-          "description": "Pure digital lo-fi synthesizer plugin",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Lofi"
-          ],
-          "date": "2021-10-09T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "os-251.flac",
-              "size": 115597,
-              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251.flac"
-            },
-            "image": {
-              "name": "os-251.jpg",
-              "size": 77849,
-              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251.jpg"
-            },
-            "linux": {
-              "name": "os-251-linux.zip",
-              "size": 8860818,
-              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251-linux.zip"
-            },
-            "mac": {
-              "name": "os-251-mac.zip",
-              "size": 7611441,
-              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251-mac.zip"
-            },
-            "win": {
-              "name": "os-251-win.zip",
-              "size": 2496031,
-              "url": "https://github.com/studiorack/os-251/releases/download/v1.1.0/os-251-win.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/opl3-soundfont/opl3-soundfont": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Zandro Reveille",
-          "homepage": "https://github.com/Mindwerks/opl3-soundfont",
-          "name": "OPL-3 FM 128M",
-          "description": "SoundFont designed to simulate the classic MIDI sound of the Sound Blaster 16 (and other YM262 enabled hardware)",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "sf2"
-          ],
-          "date": "2017-02-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "opl3-soundfont.flac",
-              "size": 89812,
-              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.flac"
-            },
-            "image": {
-              "name": "opl3-soundfont.jpg",
-              "size": 51951,
-              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.jpg"
-            },
-            "linux": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707,
-              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.zip"
-            },
-            "mac": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707,
-              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.zip"
-            },
-            "win": {
-              "name": "opl3-soundfont.zip",
-              "size": 121192707,
-              "url": "https://github.com/studiorack/opl3-soundfont/releases/download/v1.0.0/opl3-soundfont.zip"
-            }
-          },
-          "license": "cc-by-sa-4.0"
-        }
-      }
-    },
-    "studiorack/salamander-drumkit/salamander-drumkit": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Rytmenpinne",
-          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
-          "name": "Salamander Drumkit",
-          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "date": "2012-02-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-drumkit.flac",
-              "size": 162704,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.flac"
-            },
-            "image": {
-              "name": "salamander-drumkit.jpg",
-              "size": 94023,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.jpg"
-            },
-            "linux": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
-            },
-            "mac": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
-            },
-            "win": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
-    "studiorack/airwindows/airwindows": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Chris Johnson",
-          "homepage": "https://www.airwindows.com",
-          "name": "Airwindows",
-          "description": "Huge collection of effects using simple UI controls",
-          "tags": [
-            "Effect",
-            "Chorus",
-            "Distortion",
-            "EQ",
-            "Filter",
-            "Reverb"
-          ],
-          "date": "2020-02-20T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "airwindows.flac",
-              "size": 111355,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.flac"
-            },
-            "image": {
-              "name": "airwindows.jpg",
-              "size": 71522,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows.jpg"
-            },
-            "linux": {
-              "name": "airwindows-linux.zip",
-              "size": 8241206,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-linux.zip"
-            },
-            "mac": {
-              "name": "airwindows-mac.zip",
-              "size": 14246351,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-mac.zip"
-            },
-            "win": {
-              "name": "airwindows-win.zip",
-              "size": 22181434,
-              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-win.zip"
-            }
-          },
-          "license": "mit"
         }
       }
     },
