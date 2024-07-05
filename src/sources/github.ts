@@ -2,6 +2,7 @@ import * as semver from 'semver';
 import {
   PluginEntry,
   PluginFile,
+  PluginFiles,
   PluginPack,
   PluginVersion,
   PluginVersionLocal,
@@ -79,7 +80,7 @@ async function githubGetPack(): Promise<PluginPack> {
   const results: GitHubSearch = await githubSearchRepos(GITHUB_API);
   for (const repo of results.search.nodes) {
     for (const release of repo.releases.nodes) {
-      githubGetRelease(pluginPack, repo, release);
+      await githubGetRelease(pluginPack, repo, release);
     }
   }
   return pluginPack;
@@ -132,11 +133,53 @@ async function githubSearchRepos(url: string): Promise<GitHubSearch> {
   return graphQLClient.request(query);
 }
 
-function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, release: GitHubRelease) {
+async function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, release: GitHubRelease) {
+  const { pluginDefault, pluginJsonFile } = githubPluginDefault(repo, release);
+
+  // If we detect a plugins.json file, use that data as overrides
+  if (pluginJsonFile) {
+    const pluginsJsonList = await getJSONSafe(
+      `https://github.com/${repo.owner.login}/${repo.name}/releases/download/${release.tagName}/plugins.json`,
+    );
+    pluginsJsonList.plugins.forEach((pluginJson: PluginVersion) => {
+      // For each plugin sanitize the id and add to registry
+      const pluginVersion: string = semver.coerce(pluginJson.version)?.version || '0.0.0';
+      const plugin: PluginVersion = JSON.parse(JSON.stringify(pluginDefault));
+
+      // Update required fields
+      if (pluginJson.id) plugin.id = safeSlug(pluginJson.id);
+      plugin.version = pluginVersion;
+      plugin.release = release.tagName;
+      plugin.license = pluginLicense(repo.licenseInfo?.key || 'other');
+      plugin.repo = safeSlug(`${repo.owner.login}/${repo.name}`);
+
+      // Update optional fields
+      if (pluginJson.author) plugin.author = pluginJson.author;
+      if (pluginJson.homepage) plugin.homepage = pluginJson.homepage;
+      if (pluginJson.date) plugin.date = pluginJson.date;
+      if (pluginJson.name) plugin.name = pluginJson.name;
+      if (pluginJson.description) plugin.description = pluginJson.description;
+      if (pluginJson.tags) plugin.tags = pluginJson.tags;
+      updateNestedFields(pluginJson, plugin, 'audio');
+      updateNestedFields(pluginJson, plugin, 'image');
+      updateNestedFields(pluginJson, plugin, 'linux');
+      updateNestedFields(pluginJson, plugin, 'mac');
+      updateNestedFields(pluginJson, plugin, 'win');
+
+      // Add plugin version to pack
+      githubAddPlugin(pluginPack, plugin);
+    });
+  } else {
+    githubAddPlugin(pluginPack, pluginDefault);
+  }
+  return pluginPack;
+}
+
+function githubPluginDefault(repo: GitHubRepository, release: GitHubRelease) {
   // For each plugin sanitize the id and add to registry
   const pluginId: string = safeSlug(`${repo.owner.login}/${repo.name}`);
   const pluginVersion: string = semver.coerce(release.tagName)?.version || '0.0.0';
-  const plugin: PluginVersion = {
+  const pluginDefault: PluginVersion = {
     author: repo.owner.login,
     homepage: repo.homepageUrl || repo.url,
     name: repo.name,
@@ -154,41 +197,62 @@ function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, releas
   };
 
   // For each asset in the release, add to files
+  let pluginJsonFile: boolean = false;
   for (const asset of release.releaseAssets.nodes) {
     const name: string = asset.name.toLowerCase();
     const file: any = {
       name,
       size: asset.size,
     };
+    if (name === 'plugins.json') pluginJsonFile = true;
     if (name.endsWith('json')) continue;
     else if (name.includes('-compact')) continue;
-    else if (name.endsWith('jpg') || name.endsWith('png')) plugin.files.image = file;
-    else if (name.endsWith('flac') || name.endsWith('wav')) plugin.files.audio = file;
-    else if (name.includes('linux')) plugin.files.linux = file;
-    else if (name.includes('mac')) plugin.files.mac = file;
-    else if (name.includes('win')) plugin.files.win = file;
+    else if (name.endsWith('jpg') || name.endsWith('png')) pluginDefault.files.image = file;
+    else if (name.endsWith('flac') || name.endsWith('wav')) pluginDefault.files.audio = file;
+    else if (name.includes('linux')) pluginDefault.files.linux = file;
+    else if (name.includes('mac')) pluginDefault.files.mac = file;
+    else if (name.includes('win')) pluginDefault.files.win = file;
     else if (name.includes('zip')) {
-      plugin.files.linux = file;
-      plugin.files.mac = file;
-      plugin.files.win = file;
+      pluginDefault.files.linux = file;
+      pluginDefault.files.mac = file;
+      pluginDefault.files.win = file;
     }
   }
+  return {
+    pluginDefault,
+    pluginJsonFile,
+  };
+}
+
+function updateNestedFields(pluginJson: PluginVersion, plugin: PluginVersion, field: keyof PluginFiles) {
+  if (pluginJson.files[field] && !plugin.files[field]) {
+    plugin.files[field] = pluginJson.files[field];
+  } else {
+    if (pluginJson.files[field].name) plugin.files[field].name = pluginJson.files[field].name;
+    if (pluginJson.files[field].size) plugin.files[field].size = pluginJson.files[field].size;
+  }
+}
+
+function githubAddPlugin(pluginPack: PluginPack, plugin: PluginVersion) {
+  const pluginId: string = safeSlug(`${plugin.repo}/${plugin.id}`);
+  const pluginVersion: string = semver.coerce(plugin.version)?.version || '0.0.0';
 
   // Ensure plugin has valid fields.
   const errors: string | boolean = pluginValidateSchema(plugin as PluginVersionLocal);
   const compatibility: string | boolean = pluginCompatibility(plugin);
   if (errors) {
-    console.log('⚠', pluginId, release.tagName);
+    console.log('⚠', pluginId, plugin.version);
     console.log(compatibility ? errors + compatibility : errors);
   } else {
-    console.log('+', pluginId, release.tagName);
+    console.log('+', pluginId, plugin.version);
     if (compatibility) console.log(compatibility);
   }
 
+  // Ensure there is a plugin entry
   if (!pluginPack[pluginId]) {
     pluginPack[pluginId] = {
       id: pluginId,
-      license: repo.licenseInfo?.key || 'other',
+      license: typeof plugin.license === 'string' ? plugin.license : plugin.license.key,
       version: pluginVersion,
       versions: {},
     };
@@ -199,7 +263,17 @@ function githubGetRelease(pluginPack: PluginPack, repo: GitHubRepository, releas
   if (semver.gt(pluginVersion, pluginPack[pluginId].version)) {
     pluginPack[pluginId].version = pluginVersion;
   }
-  return pluginPack;
+}
+
+async function getJSONSafe(url: string): Promise<any> {
+  // console.log('⤓', url);
+  try {
+    const response = await fetch(url);
+    const json = await response.json();
+    return json;
+  } catch (error) {
+    return error;
+  }
 }
 
 function pluginCompatibility(plugin: PluginVersion) {
@@ -207,7 +281,8 @@ function pluginCompatibility(plugin: PluginVersion) {
   error += pluginValidateField(plugin.files, 'linux', 'object');
   error += pluginValidateField(plugin.files, 'mac', 'object');
   error += pluginValidateField(plugin.files, 'win', 'object');
-  if (!plugin.tags.includes('instrument') || !plugin.tags.includes('effect')) {
+  const pluginTags: string[] = plugin.tags.map(tag => tag.toLowerCase());
+  if (!pluginTags.includes('instrument') && !pluginTags.includes('effect')) {
     error += '- Tags missing category (instrument, effect)\n';
   }
   return error.length === 0 ? false : error;
