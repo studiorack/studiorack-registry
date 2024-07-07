@@ -90,14 +90,36 @@ If you use other formats such as `deb, dmg, exe, msi` StudioRack will download a
 
 ### 2. GitHub repo
 
-StudioRack supports scanning GitHub for compatible plugins. NOTE: to implement GitHub compatibility requires more effort than the yaml approach above.
-
-StudioRack registry searches the GitHub API for topic `studiorack-plugin`:
+StudioRack supports scanning GitHub for compatible plugins. StudioRack registry searches the GitHub API for topic `studiorack-plugin`:
 
     https://github.com/topics/studiorack-plugin
     https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true
 
-Then for each GitHub repository, the Registry loops through each release/version and expects to find a file called `plugins.json`:
+Then for each GitHub repository, the Registry loops through each release/version metadata.
+StudioRack will try to automaticallu detect all the ionformation needed for the registry using GitHub metdata as shwon below:
+
+    author = repo.owner.login
+    homepage = repo.homepageUrl or repo.url
+    name = repo.name
+    description = repo.description
+    tags = repo.repositoryTopics
+    version = release.tagName
+    id = repo.name
+    date = release.updatedAt
+    files = release.releaseAssets
+    release = release.tagName,
+    license = repo.licenseInfo or 'other'
+    repo = repo.owner.login + '/' + repo.name
+
+Files are auto-detected based on their name and extension:
+
+    files.image = file extension is '.jpg' or '.png'
+    files.audio = file extension is '.flac' or '.wav'
+    files.linux = filename includes 'linux' or extension '.zip'
+    files.mac = filename includes 'mac' or extension '.zip'
+    files.win = filename includes 'win' or extension '.zip'
+
+If you want to override any of the auto-detected information, or support multiple plugins from a single GitHub repo/release, then you will need to add your own custom `plugins.json` file:
 
     https://github.com/REPOSITORY_NAME/releases/download/RELEASE_NAME/plugins.json
 
@@ -144,12 +166,26 @@ This should be in the format:
       ]
     }
 
-StudioRack Registry then performs validation and mapping on the plugins.json before compiling into the json feeds:
+StudioRack Registry performs validation on auto-detected or manually added `plugins.json` the results are outputted in the most recent job at:
+
+    https://github.com/studiorack/studiorack-registry/actions/workflows/release.yml
+
+For example:
+
+    ⚠ plugin-org/my-plugin 1.0.0
+    - audio field missing
+    - Tags missing category (instrument, effect)
+
+If you plugin metadata passes validation it will be added to the registry feeds at:
 
     https://studiorack.github.io/studiorack-registry/v2/
     https://studiorack.github.io/studiorack-registry/v2/instruments.json
     https://studiorack.github.io/studiorack-registry/v2/effects.json
     https://studiorack.github.io/studiorack-registry/v2/sfz.json
+
+This will make the plugin available in the app and the command-line. However the site will have to run it's own build job to display the updated metadata:
+
+    https://github.com/studiorack/studiorack-site/actions/workflows/release.yml
 
 ### 3. Owlplug integration (future milestone)
 

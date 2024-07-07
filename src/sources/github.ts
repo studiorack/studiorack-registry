@@ -212,7 +212,7 @@ function githubPluginDefault(repo: GitHubRepository, release: GitHubRelease) {
     else if (name.includes('linux')) pluginDefault.files.linux = file;
     else if (name.includes('mac')) pluginDefault.files.mac = file;
     else if (name.includes('win')) pluginDefault.files.win = file;
-    else if (name.includes('zip')) {
+    else if (name.endsWith('zip')) {
       pluginDefault.files.linux = file;
       pluginDefault.files.mac = file;
       pluginDefault.files.win = file;
