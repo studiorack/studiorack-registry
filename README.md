@@ -4,6 +4,8 @@
 
 Audio plugin registry with searchable plugin list, metadata and download urls.
 
+![StudioRack Registry](/screenshot.jpg)
+
 ## How it works
 
 The StudioRack Registry accepts multiple sources for plugin data:
