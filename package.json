@@ -10,13 +10,13 @@
     "build"
   ],
   "scripts": {
-    "copy": "cp -r ./src/plugins ./out",
+    "copy": "mkdir ./out && cp -rf ./src/plugins ./out",
     "start": "node ./build/main.js",
-    "clean": "rimraf coverage build tmp",
+    "clean": "rimraf coverage build tmp out",
     "prebuild": "npm run lint",
-    "build": "tsc -p tsconfig.json && npm run copy",
+    "build": "npm run clean && tsc -p tsconfig.json && npm run copy",
     "dev": "tsx ./src/main.ts",
-    "build:release": "npm run clean && tsc -p tsconfig.release.json",
+    "build:release": "npm run clean && tsc -p tsconfig.release.json && npm run copy",
     "lint": "eslint ./**/*.ts",
     "test": "vitest run ./tests",
     "format": "prettier . --write",
