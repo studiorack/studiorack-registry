@@ -10,17 +10,17 @@ tags:
   - sfz
 files:
   audio:
-    name: salamander-drumkit.flac
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.flac
     size: 162704
   image:
-    name: salamander-drumkit.jpg
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg
     size: 94023
   linux:
-    name: salamander-drumkit.zip
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
     size: 269599176
   mac:
-    name: salamander-drumkit.zip
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
     size: 269599176
   win:
-    name: salamander-drumkit.zip
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
     size: 269599176
