@@ -1601,52 +1601,6 @@
         }
       }
     },
-    "studiorack/splendid-grand-piano": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Akai",
-          "homepage": "https://sfzinstruments.github.io/pianos/splendid_grand_piano",
-          "name": "Splendid Grand Piano",
-          "description": "Steinway piano with 4 velocity layers",
-          "tags": [
-            "Instrument",
-            "Keys",
-            "Piano",
-            "sfz"
-          ],
-          "date": "2022-01-02T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "splendid-grand-piano.flac",
-              "size": 69723,
-              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.flac"
-            },
-            "image": {
-              "name": "splendid-grand-piano.jpg",
-              "size": 171261,
-              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.jpg"
-            },
-            "linux": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74654922,
-              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
-            },
-            "mac": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74654922,
-              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
-            },
-            "win": {
-              "name": "splendid-grand-piano.zip",
-              "size": 74654922,
-              "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "studiorack/nekobi": {
       "version": "1.0.0",
       "versions": {
@@ -1963,52 +1917,6 @@
             }
           },
           "license": "unlicense"
-        }
-      }
-    },
-    "studiorack/virtual-playing-orchestra": {
-      "version": "3.2.2",
-      "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
-          "tags": [
-            "Instrument",
-            "Orchestral",
-            "Strings",
-            "sfz"
-          ],
-          "date": "2020-10-31T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.flac"
-            },
-            "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.jpg"
-            },
-            "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
-            },
-            "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
-            },
-            "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
-            }
-          },
-          "license": "gpl-3.0"
         }
       }
     },
@@ -2739,51 +2647,6 @@
         }
       }
     },
-    "studiorack/salamander-drumkit": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Rytmenpinne",
-          "homepage": "https://rytmenpinne.wordpress.com/sounds-and-such/salamander-drumkit/",
-          "name": "Salamander Drumkit",
-          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "date": "2012-02-25T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "salamander-drumkit.flac",
-              "size": 162704,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.flac"
-            },
-            "image": {
-              "name": "salamander-drumkit.jpg",
-              "size": 94023,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.jpg"
-            },
-            "linux": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
-            },
-            "mac": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
-            },
-            "win": {
-              "name": "salamander-drumkit.zip",
-              "size": 269599176,
-              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "surge-synthesizer/surge": {
       "version": "1.3.1",
       "versions": {
@@ -2894,6 +2757,127 @@
             "win": {
               "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip",
               "size": 8286178
+            }
+          }
+        }
+      }
+    },
+    "sfzinstruments/splendidgrandpiano": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Splendid Grand Piano",
+          "author": "Akai",
+          "homepage": "https://github.com/sfzinstruments/splendidgrandpiano",
+          "description": "Steinway piano with 4 velocity layers",
+          "date": "2022-01-02T07:00:00.000Z",
+          "license": "bsd-2-clause",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "files": {
+            "audio": {
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+              "size": 69723
+            },
+            "image": {
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
+              "size": 171264
+            },
+            "linux": {
+              "name": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
+              "size": 74736682
+            },
+            "mac": {
+              "name": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
+              "size": 74736682
+            },
+            "win": {
+              "name": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
+              "size": 74736682
+            }
+          }
+        }
+      }
+    },
+    "open-soundfonts/virtual-playing-orchestra": {
+      "version": "3.3.2",
+      "versions": {
+        "3.3.2": {
+          "name": "Virtual Playing Orchestra",
+          "author": "Paul Battersby",
+          "homepage": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "date": "2020-10-17T00:00:00.000Z",
+          "license": "gpl-3.0",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "files": {
+            "audio": {
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac",
+              "size": 137127
+            },
+            "image": {
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg",
+              "size": 79890
+            },
+            "linux": {
+              "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
+              "size": 618138108
+            },
+            "mac": {
+              "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
+              "size": 618138108
+            },
+            "win": {
+              "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
+              "size": 618138108
+            }
+          }
+        }
+      }
+    },
+    "endolith/salamander-drumkit": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Salamander Drumkit",
+          "author": "Rytmenpinne",
+          "homepage": "https://github.com/endolith/salamander-drumkit",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "date": "2012-02-25T07:00:00.000Z",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "files": {
+            "audio": {
+              "name": "salamander-drumkit.flac",
+              "size": 162704
+            },
+            "image": {
+              "name": "salamander-drumkit.jpg",
+              "size": 94023
+            },
+            "linux": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "mac": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
+            },
+            "win": {
+              "name": "salamander-drumkit.zip",
+              "size": 269599176
             }
           }
         }
