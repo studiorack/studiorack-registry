@@ -187,52 +187,6 @@
         }
       }
     },
-    "freepats/synthesizer-percussion": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
-          "name": "Synthesizer Percussion",
-          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Electro",
-            "sfz"
-          ],
-          "date": "2022-07-18T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "SynthesizerPercussion-20220718.flac",
-              "size": 135815,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
-            },
-            "image": {
-              "name": "SynthesizerPercussion-20220718.jpg",
-              "size": 154466,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
-            },
-            "linux": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "mac": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            },
-            "win": {
-              "name": "SynthesizerPercussion-20220718.zip",
-              "size": 1663242,
-              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-            }
-          },
-          "license": "cc0-1.0"
-        }
-      }
-    },
     "freepats/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
@@ -325,6 +279,52 @@
         }
       }
     },
+    "freepats/synthesizer-percussion": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Freepats",
+          "homepage": "https://freepats.zenvoid.org",
+          "name": "Synthesizer Percussion",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "date": "2022-07-18T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "SynthesizerPercussion-20220718.flac",
+              "size": 135815,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.flac"
+            },
+            "image": {
+              "name": "SynthesizerPercussion-20220718.jpg",
+              "size": 154466,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.jpg"
+            },
+            "linux": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "mac": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            },
+            "win": {
+              "name": "SynthesizerPercussion-20220718.zip",
+              "size": 1663242,
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            }
+          },
+          "license": "cc0-1.0"
+        }
+      }
+    },
     "studiorack/salamander-grand-piano": {
       "version": "3.0.0",
       "versions": {
@@ -391,11 +391,6 @@
               "size": 696023,
               "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.flac"
             },
-            "image": {
-              "name": "avl-drumkits.jpg",
-              "size": 326339,
-              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.jpg"
-            },
             "linux": {
               "name": "avl-drumkits.zip",
               "size": 16017234,
@@ -410,6 +405,11 @@
               "name": "avl-drumkits.zip",
               "size": 16017234,
               "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip"
+            },
+            "image": {
+              "name": "avl-drumkits.jpg",
+              "size": 326339,
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.jpg"
             }
           },
           "license": "other"
@@ -526,22 +526,22 @@
             },
             "image": {
               "name": "splendid-grand-piano.jpg",
-              "size": 171264,
+              "size": 171261,
               "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.jpg"
             },
             "linux": {
               "name": "splendid-grand-piano.zip",
-              "size": 74736682,
+              "size": 74654922,
               "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
             },
             "mac": {
               "name": "splendid-grand-piano.zip",
-              "size": 74736682,
+              "size": 74654922,
               "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
             },
             "win": {
               "name": "splendid-grand-piano.zip",
-              "size": 74736682,
+              "size": 74654922,
               "url": "https://github.com/studiorack/splendid-grand-piano/releases/download/v1.0.0/splendid-grand-piano.zip"
             }
           },
@@ -595,95 +595,49 @@
         }
       }
     },
-    "studiorack/virtual-playing-orchestra": {
-      "version": "3.2.2",
+    "studiorack/sams-sonor": {
+      "version": "1.0.0",
       "versions": {
-        "3.2.2": {
-          "author": "Paul Battersby",
-          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
-          "name": "Virtual Playing Orchestra",
-          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
           "tags": [
             "Instrument",
-            "Orchestral",
-            "Strings",
+            "Drums",
+            "Kit",
             "sfz"
           ],
-          "date": "2020-10-31T07:00:00.000Z",
+          "date": "2021-08-21T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "virtual-playing-orchestra.flac",
-              "size": 137127,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.flac"
+              "name": "sams-sonor.flac",
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
             },
             "image": {
-              "name": "virtual-playing-orchestra.jpg",
-              "size": 79890,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.jpg"
+              "name": "sams-sonor.jpg",
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
             },
             "linux": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
             },
             "mac": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
             },
             "win": {
-              "name": "virtual-playing-orchestra.zip",
-              "size": 618693714,
-              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
             }
           },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/jsteel-drum": {
-      "version": "2.0.0",
-      "versions": {
-        "2.0.0": {
-          "author": "Jeff Learman",
-          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
-          "name": "jSteelDrum",
-          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
-          "tags": [
-            "Instrument",
-            "Steel",
-            "Drum",
-            "sfz"
-          ],
-          "date": "2022-09-22T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "jsteel-drum.flac",
-              "size": 83358,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.flac"
-            },
-            "image": {
-              "name": "jsteel-drum.jpg",
-              "size": 222224,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.jpg"
-            },
-            "linux": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
-            },
-            "mac": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
-            },
-            "win": {
-              "name": "jsteel-drum.zip",
-              "size": 38363496,
-              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
-            }
-          },
-          "license": "unlicense"
+          "license": "cc-by-sa-4.0"
         }
       }
     },
@@ -733,6 +687,98 @@
         }
       }
     },
+    "studiorack/jsteel-drum": {
+      "version": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "author": "Jeff Learman",
+          "homepage": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+          "name": "jSteelDrum",
+          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+          "tags": [
+            "Instrument",
+            "Steel",
+            "Drum",
+            "sfz"
+          ],
+          "date": "2022-09-22T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "jsteel-drum.flac",
+              "size": 83358,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.flac"
+            },
+            "image": {
+              "name": "jsteel-drum.jpg",
+              "size": 222224,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.jpg"
+            },
+            "linux": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
+            },
+            "mac": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
+            },
+            "win": {
+              "name": "jsteel-drum.zip",
+              "size": 38363496,
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip"
+            }
+          },
+          "license": "unlicense"
+        }
+      }
+    },
+    "studiorack/virtual-playing-orchestra": {
+      "version": "3.2.2",
+      "versions": {
+        "3.2.2": {
+          "author": "Paul Battersby",
+          "homepage": "http://virtualplaying.com/virtual-playing-orchestra/",
+          "name": "Virtual Playing Orchestra",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "date": "2020-10-31T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "virtual-playing-orchestra.flac",
+              "size": 137127,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.flac"
+            },
+            "image": {
+              "name": "virtual-playing-orchestra.jpg",
+              "size": 79890,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.jpg"
+            },
+            "linux": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+            },
+            "mac": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+            },
+            "win": {
+              "name": "virtual-playing-orchestra.zip",
+              "size": 618693714,
+              "url": "https://github.com/studiorack/virtual-playing-orchestra/releases/download/v3.2.2/virtual-playing-orchestra.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
     "studiorack/naked-drums": {
       "version": "1.0.0",
       "versions": {
@@ -748,16 +794,6 @@
           ],
           "date": "2021-11-08T07:00:00.000Z",
           "files": {
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
-            },
             "linux": {
               "name": "naked-drums.zip",
               "size": 1283342538,
@@ -772,6 +808,16 @@
               "name": "naked-drums.zip",
               "size": 1283342538,
               "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "audio": {
+              "name": "naked-drums.flac",
+              "size": 553525,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
+            },
+            "image": {
+              "name": "naked-drums.jpg",
+              "size": 24452,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
             }
           },
           "license": "cc-by-4.0"
@@ -824,49 +870,49 @@
         }
       }
     },
-    "studiorack/sams-sonor": {
+    "studiorack/war-tuba": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "author": "DSmolken",
+          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "name": "War Tuba",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
           "tags": [
             "Instrument",
-            "Drums",
-            "Kit",
+            "Brass",
+            "Tuba",
             "sfz"
           ],
-          "date": "2021-08-21T07:00:00.000Z",
+          "date": "2021-09-03T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
+              "name": "war-tuba.flac",
+              "size": 88482,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
             },
             "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
+              "name": "war-tuba.jpg",
+              "size": 69063,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
             },
             "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
             },
             "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
             },
             "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+              "name": "war-tuba.zip",
+              "size": 35601312,
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
             }
           },
-          "license": "cc-by-sa-4.0"
+          "license": "cc-by-4.0"
         }
       }
     },
@@ -983,11 +1029,6 @@
               "size": 77117,
               "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.flac"
             },
-            "image": {
-              "name": "double-bass.jpg",
-              "size": 45157,
-              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.jpg"
-            },
             "linux": {
               "name": "double-bass.zip",
               "size": 79014147,
@@ -1002,6 +1043,11 @@
               "name": "double-bass.zip",
               "size": 79014147,
               "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip"
+            },
+            "image": {
+              "name": "double-bass.jpg",
+              "size": 45157,
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.jpg"
             }
           },
           "license": "cc-by-4.0"
@@ -1050,52 +1096,6 @@
             }
           },
           "license": "other"
-        }
-      }
-    },
-    "studiorack/war-tuba": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "DSmolken",
-          "homepage": "https://github.com/sfzinstruments/karoryfer.war-tuba",
-          "name": "War Tuba",
-          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
-          "tags": [
-            "Instrument",
-            "Brass",
-            "Tuba",
-            "sfz"
-          ],
-          "date": "2021-09-03T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "war-tuba.flac",
-              "size": 88482,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.flac"
-            },
-            "image": {
-              "name": "war-tuba.jpg",
-              "size": 69063,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.jpg"
-            },
-            "linux": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "mac": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            },
-            "win": {
-              "name": "war-tuba.zip",
-              "size": 35601312,
-              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip"
-            }
-          },
-          "license": "cc-by-4.0"
         }
       }
     }
