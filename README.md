@@ -189,6 +189,12 @@ This will make the plugin available in the app and the command-line. However the
 
     https://github.com/studiorack/studiorack-site/actions/workflows/release.yml
 
+If you want to show off your plugin integration, you can add a StudioRack badge to your GitHub repo or site:
+
+    <a href="https://studiorack.github.io/studiorack-site/effects/studiorack/ampli-fe" alt="StudioRack plugin manager" title="Download on StudioRack" target="_blank">
+      <img src="https://studiorack.github.io/studiorack-site/icons/studiorack-badge.png" width="144" />
+    </a>
+
 ### 3. Owlplug integration (future milestone)
 
 In the future we also plan to include plugins from the [Owlplug](https://owlplug.com) tool:
