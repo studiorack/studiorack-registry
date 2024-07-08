@@ -47,6 +47,7 @@
   },
   "dependencies": {
     "@studiorack/core": "^2.0.3",
+    "chalk": "^5.3.0",
     "graphql-request": "^6.1.0",
     "js-yaml": "^4.1.0",
     "semver": "^7.6.0"

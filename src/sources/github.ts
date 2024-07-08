@@ -1,7 +1,5 @@
 import * as semver from 'semver';
 import {
-  PluginEntry,
-  PluginFile,
   PluginFiles,
   PluginPack,
   PluginVersion,
@@ -13,6 +11,7 @@ import {
 } from '@studiorack/core';
 import fetch from 'node-fetch';
 import { gql, GraphQLClient, RequestDocument } from 'graphql-request';
+import chalk from 'chalk';
 
 // Plugins need to have a topic `studiorack-plugin` to appear in the results
 // https://github.com/topics/studiorack-plugin
@@ -241,11 +240,11 @@ function githubAddPlugin(pluginPack: PluginPack, plugin: PluginVersion) {
   const errors: string | boolean = pluginValidateSchema(plugin as PluginVersionLocal);
   const compatibility: string | boolean = pluginCompatibility(plugin);
   if (errors) {
-    console.log('⚠', pluginId, plugin.version);
-    console.log(compatibility ? errors + compatibility : errors);
+    console.log(chalk.red(`X ${pluginId} ${plugin.version}`));
+    console.log(chalk.yellow(compatibility) ? chalk.red(errors) + chalk.yellow(compatibility) : chalk.red(errors));
   } else {
-    console.log('+', pluginId, plugin.version);
-    if (compatibility) console.log(compatibility);
+    console.log(chalk.green(`✓ ${pluginId} ${plugin.version}`));
+    if (compatibility) console.log(chalk.yellow(compatibility));
   }
 
   // Ensure there is a plugin entry
@@ -278,12 +277,28 @@ async function getJSONSafe(url: string): Promise<any> {
 
 function pluginCompatibility(plugin: PluginVersion) {
   let error: string = '';
+  if (!plugin.homepage.startsWith('https://')) {
+    error += '- Homepage should use https url\n';
+  }
+  if (!plugin.homepage.includes('github.com') && !plugin.homepage.includes('github.io')) {
+    error += '- Homepage should point to GitHub\n';
+  }
   error += pluginValidateField(plugin.files, 'linux', 'object');
   error += pluginValidateField(plugin.files, 'mac', 'object');
   error += pluginValidateField(plugin.files, 'win', 'object');
   const pluginTags: string[] = plugin.tags.map(tag => tag.toLowerCase());
   if (!pluginTags.includes('instrument') && !pluginTags.includes('effect')) {
     error += '- Tags missing category (instrument, effect)\n';
+  }
+  if (pluginTags.length < 2) {
+    error += '- Tags list not fully populated\n';
+  }
+
+  if (typeof plugin.license === 'string' && plugin.license === 'other') {
+    error += '- License should be defined\n';
+  }
+  if (typeof plugin.license !== 'string' && plugin.license.key === 'other') {
+    error += '- License should be defined\n';
   }
   return error.length === 0 ? false : error;
 }
