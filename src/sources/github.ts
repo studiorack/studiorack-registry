@@ -277,6 +277,7 @@ async function getJSONSafe(url: string): Promise<any> {
   }
 }
 
+// Todo refactor all this using a proper validation library
 export function pluginCompatibility(plugin: PluginVersion) {
   let error: string = '';
   if (!plugin.homepage.startsWith('https://')) {
@@ -284,6 +285,13 @@ export function pluginCompatibility(plugin: PluginVersion) {
   }
   if (!plugin.homepage.includes('github.com') && !plugin.homepage.includes('github.io')) {
     error += '- Homepage should point to GitHub\n';
+  }
+
+  if (plugin.files.image && plugin.files.image.name && plugin.files.image.name.includes('png')) {
+    error += '- Image should use the jpg format\n';
+  }
+  if (plugin.files.audio && plugin.files.audio.name && plugin.files.audio.name.includes('wav')) {
+    error += '- Audio should use the flac format\n';
   }
   error += pluginValidateField(plugin.files, 'linux', 'object');
   error += pluginValidateField(plugin.files, 'mac', 'object');
