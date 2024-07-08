@@ -26,6 +26,7 @@ interface OwlPluginFiles {
 }
 
 async function getOwlplugPack(): Promise<PluginPack> {
+  console.log('-- Owlplug plugins --');
   const pluginPack: PluginPack = {};
   const registry = await fileReadJson(REGISTRY_URL);
   registry.products.forEach((product: OwlPluginInterface) => {

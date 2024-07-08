@@ -10,12 +10,15 @@ import {
   pluginValidateSchema,
   safeSlug,
 } from '@studiorack/core';
+import chalk from 'chalk';
+import { pluginCompatibility } from './github.js';
 
 const LOCAL_DIR: string = path.join('src', 'plugins');
 const LOCAL_EXT: string = '.yaml';
 const LOCAL_REG: string = path.join(LOCAL_DIR, '**', '*' + LOCAL_EXT);
 
 export function localGetPack() {
+  console.log('-- Yaml plugins --');
   const pack: PluginPack = {};
   const filepaths: string[] = dirRead(LOCAL_REG);
   filepaths.forEach((filepath: string) => {
@@ -27,11 +30,17 @@ export function localGetPack() {
     // Get plugin from yaml files.
     const plugin: PluginVersion = localGetFile(filepath);
     if (typeof plugin.date === 'object') plugin.date = (plugin.date as Date).toISOString();
-    console.log('local', pluginId, pluginVersion);
 
     // Ensure plugin has valid fields.
-    const error = pluginValidateSchema(plugin as PluginVersionLocal);
-    if (error) return console.log(error);
+    const errors: string | boolean = pluginValidateSchema(plugin as PluginVersionLocal);
+    const compatibility: string | boolean = pluginCompatibility(plugin);
+    if (errors) {
+      console.log(chalk.red(`X ${pluginId} ${pluginVersion}`));
+      console.log(chalk.yellow(compatibility) ? chalk.red(errors) + chalk.yellow(compatibility) : chalk.red(errors));
+    } else {
+      console.log(chalk.green(`✓ ${pluginId} ${pluginVersion}`));
+      if (compatibility) console.log(chalk.yellow(compatibility));
+    }
 
     // Add plugin to the plugin pack.
     if (!pack[pluginId]) {
@@ -47,6 +56,7 @@ export function localGetPack() {
       pack[pluginId].version = pluginVersion;
     }
   });
+  console.log(`-- ${Object.keys(pack).length} Yaml plugins added --`);
   return pack;
 }
 

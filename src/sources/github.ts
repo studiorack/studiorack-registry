@@ -75,6 +75,7 @@ interface GitHubSearch {
 }
 
 async function githubGetPack(): Promise<PluginPack> {
+  console.log('-- GitHub plugins --');
   const pluginPack: PluginPack = {};
   const results: GitHubSearch = await githubSearchRepos(GITHUB_API);
   for (const repo of results.search.nodes) {
@@ -82,6 +83,7 @@ async function githubGetPack(): Promise<PluginPack> {
       await githubGetRelease(pluginPack, repo, release);
     }
   }
+  console.log(`-- ${Object.keys(pluginPack).length} GitHub plugins added --`);
   return pluginPack;
 }
 
@@ -275,7 +277,7 @@ async function getJSONSafe(url: string): Promise<any> {
   }
 }
 
-function pluginCompatibility(plugin: PluginVersion) {
+export function pluginCompatibility(plugin: PluginVersion) {
   let error: string = '';
   if (!plugin.homepage.startsWith('https://')) {
     error += '- Homepage should use https url\n';
@@ -294,10 +296,11 @@ function pluginCompatibility(plugin: PluginVersion) {
     error += '- Tags list not fully populated\n';
   }
 
-  if (typeof plugin.license === 'string' && plugin.license === 'other') {
+  if (!plugin.license) {
     error += '- License should be defined\n';
-  }
-  if (typeof plugin.license !== 'string' && plugin.license.key === 'other') {
+  } else if (typeof plugin.license === 'string' && plugin.license === 'other') {
+    error += '- License should be defined\n';
+  } else if (typeof plugin.license !== 'string' && plugin.license.key === 'other') {
     error += '- License should be defined\n';
   }
   return error.length === 0 ? false : error;
