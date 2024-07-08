@@ -1965,143 +1965,6 @@
         }
       }
     },
-    "studiorack/ep-mk1": {
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip"
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip"
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip"
-            },
-            "audio": {
-              "name": "ep-mk1.flac",
-              "size": 50454,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.flac"
-            },
-            "image": {
-              "name": "ep-mk1.jpg",
-              "size": 97173,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.jpg"
-            }
-          },
-          "license": "bsd-3-clause"
-        }
-      }
-    },
-    "studiorack/naked-drums": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
-            }
-          },
-          "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/avl-percussions": {
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "studiorack/ninjas2": {
       "version": "0.2.0",
       "versions": {
@@ -2647,6 +2510,143 @@
         }
       }
     },
+    "studiorack/ep-mk1": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip"
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip"
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip"
+            },
+            "audio": {
+              "name": "ep-mk1.flac",
+              "size": 50454,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.flac"
+            },
+            "image": {
+              "name": "ep-mk1.jpg",
+              "size": 97173,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.jpg"
+            }
+          },
+          "license": "bsd-3-clause"
+        }
+      }
+    },
+    "studiorack/naked-drums": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "mac": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "win": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "audio": {
+              "name": "naked-drums.flac",
+              "size": 553525,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
+            },
+            "image": {
+              "name": "naked-drums.jpg",
+              "size": 24452,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
+            }
+          },
+          "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/avl-percussions": {
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
     "surge-synthesizer/surge": {
       "version": "1.3.1",
       "versions": {
@@ -2860,23 +2860,23 @@
           ],
           "files": {
             "audio": {
-              "name": "salamander-drumkit.flac",
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.flac",
               "size": 162704
             },
             "image": {
-              "name": "salamander-drumkit.jpg",
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg",
               "size": 94023
             },
             "linux": {
-              "name": "salamander-drumkit.zip",
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
               "size": 269599176
             },
             "mac": {
-              "name": "salamander-drumkit.zip",
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
               "size": 269599176
             },
             "win": {
-              "name": "salamander-drumkit.zip",
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
               "size": 269599176
             }
           }
