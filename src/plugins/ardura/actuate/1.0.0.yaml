@@ -1,0 +1,27 @@
+---
+name: Actuate
+author: Ardura
+homepage: https://github.com/ardura/Actuate
+description: A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug
+date: 2024-07-12T07:00:00.000Z
+license: GPL3
+tags:
+  - Instrument
+  - Synth
+  - Sampler
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.flac
+    size: 162704
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg
+    size: 94023
+  linux:
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
+    size: 269599176
+  mac:
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
+    size: 269599176
+  win:
+    name: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
+    size: 269599176
