@@ -1465,8 +1465,47 @@
       }
     },
     "sjoerdvankreel/io.github.sjoerdvankreel.firefly_synth": {
-      "version": "1.8.1",
+      "version": "1.8.2",
       "versions": {
+        "1.8.2": {
+          "author": "Sjoerd van Kreel",
+          "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
+          "name": "Firefly Synth",
+          "description": "Firefly Synth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "date": "2024-06-03T17:25:12.081Z",
+          "files": {
+            "mac": {
+              "name": "firefly_synth_1.8.2_mac_vst3_instrument.zip",
+              "size": 8871035,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.8.2/firefly_synth_1.8.2_mac_vst3_instrument.zip"
+            },
+            "linux": {
+              "name": "firefly_synth_1.8.2_linux_vst3_instrument.zip",
+              "size": 5481748,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.8.2/firefly_synth_1.8.2_linux_vst3_instrument.zip"
+            },
+            "win": {
+              "name": "firefly_synth_1.8.2_windows_vst3_instrument.zip",
+              "size": 2959608,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.8.2/firefly_synth_1.8.2_windows_vst3_instrument.zip"
+            },
+            "audio": {
+              "name": "studiorack.flac",
+              "size": 826259,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.8.2/studiorack.flac"
+            },
+            "image": {
+              "name": "studiorack.jpg",
+              "size": 438535,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.8.2/studiorack.jpg"
+            }
+          },
+          "license": "gpl-3.0"
+        },
         "1.8.1": {
           "author": "Sjoerd van Kreel",
           "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
@@ -1899,6 +1938,51 @@
         }
       }
     },
+    "studiorack/juicysf": {
+      "version": "3.1.0",
+      "versions": {
+        "3.1.0": {
+          "author": "Birch San",
+          "homepage": "https://github.com/Birch-san/juicysfplugin",
+          "name": "JuicySFplugin",
+          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+          "tags": [
+            "Instrument",
+            "Sampler",
+            "Synth"
+          ],
+          "date": "2022-02-13T08:00:00.000Z",
+          "files": {
+            "mac": {
+              "name": "juicysf-mac.zip",
+              "size": 19050275,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip"
+            },
+            "win": {
+              "name": "juicysf-win.zip",
+              "size": 10578510,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip"
+            },
+            "audio": {
+              "name": "juicysf.flac",
+              "size": 83683,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.flac"
+            },
+            "image": {
+              "name": "juicysf.jpg",
+              "size": 38148,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.jpg"
+            },
+            "linux": {
+              "name": "juicysf-linux.zip",
+              "size": 0,
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
     "studiorack/argotlunar": {
       "version": "2.0.6",
       "versions": {
@@ -1941,51 +2025,6 @@
             }
           },
           "license": "gpl-2.0"
-        }
-      }
-    },
-    "studiorack/obxd": {
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "discoDSP",
-          "homepage": "https://github.com/reales/OB-Xd",
-          "name": "OB-Xd",
-          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "OB-X"
-          ],
-          "date": "2021-05-30T08:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "obxd-linux.zip",
-              "size": 21745339,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip"
-            },
-            "win": {
-              "name": "obxd-win.zip",
-              "size": 20368962,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip"
-            },
-            "mac": {
-              "name": "obxd-mac.zip",
-              "size": 6653931,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip"
-            },
-            "audio": {
-              "name": "obxd.flac",
-              "size": 63794,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.flac"
-            },
-            "image": {
-              "name": "obxd.jpg",
-              "size": 76569,
-              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.jpg"
-            }
-          },
-          "license": "gpl-3.0"
         }
       }
     },
@@ -2124,6 +2163,51 @@
             }
           },
           "license": "cc0-1.0"
+        }
+      }
+    },
+    "studiorack/obxd": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "discoDSP",
+          "homepage": "https://github.com/reales/OB-Xd",
+          "name": "OB-Xd",
+          "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "OB-X"
+          ],
+          "date": "2021-05-30T08:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "obxd-linux.zip",
+              "size": 21745339,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip"
+            },
+            "win": {
+              "name": "obxd-win.zip",
+              "size": 20368962,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip"
+            },
+            "mac": {
+              "name": "obxd-mac.zip",
+              "size": 6653931,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip"
+            },
+            "audio": {
+              "name": "obxd.flac",
+              "size": 63794,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.flac"
+            },
+            "image": {
+              "name": "obxd.jpg",
+              "size": 76569,
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd.jpg"
+            }
+          },
+          "license": "gpl-3.0"
         }
       }
     },
@@ -2620,186 +2704,6 @@
         }
       }
     },
-    "studiorack/swankyamp": {
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Tube"
-          ],
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip"
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip"
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip"
-            },
-            "audio": {
-              "name": "swankyamp.flac",
-              "size": 94744,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.flac"
-            },
-            "image": {
-              "name": "swankyamp.jpg",
-              "size": 93556,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.jpg"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/regrader": {
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Sync"
-          ],
-          "date": "2021-08-08T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip"
-            },
-            "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip"
-            },
-            "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip"
-            },
-            "audio": {
-              "name": "regrader.flac",
-              "size": 86583,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.flac"
-            },
-            "image": {
-              "name": "regrader.jpg",
-              "size": 99822,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.jpg"
-            }
-          },
-          "license": "mit"
-        }
-      }
-    },
-    "studiorack/helm": {
-      "version": "0.9.0",
-      "versions": {
-        "0.9.0": {
-          "author": "Matt Tytel",
-          "homepage": "https://github.com/mtytel/helm",
-          "name": "Helm",
-          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Modulation"
-          ],
-          "date": "2017-07-08T08:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "helm.flac",
-              "size": 75330,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.flac"
-            },
-            "image": {
-              "name": "helm.jpg",
-              "size": 118535,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.jpg"
-            },
-            "linux": {
-              "name": "helm-linux.zip",
-              "size": 8678132,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-linux.zip"
-            },
-            "win": {
-              "name": "helm-win.zip",
-              "size": 12671911,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-win.zip"
-            },
-            "mac": {
-              "name": "helm-mac.zip",
-              "size": 13299862,
-              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-mac.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/juicysf": {
-      "version": "3.1.0",
-      "versions": {
-        "3.1.0": {
-          "author": "Birch San",
-          "homepage": "https://github.com/Birch-san/juicysfplugin",
-          "name": "JuicySFplugin",
-          "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "date": "2022-02-13T08:00:00.000Z",
-          "files": {
-            "mac": {
-              "name": "juicysf-mac.zip",
-              "size": 19050275,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip"
-            },
-            "win": {
-              "name": "juicysf-win.zip",
-              "size": 10578510,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip"
-            },
-            "audio": {
-              "name": "juicysf.flac",
-              "size": 83683,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.flac"
-            },
-            "image": {
-              "name": "juicysf.jpg",
-              "size": 38148,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf.jpg"
-            },
-            "linux": {
-              "name": "juicysf-linux.zip",
-              "size": 0,
-              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
     "studiorack/dragonfly-reverb": {
       "version": "3.2.5",
       "versions": {
@@ -3026,6 +2930,141 @@
         }
       }
     },
+    "studiorack/swankyamp": {
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Tube"
+          ],
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip"
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip"
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip"
+            },
+            "audio": {
+              "name": "swankyamp.flac",
+              "size": 94744,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.flac"
+            },
+            "image": {
+              "name": "swankyamp.jpg",
+              "size": 93556,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.jpg"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/regrader": {
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Sync"
+          ],
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip"
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip"
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip"
+            },
+            "audio": {
+              "name": "regrader.flac",
+              "size": 86583,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.flac"
+            },
+            "image": {
+              "name": "regrader.jpg",
+              "size": 99822,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.jpg"
+            }
+          },
+          "license": "mit"
+        }
+      }
+    },
+    "studiorack/helm": {
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "author": "Matt Tytel",
+          "homepage": "https://github.com/mtytel/helm",
+          "name": "Helm",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "date": "2017-07-08T08:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "helm.flac",
+              "size": 75330,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.flac"
+            },
+            "image": {
+              "name": "helm.jpg",
+              "size": 118535,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm.jpg"
+            },
+            "linux": {
+              "name": "helm-linux.zip",
+              "size": 8678132,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-linux.zip"
+            },
+            "win": {
+              "name": "helm-win.zip",
+              "size": 12671911,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-win.zip"
+            },
+            "mac": {
+              "name": "helm-mac.zip",
+              "size": 13299862,
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-mac.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
     "studiorack/octasine": {
       "version": "0.5.3",
       "versions": {
@@ -3113,141 +3152,6 @@
             }
           },
           "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/mverb": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Martin Eastwood",
-          "homepage": "https://github.com/martineastwood/mverb",
-          "name": "Mverb",
-          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
-          "tags": [
-            "Effect",
-            "Reverb"
-          ],
-          "date": "2013-03-25T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "mverb-linux.zip",
-              "size": 188933,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
-            },
-            "mac": {
-              "name": "mverb-mac.zip",
-              "size": 674694,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
-            },
-            "win": {
-              "name": "mverb-win.zip",
-              "size": 283901,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
-            },
-            "audio": {
-              "name": "mverb.flac",
-              "size": 41738,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
-            },
-            "image": {
-              "name": "mverb.jpg",
-              "size": 48422,
-              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/smartguitaramp": {
-      "version": "1.2.0",
-      "versions": {
-        "1.2.0": {
-          "author": "GuitarML",
-          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
-          "name": "SmartGuitarAmp",
-          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
-          "tags": [
-            "Effect",
-            "Guitar",
-            "Amp"
-          ],
-          "date": "2020-12-09T08:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "smartguitaramp-linux.zip",
-              "size": 5155080,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
-            },
-            "win": {
-              "name": "smartguitaramp-win.zip",
-              "size": 3652195,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
-            },
-            "mac": {
-              "name": "smartguitaramp-mac.zip",
-              "size": 6417447,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
-            },
-            "audio": {
-              "name": "smartguitaramp.flac",
-              "size": 67467,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
-            },
-            "image": {
-              "name": "smartguitaramp.jpg",
-              "size": 105632,
-              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
-            }
-          },
-          "license": "apache-2.0"
-        }
-      }
-    },
-    "studiorack/sams-sonor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Sam Greene",
-          "homepage": "https://github.com/sfzinstruments/SamsSonor",
-          "name": "Sam's Sonor",
-          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Kit",
-            "sfz"
-          ],
-          "date": "2021-08-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "sams-sonor.flac",
-              "size": 207120,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
-            },
-            "image": {
-              "name": "sams-sonor.jpg",
-              "size": 239836,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
-            },
-            "linux": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "mac": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            },
-            "win": {
-              "name": "sams-sonor.zip",
-              "size": 36642874,
-              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
-            }
-          },
-          "license": "cc-by-sa-4.0"
         }
       }
     },
@@ -3472,6 +3376,278 @@
               "name": "vst2413-win.zip",
               "size": 228506,
               "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-win.zip"
+            }
+          },
+          "license": "other"
+        }
+      }
+    },
+    "studiorack/mverb": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Martin Eastwood",
+          "homepage": "https://github.com/martineastwood/mverb",
+          "name": "Mverb",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "date": "2013-03-25T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "mverb-linux.zip",
+              "size": 188933,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip"
+            },
+            "mac": {
+              "name": "mverb-mac.zip",
+              "size": 674694,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip"
+            },
+            "win": {
+              "name": "mverb-win.zip",
+              "size": 283901,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip"
+            },
+            "audio": {
+              "name": "mverb.flac",
+              "size": 41738,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.flac"
+            },
+            "image": {
+              "name": "mverb.jpg",
+              "size": 48422,
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb.jpg"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/smartguitaramp": {
+      "version": "1.2.0",
+      "versions": {
+        "1.2.0": {
+          "author": "GuitarML",
+          "homepage": "https://github.com/GuitarML/SmartGuitarAmp",
+          "name": "SmartGuitarAmp",
+          "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "Amp"
+          ],
+          "date": "2020-12-09T08:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "smartguitaramp-linux.zip",
+              "size": 5155080,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip"
+            },
+            "win": {
+              "name": "smartguitaramp-win.zip",
+              "size": 3652195,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip"
+            },
+            "mac": {
+              "name": "smartguitaramp-mac.zip",
+              "size": 6417447,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip"
+            },
+            "audio": {
+              "name": "smartguitaramp.flac",
+              "size": 67467,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.flac"
+            },
+            "image": {
+              "name": "smartguitaramp.jpg",
+              "size": 105632,
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp.jpg"
+            }
+          },
+          "license": "apache-2.0"
+        }
+      }
+    },
+    "studiorack/sams-sonor": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Sam Greene",
+          "homepage": "https://github.com/sfzinstruments/SamsSonor",
+          "name": "Sam's Sonor",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "date": "2021-08-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "sams-sonor.flac",
+              "size": 207120,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.flac"
+            },
+            "image": {
+              "name": "sams-sonor.jpg",
+              "size": 239836,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.jpg"
+            },
+            "linux": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "mac": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            },
+            "win": {
+              "name": "sams-sonor.zip",
+              "size": 36642874,
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip"
+            }
+          },
+          "license": "cc-by-sa-4.0"
+        }
+      }
+    },
+    "studiorack/ep-mk1": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "author": "Miguel Moreno",
+          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+          "name": "EP-MK1",
+          "description": "Real-time physical model of an Electric Piano.",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Electric",
+            "Piano"
+          ],
+          "date": "2020-09-28T08:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "ep-mk1-linux.zip",
+              "size": 3656955,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip"
+            },
+            "mac": {
+              "name": "ep-mk1-mac.zip",
+              "size": 5262591,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip"
+            },
+            "win": {
+              "name": "ep-mk1-win.zip",
+              "size": 4704700,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip"
+            },
+            "audio": {
+              "name": "ep-mk1.flac",
+              "size": 50454,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.flac"
+            },
+            "image": {
+              "name": "ep-mk1.jpg",
+              "size": 97173,
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.jpg"
+            }
+          },
+          "license": "bsd-3-clause"
+        }
+      }
+    },
+    "studiorack/naked-drums": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wilkinson Audio",
+          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "name": "Naked Drums",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "date": "2021-11-08T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "mac": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "win": {
+              "name": "naked-drums.zip",
+              "size": 1283342538,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
+            },
+            "audio": {
+              "name": "naked-drums.flac",
+              "size": 553525,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
+            },
+            "image": {
+              "name": "naked-drums.jpg",
+              "size": 24452,
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
+            }
+          },
+          "license": "cc-by-4.0"
+        }
+      }
+    },
+    "studiorack/avl-percussions": {
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "author": "Glen MacArthur",
+          "homepage": "http://www.bandshed.net/avldrumkits",
+          "name": "AVL Percussions",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "date": "2022-02-21T07:00:00.000Z",
+          "files": {
+            "audio": {
+              "name": "avl-percussions.flac",
+              "size": 193990,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
+            },
+            "image": {
+              "name": "avl-percussions.jpg",
+              "size": 159466,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
+            },
+            "linux": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "mac": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            },
+            "win": {
+              "name": "avl-percussions.zip",
+              "size": 1730506,
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
             }
           },
           "license": "other"
@@ -4608,143 +4784,6 @@
         }
       }
     },
-    "studiorack/ep-mk1": {
-      "version": "2.4.0",
-      "versions": {
-        "2.4.0": {
-          "author": "Miguel Moreno",
-          "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
-          "name": "EP-MK1",
-          "description": "Real-time physical model of an Electric Piano.",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "Electric",
-            "Piano"
-          ],
-          "date": "2020-09-28T08:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "ep-mk1-linux.zip",
-              "size": 3656955,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip"
-            },
-            "mac": {
-              "name": "ep-mk1-mac.zip",
-              "size": 5262591,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip"
-            },
-            "win": {
-              "name": "ep-mk1-win.zip",
-              "size": 4704700,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip"
-            },
-            "audio": {
-              "name": "ep-mk1.flac",
-              "size": 50454,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.flac"
-            },
-            "image": {
-              "name": "ep-mk1.jpg",
-              "size": 97173,
-              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1.jpg"
-            }
-          },
-          "license": "bsd-3-clause"
-        }
-      }
-    },
-    "studiorack/naked-drums": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
-          "name": "Naked Drums",
-          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "sfz"
-          ],
-          "date": "2021-11-08T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "mac": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "win": {
-              "name": "naked-drums.zip",
-              "size": 1283342538,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip"
-            },
-            "audio": {
-              "name": "naked-drums.flac",
-              "size": 553525,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.flac"
-            },
-            "image": {
-              "name": "naked-drums.jpg",
-              "size": 24452,
-              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.jpg"
-            }
-          },
-          "license": "cc-by-4.0"
-        }
-      }
-    },
-    "studiorack/avl-percussions": {
-      "version": "1.1.0",
-      "versions": {
-        "1.1.0": {
-          "author": "Glen MacArthur",
-          "homepage": "http://www.bandshed.net/avldrumkits",
-          "name": "AVL Percussions",
-          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-          "tags": [
-            "Instrument",
-            "Drums",
-            "Percussions",
-            "sfz"
-          ],
-          "date": "2022-02-21T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "avl-percussions.flac",
-              "size": 193990,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.flac"
-            },
-            "image": {
-              "name": "avl-percussions.jpg",
-              "size": 159466,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.jpg"
-            },
-            "linux": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "mac": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            },
-            "win": {
-              "name": "avl-percussions.zip",
-              "size": 1730506,
-              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-            }
-          },
-          "license": "other"
-        }
-      }
-    },
     "surge-synthesizer/surge": {
       "version": "1.3.1",
       "versions": {
@@ -4977,6 +5016,46 @@
             "win": {
               "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
               "size": 269599176
+            }
+          }
+        }
+      }
+    },
+    "ardura/actuate": {
+      "version": "1.3.1",
+      "versions": {
+        "1.3.1": {
+          "name": "Actuate",
+          "author": "Ardura",
+          "homepage": "https://github.com/ardura/Actuate",
+          "description": "A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug",
+          "date": "2024-07-12T07:00:00.000Z",
+          "license": "GPL3",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Sampler"
+          ],
+          "files": {
+            "audio": {
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac",
+              "size": 3251736
+            },
+            "image": {
+              "name": "https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.jpg",
+              "size": 158795
+            },
+            "linux": {
+              "name": "https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_Linux.zip",
+              "size": 9205312
+            },
+            "mac": {
+              "name": "https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_MacOS.zip",
+              "size": 7074578
+            },
+            "win": {
+              "name": "https://github.com/ardura/Actuate/releases/download/v1.3.1/actuate_v131_windows.zip",
+              "size": 6439034
             }
           }
         }

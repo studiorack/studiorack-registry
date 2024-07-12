@@ -533,96 +533,6 @@
         }
       }
     },
-    "studiorack/swankyamp": {
-      "version": "1.4.0",
-      "versions": {
-        "1.4.0": {
-          "author": "Resonant DSP",
-          "homepage": "https://github.com/resonantdsp/swankyamp",
-          "name": "Swanky Amp",
-          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
-          "tags": [
-            "Effect",
-            "Amplifier",
-            "Tube"
-          ],
-          "date": "2020-11-10T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "swankyamp-linux.zip",
-              "size": 5553590,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip"
-            },
-            "mac": {
-              "name": "swankyamp-mac.zip",
-              "size": 2562464,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip"
-            },
-            "win": {
-              "name": "swankyamp-win.zip",
-              "size": 2155426,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip"
-            },
-            "audio": {
-              "name": "swankyamp.flac",
-              "size": 94744,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.flac"
-            },
-            "image": {
-              "name": "swankyamp.jpg",
-              "size": 93556,
-              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.jpg"
-            }
-          },
-          "license": "gpl-3.0"
-        }
-      }
-    },
-    "studiorack/regrader": {
-      "version": "1.0.4",
-      "versions": {
-        "1.0.4": {
-          "author": "Igor Zinken",
-          "homepage": "https://github.com/igorski/regrader",
-          "name": "Regrader",
-          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
-          "tags": [
-            "Effect",
-            "Delay",
-            "Sync"
-          ],
-          "date": "2021-08-08T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "regrader-linux.zip",
-              "size": 660901,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip"
-            },
-            "mac": {
-              "name": "regrader-mac.zip",
-              "size": 5796572,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip"
-            },
-            "win": {
-              "name": "regrader-win.zip",
-              "size": 1879030,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip"
-            },
-            "audio": {
-              "name": "regrader.flac",
-              "size": 86583,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.flac"
-            },
-            "image": {
-              "name": "regrader.jpg",
-              "size": 99822,
-              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.jpg"
-            }
-          },
-          "license": "mit"
-        }
-      }
-    },
     "studiorack/dragonfly-reverb": {
       "version": "3.2.5",
       "versions": {
@@ -758,6 +668,96 @@
         }
       }
     },
+    "studiorack/swankyamp": {
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "author": "Resonant DSP",
+          "homepage": "https://github.com/resonantdsp/swankyamp",
+          "name": "Swanky Amp",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Tube"
+          ],
+          "date": "2020-11-10T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "swankyamp-linux.zip",
+              "size": 5553590,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip"
+            },
+            "mac": {
+              "name": "swankyamp-mac.zip",
+              "size": 2562464,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip"
+            },
+            "win": {
+              "name": "swankyamp-win.zip",
+              "size": 2155426,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip"
+            },
+            "audio": {
+              "name": "swankyamp.flac",
+              "size": 94744,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.flac"
+            },
+            "image": {
+              "name": "swankyamp.jpg",
+              "size": 93556,
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp.jpg"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/regrader": {
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "author": "Igor Zinken",
+          "homepage": "https://github.com/igorski/regrader",
+          "name": "Regrader",
+          "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+          "tags": [
+            "Effect",
+            "Delay",
+            "Sync"
+          ],
+          "date": "2021-08-08T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "regrader-linux.zip",
+              "size": 660901,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip"
+            },
+            "mac": {
+              "name": "regrader-mac.zip",
+              "size": 5796572,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip"
+            },
+            "win": {
+              "name": "regrader-win.zip",
+              "size": 1879030,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip"
+            },
+            "audio": {
+              "name": "regrader.flac",
+              "size": 86583,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.flac"
+            },
+            "image": {
+              "name": "regrader.jpg",
+              "size": 99822,
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader.jpg"
+            }
+          },
+          "license": "mit"
+        }
+      }
+    },
     "studiorack/modeq": {
       "version": "0.4.0",
       "versions": {
@@ -797,6 +797,51 @@
               "name": "modeq.jpg",
               "size": 75899,
               "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq.jpg"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "studiorack/wolf-spectrum": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "author": "Wolf Plugins",
+          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
+          "name": "Wolf Spectrum",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
+          "tags": [
+            "Effect",
+            "Spectrogram",
+            "Frequency"
+          ],
+          "date": "2019-04-15T07:00:00.000Z",
+          "files": {
+            "linux": {
+              "name": "wolf-spectrum-linux.zip",
+              "size": 994607,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip"
+            },
+            "mac": {
+              "name": "wolf-spectrum-mac.zip",
+              "size": 493633,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip"
+            },
+            "win": {
+              "name": "wolf-spectrum-win.zip",
+              "size": 853963,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip"
+            },
+            "audio": {
+              "name": "wolf-spectrum.flac",
+              "size": 103066,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.flac"
+            },
+            "image": {
+              "name": "wolf-spectrum.jpg",
+              "size": 17057,
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.jpg"
             }
           },
           "license": "gpl-3.0"
@@ -889,51 +934,6 @@
             }
           },
           "license": "apache-2.0"
-        }
-      }
-    },
-    "studiorack/wolf-spectrum": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Wolf Plugins",
-          "homepage": "https://github.com/wolf-plugins/wolf-spectrum",
-          "name": "Wolf Spectrum",
-          "description": "Spectrogram plugin which supports both log and linear frequency scaling",
-          "tags": [
-            "Effect",
-            "Spectrogram",
-            "Frequency"
-          ],
-          "date": "2019-04-15T07:00:00.000Z",
-          "files": {
-            "linux": {
-              "name": "wolf-spectrum-linux.zip",
-              "size": 994607,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip"
-            },
-            "mac": {
-              "name": "wolf-spectrum-mac.zip",
-              "size": 493633,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip"
-            },
-            "win": {
-              "name": "wolf-spectrum-win.zip",
-              "size": 853963,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip"
-            },
-            "audio": {
-              "name": "wolf-spectrum.flac",
-              "size": 103066,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.flac"
-            },
-            "image": {
-              "name": "wolf-spectrum.jpg",
-              "size": 17057,
-              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum.jpg"
-            }
-          },
-          "license": "gpl-3.0"
         }
       }
     },
