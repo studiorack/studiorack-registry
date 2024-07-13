@@ -1,0 +1,27 @@
+---
+name: TAL-Vocoder
+author: TAL Software
+homepage: https://tal-software.com
+description: Vintage vocoder emulation with 11 bands that emulates the sound of vocoders from the early 80s
+date: 2021-01-28T07:00:00.000Z
+license: other
+tags:
+  - Effect
+  - Vocoder
+  - Analog
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.flac
+    size: 99144
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.jpg
+    size: 28705
+  linux:
+    name: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-linux.zip
+    size: 2906953
+  mac:
+    name: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-mac.zip
+    size: 7076283
+  win:
+    name: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-win.zip
+    size: 5351774

@@ -1,0 +1,27 @@
+---
+name: Kars
+author: Filipe Coelho
+homepage: https://github.com/DISTRHO/Kars
+description: Simple karplus-strong plucked string synth.
+date: 2019-11-24T08:00:00.000Z
+license: isc
+tags:
+  - Instrument
+  - Synth
+  - String
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/kars.flac
+    size: 52170
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/kars.jpg
+    size: 16547
+  linux:
+    name: https://github.com/studiorack/kars/releases/download/v1.0.0/kars-linux.zip
+    size: 1146039
+  mac:
+    name: https://github.com/studiorack/kars/releases/download/v1.0.0/kars-mac.zip
+    size: 1330027
+  win:
+    name: https://github.com/studiorack/kars/releases/download/v1.0.0/kars-win.zip
+    size: 1177464

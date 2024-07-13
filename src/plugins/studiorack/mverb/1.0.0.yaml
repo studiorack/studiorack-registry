@@ -1,0 +1,26 @@
+---
+name: Mverb
+author: Martin Eastwood
+homepage: https://github.com/martineastwood/mverb
+description: Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro’s figure-of-eight reverb structure and provide the open source community with a high quality reverb.
+date: 2013-03-25T07:00:00.000Z
+license: gpl-3.0
+tags:
+  - Effect
+  - Reverb
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/mverb.flac
+    size: 41738
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/mverb.jpg
+    size: 48422
+  linux:
+    name: https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip
+    size: 188933
+  mac:
+    name: https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip
+    size: 674694
+  win:
+    name: https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip
+    size: 283901

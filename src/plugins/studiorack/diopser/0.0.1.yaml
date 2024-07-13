@@ -1,0 +1,27 @@
+---
+name: Diopser
+author: Robbert van der Helm
+homepage: https://github.com/robbert-vdh/diopser
+description: Rotate the phase of a signal around a specific frequency without affecting its spectral content.
+date: 2021-11-14T08:00:00.000Z
+license: gpl-3.0
+tags:
+  - Effect
+  - Phaser
+  - Frequency
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/diopser.flac
+    size: 77049
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg
+    size: 43851
+  linux:
+    name: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-linux.zip
+    size: 1767254
+  mac:
+    name: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-mac.zip
+    size: 1894438
+  win:
+    name: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-win.zip
+    size: 2017988

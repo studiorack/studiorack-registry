@@ -1,0 +1,27 @@
+---
+name: Carla
+author: Filipe Coelho
+homepage: https://github.com/falkTX/Carla
+description: Audio plugin host, with support for many audio drivers and plugin formats
+date: 2022-02-19T07:00:00.000Z
+license: other
+tags:
+  - Instrument
+  - Host
+  - Player
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/carla.flac
+    size: 330759
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/carla.jpg
+    size: 252192
+  linux:
+    name: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-linux.zip
+    size: 160951738
+  mac:
+    name: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-mac.zip
+    size: 312938720
+  win:
+    name: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-win.zip
+    size: 196435153

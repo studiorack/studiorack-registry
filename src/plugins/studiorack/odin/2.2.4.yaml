@@ -1,0 +1,27 @@
+---
+name: Odin
+author: TheWaveWarden
+homepage: https://github.com/TheWaveWarden/odin2
+description: 12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.
+date: 2020-10-24T08:00:00.000Z
+license: gpl-3.0
+tags:
+  - Instrument
+  - Synth
+  - Moog
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/odin.flac
+    size: 51889
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/odin.jpg
+    size: 123090
+  linux:
+    name: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip
+    size: 97250026
+  mac:
+    name: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-mac.zip
+    size: 78842812
+  win:
+    name: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-win.zip
+    size: 46173771
