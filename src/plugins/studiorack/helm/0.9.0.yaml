@@ -1,5 +1,5 @@
 ---
-url: helm
+name: Helm
 author: Matt Tytel
 homepage: https://github.com/mtytel/helm
 description: Polyphonic semi-modular synthesizer with a flexible modulation system.
