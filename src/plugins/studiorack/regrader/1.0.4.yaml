@@ -11,17 +11,17 @@ tags:
   - Sync
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/regrader.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/regrader.flac
     size: 86583
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/regrader.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/regrader.jpg
     size: 99822
   linux:
-    name: https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip
+    url: https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip
     size: 660901
   mac:
-    name: https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip
+    url: https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip
     size: 5796572
   win:
-    name: https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip
+    url: https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip
     size: 1879030

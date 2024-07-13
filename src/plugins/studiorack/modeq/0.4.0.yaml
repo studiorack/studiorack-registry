@@ -11,17 +11,17 @@ tags:
   - Modulation
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/modeq.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/modeq.flac
     size: 66240
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/modeq.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/modeq.jpg
     size: 75899
   linux:
-    name: https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip
+    url: https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip
     size: 7097654
   mac:
-    name: https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip
+    url: https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip
     size: 3222514
   win:
-    name: https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip
+    url: https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip
     size: 3677919

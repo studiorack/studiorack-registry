@@ -11,17 +11,17 @@ tags:
   - Slicer
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ninjas2.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/ninjas2.flac
     size: 63564
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ninjas2.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/ninjas2.jpg
     size: 88079
   linux:
-    name: https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip
+    url: https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip
     size: 1441617
   mac:
-    name: https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip
+    url: https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip
     size: 5131863
   win:
-    name: https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip
+    url: https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip
     size: 5995116

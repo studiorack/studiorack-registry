@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/bear-sax.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/bear-sax.flac
     size: 86918
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/bear-sax.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/bear-sax.jpg
     size: 85425
   linux:
-    name: https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip
+    url: https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip
     size: 70617479
   mac:
-    name: https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip
+    url: https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip
     size: 70617479
   win:
-    name: https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip
+    url: https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip
     size: 70617479

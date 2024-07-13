@@ -12,17 +12,17 @@ tags:
   - Piano
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.flac
     size: 50454
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.jpg
     size: 97173
   linux:
-    name: https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip
+    url: https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip
     size: 3656955
   mac:
-    name: https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip
+    url: https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip
     size: 5262591
   win:
-    name: https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip
+    url: https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip
     size: 4704700

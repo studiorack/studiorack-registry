@@ -11,17 +11,17 @@ tags:
   - FM
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/oxe.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/oxe.flac
     size: 66799
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/oxe.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/oxe.jpg
     size: 91580
   linux:
-    name: https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-linux.zip
+    url: https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-linux.zip
     size: 411823
   mac:
-    name: https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-mac.zip
+    url: https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-mac.zip
     size: 188225
   win:
-    name: https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-win.zip
+    url: https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-win.zip
     size: 232072

@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/double-bass.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/double-bass.flac
     size: 77117
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/double-bass.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/double-bass.jpg
     size: 45157
   linux:
-    name: https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip
+    url: https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip
     size: 79014147
   mac:
-    name: https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip
+    url: https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip
     size: 79014147
   win:
-    name: https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip
+    url: https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip
     size: 79014147

@@ -11,17 +11,17 @@ tags:
   - Tape
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.flac
     size: 72368
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.jpg
     size: 52419
   linux:
-    name: https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip
+    url: https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip
     size: 16435230
   mac:
-    name: https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip
+    url: https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip
     size: 10706301
   win:
-    name: https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip
+    url: https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip
     size: 5497679

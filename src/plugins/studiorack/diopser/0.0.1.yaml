@@ -11,17 +11,17 @@ tags:
   - Frequency
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/diopser.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/diopser.flac
     size: 77049
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg
     size: 43851
   linux:
-    name: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-linux.zip
+    url: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-linux.zip
     size: 1767254
   mac:
-    name: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-mac.zip
+    url: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-mac.zip
     size: 1894438
   win:
-    name: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-win.zip
+    url: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-win.zip
     size: 2017988

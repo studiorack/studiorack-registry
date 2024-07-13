@@ -11,17 +11,17 @@ tags:
   - Frequency
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.flac
     size: 103066
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.jpg
     size: 17057
   linux:
-    name: https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip
+    url: https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip
     size: 994607
   mac:
-    name: https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip
+    url: https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip
     size: 493633
   win:
-    name: https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip
+    url: https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip
     size: 853963

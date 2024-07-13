@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/war-tuba.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/war-tuba.flac
     size: 88482
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/war-tuba.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/war-tuba.jpg
     size: 69063
   linux:
-    name: https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip
+    url: https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip
     size: 35601312
   mac:
-    name: https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip
+    url: https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip
     size: 35601312
   win:
-    name: https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip
+    url: https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip
     size: 35601312

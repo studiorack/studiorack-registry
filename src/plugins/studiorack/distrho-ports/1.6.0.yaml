@@ -11,17 +11,17 @@ tags:
   - Juno
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.flac
     size: 78645
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.jpg
     size: 31671
   linux:
-    name: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip
+    url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip
     size: 2302019
   mac:
-    name: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-mac.zip
+    url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-mac.zip
     size: 5132019
   win:
-    name: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-win.zip
+    url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-win.zip
     size: 4440111

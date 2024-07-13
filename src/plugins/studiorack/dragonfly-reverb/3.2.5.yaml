@@ -11,17 +11,17 @@ tags:
   - Plate
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.flac
     size: 82471
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.jpg
     size: 119902
   linux:
-    name: https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-linux.zip
+    url: https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-linux.zip
     size: 6921808
   mac:
-    name: https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-mac.zip
+    url: https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-mac.zip
     size: 4542730
   win:
-    name: https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-win.zip
+    url: https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-win.zip
     size: 9359636

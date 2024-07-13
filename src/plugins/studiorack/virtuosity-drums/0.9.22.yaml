@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac
     size: 821118
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg
     size: 73357
   linux:
-    name: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
+    url: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
     size: 618693714
   mac:
-    name: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
+    url: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
     size: 618693714
   win:
-    name: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
+    url: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
     size: 618693714

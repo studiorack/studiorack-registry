@@ -11,17 +11,17 @@ tags:
   - Tube
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/swankyamp.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/swankyamp.flac
     size: 94744
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/swankyamp.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/swankyamp.jpg
     size: 93556
   linux:
-    name: https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip
+    url: https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip
     size: 5553590
   mac:
-    name: https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip
+    url: https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip
     size: 2562464
   win:
-    name: https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip
+    url: https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip
     size: 2155426
