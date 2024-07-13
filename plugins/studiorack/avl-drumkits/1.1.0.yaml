@@ -1,0 +1,27 @@
+---
+name: AVL Drumkits
+author: Glen MacArthur
+homepage: https://www.bandshed.net/avldrumkits
+description: Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.
+date: 2022-02-20T07:00:00.000Z
+license: other
+tags:
+  - Instrument
+  - Drums
+  - sfz
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.flac
+    size: 696023
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.jpg
+    size: 326339
+  linux:
+    name: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
+    size: 16017234
+  mac:
+    name: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
+    size: 16017234
+  win:
+    name: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
+    size: 16017234

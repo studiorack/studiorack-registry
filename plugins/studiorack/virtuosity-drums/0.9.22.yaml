@@ -1,0 +1,28 @@
+---
+name: Virtuosity Drums
+author: Versilian Studios
+homepage: https://vis.versilstudios.com/virtuosity-drums.html
+description: Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.
+date: 2021-11-08T07:00:00.000Z
+license: cc0-1.0
+tags:
+  - Instrument
+  - Drums
+  - Jazz
+  - sfz
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac
+    size: 821118
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg
+    size: 73357
+  linux:
+    name: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
+    size: 618693714
+  mac:
+    name: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
+    size: 618693714
+  win:
+    name: https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip
+    size: 618693714

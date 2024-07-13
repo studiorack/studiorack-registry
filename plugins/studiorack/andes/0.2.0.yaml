@@ -1,0 +1,27 @@
+---
+name: Andes
+author: Artem Popov
+homepage: https://artfwo.github.io/andes/
+description: Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.
+date: 2018-06-01T07:00:00.000Z
+license: gpl-3.0
+tags:
+  - Instrument
+  - Synth
+  - Oscillator
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/andes.flac
+    size: 12493
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/andes.jpg
+    size: 27379
+  linux:
+    name: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-linux.zip
+    size: 6118842
+  mac:
+    name: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-mac.zip
+    size: 5225268
+  win:
+    name: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-win.zip
+    size: 3450947

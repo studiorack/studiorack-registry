@@ -1,0 +1,28 @@
+---
+name: AVL Percussions
+author: Glen MacArthur
+homepage: https://www.bandshed.net/avldrumkits
+description: 11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.
+date: 2022-02-21T07:00:00.000Z
+license: other
+tags:
+  - Instrument
+  - Drums
+  - Percussions
+  - sfz
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.flac
+    size: 193990
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.jpg
+    size: 159466
+  linux:
+    name: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
+    size: 1730506
+  mac:
+    name: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
+    size: 1730506
+  win:
+    name: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
+    size: 1730506

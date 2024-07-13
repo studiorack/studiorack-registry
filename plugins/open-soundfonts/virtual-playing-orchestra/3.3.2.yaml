@@ -18,11 +18,11 @@ files:
     name: https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg
     size: 79890
   linux:
-    url: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
+    name: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
     size: 618138108
   mac:
-    url: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
+    name: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
     size: 618138108
   win:
-    url: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
+    name: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
     size: 618138108
