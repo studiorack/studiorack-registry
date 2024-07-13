@@ -35,10 +35,10 @@ export function localGetPack() {
     const errors: string | boolean = pluginValidateSchema(plugin as PluginVersionLocal);
     const compatibility: string | boolean = pluginCompatibility(plugin);
     if (errors) {
-      console.log(chalk.red(`X ${pluginId} ${pluginVersion}`));
+      console.log(chalk.red(`X ${pluginId} | ${pluginVersion} | ${filepath}`));
       console.log(chalk.yellow(compatibility) ? chalk.red(errors) + chalk.yellow(compatibility) : chalk.red(errors));
     } else {
-      console.log(chalk.green(`✓ ${pluginId} ${pluginVersion}`));
+      console.log(chalk.green(`✓ ${pluginId} | ${pluginVersion} | ${filepath}`));
       if (compatibility) console.log(chalk.yellow(compatibility));
     }
 
