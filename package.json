@@ -46,7 +46,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@studiorack/core": "^2.0.3",
+    "@studiorack/core": "^2.0.12",
     "chalk": "^5.3.0",
     "graphql-request": "^6.1.0",
     "js-yaml": "^4.1.0",

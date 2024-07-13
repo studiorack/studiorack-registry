@@ -1,6 +1,7 @@
 import * as semver from 'semver';
 import {
   PluginFiles,
+  PluginLicense,
   PluginPack,
   PluginVersion,
   PluginVersionLocal,
@@ -310,6 +311,9 @@ export function pluginCompatibility(plugin: PluginVersion) {
     error += '- License should be defined\n';
   } else if (typeof plugin.license !== 'string' && plugin.license.key === 'other') {
     error += '- License should be defined\n';
+  } else {
+    const license: PluginLicense = pluginLicense(plugin.license);
+    if (license.key === 'other') error += '- License should be defined\n';
   }
   return error.length === 0 ? false : error;
 }

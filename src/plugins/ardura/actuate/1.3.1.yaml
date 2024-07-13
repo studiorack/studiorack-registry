@@ -4,7 +4,7 @@ author: Ardura
 homepage: https://github.com/ardura/Actuate
 description: A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug
 date: 2024-07-12T07:00:00.000Z
-license: GPL3
+license: gpl-3.0
 tags:
   - Instrument
   - Synth
