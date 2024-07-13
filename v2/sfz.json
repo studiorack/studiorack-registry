@@ -539,7 +539,7 @@
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "url": "hungarian Zither",
+          "name": "Hungarian Zither",
           "author": "DSmolken",
           "homepage": "https://github.com/sfzinstruments/hungarian_zither",
           "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
@@ -580,7 +580,7 @@
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "url": "horse Pulse",
+          "name": "Horse Pulse",
           "author": "DSmolken",
           "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
           "description": "Bass Tagelharpa played pizzicato",
