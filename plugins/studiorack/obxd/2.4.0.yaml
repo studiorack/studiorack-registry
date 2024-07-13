@@ -11,17 +11,17 @@ tags:
   - OB-X
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/obxd.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/obxd.flac
     size: 63794
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/obxd.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/obxd.jpg
     size: 76569
   linux:
-    name: https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip
+    url: https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip
     size: 21745339
   mac:
-    name: https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip
+    url: https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip
     size: 6653931
   win:
-    name: https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip
+    url: https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip
     size: 20368962

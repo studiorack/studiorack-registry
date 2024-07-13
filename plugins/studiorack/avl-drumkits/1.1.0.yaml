@@ -11,17 +11,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.flac
     size: 696023
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.jpg
     size: 326339
   linux:
-    name: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
+    url: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
     size: 16017234
   mac:
-    name: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
+    url: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
     size: 16017234
   win:
-    name: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
+    url: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
     size: 16017234

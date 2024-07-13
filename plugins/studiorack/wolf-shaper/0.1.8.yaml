@@ -11,17 +11,17 @@ tags:
   - Editor
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.flac
     size: 103066
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.jpg
     size: 39286
   linux:
-    name: https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip
+    url: https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip
     size: 1208880
   mac:
-    name: https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip
+    url: https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip
     size: 577937
   win:
-    name: https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip
+    url: https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip
     size: 1006913

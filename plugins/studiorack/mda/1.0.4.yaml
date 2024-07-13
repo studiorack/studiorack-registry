@@ -11,17 +11,17 @@ tags:
   - Vocoder
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/mda.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/mda.flac
     size: 127392
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/mda.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/mda.jpg
     size: 104156
   linux:
-    name: https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip
+    url: https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip
     size: 70938
   mac:
-    name: https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip
+    url: https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip
     size: 5122516
   win:
-    name: https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip
+    url: https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip
     size: 1247768

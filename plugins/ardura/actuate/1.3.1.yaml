@@ -11,17 +11,17 @@ tags:
   - Sampler
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
     size: 3251736
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.jpg
     size: 158795
   linux:
-    name: https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_Linux.zip
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_Linux.zip
     size: 9205312
   mac:
-    name: https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_MacOS.zip
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_MacOS.zip
     size: 7074578
   win:
-    name: https://github.com/ardura/Actuate/releases/download/v1.3.1/actuate_v131_windows.zip
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.1/actuate_v131_windows.zip
     size: 6439034

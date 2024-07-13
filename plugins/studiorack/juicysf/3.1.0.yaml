@@ -11,17 +11,17 @@ tags:
   - Synth
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/juicysf.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/juicysf.flac
     size: 83683
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/juicysf.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/juicysf.jpg
     size: 38148
   linux:
-    name: https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip
+    url: https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip
     size: 0
   mac:
-    name: https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip
+    url: https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip
     size: 19050275
   win:
-    name: https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip
+    url: https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip
     size: 10578510

@@ -11,17 +11,17 @@ tags:
   - Volume
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.flac
     size: 81405
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.jpg
     size: 27141
   linux:
-    name: https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-linux.zip
+    url: https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-linux.zip
     size: 3497170
   mac:
-    name: https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-mac.zip
+    url: https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-mac.zip
     size: 3176913
   win:
-    name: https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip
+    url: https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip
     size: 3355298

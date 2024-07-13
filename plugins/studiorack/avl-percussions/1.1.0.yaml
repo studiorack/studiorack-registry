@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.flac
     size: 193990
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.jpg
     size: 159466
   linux:
-    name: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
+    url: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
     size: 1730506
   mac:
-    name: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
+    url: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
     size: 1730506
   win:
-    name: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
+    url: https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip
     size: 1730506

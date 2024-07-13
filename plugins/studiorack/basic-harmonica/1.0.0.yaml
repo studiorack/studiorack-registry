@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.flac
     size: 100197
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.jpg
     size: 65716
   linux:
-    name: https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip
+    url: https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip
     size: 1404185
   mac:
-    name: https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip
+    url: https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip
     size: 1404185
   win:
-    name: https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip
+    url: https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip
     size: 1404185

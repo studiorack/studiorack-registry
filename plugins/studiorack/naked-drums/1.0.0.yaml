@@ -11,17 +11,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/naked-drums.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/naked-drums.flac
     size: 553525
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/naked-drums.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/naked-drums.jpg
     size: 24452
   linux:
-    name: https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip
+    url: https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip
     size: 1283342538
   mac:
-    name: https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip
+    url: https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip
     size: 1283342538
   win:
-    name: https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip
+    url: https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip
     size: 1283342538

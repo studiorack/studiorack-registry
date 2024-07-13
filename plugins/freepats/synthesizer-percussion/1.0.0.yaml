@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.flac
     size: 135815
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.jpg
     size: 154466
   linux:
-    name: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
+    url: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
     size: 1663242
   mac:
-    name: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
+    url: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
     size: 1663242
   win:
-    name: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
+    url: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
     size: 1663242

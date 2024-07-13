@@ -11,17 +11,17 @@ tags:
   - Oscillator
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/andes.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/andes.flac
     size: 12493
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/andes.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/andes.jpg
     size: 27379
   linux:
-    name: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-linux.zip
+    url: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-linux.zip
     size: 6118842
   mac:
-    name: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-mac.zip
+    url: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-mac.zip
     size: 5225268
   win:
-    name: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-win.zip
+    url: https://github.com/studiorack/andes/releases/download/v0.2.0/andes-win.zip
     size: 3450947

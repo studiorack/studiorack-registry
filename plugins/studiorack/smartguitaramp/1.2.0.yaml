@@ -11,17 +11,17 @@ tags:
   - Amp
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.flac
     size: 67467
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.jpg
     size: 105632
   linux:
-    name: https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip
+    url: https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip
     size: 5155080
   mac:
-    name: https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip
+    url: https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip
     size: 6417447
   win:
-    name: https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip
+    url: https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip
     size: 3652195

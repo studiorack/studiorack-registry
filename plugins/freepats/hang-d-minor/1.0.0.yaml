@@ -1,5 +1,5 @@
 ---
-name: Hang D Minor
+url: hang D Minor
 author: Freepats
 homepage: https://freepats.zenvoid.org
 description: Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.
@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.flac
     size: 78343
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.jpg
     size: 43408
   linux:
-    name: https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip
+    url: https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip
     size: 13369709
   mac:
-    name: https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip
+    url: https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip
     size: 13369709
   win:
-    name: https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip
+    url: https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip
     size: 13369709

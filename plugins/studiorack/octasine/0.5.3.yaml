@@ -11,17 +11,17 @@ tags:
   - Modulation
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/octasine.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/octasine.flac
     size: 84574
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/octasine.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/octasine.jpg
     size: 90200
   linux:
-    name: https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip
+    url: https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip
     size: 3528874
   mac:
-    name: https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip
+    url: https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip
     size: 3115190
   win:
-    name: https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip
+    url: https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip
     size: 3203934

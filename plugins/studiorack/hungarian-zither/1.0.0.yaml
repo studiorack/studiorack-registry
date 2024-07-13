@@ -1,5 +1,5 @@
 ---
-name: Hungarian Zither
+url: hungarian Zither
 author: DSmolken
 homepage: https://github.com/sfzinstruments/hungarian_zither
 description: Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.
@@ -12,17 +12,17 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.flac
     size: 172274
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.jpg
     size: 88693
   linux:
-    name: https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip
+    url: https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip
     size: 181711154
   mac:
-    name: https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip
+    url: https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip
     size: 181711154
   win:
-    name: https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip
+    url: https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip
     size: 181711154

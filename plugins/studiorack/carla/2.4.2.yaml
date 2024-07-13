@@ -11,17 +11,17 @@ tags:
   - Player
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/carla.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/carla.flac
     size: 330759
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/carla.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/carla.jpg
     size: 252192
   linux:
-    name: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-linux.zip
+    url: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-linux.zip
     size: 160951738
   mac:
-    name: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-mac.zip
+    url: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-mac.zip
     size: 312938720
   win:
-    name: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-win.zip
+    url: https://github.com/studiorack/carla/releases/download/v2.4.2/carla-win.zip
     size: 196435153

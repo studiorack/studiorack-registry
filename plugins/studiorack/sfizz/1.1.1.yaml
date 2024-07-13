@@ -11,17 +11,17 @@ tags:
   - Synth
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/sfizz.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/sfizz.flac
     size: 47910
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/sfizz.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/sfizz.jpg
     size: 33976
   linux:
-    name: https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip
+    url: https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip
     size: 5504066
   mac:
-    name: https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip
+    url: https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip
     size: 7498595
   win:
-    name: https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip
+    url: https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip
     size: 4084698

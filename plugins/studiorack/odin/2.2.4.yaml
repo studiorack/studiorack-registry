@@ -11,17 +11,17 @@ tags:
   - Moog
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/odin.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/odin.flac
     size: 51889
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/odin.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/odin.jpg
     size: 123090
   linux:
-    name: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip
+    url: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip
     size: 97250026
   mac:
-    name: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-mac.zip
+    url: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-mac.zip
     size: 78842812
   win:
-    name: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-win.zip
+    url: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-win.zip
     size: 46173771

@@ -11,17 +11,17 @@ tags:
   - Casio
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/digits.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/digits.flac
     size: 56084
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/digits.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/digits.jpg
     size: 55074
   linux:
-    name: https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip
+    url: https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip
     size: 339840
   mac:
-    name: https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip
+    url: https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip
     size: 2109406
   win:
-    name: https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip
+    url: https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip
     size: 211492

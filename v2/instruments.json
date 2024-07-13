@@ -709,23 +709,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/UprightPianoKW-20220221.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/UprightPianoKW-20220221.flac",
               "size": 64803
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/UprightPianoKW-20220221.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/UprightPianoKW-20220221.jpg",
               "size": 87924
             },
             "linux": {
-              "name": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip",
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip",
               "size": 32365885
             },
             "mac": {
-              "name": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip",
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip",
               "size": 32365885
             },
             "win": {
-              "name": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip",
+              "url": "https://github.com/freepats/upright-piano-kw/releases/download/v1.0.0/UprightPianoKW-20220221.zip",
               "size": 32365885
             }
           }
@@ -750,23 +750,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/SpanishClassicalGuitar-20190618.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/SpanishClassicalGuitar-20190618.flac",
               "size": 75338
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/SpanishClassicalGuitar-20190618.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/SpanishClassicalGuitar-20190618.jpg",
               "size": 147385
             },
             "linux": {
-              "name": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
               "size": 4944097
             },
             "mac": {
-              "name": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
               "size": 4944097
             },
             "win": {
-              "name": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
               "size": 4944097
             }
           }
@@ -777,7 +777,7 @@
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "name": "Hang D Minor",
+          "url": "hang D Minor",
           "author": "Freepats",
           "homepage": "https://freepats.zenvoid.org",
           "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
@@ -791,23 +791,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.flac",
               "size": 78343
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.jpg",
               "size": 43408
             },
             "linux": {
-              "name": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
               "size": 13369709
             },
             "mac": {
-              "name": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
               "size": 13369709
             },
             "win": {
-              "name": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
               "size": 13369709
             }
           }
@@ -832,23 +832,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.flac",
               "size": 135815
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.jpg",
               "size": 154466
             },
             "linux": {
-              "name": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip",
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip",
               "size": 1663242
             },
             "mac": {
-              "name": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip",
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip",
               "size": 1663242
             },
             "win": {
-              "name": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip",
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip",
               "size": 1663242
             }
           }
@@ -872,23 +872,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.flac",
               "size": 141339
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.jpg",
               "size": 159518
             },
             "linux": {
-              "name": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz",
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz",
               "size": 94448096
             },
             "mac": {
-              "name": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macos-1.3.1-pluginsonly.zip",
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macos-1.3.1-pluginsonly.zip",
               "size": 180726292
             },
             "win": {
-              "name": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-pluginsonly.zip",
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-pluginsonly.zip",
               "size": 48165645
             }
           }
@@ -907,23 +907,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.flac",
               "size": 141339
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/surge-synthesizer/surge/surge.jpg",
               "size": 159518
             },
             "linux": {
-              "name": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-linux-1.3.0-pluginsonly.tar.gz",
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-linux-1.3.0-pluginsonly.tar.gz",
               "size": 94448096
             },
             "mac": {
-              "name": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-macos-1.3.0-pluginsonly.zip",
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-macos-1.3.0-pluginsonly.zip",
               "size": 180726292
             },
             "win": {
-              "name": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-win64-1.3.0-pluginsonly.zip",
+              "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.0/surge-xt-win64-1.3.0-pluginsonly.zip",
               "size": 48165645
             }
           }
@@ -948,23 +948,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/war-tuba.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/war-tuba.flac",
               "size": 88482
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/war-tuba.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/war-tuba.jpg",
               "size": 69063
             },
             "linux": {
-              "name": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip",
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip",
               "size": 35601312
             },
             "mac": {
-              "name": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip",
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip",
               "size": 35601312
             },
             "win": {
-              "name": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip",
+              "url": "https://github.com/studiorack/war-tuba/releases/download/v1.0.0/war-tuba.zip",
               "size": 35601312
             }
           }
@@ -988,23 +988,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/vst2413.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/vst2413.flac",
               "size": 347527
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/vst2413.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/vst2413.jpg",
               "size": 22493
             },
             "linux": {
-              "name": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-linux.zip",
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-linux.zip",
               "size": 386422
             },
             "mac": {
-              "name": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-mac.zip",
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-mac.zip",
               "size": 187561
             },
             "win": {
-              "name": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-win.zip",
+              "url": "https://github.com/studiorack/vst2413/releases/download/v1.0.0/vst2413-win.zip",
               "size": 228506
             }
           }
@@ -1029,23 +1029,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac",
               "size": 821118
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg",
               "size": 73357
             },
             "linux": {
-              "name": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip",
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip",
               "size": 1224065679
             },
             "mac": {
-              "name": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip",
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip",
               "size": 1224065679
             },
             "win": {
-              "name": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip",
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.23/virtuosity-drums.zip",
               "size": 1224065679
             }
           }
@@ -1065,23 +1065,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac",
               "size": 821118
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg",
               "size": 73357
             },
             "linux": {
-              "name": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip",
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip",
               "size": 618693714
             },
             "mac": {
-              "name": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip",
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip",
               "size": 618693714
             },
             "win": {
-              "name": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip",
+              "url": "https://github.com/studiorack/virtuosity-drums/releases/download/v0.9.22/virtuosity-drums.zip",
               "size": 618693714
             }
           }
@@ -1105,23 +1105,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tunefish.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tunefish.flac",
               "size": 239665
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tunefish.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tunefish.jpg",
               "size": 107198
             },
             "linux": {
-              "name": "https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-linux.zip",
+              "url": "https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-linux.zip",
               "size": 3569540
             },
             "mac": {
-              "name": "https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-mac.zip",
+              "url": "https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-mac.zip",
               "size": 6443515
             },
             "win": {
-              "name": "https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-win.zip",
+              "url": "https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-win.zip",
               "size": 4147020
             }
           }
@@ -1145,23 +1145,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfizz.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfizz.flac",
               "size": 47910
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfizz.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfizz.jpg",
               "size": 33976
             },
             "linux": {
-              "name": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip",
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip",
               "size": 5504066
             },
             "mac": {
-              "name": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip",
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip",
               "size": 7498595
             },
             "win": {
-              "name": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip",
+              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip",
               "size": 4084698
             }
           }
@@ -1186,23 +1186,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.flac",
               "size": 207120
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.jpg",
               "size": 239836
             },
             "linux": {
-              "name": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip",
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip",
               "size": 36642874
             },
             "mac": {
-              "name": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip",
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip",
               "size": 36642874
             },
             "win": {
-              "name": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip",
+              "url": "https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip",
               "size": 36642874
             }
           }
@@ -1227,23 +1227,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/salamander-grand-piano.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/salamander-grand-piano.flac",
               "size": 365662
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/salamander-grand-piano.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/salamander-grand-piano.jpg",
               "size": 88748
             },
             "linux": {
-              "name": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip",
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip",
               "size": 748416023
             },
             "mac": {
-              "name": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip",
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip",
               "size": 748416023
             },
             "win": {
-              "name": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip",
+              "url": "https://github.com/studiorack/salamander-grand-piano/releases/download/v3.0.0/salamander-grand-piano.zip",
               "size": 748416023
             }
           }
@@ -1267,23 +1267,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/oxe.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/oxe.flac",
               "size": 66799
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/oxe.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/oxe.jpg",
               "size": 91580
             },
             "linux": {
-              "name": "https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-linux.zip",
+              "url": "https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-linux.zip",
               "size": 411823
             },
             "mac": {
-              "name": "https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-mac.zip",
+              "url": "https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-mac.zip",
               "size": 188225
             },
             "win": {
-              "name": "https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-win.zip",
+              "url": "https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-win.zip",
               "size": 232072
             }
           }
@@ -1307,23 +1307,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/opl.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/opl.flac",
               "size": 65277
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/opl.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/opl.jpg",
               "size": 50828
             },
             "linux": {
-              "name": "https://github.com/studiorack/opl/releases/download/v2.1.0/opl-linux.zip",
+              "url": "https://github.com/studiorack/opl/releases/download/v2.1.0/opl-linux.zip",
               "size": 5804207
             },
             "mac": {
-              "name": "https://github.com/studiorack/opl/releases/download/v2.1.0/opl-mac.zip",
+              "url": "https://github.com/studiorack/opl/releases/download/v2.1.0/opl-mac.zip",
               "size": 7388864
             },
             "win": {
-              "name": "https://github.com/studiorack/opl/releases/download/v2.1.0/opl-win.zip",
+              "url": "https://github.com/studiorack/opl/releases/download/v2.1.0/opl-win.zip",
               "size": 5845308
             }
           }
@@ -1347,23 +1347,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/odin.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/odin.flac",
               "size": 51889
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/odin.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/odin.jpg",
               "size": 123090
             },
             "linux": {
-              "name": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip",
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip",
               "size": 97250026
             },
             "mac": {
-              "name": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-mac.zip",
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-mac.zip",
               "size": 78842812
             },
             "win": {
-              "name": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-win.zip",
+              "url": "https://github.com/studiorack/odin/releases/download/v2.2.4/odin-win.zip",
               "size": 46173771
             }
           }
@@ -1387,23 +1387,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/octasine.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/octasine.flac",
               "size": 84574
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/octasine.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/octasine.jpg",
               "size": 90200
             },
             "linux": {
-              "name": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip",
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-linux.zip",
               "size": 3528874
             },
             "mac": {
-              "name": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip",
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-mac.zip",
               "size": 3115190
             },
             "win": {
-              "name": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip",
+              "url": "https://github.com/studiorack/octasine/releases/download/v0.5.3/octasine-win.zip",
               "size": 3203934
             }
           }
@@ -1427,23 +1427,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/obxd.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/obxd.flac",
               "size": 63794
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/obxd.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/obxd.jpg",
               "size": 76569
             },
             "linux": {
-              "name": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip",
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip",
               "size": 21745339
             },
             "mac": {
-              "name": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip",
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-mac.zip",
               "size": 6653931
             },
             "win": {
-              "name": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip",
+              "url": "https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-win.zip",
               "size": 20368962
             }
           }
@@ -1467,23 +1467,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ninjas2.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ninjas2.flac",
               "size": 63564
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ninjas2.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ninjas2.jpg",
               "size": 88079
             },
             "linux": {
-              "name": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip",
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-linux.zip",
               "size": 1441617
             },
             "mac": {
-              "name": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip",
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-mac.zip",
               "size": 5131863
             },
             "win": {
-              "name": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip",
+              "url": "https://github.com/studiorack/ninjas2/releases/download/v0.2.0/ninjas2-win.zip",
               "size": 5995116
             }
           }
@@ -1507,23 +1507,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/nekobi.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/nekobi.flac",
               "size": 54778
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/nekobi.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/nekobi.jpg",
               "size": 14389
             },
             "linux": {
-              "name": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-linux.zip",
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-linux.zip",
               "size": 861637
             },
             "mac": {
-              "name": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-mac.zip",
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-mac.zip",
               "size": 1001626
             },
             "win": {
-              "name": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-win.zip",
+              "url": "https://github.com/studiorack/nekobi/releases/download/v1.0.0/nekobi-win.zip",
               "size": 984470
             }
           }
@@ -1547,23 +1547,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/naked-drums.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/naked-drums.flac",
               "size": 553525
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/naked-drums.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/naked-drums.jpg",
               "size": 24452
             },
             "linux": {
-              "name": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip",
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip",
               "size": 1283342538
             },
             "mac": {
-              "name": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip",
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip",
               "size": 1283342538
             },
             "win": {
-              "name": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip",
+              "url": "https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip",
               "size": 1283342538
             }
           }
@@ -1588,23 +1588,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/monique.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/monique.flac",
               "size": 386812
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/monique.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/monique.jpg",
               "size": 228421
             },
             "linux": {
-              "name": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip",
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip",
               "size": 7258419
             },
             "mac": {
-              "name": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip",
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip",
               "size": 19330773
             },
             "win": {
-              "name": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip",
+              "url": "https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip",
               "size": 8255789
             }
           }
@@ -1628,23 +1628,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/kars.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/kars.flac",
               "size": 52170
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/kars.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/kars.jpg",
               "size": 16547
             },
             "linux": {
-              "name": "https://github.com/studiorack/kars/releases/download/v1.0.0/kars-linux.zip",
+              "url": "https://github.com/studiorack/kars/releases/download/v1.0.0/kars-linux.zip",
               "size": 1146039
             },
             "mac": {
-              "name": "https://github.com/studiorack/kars/releases/download/v1.0.0/kars-mac.zip",
+              "url": "https://github.com/studiorack/kars/releases/download/v1.0.0/kars-mac.zip",
               "size": 1330027
             },
             "win": {
-              "name": "https://github.com/studiorack/kars/releases/download/v1.0.0/kars-win.zip",
+              "url": "https://github.com/studiorack/kars/releases/download/v1.0.0/kars-win.zip",
               "size": 1177464
             }
           }
@@ -1668,23 +1668,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/juicysf.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/juicysf.flac",
               "size": 83683
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/juicysf.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/juicysf.jpg",
               "size": 38148
             },
             "linux": {
-              "name": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip",
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-linux.zip",
               "size": 0
             },
             "mac": {
-              "name": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip",
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-mac.zip",
               "size": 19050275
             },
             "win": {
-              "name": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip",
+              "url": "https://github.com/studiorack/juicysf/releases/download/3.1.0/juicysf-win.zip",
               "size": 10578510
             }
           }
@@ -1709,23 +1709,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.flac",
               "size": 83358
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.jpg",
               "size": 222224
             },
             "linux": {
-              "name": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip",
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip",
               "size": 38363496
             },
             "mac": {
-              "name": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip",
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip",
               "size": 38363496
             },
             "win": {
-              "name": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip",
+              "url": "https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip",
               "size": 38363496
             }
           }
@@ -1750,23 +1750,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/jrhodes-3c.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jrhodes-3c.flac",
               "size": 64422
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/jrhodes-3c.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jrhodes-3c.jpg",
               "size": 283376
             },
             "linux": {
-              "name": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip",
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip",
               "size": 17073884
             },
             "mac": {
-              "name": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip",
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip",
               "size": 17073884
             },
             "win": {
-              "name": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip",
+              "url": "https://github.com/studiorack/jrhodes-3c/releases/download/v1.0.0/jrhodes-3c.zip",
               "size": 17073884
             }
           }
@@ -1777,7 +1777,7 @@
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "name": "Hungarian Zither",
+          "url": "hungarian Zither",
           "author": "DSmolken",
           "homepage": "https://github.com/sfzinstruments/hungarian_zither",
           "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
@@ -1791,23 +1791,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.flac",
               "size": 172274
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.jpg",
               "size": 88693
             },
             "linux": {
-              "name": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip",
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip",
               "size": 181711154
             },
             "mac": {
-              "name": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip",
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip",
               "size": 181711154
             },
             "win": {
-              "name": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip",
+              "url": "https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip",
               "size": 181711154
             }
           }
@@ -1818,7 +1818,7 @@
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "name": "Horse Pulse",
+          "url": "horse Pulse",
           "author": "DSmolken",
           "homepage": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
           "description": "Bass Tagelharpa played pizzicato",
@@ -1832,23 +1832,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/horse-pulse.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/horse-pulse.flac",
               "size": 58263
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/horse-pulse.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/horse-pulse.jpg",
               "size": 92078
             },
             "linux": {
-              "name": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip",
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip",
               "size": 74462529
             },
             "mac": {
-              "name": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip",
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip",
               "size": 74462529
             },
             "win": {
-              "name": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip",
+              "url": "https://github.com/studiorack/horse-pulse/releases/download/v1.0.0/horse-pulse.zip",
               "size": 74462529
             }
           }
@@ -1859,7 +1859,7 @@
       "version": "0.9.0",
       "versions": {
         "0.9.0": {
-          "name": "Helm",
+          "url": "helm",
           "author": "Matt Tytel",
           "homepage": "https://github.com/mtytel/helm",
           "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
@@ -1872,23 +1872,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/helm.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/helm.flac",
               "size": 75330
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/helm.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/helm.jpg",
               "size": 118535
             },
             "linux": {
-              "name": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-linux.zip",
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-linux.zip",
               "size": 8678132
             },
             "mac": {
-              "name": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-mac.zip",
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-mac.zip",
               "size": 13299862
             },
             "win": {
-              "name": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-win.zip",
+              "url": "https://github.com/studiorack/helm/releases/download/v0.9.0/helm-win.zip",
               "size": 12671911
             }
           }
@@ -1913,23 +1913,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.flac",
               "size": 50454
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.jpg",
               "size": 97173
             },
             "linux": {
-              "name": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip",
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip",
               "size": 3656955
             },
             "mac": {
-              "name": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip",
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-mac.zip",
               "size": 5262591
             },
             "win": {
-              "name": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip",
+              "url": "https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-win.zip",
               "size": 4704700
             }
           }
@@ -1954,23 +1954,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/double-bass.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/double-bass.flac",
               "size": 77117
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/double-bass.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/double-bass.jpg",
               "size": 45157
             },
             "linux": {
-              "name": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip",
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip",
               "size": 79014147
             },
             "mac": {
-              "name": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip",
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip",
               "size": 79014147
             },
             "win": {
-              "name": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip",
+              "url": "https://github.com/studiorack/double-bass/releases/download/v1.0.0/double-bass.zip",
               "size": 79014147
             }
           }
@@ -1994,23 +1994,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-noisemaker.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-noisemaker.flac",
               "size": 63114
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-noisemaker.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-noisemaker.jpg",
               "size": 92713
             },
             "linux": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip",
               "size": 4572081
             },
             "mac": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-mac.zip",
               "size": 11980734
             },
             "win": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-win.zip",
               "size": 7764121
             }
           }
@@ -2029,23 +2029,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-filter.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-filter.flac",
               "size": 70390
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-filter.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-filter.jpg",
               "size": 74456
             },
             "linux": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-linux.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-linux.zip",
               "size": 4199145
             },
             "mac": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-mac.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-mac.zip",
               "size": 10836170
             },
             "win": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-win.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-win.zip",
               "size": 7239861
             }
           }
@@ -2064,23 +2064,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-reverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-reverb.flac",
               "size": 109498
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-reverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-reverb.jpg",
               "size": 59550
             },
             "linux": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-linux.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-linux.zip",
               "size": 4409884
             },
             "mac": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-mac.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-mac.zip",
               "size": 11515261
             },
             "win": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-win.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-win.zip",
               "size": 7575145
             }
           }
@@ -2099,23 +2099,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.flac",
               "size": 99144
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.jpg",
               "size": 28705
             },
             "linux": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-linux.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-linux.zip",
               "size": 2906953
             },
             "mac": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-mac.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-mac.zip",
               "size": 7076283
             },
             "win": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-win.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-win.zip",
               "size": 5351774
             }
           }
@@ -2134,23 +2134,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.flac",
               "size": 78645
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.jpg",
               "size": 31671
             },
             "linux": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip",
               "size": 2302019
             },
             "mac": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-mac.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-mac.zip",
               "size": 5132019
             },
             "win": {
-              "name": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-win.zip",
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-win.zip",
               "size": 4440111
             }
           }
@@ -2174,23 +2174,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/digits.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/digits.flac",
               "size": 56084
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/digits.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/digits.jpg",
               "size": 55074
             },
             "linux": {
-              "name": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip",
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip",
               "size": 339840
             },
             "mac": {
-              "name": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip",
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-mac.zip",
               "size": 2109406
             },
             "win": {
-              "name": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip",
+              "url": "https://github.com/studiorack/digits/releases/download/v2.1.0/digits-win.zip",
               "size": 211492
             }
           }
@@ -2214,23 +2214,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/dexed.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/dexed.flac",
               "size": 51235
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/dexed.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/dexed.jpg",
               "size": 282883
             },
             "linux": {
-              "name": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-linux.zip",
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-linux.zip",
               "size": 6296573
             },
             "mac": {
-              "name": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-mac.zip",
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-mac.zip",
               "size": 9146576
             },
             "win": {
-              "name": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-win.zip",
+              "url": "https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-win.zip",
               "size": 2588488
             }
           }
@@ -2254,23 +2254,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/carla.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/carla.flac",
               "size": 330759
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/carla.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/carla.jpg",
               "size": 252192
             },
             "linux": {
-              "name": "https://github.com/studiorack/carla/releases/download/v2.4.2/carla-linux.zip",
+              "url": "https://github.com/studiorack/carla/releases/download/v2.4.2/carla-linux.zip",
               "size": 160951738
             },
             "mac": {
-              "name": "https://github.com/studiorack/carla/releases/download/v2.4.2/carla-mac.zip",
+              "url": "https://github.com/studiorack/carla/releases/download/v2.4.2/carla-mac.zip",
               "size": 312938720
             },
             "win": {
-              "name": "https://github.com/studiorack/carla/releases/download/v2.4.2/carla-win.zip",
+              "url": "https://github.com/studiorack/carla/releases/download/v2.4.2/carla-win.zip",
               "size": 196435153
             }
           }
@@ -2295,23 +2295,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/black-and-green-guitars.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/black-and-green-guitars.flac",
               "size": 64823
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/black-and-green-guitars.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/black-and-green-guitars.jpg",
               "size": 100550
             },
             "linux": {
-              "name": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip",
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip",
               "size": 292323008
             },
             "mac": {
-              "name": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip",
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip",
               "size": 292323008
             },
             "win": {
-              "name": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip",
+              "url": "https://github.com/studiorack/black-and-green-guitars/releases/download/v1.0.0/black-and-green-guitars.zip",
               "size": 292323008
             }
           }
@@ -2336,23 +2336,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/bear-sax.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/bear-sax.flac",
               "size": 86918
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/bear-sax.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/bear-sax.jpg",
               "size": 85425
             },
             "linux": {
-              "name": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip",
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip",
               "size": 70617479
             },
             "mac": {
-              "name": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip",
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip",
               "size": 70617479
             },
             "win": {
-              "name": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip",
+              "url": "https://github.com/studiorack/bear-sax/releases/download/v1.0.0/bear-sax.zip",
               "size": 70617479
             }
           }
@@ -2377,23 +2377,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.flac",
               "size": 100197
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.jpg",
               "size": 65716
             },
             "linux": {
-              "name": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip",
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip",
               "size": 1404185
             },
             "mac": {
-              "name": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip",
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip",
               "size": 1404185
             },
             "win": {
-              "name": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip",
+              "url": "https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip",
               "size": 1404185
             }
           }
@@ -2418,23 +2418,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.flac",
               "size": 193990
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.jpg",
               "size": 159466
             },
             "linux": {
-              "name": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip",
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip",
               "size": 1730506
             },
             "mac": {
-              "name": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip",
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip",
               "size": 1730506
             },
             "win": {
-              "name": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip",
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip",
               "size": 1730506
             }
           }
@@ -2458,23 +2458,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.flac",
               "size": 696023
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.jpg",
               "size": 326339
             },
             "linux": {
-              "name": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip",
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip",
               "size": 16017234
             },
             "mac": {
-              "name": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip",
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip",
               "size": 16017234
             },
             "win": {
-              "name": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip",
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip",
               "size": 16017234
             }
           }
@@ -2498,23 +2498,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/andes.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/andes.flac",
               "size": 12493
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/andes.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/andes.jpg",
               "size": 27379
             },
             "linux": {
-              "name": "https://github.com/studiorack/andes/releases/download/v0.2.0/andes-linux.zip",
+              "url": "https://github.com/studiorack/andes/releases/download/v0.2.0/andes-linux.zip",
               "size": 6118842
             },
             "mac": {
-              "name": "https://github.com/studiorack/andes/releases/download/v0.2.0/andes-mac.zip",
+              "url": "https://github.com/studiorack/andes/releases/download/v0.2.0/andes-mac.zip",
               "size": 5225268
             },
             "win": {
-              "name": "https://github.com/studiorack/andes/releases/download/v0.2.0/andes-win.zip",
+              "url": "https://github.com/studiorack/andes/releases/download/v0.2.0/andes-win.zip",
               "size": 3450947
             }
           }
@@ -2538,23 +2538,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/opnplug.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/opnplug.flac",
               "size": 58202
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/opnplug.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/opnplug.jpg",
               "size": 145332
             },
             "linux": {
-              "name": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-linux.zip",
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-linux.zip",
               "size": 11236640
             },
             "mac": {
-              "name": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-mac.zip",
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-mac.zip",
               "size": 27264168
             },
             "win": {
-              "name": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-win.zip",
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-win.zip",
               "size": 25020750
             }
           }
@@ -2578,23 +2578,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfztools/sfizz/sfizz.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfztools/sfizz/sfizz.flac",
               "size": 47910
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfztools/sfizz/sfizz.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfztools/sfizz/sfizz.jpg",
               "size": 33976
             },
             "linux": {
-              "name": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz",
+              "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz",
               "size": 19102967
             },
             "mac": {
-              "name": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz",
+              "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz",
               "size": 1748833
             },
             "win": {
-              "name": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip",
+              "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip",
               "size": 8286178
             }
           }
@@ -2619,23 +2619,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
               "size": 69723
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
               "size": 171264
             },
             "linux": {
-              "name": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
+              "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
               "size": 74736682
             },
             "mac": {
-              "name": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
+              "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
               "size": 74736682
             },
             "win": {
-              "name": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
+              "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip",
               "size": 74736682
             }
           }
@@ -2660,23 +2660,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac",
               "size": 137127
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg",
               "size": 79890
             },
             "linux": {
-              "name": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
+              "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
               "size": 618138108
             },
             "mac": {
-              "name": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
+              "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
               "size": 618138108
             },
             "win": {
-              "name": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
+              "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip",
               "size": 618138108
             }
           }
@@ -2701,23 +2701,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/Glass-20191227.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/Glass-20191227.flac",
               "size": 67037
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/Glass-20191227.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/Glass-20191227.jpg",
               "size": 125355
             },
             "linux": {
-              "name": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
               "size": 10610381
             },
             "mac": {
-              "name": "https://github.com/freepats/glass/releases/download/v1.0.0/glasses-of-water.zip",
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/glasses-of-water.zip",
               "size": 10610381
             },
             "win": {
-              "name": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
               "size": 10610381
             }
           }
@@ -2741,23 +2741,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.flac",
               "size": 162704
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg",
               "size": 94023
             },
             "linux": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
               "size": 269599176
             },
             "mac": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
               "size": 269599176
             },
             "win": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
               "size": 269599176
             }
           }
@@ -2781,23 +2781,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac",
               "size": 3251736
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.jpg",
               "size": 158795
             },
             "linux": {
-              "name": "https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_Linux.zip",
+              "url": "https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_Linux.zip",
               "size": 9205312
             },
             "mac": {
-              "name": "https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_MacOS.zip",
+              "url": "https://github.com/ardura/Actuate/releases/download/v1.3.1/Actuate_v131_MacOS.zip",
               "size": 7074578
             },
             "win": {
-              "name": "https://github.com/ardura/Actuate/releases/download/v1.3.1/actuate_v131_windows.zip",
+              "url": "https://github.com/ardura/Actuate/releases/download/v1.3.1/actuate_v131_windows.zip",
               "size": 6439034
             }
           }

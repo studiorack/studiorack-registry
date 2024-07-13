@@ -12,17 +12,17 @@ tags:
   - Lead
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/monique.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/monique.flac
     size: 386812
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/monique.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/monique.jpg
     size: 228421
   linux:
-    name: https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip
+    url: https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip
     size: 7258419
   mac:
-    name: https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip
+    url: https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-mac.zip
     size: 19330773
   win:
-    name: https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip
+    url: https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-win.zip
     size: 8255789

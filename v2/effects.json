@@ -460,23 +460,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.flac",
               "size": 103066
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.jpg",
               "size": 17057
             },
             "linux": {
-              "name": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip",
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip",
               "size": 994607
             },
             "mac": {
-              "name": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip",
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-mac.zip",
               "size": 493633
             },
             "win": {
-              "name": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip",
+              "url": "https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-win.zip",
               "size": 853963
             }
           }
@@ -500,23 +500,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.flac",
               "size": 103066
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.jpg",
               "size": 39286
             },
             "linux": {
-              "name": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip",
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip",
               "size": 1208880
             },
             "mac": {
-              "name": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip",
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-mac.zip",
               "size": 577937
             },
             "win": {
-              "name": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip",
+              "url": "https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-win.zip",
               "size": 1006913
             }
           }
@@ -540,23 +540,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/temper.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/temper.flac",
               "size": 95804
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/temper.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/temper.jpg",
               "size": 62400
             },
             "linux": {
-              "name": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-linux.zip",
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-linux.zip",
               "size": 9837586
             },
             "mac": {
-              "name": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-mac.zip",
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-mac.zip",
               "size": 6764694
             },
             "win": {
-              "name": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-win.zip",
+              "url": "https://github.com/studiorack/temper/releases/download/v1.1.1/temper-win.zip",
               "size": 6181044
             }
           }
@@ -580,23 +580,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.flac",
               "size": 94744
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.jpg",
               "size": 93556
             },
             "linux": {
-              "name": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip",
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip",
               "size": 5553590
             },
             "mac": {
-              "name": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip",
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-mac.zip",
               "size": 2562464
             },
             "win": {
-              "name": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip",
+              "url": "https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-win.zip",
               "size": 2155426
             }
           }
@@ -620,23 +620,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.flac",
               "size": 67467
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.jpg",
               "size": 105632
             },
             "linux": {
-              "name": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip",
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip",
               "size": 5155080
             },
             "mac": {
-              "name": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip",
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-mac.zip",
               "size": 6417447
             },
             "win": {
-              "name": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip",
+              "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip",
               "size": 3652195
             }
           }
@@ -660,23 +660,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/regrader.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/regrader.flac",
               "size": 86583
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/regrader.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/regrader.jpg",
               "size": 99822
             },
             "linux": {
-              "name": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip",
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip",
               "size": 660901
             },
             "mac": {
-              "name": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip",
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-mac.zip",
               "size": 5796572
             },
             "win": {
-              "name": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip",
+              "url": "https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-win.zip",
               "size": 1879030
             }
           }
@@ -699,23 +699,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/mverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/mverb.flac",
               "size": 41738
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/mverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/mverb.jpg",
               "size": 48422
             },
             "linux": {
-              "name": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip",
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-linux.zip",
               "size": 188933
             },
             "mac": {
-              "name": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip",
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-mac.zip",
               "size": 674694
             },
             "win": {
-              "name": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip",
+              "url": "https://github.com/studiorack/mverb/releases/download/v1.0.0/mverb-win.zip",
               "size": 283901
             }
           }
@@ -739,23 +739,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/modeq.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/modeq.flac",
               "size": 66240
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/modeq.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/modeq.jpg",
               "size": 75899
             },
             "linux": {
-              "name": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip",
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip",
               "size": 7097654
             },
             "mac": {
-              "name": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip",
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-mac.zip",
               "size": 3222514
             },
             "win": {
-              "name": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip",
+              "url": "https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-win.zip",
               "size": 3677919
             }
           }
@@ -778,23 +778,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.flac",
               "size": 79282
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.jpg",
               "size": 18650
             },
             "linux": {
-              "name": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-linux.zip",
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-linux.zip",
               "size": 884722
             },
             "mac": {
-              "name": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-mac.zip",
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-mac.zip",
               "size": 1101475
             },
             "win": {
-              "name": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-win.zip",
+              "url": "https://github.com/studiorack/mini-series/releases/download/v1.0.0/mini-series-eq-win.zip",
               "size": 850005
             }
           }
@@ -818,23 +818,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/mda.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/mda.flac",
               "size": 127392
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/mda.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/mda.jpg",
               "size": 104156
             },
             "linux": {
-              "name": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip",
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip",
               "size": 70938
             },
             "mac": {
-              "name": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip",
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-mac.zip",
               "size": 5122516
             },
             "win": {
-              "name": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip",
+              "url": "https://github.com/studiorack/mda/releases/download/v1.0.4/mda-win.zip",
               "size": 1247768
             }
           }
@@ -858,23 +858,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.flac",
               "size": 112666
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.jpg",
               "size": 111401
             },
             "linux": {
-              "name": "https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-linux.zip",
+              "url": "https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-linux.zip",
               "size": 51310651
             },
             "mac": {
-              "name": "https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-mac.zip",
+              "url": "https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-mac.zip",
               "size": 115219195
             },
             "win": {
-              "name": "https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-win.zip",
+              "url": "https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-win.zip",
               "size": 79870766
             }
           }
@@ -898,23 +898,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.flac",
               "size": 82471
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.jpg",
               "size": 119902
             },
             "linux": {
-              "name": "https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-linux.zip",
+              "url": "https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-linux.zip",
               "size": 6921808
             },
             "mac": {
-              "name": "https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-mac.zip",
+              "url": "https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-mac.zip",
               "size": 4542730
             },
             "win": {
-              "name": "https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-win.zip",
+              "url": "https://github.com/studiorack/dragonfly-reverb/releases/download/v3.2.5/dragonfly-reverb-win.zip",
               "size": 9359636
             }
           }
@@ -938,23 +938,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/diopser.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/diopser.flac",
               "size": 77049
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg",
               "size": 43851
             },
             "linux": {
-              "name": "https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-linux.zip",
+              "url": "https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-linux.zip",
               "size": 1767254
             },
             "mac": {
-              "name": "https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-mac.zip",
+              "url": "https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-mac.zip",
               "size": 1894438
             },
             "win": {
-              "name": "https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-win.zip",
+              "url": "https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-win.zip",
               "size": 2017988
             }
           }
@@ -978,23 +978,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.flac",
               "size": 72368
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.jpg",
               "size": 52419
             },
             "linux": {
-              "name": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip",
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip",
               "size": 16435230
             },
             "mac": {
-              "name": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip",
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-mac.zip",
               "size": 10706301
             },
             "win": {
-              "name": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip",
+              "url": "https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-win.zip",
               "size": 5497679
             }
           }
@@ -1018,23 +1018,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.flac",
               "size": 71529
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.jpg",
               "size": 74210
             },
             "linux": {
-              "name": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-linux.zip",
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-linux.zip",
               "size": 16260494
             },
             "mac": {
-              "name": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-mac.zip",
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-mac.zip",
               "size": 10373268
             },
             "win": {
-              "name": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-win.zip",
+              "url": "https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-win.zip",
               "size": 4719759
             }
           }
@@ -1058,23 +1058,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.flac",
               "size": 76050
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.jpg",
               "size": 36536
             },
             "linux": {
-              "name": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-linux.zip",
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-linux.zip",
               "size": 1870819
             },
             "mac": {
-              "name": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-mac.zip",
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-mac.zip",
               "size": 3235381
             },
             "win": {
-              "name": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-win.zip",
+              "url": "https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-win.zip",
               "size": 1037064
             }
           }
@@ -1098,23 +1098,23 @@
           ],
           "files": {
             "audio": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.flac",
               "size": 81405
             },
             "image": {
-              "name": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.jpg",
               "size": 27141
             },
             "linux": {
-              "name": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-linux.zip",
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-linux.zip",
               "size": 3497170
             },
             "mac": {
-              "name": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-mac.zip",
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-mac.zip",
               "size": 3176913
             },
             "win": {
-              "name": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip",
+              "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip",
               "size": 3355298
             }
           }

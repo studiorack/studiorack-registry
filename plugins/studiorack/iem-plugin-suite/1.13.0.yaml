@@ -11,17 +11,17 @@ tags:
   - Delay
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.flac
     size: 112666
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.jpg
     size: 111401
   linux:
-    name: https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-linux.zip
+    url: https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-linux.zip
     size: 51310651
   mac:
-    name: https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-mac.zip
+    url: https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-mac.zip
     size: 115219195
   win:
-    name: https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-win.zip
+    url: https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-win.zip
     size: 79870766

@@ -11,17 +11,17 @@ tags:
   - Analog
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/tunefish.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/tunefish.flac
     size: 239665
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/tunefish.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/tunefish.jpg
     size: 107198
   linux:
-    name: https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-linux.zip
+    url: https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-linux.zip
     size: 3569540
   mac:
-    name: https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-mac.zip
+    url: https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-mac.zip
     size: 6443515
   win:
-    name: https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-win.zip
+    url: https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-win.zip
     size: 4147020
