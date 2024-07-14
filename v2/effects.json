@@ -563,6 +563,166 @@
         }
       }
     },
+    "studiorack/tal-vocoder": {
+      "version": "2.2.0",
+      "versions": {
+        "2.2.0": {
+          "name": "TAL-Vocoder",
+          "author": "TAL Software",
+          "homepage": "https://github.com/studiorack/distrho-ports",
+          "description": "Vintage vocoder emulation with 11 bands that emulates the sound of vocoders from the early 80s",
+          "date": "2021-01-28T07:00:00.000Z",
+          "license": "other",
+          "tags": [
+            "Effect",
+            "Vocoder",
+            "Analog"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-vocoder/tal-vocoder.flac",
+              "size": 99144
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-vocoder/tal-vocoder.jpg",
+              "size": 28705
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-linux.zip",
+              "size": 2906953
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-mac.zip",
+              "size": 7076283
+            },
+            "win": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-win.zip",
+              "size": 5351774
+            }
+          }
+        }
+      }
+    },
+    "studiorack/tal-reverb": {
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "name": "TAL-Reverb",
+          "author": "TAL Software",
+          "homepage": "https://github.com/studiorack/distrho-ports",
+          "description": "High quality plate reverb with a vintage 80's character",
+          "date": "2021-02-11T07:00:00.000Z",
+          "license": "other",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Plate"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-reverb/tal-reverb.flac",
+              "size": 109498
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-reverb/tal-reverb.jpg",
+              "size": 59550
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-linux.zip",
+              "size": 4409884
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-mac.zip",
+              "size": 11515261
+            },
+            "win": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-win.zip",
+              "size": 7575145
+            }
+          }
+        }
+      }
+    },
+    "studiorack/tal-filter": {
+      "version": "3.0.1",
+      "versions": {
+        "3.0.1": {
+          "name": "TAL-Filter",
+          "author": "TAL Software",
+          "homepage": "https://github.com/studiorack/distrho-ports",
+          "description": "Host synced filter module with different filter types, panorama and volume modulation possibilities",
+          "date": "2021-03-07T07:00:00.000Z",
+          "license": "other",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Modulation"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-filter/tal-filter.flac",
+              "size": 70390
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-filter/tal-filter.jpg",
+              "size": 74456
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-linux.zip",
+              "size": 4199145
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-mac.zip",
+              "size": 10836170
+            },
+            "win": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-win.zip",
+              "size": 7239861
+            }
+          }
+        }
+      }
+    },
+    "studiorack/tal-chorus": {
+      "version": "1.6.0",
+      "versions": {
+        "1.6.0": {
+          "name": "TAL-Chorus",
+          "author": "TAL Software",
+          "homepage": "https://github.com/studiorack/distrho-ports",
+          "description": "Characteristics of the Juno-60 chorus.",
+          "date": "2021-05-02T07:00:00.000Z",
+          "license": "other",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Juno"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-chorus/tal-chorus.flac",
+              "size": 78645
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-chorus/tal-chorus.jpg",
+              "size": 31671
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip",
+              "size": 2302019
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-mac.zip",
+              "size": 5132019
+            },
+            "win": {
+              "url": "https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-win.zip",
+              "size": 4440111
+            }
+          }
+        }
+      }
+    },
     "studiorack/swankyamp": {
       "version": "1.4.0",
       "versions": {

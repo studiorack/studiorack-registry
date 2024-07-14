@@ -11,10 +11,10 @@ tags:
   - Modulation
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-filter.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-filter/tal-filter.flac
     size: 70390
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-filter.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-filter/tal-filter.jpg
     size: 74456
   linux:
     url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-filter-linux.zip
