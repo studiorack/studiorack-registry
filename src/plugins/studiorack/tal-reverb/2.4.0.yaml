@@ -11,10 +11,10 @@ tags:
   - Plate
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-reverb.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-reverb/tal-reverb.flac
     size: 109498
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-reverb.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-reverb/tal-reverb.jpg
     size: 59550
   linux:
     url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-reverb-linux.zip

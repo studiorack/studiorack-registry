@@ -11,10 +11,10 @@ tags:
   - Analog
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-vocoder.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-vocoder/tal-vocoder.flac
     size: 99144
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-vocoder.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-vocoder/tal-vocoder.jpg
     size: 28705
   linux:
     url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-vocoder-linux.zip

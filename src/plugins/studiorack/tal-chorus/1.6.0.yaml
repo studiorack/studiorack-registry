@@ -11,10 +11,10 @@ tags:
   - Juno
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-chorus.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-chorus/tal-chorus.flac
     size: 78645
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-chorus.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-chorus/tal-chorus.jpg
     size: 31671
   linux:
     url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-chorus-linux.zip

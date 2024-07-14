@@ -11,10 +11,10 @@ tags:
   - Analog
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-noisemaker.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-noisemaker/tal-noisemaker.flac
     size: 63114
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-noisemaker.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tal-noisemaker/tal-noisemaker.jpg
     size: 92713
   linux:
     url: https://github.com/studiorack/distrho-ports/releases/download/v1.0.0/tal-noisemaker-linux.zip
