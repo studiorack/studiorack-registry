@@ -17,11 +17,11 @@ files:
     url: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg
     size: 94023
   linux:
-    url: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
+    url: https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip
     size: 269599176
   mac:
-    url: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
+    url: https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip
     size: 269599176
   win:
-    url: https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip
+    url: https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip
     size: 269599176
