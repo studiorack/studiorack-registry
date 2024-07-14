@@ -11,10 +11,10 @@ tags:
   - Frequency
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/diopser.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/diopser/diopser.flac
     size: 77049
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/diopser/diopser.jpg
     size: 43851
   linux:
     url: https://github.com/studiorack/diopser/releases/download/v0.0.1/diopser-linux.zip

@@ -12,10 +12,10 @@ tags:
   - Lead
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/monique.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/monique-monosynth/monique.flac
     size: 386812
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/monique.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/monique-monosynth/monique.jpg
     size: 228421
   linux:
     url: https://github.com/studiorack/monique-monosynth/releases/download/v1.2.0/monique-linux.zip

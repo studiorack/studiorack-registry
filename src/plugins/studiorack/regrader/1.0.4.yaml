@@ -11,10 +11,10 @@ tags:
   - Sync
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/regrader.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/regrader/regrader.flac
     size: 86583
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/regrader.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/regrader/regrader.jpg
     size: 99822
   linux:
     url: https://github.com/studiorack/regrader/releases/download/v1.0.4/regrader-linux.zip

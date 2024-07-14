@@ -11,10 +11,10 @@ tags:
   - OB-X
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/obxd.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/obxd/obxd.flac
     size: 63794
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/obxd.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/obxd/obxd.jpg
     size: 76569
   linux:
     url: https://github.com/studiorack/obxd/releases/download/v2.4.0/obxd-linux.zip

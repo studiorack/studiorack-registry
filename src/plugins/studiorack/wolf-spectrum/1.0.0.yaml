@@ -11,10 +11,10 @@ tags:
   - Frequency
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/wolf-spectrum/wolf-spectrum.flac
     size: 103066
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/wolf-spectrum/wolf-spectrum.jpg
     size: 17057
   linux:
     url: https://github.com/studiorack/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-linux.zip

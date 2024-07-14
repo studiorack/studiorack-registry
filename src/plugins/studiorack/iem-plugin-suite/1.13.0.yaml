@@ -1,7 +1,7 @@
 ---
 name: IEM Plugin Suite
 author: Institute of Electronic Music and Acoustics
-homepage: https://plugins.iem.at
+homepage: https://github.com/studiorack/iem-plugin-suite
 description: Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers
 date: 2021-11-27T08:00:00.000Z
 license: gpl-3.0
@@ -11,10 +11,10 @@ tags:
   - Delay
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/iem-plugin-suite/iem-plugin-suite.flac
     size: 112666
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/iem-plugin-suite/iem-plugin-suite.jpg
     size: 111401
   linux:
     url: https://github.com/studiorack/iem-plugin-suite/releases/download/v1.13.0/iem-plugin-suite-linux.zip

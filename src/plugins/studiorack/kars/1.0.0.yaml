@@ -11,10 +11,10 @@ tags:
   - String
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/kars.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/kars/kars.flac
     size: 52170
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/kars.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/kars/kars.jpg
     size: 16547
   linux:
     url: https://github.com/studiorack/kars/releases/download/v1.0.0/kars-linux.zip

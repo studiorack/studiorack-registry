@@ -11,10 +11,10 @@ tags:
   - Casio
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/digits.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/digits/digits.flac
     size: 56084
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/digits.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/digits/digits.jpg
     size: 55074
   linux:
     url: https://github.com/studiorack/digits/releases/download/v2.1.0/digits-linux.zip

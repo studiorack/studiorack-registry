@@ -11,10 +11,10 @@ tags:
   - Tape
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-tape-model/chow-tape-model.flac
     size: 72368
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-tape-model/chow-tape-model.jpg
     size: 52419
   linux:
     url: https://github.com/studiorack/chow-tape-model/releases/download/v2.8.0/chow-tape-model-linux.zip

@@ -11,10 +11,10 @@ tags:
   - Modulation
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/temper.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/temper/temper.flac
     size: 95804
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/temper.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/temper/temper.jpg
     size: 62400
   linux:
     url: https://github.com/studiorack/temper/releases/download/v1.1.1/temper-linux.zip

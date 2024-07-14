@@ -11,10 +11,10 @@ tags:
   - Tube
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/swankyamp.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/swankyamp/swankyamp.flac
     size: 94744
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/swankyamp.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/swankyamp/swankyamp.jpg
     size: 93556
   linux:
     url: https://github.com/studiorack/swankyamp/releases/download/v1.4.0/swankyamp-linux.zip

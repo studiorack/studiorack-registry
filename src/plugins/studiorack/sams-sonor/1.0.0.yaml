@@ -12,10 +12,10 @@ tags:
   - sfz
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/sams-sonor/sams-sonor.flac
     size: 207120
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/sams-sonor/sams-sonor.jpg
     size: 239836
   linux:
     url: https://github.com/studiorack/sams-sonor/releases/download/v1.0.0/sams-sonor.zip

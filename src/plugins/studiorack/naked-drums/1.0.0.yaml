@@ -11,10 +11,10 @@ tags:
   - sfz
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/naked-drums.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/naked-drums/naked-drums.flac
     size: 553525
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/naked-drums.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/naked-drums/naked-drums.jpg
     size: 24452
   linux:
     url: https://github.com/studiorack/naked-drums/releases/download/v1.0.0/naked-drums.zip
