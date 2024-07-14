@@ -11,10 +11,10 @@ tags:
   - Amp
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/smartguitaramp/smartguitaramp.flac
     size: 67467
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/smartguitaramp/smartguitaramp.jpg
     size: 105632
   linux:
     url: https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-linux.zip

@@ -11,10 +11,10 @@ tags:
   - Feedback
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-matrix/chow-matrix.flac
     size: 71529
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-matrix/chow-matrix.jpg
     size: 74210
   linux:
     url: https://github.com/studiorack/chow-matrix/releases/download/v1.2.0/chow-matrix-linux.zip

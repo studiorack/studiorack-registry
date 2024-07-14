@@ -12,10 +12,10 @@ tags:
   - sfz
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/jsteeldrum/jsteel-drum.flac
     size: 83358
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/jsteeldrum/jsteel-drum.jpg
     size: 222224
   linux:
     url: https://github.com/studiorack/jsteeldrum/releases/download/v2.0.0/jsteel-drum.zip

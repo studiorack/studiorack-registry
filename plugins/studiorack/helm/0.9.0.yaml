@@ -11,10 +11,10 @@ tags:
   - Modulation
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/helm.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/helm/helm.flac
     size: 75330
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/helm.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/helm/helm.jpg
     size: 118535
   linux:
     url: https://github.com/studiorack/helm/releases/download/v0.9.0/helm-linux.zip

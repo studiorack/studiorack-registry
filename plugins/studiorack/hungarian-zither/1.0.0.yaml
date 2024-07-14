@@ -12,10 +12,10 @@ tags:
   - sfz
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/hungarian-zither/hungarian-zither.flac
     size: 172274
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/hungarian-zither/hungarian-zither.jpg
     size: 88693
   linux:
     url: https://github.com/studiorack/hungarian-zither/releases/download/v1.0.0/hungarian-zither.zip

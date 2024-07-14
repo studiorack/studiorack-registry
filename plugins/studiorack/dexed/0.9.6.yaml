@@ -1,7 +1,7 @@
 ---
 name: Dexed
 author: Pascal Gauthier
-homepage: https://asb2m10.github.io/dexed/
+homepage: https://github.com/asb2m10/dexed
 description: Synthesizer closely modeled on the Yamaha DX7
 date: 2021-03-04T08:00:00.000Z
 license: gpl-3.0
@@ -11,10 +11,10 @@ tags:
   - FM
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/dexed.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/dexed/dexed.flac
     size: 51235
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/dexed.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/dexed/dexed.jpg
     size: 282883
   linux:
     url: https://github.com/studiorack/dexed/releases/download/v0.9.6/dexed-linux.zip

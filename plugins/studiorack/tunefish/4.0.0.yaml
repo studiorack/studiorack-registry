@@ -11,10 +11,10 @@ tags:
   - Analog
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/tunefish.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tunefish/tunefish.flac
     size: 239665
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/tunefish.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/tunefish/tunefish.jpg
     size: 107198
   linux:
     url: https://github.com/studiorack/tunefish/releases/download/v4.2.0/tunefish-linux.zip

@@ -11,10 +11,10 @@ tags:
   - FM
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/oxe.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/oxe/oxe.flac
     size: 66799
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/oxe.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/oxe/oxe.jpg
     size: 91580
   linux:
     url: https://github.com/studiorack/oxe/releases/download/v1.3.5/oxe-linux.zip

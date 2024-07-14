@@ -1716,7 +1716,7 @@
         "1.0.0": {
           "name": "Upright Piano KW",
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/upright-piano-kw",
           "description": "Kawai upright piano, recorded in a living room using a Zoom H1 portable recorder mounted on a tripod in front of the piano.",
           "date": "2022-02-21T07:00:00.000Z",
           "license": "cc0-1.0",
@@ -1728,11 +1728,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/UprightPianoKW-20220221.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/upright-piano-kw/UprightPianoKW-20220221.flac",
               "size": 64803
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/UprightPianoKW-20220221.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/upright-piano-kw/UprightPianoKW-20220221.jpg",
               "size": 87924
             },
             "linux": {
@@ -1757,7 +1757,7 @@
         "1.0.0": {
           "name": "Spanish Classical Guitar",
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/spanish-classical-guitar",
           "description": "Spanish classical guitar with nylon strings, recorded with an AKG Perception 120 microphone.",
           "date": "2019-06-18T07:00:00.000Z",
           "license": "cc0-1.0",
@@ -1769,11 +1769,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/SpanishClassicalGuitar-20190618.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/spanish-classical-guitar/SpanishClassicalGuitar-20190618.flac",
               "size": 75338
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/SpanishClassicalGuitar-20190618.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/spanish-classical-guitar/SpanishClassicalGuitar-20190618.jpg",
               "size": 147385
             },
             "linux": {
@@ -1798,7 +1798,7 @@
         "1.0.0": {
           "name": "Hang D Minor",
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/hang-d-minor",
           "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
           "date": "2022-03-30T07:00:00.000Z",
           "license": "cc0-1.0",
@@ -1810,11 +1810,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/hang-d-minor/Hang-D-minor-20220330.flac",
               "size": 78343
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/Hang-D-minor-20220330.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/hang-d-minor/Hang-D-minor-20220330.jpg",
               "size": 43408
             },
             "linux": {
@@ -1839,7 +1839,7 @@
         "1.0.0": {
           "name": "Synthesizer Percussion",
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/synthesizer-percussion",
           "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
           "date": "2022-07-18T07:00:00.000Z",
           "license": "cc0-1.0",
@@ -1851,11 +1851,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/synthesizer-percussion/SynthesizerPercussion-20220718.flac",
               "size": 135815
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/SynthesizerPercussion-20220718.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/synthesizer-percussion/SynthesizerPercussion-20220718.jpg",
               "size": 154466
             },
             "linux": {
@@ -1966,11 +1966,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/wolf-spectrum/wolf-spectrum.flac",
               "size": 103066
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/wolf-spectrum/wolf-spectrum.jpg",
               "size": 17057
             },
             "linux": {
@@ -2006,11 +2006,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack//wolf-shaper/wolf-shaper.flac",
               "size": 103066
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack//wolf-shaper/wolf-shaper.jpg",
               "size": 39286
             },
             "linux": {
@@ -2047,11 +2047,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/war-tuba.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/war-tuba/war-tuba.flac",
               "size": 88482
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/war-tuba.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/war-tuba/war-tuba.jpg",
               "size": 69063
             },
             "linux": {
@@ -2076,7 +2076,7 @@
         "1.0.0": {
           "name": "VST2413",
           "author": "Keijiro Takahashi",
-          "homepage": "https://www.keijiro.tokyo/vst2413/",
+          "homepage": "https://github.com/keijiro/vst2413",
           "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
           "date": "2013-04-21T08:00:00.000Z",
           "license": "other",
@@ -2087,11 +2087,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/vst2413.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/vst2413/vst2413.flac",
               "size": 347527
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/vst2413.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/vst2413/vst2413.jpg",
               "size": 22493
             },
             "linux": {
@@ -2116,7 +2116,7 @@
         "0.9.23": {
           "name": "Virtuosity Drums",
           "author": "Versilian Studios",
-          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
+          "homepage": "https://github.com/sfzinstruments/virtuosity_drums",
           "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
           "date": "2021-11-08T07:00:00.000Z",
           "license": "cc0-1.0",
@@ -2128,11 +2128,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/virtuosity-drums/virtuosity-drums.flac",
               "size": 821118
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/virtuosity-drums/virtuosity-drums.jpg",
               "size": 73357
             },
             "linux": {
@@ -2152,7 +2152,7 @@
         "0.9.22": {
           "name": "Virtuosity Drums",
           "author": "Versilian Studios",
-          "homepage": "https://vis.versilstudios.com/virtuosity-drums.html",
+          "homepage": "https://github.com/sfzinstruments/virtuosity_drums",
           "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
           "date": "2021-11-08T07:00:00.000Z",
           "license": "cc0-1.0",
@@ -2164,11 +2164,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/virtuosity-drums/virtuosity-drums.flac",
               "size": 821118
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/virtuosity-drums.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/virtuosity-drums/virtuosity-drums.jpg",
               "size": 73357
             },
             "linux": {
@@ -2204,11 +2204,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tunefish.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tunefish/tunefish.flac",
               "size": 239665
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tunefish.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/tunefish/tunefish.jpg",
               "size": 107198
             },
             "linux": {
@@ -2244,11 +2244,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/temper.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/temper/temper.flac",
               "size": 95804
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/temper.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/temper/temper.jpg",
               "size": 62400
             },
             "linux": {
@@ -2284,11 +2284,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/swankyamp/swankyamp.flac",
               "size": 94744
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/swankyamp/swankyamp.jpg",
               "size": 93556
             },
             "linux": {
@@ -2324,11 +2324,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/smartguitaramp/smartguitaramp.flac",
               "size": 67467
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/smartguitaramp/smartguitaramp.jpg",
               "size": 105632
             },
             "linux": {
@@ -2342,46 +2342,6 @@
             "win": {
               "url": "https://github.com/studiorack/smartguitaramp/releases/download/v1.2.0/smartguitaramp-win.zip",
               "size": 3652195
-            }
-          }
-        }
-      }
-    },
-    "studiorack/sfizz": {
-      "version": "1.1.1",
-      "versions": {
-        "1.1.1": {
-          "name": "Sfizz",
-          "author": "SFZTools",
-          "homepage": "https://github.com/sfztools/sfizz",
-          "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
-          "date": "2020-11-08T08:00:00.000Z",
-          "license": "bsd-2-clause",
-          "tags": [
-            "Instrument",
-            "Sampler",
-            "Synth"
-          ],
-          "files": {
-            "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfizz.flac",
-              "size": 47910
-            },
-            "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/sfizz.jpg",
-              "size": 33976
-            },
-            "linux": {
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-linux.zip",
-              "size": 5504066
-            },
-            "mac": {
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-mac.zip",
-              "size": 7498595
-            },
-            "win": {
-              "url": "https://github.com/studiorack/sfizz/releases/download/v1.1.1/sfizz-win.zip",
-              "size": 4084698
             }
           }
         }
@@ -2405,11 +2365,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/sams-sonor/sams-sonor.flac",
               "size": 207120
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/sams-sonor.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/sams-sonor/sams-sonor.jpg",
               "size": 239836
             },
             "linux": {
@@ -2434,10 +2394,10 @@
         "3.0.0": {
           "name": "Salamander Grand Piano",
           "author": "Alexander Holm",
-          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano/",
+          "homepage": "https://github.com/sfzinstruments/SalamanderGrandPiano",
           "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
           "date": "2021-09-20T07:00:00.000Z",
-          "license": "other",
+          "license": "cc-by-4.0",
           "tags": [
             "Instrument",
             "Piano",
@@ -2446,11 +2406,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/salamander-grand-piano.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/salamander-grand-piano/salamander-grand-piano.flac",
               "size": 365662
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/salamander-grand-piano.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/salamander-grand-piano/salamander-grand-piano.jpg",
               "size": 88748
             },
             "linux": {
@@ -2486,11 +2446,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/regrader.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/regrader/regrader.flac",
               "size": 86583
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/regrader.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/regrader/regrader.jpg",
               "size": 99822
             },
             "linux": {
@@ -2526,11 +2486,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/oxe.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/oxe/oxe.flac",
               "size": 66799
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/oxe.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/oxe/oxe.jpg",
               "size": 91580
             },
             "linux": {
@@ -2566,11 +2526,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/opl.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/opl/opl.flac",
               "size": 65277
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/opl.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/opl/opl.jpg",
               "size": 50828
             },
             "linux": {
@@ -2606,11 +2566,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/odin.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/odin/odin.flac",
               "size": 51889
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/odin.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/odin/odin.jpg",
               "size": 123090
             },
             "linux": {
@@ -2635,7 +2595,7 @@
         "0.5.3": {
           "name": "OctaSine",
           "author": "Joakim Frostegård",
-          "homepage": "https://www.octasine.com",
+          "homepage": "https://github.com/studiorack/octasine",
           "description": "Frequency modulation-based synthesizer plugin.",
           "date": "2021-07-18T08:00:00.000Z",
           "license": "agpl-3.0",
@@ -2646,11 +2606,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/octasine.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/octasine/octasine.flac",
               "size": 84574
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/octasine.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/octasine/octasine.jpg",
               "size": 90200
             },
             "linux": {
@@ -2686,11 +2646,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/obxd.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/obxd/obxd.flac",
               "size": 63794
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/obxd.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/obxd/obxd.jpg",
               "size": 76569
             },
             "linux": {
@@ -2726,11 +2686,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ninjas2.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ninjas2/ninjas2.flac",
               "size": 63564
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ninjas2.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ninjas2/ninjas2.jpg",
               "size": 88079
             },
             "linux": {
@@ -2766,11 +2726,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/nekobi.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/nekobi/nekobi.flac",
               "size": 54778
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/nekobi.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/nekobi/nekobi.jpg",
               "size": 14389
             },
             "linux": {
@@ -2806,11 +2766,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/naked-drums.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/naked-drums/naked-drums.flac",
               "size": 553525
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/naked-drums.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/naked-drums/naked-drums.jpg",
               "size": 24452
             },
             "linux": {
@@ -2845,11 +2805,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mverb/mverb.flac",
               "size": 41738
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mverb/mverb.jpg",
               "size": 48422
             },
             "linux": {
@@ -2886,11 +2846,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/monique.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/monique-monosynth/monique.flac",
               "size": 386812
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/monique.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/monique-monosynth/monique.jpg",
               "size": 228421
             },
             "linux": {
@@ -2926,11 +2886,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/modeq.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/modeq/modeq.flac",
               "size": 66240
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/modeq.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/modeq/modeq.jpg",
               "size": 75899
             },
             "linux": {
@@ -2965,11 +2925,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mini-series/mini-series-eq.flac",
               "size": 79282
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mini-series/mini-series-eq.jpg",
               "size": 18650
             },
             "linux": {
@@ -2994,7 +2954,7 @@
         "1.0.4": {
           "name": "MDA",
           "author": "Paul Kellett",
-          "homepage": "https://mda.smartelectronix.com",
+          "homepage": "https://github.com/studiorack/mda",
           "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
           "date": "2020-12-20T08:00:00.000Z",
           "license": "gpl-3.0",
@@ -3005,11 +2965,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mda.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mda/mda.flac",
               "size": 127392
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mda.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mda/mda.jpg",
               "size": 104156
             },
             "linux": {
@@ -3045,11 +3005,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/kars.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/kars/kars.flac",
               "size": 52170
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/kars.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/kars/kars.jpg",
               "size": 16547
             },
             "linux": {
@@ -3085,11 +3045,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/juicysf.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/juicysf/juicysf.flac",
               "size": 83683
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/juicysf.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/juicysf/juicysf.jpg",
               "size": 38148
             },
             "linux": {
@@ -3126,11 +3086,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/jsteeldrum/jsteel-drum.flac",
               "size": 83358
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/jsteel-drum.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/jsteeldrum/jsteel-drum.jpg",
               "size": 222224
             },
             "linux": {
@@ -3155,7 +3115,7 @@
         "1.0.0": {
           "name": "jRhodes3c",
           "author": "Jeff Learman",
-          "homepage": "https://sfzinstruments.github.io/pianos/jrhodes3c",
+          "homepage": "https://github.com/sfzinstruments/jlearman.jRhodes3c",
           "description": "1977 Rhodes Mark I Stage 73 piano",
           "date": "2022-01-02T07:00:00.000Z",
           "license": "other",
@@ -3167,11 +3127,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/jrhodes-3c.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/jrhodes-3c/jrhodes-3c.flac",
               "size": 64422
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/jrhodes-3c.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/jrhodes-3c/jrhodes-3c.jpg",
               "size": 283376
             },
             "linux": {
@@ -3196,7 +3156,7 @@
         "1.13.0": {
           "name": "IEM Plugin Suite",
           "author": "Institute of Electronic Music and Acoustics",
-          "homepage": "https://plugins.iem.at",
+          "homepage": "https://github.com/studiorack/iem-plugin-suite",
           "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
           "date": "2021-11-27T08:00:00.000Z",
           "license": "gpl-3.0",
@@ -3207,11 +3167,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/iem-plugin-suite/iem-plugin-suite.flac",
               "size": 112666
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
               "size": 111401
             },
             "linux": {
@@ -3248,11 +3208,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/hungarian-zither/hungarian-zither.flac",
               "size": 172274
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/hungarian-zither.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/hungarian-zither/hungarian-zither.jpg",
               "size": 88693
             },
             "linux": {
@@ -3289,11 +3249,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/horse-pulse.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/horse-pulse/horse-pulse.flac",
               "size": 58263
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/horse-pulse.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/horse-pulse/horse-pulse.jpg",
               "size": 92078
             },
             "linux": {
@@ -3329,11 +3289,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/helm.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/helm/helm.flac",
               "size": 75330
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/helm.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/helm/helm.jpg",
               "size": 118535
             },
             "linux": {
@@ -3370,11 +3330,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ep-mk1/ep-mk1.flac",
               "size": 50454
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ep-mk1/ep-mk1.jpg",
               "size": 97173
             },
             "linux": {
@@ -3399,7 +3359,7 @@
         "3.2.5": {
           "name": "Dragonfly Reverb",
           "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
           "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "date": "2021-03-04T08:00:00.000Z",
           "license": "gpl-3.0",
@@ -3410,11 +3370,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/dragonfly-reverb/dragonfly-reverb.flac",
               "size": 82471
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/dragonfly-reverb/dragonfly-reverb.jpg",
               "size": 119902
             },
             "linux": {
@@ -3451,11 +3411,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/double-bass.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/double-bass/double-bass.flac",
               "size": 77117
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/double-bass.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/double-bass/double-bass.jpg",
               "size": 45157
             },
             "linux": {
@@ -3480,7 +3440,7 @@
         "5.0.4": {
           "name": "TAL-Noisemaker",
           "author": "TAL Software",
-          "homepage": "https://tal-software.com",
+          "homepage": "https://github.com/studiorack/distrho-ports",
           "description": "Virtual analog synthesizer with a great sound and low CPU usage.",
           "date": "2021-02-14T07:00:00.000Z",
           "license": "other",
@@ -3491,11 +3451,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-noisemaker.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-noisemaker.flac",
               "size": 63114
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-noisemaker.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-noisemaker.jpg",
               "size": 92713
             },
             "linux": {
@@ -3515,7 +3475,7 @@
         "3.0.1": {
           "name": "TAL-Filter",
           "author": "TAL Software",
-          "homepage": "https://tal-software.com",
+          "homepage": "https://github.com/studiorack/distrho-ports",
           "description": "Host synced filter module with different filter types, panorama and volume modulation possibilities",
           "date": "2021-03-07T07:00:00.000Z",
           "license": "other",
@@ -3526,11 +3486,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-filter.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-filter.flac",
               "size": 70390
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-filter.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-filter.jpg",
               "size": 74456
             },
             "linux": {
@@ -3550,7 +3510,7 @@
         "2.4.0": {
           "name": "TAL-Reverb",
           "author": "TAL Software",
-          "homepage": "https://tal-software.com",
+          "homepage": "https://github.com/studiorack/distrho-ports",
           "description": "High quality plate reverb with a vintage 80's character",
           "date": "2021-02-11T07:00:00.000Z",
           "license": "other",
@@ -3561,11 +3521,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-reverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-reverb.flac",
               "size": 109498
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-reverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-reverb.jpg",
               "size": 59550
             },
             "linux": {
@@ -3585,7 +3545,7 @@
         "2.2.0": {
           "name": "TAL-Vocoder",
           "author": "TAL Software",
-          "homepage": "https://tal-software.com",
+          "homepage": "https://github.com/studiorack/distrho-ports",
           "description": "Vintage vocoder emulation with 11 bands that emulates the sound of vocoders from the early 80s",
           "date": "2021-01-28T07:00:00.000Z",
           "license": "other",
@@ -3596,11 +3556,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-vocoder.flac",
               "size": 99144
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-vocoder.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-vocoder.jpg",
               "size": 28705
             },
             "linux": {
@@ -3620,7 +3580,7 @@
         "1.6.0": {
           "name": "TAL-Chorus",
           "author": "TAL Software",
-          "homepage": "https://tal-software.com",
+          "homepage": "https://github.com/studiorack/distrho-ports",
           "description": "Characteristics of the Juno-60 chorus.",
           "date": "2021-05-02T07:00:00.000Z",
           "license": "other",
@@ -3631,11 +3591,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-chorus.flac",
               "size": 78645
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/tal-chorus.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/distrho-ports/tal-chorus.jpg",
               "size": 31671
             },
             "linux": {
@@ -3671,11 +3631,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/diopser.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/diopser/diopser.flac",
               "size": 77049
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/diopser/diopser.jpg",
               "size": 43851
             },
             "linux": {
@@ -3711,11 +3671,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/digits.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/digits/digits.flac",
               "size": 56084
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/digits.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/digits/digits.jpg",
               "size": 55074
             },
             "linux": {
@@ -3740,7 +3700,7 @@
         "0.9.6": {
           "name": "Dexed",
           "author": "Pascal Gauthier",
-          "homepage": "https://asb2m10.github.io/dexed/",
+          "homepage": "https://github.com/asb2m10/dexed",
           "description": "Synthesizer closely modeled on the Yamaha DX7",
           "date": "2021-03-04T08:00:00.000Z",
           "license": "gpl-3.0",
@@ -3751,11 +3711,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/dexed.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/dexed/dexed.flac",
               "size": 51235
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/dexed.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/dexed/dexed.jpg",
               "size": 282883
             },
             "linux": {
@@ -3791,11 +3751,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-tape-model/chow-tape-model.flac",
               "size": 72368
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-tape-model/chow-tape-model.jpg",
               "size": 52419
             },
             "linux": {
@@ -3831,11 +3791,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-matrix/chow-matrix.flac",
               "size": 71529
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-matrix/chow-matrix.jpg",
               "size": 74210
             },
             "linux": {
@@ -3863,7 +3823,7 @@
           "homepage": "https://github.com/falkTX/Carla",
           "description": "Audio plugin host, with support for many audio drivers and plugin formats",
           "date": "2022-02-19T07:00:00.000Z",
-          "license": "other",
+          "license": "gpl-3.0",
           "tags": [
             "Instrument",
             "Host",
@@ -3871,11 +3831,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/carla.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/carla/carla.flac",
               "size": 330759
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/carla.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/carla/carla.jpg",
               "size": 252192
             },
             "linux": {
@@ -3912,11 +3872,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/black-and-green-guitars.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/black-and-green-guitars/black-and-green-guitars.flac",
               "size": 64823
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/black-and-green-guitars.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/black-and-green-guitars/black-and-green-guitars.jpg",
               "size": 100550
             },
             "linux": {
@@ -3953,11 +3913,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/bear-sax.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/bear-sax/bear-sax.flac",
               "size": 86918
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/bear-sax.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/bear-sax/bear-sax.jpg",
               "size": 85425
             },
             "linux": {
@@ -3994,11 +3954,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/basic-harmonica/basic-harmonica.flac",
               "size": 100197
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/basic-harmonica/basic-harmonica.jpg",
               "size": 65716
             },
             "linux": {
@@ -4023,10 +3983,10 @@
         "1.1.0": {
           "name": "AVL Percussions",
           "author": "Glen MacArthur",
-          "homepage": "https://www.bandshed.net/avldrumkits",
+          "homepage": "https://github.com/studiorack/avl-percussions",
           "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
           "date": "2022-02-21T07:00:00.000Z",
-          "license": "other",
+          "license": "cc-by-sa-4.0",
           "tags": [
             "Instrument",
             "Drums",
@@ -4035,11 +3995,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/avl-percussions/avl-percussions.flac",
               "size": 193990
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-percussions.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/avl-percussions/avl-percussions.jpg",
               "size": 159466
             },
             "linux": {
@@ -4064,10 +4024,10 @@
         "1.1.0": {
           "name": "AVL Drumkits",
           "author": "Glen MacArthur",
-          "homepage": "https://www.bandshed.net/avldrumkits",
+          "homepage": "https://github.com/studiorack/avl-drumkits",
           "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
           "date": "2022-02-20T07:00:00.000Z",
-          "license": "other",
+          "license": "cc-by-sa-4.0",
           "tags": [
             "Instrument",
             "Drums",
@@ -4075,11 +4035,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.flac",
               "size": 696023
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/avl-drumkits.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.jpg",
               "size": 326339
             },
             "linux": {
@@ -4104,7 +4064,7 @@
         "2.0.6": {
           "name": "Argotlunar",
           "author": "Michael Ourednik",
-          "homepage": "https://mourednik.github.io/argotlunar/",
+          "homepage": "https://github.com/mourednik/argotlunar",
           "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
           "date": "2013-02-17T08:00:00.000Z",
           "license": "gpl-2.0",
@@ -4115,11 +4075,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.flac",
               "size": 76050
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.jpg",
               "size": 36536
             },
             "linux": {
@@ -4144,7 +4104,7 @@
         "0.2.0": {
           "name": "Andes",
           "author": "Artem Popov",
-          "homepage": "https://artfwo.github.io/andes/",
+          "homepage": "https://github.com/artfwo/andes",
           "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
           "date": "2018-06-01T07:00:00.000Z",
           "license": "gpl-3.0",
@@ -4155,11 +4115,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/andes.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/andes/andes.flac",
               "size": 12493
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/andes.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/andes/andes.jpg",
               "size": 27379
             },
             "linux": {
@@ -4184,7 +4144,7 @@
         "0.1.0": {
           "name": "ampli-Fe",
           "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe",
           "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
           "date": "2021-11-02T08:00:00.000Z",
           "license": "mit",
@@ -4195,11 +4155,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ampli-fe/ampli-fe.flac",
               "size": 81405
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ampli-fe/ampli-fe.jpg",
               "size": 27141
             },
             "linux": {
@@ -4213,46 +4173,6 @@
             "win": {
               "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip",
               "size": 3355298
-            }
-          }
-        }
-      }
-    },
-    "studiorack/adlplug": {
-      "version": "1.0.2",
-      "versions": {
-        "1.0.2": {
-          "name": "OPNplug",
-          "author": "Jean Pierre Cimalando",
-          "homepage": "https://github.com/jpcima/ADLplug",
-          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
-          "date": "2020-08-05T08:00:00.000Z",
-          "license": "bsl-1.0",
-          "tags": [
-            "Instrument",
-            "Synth",
-            "FM"
-          ],
-          "files": {
-            "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/opnplug.flac",
-              "size": 58202
-            },
-            "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/opnplug.jpg",
-              "size": 145332
-            },
-            "linux": {
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-linux.zip",
-              "size": 11236640
-            },
-            "mac": {
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-mac.zip",
-              "size": 27264168
-            },
-            "win": {
-              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-win.zip",
-              "size": 25020750
             }
           }
         }
@@ -4380,13 +4300,93 @@
         }
       }
     },
+    "jpcima/opnplug": {
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "name": "OPNplug",
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "date": "2020-08-05T08:00:00.000Z",
+          "license": "bsl-1.0",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jpcima/opnplug/opnplug.flac",
+              "size": 58202
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jpcima/opnplug/opnplug.jpg",
+              "size": 145332
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-linux.zip",
+              "size": 11236640
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-mac.zip",
+              "size": 27264168
+            },
+            "win": {
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/opnplug-win.zip",
+              "size": 25020750
+            }
+          }
+        }
+      }
+    },
+    "jpcima/adlplug": {
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "name": "ADLplug",
+          "author": "Jean Pierre Cimalando",
+          "homepage": "https://github.com/jpcima/ADLplug",
+          "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+          "date": "2020-08-05T08:00:00.000Z",
+          "license": "bsl-1.0",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jpcima/adlplug/adlplug.flac",
+              "size": 60649
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/jpcima/adlplug/adlplug.jpg",
+              "size": 140267
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-linux.zip",
+              "size": 11068718
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-mac.zip",
+              "size": 33551714
+            },
+            "win": {
+              "url": "https://github.com/studiorack/adlplug/releases/download/v1.0.2/adlplug-win.zip",
+              "size": 24833093
+            }
+          }
+        }
+      }
+    },
     "freepats/glass": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
           "name": "Glasses Of Water",
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/glass",
           "description": "Musical instrument made with glasses of water, recorded with an AKG Perception 120 microphone.",
           "date": "2019-12-27T07:00:00.000Z",
           "license": "cc0-1.0",
@@ -4398,11 +4398,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/Glass-20191227.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/glass/Glass-20191227.flac",
               "size": 67037
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/Glass-20191227.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/glass/Glass-20191227.jpg",
               "size": 125355
             },
             "linux": {
@@ -4410,7 +4410,7 @@
               "size": 10610381
             },
             "mac": {
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/glasses-of-water.zip",
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
               "size": 10610381
             },
             "win": {
@@ -4446,15 +4446,15 @@
               "size": 94023
             },
             "linux": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip",
               "size": 269599176
             },
             "mac": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip",
               "size": 269599176
             },
             "win": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.zip",
+              "url": "https://github.com/studiorack/salamander-drumkit/releases/download/v1.0.0/salamander-drumkit.zip",
               "size": 269599176
             }
           }
@@ -4496,6 +4496,49 @@
             "win": {
               "url": "https://github.com/ardura/Actuate/releases/download/v1.3.1/actuate_v131_windows.zip",
               "size": 6439034
+            }
+          }
+        }
+      }
+    },
+    "airwindows/airwindows": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Airwindows",
+          "author": "Chris Johnson",
+          "homepage": "https://github.com/airwindows/airwindows",
+          "description": "Huge collection of effects using simple UI controls.",
+          "date": "2020-02-20T07:00:00.000Z",
+          "license": "bsl-1.0",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/airwindows/airwindows/airwindows.flac",
+              "size": 111355
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/airwindows/airwindows/airwindows.jpg",
+              "size": 71522
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-linux.zip",
+              "size": 8241206
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-mac.zip",
+              "size": 14246351
+            },
+            "win": {
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-win.zip",
+              "size": 22181434
             }
           }
         }

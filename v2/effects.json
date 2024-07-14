@@ -460,11 +460,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/wolf-spectrum/wolf-spectrum.flac",
               "size": 103066
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-spectrum.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/wolf-spectrum/wolf-spectrum.jpg",
               "size": 17057
             },
             "linux": {
@@ -500,11 +500,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack//wolf-shaper/wolf-shaper.flac",
               "size": 103066
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack//wolf-shaper/wolf-shaper.jpg",
               "size": 39286
             },
             "linux": {
@@ -540,11 +540,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/temper.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/temper/temper.flac",
               "size": 95804
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/temper.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/temper/temper.jpg",
               "size": 62400
             },
             "linux": {
@@ -580,11 +580,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/swankyamp/swankyamp.flac",
               "size": 94744
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/swankyamp.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/swankyamp/swankyamp.jpg",
               "size": 93556
             },
             "linux": {
@@ -620,11 +620,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/smartguitaramp/smartguitaramp.flac",
               "size": 67467
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/smartguitaramp.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/smartguitaramp/smartguitaramp.jpg",
               "size": 105632
             },
             "linux": {
@@ -660,11 +660,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/regrader.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/regrader/regrader.flac",
               "size": 86583
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/regrader.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/regrader/regrader.jpg",
               "size": 99822
             },
             "linux": {
@@ -699,11 +699,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mverb/mverb.flac",
               "size": 41738
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mverb/mverb.jpg",
               "size": 48422
             },
             "linux": {
@@ -739,11 +739,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/modeq.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/modeq/modeq.flac",
               "size": 66240
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/modeq.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/modeq/modeq.jpg",
               "size": 75899
             },
             "linux": {
@@ -778,11 +778,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mini-series/mini-series-eq.flac",
               "size": 79282
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mini-series-eq.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mini-series/mini-series-eq.jpg",
               "size": 18650
             },
             "linux": {
@@ -807,7 +807,7 @@
         "1.0.4": {
           "name": "MDA",
           "author": "Paul Kellett",
-          "homepage": "https://mda.smartelectronix.com",
+          "homepage": "https://github.com/studiorack/mda",
           "description": "Collection of effect plug-ins, from delay to an overdrive and a vocoder.",
           "date": "2020-12-20T08:00:00.000Z",
           "license": "gpl-3.0",
@@ -818,11 +818,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mda.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mda/mda.flac",
               "size": 127392
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/mda.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/mda/mda.jpg",
               "size": 104156
             },
             "linux": {
@@ -847,7 +847,7 @@
         "1.13.0": {
           "name": "IEM Plugin Suite",
           "author": "Institute of Electronic Music and Acoustics",
-          "homepage": "https://plugins.iem.at",
+          "homepage": "https://github.com/studiorack/iem-plugin-suite",
           "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers",
           "date": "2021-11-27T08:00:00.000Z",
           "license": "gpl-3.0",
@@ -858,11 +858,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/iem-plugin-suite/iem-plugin-suite.flac",
               "size": 112666
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/iem-plugin-suite.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/iem-plugin-suite/iem-plugin-suite.jpg",
               "size": 111401
             },
             "linux": {
@@ -887,7 +887,7 @@
         "3.2.5": {
           "name": "Dragonfly Reverb",
           "author": "Michael Willis",
-          "homepage": "https://michaelwillis.github.io/dragonfly-reverb/",
+          "homepage": "https://github.com/michaelwillis/dragonfly-reverb",
           "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
           "date": "2021-03-04T08:00:00.000Z",
           "license": "gpl-3.0",
@@ -898,11 +898,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/dragonfly-reverb/dragonfly-reverb.flac",
               "size": 82471
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/dragonfly-reverb.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/dragonfly-reverb/dragonfly-reverb.jpg",
               "size": 119902
             },
             "linux": {
@@ -938,11 +938,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/diopser.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/diopser/diopser.flac",
               "size": 77049
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/diopser.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/diopser/diopser.jpg",
               "size": 43851
             },
             "linux": {
@@ -978,11 +978,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-tape-model/chow-tape-model.flac",
               "size": 72368
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-tape-model.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-tape-model/chow-tape-model.jpg",
               "size": 52419
             },
             "linux": {
@@ -1018,11 +1018,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-matrix/chow-matrix.flac",
               "size": 71529
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/chow-matrix.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/chow-matrix/chow-matrix.jpg",
               "size": 74210
             },
             "linux": {
@@ -1047,7 +1047,7 @@
         "2.0.6": {
           "name": "Argotlunar",
           "author": "Michael Ourednik",
-          "homepage": "https://mourednik.github.io/argotlunar/",
+          "homepage": "https://github.com/mourednik/argotlunar",
           "description": "Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.",
           "date": "2013-02-17T08:00:00.000Z",
           "license": "gpl-2.0",
@@ -1058,11 +1058,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.flac",
               "size": 76050
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/argotlunar.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.jpg",
               "size": 36536
             },
             "linux": {
@@ -1087,7 +1087,7 @@
         "0.1.0": {
           "name": "ampli-Fe",
           "author": "Anton Lazarev",
-          "homepage": "https://github.com/antonok-edm/ampli-Fe/",
+          "homepage": "https://github.com/antonok-edm/ampli-Fe",
           "description": "Amplifier effect which allows the volume to be changed from 0% to 200%",
           "date": "2021-11-02T08:00:00.000Z",
           "license": "mit",
@@ -1098,11 +1098,11 @@
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.flac",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ampli-fe/ampli-fe.flac",
               "size": 81405
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/ampli-fe.jpg",
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/studiorack/ampli-fe/ampli-fe.jpg",
               "size": 27141
             },
             "linux": {
@@ -1116,6 +1116,49 @@
             "win": {
               "url": "https://github.com/studiorack/ampli-fe/releases/download/v0.1.0/ampli-fe-win.zip",
               "size": 3355298
+            }
+          }
+        }
+      }
+    },
+    "airwindows/airwindows": {
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Airwindows",
+          "author": "Chris Johnson",
+          "homepage": "https://github.com/airwindows/airwindows",
+          "description": "Huge collection of effects using simple UI controls.",
+          "date": "2020-02-20T07:00:00.000Z",
+          "license": "bsl-1.0",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "files": {
+            "audio": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/airwindows/airwindows/airwindows.flac",
+              "size": 111355
+            },
+            "image": {
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/airwindows/airwindows/airwindows.jpg",
+              "size": 71522
+            },
+            "linux": {
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-linux.zip",
+              "size": 8241206
+            },
+            "mac": {
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-mac.zip",
+              "size": 14246351
+            },
+            "win": {
+              "url": "https://github.com/studiorack/airwindows/releases/download/v1.0.0/airwindows-win.zip",
+              "size": 22181434
             }
           }
         }

@@ -12,10 +12,10 @@ tags:
   - Piano
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/ep-mk1/ep-mk1.flac
     size: 50454
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/ep-mk1.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/ep-mk1/ep-mk1.jpg
     size: 97173
   linux:
     url: https://github.com/studiorack/ep-mk1/releases/download/v2.4.0/ep-mk1-linux.zip

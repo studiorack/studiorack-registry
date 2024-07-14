@@ -1,7 +1,7 @@
 ---
 name: MDA
 author: Paul Kellett
-homepage: https://mda.smartelectronix.com
+homepage: https://github.com/studiorack/mda
 description: Collection of effect plug-ins, from delay to an overdrive and a vocoder.
 date: 2020-12-20T08:00:00.000Z
 license: gpl-3.0
@@ -11,10 +11,10 @@ tags:
   - Vocoder
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/mda.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/mda/mda.flac
     size: 127392
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/mda.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/mda/mda.jpg
     size: 104156
   linux:
     url: https://github.com/studiorack/mda/releases/download/v1.0.4/mda-linux.zip

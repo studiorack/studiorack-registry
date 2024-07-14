@@ -1,7 +1,7 @@
 ---
 name: Argotlunar
 author: Michael Ourednik
-homepage: https://mourednik.github.io/argotlunar/
+homepage: https://github.com/mourednik/argotlunar
 description: Real-time delay-line granulator. It disintegrates an audio stream into short samples (grains). Each grain can have random settings of amplitude, panning, duration, delay, pitch, glissando, filter and envelope. The output of all grains is mixed together into a stream which can be fed back into the main input.
 date: 2013-02-17T08:00:00.000Z
 license: gpl-2.0
@@ -11,10 +11,10 @@ tags:
   - Envelope
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/argotlunar.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.flac
     size: 76050
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/argotlunar.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.jpg
     size: 36536
   linux:
     url: https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-linux.zip

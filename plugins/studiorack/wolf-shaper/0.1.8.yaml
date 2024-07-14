@@ -11,10 +11,10 @@ tags:
   - Editor
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack//wolf-shaper/wolf-shaper.flac
     size: 103066
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/wolf-shaper.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack//wolf-shaper/wolf-shaper.jpg
     size: 39286
   linux:
     url: https://github.com/studiorack/wolf-shaper/releases/download/v0.1.8/wolf-shaper-linux.zip

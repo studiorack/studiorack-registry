@@ -11,10 +11,10 @@ tags:
   - Modulation
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/modeq.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/modeq/modeq.flac
     size: 66240
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/modeq.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/modeq/modeq.jpg
     size: 75899
   linux:
     url: https://github.com/studiorack/modeq/releases/download/v0.4.0/modeq-linux.zip

@@ -11,10 +11,10 @@ tags:
   - FM
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/opl.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/opl/opl.flac
     size: 65277
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/opl.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/opl/opl.jpg
     size: 50828
   linux:
     url: https://github.com/studiorack/opl/releases/download/v2.1.0/opl-linux.zip

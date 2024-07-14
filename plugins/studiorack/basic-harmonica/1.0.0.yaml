@@ -12,10 +12,10 @@ tags:
   - sfz
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/basic-harmonica/basic-harmonica.flac
     size: 100197
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/basic-harmonica.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/basic-harmonica/basic-harmonica.jpg
     size: 65716
   linux:
     url: https://github.com/studiorack/basic-harmonica/releases/download/v1.0.0/basic-harmonica.zip

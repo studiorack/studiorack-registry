@@ -11,10 +11,10 @@ tags:
   - Moog
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/odin.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/odin/odin.flac
     size: 51889
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/odin.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/odin/odin.jpg
     size: 123090
   linux:
     url: https://github.com/studiorack/odin/releases/download/v2.2.4/odin-linux.zip
