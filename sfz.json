@@ -10,7 +10,7 @@
       "versions": {
         "1.0.0": {
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/glass",
           "name": "Glasses Of Water",
           "description": "Musical instrument made with glasses of water, recorded with an AKG Perception 120 microphone.",
           "tags": [
@@ -62,7 +62,7 @@
       "versions": {
         "1.0.0": {
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/upright-piano-KW",
           "name": "Upright Piano KW",
           "description": "Kawai upright piano, recorded in a living room using a Zoom H1 portable recorder mounted on a tripod in front of the piano.",
           "tags": [
@@ -114,7 +114,7 @@
       "versions": {
         "1.0.0": {
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/spanish-classical-guitar",
           "name": "Spanish Classical Guitar",
           "description": "Spanish classical guitar with nylon strings, recorded with an AKG Perception 120 microphone.",
           "tags": [
@@ -166,7 +166,7 @@
       "versions": {
         "1.0.0": {
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/hang-D-minor",
           "name": "Hang D Minor",
           "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
           "tags": [
@@ -218,7 +218,7 @@
       "versions": {
         "1.0.0": {
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/synthesizer-percussion",
           "name": "Synthesizer Percussion",
           "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
           "tags": [

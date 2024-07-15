@@ -1669,7 +1669,7 @@
       "versions": {
         "1.0.0": {
           "author": "Freepats",
-          "homepage": "https://freepats.zenvoid.org",
+          "homepage": "https://github.com/freepats/glass",
           "name": "Glasses Of Water",
           "description": "Musical instrument made with glasses of water, recorded with an AKG Perception 120 microphone.",
           "tags": [
@@ -2079,7 +2079,7 @@
           "homepage": "https://github.com/keijiro/vst2413",
           "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
           "date": "2013-04-21T08:00:00.000Z",
-          "license": "other",
+          "license": "zlib",
           "tags": [
             "Instrument",
             "Synth",
@@ -2955,7 +2955,7 @@
         "1.0.0": {
           "name": "Naked Drums",
           "author": "Wilkinson Audio",
-          "homepage": "https://wilkinsonaudio.com/products/naked-drums",
+          "homepage": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums",
           "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
           "date": "2021-11-08T07:00:00.000Z",
           "license": "cc-by-4.0",
@@ -3037,7 +3037,7 @@
           "homepage": "https://github.com/surge-synthesizer/monique-monosynth",
           "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer",
           "date": "2021-12-13T08:00:00.000Z",
-          "license": "other",
+          "license": "gpl-3.0",
           "tags": [
             "Instrument",
             "Synth",
@@ -3318,7 +3318,7 @@
           "homepage": "https://github.com/sfzinstruments/jlearman.jRhodes3c",
           "description": "1977 Rhodes Mark I Stage 73 piano",
           "date": "2022-01-02T07:00:00.000Z",
-          "license": "other",
+          "license": "cc-by-sa-4.0",
           "tags": [
             "Instrument",
             "Keys",
