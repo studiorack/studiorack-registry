@@ -12,10 +12,10 @@ tags:
   - sfz
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac
     size: 137127
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg
     size: 79890
   linux:
     url: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
