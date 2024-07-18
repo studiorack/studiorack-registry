@@ -4,7 +4,7 @@ author: Ardura
 homepage: https://github.com/ardura/Scrollscope
 description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer
 date: 2024-07-12T07:00:00.000Z
-license: GPL3
+license: gpl-3.0
 tags:
   - Effect
 files:
