@@ -7,6 +7,7 @@ date: 2024-07-12T07:00:00.000Z
 license: gpl-3.0
 tags:
   - Effect
+  - Analysis
 files:
   audio:
     name: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
