@@ -2,7 +2,7 @@
 name: Subhoofer
 author: Ardura
 homepage: https://github.com/ardura/Subhoofer
-description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer
+description: Sub and Bass enhancement plugin
 date: 2024-07-12T07:00:00.000Z
 license: gpl-3.0
 tags:
