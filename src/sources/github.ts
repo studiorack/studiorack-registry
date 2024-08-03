@@ -288,15 +288,24 @@ export function pluginCompatibility(plugin: PluginVersion) {
     error += '- Homepage should point to GitHub\n';
   }
 
-  if (plugin.files.image && plugin.files.image.name && plugin.files.image.name.includes('png')) {
+  if (plugin.files.image && plugin.files.image.url && plugin.files.image.url.includes('png')) {
     error += '- Image should use the jpg format\n';
   }
-  if (plugin.files.audio && plugin.files.audio.name && plugin.files.audio.name.includes('wav')) {
+  if (plugin.files.audio && plugin.files.audio.url && plugin.files.audio.url.includes('wav')) {
     error += '- Audio should use the flac format\n';
   }
   error += pluginValidateField(plugin.files, 'linux', 'object');
   error += pluginValidateField(plugin.files, 'mac', 'object');
   error += pluginValidateField(plugin.files, 'win', 'object');
+  if (plugin.files.linux && plugin.files.linux.url && !plugin.files.linux.url.endsWith('zip')) {
+    error += '- Linux file should use the zip format\n';
+  }
+  if (plugin.files.mac && plugin.files.mac.url && !plugin.files.mac.url.endsWith('zip')) {
+    error += '- Mac file should use the zip format\n';
+  }
+  if (plugin.files.win && plugin.files.win.url && !plugin.files.win.url.endsWith('zip')) {
+    error += '- Win file should use the zip format\n';
+  }
   const pluginTags: string[] = plugin.tags.map(tag => tag.toLowerCase());
   if (!pluginTags.includes('instrument') && !pluginTags.includes('effect')) {
     error += '- Tags missing category (instrument, effect)\n';
