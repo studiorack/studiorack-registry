@@ -9,9 +9,6 @@ tags:
   - Effect
   - EQ
 files:
-  audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
-    size: 3251736
   image:
     name: https://studiorack.github.io/studiorack-registry/plugins/ardura/Interleaf/interleaf.jpg
     size: 55356

@@ -8,9 +8,6 @@ license: gpl-3.0
 tags:
   - Effect
 files:
-  audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
-    size: 3251736
   image:
     url: https://studiorack.github.io/studiorack-registry/plugins/ardura/GladeDesk/gladedesk.jpg
     size: 68608

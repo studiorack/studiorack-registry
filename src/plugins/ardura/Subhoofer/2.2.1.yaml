@@ -9,9 +9,6 @@ tags:
   - Effect
   - Distortion
 files:
-  audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
-    size: 3251736
   image:
     name: https://studiorack.github.io/studiorack-registry/plugins/ardura/Subhoofer/subhoofer.jpg
     size: 60446
