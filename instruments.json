@@ -508,8 +508,51 @@
     "sjoerdvankreel/firefly-synth/io.github.sjoerdvankreel.firefly_synth": {
       "id": "sjoerdvankreel/firefly-synth/io.github.sjoerdvankreel.firefly_synth",
       "license": "gpl-3.0",
-      "version": "1.8.3",
+      "version": "1.8.4",
       "versions": {
+        "1.8.4": {
+          "author": "Sjoerd van Kreel",
+          "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
+          "name": "Firefly Synth",
+          "description": "Firefly Synth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "1.8.4",
+          "id": "io.github.sjoerdvankreel.firefly_synth",
+          "date": "2024-06-03T17:25:12.081Z",
+          "files": {
+            "linux": {
+              "name": "firefly_synth_1.8.4_linux_vst3_instrument.zip",
+              "size": 6501553
+            },
+            "mac": {
+              "name": "firefly_synth_1.8.4_mac_vst3_instrument.zip",
+              "size": 9324467
+            },
+            "win": {
+              "name": "firefly_synth_1.8.4_windows_vst3_instrument.zip",
+              "size": 3678446
+            },
+            "audio": {
+              "name": "studiorack.flac",
+              "size": 826259
+            },
+            "image": {
+              "name": "studiorack.jpg",
+              "size": 502217
+            }
+          },
+          "release": "v1.8.4-beta4",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "sjoerdvankreel/firefly-synth"
+        },
         "1.8.3": {
           "author": "Sjoerd van Kreel",
           "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
