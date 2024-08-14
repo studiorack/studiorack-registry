@@ -321,8 +321,40 @@
     "ryukau/vstplugins/vstplugins": {
       "id": "ryukau/vstplugins/vstplugins",
       "license": "gpl-3.0",
-      "version": "0.61.0",
+      "version": "0.62.0",
       "versions": {
+        "0.62.0": {
+          "author": "ryukau",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "name": "VSTPlugins",
+          "description": "Uhhyou Plugins VST 3 repository.",
+          "tags": [],
+          "version": "0.62.0",
+          "id": "vstplugins",
+          "date": "2024-08-11T06:21:50Z",
+          "files": {
+            "mac": {
+              "name": "collidingcombsynth_0.1.16.zip",
+              "size": 2649607
+            },
+            "linux": {
+              "name": "collidingcombsynth_0.1.16.zip",
+              "size": 2649607
+            },
+            "win": {
+              "name": "collidingcombsynth_0.1.16.zip",
+              "size": 2649607
+            }
+          },
+          "release": "UhhyouPlugins0.62.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
         "0.61.0": {
           "author": "ryukau",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -837,42 +869,6 @@
             }
           },
           "release": "UhhyouPlugins0.47.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
-        },
-        "0.46.0": {
-          "author": "ryukau",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "name": "VSTPlugins",
-          "description": "Uhhyou Plugins VST 3 repository.",
-          "tags": [],
-          "version": "0.46.0",
-          "id": "vstplugins",
-          "date": "2022-09-09T09:26:35Z",
-          "files": {
-            "linux": {
-              "name": "ultrasonicringmod_0.0.4.zip",
-              "size": 2526295
-            },
-            "mac": {
-              "name": "ultrasonicringmod_0.0.4.zip",
-              "size": 2526295
-            },
-            "win": {
-              "name": "ultrasonicringmod_0.0.4.zip",
-              "size": 2526295
-            },
-            "image": {
-              "name": "basiclimiter.png",
-              "size": 14414
-            }
-          },
-          "release": "UhhyouPlugins0.46.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
@@ -2194,58 +2190,6 @@
             "same": false
           },
           "repo": "freepats/spanish-classical-guitar"
-        }
-      }
-    },
-    "freepats/hang-d-minor/hang-d-minor": {
-      "id": "freepats/hang-d-minor/hang-d-minor",
-      "license": "cc0-1.0",
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "author": "Freepats",
-          "homepage": "https://github.com/freepats/hang-D-minor",
-          "name": "Hang D Minor",
-          "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
-          "tags": [
-            "Instrument",
-            "Orchestra",
-            "Hang",
-            "sfz"
-          ],
-          "version": "1.0.0",
-          "id": "hang-d-minor",
-          "date": "2022-03-30T07:00:00.000Z",
-          "files": {
-            "audio": {
-              "name": "Hang-D-minor-20220330.flac",
-              "size": 78343
-            },
-            "image": {
-              "name": "Hang-D-minor-20220330.jpg",
-              "size": 43408
-            },
-            "linux": {
-              "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
-            },
-            "mac": {
-              "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
-            },
-            "win": {
-              "name": "Hang-D-minor-20220330.zip",
-              "size": 13369709
-            }
-          },
-          "release": "v1.0.0",
-          "license": {
-            "key": "cc0-1.0",
-            "name": "Creative Commons Zero v1.0 Universal",
-            "url": "https://choosealicense.com/licenses/cc0-1.0",
-            "same": false
-          },
-          "repo": "freepats/hang-d-minor"
         }
       }
     },

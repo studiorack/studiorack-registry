@@ -7,45 +7,40 @@
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
+          "name": "Glasses Of Water",
           "author": "Freepats",
           "homepage": "https://github.com/freepats/glass",
-          "name": "Glasses Of Water",
           "description": "Musical instrument made with glasses of water, recorded with an AKG Perception 120 microphone.",
+          "date": "2019-12-27T07:00:00.000Z",
+          "license": "cc0-1.0",
           "tags": [
             "Instrument",
             "Orchestra",
             "Glass",
             "sfz"
           ],
-          "date": "2019-12-27T07:00:00.000Z",
           "files": {
             "audio": {
-              "name": "Glass-20191227.flac",
-              "size": 67037,
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.flac"
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/glass/Glass-20191227.flac",
+              "size": 67037
             },
             "image": {
-              "name": "Glass-20191227.jpg",
-              "size": 125355,
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.jpg"
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/glass/Glass-20191227.jpg",
+              "size": 125355
             },
             "linux": {
-              "name": "Glass-20191227.zip",
-              "size": 10610381,
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip"
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
+              "size": 10610381
             },
             "mac": {
-              "name": "glasses-of-water.zip",
-              "size": 10610381,
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/glasses-of-water.zip"
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
+              "size": 10610381
             },
             "win": {
-              "name": "Glass-20191227.zip",
-              "size": 10610381,
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip"
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
+              "size": 10610381
             }
-          },
-          "license": "cc0-1.0"
+          }
         }
       }
     },
@@ -126,47 +121,6 @@
             "win": {
               "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
               "size": 4944097
-            }
-          }
-        }
-      }
-    },
-    "freepats/hang-d-minor": {
-      "version": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "name": "Hang D Minor",
-          "author": "Freepats",
-          "homepage": "https://github.com/freepats/hang-d-minor",
-          "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
-          "date": "2022-03-30T07:00:00.000Z",
-          "license": "cc0-1.0",
-          "tags": [
-            "Instrument",
-            "Orchestra",
-            "Hang",
-            "sfz"
-          ],
-          "files": {
-            "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/hang-d-minor/Hang-D-minor-20220330.flac",
-              "size": 78343
-            },
-            "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/hang-d-minor/Hang-D-minor-20220330.jpg",
-              "size": 43408
-            },
-            "linux": {
-              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
-              "size": 13369709
-            },
-            "mac": {
-              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
-              "size": 13369709
-            },
-            "win": {
-              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
-              "size": 13369709
             }
           }
         }
@@ -944,42 +898,42 @@
         }
       }
     },
-    "freepats/glass": {
+    "freepats/hang-d-minor": {
       "version": "1.0.0",
       "versions": {
         "1.0.0": {
-          "name": "Glasses Of Water",
+          "name": "Hang D Minor",
           "author": "Freepats",
-          "homepage": "https://github.com/freepats/glass",
-          "description": "Musical instrument made with glasses of water, recorded with an AKG Perception 120 microphone.",
-          "date": "2019-12-27T07:00:00.000Z",
+          "homepage": "https://github.com/freepats/hang-d-minor",
+          "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
+          "date": "2022-03-30T07:00:00.000Z",
           "license": "cc0-1.0",
           "tags": [
             "Instrument",
             "Orchestra",
-            "Glass",
+            "Hang",
             "sfz"
           ],
           "files": {
             "audio": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/glass/Glass-20191227.flac",
-              "size": 67037
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/hang-d-minor/Hang-D-minor-20220330.flac",
+              "size": 78343
             },
             "image": {
-              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/glass/Glass-20191227.jpg",
-              "size": 125355
+              "url": "https://studiorack.github.io/studiorack-registry/plugins/freepats/hang-d-minor/Hang-D-minor-20220330.jpg",
+              "size": 43408
             },
             "linux": {
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
-              "size": 10610381
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
+              "size": 13369709
             },
             "mac": {
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
-              "size": 10610381
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
+              "size": 13369709
             },
             "win": {
-              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip",
-              "size": 10610381
+              "url": "https://github.com/freepats/hang-d-minor/releases/download/v1.0.0/Hang-D-minor-20220330.zip",
+              "size": 13369709
             }
           }
         }
