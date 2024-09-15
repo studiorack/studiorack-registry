@@ -1,0 +1,27 @@
+---
+name: ampli-Fe
+author: Anton Lazarev
+homepage: https://github.com/antonok-edm/ampli-Fe
+description: Amplifier effect which allows the volume to be changed from 0% to 200%
+date: 2021-11-02T08:00:00.000Z
+license: mit
+tags:
+  - Effect
+  - Amplifier
+  - Volume
+files:
+  audio:
+    url: https://studiorack.github.io/studiorack-registry/plugins/antonok-edm/ampli-fe/ampli-fe.flac
+    size: 81405
+  image:
+    url: https://studiorack.github.io/studiorack-registry/plugins/antonok-edm/ampli-fe/ampli-fe.jpg
+    size: 27141
+  linux:
+    url: https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_linux-x86-64.zip
+    size: 3497170
+  mac:
+    url: https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_macos-x86-64.zip
+    size: 3176913
+  win:
+    url: https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_windows-x86-64.zip
+    size: 3355298

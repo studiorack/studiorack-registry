@@ -11,17 +11,17 @@ tags:
   - Envelope
 files:
   audio:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/mourednik/argotlunar/argotlunar.flac
     size: 76050
   image:
-    url: https://studiorack.github.io/studiorack-registry/plugins/studiorack/argotlunar/argotlunar.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/mourednik/argotlunar/argotlunar.jpg
     size: 36536
   linux:
-    url: https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-linux.zip
+    url: https://www.dropbox.com/s/fwtg6jfkzakj7is/argotlunar-2.06-linux_64.tar.gz
     size: 1870819
   mac:
-    url: https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-mac.zip
+    url: https://www.dropbox.com/s/d17o458esou1823/argotlunar-2.06-osx_10.8-vst.zip
     size: 3235381
   win:
-    url: https://github.com/studiorack/argotlunar/releases/download/v2.0.6/argotlunar-win.zip
+    url: https://www.dropbox.com/s/urep7ht46jrbvfi/argotlunar-2.06-win_64.zip
     size: 1037064
