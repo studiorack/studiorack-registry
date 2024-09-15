@@ -1,0 +1,27 @@
+---
+name: VST2413
+author: Keijiro Takahashi
+homepage: https://github.com/keijiro/vst2413
+description: FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known
+  as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion
+  cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well
+  suited for use in 'post 8-bit era style' chiptune music.
+date: 2013-04-21T08:00:00.000Z
+license: zlib
+tags:
+  - Instrument
+  - Synth
+  - Bit
+files:
+  audio:
+    name: https://studiorack.github.io/studiorack-registry/plugins/keijiro/vst2413/vst2413.flac
+    size: 347527
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/keijiro/vst2413/vst2413.jpg
+    size: 22493
+  mac:
+    name: https://www.keijiro.tokyo/vst2413/build/vst2413-20130421-osx.zip
+    size: 187561
+  win:
+    name: https://www.keijiro.tokyo/vst2413/build/vst2413-20130418-windows.zip
+    size: 228506

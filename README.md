@@ -98,7 +98,7 @@ StudioRack supports scanning GitHub for compatible plugins. StudioRack registry 
     https://api.github.com/search/repositories?q=topic:studiorack-plugin+fork:true
 
 Then for each GitHub repository, the Registry loops through each release/version metadata.
-StudioRack will try to automaticallu detect all the ionformation needed for the registry using GitHub metdata as shwon below:
+StudioRack will try to automaticallu detect all the information needed for the registry using GitHub metdata as shown below:
 
     author = repo.owner.login
     homepage = repo.homepageUrl or repo.url
