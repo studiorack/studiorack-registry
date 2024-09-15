@@ -10,14 +10,14 @@ tags:
   - Analysis
 files:
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/Scrollscope/scrollscope.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/Scrollscope/scrollscope.jpg
     size: 109513
   linux:
-    name: https://github.com/ardura/Scrollscope/releases/download/v1.4.0/Scrollscope_v140_Linux.zip
+    url: https://github.com/ardura/Scrollscope/releases/download/v1.4.0/Scrollscope_v140_Linux.zip
     size: 7417559
   mac:
-    name: https://github.com/ardura/Scrollscope/releases/download/v1.4.0/Scrollscope_v140_MacOS12.zip
+    url: https://github.com/ardura/Scrollscope/releases/download/v1.4.0/Scrollscope_v140_MacOS12.zip
     size: 6896897
   win:
-    name: https://github.com/ardura/Scrollscope/releases/download/v1.4.0/Scrollscope_v140_Windows.zip
+    url: https://github.com/ardura/Scrollscope/releases/download/v1.4.0/Scrollscope_v140_Windows.zip
     size: 6569340

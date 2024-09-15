@@ -10,17 +10,17 @@ tags:
   - Distortion
 files:
   audio:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
+    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
     size: 3251736
   image:
-    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/Subhoofer/subhoofer.jpg
+    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/Subhoofer/subhoofer.jpg
     size: 60446
   linux:
-    name: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Linux.zip
+    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Linux.zip
     size: 5916842
   mac:
-    name: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_MacOS.zip
+    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_MacOS.zip
     size: 4009494
   win:
-    name: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Windows.zip
+    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Windows.zip
     size: 3456424
