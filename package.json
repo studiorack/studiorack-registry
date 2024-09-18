@@ -16,6 +16,7 @@
     "prebuild": "npm run lint",
     "build": "npm run clean && tsc -p tsconfig.json && npm run copy",
     "dev": "tsx ./src/main.ts",
+    "dev:validate": "tsx ./src/validate.ts src/plugins/airwindows/airwindows/1.0.0.yaml",
     "build:release": "npm run clean && tsc -p tsconfig.release.json && npm run copy",
     "lint": "eslint ./**/*.ts",
     "test": "vitest run ./tests",

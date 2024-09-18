@@ -22,25 +22,7 @@ export function localGetPack() {
   const pack: PluginPack = {};
   const filepaths: string[] = dirRead(LOCAL_REG);
   filepaths.forEach((filepath: string) => {
-    // TODO update studiorack/core to handle these strings
-    const parts: string[] = filepath.replace(LOCAL_DIR, '').replace(LOCAL_EXT, '').substring(1).split(path.sep);
-    const pluginId: string = safeSlug(`${parts[0]}/${parts[1]}`);
-    const pluginVersion: string = parts[2];
-
-    // Get plugin from yaml files.
-    const plugin: PluginVersion = localGetFile(filepath);
-    if (typeof plugin.date === 'object') plugin.date = (plugin.date as Date).toISOString();
-
-    // Ensure plugin has valid fields.
-    const errors: string | boolean = pluginValidateSchema(plugin as PluginVersionLocal);
-    const compatibility: string | boolean = pluginCompatibility(plugin);
-    if (errors) {
-      console.log(chalk.red(`X ${pluginId} | ${pluginVersion} | ${filepath}`));
-      console.log(chalk.yellow(compatibility) ? chalk.red(errors) + chalk.yellow(compatibility) : chalk.red(errors));
-    } else {
-      console.log(chalk.green(`✓ ${pluginId} | ${pluginVersion} | ${filepath}`));
-      if (compatibility) console.log(chalk.yellow(compatibility));
-    }
+    const { plugin, pluginId, pluginVersion } = validatePluginYaml(filepath);
 
     // Add plugin to the plugin pack.
     if (!pack[pluginId]) {
@@ -58,6 +40,34 @@ export function localGetPack() {
   });
   console.log(`-- ${Object.keys(pack).length} Yaml plugins added --`);
   return pack;
+}
+
+export function validatePluginYaml(filepath: string) {
+  // TODO update studiorack/core to handle these strings
+  const parts: string[] = filepath.replace(LOCAL_DIR, '').replace(LOCAL_EXT, '').substring(1).split(path.sep);
+  const pluginId: string = safeSlug(`${parts[0]}/${parts[1]}`);
+  const pluginVersion: string = parts[2];
+
+  // Get plugin from yaml files.
+  const plugin: PluginVersion = localGetFile(filepath);
+  if (typeof plugin.date === 'object') plugin.date = (plugin.date as Date).toISOString();
+
+  // Ensure plugin has valid fields.
+  const errors: string | boolean = pluginValidateSchema(plugin as PluginVersionLocal);
+  const compatibility: string | boolean = pluginCompatibility(plugin);
+  if (errors) {
+    console.log(chalk.red(`X ${pluginId} | ${pluginVersion} | ${filepath}`));
+    console.log(compatibility ? chalk.red(errors) + chalk.yellow(compatibility) : chalk.red(errors));
+  } else {
+    console.log(chalk.green(`✓ ${pluginId} | ${pluginVersion} | ${filepath}`));
+    if (compatibility) console.log(chalk.yellow(compatibility));
+  }
+
+  return {
+    plugin,
+    pluginId,
+    pluginVersion,
+  };
 }
 
 export function localGetFile(path: string) {

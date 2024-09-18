@@ -1,0 +1,47 @@
+name: Validate
+
+on:
+  pull_request:
+
+jobs:
+  validate:
+    name: Validate code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install
+        run: |
+          npm ci
+
+      - name: Build
+        run: |
+          npm run build
+
+      - name: Changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+
+      - name: List changed files
+        env:
+          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          for file in ${CHANGED_FILES}; do
+            node build/validate.js $file
+          done
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+
+      - name: Build
+        run: |
+          GOOS=windows GOARCH=386 go build -o ./ghaction-virustotal-win32.exe -v -ldflags "-s -w"
+          GOOS=windows GOARCH=amd64 go build -o ./ghaction-virustotal-win64.exe -v -ldflags "-s -w"
+
+      - name: VirusTotal Scan
+        uses: crazy-max/ghaction-virustotal@v4
+        with:
+          vt_api_key: ${{ secrets.VT_API_KEY }}
+          request_rate: 4
+          files: cat downloads/log.txt
