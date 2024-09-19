@@ -30,10 +30,11 @@ jobs:
           for file in ${CHANGED_FILES}; do
             node ./build/validate.js $file
           done
+          ls ./downloads/
 
       - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v4
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
           request_rate: 4
-          files: ./downloads/
+          files: ./downloads/*
