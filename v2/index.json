@@ -5001,7 +5001,7 @@
           "name": "Airwindows",
           "author": "Chris Johnson",
           "homepage": "https://github.com/airwindows/airwindows",
-          "description": "Huge collection of effects using simple UI controls.",
+          "description": "Huge collection of effects using simple UI controls",
           "date": "2020-02-20T07:00:00.000Z",
           "license": "bsl-1.0",
           "tags": [
