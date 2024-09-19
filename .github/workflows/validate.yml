@@ -31,14 +31,6 @@ jobs:
             node build/validate.js $file
           done
 
-      - name: Set up Go
-        uses: actions/setup-go@v4
-
-      - name: Build
-        run: |
-          GOOS=windows GOARCH=386 go build -o ./ghaction-virustotal-win32.exe -v -ldflags "-s -w"
-          GOOS=windows GOARCH=amd64 go build -o ./ghaction-virustotal-win64.exe -v -ldflags "-s -w"
-
       - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v4
         with:
