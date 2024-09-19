@@ -30,6 +30,7 @@ jobs:
           for file in ${CHANGED_FILES}; do
             node build/validate.js $file
           done
+          cat downloads/log.txt
 
       - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v4
