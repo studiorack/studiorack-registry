@@ -47,7 +47,7 @@ jobs:
           script: |
             const analysis = '${{steps.virustotal.outputs.analysis}}';
             if (!analysis) return;
-            let output = 'VirusTotal Report';
+            let output = 'VirusTotal Report:\n';
             let lines = analysis.split(',');
             for (let line of lines) {
               output += '- ' + line.replace('=https', ': https') + '\n';
