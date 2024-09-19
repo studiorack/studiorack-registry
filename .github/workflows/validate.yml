@@ -49,7 +49,7 @@ jobs:
             let output = 'VirusTotal Report';
             let lines = analysis.split(',');
             for (let line of lines) {
-              output += '- ' + file.replace('=https', ': https') + '\n';
+              output += '- ' + line.replace('=https', ': https') + '\n';
             }
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
