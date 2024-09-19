@@ -23,13 +23,14 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v45
 
-      - name: List changed files
+      - name: Validate changed files
         env:
           CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in ${CHANGED_FILES}; do
             node ./build/validate.js $file
           done
+          echo 'Downloads:'
           ls ./downloads/
 
       - name: VirusTotal Scan
@@ -62,13 +63,13 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 comment_id: existingComment.id,
-                body: commentBody
+                body: output
               });
             } else {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.payload.number,
-                body: commentBody
+                body: output
               });
             }
