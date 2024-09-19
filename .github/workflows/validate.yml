@@ -28,13 +28,12 @@ jobs:
           CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in ${CHANGED_FILES}; do
-            node build/validate.js $file
+            node ./build/validate.js $file
           done
-          cat downloads/log.txt
 
       - name: VirusTotal Scan
         uses: crazy-max/ghaction-virustotal@v4
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
           request_rate: 4
-          files: cat downloads/log.txt
+          files: ./downloads/
