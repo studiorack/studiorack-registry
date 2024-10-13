@@ -321,8 +321,44 @@
     "ryukau/vstplugins/vstplugins": {
       "id": "ryukau/vstplugins/vstplugins",
       "license": "gpl-3.0",
-      "version": "0.62.0",
+      "version": "0.63.0",
       "versions": {
+        "0.63.0": {
+          "author": "ryukau",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "name": "VSTPlugins",
+          "description": "Uhhyou Plugins VST 3 repository.",
+          "tags": [],
+          "version": "0.63.0",
+          "id": "vstplugins",
+          "date": "2024-10-12T10:05:34Z",
+          "files": {
+            "linux": {
+              "name": "cubicpadsynth_0.1.26.zip",
+              "size": 6288989
+            },
+            "mac": {
+              "name": "cubicpadsynth_0.1.26.zip",
+              "size": 6288989
+            },
+            "win": {
+              "name": "cubicpadsynth_0.1.26.zip",
+              "size": 6288989
+            },
+            "image": {
+              "name": "basiclimiter.png",
+              "size": 14414
+            }
+          },
+          "release": "UhhyouPlugins0.63.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
         "0.62.0": {
           "author": "ryukau",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -837,38 +873,6 @@
             }
           },
           "release": "UhhyouPlugins0.48.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
-        },
-        "0.47.0": {
-          "author": "ryukau",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "name": "VSTPlugins",
-          "description": "Uhhyou Plugins VST 3 repository.",
-          "tags": [],
-          "version": "0.47.0",
-          "id": "vstplugins",
-          "date": "2022-11-26T05:20:14Z",
-          "files": {
-            "linux": {
-              "name": "ultrasynth_0.1.0.zip",
-              "size": 2661549
-            },
-            "mac": {
-              "name": "ultrasynth_0.1.0.zip",
-              "size": 2661549
-            },
-            "win": {
-              "name": "ultrasynth_0.1.0.zip",
-              "size": 2661549
-            }
-          },
-          "release": "UhhyouPlugins0.47.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
@@ -1732,8 +1736,51 @@
     "sjoerdvankreel/firefly-synth/io.github.sjoerdvankreel.firefly_synth": {
       "id": "sjoerdvankreel/firefly-synth/io.github.sjoerdvankreel.firefly_synth",
       "license": "gpl-3.0",
-      "version": "1.9.4",
+      "version": "1.9.5",
       "versions": {
+        "1.9.5": {
+          "author": "Sjoerd van Kreel",
+          "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
+          "name": "Firefly Synth",
+          "description": "Firefly Synth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "version": "1.9.5",
+          "id": "io.github.sjoerdvankreel.firefly_synth",
+          "date": "2024-06-03T17:25:12.081Z",
+          "files": {
+            "audio": {
+              "name": "studiorack.flac",
+              "size": 826259
+            },
+            "image": {
+              "name": "studiorack.jpg",
+              "size": 576102
+            },
+            "linux": {
+              "name": "firefly_synth_1.9.5_linux_vst3_instrument.zip",
+              "size": 5915021
+            },
+            "mac": {
+              "name": "firefly_synth_1.9.5_mac_vst3_instrument.zip",
+              "size": 9672038
+            },
+            "win": {
+              "name": "firefly_synth_1.9.5_windows_vst3_instrument.zip",
+              "size": 2796328
+            }
+          },
+          "release": "v1.9.5",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "sjoerdvankreel/firefly-synth"
+        },
         "1.9.4": {
           "author": "Sjoerd van Kreel",
           "homepage": "https://github.com/sjoerdvankreel/firefly-synth",

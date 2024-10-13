@@ -280,8 +280,39 @@
       }
     },
     "ryukau/vstplugins": {
-      "version": "0.62.0",
+      "version": "0.63.0",
       "versions": {
+        "0.63.0": {
+          "author": "ryukau",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "name": "VSTPlugins",
+          "description": "Uhhyou Plugins VST 3 repository.",
+          "tags": [],
+          "date": "2024-10-12T10:05:34Z",
+          "files": {
+            "linux": {
+              "name": "cubicpadsynth_0.1.26.zip",
+              "size": 6288989,
+              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.63.0/cubicpadsynth_0.1.26.zip"
+            },
+            "mac": {
+              "name": "cubicpadsynth_0.1.26.zip",
+              "size": 6288989,
+              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.63.0/cubicpadsynth_0.1.26.zip"
+            },
+            "win": {
+              "name": "cubicpadsynth_0.1.26.zip",
+              "size": 6288989,
+              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.63.0/cubicpadsynth_0.1.26.zip"
+            },
+            "image": {
+              "name": "basiclimiter.png",
+              "size": 14414,
+              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.63.0/basiclimiter.png"
+            }
+          },
+          "license": "gpl-3.0"
+        },
         "0.62.0": {
           "author": "ryukau",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -679,32 +710,6 @@
               "name": "maybesnare_0.1.0.zip",
               "size": 2855150,
               "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.48.0/maybesnare_0.1.0.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        },
-        "0.47.0": {
-          "author": "ryukau",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "name": "VSTPlugins",
-          "description": "Uhhyou Plugins VST 3 repository.",
-          "tags": [],
-          "date": "2022-11-26T05:20:14Z",
-          "files": {
-            "linux": {
-              "name": "ultrasynth_0.1.0.zip",
-              "size": 2661549,
-              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.47.0/ultrasynth_0.1.0.zip"
-            },
-            "mac": {
-              "name": "ultrasynth_0.1.0.zip",
-              "size": 2661549,
-              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.47.0/ultrasynth_0.1.0.zip"
-            },
-            "win": {
-              "name": "ultrasynth_0.1.0.zip",
-              "size": 2661549,
-              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.47.0/ultrasynth_0.1.0.zip"
             }
           },
           "license": "gpl-3.0"
@@ -1460,8 +1465,47 @@
       }
     },
     "sjoerdvankreel/io.github.sjoerdvankreel.firefly_synth": {
-      "version": "1.9.4",
+      "version": "1.9.5",
       "versions": {
+        "1.9.5": {
+          "author": "Sjoerd van Kreel",
+          "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
+          "name": "Firefly Synth",
+          "description": "Firefly Synth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "date": "2024-06-03T17:25:12.081Z",
+          "files": {
+            "audio": {
+              "name": "studiorack.flac",
+              "size": 826259,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.5/studiorack.flac"
+            },
+            "image": {
+              "name": "studiorack.jpg",
+              "size": 576102,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.5/studiorack.jpg"
+            },
+            "linux": {
+              "name": "firefly_synth_1.9.5_linux_vst3_instrument.zip",
+              "size": 5915021,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.5/firefly_synth_1.9.5_linux_vst3_instrument.zip"
+            },
+            "mac": {
+              "name": "firefly_synth_1.9.5_mac_vst3_instrument.zip",
+              "size": 9672038,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.5/firefly_synth_1.9.5_mac_vst3_instrument.zip"
+            },
+            "win": {
+              "name": "firefly_synth_1.9.5_windows_vst3_instrument.zip",
+              "size": 2796328,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.5/firefly_synth_1.9.5_windows_vst3_instrument.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        },
         "1.9.4": {
           "author": "Sjoerd van Kreel",
           "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
