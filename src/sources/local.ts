@@ -26,7 +26,6 @@ export function localGetPack() {
 
     // Add plugin to the plugin pack.
     if (!pack[pluginId]) {
-      // @ts-ignore
       pack[pluginId] = {
         version: pluginVersion,
         versions: {},
