@@ -1,0 +1,23 @@
+---
+name: Scrollscope
+author: Ardura
+homepage: https://github.com/ardura/Scrollscope
+description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer
+date: 2024-07-12T07:00:00.000Z
+license: gpl-3.0
+tags:
+  - Effect
+  - Analysis
+files:
+  image:
+    name: https://studiorack.github.io/studiorack-registry/plugins/ardura/Scrollscope/scrollscope.jpg
+    size: 109513
+  linux:
+    name: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_linux_build.zip
+    size: 7528497
+  mac:
+    name: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_build.zip
+    size: 6925944
+  win:
+    name: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_windows_build.zip
+    size: 6749313

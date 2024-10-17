@@ -1,0 +1,27 @@
+---
+name: Actuate
+author: Ardura
+homepage: https://github.com/ardura/Actuate
+description: A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug
+date: 2024-07-12T07:00:00.000Z
+license: gpl-3.0
+tags:
+  - Instrument
+  - Synth
+  - Sampler
+files:
+  audio:
+    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.flac
+    size: 3251736
+  image:
+    url: https://studiorack.github.io/studiorack-registry/plugins/ardura/actuate/actuate.jpg
+    size: 158795
+  linux:
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip
+    size: 8369198
+  mac:
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_build.zip
+    size: 6125534
+  win:
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_windows_build.zip
+    size: 5573640
