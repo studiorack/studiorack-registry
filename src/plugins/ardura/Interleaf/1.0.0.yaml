@@ -2,7 +2,7 @@
 name: Interleaf
 author: Ardura
 homepage: https://github.com/ardura/Interleaf
-description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer
+description: A simple EQ with up to 10 interleaving sections
 date: 2024-07-12T07:00:00.000Z
 license: gpl-3.0
 tags:
