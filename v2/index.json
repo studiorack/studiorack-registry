@@ -280,8 +280,24 @@
       }
     },
     "ryukau/vstplugins": {
-      "version": "0.63.0",
+      "version": "0.64.0",
       "versions": {
+        "0.64.0": {
+          "author": "ryukau",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "name": "VSTPlugins",
+          "description": "Uhhyou Plugins VST 3 repository.",
+          "tags": [],
+          "date": "2024-10-24T10:11:15Z",
+          "files": {
+            "mac": {
+              "name": "lightpadsynth_0.1.24_macos.zip",
+              "size": 1391538,
+              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.64.0/lightpadsynth_0.1.24_macos.zip"
+            }
+          },
+          "license": "gpl-3.0"
+        },
         "0.63.0": {
           "author": "ryukau",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -684,32 +700,6 @@
               "name": "ultrasynth_0.1.1.zip",
               "size": 2665262,
               "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.49.0/ultrasynth_0.1.1.zip"
-            }
-          },
-          "license": "gpl-3.0"
-        },
-        "0.48.0": {
-          "author": "ryukau",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "name": "VSTPlugins",
-          "description": "Uhhyou Plugins VST 3 repository.",
-          "tags": [],
-          "date": "2022-11-30T00:56:22Z",
-          "files": {
-            "linux": {
-              "name": "maybesnare_0.1.0.zip",
-              "size": 2855150,
-              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.48.0/maybesnare_0.1.0.zip"
-            },
-            "mac": {
-              "name": "maybesnare_0.1.0.zip",
-              "size": 2855150,
-              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.48.0/maybesnare_0.1.0.zip"
-            },
-            "win": {
-              "name": "maybesnare_0.1.0.zip",
-              "size": 2855150,
-              "url": "https://github.com/ryukau/vstplugins/releases/download/UhhyouPlugins0.48.0/maybesnare_0.1.0.zip"
             }
           },
           "license": "gpl-3.0"

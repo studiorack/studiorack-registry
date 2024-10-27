@@ -321,8 +321,32 @@
     "ryukau/vstplugins/vstplugins": {
       "id": "ryukau/vstplugins/vstplugins",
       "license": "gpl-3.0",
-      "version": "0.63.0",
+      "version": "0.64.0",
       "versions": {
+        "0.64.0": {
+          "author": "ryukau",
+          "homepage": "https://ryukau.github.io/VSTPlugins/",
+          "name": "VSTPlugins",
+          "description": "Uhhyou Plugins VST 3 repository.",
+          "tags": [],
+          "version": "0.64.0",
+          "id": "vstplugins",
+          "date": "2024-10-24T10:11:15Z",
+          "files": {
+            "mac": {
+              "name": "lightpadsynth_0.1.24_macos.zip",
+              "size": 1391538
+            }
+          },
+          "release": "UhhyouPlugins0.64.0",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "url": "https://choosealicense.com/licenses/gpl-3.0",
+            "same": true
+          },
+          "repo": "ryukau/vstplugins"
+        },
         "0.63.0": {
           "author": "ryukau",
           "homepage": "https://ryukau.github.io/VSTPlugins/",
@@ -841,38 +865,6 @@
             }
           },
           "release": "UhhyouPlugins0.49.0",
-          "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "url": "https://choosealicense.com/licenses/gpl-3.0",
-            "same": true
-          },
-          "repo": "ryukau/vstplugins"
-        },
-        "0.48.0": {
-          "author": "ryukau",
-          "homepage": "https://ryukau.github.io/VSTPlugins/",
-          "name": "VSTPlugins",
-          "description": "Uhhyou Plugins VST 3 repository.",
-          "tags": [],
-          "version": "0.48.0",
-          "id": "vstplugins",
-          "date": "2022-11-30T00:56:22Z",
-          "files": {
-            "linux": {
-              "name": "maybesnare_0.1.0.zip",
-              "size": 2855150
-            },
-            "mac": {
-              "name": "maybesnare_0.1.0.zip",
-              "size": 2855150
-            },
-            "win": {
-              "name": "maybesnare_0.1.0.zip",
-              "size": 2855150
-            }
-          },
-          "release": "UhhyouPlugins0.48.0",
           "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
