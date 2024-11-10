@@ -1455,8 +1455,47 @@
       }
     },
     "sjoerdvankreel/io.github.sjoerdvankreel.firefly_synth": {
-      "version": "1.9.5",
+      "version": "1.9.8",
       "versions": {
+        "1.9.8": {
+          "author": "Sjoerd van Kreel",
+          "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
+          "name": "Firefly Synth",
+          "description": "Firefly Synth",
+          "tags": [
+            "Instrument",
+            "Synth"
+          ],
+          "date": "2024-06-03T17:25:12.081Z",
+          "files": {
+            "mac": {
+              "name": "firefly_synth_1.9.8_mac_vst3_instrument.zip",
+              "size": 10049725,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.8/firefly_synth_1.9.8_mac_vst3_instrument.zip"
+            },
+            "linux": {
+              "name": "firefly_synth_1.9.8_linux_vst3_instrument.zip",
+              "size": 6264659,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.8/firefly_synth_1.9.8_linux_vst3_instrument.zip"
+            },
+            "win": {
+              "name": "firefly_synth_1.9.8_windows_vst3_instrument.zip",
+              "size": 2948041,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.8/firefly_synth_1.9.8_windows_vst3_instrument.zip"
+            },
+            "audio": {
+              "name": "studiorack.flac",
+              "size": 826259,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.8/studiorack.flac"
+            },
+            "image": {
+              "name": "studiorack.jpg",
+              "size": 422539,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.8/studiorack.jpg"
+            }
+          },
+          "license": "gpl-3.0"
+        },
         "1.9.5": {
           "author": "Sjoerd van Kreel",
           "homepage": "https://github.com/sjoerdvankreel/firefly-synth",
@@ -2116,6 +2155,42 @@
               "name": "studiorack.jpg",
               "size": 784884,
               "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.7.7/studiorack.jpg"
+            }
+          },
+          "license": "gpl-3.0"
+        }
+      }
+    },
+    "sjoerdvankreel/firefly-synth": {
+      "version": "1.9.7",
+      "versions": {
+        "1.9.7": {
+          "author": "sjoerdvankreel",
+          "homepage": "http://firefly-synth.com/",
+          "name": "firefly-synth",
+          "description": "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP.",
+          "tags": [
+            "audio-plugin",
+            "clap-plugin",
+            "software-synthesizer",
+            "vst3-plugin"
+          ],
+          "date": "2024-11-03T21:00:25Z",
+          "files": {
+            "mac": {
+              "name": "firefly_synth_1.9.7_mac_vst3_instrument.zip",
+              "size": 9929032,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.7/firefly_synth_1.9.7_mac_vst3_instrument.zip"
+            },
+            "linux": {
+              "name": "firefly_synth_1.9.7_linux_vst3_fx.zip",
+              "size": 6145133,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.7/firefly_synth_1.9.7_linux_vst3_fx.zip"
+            },
+            "win": {
+              "name": "firefly_synth_1.9.7_windows_vst3_fx.zip",
+              "size": 2895632,
+              "url": "https://github.com/sjoerdvankreel/firefly-synth/releases/download/v1.9.7/firefly_synth_1.9.7_windows_vst3_fx.zip"
             }
           },
           "license": "gpl-3.0"
